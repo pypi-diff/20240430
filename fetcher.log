@@ -1408,3 +1408,90 @@
 [2024-04-30 01:28:38] INFO root fetch - processPackages [tap-dbf]: Remove: archive file [/home/abi/fetcher/tmp/tap_dbf-0.1.5.tar.gz]
 [2024-04-30 01:28:38] INFO root fetch - main [MainThread]: End processing [tap-dbf]: success
 [2024-04-30 01:28:38] INFO root fetch - main [MainThread]: Store serial: [22992064]
+[2024-04-30 01:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992064]
+[2024-04-30 01:30:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-client
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-service-server
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-ui
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-v4-service
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mixician
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trimesh
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jinja2_csrf
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dpd-lib
+[2024-04-30 01:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-core
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/09/f6/461581aa3df5df687f3412c4e34ee4b73d2e6bffec292b864c2b7703ce20/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [mixician]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [dpd-lib]: New version: [0.1.2] Old Version: [0.1.13]
+[2024-04-30 01:30:47] WARNING root fetch - processPackages [jinja2_csrf]: Skipping, unable to determine old version
+[2024-04-30 01:30:47] INFO root fetch - main [MainThread]: End processing [jinja2_csrf] error
+[2024-04-30 01:30:47] INFO root fetch - processPackages [trimesh]: New version: [4.3.2] Old Version: [4.3.1]
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/e9/5c/01c9c0751191f7c8a1219ba8ca8d35521ba24c6f4e0b3b30f123968022a4/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/b5/68/4bf2882ecdfd3493ba5557cff1c06d2e527fe7e8ba2963a37bcad30bf714/assemblyline_ui-4.5.1.dev98-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/34/47/278f54d1db7121cbbd6fd52ae6b5d912d23bba5564c2358c8df0e487b385/assemblyline-4.5.1.dev98.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/12/39/7c12a7e1a83b7fa7f13d7afc4173ec9dc6b78ca4552bf0b9a435ba01ae68/assemblyline-core-4.5.1.dev98.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/f2/74/b8237d72f5bff6c82a740d48ec21ed2b8942846129c189028d0c66238da1/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/71/b9/931accceaab4b85f0403f7e1e99c5e67613d62945cec643f8cbe392edb99/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/82/48/ab708f963284e4e0f334665e6ece4fb4e99e7dc42429835465d2907665a6/dpd_lib-0.1.13.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [mixician]: Downloading https://files.pythonhosted.org/packages/38/2d/9eb7b40ce2a668a3365e81713ef09b26fc4172c35245ab2e3cbf5dd81bfc/mixician-0.1.8.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [trimesh]: Downloading https://files.pythonhosted.org/packages/4e/84/3ddd38c26b6529743551fd63e61f91a01e2ff6d23e6c098dfa472c916053/trimesh-4.3.1.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/fb/ac/688fc1bf55eadae3eb16a0bc260554cc144adfd2057b87015cb6e58ed6d9/assemblyline_ui-4.5.1.dev99-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240430/a/assemblyline-service-client/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/93/52/0f9ddbd8f661c94e049b4e11f65e866e0391882dd79699fea9a81ad39665/assemblyline-4.5.1.dev99.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/6c/18/d6496f3a9ea60866c419e3c1e5cf618fc2709d7fb2b7dc4bd270f6fcbbc1/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/c564610dd6dce1127f1151c7f3563431d86d9d02164cb93935506731edf0/assemblyline-core-4.5.1.dev99.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/56/40/7aa376ad2c2a5e676da4626e03b7f92a1e4368e86ecfac6183027c093511/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240430/a/assemblyline-ui/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-30 01:30:47] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/d0/54/1647b802f08fd55cf414ae3553dc776b1f139fd679bd89e9212a11c26b0d/dpd_lib-0.1.2.tar.gz
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-04-30 01:30:47] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240430/a/assemblyline-v4-service/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240430/a/assemblyline-service-server/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev98.tar.gz tmp/assemblyline-core-4.5.1.dev99.tar.gz --markdown 20240430/a/assemblyline-core/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev98.tar.gz tmp/assemblyline-4.5.1.dev99.tar.gz --markdown 20240430/a/assemblyline/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [mixician]: Downloading https://files.pythonhosted.org/packages/fc/01/645efc813c546ed84a26dcc436a5494dc8c8c763c58ba4624693cd8b67a7/mixician-0.1.9.tar.gz
+[2024-04-30 01:30:48] INFO root fetch - processPackages [dpd-lib]: executing diffoscope
+[2024-04-30 01:30:48] INFO root fetch - processPackages [dpd-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpd_lib-0.1.13.tar.gz tmp/dpd_lib-0.1.2.tar.gz --markdown 20240430/d/dpd-lib/0.1.13-0.1.2/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [trimesh]: Downloading https://files.pythonhosted.org/packages/a7/c1/2afa2dd7bb40dd9ee4286af3938bd0c029e8cdfc729455d516637bd474a2/trimesh-4.3.2.tar.gz
+[2024-04-30 01:30:48] INFO root fetch - processPackages [mixician]: executing diffoscope
+[2024-04-30 01:30:48] INFO root fetch - processPackages [mixician]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixician-0.1.8.tar.gz tmp/mixician-0.1.9.tar.gz --markdown 20240430/m/mixician/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-30 01:30:48] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-04-30 01:30:48] INFO root fetch - processPackages [trimesh]: executing diffoscope
+[2024-04-30 01:30:48] INFO root fetch - processPackages [trimesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimesh-4.3.1.tar.gz tmp/trimesh-4.3.2.tar.gz --markdown 20240430/t/trimesh/4.3.1-4.3.2/README.md --exclude *.pyd
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-30 01:30:48] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-30 01:30:48] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-04-30 01:30:49] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.1.13.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.1.2.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - main [MainThread]: End processing [dpd-lib]: success
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev98.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev99.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-30 01:30:49] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-04-30 01:30:49] INFO root fetch - processPackages [mixician]: Remove: archive file [/home/abi/fetcher/tmp/mixician-0.1.8.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - processPackages [mixician]: Remove: archive file [/home/abi/fetcher/tmp/mixician-0.1.9.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - main [MainThread]: End processing [mixician]: success
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-30 01:30:49] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev98.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
+[2024-04-30 01:30:49] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-04-30 01:30:50] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-4.3.1.tar.gz]
+[2024-04-30 01:30:50] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-4.3.2.tar.gz]
+[2024-04-30 01:30:50] INFO root fetch - main [MainThread]: End processing [trimesh]: success
+[2024-04-30 01:30:50] INFO root fetch - main [MainThread]: Store serial: [22992091]
