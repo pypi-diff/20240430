@@ -465,3 +465,65 @@
 [2024-04-30 00:23:18] INFO root fetch - processPackages [fedfind]: Remove: archive file [/home/abi/fetcher/tmp/fedfind-5.1.4.tar.gz]
 [2024-04-30 00:23:18] INFO root fetch - main [MainThread]: End processing [fedfind]: success
 [2024-04-30 00:23:18] INFO root fetch - main [MainThread]: Store serial: [22991630]
+[2024-04-30 00:25:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991630]
+[2024-04-30 00:25:27] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-30 00:27:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991630]
+[2024-04-30 00:27:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecopipeline
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basicbedrock
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-attachments
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlmodel
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: punctuators
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starrailcard.py
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ecopipeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 00:27:32] INFO root fetch - processPackages [basicbedrock]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-30 00:27:32] WARNING root fetch - processPackages [starrailcard.py]: Skipping, unable to determine old version
+[2024-04-30 00:27:32] INFO root fetch - main [MainThread]: End processing [starrailcard.py] error
+[2024-04-30 00:27:32] INFO root fetch - processPackages [flask-attachments]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-30 00:27:32] INFO root fetch - processPackages [punctuators]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-30 00:27:32] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/4b/9e/0e619c0670ff4271353935d13df473df8271ba7adc5d09f3897cf9364287/basicbedrock-0.1.7.tar.gz
+[2024-04-30 00:27:32] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/f7/3f/506605bf2d8c3c5e75b2003d292d334e29280e87883d5e46322cbb59f81f/ecopipeline-0.2.8.tar.gz
+[2024-04-30 00:27:32] INFO root fetch - processPackages [sqlmodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 00:27:32] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-30 00:27:32] INFO root fetch - processPackages [flask-attachments]: Downloading https://files.pythonhosted.org/packages/1b/b1/2f07d1b98fabde1f955de64fb53f61ea3ab1fb8f2107f5add87f7eb711f5/flask_attachments-0.2.1.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/ca/96/f212aa603bc4b19953c3349fbb777ea079dd0a58b1b3d9083dc8a769b032/basicbedrock-0.1.9.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/64/ba/ad07004536e94e71f99aaae5e667bb6f7230f7e0fbc0b0266e88960dda5f/sqlmodel-0.0.8.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [punctuators]: Downloading https://files.pythonhosted.org/packages/42/fe/de4f4f9fc864dbfdec56b4e7a8147623a8820248b5a28771f21b6088a14d/punctuators-0.0.5-py3-none-any.whl
+[2024-04-30 00:27:33] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/ec/19/08549131c0969471cfcfabfae13b56f5b6c3af0ba094806fc6aaf25ed5d3/ecopipeline-0.2.9.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [basicbedrock]: executing diffoscope
+[2024-04-30 00:27:33] INFO root fetch - processPackages [basicbedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicbedrock-0.1.7.tar.gz tmp/basicbedrock-0.1.9.tar.gz --markdown 20240430/b/basicbedrock/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-30 00:27:33] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2024-04-30 00:27:33] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.2.8.tar.gz tmp/ecopipeline-0.2.9.tar.gz --markdown 20240430/e/ecopipeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 00:27:33] INFO root fetch - processPackages [flask-attachments]: Downloading https://files.pythonhosted.org/packages/b6/03/cd6262a3da4f687a7e452816529cb43e40fef7d44ab2615e29a8cc79375e/flask_attachments-0.2.2.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [punctuators]: Downloading https://files.pythonhosted.org/packages/3b/7d/0130b98fd3497d0d9e6b68b302ed29a396ee75fbccb825e491797eecef8b/punctuators-0.0.6-py3-none-any.whl
+[2024-04-30 00:27:33] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/25/eb/8b46aa88cb7f298e663be6be2d90782f203b5f6c79679afd969fc3f7b455/sqlmodel-0.0.9.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [flask-attachments]: executing diffoscope
+[2024-04-30 00:27:33] INFO root fetch - processPackages [flask-attachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_attachments-0.2.1.tar.gz tmp/flask_attachments-0.2.2.tar.gz --markdown 20240430/f/flask-attachments/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-30 00:27:33] INFO root fetch - processPackages [punctuators]: executing diffoscope
+[2024-04-30 00:27:33] INFO root fetch - processPackages [punctuators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punctuators-0.0.5-py3-none-any.whl.zip tmp/punctuators-0.0.6-py3-none-any.whl.zip --markdown 20240430/p/punctuators/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-30 00:27:33] INFO root fetch - processPackages [sqlmodel]: executing diffoscope
+[2024-04-30 00:27:33] INFO root fetch - processPackages [sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel-0.0.8.tar.gz tmp/sqlmodel-0.0.9.tar.gz --markdown 20240430/s/sqlmodel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 00:27:33] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-30 00:27:33] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.7.tar.gz]
+[2024-04-30 00:27:33] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.9.tar.gz]
+[2024-04-30 00:27:33] INFO root fetch - main [MainThread]: End processing [basicbedrock]: success
+[2024-04-30 00:27:33] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.8.tar.gz]
+[2024-04-30 00:27:33] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.9.tar.gz]
+[2024-04-30 00:27:33] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2024-04-30 00:27:34] INFO root fetch - processPackages [punctuators]: Remove: archive file [/home/abi/fetcher/tmp/punctuators-0.0.5-py3-none-any.whl.zip]
+[2024-04-30 00:27:34] INFO root fetch - processPackages [punctuators]: Remove: archive file [/home/abi/fetcher/tmp/punctuators-0.0.6-py3-none-any.whl.zip]
+[2024-04-30 00:27:34] INFO root fetch - main [MainThread]: End processing [punctuators]: success
+[2024-04-30 00:27:34] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.8.tar.gz]
+[2024-04-30 00:27:34] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.9.tar.gz]
+[2024-04-30 00:27:34] INFO root fetch - main [MainThread]: End processing [sqlmodel]: success
+[2024-04-30 00:27:34] INFO root fetch - processPackages [flask-attachments]: Remove: archive file [/home/abi/fetcher/tmp/flask_attachments-0.2.1.tar.gz]
+[2024-04-30 00:27:34] INFO root fetch - processPackages [flask-attachments]: Remove: archive file [/home/abi/fetcher/tmp/flask_attachments-0.2.2.tar.gz]
+[2024-04-30 00:27:34] INFO root fetch - main [MainThread]: End processing [flask-attachments]: success
+[2024-04-30 00:27:34] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-30 00:27:34] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240430/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-30 00:27:35] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-30 00:27:35] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-30 00:27:35] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-30 00:27:35] INFO root fetch - main [MainThread]: Store serial: [22991652]
