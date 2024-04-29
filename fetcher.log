@@ -527,3 +527,21 @@
 [2024-04-30 00:27:35] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-30 00:27:35] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-30 00:27:35] INFO root fetch - main [MainThread]: Store serial: [22991652]
+[2024-04-30 00:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991652]
+[2024-04-30 00:29:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iog-sdk
+[2024-04-30 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SingleOrigin
+[2024-04-30 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starrail.py
+[2024-04-30 00:29:44] WARNING root fetch - processPackages [iog-sdk]: Skipping, unable to determine old version
+[2024-04-30 00:29:44] INFO root fetch - main [MainThread]: End processing [iog-sdk] error
+[2024-04-30 00:29:44] WARNING root fetch - processPackages [starrail.py]: Skipping, unable to determine old version
+[2024-04-30 00:29:44] INFO root fetch - main [MainThread]: End processing [starrail.py] error
+[2024-04-30 00:29:44] INFO root fetch - processPackages [SingleOrigin]: New version: [2.5.7] Old Version: [2.5.6]
+[2024-04-30 00:29:44] INFO root fetch - processPackages [SingleOrigin]: Downloading https://files.pythonhosted.org/packages/7c/fb/3fdb77ebf1dcd531879988845adc78275143a6aa68eaa04bcfd29ebc1ee2/SingleOrigin-2.5.6.tar.gz
+[2024-04-30 00:29:44] INFO root fetch - processPackages [SingleOrigin]: Downloading https://files.pythonhosted.org/packages/89/3d/c5c18bf19ecb55bd27a00b276e905db679c94a88da51428ce0e2163c8620/singleorigin-2.5.7.tar.gz
+[2024-04-30 00:29:44] INFO root fetch - processPackages [SingleOrigin]: executing diffoscope
+[2024-04-30 00:29:44] INFO root fetch - processPackages [SingleOrigin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SingleOrigin-2.5.6.tar.gz tmp/singleorigin-2.5.7.tar.gz --markdown 20240430/S/SingleOrigin/2.5.6-2.5.7/README.md --exclude *.pyd
+[2024-04-30 00:29:45] INFO root fetch - processPackages [SingleOrigin]: Remove: archive file [/home/abi/fetcher/tmp/SingleOrigin-2.5.6.tar.gz]
+[2024-04-30 00:29:45] INFO root fetch - processPackages [SingleOrigin]: Remove: archive file [/home/abi/fetcher/tmp/singleorigin-2.5.7.tar.gz]
+[2024-04-30 00:29:45] INFO root fetch - main [MainThread]: End processing [SingleOrigin]: success
+[2024-04-30 00:29:45] INFO root fetch - main [MainThread]: Store serial: [22991666]
