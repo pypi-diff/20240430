@@ -298,3 +298,60 @@
 [2024-04-30 00:15:57] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-30 00:15:57] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-30 00:15:57] INFO root fetch - main [MainThread]: Store serial: [22991576]
+[2024-04-30 00:18:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991576]
+[2024-04-30 00:18:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draggable-charts
+[2024-04-30 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csulb-mock-dataset
+[2024-04-30 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thonny-tunisiaschools
+[2024-04-30 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaeger
+[2024-04-30 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeact
+[2024-04-30 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swiss-army-man
+[2024-04-30 00:18:06] INFO root fetch - processPackages [seeact]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-30 00:18:06] INFO root fetch - processPackages [csulb-mock-dataset]: New version: [0.1.11] Old Version: [0.1.10]
+[2024-04-30 00:18:06] INFO root fetch - processPackages [jaeger]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-30 00:18:06] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-30 00:18:06] INFO root fetch - processPackages [seeact]: Downloading https://files.pythonhosted.org/packages/df/0f/0852d5c10d3191122fbb879fe8a5a78d37551d0d0790f44607f26d994edf/seeact-0.2.2.tar.gz
+[2024-04-30 00:18:06] INFO root fetch - processPackages [draggable-charts]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-30 00:18:06] INFO root fetch - processPackages [thonny-tunisiaschools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 00:18:06] INFO root fetch - processPackages [jaeger]: Downloading https://files.pythonhosted.org/packages/7e/03/583bd05a34d05b6f14ff342bdd2c66aed0c659f08575fa97d37d24ed085b/jaeger-1.6.3.tar.gz
+[2024-04-30 00:18:06] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-04-30 00:18:06] INFO root fetch - processPackages [csulb-mock-dataset]: Downloading https://files.pythonhosted.org/packages/74/49/4d3cce0330b408f677bed7b77b1c134c81df7f436b486ccfa5bee0f943d3/csulb_mock_dataset-0.1.10.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [thonny-tunisiaschools]: Downloading https://files.pythonhosted.org/packages/4d/4e/0f24e61910ef3f43e9d44a0712a9eb19d6ec7efce55efb3f892821b01749/thonny_tunisiaschools-0.0.8.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/cd/80/4e2faa7da3005c478e2abafd258bec70cfe56f7d985695a21bb0f9880736/draggable-charts-1.1.1.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [jaeger]: Downloading https://files.pythonhosted.org/packages/31/a4/fd4a71935ba9db33a6aa46d2d80c94999fc8426ba2a607214f952fffb4d1/jaeger-1.6.4.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [seeact]: Downloading https://files.pythonhosted.org/packages/1a/26/92fd4ae255e5dd22d758313a457865dc28523f133df3e64c2fe934718260/seeact-0.2.3.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-04-30 00:18:07] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240430/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-30 00:18:07] INFO root fetch - processPackages [csulb-mock-dataset]: Downloading https://files.pythonhosted.org/packages/e1/71/c9adc4938316c15b2c8f6d331fbe59a81da4a58aadc0592682ec65796c6d/csulb_mock_dataset-0.1.11.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [jaeger]: executing diffoscope
+[2024-04-30 00:18:07] INFO root fetch - processPackages [jaeger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaeger-1.6.3.tar.gz tmp/jaeger-1.6.4.tar.gz --markdown 20240430/j/jaeger/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-30 00:18:07] INFO root fetch - processPackages [seeact]: executing diffoscope
+[2024-04-30 00:18:07] INFO root fetch - processPackages [seeact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeact-0.2.2.tar.gz tmp/seeact-0.2.3.tar.gz --markdown 20240430/s/seeact/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-30 00:18:07] INFO root fetch - processPackages [thonny-tunisiaschools]: Downloading https://files.pythonhosted.org/packages/a4/7b/6a4e5ba34c9d2f2fe1648940970c12677debe230f539123518bf27aaf4f3/thonny_tunisiaschools-0.0.9.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [csulb-mock-dataset]: executing diffoscope
+[2024-04-30 00:18:07] INFO root fetch - processPackages [csulb-mock-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csulb_mock_dataset-0.1.10.tar.gz tmp/csulb_mock_dataset-0.1.11.tar.gz --markdown 20240430/c/csulb-mock-dataset/0.1.10-0.1.11/README.md --exclude *.pyd
+[2024-04-30 00:18:07] INFO root fetch - processPackages [thonny-tunisiaschools]: executing diffoscope
+[2024-04-30 00:18:07] INFO root fetch - processPackages [thonny-tunisiaschools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny_tunisiaschools-0.0.8.tar.gz tmp/thonny_tunisiaschools-0.0.9.tar.gz --markdown 20240430/t/thonny-tunisiaschools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 00:18:07] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/6b/4a/8fab1a68d32bac05c46f366b40ce6e000b271b8643f81ef1fb72ee5754d3/draggable-charts-1.1.2.tar.gz
+[2024-04-30 00:18:07] INFO root fetch - processPackages [draggable-charts]: executing diffoscope
+[2024-04-30 00:18:07] INFO root fetch - processPackages [draggable-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-charts-1.1.1.tar.gz tmp/draggable-charts-1.1.2.tar.gz --markdown 20240430/d/draggable-charts/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-30 00:18:07] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-04-30 00:18:07] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-04-30 00:18:07] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-04-30 00:18:08] INFO root fetch - processPackages [seeact]: Remove: archive file [/home/abi/fetcher/tmp/seeact-0.2.2.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - processPackages [seeact]: Remove: archive file [/home/abi/fetcher/tmp/seeact-0.2.3.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - main [MainThread]: End processing [seeact]: success
+[2024-04-30 00:18:08] INFO root fetch - processPackages [csulb-mock-dataset]: Remove: archive file [/home/abi/fetcher/tmp/csulb_mock_dataset-0.1.10.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - processPackages [csulb-mock-dataset]: Remove: archive file [/home/abi/fetcher/tmp/csulb_mock_dataset-0.1.11.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - main [MainThread]: End processing [csulb-mock-dataset]: success
+[2024-04-30 00:18:08] INFO root fetch - processPackages [thonny-tunisiaschools]: Remove: archive file [/home/abi/fetcher/tmp/thonny_tunisiaschools-0.0.8.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - processPackages [thonny-tunisiaschools]: Remove: archive file [/home/abi/fetcher/tmp/thonny_tunisiaschools-0.0.9.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - main [MainThread]: End processing [thonny-tunisiaschools]: success
+[2024-04-30 00:18:08] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.6.3.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.6.4.tar.gz]
+[2024-04-30 00:18:08] INFO root fetch - main [MainThread]: End processing [jaeger]: success
+[2024-04-30 00:18:49] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.1.1.tar.gz]
+[2024-04-30 00:18:49] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.1.2.tar.gz]
+[2024-04-30 00:18:49] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
+[2024-04-30 00:18:49] INFO root fetch - main [MainThread]: Store serial: [22991594]
