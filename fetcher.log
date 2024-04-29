@@ -181,3 +181,33 @@
 [2024-04-30 00:09:22] INFO root fetch - processPackages [stratigraph]: Remove: archive file [/home/abi/fetcher/tmp/stratigraph-0.1.1.dev0-py3-none-any.whl.zip]
 [2024-04-30 00:09:22] INFO root fetch - main [MainThread]: End processing [stratigraph]: success
 [2024-04-30 00:09:22] INFO root fetch - main [MainThread]: Store serial: [22991507]
+[2024-04-30 00:11:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991507]
+[2024-04-30 00:11:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecopipeline
+[2024-04-30 00:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncTwitterClient
+[2024-04-30 00:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nautobot-show-tech
+[2024-04-30 00:11:30] INFO root fetch - processPackages [ecopipeline]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-30 00:11:30] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/7d/cc/46f5ec879efd0b4be5086161102bab0e9b9938e4d28e1bc261101d2fcf8f/ecopipeline-0.2.7.tar.gz
+[2024-04-30 00:11:30] INFO root fetch - processPackages [nautobot-show-tech]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-30 00:11:30] INFO root fetch - processPackages [asyncTwitterClient]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-30 00:11:30] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/44/f5/a8b9b7ff31c62e47ff902f66eb2c4adf7df9a6b8dadfc488f37a2fb0e0db/asyncTwitterClient-0.7.0.win-amd64.zip
+[2024-04-30 00:11:30] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/f7/3f/506605bf2d8c3c5e75b2003d292d334e29280e87883d5e46322cbb59f81f/ecopipeline-0.2.8.tar.gz
+[2024-04-30 00:11:30] INFO root fetch - processPackages [nautobot-show-tech]: Downloading https://files.pythonhosted.org/packages/9e/34/22f3500430115ce2f15f1b0b43c60b2345eaa7d43f184525b0484014629a/nautobot_show_tech-2.0.0.tar.gz
+[2024-04-30 00:11:31] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2024-04-30 00:11:31] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.2.7.tar.gz tmp/ecopipeline-0.2.8.tar.gz --markdown 20240430/e/ecopipeline/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-30 00:11:31] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/7a/6a/e7dbd46bfdc8923367538b2424ca0ad648faed66fda31271869db753214d/asyncTwitterClient-0.8.0.tar.gz
+[2024-04-30 00:11:31] INFO root fetch - processPackages [nautobot-show-tech]: Downloading https://files.pythonhosted.org/packages/2c/65/69a52b4355bf094b3a2bbde219031b3edfc08570275ef7216b78aa0479f8/nautobot_show_tech-2.0.1.tar.gz
+[2024-04-30 00:11:31] INFO root fetch - processPackages [asyncTwitterClient]: executing diffoscope
+[2024-04-30 00:11:31] INFO root fetch - processPackages [asyncTwitterClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncTwitterClient-0.7.0.win-amd64.zip tmp/asyncTwitterClient-0.8.0.tar.gz --markdown 20240430/a/asyncTwitterClient/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-30 00:11:31] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.7.tar.gz]
+[2024-04-30 00:11:31] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.8.tar.gz]
+[2024-04-30 00:11:31] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2024-04-30 00:11:31] INFO root fetch - processPackages [asyncTwitterClient]: Remove: archive file [/home/abi/fetcher/tmp/asyncTwitterClient-0.7.0.win-amd64.zip]
+[2024-04-30 00:11:31] INFO root fetch - processPackages [asyncTwitterClient]: Remove: archive file [/home/abi/fetcher/tmp/asyncTwitterClient-0.8.0.tar.gz]
+[2024-04-30 00:11:31] INFO root fetch - main [MainThread]: End processing [asyncTwitterClient]: success
+[2024-04-30 00:11:32] INFO root fetch - processPackages [nautobot-show-tech]: executing diffoscope
+[2024-04-30 00:11:32] INFO root fetch - processPackages [nautobot-show-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_show_tech-2.0.0.tar.gz tmp/nautobot_show_tech-2.0.1.tar.gz --markdown 20240430/n/nautobot-show-tech/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-30 00:11:33] INFO root fetch - processPackages [nautobot-show-tech]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_show_tech-2.0.0.tar.gz]
+[2024-04-30 00:11:33] INFO root fetch - processPackages [nautobot-show-tech]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_show_tech-2.0.1.tar.gz]
+[2024-04-30 00:11:33] INFO root fetch - main [MainThread]: End processing [nautobot-show-tech]: success
+[2024-04-30 00:11:33] INFO root fetch - main [MainThread]: Store serial: [22991515]
