@@ -1196,3 +1196,26 @@
 [2024-04-30 01:13:26] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
 [2024-04-30 01:13:26] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
 [2024-04-30 01:13:26] INFO root fetch - main [MainThread]: Store serial: [22991996]
+[2024-04-30 01:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991996]
+[2024-04-30 01:15:34] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-30 01:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991997]
+[2024-04-30 01:17:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 01:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npc_lims
+[2024-04-30 01:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indexify-extractor-sdk
+[2024-04-30 01:17:39] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-30 01:17:39] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-04-30 01:17:39] INFO root fetch - processPackages [indexify-extractor-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 01:17:40] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-04-30 01:17:40] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/25/fb/8dcfb1ddf593ada77ca7aebff3d9add072c6922c5b3efddeb31e991f5968/indexify-extractor-sdk-0.0.8.tar.gz
+[2024-04-30 01:17:40] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-04-30 01:17:40] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240430/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-30 01:17:40] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/6b/69/1a816cb64f283ffbd7a285fc0aacdf84a8f4bc7214eaab78ac42be5e93ba/indexify-extractor-sdk-0.0.9.tar.gz
+[2024-04-30 01:17:40] INFO root fetch - processPackages [indexify-extractor-sdk]: executing diffoscope
+[2024-04-30 01:17:40] INFO root fetch - processPackages [indexify-extractor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-extractor-sdk-0.0.8.tar.gz tmp/indexify-extractor-sdk-0.0.9.tar.gz --markdown 20240430/i/indexify-extractor-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 01:17:40] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-04-30 01:17:40] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-04-30 01:17:40] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-04-30 01:17:41] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.8.tar.gz]
+[2024-04-30 01:17:41] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
+[2024-04-30 01:17:41] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
+[2024-04-30 01:17:41] INFO root fetch - main [MainThread]: Store serial: [22992003]
