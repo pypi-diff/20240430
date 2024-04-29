@@ -644,3 +644,15 @@
 [2024-04-30 00:38:28] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
 [2024-04-30 00:38:28] INFO root fetch - main [MainThread]: End processing [openai]: success
 [2024-04-30 00:38:28] INFO root fetch - main [MainThread]: Store serial: [22991701]
+[2024-04-30 00:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991701]
+[2024-04-30 00:40:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starrailcard
+[2024-04-30 00:40:38] INFO root fetch - processPackages [starrailcard]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-30 00:40:39] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/ad/fc/173549eb3b31dbe482fc5ea95faf9fe0a78298f8c4f2ae0489999b9a2c26/starrailcard-2.1.5.tar.gz
+[2024-04-30 00:40:39] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/20/26/c537c1ccc836333360bce0bcc4d339e4cce13840fa6f5b7a74d956cab076/starrailcard-2.1.6.tar.gz
+[2024-04-30 00:40:39] INFO root fetch - processPackages [starrailcard]: executing diffoscope
+[2024-04-30 00:40:39] INFO root fetch - processPackages [starrailcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailcard-2.1.5.tar.gz tmp/starrailcard-2.1.6.tar.gz --markdown 20240430/s/starrailcard/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-30 00:40:40] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-2.1.5.tar.gz]
+[2024-04-30 00:40:40] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-2.1.6.tar.gz]
+[2024-04-30 00:40:40] INFO root fetch - main [MainThread]: End processing [starrailcard]: success
+[2024-04-30 00:40:40] INFO root fetch - main [MainThread]: Store serial: [22991704]
