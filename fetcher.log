@@ -1136,3 +1136,36 @@
 [2024-04-30 01:09:03] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-30 01:09:03] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-30 01:09:03] INFO root fetch - main [MainThread]: Store serial: [22991968]
+[2024-04-30 01:11:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991968]
+[2024-04-30 01:11:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 01:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hnt-nf-jira-library
+[2024-04-30 01:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: desgld
+[2024-04-30 01:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-overpass
+[2024-04-30 01:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: izio-cli
+[2024-04-30 01:11:13] INFO root fetch - processPackages [izio-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 01:11:13] INFO root fetch - processPackages [aio-overpass]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 01:11:13] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-30 01:11:13] INFO root fetch - processPackages [izio-cli]: Downloading https://files.pythonhosted.org/packages/a2/fa/7415836bcb3404268510376d5f98ab14557fa58de5e52d955f4ebc1c9a49/izio_cli-0.2.8.tar.gz
+[2024-04-30 01:11:13] WARNING root fetch - processPackages [desgld]: Skipping, unable to determine old version
+[2024-04-30 01:11:13] INFO root fetch - main [MainThread]: End processing [desgld] error
+[2024-04-30 01:11:13] INFO root fetch - processPackages [aio-overpass]: Downloading https://files.pythonhosted.org/packages/7a/3d/82afc81f43b25e3f22bbf1a878f25ac4af0cf44b9e28c1801d8203ffe7b7/aio_overpass-0.8.0.tar.gz
+[2024-04-30 01:11:13] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/b1/a5/886bda638d5c028efce777cc9fb45df734790879602f894dbb72f42cad3c/hnt_nf_jira_library-0.4.4.tar.gz
+[2024-04-30 01:11:14] INFO root fetch - processPackages [izio-cli]: Downloading https://files.pythonhosted.org/packages/2b/87/ab94e8cd21535490bc4669fb23428be99257a6aa020addd80f0040fa50f8/izio_cli-0.2.9.tar.gz
+[2024-04-30 01:11:14] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/50/d6/821a1b407430f47a3f1fcb3c754eb1054f594a9f344290d71ebf47257b84/hnt_nf_jira_library-0.4.5.tar.gz
+[2024-04-30 01:11:14] INFO root fetch - processPackages [aio-overpass]: Downloading https://files.pythonhosted.org/packages/b3/94/b7fbeb59de61b92d6346cc0701f78504a87ff2a6eafe0c557807591dff4e/aio_overpass-0.9.0.tar.gz
+[2024-04-30 01:11:14] INFO root fetch - processPackages [izio-cli]: executing diffoscope
+[2024-04-30 01:11:14] INFO root fetch - processPackages [izio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izio_cli-0.2.8.tar.gz tmp/izio_cli-0.2.9.tar.gz --markdown 20240430/i/izio-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 01:11:14] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-30 01:11:14] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.4.4.tar.gz tmp/hnt_nf_jira_library-0.4.5.tar.gz --markdown 20240430/h/hnt-nf-jira-library/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-30 01:11:14] INFO root fetch - processPackages [aio-overpass]: executing diffoscope
+[2024-04-30 01:11:14] INFO root fetch - processPackages [aio-overpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_overpass-0.8.0.tar.gz tmp/aio_overpass-0.9.0.tar.gz --markdown 20240430/a/aio-overpass/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 01:11:14] INFO root fetch - processPackages [izio-cli]: Remove: archive file [/home/abi/fetcher/tmp/izio_cli-0.2.8.tar.gz]
+[2024-04-30 01:11:14] INFO root fetch - processPackages [izio-cli]: Remove: archive file [/home/abi/fetcher/tmp/izio_cli-0.2.9.tar.gz]
+[2024-04-30 01:11:14] INFO root fetch - main [MainThread]: End processing [izio-cli]: success
+[2024-04-30 01:11:15] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.4.tar.gz]
+[2024-04-30 01:11:15] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.5.tar.gz]
+[2024-04-30 01:11:15] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-30 01:11:15] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.8.0.tar.gz]
+[2024-04-30 01:11:15] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.9.0.tar.gz]
+[2024-04-30 01:11:15] INFO root fetch - main [MainThread]: End processing [aio-overpass]: success
+[2024-04-30 01:11:15] INFO root fetch - main [MainThread]: Store serial: [22991980]
