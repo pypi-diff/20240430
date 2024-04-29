@@ -1309,3 +1309,60 @@
 [2024-04-30 01:24:11] INFO root fetch - processPackages [condynsate]: Remove: archive file [/home/abi/fetcher/tmp/condynsate-0.6.6.tar.gz]
 [2024-04-30 01:24:11] INFO root fetch - main [MainThread]: End processing [condynsate]: success
 [2024-04-30 01:24:11] INFO root fetch - main [MainThread]: Store serial: [22992030]
+[2024-04-30 01:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992030]
+[2024-04-30 01:26:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hikari-yuyo
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecopipeline
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flatpack
+[2024-04-30 01:26:21] INFO root fetch - processPackages [ecopipeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 01:26:21] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-30 01:26:21] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-30 01:26:21] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-30 01:26:21] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-30 01:26:21] INFO root fetch - processPackages [hikari-yuyo]: New version: [1.9.1a1] Old Version: [1.9.0a1]
+[2024-04-30 01:26:22] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/f7/3f/506605bf2d8c3c5e75b2003d292d334e29280e87883d5e46322cbb59f81f/ecopipeline-0.2.8.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/1c/73/32fc9673b8d6caca075ddb668365e3aa1106cc59f6f654a108dd3cbcd8d2/hikari-yuyo-1.9.0a1.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/ec/19/08549131c0969471cfcfabfae13b56f5b6c3af0ba094806fc6aaf25ed5d3/ecopipeline-0.2.9.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240430/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-30 01:26:22] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240430/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-30 01:26:22] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2024-04-30 01:26:22] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.2.8.tar.gz tmp/ecopipeline-0.2.9.tar.gz --markdown 20240430/e/ecopipeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 01:26:22] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-30 01:26:22] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240430/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-30 01:26:22] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [hikari-yuyo]: Downloading https://files.pythonhosted.org/packages/38/c1/0564a1baefa3a6c0538e4b894416ec1ea5e8ea0f5acd37bcfe6185089477/hikari-yuyo-1.9.1a1.tar.gz
+[2024-04-30 01:26:22] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-30 01:26:22] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240430/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-30 01:26:22] INFO root fetch - processPackages [hikari-yuyo]: executing diffoscope
+[2024-04-30 01:26:22] INFO root fetch - processPackages [hikari-yuyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-yuyo-1.9.0a1.tar.gz tmp/hikari-yuyo-1.9.1a1.tar.gz --markdown 20240430/h/hikari-yuyo/1.9.0a1-1.9.1a1/README.md --exclude *.pyd
+[2024-04-30 01:26:23] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-30 01:26:23] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.8.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.9.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2024-04-30 01:26:23] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-30 01:26:23] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-30 01:26:23] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-30 01:26:24] INFO root fetch - processPackages [hikari-yuyo]: Remove: archive file [/home/abi/fetcher/tmp/hikari-yuyo-1.9.0a1.tar.gz]
+[2024-04-30 01:26:24] INFO root fetch - processPackages [hikari-yuyo]: Remove: archive file [/home/abi/fetcher/tmp/hikari-yuyo-1.9.1a1.tar.gz]
+[2024-04-30 01:26:24] INFO root fetch - main [MainThread]: End processing [hikari-yuyo]: success
+[2024-04-30 01:26:26] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-30 01:26:26] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-30 01:26:26] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-30 01:26:26] INFO root fetch - main [MainThread]: Store serial: [22992049]
