@@ -1516,3 +1516,32 @@
 [2024-04-30 01:33:00] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.5.tar.gz]
 [2024-04-30 01:33:00] INFO root fetch - main [MainThread]: End processing [jupyterlab-athena-analytics]: success
 [2024-04-30 01:33:00] INFO root fetch - main [MainThread]: Store serial: [22992096]
+[2024-04-30 01:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992096]
+[2024-04-30 01:35:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paradance
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExcelFormulaParser
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf_easily_saas
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mc-providers
+[2024-04-30 01:35:09] INFO root fetch - processPackages [mc-providers]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-30 01:35:09] WARNING root fetch - processPackages [drf_easily_saas]: Skipping, unable to determine old version
+[2024-04-30 01:35:09] INFO root fetch - main [MainThread]: End processing [drf_easily_saas] error
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ExcelFormulaParser]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 01:35:09] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-30 01:35:09] INFO root fetch - processPackages [mc-providers]: Downloading https://files.pythonhosted.org/packages/16/f3/e64863e17824ad9eabf3d462a99d378421df27218efcdc401ed841eb397b/mc_providers-2.0.0-py3-none-any.whl
+[2024-04-30 01:35:09] WARNING root fetch - processPackages [mc-providers]: Skipping package: exceeds size limit 122968958>=10485760
+[2024-04-30 01:35:09] INFO root fetch - main [MainThread]: End processing [mc-providers] error
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ExcelFormulaParser]: Downloading https://files.pythonhosted.org/packages/fa/8e/0b8fc4c5a46830112c33d1142d2147eb21e8e5132ba55c1154484a0c4031/ExcelFormulaParser-1.0.0.tar.gz
+[2024-04-30 01:35:09] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-04-30 01:35:09] INFO root fetch - processPackages [ExcelFormulaParser]: Downloading https://files.pythonhosted.org/packages/7b/bf/10d3123f28ddff9d7ac9b0adb6d6574125e20d2a56524059c5c6e88a9ce7/ExcelFormulaParser-1.0.1.tar.gz
+[2024-04-30 01:35:10] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-04-30 01:35:10] INFO root fetch - processPackages [ExcelFormulaParser]: executing diffoscope
+[2024-04-30 01:35:10] INFO root fetch - processPackages [ExcelFormulaParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExcelFormulaParser-1.0.0.tar.gz tmp/ExcelFormulaParser-1.0.1.tar.gz --markdown 20240430/E/ExcelFormulaParser/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 01:35:10] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-04-30 01:35:10] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240430/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-30 01:35:10] INFO root fetch - processPackages [ExcelFormulaParser]: Remove: archive file [/home/abi/fetcher/tmp/ExcelFormulaParser-1.0.0.tar.gz]
+[2024-04-30 01:35:10] INFO root fetch - processPackages [ExcelFormulaParser]: Remove: archive file [/home/abi/fetcher/tmp/ExcelFormulaParser-1.0.1.tar.gz]
+[2024-04-30 01:35:10] INFO root fetch - main [MainThread]: End processing [ExcelFormulaParser]: success
+[2024-04-30 01:35:10] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-04-30 01:35:10] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-04-30 01:35:10] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-04-30 01:35:10] INFO root fetch - main [MainThread]: Store serial: [22992111]
