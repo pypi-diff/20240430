@@ -1545,3 +1545,33 @@
 [2024-04-30 01:35:10] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
 [2024-04-30 01:35:10] INFO root fetch - main [MainThread]: End processing [paradance]: success
 [2024-04-30 01:35:10] INFO root fetch - main [MainThread]: Store serial: [22992111]
+[2024-04-30 01:37:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992111]
+[2024-04-30 01:37:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 01:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opteryx
+[2024-04-30 01:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-tests-adapter
+[2024-04-30 01:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jz3
+[2024-04-30 01:37:19] INFO root fetch - processPackages [jz3]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 01:37:19] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/3e/58/3469c6c117e8f6e8ca476df6525b560fe0bf13958b5ee124c997b15ff64d/jz3-0.1.8.tar.gz
+[2024-04-30 01:37:19] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.8.0b2] Old Version: [1.8.0b1]
+[2024-04-30 01:37:19] INFO root fetch - processPackages [opteryx]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-30 01:37:19] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/41/8a/3b614408e6d03697387e01982e8e2661649f0c4a49f3d28e8e97916d9387/dbt_tests_adapter-1.8.0b1.tar.gz
+[2024-04-30 01:37:19] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/5e/91/765e2a472f1ca3feaa2526a4bbec45d770e3d67f120965da4092459d8d99/opteryx-0.9.2.tar.gz
+[2024-04-30 01:37:19] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/15/d7/11c8eacd1ffc27efc926a38bf81a3c3eeb7a3fcf5016c0c90087eb472f92/jz3-0.1.9.tar.gz
+[2024-04-30 01:37:20] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/64/71/44793ad728906cb5f308a98ffac1dea36c22000fac4080dd51bc5c9a0ef4/opteryx-0.9.3.tar.gz
+[2024-04-30 01:37:20] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/ae/b7/879e2b6a26ae283e6132c4187dfcc356552efe43e38dbec46ccfae917ca4/dbt_tests_adapter-1.8.0b2.tar.gz
+[2024-04-30 01:37:20] INFO root fetch - processPackages [opteryx]: executing diffoscope
+[2024-04-30 01:37:20] INFO root fetch - processPackages [opteryx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opteryx-0.9.2.tar.gz tmp/opteryx-0.9.3.tar.gz --markdown 20240430/o/opteryx/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-30 01:37:20] INFO root fetch - processPackages [jz3]: executing diffoscope
+[2024-04-30 01:37:20] INFO root fetch - processPackages [jz3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jz3-0.1.8.tar.gz tmp/jz3-0.1.9.tar.gz --markdown 20240430/j/jz3/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 01:37:20] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2024-04-30 01:37:20] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_tests_adapter-1.8.0b1.tar.gz tmp/dbt_tests_adapter-1.8.0b2.tar.gz --markdown 20240430/d/dbt-tests-adapter/1.8.0b1-1.8.0b2/README.md --exclude *.pyd
+[2024-04-30 01:37:21] INFO root fetch - processPackages [dbt-tests-adapter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_tests_adapter-1.8.0b1.tar.gz]
+[2024-04-30 01:37:21] INFO root fetch - processPackages [dbt-tests-adapter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_tests_adapter-1.8.0b2.tar.gz]
+[2024-04-30 01:37:21] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2024-04-30 01:37:21] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.2.tar.gz]
+[2024-04-30 01:37:21] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.3.tar.gz]
+[2024-04-30 01:37:21] INFO root fetch - main [MainThread]: End processing [opteryx]: success
+[2024-04-30 01:37:21] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.8.tar.gz]
+[2024-04-30 01:37:21] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.9.tar.gz]
+[2024-04-30 01:37:21] INFO root fetch - main [MainThread]: End processing [jz3]: success
+[2024-04-30 01:37:21] INFO root fetch - main [MainThread]: Store serial: [22992128]
