@@ -1249,3 +1249,33 @@
 [2024-04-30 01:19:51] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.1.0rc2.tar.gz]
 [2024-04-30 01:19:51] INFO root fetch - main [MainThread]: End processing [dbt-adapters]: success
 [2024-04-30 01:19:51] INFO root fetch - main [MainThread]: Store serial: [22992011]
+[2024-04-30 01:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992011]
+[2024-04-30 01:21:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 01:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynws
+[2024-04-30 01:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chartfactor
+[2024-04-30 01:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chartfactor-jlab-ext
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-04-30 01:22:00] INFO root fetch - processPackages [pynws]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/93/c1/9f3706ead4b2943f24bb44ed668efce32d427993be54894ff069529e1021/chartfactor-5.0.5.tar.gz
+[2024-04-30 01:22:00] INFO root fetch - processPackages [pynws]: Downloading https://files.pythonhosted.org/packages/2b/b5/3b458202df2e6152ba2a7533ff72e2ff5cae1e0018980b755cf32154af59/pynws-1.6.0.tar.gz
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/23/aa/3569b72abd2674ac60cbd5be7fa5bf6e0c0f86706c90deb81324141fc66d/chartfactor-jlab-ext-5.0.5.tar.gz
+[2024-04-30 01:22:00] INFO root fetch - processPackages [pynws]: Downloading https://files.pythonhosted.org/packages/d9/e5/b3cf9bdcaca2e30f59c750120d1a93899f7c2957e6e9ccb55bb7c9e49196/pynws-1.7.0.tar.gz
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/45/70/93b61c07312c74e8c663f3800e0d76ffa6649e1a1185c06a7821e5872c02/chartfactor_jlab_ext-5.0.6.tar.gz
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/7b/2d/dba5c3e645758ec1bc6571a42be66a15d0c2a889c130dd1783d495f411e1/chartfactor-5.0.6.tar.gz
+[2024-04-30 01:22:00] INFO root fetch - processPackages [pynws]: executing diffoscope
+[2024-04-30 01:22:00] INFO root fetch - processPackages [pynws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynws-1.6.0.tar.gz tmp/pynws-1.7.0.tar.gz --markdown 20240430/p/pynws/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-jlab-ext-5.0.5.tar.gz tmp/chartfactor_jlab_ext-5.0.6.tar.gz --markdown 20240430/c/chartfactor-jlab-ext/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2024-04-30 01:22:00] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-5.0.5.tar.gz tmp/chartfactor-5.0.6.tar.gz --markdown 20240430/c/chartfactor/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-04-30 01:22:01] INFO root fetch - processPackages [pynws]: Remove: archive file [/home/abi/fetcher/tmp/pynws-1.6.0.tar.gz]
+[2024-04-30 01:22:01] INFO root fetch - processPackages [pynws]: Remove: archive file [/home/abi/fetcher/tmp/pynws-1.7.0.tar.gz]
+[2024-04-30 01:22:01] INFO root fetch - main [MainThread]: End processing [pynws]: success
+[2024-04-30 01:22:01] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-5.0.5.tar.gz]
+[2024-04-30 01:22:01] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-5.0.6.tar.gz]
+[2024-04-30 01:22:01] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2024-04-30 01:22:01] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-5.0.5.tar.gz]
+[2024-04-30 01:22:01] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor_jlab_ext-5.0.6.tar.gz]
+[2024-04-30 01:22:01] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2024-04-30 01:22:01] INFO root fetch - main [MainThread]: Store serial: [22992021]
