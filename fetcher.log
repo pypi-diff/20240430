@@ -1692,3 +1692,33 @@
 [2024-04-30 01:44:07] INFO root fetch - processPackages [jpreprocess]: Remove: archive file [/home/abi/fetcher/tmp/jpreprocess-0.1.3-pp38-pypy38_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
 [2024-04-30 01:44:07] INFO root fetch - main [MainThread]: End processing [jpreprocess]: success
 [2024-04-30 01:44:07] INFO root fetch - main [MainThread]: Store serial: [22992214]
+[2024-04-30 01:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992214]
+[2024-04-30 01:46:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsrg
+[2024-04-30 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyBlindRL
+[2024-04-30 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oakvar
+[2024-04-30 01:46:15] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.2rc97.post1] Old Version: [0.1.2rc96.post1]
+[2024-04-30 01:46:15] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/84/1d/0dbe22444712f9b1459a5249de9008f4d9283821ce488470798930e93661/pyblindrl-0.1.2rc96.post1.tar.gz
+[2024-04-30 01:46:16] INFO root fetch - processPackages [libsrg]: New version: [4.3.2] Old Version: [4.3.1]
+[2024-04-30 01:46:16] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-04-30 01:46:16] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/c7/f1/6709ec7664e43a0dcced2afd81d53ff33086ecb213fdb4a7d022f2f3b37d/libsrg-4.3.1-py3-none-any.whl
+[2024-04-30 01:46:16] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/1a/9b/ce4fdea372da39ecd0e3fccf50d9f62d92a542171275c749ce2a33383a8c/pyblindrl-0.1.2rc97.post1.tar.gz
+[2024-04-30 01:46:16] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-04-30 01:46:16] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-30 01:46:16] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.1.2rc96.post1.tar.gz tmp/pyblindrl-0.1.2rc97.post1.tar.gz --markdown 20240430/p/pyBlindRL/0.1.2rc96.post1-0.1.2rc97.post1/README.md --exclude *.pyd
+[2024-04-30 01:46:16] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/f7/96/a00bc629d615616f505ba3b5fac19e897d019ae52bd56b1c007f0a40119e/libsrg-4.3.2-py3-none-any.whl
+[2024-04-30 01:46:16] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-04-30 01:46:16] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-4.3.1-py3-none-any.whl.zip tmp/libsrg-4.3.2-py3-none-any.whl.zip --markdown 20240430/l/libsrg/4.3.1-4.3.2/README.md --exclude *.pyd
+[2024-04-30 01:46:16] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc96.post1.tar.gz]
+[2024-04-30 01:46:16] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc97.post1.tar.gz]
+[2024-04-30 01:46:16] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-04-30 01:46:16] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-04-30 01:46:17] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.3.1-py3-none-any.whl.zip]
+[2024-04-30 01:46:17] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.3.2-py3-none-any.whl.zip]
+[2024-04-30 01:46:17] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-04-30 01:46:17] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-30 01:46:17] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240430/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-04-30 01:46:19] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-04-30 01:46:19] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-04-30 01:46:19] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-30 01:46:19] INFO root fetch - main [MainThread]: Store serial: [22992233]
