@@ -575,3 +575,33 @@
 [2024-04-30 00:31:55] INFO root fetch - processPackages [myofinder]: Remove: archive file [/home/abi/fetcher/tmp/myofinder-1.0.9.tar.gz]
 [2024-04-30 00:31:55] INFO root fetch - main [MainThread]: End processing [myofinder]: success
 [2024-04-30 00:31:55] INFO root fetch - main [MainThread]: Store serial: [22991675]
+[2024-04-30 00:33:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991675]
+[2024-04-30 00:34:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspygen
+[2024-04-30 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyLLSM5DTools
+[2024-04-30 00:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-pandas
+[2024-04-30 00:34:04] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-04-30 00:34:04] INFO root fetch - processPackages [dspygen]: New version: [2024.4.8] Old Version: [2024.4.29]
+[2024-04-30 00:34:04] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/0d/032fd302ba4df099e04fb5c7566568f4a4fd91a5518efb69df9678076413/abstract_pandas-0.0.0.2.tar.gz
+[2024-04-30 00:34:04] INFO root fetch - processPackages [PyLLSM5DTools]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-30 00:34:04] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/eb/4d/fbfcf13ed903fc073b58782bd99c8f3247978da662c1a864d7816d2ba692/dspygen-2024.4.29.tar.gz
+[2024-04-30 00:34:04] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/8e/7a/3ee77d2a1e4bbef3802b92312d75cebe2698b23b93775d05bd51c3430a55/pyllsm5dtools-1.0.4.tar.gz
+[2024-04-30 00:34:04] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/f4/18/6bfe5d0bab1d42d2d1f1b38434423247e9d913c42e590195e938689771bf/abstract_pandas-0.0.0.3.tar.gz
+[2024-04-30 00:34:04] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-04-30 00:34:04] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.2.tar.gz tmp/abstract_pandas-0.0.0.3.tar.gz --markdown 20240430/a/abstract-pandas/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-04-30 00:34:04] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/fc/fb/1cbd752292f240d24ace4483a61d4203037c38906c27594eb462c0a68ba2/pyllsm5dtools-1.0.5.tar.gz
+[2024-04-30 00:34:04] INFO root fetch - processPackages [PyLLSM5DTools]: executing diffoscope
+[2024-04-30 00:34:04] INFO root fetch - processPackages [PyLLSM5DTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllsm5dtools-1.0.4.tar.gz tmp/pyllsm5dtools-1.0.5.tar.gz --markdown 20240430/P/PyLLSM5DTools/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-30 00:34:04] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/b8/d2/67abba8675544ab98e98ff7bc3479521e1562052e572ea82c30eccce5120/dspygen-2024.4.8.tar.gz
+[2024-04-30 00:34:05] INFO root fetch - processPackages [dspygen]: executing diffoscope
+[2024-04-30 00:34:05] INFO root fetch - processPackages [dspygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspygen-2024.4.29.tar.gz tmp/dspygen-2024.4.8.tar.gz --markdown 20240430/d/dspygen/2024.4.29-2024.4.8/README.md --exclude *.pyd
+[2024-04-30 00:34:05] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.2.tar.gz]
+[2024-04-30 00:34:05] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.3.tar.gz]
+[2024-04-30 00:34:05] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-04-30 00:34:05] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/pyllsm5dtools-1.0.4.tar.gz]
+[2024-04-30 00:34:05] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/pyllsm5dtools-1.0.5.tar.gz]
+[2024-04-30 00:34:05] INFO root fetch - main [MainThread]: End processing [PyLLSM5DTools]: success
+[2024-04-30 00:34:06] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.29.tar.gz]
+[2024-04-30 00:34:06] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
+[2024-04-30 00:34:06] INFO root fetch - main [MainThread]: End processing [dspygen]: success
+[2024-04-30 00:34:06] INFO root fetch - main [MainThread]: Store serial: [22991685]
