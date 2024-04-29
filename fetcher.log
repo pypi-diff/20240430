@@ -1219,3 +1219,33 @@
 [2024-04-30 01:17:41] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
 [2024-04-30 01:17:41] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
 [2024-04-30 01:17:41] INFO root fetch - main [MainThread]: Store serial: [22992003]
+[2024-04-30 01:19:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992003]
+[2024-04-30 01:19:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 01:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-04-30 01:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viqi-api
+[2024-04-30 01:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-adapters
+[2024-04-30 01:19:49] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-30 01:19:49] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-04-30 01:19:49] INFO root fetch - processPackages [dbt-adapters]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2024-04-30 01:19:49] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2024-04-30 01:19:49] INFO root fetch - processPackages [dbt-adapters]: Downloading https://files.pythonhosted.org/packages/38/04/cdbf2c17a92bc70e0043dea5dc1aa3952379b8423af309d7e099aa5d61c3/dbt_adapters-1.1.0rc1.tar.gz
+[2024-04-30 01:19:49] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2024-04-30 01:19:49] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-04-30 01:19:50] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-30 01:19:50] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240430/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-30 01:19:50] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2024-04-30 01:19:50] INFO root fetch - processPackages [dbt-adapters]: Downloading https://files.pythonhosted.org/packages/67/14/ffb55e97c96b042119f8a693de17591b193fa26dd2db1a3d22be7006977d/dbt_adapters-1.1.0rc2.tar.gz
+[2024-04-30 01:19:50] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2024-04-30 01:19:50] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20240430/v/viqi-api/0.6.4.8-0.6.4.9/README.md --exclude *.pyd
+[2024-04-30 01:19:50] INFO root fetch - processPackages [dbt-adapters]: executing diffoscope
+[2024-04-30 01:19:50] INFO root fetch - processPackages [dbt-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_adapters-1.1.0rc1.tar.gz tmp/dbt_adapters-1.1.0rc2.tar.gz --markdown 20240430/d/dbt-adapters/1.1.0rc1-1.1.0rc2/README.md --exclude *.pyd
+[2024-04-30 01:19:50] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-04-30 01:19:50] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-04-30 01:19:50] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-30 01:19:50] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2024-04-30 01:19:50] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2024-04-30 01:19:50] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2024-04-30 01:19:51] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.1.0rc1.tar.gz]
+[2024-04-30 01:19:51] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.1.0rc2.tar.gz]
+[2024-04-30 01:19:51] INFO root fetch - main [MainThread]: End processing [dbt-adapters]: success
+[2024-04-30 01:19:51] INFO root fetch - main [MainThread]: Store serial: [22992011]
