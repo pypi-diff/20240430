@@ -979,3 +979,35 @@
 [2024-04-30 01:00:15] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.9.tar.gz]
 [2024-04-30 01:00:15] INFO root fetch - main [MainThread]: End processing [okareo]: success
 [2024-04-30 01:00:15] INFO root fetch - main [MainThread]: Store serial: [22991856]
+[2024-04-30 01:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991856]
+[2024-04-30 01:02:24] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-30 01:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991856]
+[2024-04-30 01:04:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 01:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexa
+[2024-04-30 01:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcor-shared
+[2024-04-30 01:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-dev-environment
+[2024-04-30 01:04:29] INFO root fetch - processPackages [flexa]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 01:04:29] INFO root fetch - processPackages [dcor-shared]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 01:04:29] INFO root fetch - processPackages [dcor-shared]: Downloading https://files.pythonhosted.org/packages/70/5a/0659ee88f2b1b6ebe6f3111624d9ebac2bd047f47ecc7f35fcc2692a0d46/dcor_shared-0.9.0.tar.gz
+[2024-04-30 01:04:29] INFO root fetch - processPackages [ansible-dev-environment]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-04-30 01:04:29] INFO root fetch - processPackages [flexa]: Downloading https://files.pythonhosted.org/packages/b0/35/dee87e5afcd4c7ab39d3f8058013982e3f446426f85329c2799b9a1c137b/flexa-0.1.8.tar.gz
+[2024-04-30 01:04:29] INFO root fetch - processPackages [ansible-dev-environment]: Downloading https://files.pythonhosted.org/packages/7b/a3/fc1d21442da8a1c59b92662ce60bc9b4b53330fc7d5792a8a637f49b6c01/ansible_dev_environment-24.4.0.tar.gz
+[2024-04-30 01:04:29] INFO root fetch - processPackages [dcor-shared]: Downloading https://files.pythonhosted.org/packages/ee/cf/b749b180f7423327c9524c4e39795a15647c1fba69587b9f7e756a9b5439/dcor_shared-0.9.1.tar.gz
+[2024-04-30 01:04:29] INFO root fetch - processPackages [dcor-shared]: executing diffoscope
+[2024-04-30 01:04:29] INFO root fetch - processPackages [dcor-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_shared-0.9.0.tar.gz tmp/dcor_shared-0.9.1.tar.gz --markdown 20240430/d/dcor-shared/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 01:04:29] INFO root fetch - processPackages [flexa]: Downloading https://files.pythonhosted.org/packages/d3/0d/26fb3ce0e91e18a3b1e8aae3f42a638d6a53a7ca28dfbfc3cf70bb72330e/flexa-0.1.9.tar.gz
+[2024-04-30 01:04:30] INFO root fetch - processPackages [flexa]: executing diffoscope
+[2024-04-30 01:04:30] INFO root fetch - processPackages [flexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexa-0.1.8.tar.gz tmp/flexa-0.1.9.tar.gz --markdown 20240430/f/flexa/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 01:04:30] INFO root fetch - processPackages [ansible-dev-environment]: Downloading https://files.pythonhosted.org/packages/57/54/71dfbeb2814e4c48bb406028959384621f030480a7f2b23de03c2f7e8618/ansible_dev_environment-24.4.1.tar.gz
+[2024-04-30 01:04:30] INFO root fetch - processPackages [ansible-dev-environment]: executing diffoscope
+[2024-04-30 01:04:30] INFO root fetch - processPackages [ansible-dev-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_dev_environment-24.4.0.tar.gz tmp/ansible_dev_environment-24.4.1.tar.gz --markdown 20240430/a/ansible-dev-environment/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-04-30 01:04:30] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.0.tar.gz]
+[2024-04-30 01:04:30] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.1.tar.gz]
+[2024-04-30 01:04:30] INFO root fetch - main [MainThread]: End processing [dcor-shared]: success
+[2024-04-30 01:04:30] INFO root fetch - processPackages [flexa]: Remove: archive file [/home/abi/fetcher/tmp/flexa-0.1.8.tar.gz]
+[2024-04-30 01:04:30] INFO root fetch - processPackages [flexa]: Remove: archive file [/home/abi/fetcher/tmp/flexa-0.1.9.tar.gz]
+[2024-04-30 01:04:30] INFO root fetch - main [MainThread]: End processing [flexa]: success
+[2024-04-30 01:04:30] INFO root fetch - processPackages [ansible-dev-environment]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_environment-24.4.0.tar.gz]
+[2024-04-30 01:04:30] INFO root fetch - processPackages [ansible-dev-environment]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_environment-24.4.1.tar.gz]
+[2024-04-30 01:04:30] INFO root fetch - main [MainThread]: End processing [ansible-dev-environment]: success
+[2024-04-30 01:04:30] INFO root fetch - main [MainThread]: Store serial: [22991866]
