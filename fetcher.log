@@ -545,3 +545,33 @@
 [2024-04-30 00:29:45] INFO root fetch - processPackages [SingleOrigin]: Remove: archive file [/home/abi/fetcher/tmp/singleorigin-2.5.7.tar.gz]
 [2024-04-30 00:29:45] INFO root fetch - main [MainThread]: End processing [SingleOrigin]: success
 [2024-04-30 00:29:45] INFO root fetch - main [MainThread]: Store serial: [22991666]
+[2024-04-30 00:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991666]
+[2024-04-30 00:31:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myofinder
+[2024-04-30 00:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zprp-ffmpeg
+[2024-04-30 00:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-04-30 00:31:53] INFO root fetch - processPackages [swarmauri]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-30 00:31:53] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/9a/d3/824591f26b2ca77bf0b94946ff37d45613dd669bf9b231ae628050ae3379/swarmauri-0.1.95.tar.gz
+[2024-04-30 00:31:53] INFO root fetch - processPackages [zprp-ffmpeg]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-30 00:31:53] INFO root fetch - processPackages [myofinder]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 00:31:54] INFO root fetch - processPackages [myofinder]: Downloading https://files.pythonhosted.org/packages/02/ec/13532fe3335d173ecb6b3d3391ec9dcd4f62561bae4882f19a3c0ad0dfd8/myofinder-1.0.8.tar.gz
+[2024-04-30 00:31:54] INFO root fetch - processPackages [zprp-ffmpeg]: Downloading https://files.pythonhosted.org/packages/c7/ba/cb831da82e00ae55b647d3923d709a7601af6895fd70e82ca585919fa3f1/zprp-ffmpeg-0.0.0.tar.gz
+[2024-04-30 00:31:54] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6e/6c/850a7c2473fbdcc2a881b1ac59822db64326157175de8473d167e255cd82/swarmauri-0.1.96.tar.gz
+[2024-04-30 00:31:54] INFO root fetch - processPackages [zprp-ffmpeg]: Downloading https://files.pythonhosted.org/packages/ac/ce/4d00fff5e0945348780c8064c26d95faefbde88b64df68ab14bcf46214d7/zprp_ffmpeg-0.1.0.tar.gz
+[2024-04-30 00:31:54] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-30 00:31:54] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.95.tar.gz tmp/swarmauri-0.1.96.tar.gz --markdown 20240430/s/swarmauri/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-04-30 00:31:54] INFO root fetch - processPackages [myofinder]: Downloading https://files.pythonhosted.org/packages/fe/6f/f84c24a742dab44f8695db83b63982c375f3f4cb25f19a154b24c79afb72/myofinder-1.0.9.tar.gz
+[2024-04-30 00:31:54] INFO root fetch - processPackages [zprp-ffmpeg]: executing diffoscope
+[2024-04-30 00:31:54] INFO root fetch - processPackages [zprp-ffmpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zprp-ffmpeg-0.0.0.tar.gz tmp/zprp_ffmpeg-0.1.0.tar.gz --markdown 20240430/z/zprp-ffmpeg/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-04-30 00:31:54] INFO root fetch - processPackages [myofinder]: executing diffoscope
+[2024-04-30 00:31:54] INFO root fetch - processPackages [myofinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myofinder-1.0.8.tar.gz tmp/myofinder-1.0.9.tar.gz --markdown 20240430/m/myofinder/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 00:31:55] INFO root fetch - processPackages [zprp-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/zprp-ffmpeg-0.0.0.tar.gz]
+[2024-04-30 00:31:55] INFO root fetch - processPackages [zprp-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/zprp_ffmpeg-0.1.0.tar.gz]
+[2024-04-30 00:31:55] INFO root fetch - main [MainThread]: End processing [zprp-ffmpeg]: success
+[2024-04-30 00:31:55] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.95.tar.gz]
+[2024-04-30 00:31:55] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.96.tar.gz]
+[2024-04-30 00:31:55] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-30 00:31:55] INFO root fetch - processPackages [myofinder]: Remove: archive file [/home/abi/fetcher/tmp/myofinder-1.0.8.tar.gz]
+[2024-04-30 00:31:55] INFO root fetch - processPackages [myofinder]: Remove: archive file [/home/abi/fetcher/tmp/myofinder-1.0.9.tar.gz]
+[2024-04-30 00:31:55] INFO root fetch - main [MainThread]: End processing [myofinder]: success
+[2024-04-30 00:31:55] INFO root fetch - main [MainThread]: Store serial: [22991675]
