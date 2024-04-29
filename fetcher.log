@@ -680,3 +680,50 @@
 [2024-04-30 00:42:50] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
 [2024-04-30 00:42:50] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-04-30 00:42:50] INFO root fetch - main [MainThread]: Store serial: [22991714]
+[2024-04-30 00:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991714]
+[2024-04-30 00:44:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 00:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numalogic
+[2024-04-30 00:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rottnest
+[2024-04-30 00:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylinweb
+[2024-04-30 00:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kneeliverse
+[2024-04-30 00:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bingX-connector2
+[2024-04-30 00:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: servir-aces
+[2024-04-30 00:44:59] INFO root fetch - processPackages [pylinweb]: New version: [1.9] Old Version: [1.8]
+[2024-04-30 00:44:59] INFO root fetch - processPackages [rottnest]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-30 00:44:59] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/ba/31/fec242cdcb6e4e54d90486422939cfc7c99d3f95089f20968b9f89e1f50e/pylinweb-1.8.tar.gz
+[2024-04-30 00:44:59] WARNING root fetch - processPackages [kneeliverse]: Skipping, unable to determine old version
+[2024-04-30 00:44:59] INFO root fetch - main [MainThread]: End processing [kneeliverse] error
+[2024-04-30 00:44:59] INFO root fetch - processPackages [bingX-connector2]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 00:44:59] INFO root fetch - processPackages [servir-aces]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-30 00:44:59] INFO root fetch - processPackages [numalogic]: New version: [0.9.1a7] Old Version: [0.9.1a6]
+[2024-04-30 00:45:00] INFO root fetch - processPackages [rottnest]: Downloading https://files.pythonhosted.org/packages/4d/cd/21f43fcfcf760b0872a2f13ef506c57ab17d2b17252455c72aa294bc12ec/rottnest-1.3.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 00:45:00] WARNING root fetch - processPackages [rottnest]: Skipping package: exceeds size limit 14711381>=10485760
+[2024-04-30 00:45:00] INFO root fetch - main [MainThread]: End processing [rottnest] error
+[2024-04-30 00:45:00] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/2d/f4/59a922759c64c56ff8d26d3ce39f56f2c9b95c11d8365d1d74a65c6d9f06/numalogic-0.9.1a6.tar.gz
+[2024-04-30 00:45:00] INFO root fetch - processPackages [bingX-connector2]: Downloading https://files.pythonhosted.org/packages/28/99/26d01c86cb07c66d312d3964f61a37858c98ae9f53044c5e8e944e16f197/bingX-connector2-0.0.6.tar.gz
+[2024-04-30 00:45:00] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/6b/59/7d1f805fabc2c2487a411a7f7525de65130d325dae7ced0c08b2168ddc29/servir_aces-0.0.7.tar.gz
+[2024-04-30 00:45:00] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/85/a2/2fe618af6d758eaf174f3edb850056ad09a2f15d1f8c378faff70036e8ad/pylinweb-1.9.tar.gz
+[2024-04-30 00:45:00] INFO root fetch - processPackages [pylinweb]: executing diffoscope
+[2024-04-30 00:45:00] INFO root fetch - processPackages [pylinweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinweb-1.8.tar.gz tmp/pylinweb-1.9.tar.gz --markdown 20240430/p/pylinweb/1.8-1.9/README.md --exclude *.pyd
+[2024-04-30 00:45:00] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/09/07/73571a628e2bdc793e69611cda82ba90a83bd9c5be6fa32193e20affaf22/numalogic-0.9.1a7.tar.gz
+[2024-04-30 00:45:00] INFO root fetch - processPackages [bingX-connector2]: Downloading https://files.pythonhosted.org/packages/f0/e8/312079e0309a80d6b6a167d5c4f40967d85e55d1b4743677362102e9964d/bingX-connector2-0.0.7.tar.gz
+[2024-04-30 00:45:00] INFO root fetch - processPackages [bingX-connector2]: executing diffoscope
+[2024-04-30 00:45:00] INFO root fetch - processPackages [bingX-connector2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingX-connector2-0.0.6.tar.gz tmp/bingX-connector2-0.0.7.tar.gz --markdown 20240430/b/bingX-connector2/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 00:45:00] INFO root fetch - processPackages [numalogic]: executing diffoscope
+[2024-04-30 00:45:00] INFO root fetch - processPackages [numalogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic-0.9.1a6.tar.gz tmp/numalogic-0.9.1a7.tar.gz --markdown 20240430/n/numalogic/0.9.1a6-0.9.1a7/README.md --exclude *.pyd
+[2024-04-30 00:45:00] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/9f/eb/04bd0cee1f9aa221fc155435f32c7f2d4be98aa0e33ef27d43646570b098/servir_aces-0.0.9.tar.gz
+[2024-04-30 00:45:01] INFO root fetch - processPackages [pylinweb]: Remove: archive file [/home/abi/fetcher/tmp/pylinweb-1.8.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - processPackages [pylinweb]: Remove: archive file [/home/abi/fetcher/tmp/pylinweb-1.9.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - main [MainThread]: End processing [pylinweb]: success
+[2024-04-30 00:45:01] INFO root fetch - processPackages [servir-aces]: executing diffoscope
+[2024-04-30 00:45:01] INFO root fetch - processPackages [servir-aces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir_aces-0.0.7.tar.gz tmp/servir_aces-0.0.9.tar.gz --markdown 20240430/s/servir-aces/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-30 00:45:01] INFO root fetch - processPackages [bingX-connector2]: Remove: archive file [/home/abi/fetcher/tmp/bingX-connector2-0.0.6.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - processPackages [bingX-connector2]: Remove: archive file [/home/abi/fetcher/tmp/bingX-connector2-0.0.7.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - main [MainThread]: End processing [bingX-connector2]: success
+[2024-04-30 00:45:01] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1a6.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1a7.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - main [MainThread]: End processing [numalogic]: success
+[2024-04-30 00:45:01] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.7.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.9.tar.gz]
+[2024-04-30 00:45:01] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
+[2024-04-30 00:45:01] INFO root fetch - main [MainThread]: Store serial: [22991734]
