@@ -727,3 +727,30 @@
 [2024-04-30 00:45:01] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.9.tar.gz]
 [2024-04-30 00:45:01] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
 [2024-04-30 00:45:01] INFO root fetch - main [MainThread]: Store serial: [22991734]
+[2024-04-30 00:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991734]
+[2024-04-30 00:47:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 00:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: santex
+[2024-04-30 00:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chubl-pypi-action-test
+[2024-04-30 00:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCatFile
+[2024-04-30 00:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csulb-mock-student-dataset
+[2024-04-30 00:47:10] WARNING root fetch - processPackages [chubl-pypi-action-test]: Skipping, unable to determine old version
+[2024-04-30 00:47:10] INFO root fetch - main [MainThread]: End processing [chubl-pypi-action-test] error
+[2024-04-30 00:47:10] INFO root fetch - processPackages [santex]: New version: [1.1] Old Version: [1.0]
+[2024-04-30 00:47:10] INFO root fetch - processPackages [PyCatFile]: New version: [0.9.0] Old Version: [0.8.6]
+[2024-04-30 00:47:10] WARNING root fetch - processPackages [csulb-mock-student-dataset]: Skipping, unable to determine old version
+[2024-04-30 00:47:10] INFO root fetch - main [MainThread]: End processing [csulb-mock-student-dataset] error
+[2024-04-30 00:47:10] INFO root fetch - processPackages [santex]: Downloading https://files.pythonhosted.org/packages/4a/40/b8b6730230fcad3ac78e0e9f241f49593ef9294745443cbfe63700c82d9b/santex-1.0.tar.gz
+[2024-04-30 00:47:10] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/33/94/2a43a5b216b3693d0b7a8f172b765c4e2d292f5bff0ca2d5626bf5bd0a6f/pycatfile-0.8.6.tar.gz
+[2024-04-30 00:47:11] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/6b/3b/d902dbc2f68830161b92908f602551b089b9e03cc596bccc9c7eb0014fff/pycatfile-0.9.0.tar.gz
+[2024-04-30 00:47:11] INFO root fetch - processPackages [santex]: Downloading https://files.pythonhosted.org/packages/0a/03/3898edf6a649e80c86acca29e3e45d602f9d6f30a27222a9b906dbc8bf25/santex-1.1.tar.gz
+[2024-04-30 00:47:11] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-04-30 00:47:11] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatfile-0.8.6.tar.gz tmp/pycatfile-0.9.0.tar.gz --markdown 20240430/P/PyCatFile/0.8.6-0.9.0/README.md --exclude *.pyd
+[2024-04-30 00:47:11] INFO root fetch - processPackages [santex]: executing diffoscope
+[2024-04-30 00:47:11] INFO root fetch - processPackages [santex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/santex-1.0.tar.gz tmp/santex-1.1.tar.gz --markdown 20240430/s/santex/1.0-1.1/README.md --exclude *.pyd
+[2024-04-30 00:47:11] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.8.6.tar.gz]
+[2024-04-30 00:47:11] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.0.tar.gz]
+[2024-04-30 00:47:11] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-04-30 00:47:11] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.0.tar.gz]
+[2024-04-30 00:47:11] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.1.tar.gz]
+[2024-04-30 00:47:11] INFO root fetch - main [MainThread]: End processing [santex]: success
+[2024-04-30 00:47:11] INFO root fetch - main [MainThread]: Store serial: [22991748]
