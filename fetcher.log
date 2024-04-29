@@ -1279,3 +1279,33 @@
 [2024-04-30 01:22:01] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor_jlab_ext-5.0.6.tar.gz]
 [2024-04-30 01:22:01] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
 [2024-04-30 01:22:01] INFO root fetch - main [MainThread]: Store serial: [22992021]
+[2024-04-30 01:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992021]
+[2024-04-30 01:24:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 01:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: condynsate
+[2024-04-30 01:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradingview-indicators
+[2024-04-30 01:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dunamai
+[2024-04-30 01:24:10] INFO root fetch - processPackages [condynsate]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-30 01:24:10] INFO root fetch - processPackages [dunamai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-30 01:24:10] INFO root fetch - processPackages [tradingview-indicators]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2024-04-30 01:24:10] INFO root fetch - processPackages [dunamai]: Downloading https://files.pythonhosted.org/packages/d5/1c/5771298a326ccae3fbe36c548014a5cb7dd1ab4dba1da7dfeeb10d4606f0/dunamai-1.8.0.tar.gz
+[2024-04-30 01:24:10] INFO root fetch - processPackages [condynsate]: Downloading https://files.pythonhosted.org/packages/0a/97/3c758b4053ee91221614e8663ed743a8c7b84c264d15cfd0fd7ad2fb3a03/condynsate-0.6.5.tar.gz
+[2024-04-30 01:24:10] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/e2/f9/f56aa61f78d1bb043c5083f0d3ad2d13bd8b5090a3a24104c92b581f145e/tradingview_indicators-0.3.7.tar.gz
+[2024-04-30 01:24:11] INFO root fetch - processPackages [condynsate]: Downloading https://files.pythonhosted.org/packages/8a/e7/ed151f814e2efbe24c6d23905dfe5dde7d224af894f7caabbe625c383534/condynsate-0.6.6.tar.gz
+[2024-04-30 01:24:11] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/ce/f6/53647829fb507edc1f76dd4da20c208c38470f566bcb8dccbdcb4930b87a/tradingview_indicators-0.3.7.1.tar.gz
+[2024-04-30 01:24:11] INFO root fetch - processPackages [tradingview-indicators]: executing diffoscope
+[2024-04-30 01:24:11] INFO root fetch - processPackages [tradingview-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingview_indicators-0.3.7.tar.gz tmp/tradingview_indicators-0.3.7.1.tar.gz --markdown 20240430/t/tradingview-indicators/0.3.7-0.3.7.1/README.md --exclude *.pyd
+[2024-04-30 01:24:11] INFO root fetch - processPackages [condynsate]: executing diffoscope
+[2024-04-30 01:24:11] INFO root fetch - processPackages [condynsate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condynsate-0.6.5.tar.gz tmp/condynsate-0.6.6.tar.gz --markdown 20240430/c/condynsate/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-30 01:24:11] INFO root fetch - processPackages [dunamai]: Downloading https://files.pythonhosted.org/packages/0c/cb/0b91e5e7ef6ce73cfaf57867e2dea2c7db8b293fd5fd321b57e6942612d3/dunamai-1.9.0.tar.gz
+[2024-04-30 01:24:11] INFO root fetch - processPackages [dunamai]: executing diffoscope
+[2024-04-30 01:24:11] INFO root fetch - processPackages [dunamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dunamai-1.8.0.tar.gz tmp/dunamai-1.9.0.tar.gz --markdown 20240430/d/dunamai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-30 01:24:11] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.tar.gz]
+[2024-04-30 01:24:11] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.1.tar.gz]
+[2024-04-30 01:24:11] INFO root fetch - main [MainThread]: End processing [tradingview-indicators]: success
+[2024-04-30 01:24:11] INFO root fetch - processPackages [dunamai]: Remove: archive file [/home/abi/fetcher/tmp/dunamai-1.8.0.tar.gz]
+[2024-04-30 01:24:11] INFO root fetch - processPackages [dunamai]: Remove: archive file [/home/abi/fetcher/tmp/dunamai-1.9.0.tar.gz]
+[2024-04-30 01:24:11] INFO root fetch - main [MainThread]: End processing [dunamai]: success
+[2024-04-30 01:24:11] INFO root fetch - processPackages [condynsate]: Remove: archive file [/home/abi/fetcher/tmp/condynsate-0.6.5.tar.gz]
+[2024-04-30 01:24:11] INFO root fetch - processPackages [condynsate]: Remove: archive file [/home/abi/fetcher/tmp/condynsate-0.6.6.tar.gz]
+[2024-04-30 01:24:11] INFO root fetch - main [MainThread]: End processing [condynsate]: success
+[2024-04-30 01:24:11] INFO root fetch - main [MainThread]: Store serial: [22992030]
