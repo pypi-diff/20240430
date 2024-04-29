@@ -1366,3 +1366,45 @@
 [2024-04-30 01:26:26] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-30 01:26:26] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-30 01:26:26] INFO root fetch - main [MainThread]: Store serial: [22992049]
+[2024-04-30 01:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992049]
+[2024-04-30 01:28:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 01:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyppbox
+[2024-04-30 01:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tassosgeomath
+[2024-04-30 01:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-qchem
+[2024-04-30 01:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcli-core
+[2024-04-30 01:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-dbf
+[2024-04-30 01:28:36] INFO root fetch - processPackages [auto-qchem]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-30 01:28:36] WARNING root fetch - processPackages [tassosgeomath]: Skipping, unable to determine old version
+[2024-04-30 01:28:36] INFO root fetch - main [MainThread]: End processing [tassosgeomath] error
+[2024-04-30 01:28:36] INFO root fetch - processPackages [pyppbox]: New version: [3.6b3] Old Version: [3.6b2]
+[2024-04-30 01:28:36] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 01:28:36] INFO root fetch - processPackages [tap-dbf]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-30 01:28:36] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/16/43/b6db75a33bf0e3afaa9f4db2cac53a5d6db9b095209c5de3ac081071ec73/pyppbox-3.6b2.tar.gz
+[2024-04-30 01:28:36] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/8c/fd/c2893ff68b17efef3e89866496651328c9f3135ecbd943c57992c618be3f/auto-qchem-1.3.8.tar.gz
+[2024-04-30 01:28:36] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6b/c1/5e085a3c4ac830a12c44fcbc907efc2f7e0fa4ba2b9860331bce714220a6/hcli_core-0.8.0.tar.gz
+[2024-04-30 01:28:36] INFO root fetch - processPackages [tap-dbf]: Downloading https://files.pythonhosted.org/packages/d4/72/73ef9547144bd5d94dd82bde1c530099b51a54cecea9dbcf5136b063eb37/tap_dbf-0.1.4.tar.gz
+[2024-04-30 01:28:37] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/5f/ad/7fd26af66c0d0832a8252f93767c98a4857ac47d81f9628290c8db7e03c3/auto-qchem-1.3.9.tar.gz
+[2024-04-30 01:28:37] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/42/9f/3361b763c5da93c02d0aa6a52cce73ff5df53b5bca9789c2e8745d1ddd83/pyppbox-3.6b3.tar.gz
+[2024-04-30 01:28:37] INFO root fetch - processPackages [tap-dbf]: Downloading https://files.pythonhosted.org/packages/d8/89/8b9d11b86ddfcb1ec0ee67cedf025723fbb4ef800056485a5f88618ae16b/tap_dbf-0.1.5.tar.gz
+[2024-04-30 01:28:37] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2024-04-30 01:28:37] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-qchem-1.3.8.tar.gz tmp/auto-qchem-1.3.9.tar.gz --markdown 20240430/a/auto-qchem/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-30 01:28:37] INFO root fetch - processPackages [pyppbox]: executing diffoscope
+[2024-04-30 01:28:37] INFO root fetch - processPackages [pyppbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox-3.6b2.tar.gz tmp/pyppbox-3.6b3.tar.gz --markdown 20240430/p/pyppbox/3.6b2-3.6b3/README.md --exclude *.pyd
+[2024-04-30 01:28:37] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6f/b4/19d468c66cf3eb10188374e2181a4f8d497514ff41a3655bc844c82c229e/hcli_core-0.9.0.tar.gz
+[2024-04-30 01:28:37] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2024-04-30 01:28:37] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20240430/h/hcli-core/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 01:28:37] INFO root fetch - processPackages [tap-dbf]: executing diffoscope
+[2024-04-30 01:28:37] INFO root fetch - processPackages [tap-dbf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_dbf-0.1.4.tar.gz tmp/tap_dbf-0.1.5.tar.gz --markdown 20240430/t/tap-dbf/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-30 01:28:37] INFO root fetch - processPackages [auto-qchem]: Remove: archive file [/home/abi/fetcher/tmp/auto-qchem-1.3.8.tar.gz]
+[2024-04-30 01:28:37] INFO root fetch - processPackages [auto-qchem]: Remove: archive file [/home/abi/fetcher/tmp/auto-qchem-1.3.9.tar.gz]
+[2024-04-30 01:28:37] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2024-04-30 01:28:38] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.8.0.tar.gz]
+[2024-04-30 01:28:38] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
+[2024-04-30 01:28:38] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2024-04-30 01:28:38] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.6b2.tar.gz]
+[2024-04-30 01:28:38] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.6b3.tar.gz]
+[2024-04-30 01:28:38] INFO root fetch - main [MainThread]: End processing [pyppbox]: success
+[2024-04-30 01:28:38] INFO root fetch - processPackages [tap-dbf]: Remove: archive file [/home/abi/fetcher/tmp/tap_dbf-0.1.4.tar.gz]
+[2024-04-30 01:28:38] INFO root fetch - processPackages [tap-dbf]: Remove: archive file [/home/abi/fetcher/tmp/tap_dbf-0.1.5.tar.gz]
+[2024-04-30 01:28:38] INFO root fetch - main [MainThread]: End processing [tap-dbf]: success
+[2024-04-30 01:28:38] INFO root fetch - main [MainThread]: Store serial: [22992064]
