@@ -355,3 +355,69 @@
 [2024-04-30 00:18:49] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.1.2.tar.gz]
 [2024-04-30 00:18:49] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-04-30 00:18:49] INFO root fetch - main [MainThread]: Store serial: [22991594]
+[2024-04-30 00:20:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991594]
+[2024-04-30 00:20:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotsos
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gable
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffforms
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KrxRank
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: depthcharge-ms
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swiss-army-man
+[2024-04-30 00:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neuron-morphology
+[2024-04-30 00:20:58] INFO root fetch - processPackages [diffforms]: New version: [0.0.21] Old Version: [0.0.2]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [neuron-morphology]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [KrxRank]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-04-30 00:20:58] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/5b/c5/0f4558cd6ca5eed1e977381bccca73e72544fac7abdc6bc1c8b42a0a137f/diffforms-0.0.2.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [neuron-morphology]: Downloading https://files.pythonhosted.org/packages/3f/2b/b9966d8c997a77bd751e1c0b7f2472b25703265a74645ca596cf5767e955/neuron_morphology-1.2.0.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [KrxRank]: Downloading https://files.pythonhosted.org/packages/1f/af/68d3829b49e2f5ad3fc720ca4de7d5d0b83309a17620d98bb6b6ce17e8d4/krxrank-0.0.2.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/59/ed/a81046b02e3492e57d49286b017835f3fa143ae37623b4749ee6b21662e6/depthcharge_ms-0.4.3.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/f9/a0/b7519fe44fbab729391bbf118b8d20a04d631aa65cdeaac8debe667c72ea/diffforms-0.0.21.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [KrxRank]: Downloading https://files.pythonhosted.org/packages/6c/21/55d8be7af7ef95c08e39796a122bc3d12b5802fd4500b4c50c1ccdddcf7b/krxrank-0.0.3.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-04-30 00:20:58] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240430/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-30 00:20:58] INFO root fetch - processPackages [neuron-morphology]: Downloading https://files.pythonhosted.org/packages/c1/4c/e9268a8b6dff721d8c9463f426011c4817e25d3f3366d252378569f2cfca/neuron_morphology-1.2.1.tar.gz
+[2024-04-30 00:20:58] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-30 00:20:58] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240430/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-30 00:20:58] INFO root fetch - processPackages [KrxRank]: executing diffoscope
+[2024-04-30 00:20:58] INFO root fetch - processPackages [KrxRank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krxrank-0.0.2.tar.gz tmp/krxrank-0.0.3.tar.gz --markdown 20240430/K/KrxRank/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 00:20:59] INFO root fetch - processPackages [diffforms]: executing diffoscope
+[2024-04-30 00:20:59] INFO root fetch - processPackages [diffforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffforms-0.0.2.tar.gz tmp/diffforms-0.0.21.tar.gz --markdown 20240430/d/diffforms/0.0.2-0.0.21/README.md --exclude *.pyd
+[2024-04-30 00:20:59] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-04-30 00:20:59] INFO root fetch - processPackages [neuron-morphology]: executing diffoscope
+[2024-04-30 00:20:59] INFO root fetch - processPackages [neuron-morphology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuron_morphology-1.2.0.tar.gz tmp/neuron_morphology-1.2.1.tar.gz --markdown 20240430/n/neuron-morphology/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-30 00:20:59] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-04-30 00:20:59] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240430/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-04-30 00:20:59] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/19/c5/51c8e32579e191f906e048424d9e459f150e9ea787ae39f4188d24337731/depthcharge_ms-0.4.4.tar.gz
+[2024-04-30 00:20:59] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-04-30 00:20:59] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2024-04-30 00:20:59] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge_ms-0.4.3.tar.gz tmp/depthcharge_ms-0.4.4.tar.gz --markdown 20240430/d/depthcharge-ms/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-30 00:20:59] INFO root fetch - processPackages [KrxRank]: Remove: archive file [/home/abi/fetcher/tmp/krxrank-0.0.2.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - processPackages [KrxRank]: Remove: archive file [/home/abi/fetcher/tmp/krxrank-0.0.3.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - main [MainThread]: End processing [KrxRank]: success
+[2024-04-30 00:20:59] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.2.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.21.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - main [MainThread]: End processing [diffforms]: success
+[2024-04-30 00:20:59] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-04-30 00:20:59] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-04-30 00:21:00] INFO root fetch - processPackages [neuron-morphology]: Remove: archive file [/home/abi/fetcher/tmp/neuron_morphology-1.2.0.tar.gz]
+[2024-04-30 00:21:00] INFO root fetch - processPackages [neuron-morphology]: Remove: archive file [/home/abi/fetcher/tmp/neuron_morphology-1.2.1.tar.gz]
+[2024-04-30 00:21:00] INFO root fetch - main [MainThread]: End processing [neuron-morphology]: success
+[2024-04-30 00:21:00] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-30 00:21:00] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-30 00:21:00] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-30 00:21:00] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.3.tar.gz]
+[2024-04-30 00:21:00] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.4.tar.gz]
+[2024-04-30 00:21:00] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2024-04-30 00:21:00] INFO root fetch - main [MainThread]: Store serial: [22991616]
