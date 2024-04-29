@@ -796,3 +796,33 @@
 [2024-04-30 00:49:21] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.3.0.tar.gz]
 [2024-04-30 00:49:21] INFO root fetch - main [MainThread]: End processing [chemparse]: success
 [2024-04-30 00:49:21] INFO root fetch - main [MainThread]: Store serial: [22991764]
+[2024-04-30 00:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991764]
+[2024-04-30 00:51:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj_component_view
+[2024-04-30 00:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcor-shared
+[2024-04-30 00:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automated-interpretability
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dj_component_view]: New version: [2.0] Old Version: [1.2.0]
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dj_component_view]: Downloading https://files.pythonhosted.org/packages/26/68/70dd60dbbb36daceab35620ddb5041278018f136f2181b130d81448e106c/dj_component_view-1.2.0.tar.gz
+[2024-04-30 00:51:30] INFO root fetch - processPackages [automated-interpretability]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dcor-shared]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 00:51:30] INFO root fetch - processPackages [automated-interpretability]: Downloading https://files.pythonhosted.org/packages/73/31/6f875997dae3041392b87075c206b6a9583ddcae178f7cef222e78ad5afa/automated_interpretability-0.0.2.tar.gz
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dcor-shared]: Downloading https://files.pythonhosted.org/packages/70/5a/0659ee88f2b1b6ebe6f3111624d9ebac2bd047f47ecc7f35fcc2692a0d46/dcor_shared-0.9.0.tar.gz
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dj_component_view]: Downloading https://files.pythonhosted.org/packages/50/1b/a67b5b303b60a5696705215ef5680e6b03f3b2f6bc9d92fd1de465ad4fec/dj_component_view-2.0.tar.gz
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dj_component_view]: executing diffoscope
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dj_component_view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_component_view-1.2.0.tar.gz tmp/dj_component_view-2.0.tar.gz --markdown 20240430/d/dj_component_view/1.2.0-2.0/README.md --exclude *.pyd
+[2024-04-30 00:51:30] INFO root fetch - processPackages [automated-interpretability]: Downloading https://files.pythonhosted.org/packages/45/2a/678ab4be9564449bdbc3fbdf1aef774d1ba5efac1096c4ebe77ae89147fb/automated_interpretability-0.0.3.tar.gz
+[2024-04-30 00:51:30] INFO root fetch - processPackages [dcor-shared]: Downloading https://files.pythonhosted.org/packages/ee/cf/b749b180f7423327c9524c4e39795a15647c1fba69587b9f7e756a9b5439/dcor_shared-0.9.1.tar.gz
+[2024-04-30 00:51:31] INFO root fetch - processPackages [dcor-shared]: executing diffoscope
+[2024-04-30 00:51:31] INFO root fetch - processPackages [dcor-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_shared-0.9.0.tar.gz tmp/dcor_shared-0.9.1.tar.gz --markdown 20240430/d/dcor-shared/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 00:51:31] INFO root fetch - processPackages [automated-interpretability]: executing diffoscope
+[2024-04-30 00:51:31] INFO root fetch - processPackages [automated-interpretability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automated_interpretability-0.0.2.tar.gz tmp/automated_interpretability-0.0.3.tar.gz --markdown 20240430/a/automated-interpretability/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 00:51:31] INFO root fetch - processPackages [dj_component_view]: Remove: archive file [/home/abi/fetcher/tmp/dj_component_view-1.2.0.tar.gz]
+[2024-04-30 00:51:31] INFO root fetch - processPackages [dj_component_view]: Remove: archive file [/home/abi/fetcher/tmp/dj_component_view-2.0.tar.gz]
+[2024-04-30 00:51:31] INFO root fetch - main [MainThread]: End processing [dj_component_view]: success
+[2024-04-30 00:51:31] INFO root fetch - processPackages [automated-interpretability]: Remove: archive file [/home/abi/fetcher/tmp/automated_interpretability-0.0.2.tar.gz]
+[2024-04-30 00:51:31] INFO root fetch - processPackages [automated-interpretability]: Remove: archive file [/home/abi/fetcher/tmp/automated_interpretability-0.0.3.tar.gz]
+[2024-04-30 00:51:31] INFO root fetch - main [MainThread]: End processing [automated-interpretability]: success
+[2024-04-30 00:51:31] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.0.tar.gz]
+[2024-04-30 00:51:31] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.1.tar.gz]
+[2024-04-30 00:51:31] INFO root fetch - main [MainThread]: End processing [dcor-shared]: success
+[2024-04-30 00:51:31] INFO root fetch - main [MainThread]: Store serial: [22991775]
