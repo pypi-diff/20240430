@@ -605,3 +605,15 @@
 [2024-04-30 00:34:06] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
 [2024-04-30 00:34:06] INFO root fetch - main [MainThread]: End processing [dspygen]: success
 [2024-04-30 00:34:06] INFO root fetch - main [MainThread]: Store serial: [22991685]
+[2024-04-30 00:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991685]
+[2024-04-30 00:36:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 00:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circadipy
+[2024-04-30 00:36:16] INFO root fetch - processPackages [circadipy]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-30 00:36:16] INFO root fetch - processPackages [circadipy]: Downloading https://files.pythonhosted.org/packages/6b/f9/c9e8df00696346dd5bb9c8975a3ba4bb18cfd4e2756091d1121666ecf68c/circadipy-0.1.6.tar.gz
+[2024-04-30 00:36:17] INFO root fetch - processPackages [circadipy]: Downloading https://files.pythonhosted.org/packages/2a/55/36d3108cb5a7918a810203a964063eb7a193d2a2a8f1ed0ae8400325920f/circadipy-0.1.7.tar.gz
+[2024-04-30 00:36:17] INFO root fetch - processPackages [circadipy]: executing diffoscope
+[2024-04-30 00:36:17] INFO root fetch - processPackages [circadipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circadipy-0.1.6.tar.gz tmp/circadipy-0.1.7.tar.gz --markdown 20240430/c/circadipy/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-30 00:36:17] INFO root fetch - processPackages [circadipy]: Remove: archive file [/home/abi/fetcher/tmp/circadipy-0.1.6.tar.gz]
+[2024-04-30 00:36:17] INFO root fetch - processPackages [circadipy]: Remove: archive file [/home/abi/fetcher/tmp/circadipy-0.1.7.tar.gz]
+[2024-04-30 00:36:17] INFO root fetch - main [MainThread]: End processing [circadipy]: success
+[2024-04-30 00:36:17] INFO root fetch - main [MainThread]: Store serial: [22991689]
