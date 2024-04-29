@@ -163,3 +163,21 @@
 [2024-04-30 00:07:12] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.3.zip]
 [2024-04-30 00:07:12] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
 [2024-04-30 00:07:12] INFO root fetch - main [MainThread]: Store serial: [22991496]
+[2024-04-30 00:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991496]
+[2024-04-30 00:09:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stratigraph
+[2024-04-30 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nz-ua.python
+[2024-04-30 00:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bezier-interpolation
+[2024-04-30 00:09:21] INFO root fetch - processPackages [stratigraph]: New version: [0.1.1.dev0] Old Version: [0.1.1]
+[2024-04-30 00:09:21] WARNING root fetch - processPackages [bezier-interpolation]: Skipping, unable to determine old version
+[2024-04-30 00:09:21] INFO root fetch - main [MainThread]: End processing [bezier-interpolation] error
+[2024-04-30 00:09:21] INFO root fetch - processPackages [stratigraph]: Downloading https://files.pythonhosted.org/packages/47/21/98dc16ddb6a9c7185fa9ebfde4ad15bde6de8cea56f18a27e85aced56116/stratigraph-0.1.1.tar.gz
+[2024-04-30 00:09:21] WARNING root fetch - processPackages [nz-ua.python]: Skipping, unable to determine old version
+[2024-04-30 00:09:21] INFO root fetch - main [MainThread]: End processing [nz-ua.python] error
+[2024-04-30 00:09:21] INFO root fetch - processPackages [stratigraph]: Downloading https://files.pythonhosted.org/packages/b6/fe/9f93150284fb471e8dd36572a5e86f56122e3cc4c83f94d0a9f728f64967/stratigraph-0.1.1.dev0-py3-none-any.whl
+[2024-04-30 00:09:21] INFO root fetch - processPackages [stratigraph]: executing diffoscope
+[2024-04-30 00:09:21] INFO root fetch - processPackages [stratigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stratigraph-0.1.1.tar.gz tmp/stratigraph-0.1.1.dev0-py3-none-any.whl.zip --markdown 20240430/s/stratigraph/0.1.1-0.1.1.dev0/README.md --exclude *.pyd
+[2024-04-30 00:09:22] INFO root fetch - processPackages [stratigraph]: Remove: archive file [/home/abi/fetcher/tmp/stratigraph-0.1.1.tar.gz]
+[2024-04-30 00:09:22] INFO root fetch - processPackages [stratigraph]: Remove: archive file [/home/abi/fetcher/tmp/stratigraph-0.1.1.dev0-py3-none-any.whl.zip]
+[2024-04-30 00:09:22] INFO root fetch - main [MainThread]: End processing [stratigraph]: success
+[2024-04-30 00:09:22] INFO root fetch - main [MainThread]: Store serial: [22991507]
