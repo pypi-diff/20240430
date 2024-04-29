@@ -1794,3 +1794,69 @@
 [2024-04-30 01:52:50] INFO root fetch - processPackages [run-rx]: Remove: archive file [/home/abi/fetcher/tmp/run_rx-0.1.0.tar.gz]
 [2024-04-30 01:52:50] INFO root fetch - main [MainThread]: End processing [run-rx]: success
 [2024-04-30 01:52:50] INFO root fetch - main [MainThread]: Store serial: [22992258]
+[2024-04-30 01:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992258]
+[2024-04-30 01:54:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyufunc
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gep3
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: centralcli
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant-frontend
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enkacard
+[2024-04-30 01:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vapor-steam
+[2024-04-30 01:54:59] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [pyufunc]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [gep3]: New version: [0.4] Old Version: [0.3.4]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [centralcli]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [vapor-steam]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [enkacard]: New version: [3.3.7] Old Version: [3.3.6]
+[2024-04-30 01:54:59] INFO root fetch - processPackages [pyufunc]: Downloading https://files.pythonhosted.org/packages/54/6d/1f0c086bcc6941bc44a605944b23bb1d3672ae65ab346c20d205861f28d9/pyufunc-0.2.5.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/94/56/dd85ecfa2c0f6cd7936136b6ac91382e9700becfaa30a1b20bdf0878e9d1/gep3-0.3.4.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/52/98/307f3ab1980f74c28ddfc40bb846b20c0eb3da81d8d6dc5f6e532fb9800f/music-assistant-frontend-2.4.6.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/74/03/60897e0b6e7d429d31f6fd96cc574098aadf27484a0a24fc9d4201ee7545/centralcli-3.0.0.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [vapor-steam]: Downloading https://files.pythonhosted.org/packages/7d/da/f454f2f71c3c2ac2933e2898aa7bd4ae2afb4d13323f155b1808543f8410/vapor_steam-1.5.4.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/cb/ad/e1cb1df7456129a75d6db471585560c12774a55103d19d41bd1d754275af/enkacard-3.3.6.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-30 01:54:59] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240430/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-30 01:54:59] INFO root fetch - processPackages [pyufunc]: Downloading https://files.pythonhosted.org/packages/b4/f2/b62ec42b1c6365a325cd3e722f4f1497905f8dc18ffd36d77cb79a33127f/pyufunc-0.2.6.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/23/e5/58f3776625c029291ace3549bd4237e9297d4c694cabb7754bd1661f5ead/gep3-0.4.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/21/d5/779d97ab9d51b2a25a710fd312aee1061f56309a0c18a9be1c470be8fbda/centralcli-4.0.0.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [vapor-steam]: Downloading https://files.pythonhosted.org/packages/38/f0/09746d54ce09e1d87b1f4b10eb9d2e85a19ec4c0318d000b8ee2e0d75571/vapor_steam-1.5.5.tar.gz
+[2024-04-30 01:54:59] INFO root fetch - processPackages [pyufunc]: executing diffoscope
+[2024-04-30 01:54:59] INFO root fetch - processPackages [pyufunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyufunc-0.2.5.tar.gz tmp/pyufunc-0.2.6.tar.gz --markdown 20240430/p/pyufunc/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-30 01:54:59] INFO root fetch - processPackages [gep3]: executing diffoscope
+[2024-04-30 01:54:59] INFO root fetch - processPackages [gep3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gep3-0.3.4.tar.gz tmp/gep3-0.4.tar.gz --markdown 20240430/g/gep3/0.3.4-0.4/README.md --exclude *.pyd
+[2024-04-30 01:55:00] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2024-04-30 01:55:00] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-3.0.0.tar.gz tmp/centralcli-4.0.0.tar.gz --markdown 20240430/c/centralcli/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-30 01:55:00] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/96/00/a62387cfcc6e35bf92c37d5a5d23e0d290530d7b053b3039ebb32028e783/music-assistant-frontend-2.4.7.tar.gz
+[2024-04-30 01:55:00] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/17/b0/1277ecd00235c436254f7958a45babf4ee5f76927b1649fbf533bee37a33/enkacard-3.3.7-py3-none-any.whl
+[2024-04-30 01:55:00] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-30 01:55:00] INFO root fetch - processPackages [vapor-steam]: executing diffoscope
+[2024-04-30 01:55:00] INFO root fetch - processPackages [vapor-steam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vapor_steam-1.5.4.tar.gz tmp/vapor_steam-1.5.5.tar.gz --markdown 20240430/v/vapor-steam/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-30 01:55:00] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2024-04-30 01:55:00] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.4.6.tar.gz tmp/music-assistant-frontend-2.4.7.tar.gz --markdown 20240430/m/music-assistant-frontend/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-04-30 01:55:00] INFO root fetch - processPackages [gep3]: Remove: archive file [/home/abi/fetcher/tmp/gep3-0.3.4.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - processPackages [gep3]: Remove: archive file [/home/abi/fetcher/tmp/gep3-0.4.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - main [MainThread]: End processing [gep3]: success
+[2024-04-30 01:55:00] INFO root fetch - processPackages [pyufunc]: Remove: archive file [/home/abi/fetcher/tmp/pyufunc-0.2.5.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - processPackages [pyufunc]: Remove: archive file [/home/abi/fetcher/tmp/pyufunc-0.2.6.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - main [MainThread]: End processing [pyufunc]: success
+[2024-04-30 01:55:00] INFO root fetch - processPackages [vapor-steam]: Remove: archive file [/home/abi/fetcher/tmp/vapor_steam-1.5.4.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - processPackages [vapor-steam]: Remove: archive file [/home/abi/fetcher/tmp/vapor_steam-1.5.5.tar.gz]
+[2024-04-30 01:55:00] INFO root fetch - main [MainThread]: End processing [vapor-steam]: success
+[2024-04-30 01:55:02] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-3.0.0.tar.gz]
+[2024-04-30 01:55:02] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-4.0.0.tar.gz]
+[2024-04-30 01:55:02] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2024-04-30 01:55:02] INFO root fetch - processPackages [enkacard]: executing diffoscope
+[2024-04-30 01:55:02] INFO root fetch - processPackages [enkacard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkacard-3.3.6.tar.gz tmp/enkacard-3.3.7-py3-none-any.whl.zip --markdown 20240430/e/enkacard/3.3.6-3.3.7/README.md --exclude *.pyd
+[2024-04-30 01:55:10] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.6.tar.gz]
+[2024-04-30 01:55:10] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.7-py3-none-any.whl.zip]
+[2024-04-30 01:55:10] INFO root fetch - main [MainThread]: End processing [enkacard]: success
+[2024-04-30 01:55:17] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.4.6.tar.gz]
+[2024-04-30 01:55:17] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.4.7.tar.gz]
+[2024-04-30 01:55:17] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2024-04-30 01:55:17] INFO root fetch - main [MainThread]: Store serial: [22992277]
