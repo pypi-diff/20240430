@@ -656,3 +656,27 @@
 [2024-04-30 00:40:40] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-2.1.6.tar.gz]
 [2024-04-30 00:40:40] INFO root fetch - main [MainThread]: End processing [starrailcard]: success
 [2024-04-30 00:40:40] INFO root fetch - main [MainThread]: Store serial: [22991704]
+[2024-04-30 00:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991704]
+[2024-04-30 00:42:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylinweb
+[2024-04-30 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chubl-pypi-action-test
+[2024-04-30 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsl
+[2024-04-30 00:42:48] INFO root fetch - processPackages [pylinweb]: New version: [1.8] Old Version: [1.7]
+[2024-04-30 00:42:48] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/6a/9b/219963f30f7b065762620ddf94541d5bf2a8e9e71e37edc7e6375d11d3e8/pylinweb-1.7.tar.gz
+[2024-04-30 00:42:48] WARNING root fetch - processPackages [chubl-pypi-action-test]: Skipping, unable to determine old version
+[2024-04-30 00:42:48] INFO root fetch - main [MainThread]: End processing [chubl-pypi-action-test] error
+[2024-04-30 00:42:48] INFO root fetch - processPackages [parsl]: New version: [2024.4.8] Old Version: [2024.4.29]
+[2024-04-30 00:42:48] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/ad/9e/ecf5dd419e3306fc4fe118eedca13f325b7ff91df3169bdbe3807dbe1cb8/parsl-2024.4.29.tar.gz
+[2024-04-30 00:42:48] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/ba/31/fec242cdcb6e4e54d90486422939cfc7c99d3f95089f20968b9f89e1f50e/pylinweb-1.8.tar.gz
+[2024-04-30 00:42:48] INFO root fetch - processPackages [pylinweb]: executing diffoscope
+[2024-04-30 00:42:48] INFO root fetch - processPackages [pylinweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinweb-1.7.tar.gz tmp/pylinweb-1.8.tar.gz --markdown 20240430/p/pylinweb/1.7-1.8/README.md --exclude *.pyd
+[2024-04-30 00:42:49] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/94/de/893d796efa9e69eb525af6a6cc016f08b80bac955081b189080204720968/parsl-2024.4.8.tar.gz
+[2024-04-30 00:42:49] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-04-30 00:42:49] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.4.29.tar.gz tmp/parsl-2024.4.8.tar.gz --markdown 20240430/p/parsl/2024.4.29-2024.4.8/README.md --exclude *.pyd
+[2024-04-30 00:42:49] INFO root fetch - processPackages [pylinweb]: Remove: archive file [/home/abi/fetcher/tmp/pylinweb-1.7.tar.gz]
+[2024-04-30 00:42:49] INFO root fetch - processPackages [pylinweb]: Remove: archive file [/home/abi/fetcher/tmp/pylinweb-1.8.tar.gz]
+[2024-04-30 00:42:49] INFO root fetch - main [MainThread]: End processing [pylinweb]: success
+[2024-04-30 00:42:50] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.29.tar.gz]
+[2024-04-30 00:42:50] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
+[2024-04-30 00:42:50] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-04-30 00:42:50] INFO root fetch - main [MainThread]: Store serial: [22991714]
