@@ -109,3 +109,57 @@
 [2024-04-30 00:05:02] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.7.dev8.tar.gz]
 [2024-04-30 00:05:02] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-30 00:05:02] INFO root fetch - main [MainThread]: Store serial: [22991454]
+[2024-04-30 00:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991454]
+[2024-04-30 00:07:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npc-mvr
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiss-army-man
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fivetran-connector-sdk
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylinweb
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbcli-jm
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csulb-mock-dataset
+[2024-04-30 00:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dj_component_view
+[2024-04-30 00:07:11] INFO root fetch - processPackages [pylinweb]: New version: [1.7] Old Version: [1.6]
+[2024-04-30 00:07:11] INFO root fetch - processPackages [sbcli-jm]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-04-30 00:07:11] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-30 00:07:11] INFO root fetch - processPackages [dj_component_view]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-30 00:07:11] WARNING root fetch - processPackages [csulb-mock-dataset]: Skipping, unable to determine old version
+[2024-04-30 00:07:11] INFO root fetch - main [MainThread]: End processing [csulb-mock-dataset] error
+[2024-04-30 00:07:11] INFO root fetch - processPackages [npc-mvr]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-30 00:07:11] WARNING root fetch - processPackages [fivetran-connector-sdk]: Skipping, unable to determine old version
+[2024-04-30 00:07:11] INFO root fetch - main [MainThread]: End processing [fivetran-connector-sdk] error
+[2024-04-30 00:07:11] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/9e/48/72bb526da6cd9ea2fa48f13c9140f204bd50f496e955d3350a9bbc497421/sbcli_jm-4.1.2.zip
+[2024-04-30 00:07:11] INFO root fetch - processPackages [dj_component_view]: Downloading https://files.pythonhosted.org/packages/aa/b7/e7a2d9b683c50bc796b7ee34c53594b2672145924a9c0d433b03639fd04b/dj_component_view-1.1.0.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/12/b2/7fdf1a30450063bb2665ccf411ff1b7dc7293564e27687c8a01b890992d3/pylinweb-1.6.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [npc-mvr]: Downloading https://files.pythonhosted.org/packages/ee/b4/9db4904170f6c04e5b7f907ac4cce3681e5296635c2994d7926100ae42af/npc_mvr-0.1.4.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [dj_component_view]: Downloading https://files.pythonhosted.org/packages/26/68/70dd60dbbb36daceab35620ddb5041278018f136f2181b130d81448e106c/dj_component_view-1.2.0.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-04-30 00:07:11] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240430/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-30 00:07:11] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/6a/9b/219963f30f7b065762620ddf94541d5bf2a8e9e71e37edc7e6375d11d3e8/pylinweb-1.7.tar.gz
+[2024-04-30 00:07:11] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/d5/89/d25bcbda0308b8bcad61b99a37a6c65faa2307225539b15b86f72f471e53/sbcli_jm-4.1.3.zip
+[2024-04-30 00:07:11] INFO root fetch - processPackages [dj_component_view]: executing diffoscope
+[2024-04-30 00:07:11] INFO root fetch - processPackages [dj_component_view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_component_view-1.1.0.tar.gz tmp/dj_component_view-1.2.0.tar.gz --markdown 20240430/d/dj_component_view/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-30 00:07:11] INFO root fetch - processPackages [pylinweb]: executing diffoscope
+[2024-04-30 00:07:11] INFO root fetch - processPackages [pylinweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinweb-1.6.tar.gz tmp/pylinweb-1.7.tar.gz --markdown 20240430/p/pylinweb/1.6-1.7/README.md --exclude *.pyd
+[2024-04-30 00:07:11] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-30 00:07:11] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.1.2.zip tmp/sbcli_jm-4.1.3.zip --markdown 20240430/s/sbcli-jm/4.1.2-4.1.3/README.md --exclude *.pyd
+[2024-04-30 00:07:11] INFO root fetch - processPackages [npc-mvr]: Downloading https://files.pythonhosted.org/packages/00/14/4613b7925b3f1e3f1dd7978504acbf4106065770c37d04fffabc91715fe4/npc_mvr-0.1.5.tar.gz
+[2024-04-30 00:07:12] INFO root fetch - processPackages [npc-mvr]: executing diffoscope
+[2024-04-30 00:07:12] INFO root fetch - processPackages [npc-mvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_mvr-0.1.4.tar.gz tmp/npc_mvr-0.1.5.tar.gz --markdown 20240430/n/npc-mvr/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-30 00:07:12] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-04-30 00:07:12] INFO root fetch - processPackages [dj_component_view]: Remove: archive file [/home/abi/fetcher/tmp/dj_component_view-1.1.0.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - processPackages [dj_component_view]: Remove: archive file [/home/abi/fetcher/tmp/dj_component_view-1.2.0.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - main [MainThread]: End processing [dj_component_view]: success
+[2024-04-30 00:07:12] INFO root fetch - processPackages [npc-mvr]: Remove: archive file [/home/abi/fetcher/tmp/npc_mvr-0.1.4.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - processPackages [npc-mvr]: Remove: archive file [/home/abi/fetcher/tmp/npc_mvr-0.1.5.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - main [MainThread]: End processing [npc-mvr]: success
+[2024-04-30 00:07:12] INFO root fetch - processPackages [pylinweb]: Remove: archive file [/home/abi/fetcher/tmp/pylinweb-1.6.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - processPackages [pylinweb]: Remove: archive file [/home/abi/fetcher/tmp/pylinweb-1.7.tar.gz]
+[2024-04-30 00:07:12] INFO root fetch - main [MainThread]: End processing [pylinweb]: success
+[2024-04-30 00:07:12] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.2.zip]
+[2024-04-30 00:07:12] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.3.zip]
+[2024-04-30 00:07:12] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-30 00:07:12] INFO root fetch - main [MainThread]: Store serial: [22991496]
