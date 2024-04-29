@@ -937,3 +937,45 @@
 [2024-04-30 00:58:04] INFO root fetch - processPackages [dkist-service-configuration]: Remove: archive file [/home/abi/fetcher/tmp/dkist_service_configuration-2.0.0rc2.tar.gz]
 [2024-04-30 00:58:04] INFO root fetch - main [MainThread]: End processing [dkist-service-configuration]: success
 [2024-04-30 00:58:04] INFO root fetch - main [MainThread]: Store serial: [22991839]
+[2024-04-30 01:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991839]
+[2024-04-30 01:00:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chemparse
+[2024-04-30 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-napalm-plugin
+[2024-04-30 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okareo
+[2024-04-30 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoGitSemVer
+[2024-04-30 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplume-dhi
+[2024-04-30 01:00:13] INFO root fetch - processPackages [chemparse]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-30 01:00:13] INFO root fetch - processPackages [chemparse]: Downloading https://files.pythonhosted.org/packages/5e/78/9d6aa33c30d6a4c7e848b036aa0d114f444ccba5ae60517fe77882d418ce/chemparse-0.3.0.tar.gz
+[2024-04-30 01:00:13] INFO root fetch - processPackages [AutoGitSemVer]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-30 01:00:13] INFO root fetch - processPackages [netbox-napalm-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 01:00:13] WARNING root fetch - processPackages [pyplume-dhi]: Skipping, unable to determine old version
+[2024-04-30 01:00:13] INFO root fetch - main [MainThread]: End processing [pyplume-dhi] error
+[2024-04-30 01:00:13] INFO root fetch - processPackages [okareo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 01:00:14] INFO root fetch - processPackages [AutoGitSemVer]: Downloading https://files.pythonhosted.org/packages/3f/95/6170c869f7602b8143017a288e80fd282ed40748148e342b9ab1986d7545/AutoGitSemVer-0.7.1-py3-none-any.whl
+[2024-04-30 01:00:14] INFO root fetch - processPackages [netbox-napalm-plugin]: Downloading https://files.pythonhosted.org/packages/96/42/95920fd3ddf621ccc8817db7aebbefe8c1d99cb50a36bd75a34bda105737/netbox_napalm_plugin-0.1.8.tar.gz
+[2024-04-30 01:00:14] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/18/96/fbddf5611512c68bf19cf900058a104fa5564b54b0ea0452bcacad120aaa/okareo-0.0.8.tar.gz
+[2024-04-30 01:00:14] INFO root fetch - processPackages [chemparse]: Downloading https://files.pythonhosted.org/packages/cd/66/cf9523a93c27cb3b6e5479786a55177ccabe9cc4911817c6db7602d5bb03/chemparse-0.3.1.tar.gz
+[2024-04-30 01:00:14] INFO root fetch - processPackages [chemparse]: executing diffoscope
+[2024-04-30 01:00:14] INFO root fetch - processPackages [chemparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemparse-0.3.0.tar.gz tmp/chemparse-0.3.1.tar.gz --markdown 20240430/c/chemparse/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-30 01:00:14] INFO root fetch - processPackages [netbox-napalm-plugin]: Downloading https://files.pythonhosted.org/packages/0b/1e/ba058879bebcd53e66bc095c6e5dcad742e2cdcbe38c6f1b8846d8691dd7/netbox_napalm_plugin-0.1.9.tar.gz
+[2024-04-30 01:00:14] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/01/4e/9acae98a4a269d0d02e75ffb72ded2a238371b5382ab719a49fcd70f9394/okareo-0.0.9.tar.gz
+[2024-04-30 01:00:14] INFO root fetch - processPackages [AutoGitSemVer]: Downloading https://files.pythonhosted.org/packages/d9/7b/82ea40e8235cd5ba44045b0192e29d0f4b22d70d4017518e46062cd55181/AutoGitSemVer-0.7.2-py3-none-any.whl
+[2024-04-30 01:00:14] INFO root fetch - processPackages [AutoGitSemVer]: executing diffoscope
+[2024-04-30 01:00:14] INFO root fetch - processPackages [AutoGitSemVer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoGitSemVer-0.7.1-py3-none-any.whl.zip tmp/AutoGitSemVer-0.7.2-py3-none-any.whl.zip --markdown 20240430/A/AutoGitSemVer/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-30 01:00:14] INFO root fetch - processPackages [netbox-napalm-plugin]: executing diffoscope
+[2024-04-30 01:00:14] INFO root fetch - processPackages [netbox-napalm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_napalm_plugin-0.1.8.tar.gz tmp/netbox_napalm_plugin-0.1.9.tar.gz --markdown 20240430/n/netbox-napalm-plugin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 01:00:14] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.3.0.tar.gz]
+[2024-04-30 01:00:14] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.3.1.tar.gz]
+[2024-04-30 01:00:14] INFO root fetch - main [MainThread]: End processing [chemparse]: success
+[2024-04-30 01:00:14] INFO root fetch - processPackages [okareo]: executing diffoscope
+[2024-04-30 01:00:14] INFO root fetch - processPackages [okareo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okareo-0.0.8.tar.gz tmp/okareo-0.0.9.tar.gz --markdown 20240430/o/okareo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 01:00:15] INFO root fetch - processPackages [AutoGitSemVer]: Remove: archive file [/home/abi/fetcher/tmp/AutoGitSemVer-0.7.1-py3-none-any.whl.zip]
+[2024-04-30 01:00:15] INFO root fetch - processPackages [AutoGitSemVer]: Remove: archive file [/home/abi/fetcher/tmp/AutoGitSemVer-0.7.2-py3-none-any.whl.zip]
+[2024-04-30 01:00:15] INFO root fetch - main [MainThread]: End processing [AutoGitSemVer]: success
+[2024-04-30 01:00:15] INFO root fetch - processPackages [netbox-napalm-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_napalm_plugin-0.1.8.tar.gz]
+[2024-04-30 01:00:15] INFO root fetch - processPackages [netbox-napalm-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_napalm_plugin-0.1.9.tar.gz]
+[2024-04-30 01:00:15] INFO root fetch - main [MainThread]: End processing [netbox-napalm-plugin]: success
+[2024-04-30 01:00:15] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.8.tar.gz]
+[2024-04-30 01:00:15] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.9.tar.gz]
+[2024-04-30 01:00:15] INFO root fetch - main [MainThread]: End processing [okareo]: success
+[2024-04-30 01:00:15] INFO root fetch - main [MainThread]: Store serial: [22991856]
