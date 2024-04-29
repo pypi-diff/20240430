@@ -754,3 +754,45 @@
 [2024-04-30 00:47:11] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.1.tar.gz]
 [2024-04-30 00:47:11] INFO root fetch - main [MainThread]: End processing [santex]: success
 [2024-04-30 00:47:11] INFO root fetch - main [MainThread]: Store serial: [22991748]
+[2024-04-30 00:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991748]
+[2024-04-30 00:49:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecopipeline
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemparse
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: desgld
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdftext
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-audio
+[2024-04-30 00:49:20] INFO root fetch - processPackages [pdftext]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ecopipeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ovos-audio]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-30 00:49:20] INFO root fetch - processPackages [chemparse]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-30 00:49:20] WARNING root fetch - processPackages [desgld]: Skipping, unable to determine old version
+[2024-04-30 00:49:20] INFO root fetch - main [MainThread]: End processing [desgld] error
+[2024-04-30 00:49:20] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/bf/7c/1d793f0014190bf9a4ad13ca39a7bea97a446975bf024c463a6c6a8726bc/pdftext-0.2.1.tar.gz
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/d4/17/2d3fbb5841c27544510814bf6ec9bc14e395b73db018714288dfb969ac7a/ovos_audio-0.0.2a8-py3-none-any.whl
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/f7/3f/506605bf2d8c3c5e75b2003d292d334e29280e87883d5e46322cbb59f81f/ecopipeline-0.2.8.tar.gz
+[2024-04-30 00:49:20] INFO root fetch - processPackages [chemparse]: Downloading https://files.pythonhosted.org/packages/4a/7a/573d1ebff848dd6dca2c61d00fb4f8621a8599cdaab958bfe9b3a8e34765/chemparse-0.2.0.tar.gz
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/20/6f/67cf3b43303131b43946e6f35ff68018c8c9e3112db8aaf2d6dfc8545a60/ovos_audio-0.0.2a9-py3-none-any.whl
+[2024-04-30 00:49:20] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/ae/be/136f1608766ca0f745d094481588157e75a6919cbc5b339685363b118069/pdftext-0.3.0.tar.gz
+[2024-04-30 00:49:20] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/ec/19/08549131c0969471cfcfabfae13b56f5b6c3af0ba094806fc6aaf25ed5d3/ecopipeline-0.2.9.tar.gz
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ovos-audio]: executing diffoscope
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ovos-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip --markdown 20240430/o/ovos-audio/0.0.2a8-0.0.2a9/README.md --exclude *.pyd
+[2024-04-30 00:49:21] INFO root fetch - processPackages [pdftext]: executing diffoscope
+[2024-04-30 00:49:21] INFO root fetch - processPackages [pdftext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdftext-0.2.1.tar.gz tmp/pdftext-0.3.0.tar.gz --markdown 20240430/p/pdftext/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.2.8.tar.gz tmp/ecopipeline-0.2.9.tar.gz --markdown 20240430/e/ecopipeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 00:49:21] INFO root fetch - processPackages [chemparse]: Downloading https://files.pythonhosted.org/packages/5e/78/9d6aa33c30d6a4c7e848b036aa0d114f444ccba5ae60517fe77882d418ce/chemparse-0.3.0.tar.gz
+[2024-04-30 00:49:21] INFO root fetch - processPackages [chemparse]: executing diffoscope
+[2024-04-30 00:49:21] INFO root fetch - processPackages [chemparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemparse-0.2.0.tar.gz tmp/chemparse-0.3.0.tar.gz --markdown 20240430/c/chemparse/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.8.tar.gz]
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.9.tar.gz]
+[2024-04-30 00:49:21] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip]
+[2024-04-30 00:49:21] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip]
+[2024-04-30 00:49:21] INFO root fetch - main [MainThread]: End processing [ovos-audio]: success
+[2024-04-30 00:49:21] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.2.1.tar.gz]
+[2024-04-30 00:49:21] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.3.0.tar.gz]
+[2024-04-30 00:49:21] INFO root fetch - main [MainThread]: End processing [pdftext]: success
+[2024-04-30 00:49:21] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.2.0.tar.gz]
+[2024-04-30 00:49:21] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.3.0.tar.gz]
+[2024-04-30 00:49:21] INFO root fetch - main [MainThread]: End processing [chemparse]: success
+[2024-04-30 00:49:21] INFO root fetch - main [MainThread]: Store serial: [22991764]
