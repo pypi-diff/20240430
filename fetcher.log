@@ -1575,3 +1575,51 @@
 [2024-04-30 01:37:21] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.9.tar.gz]
 [2024-04-30 01:37:21] INFO root fetch - main [MainThread]: End processing [jz3]: success
 [2024-04-30 01:37:21] INFO root fetch - main [MainThread]: Store serial: [22992128]
+[2024-04-30 01:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992128]
+[2024-04-30 01:39:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octoflow
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fvgp
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ScriptCollection
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simfire
+[2024-04-30 01:39:30] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ScriptCollection]: New version: [3.5.0] Old Version: [3.4.9]
+[2024-04-30 01:39:30] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 01:39:30] INFO root fetch - processPackages [fvgp]: New version: [7.4.9] Old Version: [7.4.8]
+[2024-04-30 01:39:30] INFO root fetch - processPackages [simfire]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-30 01:39:30] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/6d/e3/446a963e5eb78b0db6864a3444a71c28fe53b596c32c44cd82de0caeb1ff/ScriptCollection-3.4.9-py3-none-any.whl
+[2024-04-30 01:39:30] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-04-30 01:39:30] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-30 01:39:30] INFO root fetch - processPackages [fvgp]: Downloading https://files.pythonhosted.org/packages/39/c0/554add3ca10aae6cab61e747c470aeccd4a9701260fbb59da15e78d86619/fvgp-7.4.8.tar.gz
+[2024-04-30 01:39:31] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/6c/78/a5f425be261dea300d634c844fe586c40a3d722e55d35a6276dd012126a0/simfire-1.5.8.tar.gz
+[2024-04-30 01:39:31] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/06/76/70253c42873af507a8bb0f3dab47d214174c8e4f5f5e966c4719f73c9899/ScriptCollection-3.5.0-py3-none-any.whl
+[2024-04-30 01:39:31] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2024-04-30 01:39:31] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.4.9-py3-none-any.whl.zip tmp/ScriptCollection-3.5.0-py3-none-any.whl.zip --markdown 20240430/S/ScriptCollection/3.4.9-3.5.0/README.md --exclude *.pyd
+[2024-04-30 01:39:31] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-30 01:39:31] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/1c/7d/5909cdcc6a117b46cd0ff01f10a21ad330ffe1a29451597440a4b0caef35/simfire-1.5.9.tar.gz
+[2024-04-30 01:39:31] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-30 01:39:31] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240430/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 01:39:31] INFO root fetch - processPackages [simfire]: executing diffoscope
+[2024-04-30 01:39:31] INFO root fetch - processPackages [simfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfire-1.5.8.tar.gz tmp/simfire-1.5.9.tar.gz --markdown 20240430/s/simfire/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-30 01:39:31] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-04-30 01:39:31] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.9-py3-none-any.whl.zip]
+[2024-04-30 01:39:31] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.5.0-py3-none-any.whl.zip]
+[2024-04-30 01:39:31] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2024-04-30 01:39:31] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-30 01:39:31] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-30 01:39:31] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-30 01:39:31] INFO root fetch - processPackages [fvgp]: Downloading https://files.pythonhosted.org/packages/2b/de/4b60834956798413d1b330a52dd1a3db38d41d64da62669f9e8825473d9b/fvgp-7.4.9.tar.gz
+[2024-04-30 01:39:32] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-04-30 01:39:32] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240430/f/fastapi/0.99.0-0.99.1/README.md --exclude *.pyd
+[2024-04-30 01:39:32] INFO root fetch - processPackages [simfire]: Remove: archive file [/home/abi/fetcher/tmp/simfire-1.5.8.tar.gz]
+[2024-04-30 01:39:32] INFO root fetch - processPackages [simfire]: Remove: archive file [/home/abi/fetcher/tmp/simfire-1.5.9.tar.gz]
+[2024-04-30 01:39:32] INFO root fetch - main [MainThread]: End processing [simfire]: success
+[2024-04-30 01:39:32] INFO root fetch - processPackages [fvgp]: executing diffoscope
+[2024-04-30 01:39:32] INFO root fetch - processPackages [fvgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fvgp-7.4.8.tar.gz tmp/fvgp-7.4.9.tar.gz --markdown 20240430/f/fvgp/7.4.8-7.4.9/README.md --exclude *.pyd
+[2024-04-30 01:39:33] INFO root fetch - processPackages [fvgp]: Remove: archive file [/home/abi/fetcher/tmp/fvgp-7.4.8.tar.gz]
+[2024-04-30 01:39:33] INFO root fetch - processPackages [fvgp]: Remove: archive file [/home/abi/fetcher/tmp/fvgp-7.4.9.tar.gz]
+[2024-04-30 01:39:33] INFO root fetch - main [MainThread]: End processing [fvgp]: success
+[2024-04-30 01:39:39] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-04-30 01:39:39] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-04-30 01:39:39] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-04-30 01:39:39] INFO root fetch - main [MainThread]: Store serial: [22992142]
