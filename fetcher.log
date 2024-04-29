@@ -1,0 +1,60 @@
+[2024-04-30 00:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991388]
+[2024-04-30 00:02:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybcf
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vrchatapi
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spyctl
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragdaemon
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mailslurp-client
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fancy-dataclass
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swiss-army-man
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ragdaemon]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-30 00:02:35] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-30 00:02:35] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-04-30 00:02:35] INFO root fetch - processPackages [spyctl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 00:02:35] INFO root fetch - processPackages [fancy-dataclass]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-30 00:02:35] WARNING root fetch - processPackages [pybcf]: Skipping, unable to determine old version
+[2024-04-30 00:02:35] INFO root fetch - main [MainThread]: End processing [pybcf] error
+[2024-04-30 00:02:35] INFO root fetch - processPackages [vrchatapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 00:02:35] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/0c/9a/bf80dfdba3c9fb8aee9b7957889f6c2fd30270b9f796fef96e60416da5a2/ragdaemon-0.3.0.tar.gz
+[2024-04-30 00:02:35] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-04-30 00:02:35] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/bb/4b/a59fb5994f1c8eeea8d7334ba6443b1b0932e7a4e48893d9354fc8d3f345/spyctl-0.9.8.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/91/66/68d10632d789a6362b238ea5d79beb1ff591a4ad5637d317e55dc0ae23bd/fancy_dataclass-0.4.1.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/ff/8b/88945a19e189b1baa0e126c157beab97590c6faf2c036b3fe1207854fd98/vrchatapi-1.9.0.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/c5/23/6ff2d4ae32ff6c7918ddd5ceae0878f9a7e0889b56f728183c2fb0642da3/ragdaemon-0.3.1.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-04-30 00:02:36] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240430/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-30 00:02:36] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-04-30 00:02:36] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240430/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-04-30 00:02:36] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/17/e2/55d6dccc2305d8b76d800790e1d7ff47b693a16756f7104d6b2119af9332/spyctl-0.9.9.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-04-30 00:02:36] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.3.0.tar.gz tmp/ragdaemon-0.3.1.tar.gz --markdown 20240430/r/ragdaemon/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-30 00:02:36] INFO root fetch - processPackages [spyctl]: executing diffoscope
+[2024-04-30 00:02:36] INFO root fetch - processPackages [spyctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyctl-0.9.8.tar.gz tmp/spyctl-0.9.9.tar.gz --markdown 20240430/s/spyctl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 00:02:36] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/4c/cc/4f4d3d2b865f5784be60e8ee4c993538bac9e5dde7647891cd68fee27fb3/vrchatapi-1.9.1.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/8c/c4/965b0e31c2ea3f0d2cd358615d55512f98a9f2e2f80576f91712cc0a0eaa/fancy_dataclass-0.4.2.tar.gz
+[2024-04-30 00:02:36] INFO root fetch - processPackages [vrchatapi]: executing diffoscope
+[2024-04-30 00:02:36] INFO root fetch - processPackages [vrchatapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrchatapi-1.9.0.tar.gz tmp/vrchatapi-1.9.1.tar.gz --markdown 20240430/v/vrchatapi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 00:02:37] INFO root fetch - processPackages [fancy-dataclass]: executing diffoscope
+[2024-04-30 00:02:37] INFO root fetch - processPackages [fancy-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_dataclass-0.4.1.tar.gz tmp/fancy_dataclass-0.4.2.tar.gz --markdown 20240430/f/fancy-dataclass/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-30 00:02:37] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-04-30 00:02:37] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-04-30 00:02:37] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-04-30 00:02:37] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.3.0.tar.gz]
+[2024-04-30 00:02:37] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.3.1.tar.gz]
+[2024-04-30 00:02:37] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-04-30 00:02:37] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.8.tar.gz]
+[2024-04-30 00:02:37] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.9.tar.gz]
+[2024-04-30 00:02:37] INFO root fetch - main [MainThread]: End processing [spyctl]: success
+[2024-04-30 00:02:38] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-04-30 00:02:38] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-04-30 00:02:38] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-04-30 00:02:38] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.1.tar.gz]
+[2024-04-30 00:02:38] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.2.tar.gz]
+[2024-04-30 00:02:38] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
+[2024-04-30 00:02:39] INFO root fetch - processPackages [vrchatapi]: Remove: archive file [/home/abi/fetcher/tmp/vrchatapi-1.9.0.tar.gz]
+[2024-04-30 00:02:39] INFO root fetch - processPackages [vrchatapi]: Remove: archive file [/home/abi/fetcher/tmp/vrchatapi-1.9.1.tar.gz]
+[2024-04-30 00:02:39] INFO root fetch - main [MainThread]: End processing [vrchatapi]: success
+[2024-04-30 00:02:39] INFO root fetch - main [MainThread]: Store serial: [22991417]
