@@ -1495,3 +1495,24 @@
 [2024-04-30 01:30:50] INFO root fetch - processPackages [trimesh]: Remove: archive file [/home/abi/fetcher/tmp/trimesh-4.3.2.tar.gz]
 [2024-04-30 01:30:50] INFO root fetch - main [MainThread]: End processing [trimesh]: success
 [2024-04-30 01:30:50] INFO root fetch - main [MainThread]: Store serial: [22992091]
+[2024-04-30 01:32:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992091]
+[2024-04-30 01:32:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 01:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-athena-analytics
+[2024-04-30 01:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viqi-api
+[2024-04-30 01:32:58] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2024-04-30 01:32:59] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2024-04-30 01:32:59] INFO root fetch - processPackages [jupyterlab-athena-analytics]: New version: [0.5.5] Old Version: [0.5.1]
+[2024-04-30 01:32:59] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/2e/c7/028d259d26596a72bd543cf3c850df76d55085ad26d5034fe0cdf468a6dc/jupyterlab_athena_analytics-0.5.1.tar.gz
+[2024-04-30 01:32:59] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2024-04-30 01:32:59] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2024-04-30 01:32:59] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20240430/v/viqi-api/0.6.4.8-0.6.4.9/README.md --exclude *.pyd
+[2024-04-30 01:32:59] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/23/e7/4329d4530bf97b3b175432b275688d74d6a53b0a449d164c5495bd996010/jupyterlab_athena_analytics-0.5.5.tar.gz
+[2024-04-30 01:32:59] INFO root fetch - processPackages [jupyterlab-athena-analytics]: executing diffoscope
+[2024-04-30 01:32:59] INFO root fetch - processPackages [jupyterlab-athena-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_athena_analytics-0.5.1.tar.gz tmp/jupyterlab_athena_analytics-0.5.5.tar.gz --markdown 20240430/j/jupyterlab-athena-analytics/0.5.1-0.5.5/README.md --exclude *.pyd
+[2024-04-30 01:32:59] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2024-04-30 01:32:59] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2024-04-30 01:32:59] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2024-04-30 01:33:00] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.1.tar.gz]
+[2024-04-30 01:33:00] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.5.tar.gz]
+[2024-04-30 01:33:00] INFO root fetch - main [MainThread]: End processing [jupyterlab-athena-analytics]: success
+[2024-04-30 01:33:00] INFO root fetch - main [MainThread]: Store serial: [22992096]
