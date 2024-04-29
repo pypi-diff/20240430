@@ -1169,3 +1169,30 @@
 [2024-04-30 01:11:15] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.9.0.tar.gz]
 [2024-04-30 01:11:15] INFO root fetch - main [MainThread]: End processing [aio-overpass]: success
 [2024-04-30 01:11:15] INFO root fetch - main [MainThread]: Store serial: [22991980]
+[2024-04-30 01:13:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991980]
+[2024-04-30 01:13:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 01:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansible-dev-tools
+[2024-04-30 01:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdbpy
+[2024-04-30 01:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v4-proto
+[2024-04-30 01:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExcelFormulaParser
+[2024-04-30 01:13:23] INFO root fetch - processPackages [ansible-dev-tools]: New version: [24.4.2] Old Version: [24.4.1]
+[2024-04-30 01:13:23] INFO root fetch - processPackages [v4-proto]: New version: [5.0.0.dev0] Old Version: [4.1.0.dev3]
+[2024-04-30 01:13:23] INFO root fetch - processPackages [ansible-dev-tools]: Downloading https://files.pythonhosted.org/packages/43/ef/24e9194e3eeb91f78f16d1858d5f538ecf9ab0addcf4b12b88b89de64c49/ansible_dev_tools-24.4.1.tar.gz
+[2024-04-30 01:13:23] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/84/0c/db9ea25ad023cf4680d58ad2f5cec754d520be512e989d6851e0c45bb1d9/v4-proto-4.1.0.dev3.tar.gz
+[2024-04-30 01:13:23] WARNING root fetch - processPackages [ExcelFormulaParser]: Skipping, unable to determine old version
+[2024-04-30 01:13:23] INFO root fetch - main [MainThread]: End processing [ExcelFormulaParser] error
+[2024-04-30 01:13:23] ERROR root fetch - processPackages [pdbpy]: Unable to get metadata: No such project 'pdbpy'
+[2024-04-30 01:13:23] INFO root fetch - main [MainThread]: End processing [pdbpy] error
+[2024-04-30 01:13:24] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/71/15/0bc0568edc00e5e4f1fcff2a40ea2584a765f14f97b0417327b194acec24/v4-proto-5.0.0.dev0.tar.gz
+[2024-04-30 01:13:24] INFO root fetch - processPackages [ansible-dev-tools]: Downloading https://files.pythonhosted.org/packages/a2/2f/99f0e3b8091d36417ec2e23b5dc60d3032b5ea41957499558b2937dfbd44/ansible_dev_tools-24.4.2.tar.gz
+[2024-04-30 01:13:24] INFO root fetch - processPackages [v4-proto]: executing diffoscope
+[2024-04-30 01:13:24] INFO root fetch - processPackages [v4-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v4-proto-4.1.0.dev3.tar.gz tmp/v4-proto-5.0.0.dev0.tar.gz --markdown 20240430/v/v4-proto/4.1.0.dev3-5.0.0.dev0/README.md --exclude *.pyd
+[2024-04-30 01:13:24] INFO root fetch - processPackages [ansible-dev-tools]: executing diffoscope
+[2024-04-30 01:13:24] INFO root fetch - processPackages [ansible-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_dev_tools-24.4.1.tar.gz tmp/ansible_dev_tools-24.4.2.tar.gz --markdown 20240430/a/ansible-dev-tools/24.4.1-24.4.2/README.md --exclude *.pyd
+[2024-04-30 01:13:25] INFO root fetch - processPackages [ansible-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_tools-24.4.1.tar.gz]
+[2024-04-30 01:13:25] INFO root fetch - processPackages [ansible-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_tools-24.4.2.tar.gz]
+[2024-04-30 01:13:25] INFO root fetch - main [MainThread]: End processing [ansible-dev-tools]: success
+[2024-04-30 01:13:26] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-4.1.0.dev3.tar.gz]
+[2024-04-30 01:13:26] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
+[2024-04-30 01:13:26] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
+[2024-04-30 01:13:26] INFO root fetch - main [MainThread]: Store serial: [22991996]
