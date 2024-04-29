@@ -1722,3 +1722,21 @@
 [2024-04-30 01:46:19] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-04-30 01:46:19] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-30 01:46:19] INFO root fetch - main [MainThread]: Store serial: [22992233]
+[2024-04-30 01:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992233]
+[2024-04-30 01:48:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: executorch
+[2024-04-30 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reasoner-validator
+[2024-04-30 01:48:28] INFO root fetch - processPackages [executorch]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-30 01:48:28] INFO root fetch - processPackages [reasoner-validator]: New version: [4.1.0] Old Version: [4.0.3]
+[2024-04-30 01:48:28] INFO root fetch - processPackages [executorch]: Downloading https://files.pythonhosted.org/packages/d8/cb/424fcbecab5a8b9eb1ddcf8ae0961d248c90a8421bef7d3516547e764a59/executorch-0.1.2.tar.gz
+[2024-04-30 01:48:28] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/e3/9d/1789c29528cf60fdad241a3af74d362c944c58e4a56bb5c6d04a56afa786/reasoner_validator-4.0.3.tar.gz
+[2024-04-30 01:48:28] INFO root fetch - processPackages [executorch]: Downloading https://files.pythonhosted.org/packages/96/03/a55bedbf1b1a2dda9bef981b55876b71e6b4b4b32cc0fb5064523c8b54c8/executorch-0.2.0-cp310-cp310-manylinux1_x86_64.whl
+[2024-04-30 01:48:28] WARNING root fetch - processPackages [executorch]: Skipping package: exceeds size limit 12584925>=10485760
+[2024-04-30 01:48:28] INFO root fetch - main [MainThread]: End processing [executorch] error
+[2024-04-30 01:48:28] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/b2/b7/bedbe54096dec766b0d93a4f88b35bb754df096db53584a7cf7ea41d3057/reasoner_validator-4.1.0.tar.gz
+[2024-04-30 01:48:29] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2024-04-30 01:48:29] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-4.0.3.tar.gz tmp/reasoner_validator-4.1.0.tar.gz --markdown 20240430/r/reasoner-validator/4.0.3-4.1.0/README.md --exclude *.pyd
+[2024-04-30 01:48:29] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.0.3.tar.gz]
+[2024-04-30 01:48:29] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.0.tar.gz]
+[2024-04-30 01:48:29] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2024-04-30 01:48:29] INFO root fetch - main [MainThread]: Store serial: [22992239]
