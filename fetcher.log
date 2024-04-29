@@ -421,3 +421,47 @@
 [2024-04-30 00:21:00] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.4.tar.gz]
 [2024-04-30 00:21:00] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
 [2024-04-30 00:21:00] INFO root fetch - main [MainThread]: Store serial: [22991616]
+[2024-04-30 00:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991616]
+[2024-04-30 00:23:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 00:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pringles-devs
+[2024-04-30 00:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: didcomm-messaging
+[2024-04-30 00:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedfind
+[2024-04-30 00:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syglass
+[2024-04-30 00:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeact
+[2024-04-30 00:23:10] INFO root fetch - processPackages [seeact]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-30 00:23:10] INFO root fetch - processPackages [seeact]: Downloading https://files.pythonhosted.org/packages/1a/26/92fd4ae255e5dd22d758313a457865dc28523f133df3e64c2fe934718260/seeact-0.2.3.tar.gz
+[2024-04-30 00:23:10] INFO root fetch - processPackages [didcomm-messaging]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2024-04-30 00:23:10] INFO root fetch - processPackages [syglass]: New version: [0.69] Old Version: [0.68]
+[2024-04-30 00:23:10] INFO root fetch - processPackages [fedfind]: New version: [5.1.4] Old Version: [5.1.3]
+[2024-04-30 00:23:10] INFO root fetch - processPackages [pringles-devs]: New version: [2.0.1] Old Version: [1.0.3]
+[2024-04-30 00:23:10] INFO root fetch - processPackages [didcomm-messaging]: Downloading https://files.pythonhosted.org/packages/46/90/3e12fbe547620e6981c85024437cb4ec95d6f687db547c345de0c9ed6efc/didcomm_messaging-0.1.1a0.tar.gz
+[2024-04-30 00:23:10] INFO root fetch - processPackages [syglass]: Downloading https://files.pythonhosted.org/packages/b9/46/36e573c7e08afc46e6cd4f535b1ec20fd3527bba6bbf52b2417ebf4330bf/syglass-0.68.tar.gz
+[2024-04-30 00:23:10] INFO root fetch - processPackages [pringles-devs]: Downloading https://files.pythonhosted.org/packages/37/b2/8258a4fa85192a3b7c76d558cc9dde71112acac9255fde784ba6e562353e/pringles-devs-1.0.3.tar.gz
+[2024-04-30 00:23:10] INFO root fetch - processPackages [fedfind]: Downloading https://files.pythonhosted.org/packages/87/57/8e1fd8a4c7d35109250d8889e1a54c9e300ab6ec8e486970486a257a06b9/fedfind-5.1.3.tar.gz
+[2024-04-30 00:23:10] INFO root fetch - processPackages [seeact]: Downloading https://files.pythonhosted.org/packages/e5/cd/5d139b73f2da15901b7a43d0248f4b7539f22bc21b398033d462fc8b8cf2/seeact-0.2.4.tar.gz
+[2024-04-30 00:23:11] INFO root fetch - processPackages [seeact]: executing diffoscope
+[2024-04-30 00:23:11] INFO root fetch - processPackages [seeact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeact-0.2.3.tar.gz tmp/seeact-0.2.4.tar.gz --markdown 20240430/s/seeact/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-30 00:23:11] INFO root fetch - processPackages [pringles-devs]: Downloading https://files.pythonhosted.org/packages/14/13/e717ed26215eccfd8cfec1c614633d60201f410434d58861e4efa175b990/pringles_devs-2.0.1.tar.gz
+[2024-04-30 00:23:11] INFO root fetch - processPackages [fedfind]: Downloading https://files.pythonhosted.org/packages/7c/ba/5b9f8ede3572d40423f58c87c3b1a77fcc6c5d464bd9ba07ebd89dd66b04/fedfind-5.1.4.tar.gz
+[2024-04-30 00:23:11] INFO root fetch - processPackages [didcomm-messaging]: Downloading https://files.pythonhosted.org/packages/07/ed/fb4fe560435cb63fc1dcb9a5c45471bb747f98eb6cccca9cd9353ceacc13/didcomm_messaging-0.1.1a1.tar.gz
+[2024-04-30 00:23:11] WARNING root fetch - processPackages [syglass]: Skipping package: exceeds size limit 78754450>=10485760
+[2024-04-30 00:23:11] INFO root fetch - main [MainThread]: End processing [syglass] error
+[2024-04-30 00:23:11] INFO root fetch - processPackages [pringles-devs]: executing diffoscope
+[2024-04-30 00:23:11] INFO root fetch - processPackages [pringles-devs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pringles-devs-1.0.3.tar.gz tmp/pringles_devs-2.0.1.tar.gz --markdown 20240430/p/pringles-devs/1.0.3-2.0.1/README.md --exclude *.pyd
+[2024-04-30 00:23:11] INFO root fetch - processPackages [didcomm-messaging]: executing diffoscope
+[2024-04-30 00:23:11] INFO root fetch - processPackages [didcomm-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didcomm_messaging-0.1.1a0.tar.gz tmp/didcomm_messaging-0.1.1a1.tar.gz --markdown 20240430/d/didcomm-messaging/0.1.1a0-0.1.1a1/README.md --exclude *.pyd
+[2024-04-30 00:23:11] INFO root fetch - processPackages [fedfind]: executing diffoscope
+[2024-04-30 00:23:11] INFO root fetch - processPackages [fedfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedfind-5.1.3.tar.gz tmp/fedfind-5.1.4.tar.gz --markdown 20240430/f/fedfind/5.1.3-5.1.4/README.md --exclude *.pyd
+[2024-04-30 00:23:11] INFO root fetch - processPackages [seeact]: Remove: archive file [/home/abi/fetcher/tmp/seeact-0.2.3.tar.gz]
+[2024-04-30 00:23:11] INFO root fetch - processPackages [seeact]: Remove: archive file [/home/abi/fetcher/tmp/seeact-0.2.4.tar.gz]
+[2024-04-30 00:23:11] INFO root fetch - main [MainThread]: End processing [seeact]: success
+[2024-04-30 00:23:11] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.1a0.tar.gz]
+[2024-04-30 00:23:11] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.1a1.tar.gz]
+[2024-04-30 00:23:11] INFO root fetch - main [MainThread]: End processing [didcomm-messaging]: success
+[2024-04-30 00:23:11] INFO root fetch - processPackages [pringles-devs]: Remove: archive file [/home/abi/fetcher/tmp/pringles-devs-1.0.3.tar.gz]
+[2024-04-30 00:23:11] INFO root fetch - processPackages [pringles-devs]: Remove: archive file [/home/abi/fetcher/tmp/pringles_devs-2.0.1.tar.gz]
+[2024-04-30 00:23:11] INFO root fetch - main [MainThread]: End processing [pringles-devs]: success
+[2024-04-30 00:23:18] INFO root fetch - processPackages [fedfind]: Remove: archive file [/home/abi/fetcher/tmp/fedfind-5.1.3.tar.gz]
+[2024-04-30 00:23:18] INFO root fetch - processPackages [fedfind]: Remove: archive file [/home/abi/fetcher/tmp/fedfind-5.1.4.tar.gz]
+[2024-04-30 00:23:18] INFO root fetch - main [MainThread]: End processing [fedfind]: success
+[2024-04-30 00:23:18] INFO root fetch - main [MainThread]: Store serial: [22991630]
