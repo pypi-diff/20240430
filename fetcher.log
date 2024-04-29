@@ -1011,3 +1011,86 @@
 [2024-04-30 01:04:30] INFO root fetch - processPackages [ansible-dev-environment]: Remove: archive file [/home/abi/fetcher/tmp/ansible_dev_environment-24.4.1.tar.gz]
 [2024-04-30 01:04:30] INFO root fetch - main [MainThread]: End processing [ansible-dev-environment]: success
 [2024-04-30 01:04:30] INFO root fetch - main [MainThread]: Store serial: [22991866]
+[2024-04-30 01:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991866]
+[2024-04-30 01:06:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpflib
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flwr-nightly
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake-connector-python
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoblocksai
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcor-control
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tach
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tutor-contrib-aspects
+[2024-04-30 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hikari-tanjun
+[2024-04-30 01:06:39] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240428] Old Version: [0.7.52b20240427]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [autoblocksai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/8b/cf/3b44c20da8e1d96e67571677d8c7338df84d68ab3ab51218dfdb7d165ff8/tmnt-0.7.52b20240427.tar.gz
+[2024-04-30 01:06:39] WARNING root fetch - processPackages [tach]: Skipping, unable to determine old version
+[2024-04-30 01:06:39] INFO root fetch - main [MainThread]: End processing [tach] error
+[2024-04-30 01:06:39] INFO root fetch - processPackages [hikari-tanjun]: New version: [2.9.0a1] Old Version: [2.8.1a1]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [dcor-control]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-30 01:06:39] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/28/f9/e5b5acc7871d533081fe8f9132f522e980e8b199203163960e49075a9376/tutor-contrib-aspects-0.98.0.tar.gz
+[2024-04-30 01:06:39] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240429] Old Version: [1.9.0.dev20240426]
+[2024-04-30 01:06:40] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/00/4f/f1230e4c9c1f29b9d6430f8fdba2f61eb407bdf2b64d53c82007af2c9afe/autoblocksai-0.0.8.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [hikari-tanjun]: Downloading https://files.pythonhosted.org/packages/71/30/c5ae4288e24c952ee5355ca028f61f166c17b12586c18cad6a2743f7c6a4/hikari-tanjun-2.8.1a1.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [snowflake-connector-python]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-30 01:06:40] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/3f/e0/b529d0b47a5311206f02a4a2afcb79c527dc87c6e48d5502150b3f89c584/dcor_control-0.9.4.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/23/86/505f46fdf936a8089d5d5fa201ae4ab334088c8be1e2a98d1e10f6d8c6d0/flwr_nightly-1.9.0.dev20240426.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/fd/b7/5b1c30340413fec87be0882e07ad8950610aa0e668f0dbb6dd097386d448/tmnt-0.7.52b20240428.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/dc/b7/f7f7c91176006dc6f51e9559f3bd584fd054c6f9c3d70e942646e6981139/tutor-contrib-aspects-0.99.0.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-30 01:06:40] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240427.tar.gz tmp/tmnt-0.7.52b20240428.tar.gz --markdown 20240430/t/tmnt/0.7.52b20240427-0.7.52b20240428/README.md --exclude *.pyd
+[2024-04-30 01:06:40] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-04-30 01:06:40] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-04-30 01:06:40] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2024-04-30 01:06:40] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.98.0.tar.gz tmp/tutor-contrib-aspects-0.99.0.tar.gz --markdown 20240430/t/tutor-contrib-aspects/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-30 01:06:40] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/7d/3f/bb0c01ca25bdf029927519d4da6f040d581a9ac7b177f0834322a4334d17/autoblocksai-0.0.9.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [snowflake-connector-python]: Downloading https://files.pythonhosted.org/packages/e0/61/609bfab9853dc7e751185b436eb53d4d23d1e9f21f76660d18f3bd66b552/snowflake_connector_python-3.9.0.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [hikari-tanjun]: Downloading https://files.pythonhosted.org/packages/19/06/58f326a3b2fb3b26f8f8461e44564b589fcba7b44e9737bfcc53cf7029a1/hikari-tanjun-2.9.0a1.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/f4/bf/16159f96fbd149e26a9ad282097b901cf94cd519c5314c228bc5c6e528ad/flwr_nightly-1.9.0.dev20240429.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [autoblocksai]: executing diffoscope
+[2024-04-30 01:06:40] INFO root fetch - processPackages [autoblocksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoblocksai-0.0.8.tar.gz tmp/autoblocksai-0.0.9.tar.gz --markdown 20240430/a/autoblocksai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 01:06:40] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/cd/c1/a7cdfc3e3b4c69171f93c66e26ce8a4d0b4c13c0f47406c81ed0a12433f0/dcor_control-0.9.5.tar.gz
+[2024-04-30 01:06:40] INFO root fetch - processPackages [hikari-tanjun]: executing diffoscope
+[2024-04-30 01:06:40] INFO root fetch - processPackages [hikari-tanjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-tanjun-2.8.1a1.tar.gz tmp/hikari-tanjun-2.9.0a1.tar.gz --markdown 20240430/h/hikari-tanjun/2.8.1a1-2.9.0a1/README.md --exclude *.pyd
+[2024-04-30 01:06:40] INFO root fetch - processPackages [dcor-control]: executing diffoscope
+[2024-04-30 01:06:40] INFO root fetch - processPackages [dcor-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_control-0.9.4.tar.gz tmp/dcor_control-0.9.5.tar.gz --markdown 20240430/d/dcor-control/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-30 01:06:40] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-30 01:06:40] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240426.tar.gz tmp/flwr_nightly-1.9.0.dev20240429.tar.gz --markdown 20240430/f/flwr-nightly/1.9.0.dev20240426-1.9.0.dev20240429/README.md --exclude *.pyd
+[2024-04-30 01:06:41] INFO root fetch - processPackages [snowflake-connector-python]: Downloading https://files.pythonhosted.org/packages/fe/fa/aecaf56d73fd0efd5149e515a560668fb41948bf492a69a1c088c887beb0/snowflake_connector_python-3.9.1.tar.gz
+[2024-04-30 01:06:41] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240427.tar.gz]
+[2024-04-30 01:06:41] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240428.tar.gz]
+[2024-04-30 01:06:41] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-30 01:06:41] INFO root fetch - processPackages [snowflake-connector-python]: executing diffoscope
+[2024-04-30 01:06:41] INFO root fetch - processPackages [snowflake-connector-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_connector_python-3.9.0.tar.gz tmp/snowflake_connector_python-3.9.1.tar.gz --markdown 20240430/s/snowflake-connector-python/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-30 01:06:41] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.8.tar.gz]
+[2024-04-30 01:06:41] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.9.tar.gz]
+[2024-04-30 01:06:41] INFO root fetch - main [MainThread]: End processing [autoblocksai]: success
+[2024-04-30 01:06:41] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.4.tar.gz]
+[2024-04-30 01:06:41] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.5.tar.gz]
+[2024-04-30 01:06:41] INFO root fetch - main [MainThread]: End processing [dcor-control]: success
+[2024-04-30 01:06:41] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-04-30 01:06:42] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.98.0.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.99.0.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2024-04-30 01:06:42] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240426.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240429.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-30 01:06:42] INFO root fetch - processPackages [hikari-tanjun]: Remove: archive file [/home/abi/fetcher/tmp/hikari-tanjun-2.8.1a1.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - processPackages [hikari-tanjun]: Remove: archive file [/home/abi/fetcher/tmp/hikari-tanjun-2.9.0a1.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - main [MainThread]: End processing [hikari-tanjun]: success
+[2024-04-30 01:06:42] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-04-30 01:06:42] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240430/f/fastapi/0.99.0-0.99.1/README.md --exclude *.pyd
+[2024-04-30 01:06:42] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python-3.9.0.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python-3.9.1.tar.gz]
+[2024-04-30 01:06:42] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python]: success
+[2024-04-30 01:06:49] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-04-30 01:06:49] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-04-30 01:06:49] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-04-30 01:06:49] INFO root fetch - main [MainThread]: Store serial: [22991917]
