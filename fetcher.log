@@ -617,3 +617,30 @@
 [2024-04-30 00:36:17] INFO root fetch - processPackages [circadipy]: Remove: archive file [/home/abi/fetcher/tmp/circadipy-0.1.7.tar.gz]
 [2024-04-30 00:36:17] INFO root fetch - main [MainThread]: End processing [circadipy]: success
 [2024-04-30 00:36:17] INFO root fetch - main [MainThread]: Store serial: [22991689]
+[2024-04-30 00:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991689]
+[2024-04-30 00:38:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 00:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai
+[2024-04-30 00:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mozmlops
+[2024-04-30 00:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starrail.py
+[2024-04-30 00:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: specsy
+[2024-04-30 00:38:27] WARNING root fetch - processPackages [mozmlops]: Skipping, unable to determine old version
+[2024-04-30 00:38:27] INFO root fetch - main [MainThread]: End processing [mozmlops] error
+[2024-04-30 00:38:27] WARNING root fetch - processPackages [starrail.py]: Skipping, unable to determine old version
+[2024-04-30 00:38:27] INFO root fetch - main [MainThread]: End processing [starrail.py] error
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: New version: [0.2.0] Old Version: [0.0.4]
+[2024-04-30 00:38:27] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: Downloading https://files.pythonhosted.org/packages/0e/7a/fee7b4980a31812dc58c77238a759a1e6c8633e03b7a4d93f3f0380cc2d0/specsy-0.0.4.tar.gz
+[2024-04-30 00:38:27] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: Downloading https://files.pythonhosted.org/packages/81/62/f784e2a93d19692a1619365868e13045601a318a02ff631fd71481160d53/specsy-0.2.0.tar.gz
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: executing diffoscope
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specsy-0.0.4.tar.gz tmp/specsy-0.2.0.tar.gz --markdown 20240430/s/specsy/0.0.4-0.2.0/README.md --exclude *.pyd
+[2024-04-30 00:38:27] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-04-30 00:38:27] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-04-30 00:38:27] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240430/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.0.4.tar.gz]
+[2024-04-30 00:38:27] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.2.0.tar.gz]
+[2024-04-30 00:38:27] INFO root fetch - main [MainThread]: End processing [specsy]: success
+[2024-04-30 00:38:28] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-04-30 00:38:28] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-04-30 00:38:28] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-04-30 00:38:28] INFO root fetch - main [MainThread]: Store serial: [22991701]
