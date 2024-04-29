@@ -226,3 +226,75 @@
 [2024-04-30 00:13:44] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.2.0.tar.gz]
 [2024-04-30 00:13:44] INFO root fetch - main [MainThread]: End processing [specsy]: success
 [2024-04-30 00:13:44] INFO root fetch - main [MainThread]: Store serial: [22991530]
+[2024-04-30 00:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991530]
+[2024-04-30 00:15:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbp
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imt-ring
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-gadzooks
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viso-sdk-python
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csulb-mock-dataset
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2024-04-30 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbcli-jm
+[2024-04-30 00:15:52] WARNING root fetch - processPackages [odbp]: Skipping, unable to determine old version
+[2024-04-30 00:15:52] INFO root fetch - main [MainThread]: End processing [odbp] error
+[2024-04-30 00:15:52] WARNING root fetch - processPackages [csulb-mock-dataset]: Skipping, unable to determine old version
+[2024-04-30 00:15:52] INFO root fetch - main [MainThread]: End processing [csulb-mock-dataset] error
+[2024-04-30 00:15:53] INFO root fetch - processPackages [sbcli-jm]: New version: [4.1.4] Old Version: [4.1.3]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [imt-ring]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [py-gadzooks]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/d5/89/d25bcbda0308b8bcad61b99a37a6c65faa2307225539b15b86f72f471e53/sbcli_jm-4.1.3.zip
+[2024-04-30 00:15:53] INFO root fetch - processPackages [viso-sdk-python]: New version: [1.0.4] Old Version: [1.0.1]
+[2024-04-30 00:15:53] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [py-gadzooks]: Downloading https://files.pythonhosted.org/packages/8a/7d/f028a6977189bcd998ea50ebd1576b0c4ed0a4562db9a761b81302dd3374/py_gadzooks-0.2.3.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/25/55/d42458b1d0959561c152177fa78f24741627e8b760b5cb2993c8df1ae4ef/imt_ring-1.3.3.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [viso-sdk-python]: Downloading https://files.pythonhosted.org/packages/ed/d6/88fd6690fa0f8da44a7e725d3211c6a8affc5014a841df1e336ba4a974a0/viso-sdk-python-1.0.1.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240430/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-30 00:15:53] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/89/bc/2db84ba391ec3ae8505fdb9323350c1b3a4f84a2f764ce2cce9e2e99da23/sbcli_jm-4.1.4.zip
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-30 00:15:53] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240430/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-30 00:15:53] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-30 00:15:53] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240430/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-30 00:15:53] INFO root fetch - processPackages [py-gadzooks]: Downloading https://files.pythonhosted.org/packages/c9/43/2a8c18348e9a99955120d043b09b76efa07a1e2a293c4bc01ef93932f724/py_gadzooks-0.2.4.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-30 00:15:53] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.1.3.zip tmp/sbcli_jm-4.1.4.zip --markdown 20240430/s/sbcli-jm/4.1.3-4.1.4/README.md --exclude *.pyd
+[2024-04-30 00:15:53] INFO root fetch - processPackages [viso-sdk-python]: Downloading https://files.pythonhosted.org/packages/47/40/a28127b8010dfb40d1e78c4658126264a54677aca0ec5e07538fa1a9739c/viso-sdk-python-1.0.4.tar.gz
+[2024-04-30 00:15:53] INFO root fetch - processPackages [py-gadzooks]: executing diffoscope
+[2024-04-30 00:15:53] INFO root fetch - processPackages [py-gadzooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_gadzooks-0.2.3.tar.gz tmp/py_gadzooks-0.2.4.tar.gz --markdown 20240430/p/py-gadzooks/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-30 00:15:54] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/f0/28/0ce809a8f8db7093f2e90bfe77667a57c4ef4c52a207fa4b167fbbbb5de6/imt_ring-1.3.4.tar.gz
+[2024-04-30 00:15:54] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-30 00:15:54] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-30 00:15:54] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-30 00:15:54] INFO root fetch - processPackages [viso-sdk-python]: executing diffoscope
+[2024-04-30 00:15:54] INFO root fetch - processPackages [viso-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viso-sdk-python-1.0.1.tar.gz tmp/viso-sdk-python-1.0.4.tar.gz --markdown 20240430/v/viso-sdk-python/1.0.1-1.0.4/README.md --exclude *.pyd
+[2024-04-30 00:15:54] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-30 00:15:54] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-30 00:15:54] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-30 00:15:54] INFO root fetch - processPackages [py-gadzooks]: Remove: archive file [/home/abi/fetcher/tmp/py_gadzooks-0.2.3.tar.gz]
+[2024-04-30 00:15:54] INFO root fetch - processPackages [py-gadzooks]: Remove: archive file [/home/abi/fetcher/tmp/py_gadzooks-0.2.4.tar.gz]
+[2024-04-30 00:15:54] INFO root fetch - main [MainThread]: End processing [py-gadzooks]: success
+[2024-04-30 00:15:54] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.3.zip]
+[2024-04-30 00:15:54] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.4.zip]
+[2024-04-30 00:15:54] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-30 00:15:55] INFO root fetch - processPackages [imt-ring]: executing diffoscope
+[2024-04-30 00:15:55] INFO root fetch - processPackages [imt-ring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt_ring-1.3.3.tar.gz tmp/imt_ring-1.3.4.tar.gz --markdown 20240430/i/imt-ring/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-30 00:15:56] INFO root fetch - processPackages [viso-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/viso-sdk-python-1.0.1.tar.gz]
+[2024-04-30 00:15:56] INFO root fetch - processPackages [viso-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/viso-sdk-python-1.0.4.tar.gz]
+[2024-04-30 00:15:56] INFO root fetch - main [MainThread]: End processing [viso-sdk-python]: success
+[2024-04-30 00:15:57] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt_ring-1.3.3.tar.gz]
+[2024-04-30 00:15:57] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt_ring-1.3.4.tar.gz]
+[2024-04-30 00:15:57] INFO root fetch - main [MainThread]: End processing [imt-ring]: success
+[2024-04-30 00:15:57] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-30 00:15:57] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-30 00:15:57] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-30 00:15:57] INFO root fetch - main [MainThread]: Store serial: [22991576]
