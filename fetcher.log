@@ -1740,3 +1740,36 @@
 [2024-04-30 01:48:29] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.0.tar.gz]
 [2024-04-30 01:48:29] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
 [2024-04-30 01:48:29] INFO root fetch - main [MainThread]: Store serial: [22992239]
+[2024-04-30 01:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992239]
+[2024-04-30 01:50:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 01:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polleroid
+[2024-04-30 01:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-04-30 01:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfreader
+[2024-04-30 01:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmodel
+[2024-04-30 01:50:38] INFO root fetch - processPackages [pdfreader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 01:50:38] INFO root fetch - processPackages [sqlmodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 01:50:38] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-30 01:50:38] INFO root fetch - processPackages [pdfreader]: Downloading https://files.pythonhosted.org/packages/34/15/423f8d3d6435e86a7e1abc813ea1ca3fc3e948567469ac5004f5099742ac/pdfreader-0.1.8.tar.gz
+[2024-04-30 01:50:38] WARNING root fetch - processPackages [polleroid]: Skipping, unable to determine old version
+[2024-04-30 01:50:38] INFO root fetch - main [MainThread]: End processing [polleroid] error
+[2024-04-30 01:50:38] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-30 01:50:39] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/64/ba/ad07004536e94e71f99aaae5e667bb6f7230f7e0fbc0b0266e88960dda5f/sqlmodel-0.0.8.tar.gz
+[2024-04-30 01:50:39] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-30 01:50:39] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/25/eb/8b46aa88cb7f298e663be6be2d90782f203b5f6c79679afd969fc3f7b455/sqlmodel-0.0.9.tar.gz
+[2024-04-30 01:50:39] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-30 01:50:39] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240430/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-30 01:50:39] INFO root fetch - processPackages [pdfreader]: Downloading https://files.pythonhosted.org/packages/72/ed/b929eec94215eb7576037fb6c71d3c039e38140ae4fd575eef4a844c013a/pdfreader-0.1.9.tar.gz
+[2024-04-30 01:50:39] INFO root fetch - processPackages [sqlmodel]: executing diffoscope
+[2024-04-30 01:50:39] INFO root fetch - processPackages [sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel-0.0.8.tar.gz tmp/sqlmodel-0.0.9.tar.gz --markdown 20240430/s/sqlmodel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 01:50:39] INFO root fetch - processPackages [pdfreader]: executing diffoscope
+[2024-04-30 01:50:39] INFO root fetch - processPackages [pdfreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfreader-0.1.8.tar.gz tmp/pdfreader-0.1.9.tar.gz --markdown 20240430/p/pdfreader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 01:50:39] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-30 01:50:39] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-30 01:50:39] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-30 01:50:39] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.8.tar.gz]
+[2024-04-30 01:50:39] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.9.tar.gz]
+[2024-04-30 01:50:39] INFO root fetch - main [MainThread]: End processing [sqlmodel]: success
+[2024-04-30 01:50:40] INFO root fetch - processPackages [pdfreader]: Remove: archive file [/home/abi/fetcher/tmp/pdfreader-0.1.8.tar.gz]
+[2024-04-30 01:50:40] INFO root fetch - processPackages [pdfreader]: Remove: archive file [/home/abi/fetcher/tmp/pdfreader-0.1.9.tar.gz]
+[2024-04-30 01:50:40] INFO root fetch - main [MainThread]: End processing [pdfreader]: success
+[2024-04-30 01:50:40] INFO root fetch - main [MainThread]: Store serial: [22992252]
