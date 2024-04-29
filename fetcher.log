@@ -916,3 +916,24 @@
 [2024-04-30 00:55:53] INFO root fetch - processPackages [pybcf]: Remove: archive file [/home/abi/fetcher/tmp/pybcf-1.0.1.tar.gz]
 [2024-04-30 00:55:53] INFO root fetch - main [MainThread]: End processing [pybcf]: success
 [2024-04-30 00:55:53] INFO root fetch - main [MainThread]: Store serial: [22991835]
+[2024-04-30 00:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22991835]
+[2024-04-30 00:58:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-service-configuration
+[2024-04-30 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemparse
+[2024-04-30 00:58:03] INFO root fetch - processPackages [dkist-service-configuration]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-04-30 00:58:03] INFO root fetch - processPackages [chemparse]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-30 00:58:03] INFO root fetch - processPackages [dkist-service-configuration]: Downloading https://files.pythonhosted.org/packages/18/6f/a612db176e5a20d711e6c51c0c6b0e63a4559802ba8a5cac974926a6fbe2/dkist_service_configuration-2.0.0rc1.tar.gz
+[2024-04-30 00:58:03] INFO root fetch - processPackages [chemparse]: Downloading https://files.pythonhosted.org/packages/4a/7a/573d1ebff848dd6dca2c61d00fb4f8621a8599cdaab958bfe9b3a8e34765/chemparse-0.2.0.tar.gz
+[2024-04-30 00:58:03] INFO root fetch - processPackages [chemparse]: Downloading https://files.pythonhosted.org/packages/5e/78/9d6aa33c30d6a4c7e848b036aa0d114f444ccba5ae60517fe77882d418ce/chemparse-0.3.0.tar.gz
+[2024-04-30 00:58:03] INFO root fetch - processPackages [dkist-service-configuration]: Downloading https://files.pythonhosted.org/packages/1d/28/653fbb998b01a4303772f9cd21e794238ec3d86a32a125eec9b3da1deba9/dkist_service_configuration-2.0.0rc2.tar.gz
+[2024-04-30 00:58:03] INFO root fetch - processPackages [chemparse]: executing diffoscope
+[2024-04-30 00:58:03] INFO root fetch - processPackages [chemparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemparse-0.2.0.tar.gz tmp/chemparse-0.3.0.tar.gz --markdown 20240430/c/chemparse/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-30 00:58:03] INFO root fetch - processPackages [dkist-service-configuration]: executing diffoscope
+[2024-04-30 00:58:03] INFO root fetch - processPackages [dkist-service-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_service_configuration-2.0.0rc1.tar.gz tmp/dkist_service_configuration-2.0.0rc2.tar.gz --markdown 20240430/d/dkist-service-configuration/2.0.0rc1-2.0.0rc2/README.md --exclude *.pyd
+[2024-04-30 00:58:04] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.2.0.tar.gz]
+[2024-04-30 00:58:04] INFO root fetch - processPackages [chemparse]: Remove: archive file [/home/abi/fetcher/tmp/chemparse-0.3.0.tar.gz]
+[2024-04-30 00:58:04] INFO root fetch - main [MainThread]: End processing [chemparse]: success
+[2024-04-30 00:58:04] INFO root fetch - processPackages [dkist-service-configuration]: Remove: archive file [/home/abi/fetcher/tmp/dkist_service_configuration-2.0.0rc1.tar.gz]
+[2024-04-30 00:58:04] INFO root fetch - processPackages [dkist-service-configuration]: Remove: archive file [/home/abi/fetcher/tmp/dkist_service_configuration-2.0.0rc2.tar.gz]
+[2024-04-30 00:58:04] INFO root fetch - main [MainThread]: End processing [dkist-service-configuration]: success
+[2024-04-30 00:58:04] INFO root fetch - main [MainThread]: Store serial: [22991839]
