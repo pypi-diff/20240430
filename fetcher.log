@@ -20737,3 +20737,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:01:31] WARNING root fetch - processPackages [openimis-be-report]: Skipping package: exceeds size limit 13621299>=10485760
 [2024-04-30 11:01:31] INFO root fetch - main [MainThread]: End processing [openimis-be-report] error
 [2024-04-30 11:01:31] INFO root fetch - main [MainThread]: Store serial: [22999213]
+[2024-04-30 11:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999213]
+[2024-04-30 11:03:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 11:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mosaik-heatpump
+[2024-04-30 11:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migration-db
+[2024-04-30 11:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-cost-analysis
+[2024-04-30 11:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scs-analysis
+[2024-04-30 11:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assertai-alpha-deployer
+[2024-04-30 11:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openstef
+[2024-04-30 11:03:41] INFO root fetch - processPackages [migration-db]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-30 11:03:41] WARNING root fetch - processPackages [assertai-alpha-deployer]: Skipping, unable to determine old version
+[2024-04-30 11:03:41] INFO root fetch - main [MainThread]: End processing [assertai-alpha-deployer] error
+[2024-04-30 11:03:42] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/c0/21/a88f7d3fd89e39e6679d10af512c191b11f0e32d5accdf4f7d9c205287ed/migration_db-1.0.3.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [mosaik-heatpump]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 11:03:42] INFO root fetch - processPackages [scs-analysis]: New version: [3.8.6] Old Version: [3.8.3]
+[2024-04-30 11:03:42] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-30 11:03:42] INFO root fetch - processPackages [openstef]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-04-30 11:03:42] INFO root fetch - processPackages [mosaik-heatpump]: Downloading https://files.pythonhosted.org/packages/ab/ce/4ad923b1d076987cddc0aed071c770f396c926c16bb14089a0e67efe4079/mosaik_heatpump-1.0.0.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/40/e1/0d95c1f25fc43d326ddc5e71bacf0930f98c1f194fffdea00403df9067d5/scs_analysis-3.8.3.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/a9/ca/0ab178d9f50ee4260fdc377d915b49d57bce978b56773f1c26bfbb1f800f/openstef-3.4.8.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/b3/21/b45efacad48acdc32d16780ba570ff1f930a6390954defa70a831711535d/migration_db-1.0.4.tar.gz
+[2024-04-30 11:03:42] WARNING root fetch - processPackages [openstef]: Skipping package: exceeds size limit 62278984>=10485760
+[2024-04-30 11:03:42] INFO root fetch - main [MainThread]: End processing [openstef] error
+[2024-04-30 11:03:42] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-04-30 11:03:42] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.3.tar.gz tmp/migration_db-1.0.4.tar.gz --markdown 20240430/m/migration-db/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-30 11:03:42] INFO root fetch - processPackages [mosaik-heatpump]: Downloading https://files.pythonhosted.org/packages/17/b9/7da2a856ade76a65bf338cf148f8f9ece769aef0170ee67e385c8a7615f1/mosaik_heatpump-1.0.1.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/60/e3/c5d63383b217367a4c013925c3a9a1b3ff3acb9c06d45fd005a20e184eac/scs_analysis-3.8.6.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [mosaik-heatpump]: executing diffoscope
+[2024-04-30 11:03:42] INFO root fetch - processPackages [mosaik-heatpump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaik_heatpump-1.0.0.tar.gz tmp/mosaik_heatpump-1.0.1.tar.gz --markdown 20240430/m/mosaik-heatpump/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 11:03:42] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-04-30 11:03:42] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-04-30 11:03:42] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_analysis-3.8.3.tar.gz tmp/scs_analysis-3.8.6.tar.gz --markdown 20240430/s/scs-analysis/3.8.3-3.8.6/README.md --exclude *.pyd
+[2024-04-30 11:03:42] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-04-30 11:03:42] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240430/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-30 11:03:43] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.3.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.4.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-04-30 11:03:43] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-04-30 11:03:43] INFO root fetch - processPackages [mosaik-heatpump]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_heatpump-1.0.0.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - processPackages [mosaik-heatpump]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_heatpump-1.0.1.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - main [MainThread]: End processing [mosaik-heatpump]: success
+[2024-04-30 11:03:43] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.3.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.6.tar.gz]
+[2024-04-30 11:03:43] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-04-30 11:03:43] INFO root fetch - main [MainThread]: Store serial: [22999232]
