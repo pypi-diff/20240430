@@ -14114,3 +14114,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:43:59] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
 [2024-04-30 07:43:59] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
 [2024-04-30 07:43:59] INFO root fetch - main [MainThread]: Store serial: [22996723]
+[2024-04-30 07:46:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996723]
+[2024-04-30 07:46:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuneapi
+[2024-04-30 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-04-30 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-consul
+[2024-04-30 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snc4onnx
+[2024-04-30 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-dnsimple
+[2024-04-30 07:46:08] INFO root fetch - processPackages [zfx]: New version: [20240430rc0] Old Version: [20240430b0]
+[2024-04-30 07:46:08] INFO root fetch - processPackages [tuneapi]: New version: [0.3.1] Old Version: [0.2.8]
+[2024-04-30 07:46:08] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/78/db/57c6f870075c2a1c0ada663f644d43523b4372b4e53bac7047583e3dc07b/zfx-20240430b0.tar.gz
+[2024-04-30 07:46:08] INFO root fetch - processPackages [snc4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 07:46:08] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1714454942] Old Version: [3.5.0a1714109398]
+[2024-04-30 07:46:08] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-04-30 07:46:08] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/a6/88/5ef59def8c943c55ada8e5f66507b4c652ca008e0d9ba777acbe09fa52b2/tuneapi-0.2.8.tar.gz
+[2024-04-30 07:46:08] INFO root fetch - processPackages [snc4onnx]: Downloading https://files.pythonhosted.org/packages/94/4f/0d9bb6e5c4ca7da8e462d0ae3be888f5de578e119805b9ca0afa8b635249/snc4onnx-1.0.8.tar.gz
+[2024-04-30 07:46:08] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-04-30 07:46:08] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/72/17/f625a9eccdefc66a8affed4b602887a624cfd03d48a687cf0848775d1512/pulumi_dnsimple-3.5.0a1714109398.tar.gz
+[2024-04-30 07:46:08] ERROR root fetch - processPackages [zfx]: Unable to fetch info: No such project/version 'zfx' 20240430rc0
+[2024-04-30 07:46:08] INFO root fetch - main [MainThread]: End processing [zfx] error
+[2024-04-30 07:46:08] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/26/5d/ff6711cf78c58c820003114853a897f08a82c1032a2b554c1cc60087d53c/tuneapi-0.3.1.tar.gz
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/11/f3/db2f68a7ee044b29a6850132d9e8e63b70e741661121e0d19427c43aa926/pulumi_dnsimple-3.5.0a1714454942.tar.gz
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-04-30 07:46:09] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-04-30 07:46:09] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.2.8.tar.gz tmp/tuneapi-0.3.1.tar.gz --markdown 20240430/t/tuneapi/0.2.8-0.3.1/README.md --exclude *.pyd
+[2024-04-30 07:46:09] INFO root fetch - processPackages [snc4onnx]: Downloading https://files.pythonhosted.org/packages/0f/ff/b13d094f6c12d1b0728de9a3a880c92fa39522f7f56ff05722ba82e10e9a/snc4onnx-1.0.9.tar.gz
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240430/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1714109398.tar.gz tmp/pulumi_dnsimple-3.5.0a1714454942.tar.gz --markdown 20240430/p/pulumi-dnsimple/3.5.0a1714109398-3.5.0a1714454942/README.md --exclude *.pyd
+[2024-04-30 07:46:09] INFO root fetch - processPackages [snc4onnx]: executing diffoscope
+[2024-04-30 07:46:09] INFO root fetch - processPackages [snc4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snc4onnx-1.0.8.tar.gz tmp/snc4onnx-1.0.9.tar.gz --markdown 20240430/s/snc4onnx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 07:46:09] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.2.8.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.1.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714109398.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714454942.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-04-30 07:46:09] INFO root fetch - processPackages [snc4onnx]: Remove: archive file [/home/abi/fetcher/tmp/snc4onnx-1.0.8.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - processPackages [snc4onnx]: Remove: archive file [/home/abi/fetcher/tmp/snc4onnx-1.0.9.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - main [MainThread]: End processing [snc4onnx]: success
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-04-30 07:46:09] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-04-30 07:46:09] INFO root fetch - main [MainThread]: Store serial: [22996747]
