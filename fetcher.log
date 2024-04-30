@@ -14057,3 +14057,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:41:46] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-04-30 07:41:46] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-04-30 07:41:46] INFO root fetch - main [MainThread]: Store serial: [22996699]
+[2024-04-30 07:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996699]
+[2024-04-30 07:43:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 07:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riscv-config
+[2024-04-30 07:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kBmc
+[2024-04-30 07:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-reorder-control
+[2024-04-30 07:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retriever-search
+[2024-04-30 07:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2024-04-30 07:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datadreamer.dev
+[2024-04-30 07:43:57] INFO root fetch - processPackages [retriever-search]: New version: [0.0.6] Old Version: [0.0.2]
+[2024-04-30 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-30 07:43:57] INFO root fetch - processPackages [retriever-search]: Downloading https://files.pythonhosted.org/packages/54/db/46e28683f30a60c8095361239ab94758e418b5d59e2afbc30884cb9482c9/retriever_search-0.0.2.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [riscv-config]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-30 07:43:57] INFO root fetch - processPackages [kBmc]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-30 07:43:57] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2024-04-30 07:43:57] INFO root fetch - processPackages [datadreamer.dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 07:43:57] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/cd/f5/87d66b35a67a40be6e903787b5ba54ffbc5e97e4c2f17b98206d75628d35/kBmc-2.3.8.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: Downloading https://files.pythonhosted.org/packages/48/88/5d17c3a550399a0fc4af82b40046c01ebd8356bef23aa5bfbe3c1830ed34/odoo_addon_purchase_reorder_control-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-30 07:43:57] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/e1/6c/39d5d244e2bd72c43c490f9dcd8ea7b85babfb92d79c8769e49cd24e11a1/riscv_config-3.9.1.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/1f/2c/32b5de0e35ed3db2eca18fdce324ee199b1fcc089bc278d325fc111ad6b4/datadreamer_dev-0.8.0.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-30 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240430/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-30 07:43:57] INFO root fetch - processPackages [retriever-search]: Downloading https://files.pythonhosted.org/packages/81/ef/d6f58556d5f2e2fa6791e7727c1207cf785c5e394706c75b4c4cbe0d834f/retriever_search-0.0.6.tar.gz
+[2024-04-30 07:43:57] INFO root fetch - processPackages [retriever-search]: executing diffoscope
+[2024-04-30 07:43:57] INFO root fetch - processPackages [retriever-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retriever_search-0.0.2.tar.gz tmp/retriever_search-0.0.6.tar.gz --markdown 20240430/r/retriever-search/0.0.2-0.0.6/README.md --exclude *.pyd
+[2024-04-30 07:43:58] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: Downloading https://files.pythonhosted.org/packages/2b/4f/bb362c0e6206618e2ba9bd6589530010b6dab25f85214a4c7e3987ba8685/odoo_addon_purchase_reorder_control-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-30 07:43:58] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/b1/30/0a67c9ac9962ec52f20324b37d89b824d3b4caa5963bd919ddb2b19ac530/kBmc-2.3.9.tar.gz
+[2024-04-30 07:43:58] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: executing diffoscope
+[2024-04-30 07:43:58] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_reorder_control-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_reorder_control-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-purchase-reorder-control/16.0.1.0.0.6-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-04-30 07:43:58] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/2a/ec/b17b0b2244a9b377c90f022ce710f823144beca2aad8793c5118553bc133/datadreamer_dev-0.9.0.tar.gz
+[2024-04-30 07:43:58] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/4e/21/69dfa0800dec15ca58e95135f0d2095bc55088d27d24d5399b4d31a37246/riscv_config-3.9.2.tar.gz
+[2024-04-30 07:43:58] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2024-04-30 07:43:58] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.3.8.tar.gz tmp/kBmc-2.3.9.tar.gz --markdown 20240430/k/kBmc/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-30 07:43:58] INFO root fetch - processPackages [datadreamer.dev]: executing diffoscope
+[2024-04-30 07:43:58] INFO root fetch - processPackages [datadreamer.dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadreamer_dev-0.8.0.tar.gz tmp/datadreamer_dev-0.9.0.tar.gz --markdown 20240430/d/datadreamer.dev/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 07:43:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-30 07:43:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-30 07:43:58] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-30 07:43:58] INFO root fetch - processPackages [riscv-config]: executing diffoscope
+[2024-04-30 07:43:58] INFO root fetch - processPackages [riscv-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscv_config-3.9.1.tar.gz tmp/riscv_config-3.9.2.tar.gz --markdown 20240430/r/riscv-config/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-30 07:43:58] INFO root fetch - processPackages [retriever-search]: Remove: archive file [/home/abi/fetcher/tmp/retriever_search-0.0.2.tar.gz]
+[2024-04-30 07:43:58] INFO root fetch - processPackages [retriever-search]: Remove: archive file [/home/abi/fetcher/tmp/retriever_search-0.0.6.tar.gz]
+[2024-04-30 07:43:58] INFO root fetch - main [MainThread]: End processing [retriever-search]: success
+[2024-04-30 07:43:58] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_reorder_control-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-30 07:43:58] INFO root fetch - processPackages [odoo-addon-purchase-reorder-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_reorder_control-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-30 07:43:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-reorder-control]: success
+[2024-04-30 07:43:58] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.8.tar.gz]
+[2024-04-30 07:43:58] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
+[2024-04-30 07:43:58] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2024-04-30 07:43:59] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.1.tar.gz]
+[2024-04-30 07:43:59] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.2.tar.gz]
+[2024-04-30 07:43:59] INFO root fetch - main [MainThread]: End processing [riscv-config]: success
+[2024-04-30 07:43:59] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.8.0.tar.gz]
+[2024-04-30 07:43:59] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
+[2024-04-30 07:43:59] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
+[2024-04-30 07:43:59] INFO root fetch - main [MainThread]: Store serial: [22996723]
