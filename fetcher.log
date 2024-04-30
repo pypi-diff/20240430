@@ -17513,3 +17513,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:51:58] INFO root fetch - processPackages [nebula3-python]: Remove: archive file [/home/abi/fetcher/tmp/nebula3_python-3.8.0.tar.gz]
 [2024-04-30 09:51:58] INFO root fetch - main [MainThread]: End processing [nebula3-python]: success
 [2024-04-30 09:51:58] INFO root fetch - main [MainThread]: Store serial: [22998111]
+[2024-04-30 09:54:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998111]
+[2024-04-30 09:54:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stopwords-tr
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brynq-sdk-functions
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spinedb-api
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spine-items
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spinetoolbox
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spine-engine
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: packg
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcbcdc
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: efel
+[2024-04-30 09:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lytils
+[2024-04-30 09:54:11] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [brynq-sdk-functions]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spine-engine]: New version: [0.24.0] Old Version: [0.23.4]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spine-items]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [lytils]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spinetoolbox]: New version: [0.8.0] Old Version: [0.7.4]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [mcbcdc]: New version: [0.8] Old Version: [0.7]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spinedb-api]: New version: [0.31.0] Old Version: [0.30.5]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/49/90/b011df6ac6c0061342a5cf4888a48e123840b7128e8b9690f73e4c382e03/stopwords_tr-1.1.3.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [packg]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-30 09:54:11] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [brynq-sdk-functions]: Downloading https://files.pythonhosted.org/packages/d5/f4/03e43c75286f9a0b8c6f078396c56981b30bdb4bfd4b1c66424b328e11e2/brynq_sdk_functions-1.0.0.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spine-engine]: Downloading https://files.pythonhosted.org/packages/49/8c/5bf4022a02a7d81539669be0cdeaa2f6da3db48a288d4bdacb205d86d370/spine_engine-0.23.4.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spine-items]: Downloading https://files.pythonhosted.org/packages/09/3e/fe9f9843f278bcb14622db34ffe624766e4894b8d7f0f627f3ebe38dde4f/spine_items-0.8.0.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [mcbcdc]: Downloading https://files.pythonhosted.org/packages/fd/47/9fedd264d89ab364e1bfec8d89b61a3fbe0091fd7373489bb886612f762b/mcbcdc-0.7.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/1c/e4/caa7ea50f131f6e15b562a2f8e7440bef8230d0f12c8aa67721e6e9c3874/lytils-0.1.4.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spinetoolbox]: Downloading https://files.pythonhosted.org/packages/a0/01/68b95395ca5755ba8d2490474e4ebfd912ee7d3ce37de27dd87f64d2fd26/spinetoolbox-0.7.4.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/35/f5/de411f4b1201d757eb0aab94b26e1480689d8322ab6621ed887351575c73/packg-0.9.2.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [spinedb-api]: Downloading https://files.pythonhosted.org/packages/14/7a/2f2b4b09ab46bb663479c00b394d9dd238e946b811ac4dea6061b9ff2246/spinedb_api-0.30.5.tar.gz
+[2024-04-30 09:54:11] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/39/9a/5b3b6bfdde4c09d26adbc313feaf6eb82ad7a4745b9d57d451608edca7a3/stopwords_tr-1.1.4.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240430/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [brynq-sdk-functions]: Downloading https://files.pythonhosted.org/packages/d3/37/910ec8a03dc2f3cfc543a2bd7eefbc760c1e9c5dcf58abc55ac292c327e7/brynq_sdk_functions-1.0.1.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.3.tar.gz tmp/stopwords_tr-1.1.4.tar.gz --markdown 20240430/s/stopwords-tr/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spine-engine]: Downloading https://files.pythonhosted.org/packages/ef/c8/dc8dc17073caeeb2154b703d86026a14728cf068d4a95c4fa4d71fdacdeb/spine_engine-0.24.0.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/bd/75/bf5f46e8fc1f3d7e55e379723a19f5f8d4d4839993c881dec63e698cfd35/lytils-0.1.5.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [brynq-sdk-functions]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [brynq-sdk-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_functions-1.0.0.tar.gz tmp/brynq_sdk_functions-1.0.1.tar.gz --markdown 20240430/b/brynq-sdk-functions/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/9a/d2/c8c96c46c7352d8d450cd3603781f17a1c2fb55e67cb7758cfe016ed7bad/packg-0.9.3.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spine-items]: Downloading https://files.pythonhosted.org/packages/d0/ab/f73cf2e24832abcdd7afa07114716db753e33e6fa9a5ed444d59339533ea/spine_items-0.9.0.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spine-engine]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spine-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_engine-0.23.4.tar.gz tmp/spine_engine-0.24.0.tar.gz --markdown 20240430/s/spine-engine/0.23.4-0.24.0/README.md --exclude *.pyd
+[2024-04-30 09:54:12] WARNING root fetch - processPackages [spinetoolbox]: Skipping package: exceeds size limit 10536449>=10485760
+[2024-04-30 09:54:12] INFO root fetch - main [MainThread]: End processing [spinetoolbox] error
+[2024-04-30 09:54:12] INFO root fetch - processPackages [mcbcdc]: Downloading https://files.pythonhosted.org/packages/94/35/6ce05475c6c0638ac77ea3b6bb96bd69035e173a1d3cf485961d98a2093e/mcbcdc-0.8.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.4.tar.gz tmp/lytils-0.1.5.tar.gz --markdown 20240430/l/lytils/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spinedb-api]: Downloading https://files.pythonhosted.org/packages/0e/ed/ec6dbca895493aa8a3ddf5c83f2fb72c3dac4009fa2ab60529f6acad4376/spinedb_api-0.31.0.tar.gz
+[2024-04-30 09:54:12] INFO root fetch - processPackages [packg]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.9.2.tar.gz tmp/packg-0.9.3.tar.gz --markdown 20240430/p/packg/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [mcbcdc]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [mcbcdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcbcdc-0.7.tar.gz tmp/mcbcdc-0.8.tar.gz --markdown 20240430/m/mcbcdc/0.7-0.8/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spine-items]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spinedb-api]: executing diffoscope
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spine-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_items-0.8.0.tar.gz tmp/spine_items-0.9.0.tar.gz --markdown 20240430/s/spine-items/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 09:54:12] INFO root fetch - processPackages [spinedb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinedb_api-0.30.5.tar.gz tmp/spinedb_api-0.31.0.tar.gz --markdown 20240430/s/spinedb-api/0.30.5-0.31.0/README.md --exclude *.pyd
+[2024-04-30 09:54:13] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.3.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.4.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 09:54:13] INFO root fetch - processPackages [brynq-sdk-functions]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_functions-1.0.0.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - processPackages [brynq-sdk-functions]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_functions-1.0.1.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - main [MainThread]: End processing [brynq-sdk-functions]: success
+[2024-04-30 09:54:13] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-04-30 09:54:13] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.4.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.5.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-04-30 09:54:13] INFO root fetch - processPackages [mcbcdc]: Remove: archive file [/home/abi/fetcher/tmp/mcbcdc-0.7.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - processPackages [mcbcdc]: Remove: archive file [/home/abi/fetcher/tmp/mcbcdc-0.8.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - main [MainThread]: End processing [mcbcdc]: success
+[2024-04-30 09:54:13] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.2.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.3.tar.gz]
+[2024-04-30 09:54:13] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2024-04-30 09:54:14] INFO root fetch - processPackages [spine-engine]: Remove: archive file [/home/abi/fetcher/tmp/spine_engine-0.23.4.tar.gz]
+[2024-04-30 09:54:14] INFO root fetch - processPackages [spine-engine]: Remove: archive file [/home/abi/fetcher/tmp/spine_engine-0.24.0.tar.gz]
+[2024-04-30 09:54:14] INFO root fetch - main [MainThread]: End processing [spine-engine]: success
+[2024-04-30 09:54:14] INFO root fetch - processPackages [spine-items]: Remove: archive file [/home/abi/fetcher/tmp/spine_items-0.8.0.tar.gz]
+[2024-04-30 09:54:14] INFO root fetch - processPackages [spine-items]: Remove: archive file [/home/abi/fetcher/tmp/spine_items-0.9.0.tar.gz]
+[2024-04-30 09:54:14] INFO root fetch - main [MainThread]: End processing [spine-items]: success
+[2024-04-30 09:54:15] INFO root fetch - processPackages [spinedb-api]: Remove: archive file [/home/abi/fetcher/tmp/spinedb_api-0.30.5.tar.gz]
+[2024-04-30 09:54:15] INFO root fetch - processPackages [spinedb-api]: Remove: archive file [/home/abi/fetcher/tmp/spinedb_api-0.31.0.tar.gz]
+[2024-04-30 09:54:15] INFO root fetch - main [MainThread]: End processing [spinedb-api]: success
+[2024-04-30 09:54:15] INFO root fetch - main [MainThread]: Store serial: [22998153]
