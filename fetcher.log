@@ -2360,3 +2360,48 @@
 [2024-04-30 02:18:59] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
 [2024-04-30 02:18:59] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-04-30 02:18:59] INFO root fetch - main [MainThread]: Store serial: [22992460]
+[2024-04-30 02:21:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992460]
+[2024-04-30 02:21:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 02:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlx-lm
+[2024-04-30 02:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-samus-returns-rando
+[2024-04-30 02:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-04-30 02:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coptpy
+[2024-04-30 02:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viqi-api
+[2024-04-30 02:21:17] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2024-04-30 02:21:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-30 02:21:17] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2024-04-30 02:21:17] INFO root fetch - processPackages [mlx-lm]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 02:21:17] INFO root fetch - processPackages [open-samus-returns-rando]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-30 02:21:17] INFO root fetch - processPackages [coptpy]: New version: [7.1.3] Old Version: [7.1.2]
+[2024-04-30 02:21:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-30 02:21:17] INFO root fetch - processPackages [mlx-lm]: Downloading https://files.pythonhosted.org/packages/f4/ad/d234be8ccbd4db490d36c63d1e32a5f25c91f97ce43c889094e6aa290f23/mlx-lm-0.8.0.tar.gz
+[2024-04-30 02:21:17] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/92/13/95f5228261b749675e934be530e025bdfc5670faf789e82db1f5f109f370/open_samus_returns_rando-1.2.0.tar.gz
+[2024-04-30 02:21:17] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2024-04-30 02:21:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-30 02:21:17] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/16/2f/fd9ef28717e3cfc29442440a1035ba270a08185597ba77a860a5b58990e5/coptpy-7.1.2-cp39-cp39-win_amd64.whl
+[2024-04-30 02:21:17] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2024-04-30 02:21:17] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20240430/v/viqi-api/0.6.4.8-0.6.4.9/README.md --exclude *.pyd
+[2024-04-30 02:21:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-30 02:21:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240430/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-30 02:21:18] INFO root fetch - processPackages [mlx-lm]: Downloading https://files.pythonhosted.org/packages/c2/06/bea055fca148b3d8fc52de62909084619d302af1de19b3524bee57b58d46/mlx-lm-0.9.0.tar.gz
+[2024-04-30 02:21:18] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/09/d8/10bf06bdaedb7eeb21bc7d0037da486e4f40ae90e7b66e618962283adc9e/open_samus_returns_rando-1.2.1.tar.gz
+[2024-04-30 02:21:18] INFO root fetch - processPackages [mlx-lm]: executing diffoscope
+[2024-04-30 02:21:18] INFO root fetch - processPackages [mlx-lm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx-lm-0.8.0.tar.gz tmp/mlx-lm-0.9.0.tar.gz --markdown 20240430/m/mlx-lm/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 02:21:18] INFO root fetch - processPackages [open-samus-returns-rando]: executing diffoscope
+[2024-04-30 02:21:18] INFO root fetch - processPackages [open-samus-returns-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_samus_returns_rando-1.2.0.tar.gz tmp/open_samus_returns_rando-1.2.1.tar.gz --markdown 20240430/o/open-samus-returns-rando/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-30 02:21:18] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/e2/f0/617b7caf77116fe8500bb5f1c91c020fff37f1508c616490591fedea43a9/coptpy-7.1.3-cp27-cp27mu-manylinux2014_x86_64.whl
+[2024-04-30 02:21:18] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2024-04-30 02:21:18] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2024-04-30 02:21:18] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2024-04-30 02:21:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-30 02:21:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-30 02:21:18] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-30 02:21:18] WARNING root fetch - processPackages [coptpy]: Skipping package: exceeds size limit 10525099>=10485760
+[2024-04-30 02:21:18] INFO root fetch - main [MainThread]: End processing [coptpy] error
+[2024-04-30 02:21:18] INFO root fetch - processPackages [mlx-lm]: Remove: archive file [/home/abi/fetcher/tmp/mlx-lm-0.8.0.tar.gz]
+[2024-04-30 02:21:18] INFO root fetch - processPackages [mlx-lm]: Remove: archive file [/home/abi/fetcher/tmp/mlx-lm-0.9.0.tar.gz]
+[2024-04-30 02:21:18] INFO root fetch - main [MainThread]: End processing [mlx-lm]: success
+[2024-04-30 02:21:19] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.2.0.tar.gz]
+[2024-04-30 02:21:19] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.2.1.tar.gz]
+[2024-04-30 02:21:19] INFO root fetch - main [MainThread]: End processing [open-samus-returns-rando]: success
+[2024-04-30 02:21:19] INFO root fetch - main [MainThread]: Store serial: [22992475]
