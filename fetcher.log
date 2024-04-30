@@ -7103,3 +7103,35 @@
 [2024-04-30 03:52:40] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.3.0.tar.gz]
 [2024-04-30 03:52:40] INFO root fetch - main [MainThread]: End processing [enhomie]: success
 [2024-04-30 03:52:40] INFO root fetch - main [MainThread]: Store serial: [22994244]
+[2024-04-30 03:54:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994244]
+[2024-04-30 03:54:48] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-30 03:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994244]
+[2024-04-30 03:56:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: receipt-enhancer
+[2024-04-30 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCOMUS
+[2024-04-30 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pref-voting
+[2024-04-30 03:56:54] INFO root fetch - processPackages [PyCOMUS]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-30 03:56:54] INFO root fetch - processPackages [receipt-enhancer]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 03:56:54] INFO root fetch - processPackages [pref-voting]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-30 03:56:54] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/43/ae/ac265043a3b5a06cdc77d68e6042ecd6d2495ea13be32843f9b14540a814/PyCOMUS-1.0.3.tar.gz
+[2024-04-30 03:56:54] INFO root fetch - processPackages [receipt-enhancer]: Downloading https://files.pythonhosted.org/packages/c4/4a/6c4633aa83ec05dcb2b2e422ab87224ea3d3f818e5b84d190b228e683631/receipt_enhancer-0.1.5.tar.gz
+[2024-04-30 03:56:54] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/f1/71/c469bc5c48c4cac60e406cd50a79663e1ff82751db7676ebf4b1a4354c33/pref_voting-1.1.2.tar.gz
+[2024-04-30 03:56:55] INFO root fetch - processPackages [receipt-enhancer]: Downloading https://files.pythonhosted.org/packages/58/26/3b7fae1845cd0ad890db4de2c9b0265f8352f7bb58abbe5aaa377189bbdd/receipt_enhancer-0.1.6.tar.gz
+[2024-04-30 03:56:55] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/0e/f5/f927220fd4589c5b1b9a54a356464569bd57914430b66766e0fff454dacd/pref_voting-1.2.0.tar.gz
+[2024-04-30 03:56:55] INFO root fetch - processPackages [receipt-enhancer]: executing diffoscope
+[2024-04-30 03:56:55] INFO root fetch - processPackages [receipt-enhancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receipt_enhancer-0.1.5.tar.gz tmp/receipt_enhancer-0.1.6.tar.gz --markdown 20240430/r/receipt-enhancer/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 03:56:55] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/b6/b0/47313af7b7a6470a1e43ebd48ff26590ff833169e1223639f1ebb3324592/pycomus-1.0.4.tar.gz
+[2024-04-30 03:56:55] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2024-04-30 03:56:55] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-1.1.2.tar.gz tmp/pref_voting-1.2.0.tar.gz --markdown 20240430/p/pref-voting/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-30 03:56:55] INFO root fetch - processPackages [PyCOMUS]: executing diffoscope
+[2024-04-30 03:56:55] INFO root fetch - processPackages [PyCOMUS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCOMUS-1.0.3.tar.gz tmp/pycomus-1.0.4.tar.gz --markdown 20240430/P/PyCOMUS/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-30 03:56:55] INFO root fetch - processPackages [receipt-enhancer]: Remove: archive file [/home/abi/fetcher/tmp/receipt_enhancer-0.1.5.tar.gz]
+[2024-04-30 03:56:55] INFO root fetch - processPackages [receipt-enhancer]: Remove: archive file [/home/abi/fetcher/tmp/receipt_enhancer-0.1.6.tar.gz]
+[2024-04-30 03:56:55] INFO root fetch - main [MainThread]: End processing [receipt-enhancer]: success
+[2024-04-30 03:56:56] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-1.1.2.tar.gz]
+[2024-04-30 03:56:56] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-1.2.0.tar.gz]
+[2024-04-30 03:56:56] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2024-04-30 03:56:56] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/PyCOMUS-1.0.3.tar.gz]
+[2024-04-30 03:56:56] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.0.4.tar.gz]
+[2024-04-30 03:56:56] INFO root fetch - main [MainThread]: End processing [PyCOMUS]: success
+[2024-04-30 03:56:56] INFO root fetch - main [MainThread]: Store serial: [22994253]
