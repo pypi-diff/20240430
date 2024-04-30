@@ -7561,3 +7561,42 @@
 [2024-04-30 04:30:01] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
 [2024-04-30 04:30:01] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
 [2024-04-30 04:30:01] INFO root fetch - main [MainThread]: Store serial: [22994430]
+[2024-04-30 04:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994430]
+[2024-04-30 04:32:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loe-simp-app-fw
+[2024-04-30 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ledger
+[2024-04-30 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-plugin-manager
+[2024-04-30 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GSG
+[2024-04-30 04:32:10] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-30 04:32:10] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/fc/70/00e666494af414e252a54712c0b2bd3185aa8d8f34240ea0adb90691623b/loe_simp_app_fw-1.1.3.tar.gz
+[2024-04-30 04:32:10] INFO root fetch - processPackages [GSG]: New version: [0.5.1] Old Version: [0.5]
+[2024-04-30 04:32:10] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2024-04-30 04:32:10] INFO root fetch - processPackages [django-ledger]: New version: [0.6.0.2] Old Version: [0.6.0.1]
+[2024-04-30 04:32:10] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/2d/1b/71b40799a9406897c78745499196d44067bc63caa700fefd4f6623b8f174/GSG-0.5.tar.gz
+[2024-04-30 04:32:10] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2024-04-30 04:32:10] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/6c/33/d988c363be34cf1f3b33d12885189d4cab8f5f26dd6559e2d7bafba80ef7/django_ledger-0.6.0.1-py3-none-any.whl
+[2024-04-30 04:32:10] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/77/8a/8a92a1ebde5d7d872a7c78aa798b05e19101dfc6699e5a3c48da50ddec81/loe_simp_app_fw-1.1.4.tar.gz
+[2024-04-30 04:32:10] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-30 04:32:10] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.1.3.tar.gz tmp/loe_simp_app_fw-1.1.4.tar.gz --markdown 20240430/l/loe-simp-app-fw/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-30 04:32:11] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/ec/f7/f96aa759f81a013c10c82bc7596042381b6b34dec37f328a66c938001aa0/GSG-0.5.1.tar.gz
+[2024-04-30 04:32:11] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2024-04-30 04:32:11] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/1c/b3/271e2dadad61a00f856c0a96bec6b1814da7d8a09a567da7bdf82ebc1f80/django_ledger-0.6.0.2-py3-none-any.whl
+[2024-04-30 04:32:11] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2024-04-30 04:32:11] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20240430/o/ovos-plugin-manager/0.0.8a3-0.0.9/README.md --exclude *.pyd
+[2024-04-30 04:32:11] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-30 04:32:11] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.tar.gz tmp/GSG-0.5.1.tar.gz --markdown 20240430/G/GSG/0.5-0.5.1/README.md --exclude *.pyd
+[2024-04-30 04:32:11] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.3.tar.gz]
+[2024-04-30 04:32:11] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.4.tar.gz]
+[2024-04-30 04:32:11] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-30 04:32:11] INFO root fetch - processPackages [django-ledger]: executing diffoscope
+[2024-04-30 04:32:11] INFO root fetch - processPackages [django-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ledger-0.6.0.1-py3-none-any.whl.zip tmp/django_ledger-0.6.0.2-py3-none-any.whl.zip --markdown 20240430/d/django-ledger/0.6.0.1-0.6.0.2/README.md --exclude *.pyd
+[2024-04-30 04:32:11] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip]
+[2024-04-30 04:32:11] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip]
+[2024-04-30 04:32:11] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2024-04-30 04:32:11] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.tar.gz]
+[2024-04-30 04:32:11] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.1.tar.gz]
+[2024-04-30 04:32:11] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-30 04:32:13] INFO root fetch - processPackages [django-ledger]: Remove: archive file [/home/abi/fetcher/tmp/django_ledger-0.6.0.1-py3-none-any.whl.zip]
+[2024-04-30 04:32:13] INFO root fetch - processPackages [django-ledger]: Remove: archive file [/home/abi/fetcher/tmp/django_ledger-0.6.0.2-py3-none-any.whl.zip]
+[2024-04-30 04:32:13] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
+[2024-04-30 04:32:13] INFO root fetch - main [MainThread]: Store serial: [22994442]
