@@ -7621,3 +7621,24 @@
 [2024-04-30 04:34:24] INFO root fetch - processPackages [cobweb-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cobweb-launcher-0.1.9.tar.gz]
 [2024-04-30 04:34:24] INFO root fetch - main [MainThread]: End processing [cobweb-launcher]: success
 [2024-04-30 04:34:24] INFO root fetch - main [MainThread]: Store serial: [22994447]
+[2024-04-30 04:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994447]
+[2024-04-30 04:36:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-readthedocs
+[2024-04-30 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-common-tools
+[2024-04-30 04:36:33] INFO root fetch - processPackages [tap-readthedocs]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-30 04:36:33] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-30 04:36:33] INFO root fetch - processPackages [tap-readthedocs]: Downloading https://files.pythonhosted.org/packages/8c/5e/c7510729acbf04f8a5c58edb87369a1736ab481ea6a940f44da557bae957/tap_readthedocs-0.4.0.tar.gz
+[2024-04-30 04:36:33] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ca/3c/6b8cd59d336e1c605691395b32685c8a043c3effb94cb81dc1d7cec6a6d8/database-common-tools-1.1.8.tar.gz
+[2024-04-30 04:36:34] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/55/1d/f84bdab15e57cb34658d4f445048d8bfeaf6b8cd2d0da82250fefbaa75f0/database-common-tools-1.1.9.tar.gz
+[2024-04-30 04:36:34] INFO root fetch - processPackages [tap-readthedocs]: Downloading https://files.pythonhosted.org/packages/3c/98/2fbbe70026bd3bace5717e84fae9257af9f255b3243fe61bb99fb9dca83c/tap_readthedocs-0.4.1.tar.gz
+[2024-04-30 04:36:34] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-30 04:36:34] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.8.tar.gz tmp/database-common-tools-1.1.9.tar.gz --markdown 20240430/d/database-common-tools/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-30 04:36:34] INFO root fetch - processPackages [tap-readthedocs]: executing diffoscope
+[2024-04-30 04:36:34] INFO root fetch - processPackages [tap-readthedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_readthedocs-0.4.0.tar.gz tmp/tap_readthedocs-0.4.1.tar.gz --markdown 20240430/t/tap-readthedocs/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-30 04:36:34] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.8.tar.gz]
+[2024-04-30 04:36:34] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.9.tar.gz]
+[2024-04-30 04:36:34] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-30 04:36:35] INFO root fetch - processPackages [tap-readthedocs]: Remove: archive file [/home/abi/fetcher/tmp/tap_readthedocs-0.4.0.tar.gz]
+[2024-04-30 04:36:35] INFO root fetch - processPackages [tap-readthedocs]: Remove: archive file [/home/abi/fetcher/tmp/tap_readthedocs-0.4.1.tar.gz]
+[2024-04-30 04:36:35] INFO root fetch - main [MainThread]: End processing [tap-readthedocs]: success
+[2024-04-30 04:36:35] INFO root fetch - main [MainThread]: Store serial: [22994452]
