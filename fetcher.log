@@ -2559,3 +2559,48 @@
 [2024-04-30 02:28:18] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-30 02:28:18] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-30 02:28:18] INFO root fetch - main [MainThread]: Store serial: [22992565]
+[2024-04-30 02:30:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992565]
+[2024-04-30 02:30:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 02:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jimmyskitchen
+[2024-04-30 02:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-04-30 02:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MqttLibPy
+[2024-04-30 02:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: developergpt
+[2024-04-30 02:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docketalarm-api
+[2024-04-30 02:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdo-sdk-python
+[2024-04-30 02:30:35] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-30 02:30:35] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240429] Old Version: [0.1.5.dev20240428]
+[2024-04-30 02:30:35] WARNING root fetch - processPackages [docketalarm-api]: Skipping, unable to determine old version
+[2024-04-30 02:30:35] INFO root fetch - main [MainThread]: End processing [docketalarm-api] error
+[2024-04-30 02:30:35] INFO root fetch - processPackages [MqttLibPy]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-04-30 02:30:35] WARNING root fetch - processPackages [jimmyskitchen]: Skipping, unable to determine old version
+[2024-04-30 02:30:35] INFO root fetch - main [MainThread]: End processing [jimmyskitchen] error
+[2024-04-30 02:30:35] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-30 02:30:35] INFO root fetch - processPackages [developergpt]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-30 02:30:35] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/af/6b/485545d5502dba20390d8e38204793f803f84b2eafd6f69dac311dcff338/aeppl_nightly-0.1.5.dev20240428.tar.gz
+[2024-04-30 02:30:35] INFO root fetch - processPackages [MqttLibPy]: Downloading https://files.pythonhosted.org/packages/66/97/2c3d087bd7ebb1173bb1a9081cdce17ac0af329d0f8625f9f6a6baefd7c6/mqttlibpy-1.4.5.tar.gz
+[2024-04-30 02:30:35] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-30 02:30:35] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/f0/2e/01e69aaad6a41d6a637ac956488ff1e598318eb20105f8f55ca5f4047ad1/developergpt-0.7.1.tar.gz
+[2024-04-30 02:30:35] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/3a/e9/4fa9a2ff23ab2ef5f57ed7c7256d64b24058d8bd0c131e392a46c8a3ffe2/aeppl_nightly-0.1.5.dev20240429.tar.gz
+[2024-04-30 02:30:35] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-30 02:30:35] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240430/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-30 02:30:36] INFO root fetch - processPackages [MqttLibPy]: Downloading https://files.pythonhosted.org/packages/c4/4a/45766069036071eb730a32873de0647ef9e9e38acedd9453c0c571b47e00/mqttlibpy-1.4.6.tar.gz
+[2024-04-30 02:30:36] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-30 02:30:36] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240428.tar.gz tmp/aeppl_nightly-0.1.5.dev20240429.tar.gz --markdown 20240430/a/aeppl-nightly/0.1.5.dev20240428-0.1.5.dev20240429/README.md --exclude *.pyd
+[2024-04-30 02:30:36] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/d8/93/173430a8ab092792c0dca92c4e402bbceaa440081d811680ba39c569c0dc/developergpt-0.7.2.tar.gz
+[2024-04-30 02:30:36] INFO root fetch - processPackages [MqttLibPy]: executing diffoscope
+[2024-04-30 02:30:36] INFO root fetch - processPackages [MqttLibPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttlibpy-1.4.5.tar.gz tmp/mqttlibpy-1.4.6.tar.gz --markdown 20240430/M/MqttLibPy/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-04-30 02:30:36] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2024-04-30 02:30:36] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.7.1.tar.gz tmp/developergpt-0.7.2.tar.gz --markdown 20240430/d/developergpt/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-30 02:30:36] INFO root fetch - processPackages [MqttLibPy]: Remove: archive file [/home/abi/fetcher/tmp/mqttlibpy-1.4.5.tar.gz]
+[2024-04-30 02:30:36] INFO root fetch - processPackages [MqttLibPy]: Remove: archive file [/home/abi/fetcher/tmp/mqttlibpy-1.4.6.tar.gz]
+[2024-04-30 02:30:36] INFO root fetch - main [MainThread]: End processing [MqttLibPy]: success
+[2024-04-30 02:30:36] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240428.tar.gz]
+[2024-04-30 02:30:36] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240429.tar.gz]
+[2024-04-30 02:30:36] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-30 02:30:36] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.1.tar.gz]
+[2024-04-30 02:30:36] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.2.tar.gz]
+[2024-04-30 02:30:36] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2024-04-30 02:30:37] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-30 02:30:37] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-30 02:30:37] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-30 02:30:37] INFO root fetch - main [MainThread]: Store serial: [22992588]
