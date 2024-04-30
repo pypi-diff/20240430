@@ -20221,3 +20221,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:43:28] INFO root fetch - processPackages [forestadmin-datasource-django]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_django-1.8.0.tar.gz]
 [2024-04-30 10:43:28] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-django]: success
 [2024-04-30 10:43:28] INFO root fetch - main [MainThread]: Store serial: [22998953]
+[2024-04-30 10:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998953]
+[2024-04-30 10:45:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-admin-assets
+[2024-04-30 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Rabbit-in-a-Blender
+[2024-04-30 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-doppler
+[2024-04-30 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-04-30 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-ui
+[2024-04-30 10:45:37] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1515] Old Version: [1.0.0.post1514]
+[2024-04-30 10:45:37] WARNING root fetch - processPackages [pulumiverse-doppler]: Skipping, unable to determine old version
+[2024-04-30 10:45:37] INFO root fetch - main [MainThread]: End processing [pulumiverse-doppler] error
+[2024-04-30 10:45:37] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.54] Old Version: [0.0.53]
+[2024-04-30 10:45:37] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/e0/24/dd0983402236df601f8de2efe502c25d0e1a1fe9b64b7fb6483b9bdc5f47/nucliadb_admin_assets-1.0.0.post1514-py3-none-any.whl
+[2024-04-30 10:45:37] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240430] Old Version: [2.17.0.dev20240429]
+[2024-04-30 10:45:37] INFO root fetch - processPackages [oarepo-ui]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-04-30 10:45:37] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c3/50/8dbe425d988ef67f434dea1bc77b1a3d27647cca1c2d0a76b320de3172bf/tf_nightly_cpu-2.17.0.dev20240429-cp39-cp39-win_amd64.whl
+[2024-04-30 10:45:37] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/87/64/10c65b547fcd49c12a5c9a954426830269b57a4115a7070da01f33307313/oarepo-ui-5.1.8.tar.gz
+[2024-04-30 10:45:37] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/4f/62/d97c20d9e9ad90772f6f3d85e9c4156022f9d00c96ff4328f1e459f1f42e/rabbit_in_a_blender-0.0.53.tar.gz
+[2024-04-30 10:45:37] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/70/fa/6d5766e3f5e04ee115cfd5cbbdd800548c6dc18d13722671c7a82b8425fe/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl
+[2024-04-30 10:45:37] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/56/4a/840fd4be238b7d531de5b9494c62a7a20d885839aaa79ccc7c3db78591e9/tf_nightly_cpu-2.17.0.dev20240430-cp39-cp39-win_amd64.whl
+[2024-04-30 10:45:37] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-30 10:45:37] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1514-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl.zip --markdown 20240430/n/nucliadb-admin-assets/1.0.0.post1514-1.0.0.post1515/README.md --exclude *.pyd
+[2024-04-30 10:45:37] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/79/8e/95316366f4c35e7329fa617d319a0c6b5a7beb26fcd76a93638415957d69/oarepo-ui-5.1.9.tar.gz
+[2024-04-30 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-30 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240429-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240430-cp39-cp39-win_amd64.whl.zip --markdown 20240430/t/tf-nightly-cpu/2.17.0.dev20240429-2.17.0.dev20240430/README.md --exclude *.pyd
+[2024-04-30 10:45:38] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/2f/46/af6eb0a29d3939e06e09a1d0dc400a059b9290430a4bbb1e2a3b84fc7a95/rabbit_in_a_blender-0.0.54.tar.gz
+[2024-04-30 10:45:38] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2024-04-30 10:45:38] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.1.8.tar.gz tmp/oarepo-ui-5.1.9.tar.gz --markdown 20240430/o/oarepo-ui/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-04-30 10:45:38] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2024-04-30 10:45:38] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit_in_a_blender-0.0.53.tar.gz tmp/rabbit_in_a_blender-0.0.54.tar.gz --markdown 20240430/R/Rabbit-in-a-Blender/0.0.53-0.0.54/README.md --exclude *.pyd
+[2024-04-30 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240429-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240430-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 10:45:38] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-30 10:45:38] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.8.tar.gz]
+[2024-04-30 10:45:38] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
+[2024-04-30 10:45:38] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2024-04-30 10:45:39] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.53.tar.gz]
+[2024-04-30 10:45:39] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.54.tar.gz]
+[2024-04-30 10:45:39] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2024-04-30 10:45:52] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1514-py3-none-any.whl.zip]
+[2024-04-30 10:45:52] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl.zip]
+[2024-04-30 10:45:52] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-30 10:45:52] INFO root fetch - main [MainThread]: Store serial: [22998974]
