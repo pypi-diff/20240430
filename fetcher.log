@@ -7371,3 +7371,76 @@
 [2024-04-30 04:16:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.754.0.tar.gz]
 [2024-04-30 04:16:55] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-30 04:16:55] INFO root fetch - main [MainThread]: Store serial: [22994359]
+[2024-04-30 04:18:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994359]
+[2024-04-30 04:19:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jax-tools
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessl
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydraw
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-regex
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-docker
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: report-creator
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PepperPepper
+[2024-04-30 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PepperPepper
+[2024-04-30 04:19:04] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [types-regex]: New version: [2024.4.16.20240423] Old Version: [2024.4.16.20240418]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [pydraw]: New version: [2.2a9] Old Version: [2.2a8]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240430] Old Version: [7.0.0.20240424]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-30 04:19:04] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/b4/5f/8424c60452cef69296fe38459b3dc9dc0af914e13387d12911dbca5217bf/pepperpepper-0.0.3.tar.gz
+[2024-04-30 04:19:04] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-04-30 04:19:04] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/b4/5f/8424c60452cef69296fe38459b3dc9dc0af914e13387d12911dbca5217bf/pepperpepper-0.0.3.tar.gz
+[2024-04-30 04:19:04] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/f4/74/e8a1345d539cc705b6c6b516b1fb693170808b2fad2d43f0b6fe82e5a474/pydraw-2.2a8-py3-none-any.whl
+[2024-04-30 04:19:05] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/d0/7d/fe60361498d2280b607ad4d790a8311b70e4b2ac18d5fda0a4b52bf71999/types-regex-2024.4.16.20240418.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/6a/13/01bb71aa379e9b4e4f01f27d19916a2219ae63314e523bae201ce0934ea5/types-docker-7.0.0.20240424.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/b6/00/9464a4280c86278a2986ee0b89b1db56ca0434b3870528fc0171e7e2f066/pydraw-2.2a9-py3-none-any.whl
+[2024-04-30 04:19:05] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/20/df/086585079b13bfcda9437d7da60bbe205fb3238d6837f06e6504d60e8d26/pepperpepper-0.0.4.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/20/df/086585079b13bfcda9437d7da60bbe205fb3238d6837f06e6504d60e8d26/pepperpepper-0.0.4.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240430/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [pydraw]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [pydraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraw-2.2a8-py3-none-any.whl.zip tmp/pydraw-2.2a9-py3-none-any.whl.zip --markdown 20240430/p/pydraw/2.2a8-2.2a9/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.3.tar.gz tmp/pepperpepper-0.0.4.tar.gz --markdown 20240430/P/PepperPepper/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.3.tar.gz tmp/pepperpepper-0.0.4.tar.gz --markdown 20240430/P/PepperPepper/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/4b/98/c2b085a751247ff220920305a9a7394dd01fd0e3592e66f28dc834413a29/types-docker-7.0.0.20240430.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/4e/50/0a7fcb6c9e0d04fb0128d4f37e78322c986062b7d1008585b060158db0df/types-regex-2024.4.16.20240423.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-regex]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-regex-2024.4.16.20240418.tar.gz tmp/types-regex-2024.4.16.20240423.tar.gz --markdown 20240430/t/types-regex/2024.4.16.20240418-2024.4.16.20240423/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240424.tar.gz tmp/types-docker-7.0.0.20240430.tar.gz --markdown 20240430/t/types-docker/7.0.0.20240424-7.0.0.20240430/README.md --exclude *.pyd
+[2024-04-30 04:19:05] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2024-04-30 04:19:05] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20240430/v/vessl/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-30 04:19:06] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-04-30 04:19:06] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.3.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.4.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-04-30 04:19:06] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 04:19:06] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a8-py3-none-any.whl.zip]
+[2024-04-30 04:19:06] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a9-py3-none-any.whl.zip]
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [pydraw]: success
+[2024-04-30 04:19:06] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.4.16.20240418.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.4.16.20240423.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [types-regex]: success
+[2024-04-30 04:19:06] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240424.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240430.tar.gz]
+[2024-04-30 04:19:06] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-04-30 04:19:09] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2024-04-30 04:19:09] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2024-04-30 04:19:09] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2024-04-30 04:19:09] INFO root fetch - main [MainThread]: Store serial: [22994382]
