@@ -22720,3 +22720,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-30 11:58:46] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.8.3.tar.gz]
 [2024-04-30 11:58:46] INFO root fetch - main [MainThread]: End processing [flax]: success
 [2024-04-30 11:58:46] INFO root fetch - main [MainThread]: Store serial: [22999925]
+[2024-04-30 12:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999925]
+[2024-04-30 12:00:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyslth
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lpcML
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorrt-llm
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sag-py-auth
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lpcML
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartboiler
+[2024-04-30 12:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bent
+[2024-04-30 12:00:56] INFO root fetch - processPackages [lpcML]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [pyslth]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.43]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [lpcML]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [sag-py-auth]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [tensorrt-llm]: New version: [0.9.0.dev2024040900] Old Version: [0.9.0.dev2024040200]
+[2024-04-30 12:00:56] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/39/71/73f4a5433b0b9a7330695aabbc0e8547be166747e8f087f60395d34ee629/pyslth-0.2.1.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/7b/29/5755ba6ad422d67ef685bdc09e4efecada69e4c9df33e84ff54cdcd75a21/lpcML-0.0.2.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/7b/29/5755ba6ad422d67ef685bdc09e4efecada69e4c9df33e84ff54cdcd75a21/lpcML-0.0.2.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/62/9f/02f183407dfb72aa68f44d028068c6ea83dd10a8cd83960b34eba0d631e6/bent-0.0.43.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [sag-py-auth]: Downloading https://files.pythonhosted.org/packages/94/5b/1e4fcb5cc0e696f3162d4d093a8ae7e492009b46921aa1d084e9ad00ce8f/sag-py-auth-0.1.4.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/2a/c1/a41b5bb3daec8c3058b96bc94726cfe62850a4e86988b5c1791caa30b90c/tensorrt_llm-0.9.0.dev2024040200.tar.gz
+[2024-04-30 12:00:56] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240430/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/45/4e/28e1012a09d684ce050b52fe6bebb07288871ca9a8f467aafe0c81828e03/pyslth-0.2.2.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/47/38/9aed1dba025e774c6ed06f5d9c896510e1e0a3b6cdf003fdd3d342dc1155/lpcML-0.0.3.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/47/38/9aed1dba025e774c6ed06f5d9c896510e1e0a3b6cdf003fdd3d342dc1155/lpcML-0.0.3.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpcML-0.0.2.tar.gz tmp/lpcML-0.0.3.tar.gz --markdown 20240430/l/lpcML/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.43.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240430/b/bent/0.0.43-0.0.9/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [sag-py-auth]: Downloading https://files.pythonhosted.org/packages/e9/93/5cc1cc1ade3dbd5b0c787fb6afb93a0ce823b74699e7240673ef5890a4c1/sag-py-auth-0.1.5.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpcML-0.0.2.tar.gz tmp/lpcML-0.0.3.tar.gz --markdown 20240430/l/lpcML/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/27/e0/eaf2f17cd0e4a7e8d57054ceeafeaaf86effd6dd0c299ab151cae910420e/tensorrt_llm-0.9.0.dev2024040900.tar.gz
+[2024-04-30 12:00:57] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.2.1.tar.gz tmp/pyslth-0.2.2.tar.gz --markdown 20240430/p/pyslth/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [sag-py-auth]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [sag-py-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-auth-0.1.4.tar.gz tmp/sag-py-auth-0.1.5.tar.gz --markdown 20240430/s/sag-py-auth/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [tensorrt-llm]: executing diffoscope
+[2024-04-30 12:00:57] INFO root fetch - processPackages [tensorrt-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz --markdown 20240430/t/tensorrt-llm/0.9.0.dev2024040200-0.9.0.dev2024040900/README.md --exclude *.pyd
+[2024-04-30 12:00:57] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-04-30 12:00:57] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-04-30 12:00:57] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: Remove: archive file [/home/abi/fetcher/tmp/lpcML-0.0.2.tar.gz]
+[2024-04-30 12:00:57] INFO root fetch - processPackages [lpcML]: Remove: archive file [/home/abi/fetcher/tmp/lpcML-0.0.3.tar.gz]
+[2024-04-30 12:00:57] INFO root fetch - main [MainThread]: End processing [lpcML]: success
+[2024-04-30 12:00:58] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - main [MainThread]: End processing [tensorrt-llm]: success
+[2024-04-30 12:00:58] INFO root fetch - main [MainThread]: End processing [lpcML]: success
+[2024-04-30 12:00:58] INFO root fetch - processPackages [sag-py-auth]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-auth-0.1.4.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - processPackages [sag-py-auth]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-auth-0.1.5.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - main [MainThread]: End processing [sag-py-auth]: success
+[2024-04-30 12:00:58] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.43.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-04-30 12:00:58] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.1.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.2.tar.gz]
+[2024-04-30 12:00:58] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-30 12:00:58] INFO root fetch - main [MainThread]: Store serial: [22999945]
