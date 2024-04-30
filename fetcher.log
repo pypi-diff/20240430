@@ -14530,3 +14530,232 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:03:49] WARNING root fetch - processPackages [faasmsctl]: Skipping, unable to determine old version
 [2024-04-30 08:03:49] INFO root fetch - main [MainThread]: End processing [faasmsctl] error
 [2024-04-30 08:03:49] INFO root fetch - main [MainThread]: Store serial: [22996885]
+[2024-04-30 08:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996885]
+[2024-04-30 08:05:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracebloc-package-dev
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ec
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-cli
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kafka
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-cli-core
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gitlab
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-auto-remove-zero-quantity-lines
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-exception
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-libvirt
+[2024-04-30 08:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JustDeepIt
+[2024-04-30 08:05:58] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1714455824] Old Version: [3.8.0a1714110387]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: Downloading https://files.pythonhosted.org/packages/da/8d/08d40acc5a4b246dbff65685ad27c15e392893201f87a6384b5f8bbf714e/odoo_addon_sale_auto_remove_zero_quantity_lines-16.0.1.1.0-py3-none-any.whl
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-exception]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [JustDeepIt]: New version: [0.2.0] Old Version: [0.1.30]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1714455359] Old Version: [0.8.1a1714109915]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1714455892] Old Version: [0.4.6a1714110532]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [azure-cli]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [azure-cli-core]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/73/6e/d3d0e94c81511944e07259203106c767fc938dfb0f786663788f26a37b00/pulumi_kafka-3.8.0a1714110387.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/2e/a1/72ed22f54d45832c618b5d032ae0ca965477dc052f600360ef876bfbb56e/odoo_addon_sale_exception-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 08:05:58] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/c2/71/23895a8e4e87e1dad07d14d2e50b17f93a48527704ae6daa68a3c0978194/JustDeepIt-0.1.30.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c1/70/05ef7aa2ef2fac0e4c79cc1ddd31aa084bec1f4c00cca89a855c5865e587/pulumi_libvirt-0.4.6a1714110532.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/aa/e8/e1243073a5e86edb74b26d349db5bfb7c8fc77290ca9be508c669f199105/pulumi_ec-0.8.1a1714109915.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [azure-cli-core]: Downloading https://files.pythonhosted.org/packages/d3/4f/50b22f75e8502d976f4233c52a019a25c05adbf5298cdc1f9e9a8ee1b920/azure-cli-core-2.9.0.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [azure-cli]: Downloading https://files.pythonhosted.org/packages/55/e3/2b888e02a618686d65008d3acf0e761142ca9017714a8ed2014ac40dc846/azure-cli-2.9.0.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: Downloading https://files.pythonhosted.org/packages/31/6d/cdbaab99da841c188930d96ae48aa5ce82b8942ef659e20dbc0d24e61314/odoo_addon_sale_auto_remove_zero_quantity_lines-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-30 08:05:58] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-30 08:05:58] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240430/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: executing diffoscope
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_auto_remove_zero_quantity_lines-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_auto_remove_zero_quantity_lines-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-sale-auto-remove-zero-quantity-lines/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/58/4c/378fc18920deca8f6385154deac8120a9ad87bb50c9bc6b27ebbe75ab8f1/pulumi_kafka-3.8.0a1714455824.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/76/34/3a4c4759aec3aa12fb8ff1d029f391d8cd6c31ec736bee2cd7e5a455516c/justdeepit-0.2.0.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/a8/77/723cc5b31d7171e1f9f396a8e6896567b13258b55c68cc0e77bc5edead78/pulumi_ec-0.9.0a1714455359.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/cb/45/fe383dfbd418a8c7834654ef90ea61be39726958fedda8afa976fd5abe9e/pulumi_libvirt-0.5.0a1714455892.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1714110387.tar.gz tmp/pulumi_kafka-3.8.0a1714455824.tar.gz --markdown 20240430/p/pulumi-kafka/3.8.0a1714110387-3.8.0a1714455824/README.md --exclude *.pyd
+[2024-04-30 08:05:58] INFO root fetch - processPackages [odoo-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/91/51/d231367f6462aa34becb870b51b0274b09ef1d319705fba25e5d59277a0b/odoo_addon_sale_exception-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-30 08:05:58] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-04-30 08:05:58] INFO root fetch - processPackages [azure-cli-core]: Downloading https://files.pythonhosted.org/packages/81/23/e7591ae53424c96e9e3757c473ce8d8b6443e11340cc3193e62eb2962363/azure-cli-core-2.9.1.tar.gz
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.8.1a1714109915.tar.gz tmp/pulumi_ec-0.9.0a1714455359.tar.gz --markdown 20240430/p/pulumi-ec/0.8.1a1714109915-0.9.0a1714455359/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [JustDeepIt]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-exception]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [JustDeepIt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustDeepIt-0.1.30.tar.gz tmp/justdeepit-0.2.0.tar.gz --markdown 20240430/J/JustDeepIt/0.1.30-0.2.0/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_exception-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_exception-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-sale-exception/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.6a1714110532.tar.gz tmp/pulumi_libvirt-0.5.0a1714455892.tar.gz --markdown 20240430/p/pulumi-libvirt/0.4.6a1714110532-0.5.0a1714455892/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [azure-cli]: Downloading https://files.pythonhosted.org/packages/e1/e8/8861f8a8e8829dfedc68de6fe55c42eaa43b6cb37c63ee49fc818f6cab98/azure-cli-2.9.1.tar.gz
+[2024-04-30 08:05:59] INFO root fetch - processPackages [azure-cli-core]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [azure-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-core-2.9.0.tar.gz tmp/azure-cli-core-2.9.1.tar.gz --markdown 20240430/a/azure-cli-core/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240430/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [tracebloc-package-dev]: Start processing: odoo-addon-sale-exception
+[2024-04-30 08:05:59] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-30 08:05:59] INFO root fetch - processPackages [azure-cli]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [azure-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-2.9.0.tar.gz tmp/azure-cli-2.9.1.tar.gz --markdown 20240430/a/azure-cli/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-exception]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_auto_remove_zero_quantity_lines-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_auto_remove_zero_quantity_lines-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-auto-remove-zero-quantity-lines]: Start processing: iterdir
+[2024-04-30 08:05:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-auto-remove-zero-quantity-lines]: success
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-exception]: executing diffoscope
+[2024-04-30 08:05:59] INFO root fetch - processPackages [odoo-addon-sale-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_exception-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_exception-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-sale-exception/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-30 08:05:59] INFO root fetch - processPackages [iterdir]: New version: [0.0.5] Old Version: [0.0.4.2]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714110387.tar.gz]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714455824.tar.gz]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-kafka]: Start processing: doxysphinx
+[2024-04-30 08:05:59] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-04-30 08:05:59] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/8c/18/e799f1de683d46b3c2a6e19bed7e9d2bf6e9033403bc2c371f1990d7d102/iterdir-0.0.4.2.tar.gz
+[2024-04-30 08:05:59] INFO root fetch - processPackages [doxysphinx]: New version: [3.3.8] Old Version: [3.3.7]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.8.1a1714109915.tar.gz]
+[2024-04-30 08:05:59] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1714455359.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-04-30 08:06:00] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1714110532.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1714455892.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-04-30 08:06:00] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/0e/46/f2090347ebf9e2ef0fe2ef385c7757ef2da9293548b9db42f931725067a5/doxysphinx-3.3.7.tar.gz
+[2024-04-30 08:06:00] INFO root fetch - processPackages [azure-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-core-2.9.0.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - processPackages [azure-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-core-2.9.1.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [azure-cli-core]: success
+[2024-04-30 08:06:00] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/66/3c/d7a63e11aaca0f42b27bf714435d9733e6a1f1e7d30a384a44d3c5dcff13/iterdir-0.0.5.tar.gz
+[2024-04-30 08:06:00] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/JustDeepIt-0.1.30.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/justdeepit-0.2.0.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [JustDeepIt]: success
+[2024-04-30 08:06:00] INFO root fetch - processPackages [odoo-addon-sale-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_exception-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:06:00] INFO root fetch - processPackages [odoo-addon-sale-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_exception-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-exception]: success
+[2024-04-30 08:06:00] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-30 08:06:00] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.4.2.tar.gz tmp/iterdir-0.0.5.tar.gz --markdown 20240430/i/iterdir/0.0.4.2-0.0.5/README.md --exclude *.pyd
+[2024-04-30 08:06:00] ERROR root fetch - processPackages [odoo-addon-sale-exception]: Diffoscope failed: time="2024-04-30T08:05:59+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipnote {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 256, in compare_details
+    Difference.from_operation(Zipnote, self.path, other.path)
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipnote {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 553, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 412, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-exception] error
+[2024-04-30 08:06:00] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/84/53/1079743ab3478caac5aa2a01acc0b19c3bf82156c71f50b71b08df85b104/doxysphinx-3.3.8.tar.gz
+[2024-04-30 08:06:00] INFO root fetch - processPackages [doxysphinx]: executing diffoscope
+[2024-04-30 08:06:00] INFO root fetch - processPackages [doxysphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxysphinx-3.3.7.tar.gz tmp/doxysphinx-3.3.8.tar.gz --markdown 20240430/d/doxysphinx/3.3.7-3.3.8/README.md --exclude *.pyd
+[2024-04-30 08:06:00] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.4.2.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.5.tar.gz]
+[2024-04-30 08:06:00] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-30 08:06:01] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-04-30 08:06:01] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-04-30 08:06:01] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-04-30 08:06:01] INFO root fetch - processPackages [doxysphinx]: Remove: archive file [/home/abi/fetcher/tmp/doxysphinx-3.3.7.tar.gz]
+[2024-04-30 08:06:01] INFO root fetch - processPackages [doxysphinx]: Remove: archive file [/home/abi/fetcher/tmp/doxysphinx-3.3.8.tar.gz]
+[2024-04-30 08:06:01] INFO root fetch - main [MainThread]: End processing [doxysphinx]: success
+[2024-04-30 08:06:02] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.0.tar.gz]
+[2024-04-30 08:06:02] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.1.tar.gz]
+[2024-04-30 08:06:02] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
+[2024-04-30 08:06:02] INFO root fetch - main [MainThread]: Store serial: [22996920]
