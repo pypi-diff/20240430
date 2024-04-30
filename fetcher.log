@@ -14759,3 +14759,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:06:02] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.1.tar.gz]
 [2024-04-30 08:06:02] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
 [2024-04-30 08:06:02] INFO root fetch - main [MainThread]: Store serial: [22996920]
+[2024-04-30 08:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996920]
+[2024-04-30 08:08:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 08:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhipuai
+[2024-04-30 08:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-keycloak
+[2024-04-30 08:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mktxp
+[2024-04-30 08:08:11] INFO root fetch - processPackages [zhipuai]: New version: [2.0.1.20240429] Old Version: [2.0.1.20240427]
+[2024-04-30 08:08:11] INFO root fetch - processPackages [mktxp]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-30 08:08:11] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1714455729] Old Version: [5.4.0a1714364451]
+[2024-04-30 08:08:12] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/b3/ed/66f01f25b013486daab1feec106de2dcf6be46c07b75b441a3857919aa0b/zhipuai-2.0.1.20240427.tar.gz
+[2024-04-30 08:08:12] INFO root fetch - processPackages [mktxp]: Downloading https://files.pythonhosted.org/packages/d5/e9/b358410dd9b27ea3ccfbcc415a2b258b3a5fcd04ebec97efa8ef3c8ea661/mktxp-1.2.3.tar.gz
+[2024-04-30 08:08:12] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/15/d9/878bda4402a4a901c12178ef5847ae1730fda6b674235b5c31aa2585c05d/pulumi_keycloak-5.4.0a1714364451.tar.gz
+[2024-04-30 08:08:12] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/50/4d/22d0e57c36b698c9904cf8f0baf904392eb387c0b9ac0213c24088a33eac/zhipuai-2.0.1.20240429.tar.gz
+[2024-04-30 08:08:12] INFO root fetch - processPackages [mktxp]: Downloading https://files.pythonhosted.org/packages/76/1a/c0b6dfc9252ebeb6b00054d84c60875de58bd243a28d9f98073cd326bce3/mktxp-1.2.4.tar.gz
+[2024-04-30 08:08:12] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/19/91/6274e2d29782183b326ba094ff825efda2bda85561fff35cb09bd94e9b34/pulumi_keycloak-5.4.0a1714455729.tar.gz
+[2024-04-30 08:08:12] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2024-04-30 08:08:12] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-2.0.1.20240427.tar.gz tmp/zhipuai-2.0.1.20240429.tar.gz --markdown 20240430/z/zhipuai/2.0.1.20240427-2.0.1.20240429/README.md --exclude *.pyd
+[2024-04-30 08:08:12] INFO root fetch - processPackages [mktxp]: executing diffoscope
+[2024-04-30 08:08:12] INFO root fetch - processPackages [mktxp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktxp-1.2.3.tar.gz tmp/mktxp-1.2.4.tar.gz --markdown 20240430/m/mktxp/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-30 08:08:12] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-30 08:08:12] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1714364451.tar.gz tmp/pulumi_keycloak-5.4.0a1714455729.tar.gz --markdown 20240430/p/pulumi-keycloak/5.4.0a1714364451-5.4.0a1714455729/README.md --exclude *.pyd
+[2024-04-30 08:08:13] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-2.0.1.20240427.tar.gz]
+[2024-04-30 08:08:13] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-2.0.1.20240429.tar.gz]
+[2024-04-30 08:08:13] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2024-04-30 08:08:13] INFO root fetch - processPackages [mktxp]: Remove: archive file [/home/abi/fetcher/tmp/mktxp-1.2.3.tar.gz]
+[2024-04-30 08:08:13] INFO root fetch - processPackages [mktxp]: Remove: archive file [/home/abi/fetcher/tmp/mktxp-1.2.4.tar.gz]
+[2024-04-30 08:08:13] INFO root fetch - main [MainThread]: End processing [mktxp]: success
+[2024-04-30 08:08:13] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714364451.tar.gz]
+[2024-04-30 08:08:13] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714455729.tar.gz]
+[2024-04-30 08:08:13] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-30 08:08:13] INFO root fetch - main [MainThread]: Store serial: [22996928]
