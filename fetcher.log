@@ -14890,3 +14890,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:12:50] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
 [2024-04-30 08:12:50] INFO root fetch - main [MainThread]: End processing [fastapi]: success
 [2024-04-30 08:12:50] INFO root fetch - main [MainThread]: Store serial: [22996969]
+[2024-04-30 08:14:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996969]
+[2024-04-30 08:14:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 08:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiotx
+[2024-04-30 08:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nomic
+[2024-04-30 08:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libdebug
+[2024-04-30 08:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2024-04-30 08:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symetrics
+[2024-04-30 08:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-awscdk-resolver
+[2024-04-30 08:14:59] INFO root fetch - processPackages [aiotx]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 08:14:59] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.90] Old Version: [0.0.9]
+[2024-04-30 08:14:59] INFO root fetch - processPackages [symetrics]: New version: [7.0.0] Old Version: [6.4.1]
+[2024-04-30 08:14:59] INFO root fetch - processPackages [nomic]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-30 08:14:59] WARNING root fetch - processPackages [libdebug]: Skipping, unable to determine old version
+[2024-04-30 08:14:59] INFO root fetch - main [MainThread]: End processing [libdebug] error
+[2024-04-30 08:14:59] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-30 08:14:59] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1714456243] Old Version: [3.6.0a1714110617]
+[2024-04-30 08:14:59] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/a6/46/0f07d85dde6216c4b4489a788829c24919b9b8758b9f8e81b97427d62ed6/aiotx-0.0.1.tar.gz
+[2024-04-30 08:14:59] INFO root fetch - processPackages [symetrics]: Downloading https://files.pythonhosted.org/packages/a1/c5/47ccb1ac8bf094601a275fbd25ec9f6059c3f71936a5c5d08a37741547e3/symetrics-6.4.1.tar.gz
+[2024-04-30 08:14:59] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/c9/ad/6e9b14cebcae04b4cb15b2551331bb210543f022d567d5eef4ba79832928/nomic-3.0.8.tar.gz
+[2024-04-30 08:14:59] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/fd/7a/c79017f7341ca3899cb43ad75919a7a80539f469970d9bfb5a256178c2f1/pulumi_mailgun-3.6.0a1714110617.tar.gz
+[2024-04-30 08:14:59] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e7/8d/a13e78a2bb2c0ebebefaad3af24c7c58b035bd300b60a2d6d52bed6786db/cdk8s-awscdk-resolver-0.0.90.tar.gz
+[2024-04-30 08:14:59] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/0a/14/74a667325eb9a374459d526568d4d631b0271ceece71243721ad4e7cf5cd/aiotx-0.0.2.tar.gz
+[2024-04-30 08:15:00] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-04-30 08:15:00] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-0.0.1.tar.gz tmp/aiotx-0.0.2.tar.gz --markdown 20240430/a/aiotx/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 08:15:00] INFO root fetch - processPackages [symetrics]: Downloading https://files.pythonhosted.org/packages/89/c9/7b1a1b4b194417777d3ae14b815389b49e348aa88f2981f029a32c301b85/symetrics-7.0.0.tar.gz
+[2024-04-30 08:15:00] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-30 08:15:00] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz tmp/cdk8s-awscdk-resolver-0.0.90.tar.gz --markdown 20240430/c/cdk8s-awscdk-resolver/0.0.9-0.0.90/README.md --exclude *.pyd
+[2024-04-30 08:15:00] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/77/78/0c999f7275ca10a0535bb28664e56885b1bf10ddd007ad66f2719baa044a/pulumi_mailgun-3.6.0a1714456243.tar.gz
+[2024-04-30 08:15:00] INFO root fetch - processPackages [symetrics]: executing diffoscope
+[2024-04-30 08:15:00] INFO root fetch - processPackages [symetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symetrics-6.4.1.tar.gz tmp/symetrics-7.0.0.tar.gz --markdown 20240430/s/symetrics/6.4.1-7.0.0/README.md --exclude *.pyd
+[2024-04-30 08:15:00] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/27/fc/fe32416170225a513fe244d14e87004d298fbe1afbfc18367a2f9cb99f23/nomic-3.0.9.tar.gz
+[2024-04-30 08:15:00] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-04-30 08:15:00] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1714110617.tar.gz tmp/pulumi_mailgun-3.6.0a1714456243.tar.gz --markdown 20240430/p/pulumi-mailgun/3.6.0a1714110617-3.6.0a1714456243/README.md --exclude *.pyd
+[2024-04-30 08:15:00] INFO root fetch - processPackages [nomic]: executing diffoscope
+[2024-04-30 08:15:00] INFO root fetch - processPackages [nomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomic-3.0.8.tar.gz tmp/nomic-3.0.9.tar.gz --markdown 20240430/n/nomic/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-30 08:15:00] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.0.1.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.0.2.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-04-30 08:15:00] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.90.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-30 08:15:00] INFO root fetch - processPackages [symetrics]: Remove: archive file [/home/abi/fetcher/tmp/symetrics-6.4.1.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - processPackages [symetrics]: Remove: archive file [/home/abi/fetcher/tmp/symetrics-7.0.0.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - main [MainThread]: End processing [symetrics]: success
+[2024-04-30 08:15:00] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714110617.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714456243.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-04-30 08:15:00] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-3.0.8.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-3.0.9.tar.gz]
+[2024-04-30 08:15:00] INFO root fetch - main [MainThread]: End processing [nomic]: success
+[2024-04-30 08:15:00] INFO root fetch - main [MainThread]: Store serial: [22996993]
