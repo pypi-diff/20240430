@@ -20967,3 +20967,270 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:06:09] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1516-py3-none-any.whl.zip]
 [2024-04-30 11:06:09] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-30 11:06:09] INFO root fetch - main [MainThread]: Store serial: [22999293]
+[2024-04-30 11:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999293]
+[2024-04-30 11:08:19] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openimis-be-claim
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timeseriesflattener
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf_easily_saas
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openimis-be-claim-batch
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openimis-be-tools
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openimis-be-api-fhir-r4
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openimis-be-calculation
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openimis-be-contribution-plan
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openimis-be-policyholder
+[2024-04-30 11:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asp-selftest
+[2024-04-30 11:08:19] WARNING root fetch - processPackages [drf_easily_saas]: Skipping, unable to determine old version
+[2024-04-30 11:08:19] INFO root fetch - processPackages [drf_easily_saas]: Start processing: openimis-be-invoice
+[2024-04-30 11:08:19] INFO root fetch - main [MainThread]: End processing [drf_easily_saas] error
+[2024-04-30 11:08:19] INFO root fetch - processPackages [asp-selftest]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-contribution-plan]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-tools]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-claim-batch]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-calculation]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [timeseriesflattener]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-policyholder]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-claim]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-invoice]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:19] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/9a/f0/aa93c0e606cb5430a57ea7898d1a5b0a08dd0c74405e7d2ef196aeede617/asp_selftest-0.0.3.tar.gz
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-contribution-plan]: Downloading https://files.pythonhosted.org/packages/db/f3/4a55318b91fa4660b6830d16cb689a721b221d38346ec9d6fea46ef17168/openimis-be-contribution-plan-1.6.0.tar.gz
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-tools]: Downloading https://files.pythonhosted.org/packages/65/e8/d1d689d92df9e69c68be604ba742675990a681591889839a7d25b0244c65/openimis-be-tools-1.6.0.tar.gz
+[2024-04-30 11:08:19] INFO root fetch - processPackages [openimis-be-claim-batch]: Downloading https://files.pythonhosted.org/packages/bf/c4/c58fd984eea93b44d0fe513d311221ee61ddc42ffc4f6814ec7a28aa3701/openimis-be-claim_batch-1.6.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/a5/7b/351aa6ea3f95d701c988634241f3e49ea34eb7c5861da655f291fd67600d/timeseriesflattener-2.1.2.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-calculation]: Downloading https://files.pythonhosted.org/packages/6f/c6/82e41a9819a420b2c4cabd01ba7c2aa1866e7548b6bffe033c7882ced38a/openimis-be-calculation-1.6.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: Downloading https://files.pythonhosted.org/packages/c6/2f/6091d800482ac8f07883b954524953185bd0df51383c000627fdddafad47/openimis-be-api_fhir_r4-1.6.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-policyholder]: Downloading https://files.pythonhosted.org/packages/68/b4/62da4a328ee8af57bae6e2b72cdc45f33733cfe277e40c55280dfcd7f622/openimis-be-policyholder-1.6.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-invoice]: Downloading https://files.pythonhosted.org/packages/fa/f1/fe2c115c3c534354c5582cbd52b721e5b8ab96055b5a55d843a151d40c14/openimis-be-invoice-1.6.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim]: Downloading https://files.pythonhosted.org/packages/31/47/a887d595ec2f3d0894f3459677caeb19a692983a3e0bbcb678d4b2a29b27/openimis-be-claim-1.6.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/7e/b9/b32e6aa2c17751895013139c384841d9e821ba43f488f5c314fe7f3da458/asp_selftest-0.0.4.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-contribution-plan]: Downloading https://files.pythonhosted.org/packages/83/5b/46285fcd682d78081a3f37b2e75010d331d0fd3cd3f3ee5c63796c42c8af/openimis_be_contribution_plan-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [asp-selftest]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [asp-selftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_selftest-0.0.3.tar.gz tmp/asp_selftest-0.0.4.tar.gz --markdown 20240430/a/asp-selftest/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-invoice]: Downloading https://files.pythonhosted.org/packages/e8/8d/620943a388fdb10191689ba832df8feb99b41053841912d542e69e31d488/openimis_be_invoice-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-calculation]: Downloading https://files.pythonhosted.org/packages/16/b3/c60c583e96d57b220e733d753aff90292a0d28cc024ca08651aa9ae38e87/openimis_be_calculation-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-tools]: Downloading https://files.pythonhosted.org/packages/bc/91/a38f5b9fbdb3f2942498bd03ba6f495583ba180077b5dda3bcad47732ce0/openimis_be_tools-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-contribution-plan]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-contribution-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-contribution-plan-1.6.0.tar.gz tmp/openimis_be_contribution_plan-1.7.0.tar.gz --markdown 20240430/o/openimis-be-contribution-plan/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim-batch]: Downloading https://files.pythonhosted.org/packages/0e/5a/e3949f2ff13e6e996799469857652c73f318f0cf258ea5d6145a70fa9146/openimis_be_claim_batch-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-policyholder]: Downloading https://files.pythonhosted.org/packages/7d/a6/927530bd5a97a2819b3b5483ace5df1d0044930b5aaee3cb983a86882a5d/openimis_be_policyholder-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: Downloading https://files.pythonhosted.org/packages/d9/bf/8dc8851b1bfff856f5781db402f4c6823359ac60f78ee27f8638e055738b/openimis_be_api_fhir_r4-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-invoice]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-invoice-1.6.0.tar.gz tmp/openimis_be_invoice-1.7.0.tar.gz --markdown 20240430/o/openimis-be-invoice/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim]: Downloading https://files.pythonhosted.org/packages/03/b7/c23bef2188639de426fc66a97148b0ad937eb1b4f155c6e34027c1ca94ab/openimis_be_claim-1.7.0.tar.gz
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-calculation]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-calculation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calculation-1.6.0.tar.gz tmp/openimis_be_calculation-1.7.0.tar.gz --markdown 20240430/o/openimis-be-calculation/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim-batch]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-claim_batch-1.6.0.tar.gz tmp/openimis_be_claim_batch-1.7.0.tar.gz --markdown 20240430/o/openimis-be-claim-batch/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-tools]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-tools-1.6.0.tar.gz tmp/openimis_be_tools-1.7.0.tar.gz --markdown 20240430/o/openimis-be-tools/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-policyholder]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-policyholder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-policyholder-1.6.0.tar.gz tmp/openimis_be_policyholder-1.7.0.tar.gz --markdown 20240430/o/openimis-be-policyholder/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-api_fhir_r4-1.6.0.tar.gz tmp/openimis_be_api_fhir_r4-1.7.0.tar.gz --markdown 20240430/o/openimis-be-api-fhir-r4/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim]: executing diffoscope
+[2024-04-30 11:08:20] INFO root fetch - processPackages [openimis-be-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-claim-1.6.0.tar.gz tmp/openimis_be_claim-1.7.0.tar.gz --markdown 20240430/o/openimis-be-claim/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:21] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.3.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.4.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [asp-selftest]: Start processing: openimis-be-contract
+[2024-04-30 11:08:21] INFO root fetch - main [MainThread]: End processing [asp-selftest]: success
+[2024-04-30 11:08:21] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/13/7f/7bd4ea7dda25510d9f1f4327bf66cb41c85702c16bbae13713665d02fa5a/timeseriesflattener-2.2.0.tar.gz
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-contract]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-contribution-plan]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-contribution-plan-1.6.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-contribution-plan]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_contribution_plan-1.7.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-contribution-plan]: Start processing: openbharatocr
+[2024-04-30 11:08:21] INFO root fetch - main [MainThread]: End processing [openimis-be-contribution-plan]: success
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openbharatocr]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-calculation]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calculation-1.6.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-calculation]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calculation-1.7.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-calculation]: Start processing: openimis-be-calcrule-contribution-legacy
+[2024-04-30 11:08:21] INFO root fetch - main [MainThread]: End processing [openimis-be-calculation]: success
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/79/c6/4cee34a0d3aa37e57f5a08e4a139a6158904a672b206607d6e71ea7df6e7/openbharatocr-0.1.2.tar.gz
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-contract]: Downloading https://files.pythonhosted.org/packages/e8/64/684ad1c8a73e366a0207807b3ed0db080b2a7810f62c85149a2564be7783/openimis-be-contract-1.6.0.tar.gz
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-claim-batch]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-claim_batch-1.6.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-claim-batch]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_claim_batch-1.7.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-claim-batch]: Start processing: openimis-be-calcrule-third-party-payment
+[2024-04-30 11:08:21] INFO root fetch - main [MainThread]: End processing [openimis-be-claim-batch]: success
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-tools]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-tools-1.6.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-tools]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_tools-1.7.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-tools]: Start processing: openimis-be-calcrule-capitation-payment
+[2024-04-30 11:08:21] INFO root fetch - main [MainThread]: End processing [openimis-be-tools]: success
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-policyholder]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-policyholder-1.6.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-policyholder]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_policyholder-1.7.0.tar.gz]
+[2024-04-30 11:08:21] INFO root fetch - processPackages [openimis-be-policyholder]: Start processing: aos-signer
+[2024-04-30 11:08:21] INFO root fetch - main [MainThread]: End processing [openimis-be-policyholder]: success
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [aos-signer]: New version: [1.8.2b7] Old Version: [1.8.2b6]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-invoice]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-invoice-1.6.0.tar.gz]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-invoice]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_invoice-1.7.0.tar.gz]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-invoice]: Start processing: openimis-be-calcrule-commission
+[2024-04-30 11:08:22] INFO root fetch - main [MainThread]: End processing [openimis-be-invoice]: success
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-2.1.2.tar.gz tmp/timeseriesflattener-2.2.0.tar.gz --markdown 20240430/t/timeseriesflattener/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [aos-signer]: Downloading https://files.pythonhosted.org/packages/fd/b4/6dc9d24139ec702fe7032adb7fd7b204e72835ce45eefb9f63579e76eb64/aos_signer-1.8.2b6-py3-none-any.whl
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/d0/4f/82a0c6013211b78e192a67e733db2358a1c86087bc44c74660de965e9f29/openbharatocr-0.2.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: Downloading https://files.pythonhosted.org/packages/af/9b/8750ff8b53aaeff49bb1f46082e2db34f7bb716bbca9670bb72f0ff34902/openimis-be-calcrule-contribution-legacy-1.5.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-commission]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-contract]: Downloading https://files.pythonhosted.org/packages/bd/73/44a9d3881f114d75d907bdd0a4863cc054bccf54a90b3230bb97c56e3adf/openimis_be_contract-1.7.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: Downloading https://files.pythonhosted.org/packages/4e/e4/74979f37f79d4f28bc3fb21ce0b860e0a8b1352c9bcd09a54aa8349726e8/openimis-be-calcrule-third_party_payment-1.6.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.1.2.tar.gz tmp/openbharatocr-0.2.0.tar.gz --markdown 20240430/o/openbharatocr/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-claim]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-claim-1.6.0.tar.gz]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-claim]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_claim-1.7.0.tar.gz]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-claim]: Start processing: openimis-be-calcrule-contribution-income-percentage
+[2024-04-30 11:08:22] INFO root fetch - main [MainThread]: End processing [openimis-be-claim]: success
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: Downloading https://files.pythonhosted.org/packages/8d/1c/ebd03a47041799ea5d61e4965f5bbe21a741798b05dd06fa65ee4eb34b11/openimis-be-calcrule-capitation_payment-1.6.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-contract]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-contract-1.6.0.tar.gz tmp/openimis_be_contract-1.7.0.tar.gz --markdown 20240430/o/openimis-be-contract/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [aos-signer]: Downloading https://files.pythonhosted.org/packages/0d/3d/6a066a4c1171f696642484a67ead543f49e95db564fd8eeeeecbb4d700e8/aos_signer-1.8.2b7-py3-none-any.whl
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-commission]: Downloading https://files.pythonhosted.org/packages/bc/43/9b2ce08ba3213cfb450e5461b1619aae136edc79bbe50314f4ec1146ec31/openimis-be-calcrule_commission-1.5.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: Downloading https://files.pythonhosted.org/packages/f5/3e/5f25f78c5f813675fad483583f5ab1551b27f1e55bbc3783796b14d88826/openimis_be_calcrule_contribution_legacy-1.6.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [aos-signer]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [aos-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_signer-1.8.2b6-py3-none-any.whl.zip tmp/aos_signer-1.8.2b7-py3-none-any.whl.zip --markdown 20240430/a/aos-signer/1.8.2b6-1.8.2b7/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: Downloading https://files.pythonhosted.org/packages/60/5b/c8033898173f277bccfeacf797a301c090593814dc319430cac1b32573d1/openimis_be_calcrule_third_party_payment-1.7.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule-contribution-legacy-1.5.0.tar.gz tmp/openimis_be_calcrule_contribution_legacy-1.6.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-contribution-legacy/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: Downloading https://files.pythonhosted.org/packages/aa/e6/92c71563927b20f736d1fdf4f35739a5b8f8283a9420b0381636f17f3015/openimis_be_calcrule_capitation_payment-1.7.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule-third_party_payment-1.6.0.tar.gz tmp/openimis_be_calcrule_third_party_payment-1.7.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-third-party-payment/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: Downloading https://files.pythonhosted.org/packages/4a/e4/4d469bce88f6a019c1b8d0297751df998721cf6f2b9497073fcc22420f3f/openimis-be-calcrule_contribution_income_percentage-1.5.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-commission]: Downloading https://files.pythonhosted.org/packages/2b/5a/e363ee1b21fde38e0355ac01079620a6e410cb0ca997d4e231140cbfacd0/openimis_be_calcrule_commission-1.6.0.tar.gz
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule-capitation_payment-1.6.0.tar.gz tmp/openimis_be_calcrule_capitation_payment-1.7.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-capitation-payment/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-commission]: executing diffoscope
+[2024-04-30 11:08:22] INFO root fetch - processPackages [openimis-be-calcrule-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule_commission-1.5.0.tar.gz tmp/openimis_be_calcrule_commission-1.6.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-commission/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: Downloading https://files.pythonhosted.org/packages/7d/99/aacee21a5eaea0f9d1ca8a20d8b3347a7df648eaabeb2a6946d942006d39/openimis_be_calcrule_contribution_income_percentage-1.6.0.tar.gz
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: executing diffoscope
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule_contribution_income_percentage-1.5.0.tar.gz tmp/openimis_be_calcrule_contribution_income_percentage-1.6.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-contribution-income-percentage/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.1.2.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openbharatocr]: Start processing: openimis-be-calcrule-fees
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-api_fhir_r4-1.6.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_api_fhir_r4-1.7.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-api-fhir-r4]: Start processing: openimis-be-calcrule-unconditional-cash-payment
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openimis-be-api-fhir-r4]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-fees]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-contract]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-contract-1.6.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-contract]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_contract-1.7.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-contract]: Start processing: openimis-be-im-export
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openimis-be-contract]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [aos-signer]: Remove: archive file [/home/abi/fetcher/tmp/aos_signer-1.8.2b6-py3-none-any.whl.zip]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [aos-signer]: Remove: archive file [/home/abi/fetcher/tmp/aos_signer-1.8.2b7-py3-none-any.whl.zip]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [aos-signer]: Start processing: openimis-be-dhis2-etl
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [aos-signer]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-im-export]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-fees]: Downloading https://files.pythonhosted.org/packages/f2/08/91c75bf2a7f5e005b5f7386cf041b40b711b7799b1a816e012f6189eac22/openimis-be-calcrule_fees-1.5.0.tar.gz
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-dhis2-etl]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule-contribution-legacy-1.5.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_contribution_legacy-1.6.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-contribution-legacy]: Start processing: openimis-be-social-protection
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-contribution-legacy]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule-third_party_payment-1.6.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_third_party_payment-1.7.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-third-party-payment]: Start processing: pyslth
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-third-party-payment]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: Downloading https://files.pythonhosted.org/packages/3e/11/571c8bc00a900d73c4ca6cf1a5d31cef53ddf8572e5fd6005f2f05b85b82/openimis-be-calcrule_unconditional_cash_payment-1.5.0.tar.gz
+[2024-04-30 11:08:23] INFO root fetch - processPackages [pyslth]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule-capitation_payment-1.6.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_capitation_payment-1.7.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-capitation-payment]: Start processing: openimis-be-opensearch-reports
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-capitation-payment]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-social-protection]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-im-export]: Downloading https://files.pythonhosted.org/packages/82/30/35f2622c7e07e9a48742415b4e5112564d3e047339ed92c23dfa00b505b5/openimis-be-im_export-1.1.0.tar.gz
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-commission]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule_commission-1.5.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-commission]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_commission-1.6.0.tar.gz]
+[2024-04-30 11:08:23] INFO root fetch - processPackages [openimis-be-calcrule-commission]: Start processing: sais
+[2024-04-30 11:08:23] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-commission]: success
+[2024-04-30 11:08:23] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/41/71/6809b3f0c86adc515495112ebeb61110c73774b8885389f4b3a771cc4b76/pyslth-0.2.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-opensearch-reports]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-dhis2-etl]: Downloading https://files.pythonhosted.org/packages/05/4f/9ba4f13bfbbac12fa597575b193e43d87d186bc7f0f7890ba0033fb7561c/openimis-be-dhis2_etl-1.2.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule_contribution_income_percentage-1.5.0.tar.gz]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_contribution_income_percentage-1.6.0.tar.gz]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-contribution-income-percentage]: Start processing: openimis-be-payment-cycle
+[2024-04-30 11:08:24] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-contribution-income-percentage]: success
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-fees]: Downloading https://files.pythonhosted.org/packages/9c/90/28f0ed44da6d051406252ba9fb782d5595469427c34b5b1c49fc965d0fb5/openimis_be_calcrule_fees-1.6.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [sais]: New version: [0.1.9] Old Version: [0.1.6]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-social-protection]: Downloading https://files.pythonhosted.org/packages/e2/a1/5d88a46826cc443cf0b286d323dfdfbddb1d0332539f681dca37388d4818/openimis-be-social_protection-1.0.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: Downloading https://files.pythonhosted.org/packages/8c/be/060831aac150821fae2c6b1a0f1f094e583425eeb1f20e7655e095278b3d/openimis_be_calcrule_unconditional_cash_payment-1.6.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-payment-cycle]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-fees]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-fees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule_fees-1.5.0.tar.gz tmp/openimis_be_calcrule_fees-1.6.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-fees/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Downloading https://files.pythonhosted.org/packages/6a/1d/118194b584a5b8cf6e6dcabd7f6400bcc1331be7cf96ba83bb79dc6fc82b/openimis-be-opensearch_reports-1.0.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-im-export]: Downloading https://files.pythonhosted.org/packages/fc/ef/edc95611a7da3a7855ad73bd6e6594f9198bb71815b34765ce92ecfb9ddf/openimis_be_im_export-1.2.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/39/71/73f4a5433b0b9a7330695aabbc0e8547be166747e8f087f60395d34ee629/pyslth-0.2.1.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule_unconditional_cash_payment-1.5.0.tar.gz tmp/openimis_be_calcrule_unconditional_cash_payment-1.6.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-unconditional-cash-payment/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [sais]: Downloading https://files.pythonhosted.org/packages/57/79/f67bed36d6176568317b645524f6b01a8a955c16a5a8619b2623b3cd2235/sais-0.1.6.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-payment-cycle]: Downloading https://files.pythonhosted.org/packages/6e/ec/8f85a44a08a4561921f9bc4785c5e327ecf0609e24e8d664100cba17b9f7/openimis-be-payment_cycle-1.0.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-im-export]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-im-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-im_export-1.1.0.tar.gz tmp/openimis_be_im_export-1.2.0.tar.gz --markdown 20240430/o/openimis-be-im-export/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-dhis2-etl]: Downloading https://files.pythonhosted.org/packages/7a/d2/e9a2aae0f18297b8e7bd23ef0f37edb9084ed38b332105521a0a1187a711/openimis_be_dhis2_etl-1.3.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.2.0.tar.gz tmp/pyslth-0.2.1.tar.gz --markdown 20240430/p/pyslth/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-social-protection]: Downloading https://files.pythonhosted.org/packages/c5/14/0a0eb67e16f35787a75abb92c2d596139b2d2eacc6adfa2f2940d8a9213c/openimis_be_social_protection-1.1.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-dhis2-etl]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-dhis2-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-dhis2_etl-1.2.0.tar.gz tmp/openimis_be_dhis2_etl-1.3.0.tar.gz --markdown 20240430/o/openimis-be-dhis2-etl/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Downloading https://files.pythonhosted.org/packages/78/07/84837d8137152a905ab6d708f472b14b74bb6dba9dc4ef1ffcb6bd51cb9f/openimis_be_opensearch_reports-1.1.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-social-protection]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-social-protection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-social_protection-1.0.0.tar.gz tmp/openimis_be_social_protection-1.1.0.tar.gz --markdown 20240430/o/openimis-be-social-protection/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [sais]: Downloading https://files.pythonhosted.org/packages/60/f9/44668d709f1271a2f3c672bc1e6cb105526426c9b4be4779ef5c88b52826/sais-0.1.9.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-payment-cycle]: Downloading https://files.pythonhosted.org/packages/64/04/89ae28eda9ec635a35737705cd7e286a1f3a5758e25be698059544ff06f2/openimis_be_payment_cycle-1.1.0.tar.gz
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-fees]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule_fees-1.5.0.tar.gz]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-fees]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_fees-1.6.0.tar.gz]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-calcrule-fees]: Start processing: openimis-be-payroll
+[2024-04-30 11:08:24] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-fees]: success
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-opensearch-reports]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-opensearch-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-opensearch_reports-1.0.0.tar.gz tmp/openimis_be_opensearch_reports-1.1.0.tar.gz --markdown 20240430/o/openimis-be-opensearch-reports/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [sais]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [sais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais-0.1.6.tar.gz tmp/sais-0.1.9.tar.gz --markdown 20240430/s/sais/0.1.6-0.1.9/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.1.2.tar.gz]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.0.tar.gz]
+[2024-04-30 11:08:24] INFO root fetch - processPackages [timeseriesflattener]: Start processing: openimis-be-controls
+[2024-04-30 11:08:24] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-payment-cycle]: executing diffoscope
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-payment-cycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-payment_cycle-1.0.0.tar.gz tmp/openimis_be_payment_cycle-1.1.0.tar.gz --markdown 20240430/o/openimis-be-payment-cycle/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:08:24] INFO root fetch - processPackages [openimis-be-payroll]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-controls]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule_unconditional_cash_payment-1.5.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-calcrule-unconditional-cash-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_unconditional_cash_payment-1.6.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-unconditional-cash-payment]: success
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-payroll]: Downloading https://files.pythonhosted.org/packages/48/45/751215adc71e4a33a98aa4204fdc1a86838b40cd1d3c61432906707d8339/openimis-be-payroll-1.0.0.tar.gz
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-im-export]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-im_export-1.1.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-im-export]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_im_export-1.2.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [openimis-be-im-export]: success
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-controls]: Downloading https://files.pythonhosted.org/packages/61/c2/5fb5f264f53553c28980b05fb1f15ed62899128ec5197c6d35704a3d7eeb/openimis-be-controls-1.0.0.tar.gz
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-payroll]: Downloading https://files.pythonhosted.org/packages/ab/e0/34fbcf73a546636ed0382167580710b00b210cfbde7db8bd650d3f100675/openimis_be_payroll-1.1.0.tar.gz
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-social-protection]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-social_protection-1.0.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-social-protection]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_social_protection-1.1.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [openimis-be-social-protection]: success
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-controls]: Downloading https://files.pythonhosted.org/packages/ed/9d/88cce11c2049dc2bfa4a9a638e28f4d66566550ef2ce50f8f4e22c65f1b6/openimis_be_controls-1.1.0.tar.gz
+[2024-04-30 11:08:25] INFO root fetch - processPackages [sais]: Remove: archive file [/home/abi/fetcher/tmp/sais-0.1.6.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [sais]: Remove: archive file [/home/abi/fetcher/tmp/sais-0.1.9.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [sais]: success
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-opensearch_reports-1.0.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_opensearch_reports-1.1.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [openimis-be-opensearch-reports]: success
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-payroll]: executing diffoscope
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-payroll-1.0.0.tar.gz tmp/openimis_be_payroll-1.1.0.tar.gz --markdown 20240430/o/openimis-be-payroll/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-dhis2-etl]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-dhis2_etl-1.2.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-dhis2-etl]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_dhis2_etl-1.3.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [openimis-be-dhis2-etl]: success
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-controls]: executing diffoscope
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-controls-1.0.0.tar.gz tmp/openimis_be_controls-1.1.0.tar.gz --markdown 20240430/o/openimis-be-controls/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-payment-cycle]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-payment_cycle-1.0.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - processPackages [openimis-be-payment-cycle]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_payment_cycle-1.1.0.tar.gz]
+[2024-04-30 11:08:25] INFO root fetch - main [MainThread]: End processing [openimis-be-payment-cycle]: success
+[2024-04-30 11:08:26] INFO root fetch - processPackages [openimis-be-controls]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-controls-1.0.0.tar.gz]
+[2024-04-30 11:08:26] INFO root fetch - processPackages [openimis-be-controls]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_controls-1.1.0.tar.gz]
+[2024-04-30 11:08:26] INFO root fetch - main [MainThread]: End processing [openimis-be-controls]: success
+[2024-04-30 11:08:26] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.0.tar.gz]
+[2024-04-30 11:08:26] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.1.tar.gz]
+[2024-04-30 11:08:26] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-30 11:08:26] INFO root fetch - processPackages [openimis-be-payroll]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-payroll-1.0.0.tar.gz]
+[2024-04-30 11:08:26] INFO root fetch - processPackages [openimis-be-payroll]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_payroll-1.1.0.tar.gz]
+[2024-04-30 11:08:26] INFO root fetch - main [MainThread]: End processing [openimis-be-payroll]: success
+[2024-04-30 11:08:26] INFO root fetch - main [MainThread]: Store serial: [22999385]
