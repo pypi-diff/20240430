@@ -17402,3 +17402,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:45:03] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
 [2024-04-30 09:45:03] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
 [2024-04-30 09:45:03] INFO root fetch - main [MainThread]: Store serial: [22998073]
+[2024-04-30 09:47:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998073]
+[2024-04-30 09:47:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 09:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: base64-to-file
+[2024-04-30 09:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decoutilities
+[2024-04-30 09:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pbx-admin
+[2024-04-30 09:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: literalai
+[2024-04-30 09:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperbee
+[2024-04-30 09:47:13] INFO root fetch - processPackages [decoutilities]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 09:47:13] INFO root fetch - processPackages [literalai]: New version: [0.0.508] Old Version: [0.0.507]
+[2024-04-30 09:47:13] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-30 09:47:13] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/a8/d3/9730c9d295e3675c38f2e7609357ad3a4ec40e9623f5a68f17fb2542a814/decoutilities-0.1.7.tar.gz
+[2024-04-30 09:47:13] INFO root fetch - processPackages [hyperbee]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2024-04-30 09:47:13] WARNING root fetch - processPackages [base64-to-file]: Skipping, unable to determine old version
+[2024-04-30 09:47:13] INFO root fetch - main [MainThread]: End processing [base64-to-file] error
+[2024-04-30 09:47:13] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-04-30 09:47:13] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b3/4a/fac54a03fd0a54e5a4575ba8f6c3107a94b12e9425f19fb8a79da203ea5b/literalai-0.0.507.tar.gz
+[2024-04-30 09:47:13] INFO root fetch - processPackages [hyperbee]: Downloading https://files.pythonhosted.org/packages/0f/6e/6225afc7372ec1758179e10cfa4821c8d0020a50885c11c87098a91eab28/hyperbee-0.0.1.2.tar.gz
+[2024-04-30 09:47:13] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/1f/9f/56b4414400e52ca7b60fe7deb622784f68b9ddb9541d1ecde7fd6ec41491/decoutilities-0.1.8.tar.gz
+[2024-04-30 09:47:13] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/d7/39/dd375353fed506845b632e0a2d0e985c2d680049e15498cc2d16fdbb6518/literalai-0.0.508.tar.gz
+[2024-04-30 09:47:13] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-30 09:47:13] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.7.tar.gz tmp/decoutilities-0.1.8.tar.gz --markdown 20240430/d/decoutilities/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 09:47:13] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-04-30 09:47:13] INFO root fetch - processPackages [hyperbee]: Downloading https://files.pythonhosted.org/packages/58/c1/fac10f3113c7ed3704679019959731f44b58efdaae1b2090ced693f9bc36/hyperbee-0.0.1.3.tar.gz
+[2024-04-30 09:47:13] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-04-30 09:47:13] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.507.tar.gz tmp/literalai-0.0.508.tar.gz --markdown 20240430/l/literalai/0.0.507-0.0.508/README.md --exclude *.pyd
+[2024-04-30 09:47:13] INFO root fetch - processPackages [hyperbee]: executing diffoscope
+[2024-04-30 09:47:13] INFO root fetch - processPackages [hyperbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperbee-0.0.1.2.tar.gz tmp/hyperbee-0.0.1.3.tar.gz --markdown 20240430/h/hyperbee/0.0.1.2-0.0.1.3/README.md --exclude *.pyd
+[2024-04-30 09:47:14] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-04-30 09:47:14] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240430/d/django-pbx-admin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-30 09:47:14] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.7.tar.gz]
+[2024-04-30 09:47:14] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.8.tar.gz]
+[2024-04-30 09:47:14] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-30 09:47:14] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.507.tar.gz]
+[2024-04-30 09:47:14] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.508.tar.gz]
+[2024-04-30 09:47:14] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-04-30 09:47:14] INFO root fetch - processPackages [hyperbee]: Remove: archive file [/home/abi/fetcher/tmp/hyperbee-0.0.1.2.tar.gz]
+[2024-04-30 09:47:14] INFO root fetch - processPackages [hyperbee]: Remove: archive file [/home/abi/fetcher/tmp/hyperbee-0.0.1.3.tar.gz]
+[2024-04-30 09:47:14] INFO root fetch - main [MainThread]: End processing [hyperbee]: success
+[2024-04-30 09:47:16] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-04-30 09:47:16] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-04-30 09:47:16] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-04-30 09:47:16] INFO root fetch - main [MainThread]: Store serial: [22998087]
