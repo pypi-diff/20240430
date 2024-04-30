@@ -7135,3 +7135,33 @@
 [2024-04-30 03:56:56] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.0.4.tar.gz]
 [2024-04-30 03:56:56] INFO root fetch - main [MainThread]: End processing [PyCOMUS]: success
 [2024-04-30 03:56:56] INFO root fetch - main [MainThread]: Store serial: [22994253]
+[2024-04-30 03:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994253]
+[2024-04-30 03:59:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev
+[2024-04-30 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mms-client
+[2024-04-30 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-chat-handler
+[2024-04-30 03:59:04] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.1.4.dev3] Old Version: [0.1.4.dev2]
+[2024-04-30 03:59:04] INFO root fetch - processPackages [nbdev]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-30 03:59:04] INFO root fetch - processPackages [mms-client]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-30 03:59:04] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/99/6d/4964aaaa868809e2bf8a1b4425856a77b3f51498743ce36b18a1c219e02c/streamlit_chat_handler-0.1.4.dev2.tar.gz
+[2024-04-30 03:59:04] INFO root fetch - processPackages [nbdev]: Downloading https://files.pythonhosted.org/packages/81/51/fab74a54685fb8abc7a3e35834c91c5b2dace9b02d4cb11fdd42c1e1671e/nbdev-2.3.8.tar.gz
+[2024-04-30 03:59:05] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/1a/56/3c6b312f924cee4741a76af828bfb88c363c827110070f2785df7f371df5/mms_client-1.5.0.tar.gz
+[2024-04-30 03:59:05] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/53/80/816635f1859ea4552c66942fca093c389960e9db551d23b130d3eb4323d8/streamlit_chat_handler-0.1.4.dev3.tar.gz
+[2024-04-30 03:59:05] INFO root fetch - processPackages [nbdev]: Downloading https://files.pythonhosted.org/packages/40/d2/c90832233197e9f55e8869a7f75fd019929dcd8c6c18e14a34a4c1c087aa/nbdev-2.3.9.tar.gz
+[2024-04-30 03:59:05] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-30 03:59:05] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.1.4.dev2.tar.gz tmp/streamlit_chat_handler-0.1.4.dev3.tar.gz --markdown 20240430/s/streamlit-chat-handler/0.1.4.dev2-0.1.4.dev3/README.md --exclude *.pyd
+[2024-04-30 03:59:05] INFO root fetch - processPackages [nbdev]: executing diffoscope
+[2024-04-30 03:59:05] INFO root fetch - processPackages [nbdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-2.3.8.tar.gz tmp/nbdev-2.3.9.tar.gz --markdown 20240430/n/nbdev/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-30 03:59:05] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/77/a7/0fb00f447f6b018ad76da1defc124825875df0ed5847153e0afcfc1698f0/mms_client-1.5.1.tar.gz
+[2024-04-30 03:59:05] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-30 03:59:05] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.5.0.tar.gz tmp/mms_client-1.5.1.tar.gz --markdown 20240430/m/mms-client/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-30 03:59:05] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.4.dev2.tar.gz]
+[2024-04-30 03:59:05] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.4.dev3.tar.gz]
+[2024-04-30 03:59:05] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-30 03:59:05] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.8.tar.gz]
+[2024-04-30 03:59:05] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.9.tar.gz]
+[2024-04-30 03:59:05] INFO root fetch - main [MainThread]: End processing [nbdev]: success
+[2024-04-30 03:59:06] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.5.0.tar.gz]
+[2024-04-30 03:59:06] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.5.1.tar.gz]
+[2024-04-30 03:59:06] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-30 03:59:06] INFO root fetch - main [MainThread]: Store serial: [22994264]
