@@ -15365,3 +15365,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:30:32] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714456879.tar.gz]
 [2024-04-30 08:30:32] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2024-04-30 08:30:32] INFO root fetch - main [MainThread]: Store serial: [22997222]
+[2024-04-30 08:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997222]
+[2024-04-30 08:32:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmx-v2-python-test
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-null
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlmodel-slim
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmodel
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-opsgenie
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spl-core
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cipher-decipher
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: for-patterns
+[2024-04-30 08:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-pagerduty
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 08:32:41] INFO root fetch - processPackages [spl-core]: New version: [4.2.0] Old Version: [4.1.2]
+[2024-04-30 08:32:41] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1714456711] Old Version: [0.0.4a1714111001]
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/64/ba/ad07004536e94e71f99aaae5e667bb6f7230f7e0fbc0b0266e88960dda5f/sqlmodel-0.0.8.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel-slim]: New version: [0.0.18.dev1] Old Version: [0.0.18]
+[2024-04-30 08:32:41] INFO root fetch - processPackages [spl-core]: Downloading https://files.pythonhosted.org/packages/e0/f2/8155387ba72a0f7ccb8bf27cd873435e41faf60fbe72a8345c93f65ec62d/spl_core-4.1.2.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [hmx-v2-python-test]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-30 08:32:41] WARNING root fetch - processPackages [cipher-decipher]: Skipping, unable to determine old version
+[2024-04-30 08:32:41] INFO root fetch - main [MainThread]: End processing [cipher-decipher] error
+[2024-04-30 08:32:41] WARNING root fetch - processPackages [for-patterns]: Skipping, unable to determine old version
+[2024-04-30 08:32:41] INFO root fetch - main [MainThread]: End processing [for-patterns] error
+[2024-04-30 08:32:41] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-30 08:32:41] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1714456977] Old Version: [1.4.0a1714111665]
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel-slim]: Downloading https://files.pythonhosted.org/packages/c5/ab/19d49d4453a0d572d6e24764fa7b9733cfd4d7e24f16a073cdb0dd807f8c/sqlmodel_slim-0.0.18.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/66/9c/b1001e08acfcf2838afa12a79422de527cf25c56ddcbb68eab7994beb638/pulumi_null-0.0.4a1714111001.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/25/eb/8b46aa88cb7f298e663be6be2d90782f203b5f6c79679afd969fc3f7b455/sqlmodel-0.0.9.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [spl-core]: Downloading https://files.pythonhosted.org/packages/39/35/8334a02787e7a699fe3f8e5ad7b90539b327c9060309cd8475f91984a748/spl_core-4.2.0.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [hmx-v2-python-test]: Downloading https://files.pythonhosted.org/packages/6f/2a/b78c69e42683c3ebb245ba457467064311f27e33ed845b700160c1a7b9f5/hmx_v2_python_test-1.2.1.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/e8/1c/f50d834ca31c4ae5d63f9181332bddfbd5ed376bcae3dd3dac1338786774/pulumi_opsgenie-1.4.0a1714111665.tar.gz
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel]: executing diffoscope
+[2024-04-30 08:32:41] INFO root fetch - processPackages [sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel-0.0.8.tar.gz tmp/sqlmodel-0.0.9.tar.gz --markdown 20240430/s/sqlmodel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 08:32:41] INFO root fetch - processPackages [spl-core]: executing diffoscope
+[2024-04-30 08:32:41] INFO root fetch - processPackages [spl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spl_core-4.1.2.tar.gz tmp/spl_core-4.2.0.tar.gz --markdown 20240430/s/spl-core/4.1.2-4.2.0/README.md --exclude *.pyd
+[2024-04-30 08:32:42] INFO root fetch - processPackages [sqlmodel-slim]: Downloading https://files.pythonhosted.org/packages/2f/1f/be95e93d9d5d26449f9fb288598182e9972869b59c9688257e650f40d38a/sqlmodel_slim-0.0.18.dev1.tar.gz
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/66/80/7451d87123c2eff747d355f6161832f8f0a5f6c3981b1cae916b1349cbcc/pulumi_null-0.1.0a1714456711.tar.gz
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/0a/be/235c2013cb986cd777a54ef8137a9f8a99826d428da5e06c57180f4d377d/pulumi_opsgenie-1.4.0a1714456977.tar.gz
+[2024-04-30 08:32:42] INFO root fetch - processPackages [sqlmodel-slim]: executing diffoscope
+[2024-04-30 08:32:42] INFO root fetch - processPackages [sqlmodel-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel_slim-0.0.18.tar.gz tmp/sqlmodel_slim-0.0.18.dev1.tar.gz --markdown 20240430/s/sqlmodel-slim/0.0.18-0.0.18.dev1/README.md --exclude *.pyd
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-30 08:32:42] INFO root fetch - processPackages [hmx-v2-python-test]: Downloading https://files.pythonhosted.org/packages/11/29/008e5e071381b045846cdc50278ec9a8c4a29b3f58aea5b759427399b7a4/hmx_v2_python_test-1.2.2.tar.gz
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.0.4a1714111001.tar.gz tmp/pulumi_null-0.1.0a1714456711.tar.gz --markdown 20240430/p/pulumi-null/0.0.4a1714111001-0.1.0a1714456711/README.md --exclude *.pyd
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1714111665.tar.gz tmp/pulumi_opsgenie-1.4.0a1714456977.tar.gz --markdown 20240430/p/pulumi-opsgenie/1.4.0a1714111665-1.4.0a1714456977/README.md --exclude *.pyd
+[2024-04-30 08:32:42] INFO root fetch - processPackages [hmx-v2-python-test]: executing diffoscope
+[2024-04-30 08:32:42] INFO root fetch - processPackages [hmx-v2-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmx_v2_python_test-1.2.1.tar.gz tmp/hmx_v2_python_test-1.2.2.tar.gz --markdown 20240430/h/hmx-v2-python-test/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-30 08:32:42] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240430/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-30 08:32:42] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.8.tar.gz]
+[2024-04-30 08:32:42] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.9.tar.gz]
+[2024-04-30 08:32:42] INFO root fetch - main [MainThread]: End processing [sqlmodel]: success
+[2024-04-30 08:32:42] INFO root fetch - processPackages [spl-core]: Remove: archive file [/home/abi/fetcher/tmp/spl_core-4.1.2.tar.gz]
+[2024-04-30 08:32:42] INFO root fetch - processPackages [spl-core]: Remove: archive file [/home/abi/fetcher/tmp/spl_core-4.2.0.tar.gz]
+[2024-04-30 08:32:42] INFO root fetch - main [MainThread]: End processing [spl-core]: success
+[2024-04-30 08:32:43] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.4a1714111001.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1714456711.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-04-30 08:32:43] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714111665.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714456977.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-04-30 08:32:43] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.1.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.2.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - main [MainThread]: End processing [hmx-v2-python-test]: success
+[2024-04-30 08:32:43] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-30 08:32:43] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-30 08:32:44] INFO root fetch - processPackages [sqlmodel-slim]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_slim-0.0.18.tar.gz]
+[2024-04-30 08:32:44] INFO root fetch - processPackages [sqlmodel-slim]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_slim-0.0.18.dev1.tar.gz]
+[2024-04-30 08:32:44] INFO root fetch - main [MainThread]: End processing [sqlmodel-slim]: success
+[2024-04-30 08:32:44] INFO root fetch - main [MainThread]: Store serial: [22997252]
