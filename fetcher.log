@@ -7549,3 +7549,15 @@
 [2024-04-30 04:27:51] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.99.tar.gz]
 [2024-04-30 04:27:51] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2024-04-30 04:27:51] INFO root fetch - main [MainThread]: Store serial: [22994427]
+[2024-04-30 04:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994427]
+[2024-04-30 04:30:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-snippets
+[2024-04-30 04:30:00] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.48]
+[2024-04-30 04:30:00] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/3e/c3/c6e96954180b04bb4efa80e9b8e9b18f2b668985197e5f3d56ad2c2fd9f5/python-snippets-0.0.48.tar.gz
+[2024-04-30 04:30:01] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-04-30 04:30:01] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-04-30 04:30:01] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.48.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240430/p/python-snippets/0.0.48-0.0.6/README.md --exclude *.pyd
+[2024-04-30 04:30:01] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.48.tar.gz]
+[2024-04-30 04:30:01] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-04-30 04:30:01] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-04-30 04:30:01] INFO root fetch - main [MainThread]: Store serial: [22994430]
