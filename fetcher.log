@@ -8917,3 +8917,83 @@
 [2024-04-30 05:30:53] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-04-30 05:30:53] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-04-30 05:30:53] INFO root fetch - main [MainThread]: Store serial: [22994905]
+[2024-04-30 05:32:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994905]
+[2024-04-30 05:33:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Spire.Xls
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp-nightly
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-currency-rate-update-xe
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-app-ui
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-chat-handler
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: muko
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fse-baro
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ddmrp-chatter
+[2024-04-30 05:33:02] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [muko]: New version: [2.37] Old Version: [2.36]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [fse-baro]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.1.5.dev1] Old Version: [0.1.4.dev3]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-30 05:33:02] INFO root fetch - processPackages [Spire.Xls]: New version: [14.4.1] Old Version: [14.2.2]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-04-30 05:33:02] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/14/1f/26db0e5a71ba8cc13e58aee4b4710121443230e442e60b28d2aa5837782e/muko-2.36-py3-none-any.whl
+[2024-04-30 05:33:02] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.2.dev1]
+[2024-04-30 05:33:02] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 05:33:02] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/ca/bd/735fb3fc96dea8cb6803562772e214206285280c3927ec7bf34b33dddcc5/fse_baro-0.1.6.tar.gz
+[2024-04-30 05:33:02] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/53/80/816635f1859ea4552c66942fca093c389960e9db551d23b130d3eb4323d8/streamlit_chat_handler-0.1.4.dev3.tar.gz
+[2024-04-30 05:33:02] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/ec/50/aa3ab108e4e2847c1003a36f1a727fd283b342be1f6716197d9001beff94/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-30 05:33:03] INFO root fetch - processPackages [Spire.Xls]: Downloading https://files.pythonhosted.org/packages/0f/3d/e542f37f30649d1b8724e64f4bdaca9858abf5df17c7fd7fc1a10e7cf1ed/Spire.Xls-14.2.2-py3-none-win_amd64.whl
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/64/3d/7b9242c44e4907be5e04c030a7340911bdbeef337a3ab18b109ac3aa206f/odoo14_addon_ddmrp_chatter-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-04-30 05:33:03] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-30 05:33:03] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 05:33:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-04-30 05:33:03] WARNING root fetch - processPackages [Spire.Xls]: Skipping package: exceeds size limit 23891829>=10485760
+[2024-04-30 05:33:03] INFO root fetch - main [MainThread]: End processing [Spire.Xls] error
+[2024-04-30 05:33:03] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/fe/b1/e93836ed9daf71add3ddaedd46169d622039f93f14a0ffc67fc82609fd5f/streamlit_chat_handler-0.1.5.dev1.tar.gz
+[2024-04-30 05:33:03] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/52/ba/d566dc0db80ac0456f497f1d8067fa78c9899befec4d0647f63bf192ca7e/fse_baro-0.1.7.tar.gz
+[2024-04-30 05:33:03] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240430/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240430/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.1.4.dev3.tar.gz tmp/streamlit_chat_handler-0.1.5.dev1.tar.gz --markdown 20240430/s/streamlit-chat-handler/0.1.4.dev3-0.1.5.dev1/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/d5/51/74d4580e08b1afb197c5f043b1557059150b18517788f84a97444361a54a/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-30 05:33:03] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/15/7a/01139d32f5cd1e67d3cf65a152d6b3d240a2c7dd146095ea45b66a87e1ff/muko-2.37-py3-none-any.whl
+[2024-04-30 05:33:03] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.1.6.tar.gz tmp/fse_baro-0.1.7.tar.gz --markdown 20240430/f/fse-baro/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/b2/82/2b7b860265727360f0bca614d3a100b2dd7b75613c5f7a7605fff296ef69/odoo14_addon_ddmrp_chatter-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-currency-rate-update-xe/14.0.1.0.1.dev4-14.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.36-py3-none-any.whl.zip tmp/muko-2.37-py3-none-any.whl.zip --markdown 20240430/m/muko/2.36-2.37/README.md --exclude *.pyd
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: executing diffoscope
+[2024-04-30 05:33:03] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_chatter-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_chatter-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-ddmrp-chatter/14.0.1.0.2.dev1-14.0.1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-30 05:33:04] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.4.dev3.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.5.dev1.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.6.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.7.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [odoo14-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update_xe-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-rate-update-xe]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_chatter-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [odoo14-addon-ddmrp-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_chatter-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-chatter]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.36-py3-none-any.whl.zip]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.37-py3-none-any.whl.zip]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-30 05:33:04] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-30 05:33:04] INFO root fetch - main [MainThread]: Store serial: [22994933]
