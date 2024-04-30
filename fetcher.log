@@ -16203,3 +16203,112 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-04-30 08:57:42] INFO root fetch - main [MainThread]: Store serial: [22997537]
+[2024-04-30 08:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997537]
+[2024-04-30 08:59:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPhasesRecordloaderSHHS
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MPSPEnv
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxxl
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-django-is-core
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyPhasesRecordloaderMESA
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPhasesRecordloaderMESA
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LnT-HR-AI
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-venafi
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-snowflake
+[2024-04-30 08:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jax-tools
+[2024-04-30 08:59:51] INFO root fetch - processPackages [LnT-HR-AI]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyxxl]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [skip-django-is-core]: New version: [2.25.1] Old Version: [2.25.0]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [MPSPEnv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/b1/e7/1c4f2203b0e057f953cb2f10d5367e2e27b5c209a3c2c4d893ce2835f4f9/lnt_hr_ai-0.0.5.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-04-30 08:59:52] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/9e/be/f91fa76e471a0dd7260d37c9e6499277a10610790a3e5f7831d659956074/MPSPEnv-0.0.8.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyxxl]: Downloading https://files.pythonhosted.org/packages/1a/1d/188945fa03aff95adeddd4eb2fd65797c45f657d74e256a5405699ede505/pyxxl-0.3.4.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: Downloading https://files.pythonhosted.org/packages/d0/78/76d067e729012928fc253c3a9df13092f0143a6800e0c9cbe228f9f82da8/pyPhasesRecordloaderSHHS-0.4.1.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: Downloading https://files.pythonhosted.org/packages/09/72/740f4953eb71abedfff6cb2343b4db0a022dfef26202d8484253931e37df/pyPhasesRecordloaderMESA-0.2.1.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: Downloading https://files.pythonhosted.org/packages/09/72/740f4953eb71abedfff6cb2343b4db0a022dfef26202d8484253931e37df/pyPhasesRecordloaderMESA-0.2.1.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [skip-django-is-core]: Downloading https://files.pythonhosted.org/packages/52/6a/94f836577424daffa1e7f8bf69fee377f8453b12b6181165b938d757ec1b/skip_django_is_core-2.25.0.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.8.tar.gz tmp/MPSPEnv-0.0.9.tar.gz --markdown 20240430/M/MPSPEnv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyxxl]: Downloading https://files.pythonhosted.org/packages/81/fe/6486ad7f88b74c8be0b58abfef86aa72117743512334523372b566f4a9c0/pyxxl-0.3.5.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/85/39/1a98e18a940939474c46c8789c98dff5529035a04292747ae900dd4b05e9/lnt_hr_ai-0.0.6.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: Downloading https://files.pythonhosted.org/packages/1c/a6/b589e0326e57669f010ec94312eaf7ef03b09313616ac0bd5293369f95c6/pyPhasesRecordloaderSHHS-0.4.2.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: Downloading https://files.pythonhosted.org/packages/4d/9b/d35d13cd49679771d08082a2c04471930395fc5b34aadf357c56a515ed73/pyPhasesRecordloaderMESA-0.2.2.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: Downloading https://files.pythonhosted.org/packages/4d/9b/d35d13cd49679771d08082a2c04471930395fc5b34aadf357c56a515ed73/pyPhasesRecordloaderMESA-0.2.2.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyxxl]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyxxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxxl-0.3.4.tar.gz tmp/pyxxl-0.3.5.tar.gz --markdown 20240430/p/pyxxl/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [LnT-HR-AI]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [LnT-HR-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnt_hr_ai-0.0.5.tar.gz tmp/lnt_hr_ai-0.0.6.tar.gz --markdown 20240430/L/LnT-HR-AI/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesRecordloaderSHHS-0.4.1.tar.gz tmp/pyPhasesRecordloaderSHHS-0.4.2.tar.gz --markdown 20240430/p/pyPhasesRecordloaderSHHS/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesRecordloaderMESA-0.2.1.tar.gz tmp/pyPhasesRecordloaderMESA-0.2.2.tar.gz --markdown 20240430/p/pyPhasesRecordloaderMESA/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesRecordloaderMESA-0.2.1.tar.gz tmp/pyPhasesRecordloaderMESA-0.2.2.tar.gz --markdown 20240430/p/pyPhasesRecordloaderMESA/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-04-30 08:59:52] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240430/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-04-30 08:59:52] INFO root fetch - processPackages [skip-django-is-core]: Downloading https://files.pythonhosted.org/packages/8c/f5/69257e5d9c05cf142b384038a7c07d4d6428404dbc575255325180babd13/skip_django_is_core-2.25.1.tar.gz
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240430/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-04-30 08:59:53] INFO root fetch - processPackages [skip-django-is-core]: executing diffoscope
+[2024-04-30 08:59:53] INFO root fetch - processPackages [skip-django-is-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip_django_is_core-2.25.0.tar.gz tmp/skip_django_is_core-2.25.1.tar.gz --markdown 20240430/s/skip-django-is-core/2.25.0-2.25.1/README.md --exclude *.pyd
+[2024-04-30 08:59:53] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [jax-tools]: Start processing: development-tool
+[2024-04-30 08:59:53] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 08:59:53] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.8.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [MPSPEnv]: Start processing: pulumi-vault
+[2024-04-30 08:59:53] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-04-30 08:59:53] INFO root fetch - processPackages [development-tool]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1714458820] Old Version: [6.2.0a1714114277]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloaderMESA-0.2.1.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pyPhasesRecordloaderMESA]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloaderMESA-0.2.2.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - main [MainThread]: End processing [pyPhasesRecordloaderMESA]: success
+[2024-04-30 08:59:53] INFO root fetch - main [MainThread]: End processing [pyPhasesRecordloaderMESA]: success
+[2024-04-30 08:59:53] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/ba/a0/73c5c8fb1d0bf6e26c005390057ee59658ed8961b768588c379c56db9768/development-tool-0.4.2.tar.gz
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/5d/99/a6c99146241268f471698afed650951b7d66c2dcab340c24795fb9cc2869/pulumi_vault-6.2.0a1714114277.tar.gz
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pyxxl]: Remove: archive file [/home/abi/fetcher/tmp/pyxxl-0.3.4.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [pyxxl]: Remove: archive file [/home/abi/fetcher/tmp/pyxxl-0.3.5.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - main [MainThread]: End processing [pyxxl]: success
+[2024-04-30 08:59:53] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.5.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.6.tar.gz]
+[2024-04-30 08:59:53] INFO root fetch - main [MainThread]: End processing [LnT-HR-AI]: success
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloaderSHHS-0.4.1.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pyPhasesRecordloaderSHHS]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloaderSHHS-0.4.2.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - main [MainThread]: End processing [pyPhasesRecordloaderSHHS]: success
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/c1/f9/87c1c7f34017e0328f872a3733668c1499f9d1b910cf94694f2f5966ab01/pulumi_vault-6.2.0a1714458820.tar.gz
+[2024-04-30 08:59:54] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/66/6b/0b1503f6269d3bbace3f8f0e1e626e6aea615faca80d99f78d21174a3cf0/development-tool-0.4.3.tar.gz
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-04-30 08:59:54] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1714114277.tar.gz tmp/pulumi_vault-6.2.0a1714458820.tar.gz --markdown 20240430/p/pulumi-vault/6.2.0a1714114277-6.2.0a1714458820/README.md --exclude *.pyd
+[2024-04-30 08:59:54] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_is_core-2.25.0.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_is_core-2.25.1.tar.gz]
+[2024-04-30 08:59:54] INFO root fetch - main [MainThread]: End processing [skip-django-is-core]: success
+[2024-04-30 08:59:54] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-04-30 08:59:54] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.4.2.tar.gz tmp/development-tool-0.4.3.tar.gz --markdown 20240430/d/development-tool/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-30 08:59:55] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.4.2.tar.gz]
+[2024-04-30 08:59:55] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.4.3.tar.gz]
+[2024-04-30 08:59:55] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-04-30 08:59:55] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714114277.tar.gz]
+[2024-04-30 08:59:55] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714458820.tar.gz]
+[2024-04-30 08:59:55] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-04-30 08:59:55] INFO root fetch - main [MainThread]: Store serial: [22997568]
