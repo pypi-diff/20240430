@@ -7347,3 +7347,27 @@
 [2024-04-30 04:14:14] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
 [2024-04-30 04:14:14] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
 [2024-04-30 04:14:14] INFO root fetch - main [MainThread]: Store serial: [22994348]
+[2024-04-30 04:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994348]
+[2024-04-30 04:16:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-rec
+[2024-04-30 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-04-30 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gyver-attrs
+[2024-04-30 04:16:22] INFO root fetch - processPackages [policyengine-us]: New version: [0.754.0] Old Version: [0.753.0]
+[2024-04-30 04:16:22] WARNING root fetch - processPackages [streamlit-rec]: Skipping, unable to determine old version
+[2024-04-30 04:16:22] INFO root fetch - main [MainThread]: End processing [streamlit-rec] error
+[2024-04-30 04:16:22] INFO root fetch - processPackages [gyver-attrs]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-30 04:16:22] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/cc/dc/1812b57649189317295ac81ed85b87bb4517f0123c1043724951e7305a92/policyengine-us-0.753.0.tar.gz
+[2024-04-30 04:16:23] INFO root fetch - processPackages [gyver-attrs]: Downloading https://files.pythonhosted.org/packages/6b/b2/5e803853612ab85b98cfdf63448d80183e19e71e030725a28a22fa67db73/gyver_attrs-0.9.2.tar.gz
+[2024-04-30 04:16:23] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ec/7e/d43111d3052936a419761fc881301bc41535947f6cd4a2dd19ecf7876718/policyengine-us-0.754.0.tar.gz
+[2024-04-30 04:16:23] INFO root fetch - processPackages [gyver-attrs]: Downloading https://files.pythonhosted.org/packages/d9/ac/eb44d02ce470a704a24b6389212f41fd92868f1508712c9ddc099bc35288/gyver_attrs-0.9.3.tar.gz
+[2024-04-30 04:16:23] INFO root fetch - processPackages [gyver-attrs]: executing diffoscope
+[2024-04-30 04:16:23] INFO root fetch - processPackages [gyver-attrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyver_attrs-0.9.2.tar.gz tmp/gyver_attrs-0.9.3.tar.gz --markdown 20240430/g/gyver-attrs/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-30 04:16:23] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-30 04:16:23] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.753.0.tar.gz tmp/policyengine-us-0.754.0.tar.gz --markdown 20240430/p/policyengine-us/0.753.0-0.754.0/README.md --exclude *.pyd
+[2024-04-30 04:16:23] INFO root fetch - processPackages [gyver-attrs]: Remove: archive file [/home/abi/fetcher/tmp/gyver_attrs-0.9.2.tar.gz]
+[2024-04-30 04:16:23] INFO root fetch - processPackages [gyver-attrs]: Remove: archive file [/home/abi/fetcher/tmp/gyver_attrs-0.9.3.tar.gz]
+[2024-04-30 04:16:23] INFO root fetch - main [MainThread]: End processing [gyver-attrs]: success
+[2024-04-30 04:16:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.753.0.tar.gz]
+[2024-04-30 04:16:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.754.0.tar.gz]
+[2024-04-30 04:16:55] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-30 04:16:55] INFO root fetch - main [MainThread]: Store serial: [22994359]
