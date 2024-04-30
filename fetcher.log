@@ -19815,3 +19815,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:30:16] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.1.6.tar.gz]
 [2024-04-30 10:30:16] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2024-04-30 10:30:16] INFO root fetch - main [MainThread]: Store serial: [22998817]
+[2024-04-30 10:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998817]
+[2024-04-30 10:32:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loe-simp-app-fw
+[2024-04-30 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrawlpy
+[2024-04-30 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arclet-entari
+[2024-04-30 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-embedded
+[2024-04-30 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded-serial
+[2024-04-30 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gcp-pal
+[2024-04-30 10:32:27] WARNING root fetch - processPackages [scrawlpy]: Skipping, unable to determine old version
+[2024-04-30 10:32:27] INFO root fetch - main [MainThread]: End processing [scrawlpy] error
+[2024-04-30 10:32:27] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-30 10:32:27] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:32:27] INFO root fetch - processPackages [arclet-entari]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-30 10:32:27] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/7c/18/4cf0fc170921a20d26375cb702909a3eb81b2027bc2c53cb2b2b536a1098/loe_simp_app_fw-1.2.0.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/47/53/acda58f870fb8c9aed4f166fdb2683b5ee65b99e92f6f8ee739bbe3dc2d3/gcp_pal-1.0.5.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/d7/f5/a42a652bc7dc1bccc0c6074375896f4bfeefe302ffe4b917858d6b3320fe/pytest_embedded_serial-1.9.0.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/16/4d/ab1a9c16ba75f082ecd49645f3337f970ec92d4088544b394062dcf30c63/pytest_embedded-1.9.0.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/e4/94/df324ba6c17bfe9feaca2c4834f71d2ba5906a78be162b4d093605f32a83/arclet_entari-0.2.0.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/e9/80/4167a4fc35d6c4afdc65204d801d5cd50f180699127781956187fef61649/pytest_embedded_serial-1.9.1.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/4a/bd/73c7ab0a5a0d8ad8ccd89b957e451271e071f08b7d1ea9575fd65bb4e5ba/loe_simp_app_fw-1.2.1.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/db/43/531cca096f9131fe1b6972bb0c5162c72528e0f02c10f15d801f2a556d47/gcp_pal-1.0.6.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/00/99/6754d5859c6aebe5ebbf3bb8e38b25869279e2389a31541aaefc46eac14e/pytest_embedded-1.9.1.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial-1.9.0.tar.gz tmp/pytest_embedded_serial-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-serial/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:32:27] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-30 10:32:27] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.2.0.tar.gz tmp/loe_simp_app_fw-1.2.1.tar.gz --markdown 20240430/l/loe-simp-app-fw/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-30 10:32:27] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/66/80/747d2ca64d9faefb614add12c77a7528b01e67d92b319931db38940474a7/arclet_entari-0.3.0.tar.gz
+[2024-04-30 10:32:27] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-04-30 10:32:27] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.5.tar.gz tmp/gcp_pal-1.0.6.tar.gz --markdown 20240430/g/gcp-pal/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2024-04-30 10:32:27] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded-1.9.0.tar.gz tmp/pytest_embedded-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:32:27] INFO root fetch - processPackages [arclet-entari]: executing diffoscope
+[2024-04-30 10:32:27] INFO root fetch - processPackages [arclet-entari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_entari-0.2.0.tar.gz tmp/arclet_entari-0.3.0.tar.gz --markdown 20240430/a/arclet-entari/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-30 10:32:28] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.2.0.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.2.1.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-30 10:32:28] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.9.0.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.9.1.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2024-04-30 10:32:28] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.9.0.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.9.1.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2024-04-30 10:32:28] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.5.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.6.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-04-30 10:32:28] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.2.0.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.3.0.tar.gz]
+[2024-04-30 10:32:28] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
+[2024-04-30 10:32:28] INFO root fetch - main [MainThread]: Store serial: [22998835]
