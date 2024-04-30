@@ -1917,3 +1917,18 @@
 [2024-04-30 01:57:46] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-30 01:57:46] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-30 01:57:46] INFO root fetch - main [MainThread]: Store serial: [22992297]
+[2024-04-30 01:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992297]
+[2024-04-30 02:00:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 02:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oakvar
+[2024-04-30 02:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonLiteLLM
+[2024-04-30 02:00:03] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-04-30 02:00:03] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-04-30 02:00:03] WARNING root fetch - processPackages [jsonLiteLLM]: Skipping, unable to determine old version
+[2024-04-30 02:00:03] INFO root fetch - main [MainThread]: End processing [jsonLiteLLM] error
+[2024-04-30 02:00:04] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-04-30 02:00:04] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-30 02:00:04] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240430/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-04-30 02:00:07] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-04-30 02:00:07] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-04-30 02:00:07] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-30 02:00:07] INFO root fetch - main [MainThread]: Store serial: [22992304]
