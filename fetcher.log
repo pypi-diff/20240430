@@ -19323,3 +19323,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkwaf]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl.zip]
 [2024-04-30 10:06:01] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkwaf]: success
 [2024-04-30 10:06:01] INFO root fetch - main [MainThread]: Store serial: [22998612]
+[2024-04-30 10:08:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998612]
+[2024-04-30 10:08:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 10:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stopwords-tr
+[2024-04-30 10:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efel
+[2024-04-30 10:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-04-30 10:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2024-04-30 10:08:10] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-30 10:08:10] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-04-30 10:08:10] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/a0/cc/e6d3e659cad9b252563b769ae7f8618f366b62eb106718692ef89a110822/stopwords_tr-1.1.5.tar.gz
+[2024-04-30 10:08:10] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240430] Old Version: [0.4.5.dev20240429]
+[2024-04-30 10:08:10] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-04-30 10:08:10] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-30 10:08:10] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-30 10:08:11] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-04-30 10:08:11] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bd/80/ae75d4ba0127f8a1ef1784840fa231a6a3745188ee04581b617b1d697608/pyglove-0.4.5.dev20240429.tar.gz
+[2024-04-30 10:08:11] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/f4/c8/37b96526390476b61137450310cd437700578772b58d756200e32de973f0/stopwords_tr-1.1.6.tar.gz
+[2024-04-30 10:08:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-30 10:08:11] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 10:08:11] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.5.tar.gz tmp/stopwords_tr-1.1.6.tar.gz --markdown 20240430/s/stopwords-tr/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-30 10:08:11] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-04-30 10:08:11] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240430/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-04-30 10:08:11] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9a/62/7d0c8ff1e0653f352ed8bf07e9ec4105863ef85bfed94d873433ff4de22a/pyglove-0.4.5.dev20240430.tar.gz
+[2024-04-30 10:08:11] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-30 10:08:11] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240430/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-30 10:08:11] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.5.tar.gz]
+[2024-04-30 10:08:11] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.6.tar.gz]
+[2024-04-30 10:08:11] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 10:08:11] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-30 10:08:11] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240429.tar.gz tmp/pyglove-0.4.5.dev20240430.tar.gz --markdown 20240430/p/pyglove/0.4.5.dev20240429-0.4.5.dev20240430/README.md --exclude *.pyd
+[2024-04-30 10:08:12] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-04-30 10:08:12] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-04-30 10:08:12] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-04-30 10:08:12] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-30 10:08:12] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-30 10:08:12] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-30 10:08:13] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240429.tar.gz]
+[2024-04-30 10:08:13] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240430.tar.gz]
+[2024-04-30 10:08:13] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-30 10:08:13] INFO root fetch - main [MainThread]: Store serial: [22998636]
