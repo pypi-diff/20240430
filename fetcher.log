@@ -13488,3 +13488,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:10:10] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2388.0.tar.gz]
 [2024-04-30 07:10:10] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-04-30 07:10:10] INFO root fetch - main [MainThread]: Store serial: [22996411]
+[2024-04-30 07:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996411]
+[2024-04-30 07:12:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 07:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sne4onnx
+[2024-04-30 07:12:20] INFO root fetch - processPackages [sne4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 07:12:20] INFO root fetch - processPackages [sne4onnx]: Downloading https://files.pythonhosted.org/packages/9a/1a/2a082899c42fc4cd011c1add9e42a33ddd9b4ced3662e10a172ae739374a/sne4onnx-1.0.8.tar.gz
+[2024-04-30 07:12:20] INFO root fetch - processPackages [sne4onnx]: Downloading https://files.pythonhosted.org/packages/b2/9b/961584d0c76380586cfb6107ea3f21844b9ad74240333a9759f3cc5b2113/sne4onnx-1.0.9.tar.gz
+[2024-04-30 07:12:21] INFO root fetch - processPackages [sne4onnx]: executing diffoscope
+[2024-04-30 07:12:21] INFO root fetch - processPackages [sne4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sne4onnx-1.0.8.tar.gz tmp/sne4onnx-1.0.9.tar.gz --markdown 20240430/s/sne4onnx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 07:12:21] INFO root fetch - processPackages [sne4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sne4onnx-1.0.8.tar.gz]
+[2024-04-30 07:12:21] INFO root fetch - processPackages [sne4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sne4onnx-1.0.9.tar.gz]
+[2024-04-30 07:12:21] INFO root fetch - main [MainThread]: End processing [sne4onnx]: success
+[2024-04-30 07:12:21] INFO root fetch - main [MainThread]: Store serial: [22996414]
