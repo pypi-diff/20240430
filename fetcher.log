@@ -2920,3 +2920,67 @@
 [2024-04-30 02:54:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-30 02:54:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-30 02:54:46] INFO root fetch - main [MainThread]: Store serial: [22992756]
+[2024-04-30 02:57:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992756]
+[2024-04-30 02:57:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gym-jiminy
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-jiminy-rllib
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gym-jiminy-toolbox
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gym-jiminy-zoo
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jiminy-py
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycde
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fpclib
+[2024-04-30 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aegis-tools
+[2024-04-30 02:57:05] INFO root fetch - processPackages [aegis-tools]: New version: [2.5.8] Old Version: [2.5.7]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy-toolbox]: New version: [1.8.5.post1] Old Version: [1.8.5]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/e4/33/df706889b2db820c552442a856fac3c4d6e1f9f1742ba9c43d89baa3907a/aegis-tools-2.5.7.tar.gz
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy]: New version: [1.8.5.post1] Old Version: [1.8.5]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy-rllib]: New version: [1.8.5.post1] Old Version: [1.8.5]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [fpclib]: New version: [1.8.2.1] Old Version: [1.8.1.3]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy-zoo]: New version: [1.8.5.post1] Old Version: [1.8.5]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [jiminy-py]: New version: [1.8.5.post1] Old Version: [1.8.5]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev925] Old Version: [0.3.1.dev915]
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy-toolbox]: Downloading https://files.pythonhosted.org/packages/89/50/4e038ce054c4dba264976afa34779209782a6e0be42f426ebb01b3d011da/gym_jiminy_toolbox-1.8.5-py3-none-any.whl
+[2024-04-30 02:57:05] INFO root fetch - processPackages [jiminy-py]: Downloading https://files.pythonhosted.org/packages/82/67/ac19b310b0fa35e39f0cc7f1f23f28023e00029178a278793f5ed36c0109/jiminy_py-1.8.5-cp39-cp39-win_amd64.whl
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy-rllib]: Downloading https://files.pythonhosted.org/packages/28/a1/bc16fae949b6b83e4d5b189dec6260dc8f6e0cd393115ef9aca5d72b51ea/gym_jiminy_rllib-1.8.5-py3-none-any.whl
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy]: Downloading https://files.pythonhosted.org/packages/c1/3d/5ad4faee06ff4a8eff90ca7235ecd5153c267ba8712019b455631c898a87/gym_jiminy-1.8.5-py3-none-any.whl
+[2024-04-30 02:57:05] INFO root fetch - processPackages [gym-jiminy-zoo]: Downloading https://files.pythonhosted.org/packages/a7/2d/2a69e63c1f38a276fdd410c744c2ccae34eef3933061ac6a8dfbd966edd2/gym_jiminy_zoo-1.8.5-py3-none-any.whl
+[2024-04-30 02:57:05] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/73/47/266c1eb78bb34c557fa8e454ff3df2298f1097ae8d94890b9eacd2491860/aegis-tools-2.5.8.tar.gz
+[2024-04-30 02:57:05] INFO root fetch - processPackages [fpclib]: Downloading https://files.pythonhosted.org/packages/cc/7e/89284c8b10297433995864fbc47fd303f0f5879eb8dd83daaacf8de1718f/fpclib-1.8.1.3.tar.gz
+[2024-04-30 02:57:05] WARNING root fetch - processPackages [gym-jiminy-zoo]: Skipping package: exceeds size limit 36185059>=10485760
+[2024-04-30 02:57:05] INFO root fetch - main [MainThread]: End processing [gym-jiminy-zoo] error
+[2024-04-30 02:57:05] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/ed/bd/2dd8b924c0f6e04dd63ac2f0761dccb85b26cf43e5bdca8f7a97fc3d7817/pycde-0.3.1.dev915-cp39-cp39-win_amd64.whl
+[2024-04-30 02:57:05] WARNING root fetch - processPackages [jiminy-py]: Skipping package: exceeds size limit 23509768>=10485760
+[2024-04-30 02:57:05] INFO root fetch - main [MainThread]: End processing [jiminy-py] error
+[2024-04-30 02:57:05] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-04-30 02:57:05] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.5.7.tar.gz tmp/aegis-tools-2.5.8.tar.gz --markdown 20240430/a/aegis-tools/2.5.7-2.5.8/README.md --exclude *.pyd
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-toolbox]: Downloading https://files.pythonhosted.org/packages/34/44/0989525be9f71ce3c70b000816228aac0985473c1f1092a56418bca988c8/gym_jiminy_toolbox-1.8.5.post1-py3-none-any.whl
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-rllib]: Downloading https://files.pythonhosted.org/packages/0d/3e/846b239802f150245645cee69843c9260986ce4a92bc910bbbaaab56664b/gym_jiminy_rllib-1.8.5.post1-py3-none-any.whl
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy]: Downloading https://files.pythonhosted.org/packages/cb/0a/58349c22f3ab1a3b61301c4561f3f600809f4940d262693b00756e6d3b7b/gym_jiminy-1.8.5.post1-py3-none-any.whl
+[2024-04-30 02:57:06] INFO root fetch - processPackages [fpclib]: Downloading https://files.pythonhosted.org/packages/ec/dd/7b86eb28c4b4f3385f7493de3f80d72749c8af3b294a661438a76eb9dff7/fpclib-1.8.2.1.tar.gz
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-toolbox]: executing diffoscope
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_jiminy_toolbox-1.8.5-py3-none-any.whl.zip tmp/gym_jiminy_toolbox-1.8.5.post1-py3-none-any.whl.zip --markdown 20240430/g/gym-jiminy-toolbox/1.8.5-1.8.5.post1/README.md --exclude *.pyd
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-rllib]: executing diffoscope
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-rllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_jiminy_rllib-1.8.5-py3-none-any.whl.zip tmp/gym_jiminy_rllib-1.8.5.post1-py3-none-any.whl.zip --markdown 20240430/g/gym-jiminy-rllib/1.8.5-1.8.5.post1/README.md --exclude *.pyd
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy]: executing diffoscope
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_jiminy-1.8.5-py3-none-any.whl.zip tmp/gym_jiminy-1.8.5.post1-py3-none-any.whl.zip --markdown 20240430/g/gym-jiminy/1.8.5-1.8.5.post1/README.md --exclude *.pyd
+[2024-04-30 02:57:06] INFO root fetch - processPackages [fpclib]: executing diffoscope
+[2024-04-30 02:57:06] INFO root fetch - processPackages [fpclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpclib-1.8.1.3.tar.gz tmp/fpclib-1.8.2.1.tar.gz --markdown 20240430/f/fpclib/1.8.1.3-1.8.2.1/README.md --exclude *.pyd
+[2024-04-30 02:57:06] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.7.tar.gz]
+[2024-04-30 02:57:06] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.8.tar.gz]
+[2024-04-30 02:57:06] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_toolbox-1.8.5-py3-none-any.whl.zip]
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_toolbox-1.8.5.post1-py3-none-any.whl.zip]
+[2024-04-30 02:57:06] INFO root fetch - main [MainThread]: End processing [gym-jiminy-toolbox]: success
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-rllib]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_rllib-1.8.5-py3-none-any.whl.zip]
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy-rllib]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy_rllib-1.8.5.post1-py3-none-any.whl.zip]
+[2024-04-30 02:57:06] INFO root fetch - main [MainThread]: End processing [gym-jiminy-rllib]: success
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy-1.8.5-py3-none-any.whl.zip]
+[2024-04-30 02:57:06] INFO root fetch - processPackages [gym-jiminy]: Remove: archive file [/home/abi/fetcher/tmp/gym_jiminy-1.8.5.post1-py3-none-any.whl.zip]
+[2024-04-30 02:57:06] INFO root fetch - main [MainThread]: End processing [gym-jiminy]: success
+[2024-04-30 02:57:06] INFO root fetch - processPackages [fpclib]: Remove: archive file [/home/abi/fetcher/tmp/fpclib-1.8.1.3.tar.gz]
+[2024-04-30 02:57:06] INFO root fetch - processPackages [fpclib]: Remove: archive file [/home/abi/fetcher/tmp/fpclib-1.8.2.1.tar.gz]
+[2024-04-30 02:57:06] INFO root fetch - main [MainThread]: End processing [fpclib]: success
+[2024-04-30 02:57:07] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/34/2c/13d57285c049477de14380435c3dda65708624cc93b2a258513bb7d2af1f/pycde-0.3.1.dev925-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 02:57:07] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21468173>=10485760
+[2024-04-30 02:57:07] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-30 02:57:07] INFO root fetch - main [MainThread]: Store serial: [22992781]
