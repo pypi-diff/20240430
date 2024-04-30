@@ -11929,3 +11929,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 06:40:13] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.1.0rc0.tar.gz]
 [2024-04-30 06:40:13] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
 [2024-04-30 06:40:13] INFO root fetch - main [MainThread]: Store serial: [22995954]
+[2024-04-30 06:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995954]
+[2024-04-30 06:42:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proboscis-async-events
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tag
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karellen-llvm-clang
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rich-rst
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium2
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karellen-llvm-core
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: karellen-llvm-toolchain-tools
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmder
+[2024-04-30 06:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aristaproto
+[2024-04-30 06:42:23] WARNING root fetch - processPackages [selenium2]: Skipping, unable to determine old version
+[2024-04-30 06:42:23] INFO root fetch - main [MainThread]: End processing [selenium2] error
+[2024-04-30 06:42:23] INFO root fetch - processPackages [proboscis-async-events]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [cmder]: New version: [4.0] Old Version: [3.8]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [aristaproto]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [rich-rst]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.4.0.post21] Old Version: [18.1.4.0.post18]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.4.0.post21] Old Version: [18.1.4.0.post18]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.4.0.post21] Old Version: [18.1.4.0.post18]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:42:23] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/39/ed/c2c1ff478523b051e79e74eb8e0484a2b64eb8777f5fcddf01ef6f0921d0/proboscis_async_events-0.1.0.tar.gz
+[2024-04-30 06:42:23] INFO root fetch - processPackages [rich-rst]: Downloading https://files.pythonhosted.org/packages/d3/cb/1ee8c38f823b6133b2a5ecc0a5593905c5217754cd1022100a90b292ffe8/rich_rst-1.3.0.tar.gz
+[2024-04-30 06:42:23] INFO root fetch - processPackages [cmder]: Downloading https://files.pythonhosted.org/packages/3d/21/bca9c659db1d891ef14458ddb759ee60455b933cc427c07d4d36294613f1/cmder-3.8.tar.gz
+[2024-04-30 06:42:23] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/ca/e7/82193d87698ce1ca2f5a630612a94ce613f9b51e5520f4e98d4340174dc6/karellen_llvm_toolchain_tools-18.1.4.0.post18-py3-none-manylinux2014_x86_64.whl
+[2024-04-30 06:42:23] INFO root fetch - processPackages [aristaproto]: Downloading https://files.pythonhosted.org/packages/f6/8c/792db05076a8ade9d743939f26b95450c266852471804c25d0c4652f765a/aristaproto-0.1.1-py3-none-any.whl
+[2024-04-30 06:42:23] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/d6/b8/c0ab1094879a5071f2c621738f19eddfcfd792fcb2eababce3a3e9d785bb/karellen_llvm_core-18.1.4.0.post18-py3-none-manylinux2014_x86_64.whl
+[2024-04-30 06:42:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/29/86/bc025d6e5c5acac1e46676e8598c5aea59c56d5c0936bfe9b5264abbab9a/tencentcloud-sdk-python-tag-3.0.998.tar.gz
+[2024-04-30 06:42:23] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/f8/6d/d4b77e5952ed81c637127a1493e7032e08db651cfa0a15d36c2231f019ff/karellen_llvm_clang-18.1.4.0.post18-py3-none-manylinux2014_x86_64.whl
+[2024-04-30 06:42:23] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28601368>=10485760
+[2024-04-30 06:42:23] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-04-30 06:42:23] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/77/57/76f9b6300792893b2e419ab97e3dfd7a89cb8b8d370e8abbef5f129f28fc/proboscis_async_events-0.1.1-py3-none-any.whl
+[2024-04-30 06:42:23] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78662176>=10485760
+[2024-04-30 06:42:23] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-04-30 06:42:23] INFO root fetch - processPackages [proboscis-async-events]: executing diffoscope
+[2024-04-30 06:42:23] INFO root fetch - processPackages [proboscis-async-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proboscis_async_events-0.1.0.tar.gz tmp/proboscis_async_events-0.1.1-py3-none-any.whl.zip --markdown 20240430/p/proboscis-async-events/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-30 06:42:23] INFO root fetch - processPackages [rich-rst]: Downloading https://files.pythonhosted.org/packages/b0/69/5514c3a87b5f10f09a34bb011bc0927bc12c596c8dae5915604e71abc386/rich_rst-1.3.1.tar.gz
+[2024-04-30 06:42:23] INFO root fetch - processPackages [cmder]: Downloading https://files.pythonhosted.org/packages/96/7f/b271977af22d4ef53acf5a705840cedb4df79bf76f10ae1788fd92171cab/cmder-4.0.tar.gz
+[2024-04-30 06:42:24] INFO root fetch - processPackages [aristaproto]: Downloading https://files.pythonhosted.org/packages/b0/5b/b6dfc880f3dcafb46003ad027f873bf4a2302bb0c85bc91583072124856c/aristaproto-0.1.2-py3-none-any.whl
+[2024-04-30 06:42:24] INFO root fetch - processPackages [rich-rst]: executing diffoscope
+[2024-04-30 06:42:24] INFO root fetch - processPackages [rich-rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_rst-1.3.0.tar.gz tmp/rich_rst-1.3.1.tar.gz --markdown 20240430/r/rich-rst/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-30 06:42:24] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/e6/10/cff64bed2dc5fc5e0a272adb190cacfde251365726e898507c2342bdb617/karellen_llvm_toolchain_tools-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-04-30 06:42:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/26/0d/6cbab21bb92bb010935632e7faab0ec6641e13a2f6ed7421bcb7a0c87b4c/tencentcloud-sdk-python-tag-3.0.999.tar.gz
+[2024-04-30 06:42:24] INFO root fetch - processPackages [cmder]: executing diffoscope
+[2024-04-30 06:42:24] INFO root fetch - processPackages [cmder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmder-3.8.tar.gz tmp/cmder-4.0.tar.gz --markdown 20240430/c/cmder/3.8-4.0/README.md --exclude *.pyd
+[2024-04-30 06:42:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: executing diffoscope
+[2024-04-30 06:42:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-tag/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:42:24] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-04-30 06:42:24] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.4.0.post18-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240430/k/karellen-llvm-toolchain-tools/18.1.4.0.post18-18.1.4.0.post21/README.md --exclude *.pyd
+[2024-04-30 06:42:24] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.0.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.1-py3-none-any.whl.zip]
+[2024-04-30 06:42:24] INFO root fetch - main [MainThread]: End processing [proboscis-async-events]: success
+[2024-04-30 06:42:24] INFO root fetch - processPackages [rich-rst]: Remove: archive file [/home/abi/fetcher/tmp/rich_rst-1.3.0.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - processPackages [rich-rst]: Remove: archive file [/home/abi/fetcher/tmp/rich_rst-1.3.1.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - main [MainThread]: End processing [rich-rst]: success
+[2024-04-30 06:42:24] INFO root fetch - processPackages [cmder]: Remove: archive file [/home/abi/fetcher/tmp/cmder-3.8.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - processPackages [cmder]: Remove: archive file [/home/abi/fetcher/tmp/cmder-4.0.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - main [MainThread]: End processing [cmder]: success
+[2024-04-30 06:42:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz]
+[2024-04-30 06:42:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tag]: success
+[2024-04-30 06:42:25] INFO root fetch - processPackages [aristaproto]: executing diffoscope
+[2024-04-30 06:42:25] INFO root fetch - processPackages [aristaproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aristaproto-0.1.1-py3-none-any.whl.zip tmp/aristaproto-0.1.2-py3-none-any.whl.zip --markdown 20240430/a/aristaproto/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 06:42:26] INFO root fetch - processPackages [aristaproto]: Remove: archive file [/home/abi/fetcher/tmp/aristaproto-0.1.1-py3-none-any.whl.zip]
+[2024-04-30 06:42:26] INFO root fetch - processPackages [aristaproto]: Remove: archive file [/home/abi/fetcher/tmp/aristaproto-0.1.2-py3-none-any.whl.zip]
+[2024-04-30 06:42:26] INFO root fetch - main [MainThread]: End processing [aristaproto]: success
+[2024-04-30 06:42:52] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post18-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-04-30 06:42:52] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-04-30 06:42:52] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-04-30 06:42:52] INFO root fetch - main [MainThread]: Store serial: [22995977]
