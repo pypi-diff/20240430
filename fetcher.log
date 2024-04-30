@@ -15984,3 +15984,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:46:15] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1714457563.tar.gz]
 [2024-04-30 08:46:15] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-04-30 08:46:15] INFO root fetch - main [MainThread]: Store serial: [22997432]
+[2024-04-30 08:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997432]
+[2024-04-30 08:48:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 08:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdkm
+[2024-04-30 08:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xagent
+[2024-04-30 08:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usports-basketball
+[2024-04-30 08:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-bilichat
+[2024-04-30 08:48:23] INFO root fetch - processPackages [usports-basketball]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 08:48:23] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.8.0] Old Version: [5.7.1]
+[2024-04-30 08:48:24] INFO root fetch - processPackages [usports-basketball]: Downloading https://files.pythonhosted.org/packages/d4/82/6b3e79de8b296df24b78435c56c0ebde88477cb990aeb66f60df9e4b21f8/usports_basketball-0.0.1.tar.gz
+[2024-04-30 08:48:24] WARNING root fetch - processPackages [sdkm]: Skipping, unable to determine old version
+[2024-04-30 08:48:24] INFO root fetch - main [MainThread]: End processing [sdkm] error
+[2024-04-30 08:48:24] INFO root fetch - processPackages [xagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 08:48:24] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/bb/35/4201a323ff269aedcd71b1edc79202352a20a72c9aa5891906cfb7687d5b/nonebot_plugin_bilichat-5.7.1.tar.gz
+[2024-04-30 08:48:24] INFO root fetch - processPackages [usports-basketball]: Downloading https://files.pythonhosted.org/packages/4c/c7/1624d0843f0aa73e67813c950ffb6862737c204521e084023b24221603a7/usports_basketball-0.0.2-py3-none-any.whl
+[2024-04-30 08:48:24] INFO root fetch - processPackages [xagent]: Downloading https://files.pythonhosted.org/packages/93/12/db43042e5f677d839fad9c12e2749f5dd216b5e216ec8a48eb4a10ce2b8d/xagent-0.0.8.tar.gz
+[2024-04-30 08:48:24] INFO root fetch - processPackages [usports-basketball]: executing diffoscope
+[2024-04-30 08:48:24] INFO root fetch - processPackages [usports-basketball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usports_basketball-0.0.1.tar.gz tmp/usports_basketball-0.0.2-py3-none-any.whl.zip --markdown 20240430/u/usports-basketball/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 08:48:24] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/3b/9c/13130efd3755170f265c069a99193d4a721e7a511abf2c6efc365fe55e60/nonebot_plugin_bilichat-5.8.0.tar.gz
+[2024-04-30 08:48:24] INFO root fetch - processPackages [xagent]: Downloading https://files.pythonhosted.org/packages/2d/be/6dd95d0c3ca52aa1c709ac567ebb746cd895697ba3ae1c40e53208fce554/xagent-0.0.9.tar.gz
+[2024-04-30 08:48:24] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-04-30 08:48:24] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.7.1.tar.gz tmp/nonebot_plugin_bilichat-5.8.0.tar.gz --markdown 20240430/n/nonebot-plugin-bilichat/5.7.1-5.8.0/README.md --exclude *.pyd
+[2024-04-30 08:48:24] INFO root fetch - processPackages [xagent]: executing diffoscope
+[2024-04-30 08:48:24] INFO root fetch - processPackages [xagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xagent-0.0.8.tar.gz tmp/xagent-0.0.9.tar.gz --markdown 20240430/x/xagent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 08:48:24] INFO root fetch - processPackages [usports-basketball]: Remove: archive file [/home/abi/fetcher/tmp/usports_basketball-0.0.1.tar.gz]
+[2024-04-30 08:48:24] INFO root fetch - processPackages [usports-basketball]: Remove: archive file [/home/abi/fetcher/tmp/usports_basketball-0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:48:24] INFO root fetch - main [MainThread]: End processing [usports-basketball]: success
+[2024-04-30 08:48:25] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.7.1.tar.gz]
+[2024-04-30 08:48:25] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.8.0.tar.gz]
+[2024-04-30 08:48:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-04-30 08:48:25] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.8.tar.gz]
+[2024-04-30 08:48:25] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.9.tar.gz]
+[2024-04-30 08:48:25] INFO root fetch - main [MainThread]: End processing [xagent]: success
+[2024-04-30 08:48:25] INFO root fetch - main [MainThread]: Store serial: [22997453]
