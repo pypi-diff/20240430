@@ -15644,3 +15644,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:35:01] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-04-30 08:35:01] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-04-30 08:35:01] INFO root fetch - main [MainThread]: Store serial: [22997320]
+[2024-04-30 08:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997320]
+[2024-04-30 08:37:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced-input
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sor4onnx
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-tools
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bda.plone.stripe
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redzoo
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build
+[2024-04-30 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-rabbitmq
+[2024-04-30 08:37:12] INFO root fetch - processPackages [redzoo]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-30 08:37:12] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 08:37:12] INFO root fetch - processPackages [advanced-input]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 08:37:12] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/13/c4/aca1ce0c35cc26dcb84bdd0b591bdecb9817aeff6c99a70f18d1dac7e3b0/redzoo-0.3.3.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [sor4onnx]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-30 08:37:12] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 08:37:12] WARNING root fetch - processPackages [bda.plone.stripe]: Skipping, unable to determine old version
+[2024-04-30 08:37:12] INFO root fetch - main [MainThread]: End processing [bda.plone.stripe] error
+[2024-04-30 08:37:12] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-30 08:37:12] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1714457313] Old Version: [3.4.0a1714112064]
+[2024-04-30 08:37:12] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/04/f0/79bc215e9cb0f33a9c4c36df4d230c424e1e293c7efcb58376a44bba5002/advanced_input-0.1.1.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [sor4onnx]: Downloading https://files.pythonhosted.org/packages/88/51/af77471b1639fc9b1ec49f4350368ac8c5b89f650a930857294bc9af58f3/sor4onnx-1.0.5.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/18/3a/8d20b4e2446ac1f26439e7c62f1a280300d6f9fe2d9675919f6bc3f047f1/pulumi_rabbitmq-3.4.0a1714112064.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/bd/db/7550be024958f83894b91be5d64002e01f571b1ed75c0b38e23c5f9ea8fd/redzoo-0.3.4.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 08:37:12] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 08:37:12] INFO root fetch - processPackages [redzoo]: executing diffoscope
+[2024-04-30 08:37:12] INFO root fetch - processPackages [redzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redzoo-0.3.3.tar.gz tmp/redzoo-0.3.4.tar.gz --markdown 20240430/r/redzoo/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-30 08:37:12] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/9b/e6/8d9e43f00575edb88e0368d32bd876b1c5f33f2e013e45b9fe88adec0c22/advanced_input-0.1.2.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [sor4onnx]: Downloading https://files.pythonhosted.org/packages/e3/f5/e904a7bfd1a36f9cabd8e09a04159ea81b216b8e3cea549bc9e5147b4686/sor4onnx-1.0.6.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/be/5f/38ae9df303829814891cdb8aa114790043fdadb793333bca545213e5bdef/pulumi_rabbitmq-3.4.0a1714457313.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-04-30 08:37:12] INFO root fetch - processPackages [sor4onnx]: executing diffoscope
+[2024-04-30 08:37:12] INFO root fetch - processPackages [sor4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sor4onnx-1.0.5.tar.gz tmp/sor4onnx-1.0.6.tar.gz --markdown 20240430/s/sor4onnx/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-30 08:37:12] INFO root fetch - processPackages [advanced-input]: executing diffoscope
+[2024-04-30 08:37:12] INFO root fetch - processPackages [advanced-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_input-0.1.1.tar.gz tmp/advanced_input-0.1.2.tar.gz --markdown 20240430/a/advanced-input/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 08:37:12] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-04-30 08:37:12] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240430/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-30 08:37:12] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-04-30 08:37:12] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1714112064.tar.gz tmp/pulumi_rabbitmq-3.4.0a1714457313.tar.gz --markdown 20240430/p/pulumi-rabbitmq/3.4.0a1714112064-3.4.0a1714457313/README.md --exclude *.pyd
+[2024-04-30 08:37:13] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.3.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.4.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - main [MainThread]: End processing [redzoo]: success
+[2024-04-30 08:37:13] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 08:37:13] INFO root fetch - processPackages [sor4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sor4onnx-1.0.5.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - processPackages [sor4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sor4onnx-1.0.6.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - main [MainThread]: End processing [sor4onnx]: success
+[2024-04-30 08:37:13] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.1.1.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.1.2.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - main [MainThread]: End processing [advanced-input]: success
+[2024-04-30 08:37:13] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714112064.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714457313.tar.gz]
+[2024-04-30 08:37:13] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-04-30 08:37:14] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-04-30 08:37:14] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-04-30 08:37:14] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-04-30 08:37:14] INFO root fetch - main [MainThread]: Store serial: [22997348]
