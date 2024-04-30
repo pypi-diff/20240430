@@ -20585,3 +20585,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:59:15] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
 [2024-04-30 10:59:15] INFO root fetch - main [MainThread]: End processing [codegrade]: success
 [2024-04-30 10:59:15] INFO root fetch - main [MainThread]: Store serial: [22999162]
+[2024-04-30 11:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999162]
+[2024-04-30 11:01:24] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migration-db
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pancho
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cli
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ampform
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openimis-be-individual
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skip-django-is-core
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cpknextgen
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openimis-be-workflow
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openimis-be-tasks-management
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buz
+[2024-04-30 11:01:24] INFO root fetch - processPackages [migration-db]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [skip-django-is-core]: New version: [2.25.1] Old Version: [2.25.0]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [pancho]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev5] Old Version: [3.9.1.dev4]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/2a/0a/9a3aff9770b2e426a21d8be517d2a240dd08023bd13e09c986910f87d8e7/migration_db-1.0.2.tar.gz
+[2024-04-30 11:01:24] INFO root fetch - processPackages [cpknextgen]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [ampform]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [openimis-be-individual]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [openimis-be-tasks-management]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [openimis-be-workflow]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [buz]: New version: [2.6.5rc1] Old Version: [2.6.4rc1]
+[2024-04-30 11:01:24] INFO root fetch - processPackages [skip-django-is-core]: Downloading https://files.pythonhosted.org/packages/52/6a/94f836577424daffa1e7f8bf69fee377f8453b12b6181165b938d757ec1b/skip_django_is_core-2.25.0.tar.gz
+[2024-04-30 11:01:24] INFO root fetch - processPackages [pancho]: Downloading https://files.pythonhosted.org/packages/4f/04/8b313b6670da7a0d41976088d9984a4acb287f776496426ac81a407344cb/pancho-1.0.3.tar.gz
+[2024-04-30 11:01:24] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/5b/46/19f5156cd1287b5c35bf0c23b3f0f39b3021d034b3b220ac3c5bfb68bf31/tinybird-cli-3.9.1.dev4.tar.gz
+[2024-04-30 11:01:24] INFO root fetch - processPackages [cpknextgen]: Downloading https://files.pythonhosted.org/packages/e9/11/ecbdd59f131215bea561cb907ad8978cfc07fe6876a6c6a9e9e24bf4cfba/cpknextgen-1.0.1.tar.gz
+[2024-04-30 11:01:24] INFO root fetch - processPackages [openimis-be-workflow]: Downloading https://files.pythonhosted.org/packages/52/d7/6f4804b7a84e152b632920b364d76a05f67fbdb75e3a27ee2339f7282bff/openimis-be-workflow-1.0.0.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-tasks-management]: Downloading https://files.pythonhosted.org/packages/66/87/d5dd68c7bf2e740988e990bee48e851953c460f26750f88f4df17a424839/openimis-be-tasks_management-1.0.0.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/4f/cd/786106e1a8711d74d5ad404521261856d0c779fd1ec33a473db1970204f6/buz-2.6.4rc1.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-individual]: Downloading https://files.pythonhosted.org/packages/fd/28/fac98afb61ff57da3caecb57a51d70ae7fe341173a38e9fd553b02f326b8/openimis-be-individual-1.0.0.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [ampform]: Downloading https://files.pythonhosted.org/packages/41/77/cdf42f2270147f1cdf22ecabc6c39a596341e1ee0af8c310b3d6d061d76a/ampform-0.9.3.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [pancho]: Downloading https://files.pythonhosted.org/packages/09/4a/2d527504e9bbec0d9926bdf7fe8cc6b7d6058ae3022131944142139142ac/pancho-1.0.4.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/c0/21/a88f7d3fd89e39e6679d10af512c191b11f0e32d5accdf4f7d9c205287ed/migration_db-1.0.3.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3b/e8/4ec599ef1fbfdc10f1d7dd6844b1ca41c9ef14b41d534259c66feb16357b/tinybird-cli-3.9.1.dev5.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [skip-django-is-core]: Downloading https://files.pythonhosted.org/packages/8c/f5/69257e5d9c05cf142b384038a7c07d4d6428404dbc575255325180babd13/skip_django_is_core-2.25.1.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [pancho]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [pancho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pancho-1.0.3.tar.gz tmp/pancho-1.0.4.tar.gz --markdown 20240430/p/pancho/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.2.tar.gz tmp/migration_db-1.0.3.tar.gz --markdown 20240430/m/migration-db/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [cpknextgen]: Downloading https://files.pythonhosted.org/packages/96/e9/1943ce51bab420fd53ca1b3750fa6f8f4c67649dadc3259f72bc67c11c71/cpknextgen-1.1.0.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev4.tar.gz tmp/tinybird-cli-3.9.1.dev5.tar.gz --markdown 20240430/t/tinybird-cli/3.9.1.dev4-3.9.1.dev5/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-tasks-management]: Downloading https://files.pythonhosted.org/packages/59/ef/f0e6de602ec6b4102636acce6dbf3b7c63dea56df5b40c51229d2800e1f3/openimis_be_tasks_management-1.1.0.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/ea/98/82de0fcab620fa156654cb96d07379906bd061c0f8ce764fce813b1dcb65/buz-2.6.5rc1.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-individual]: Downloading https://files.pythonhosted.org/packages/89/cd/8a2d839138d41d62f0b249eef51e3572841579f20c15113787db2128bc3c/openimis_be_individual-1.1.0.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-workflow]: Downloading https://files.pythonhosted.org/packages/67/60/8c3515dde9519952d13dd10a060d0e3d83e6bc82eabd6f1da1106c2e7eae/openimis_be_workflow-1.0.1.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [skip-django-is-core]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [skip-django-is-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip_django_is_core-2.25.0.tar.gz tmp/skip_django_is_core-2.25.1.tar.gz --markdown 20240430/s/skip-django-is-core/2.25.0-2.25.1/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [ampform]: Downloading https://files.pythonhosted.org/packages/53/e7/7e2e5f33328f95448d03a77e3a0680997cd6cf2f90970cbed510e1032dd3/ampform-0.9.4.tar.gz
+[2024-04-30 11:01:25] INFO root fetch - processPackages [cpknextgen]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [cpknextgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpknextgen-1.0.1.tar.gz tmp/cpknextgen-1.1.0.tar.gz --markdown 20240430/c/cpknextgen/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-tasks-management]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-tasks-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-tasks_management-1.0.0.tar.gz tmp/openimis_be_tasks_management-1.1.0.tar.gz --markdown 20240430/o/openimis-be-tasks-management/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [buz]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [buz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buz-2.6.4rc1.tar.gz tmp/buz-2.6.5rc1.tar.gz --markdown 20240430/b/buz/2.6.4rc1-2.6.5rc1/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-individual]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-individual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-individual-1.0.0.tar.gz tmp/openimis_be_individual-1.1.0.tar.gz --markdown 20240430/o/openimis-be-individual/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-workflow]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [openimis-be-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-workflow-1.0.0.tar.gz tmp/openimis_be_workflow-1.0.1.tar.gz --markdown 20240430/o/openimis-be-workflow/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 11:01:25] INFO root fetch - processPackages [ampform]: executing diffoscope
+[2024-04-30 11:01:25] INFO root fetch - processPackages [ampform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampform-0.9.3.tar.gz tmp/ampform-0.9.4.tar.gz --markdown 20240430/a/ampform/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-30 11:01:26] INFO root fetch - processPackages [pancho]: Remove: archive file [/home/abi/fetcher/tmp/pancho-1.0.3.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [pancho]: Remove: archive file [/home/abi/fetcher/tmp/pancho-1.0.4.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [pancho]: Start processing: SanauAutomationSDK
+[2024-04-30 11:01:26] INFO root fetch - main [MainThread]: End processing [pancho]: success
+[2024-04-30 11:01:26] INFO root fetch - processPackages [SanauAutomationSDK]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [SanauAutomationSDK]: Downloading https://files.pythonhosted.org/packages/da/e6/341b4ecf07b59f19e9f365cb316f4b82888490bb757d93865a6853f2b14f/sanauautomationsdk-1.0.8.tar.gz
+[2024-04-30 11:01:26] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.2.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.3.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [migration-db]: Start processing: openimis-be-location
+[2024-04-30 11:01:26] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-04-30 11:01:26] INFO root fetch - processPackages [SanauAutomationSDK]: Downloading https://files.pythonhosted.org/packages/6c/f9/e6fab56f984ae0f6d1c255bfcbdfe8b16a3686e7fef470a8343686c0fcf0/sanauautomationsdk-1.0.9.tar.gz
+[2024-04-30 11:01:26] INFO root fetch - processPackages [SanauAutomationSDK]: executing diffoscope
+[2024-04-30 11:01:26] INFO root fetch - processPackages [SanauAutomationSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanauautomationsdk-1.0.8.tar.gz tmp/sanauautomationsdk-1.0.9.tar.gz --markdown 20240430/S/SanauAutomationSDK/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-location]: New version: [1.7.0] Old Version: [1.6.1rc1]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-workflow]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-workflow-1.0.0.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-workflow]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_workflow-1.0.1.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-workflow]: Start processing: openimis-be-medical
+[2024-04-30 11:01:26] INFO root fetch - main [MainThread]: End processing [openimis-be-workflow]: success
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-tasks-management]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-tasks_management-1.0.0.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-tasks-management]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_tasks_management-1.1.0.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-tasks-management]: Start processing: openimis-be-report
+[2024-04-30 11:01:26] INFO root fetch - main [MainThread]: End processing [openimis-be-tasks-management]: success
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-medical]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-individual]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-individual-1.0.0.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-individual]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_individual-1.1.0.tar.gz]
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-individual]: Start processing: openimis-be-medical-pricelist
+[2024-04-30 11:01:26] INFO root fetch - main [MainThread]: End processing [openimis-be-individual]: success
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-location]: Downloading https://files.pythonhosted.org/packages/b4/cf/5766ad37765e4d49eeae7059976fb5bd5850b906e81a007d9704e894d48d/openimis-be-location-1.6.1rc1.tar.gz
+[2024-04-30 11:01:26] INFO root fetch - processPackages [openimis-be-report]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.6.4rc1.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.6.5rc1.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [buz]: Start processing: openimis-be-product
+[2024-04-30 11:01:27] INFO root fetch - main [MainThread]: End processing [buz]: success
+[2024-04-30 11:01:27] INFO root fetch - processPackages [cpknextgen]: Remove: archive file [/home/abi/fetcher/tmp/cpknextgen-1.0.1.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [cpknextgen]: Remove: archive file [/home/abi/fetcher/tmp/cpknextgen-1.1.0.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [cpknextgen]: Start processing: openimis-be-insuree
+[2024-04-30 11:01:27] INFO root fetch - main [MainThread]: End processing [cpknextgen]: success
+[2024-04-30 11:01:27] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev4.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev5.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical-pricelist]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical]: Downloading https://files.pythonhosted.org/packages/12/2f/879b6a139d74a2698a3dba6413ce29d7f8e0c0da383b22de9a3347228e49/openimis-be-medical-1.6.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-product]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-report]: Downloading https://files.pythonhosted.org/packages/7a/c8/d86798696cd743dff1d9625bb0098cc553304832e2b914c6c8a4de83a239/openimis-be-report-1.6.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-insuree]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical-pricelist]: Downloading https://files.pythonhosted.org/packages/69/d0/38287f45b0d442798df62d70a949eaaa1181d5911a2be57e5f556ca40aad/openimis-be-medical_pricelist-1.6.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [ampform]: Remove: archive file [/home/abi/fetcher/tmp/ampform-0.9.3.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [ampform]: Remove: archive file [/home/abi/fetcher/tmp/ampform-0.9.4.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - main [MainThread]: End processing [ampform]: success
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-location]: Downloading https://files.pythonhosted.org/packages/b4/37/61ac0a6c5a2b42e91931f2c3311af986eccf1fe8c91afd08328af9a52dfc/openimis_be_location-1.7.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-product]: Downloading https://files.pythonhosted.org/packages/d7/1f/1385382002a6a9893bed4df9cc9d70fa79a4e83c165dc08037c4951aea03/openimis-be-product-1.6.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_is_core-2.25.0.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_is_core-2.25.1.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - main [MainThread]: End processing [skip-django-is-core]: success
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-insuree]: Downloading https://files.pythonhosted.org/packages/f1/bd/896a1f4d1d71b690986a8639e3161b9b3ecc4155e359c7ecd0fffc295df5/openimis-be-insuree-1.6.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical]: Downloading https://files.pythonhosted.org/packages/21/1e/6e17e0a74b4342cc16f9f651beb5aa7b90099d9f68123cf33198df94d4f7/openimis_be_medical-1.7.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [SanauAutomationSDK]: Remove: archive file [/home/abi/fetcher/tmp/sanauautomationsdk-1.0.8.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - processPackages [SanauAutomationSDK]: Remove: archive file [/home/abi/fetcher/tmp/sanauautomationsdk-1.0.9.tar.gz]
+[2024-04-30 11:01:27] INFO root fetch - main [MainThread]: End processing [SanauAutomationSDK]: success
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical]: executing diffoscope
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-medical-1.6.0.tar.gz tmp/openimis_be_medical-1.7.0.tar.gz --markdown 20240430/o/openimis-be-medical/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical-pricelist]: Downloading https://files.pythonhosted.org/packages/4b/22/4a9752dde5488010f65df771b68e90f59b8cc31fd9074025d18f194c9aad/openimis_be_medical_pricelist-1.6.1.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-location]: executing diffoscope
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-location-1.6.1rc1.tar.gz tmp/openimis_be_location-1.7.0.tar.gz --markdown 20240430/o/openimis-be-location/1.6.1rc1-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-product]: Downloading https://files.pythonhosted.org/packages/06/2d/4e3a5bdd10faac4d10122828a74269d90ab1509c26ed9948e7edf926c49b/openimis_be_product-1.6.1.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-insuree]: Downloading https://files.pythonhosted.org/packages/96/de/79b5a91e87e088122195f8535ee294e5c354610b40576852dc7043bde138/openimis_be_insuree-1.7.0.tar.gz
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical-pricelist]: executing diffoscope
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-medical-pricelist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-medical_pricelist-1.6.0.tar.gz tmp/openimis_be_medical_pricelist-1.6.1.tar.gz --markdown 20240430/o/openimis-be-medical-pricelist/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-product]: executing diffoscope
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-product-1.6.0.tar.gz tmp/openimis_be_product-1.6.1.tar.gz --markdown 20240430/o/openimis-be-product/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-30 11:01:27] INFO root fetch - processPackages [openimis-be-insuree]: executing diffoscope
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-insuree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-insuree-1.6.0.tar.gz tmp/openimis_be_insuree-1.7.0.tar.gz --markdown 20240430/o/openimis-be-insuree/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-location]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-location-1.6.1rc1.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-location]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_location-1.7.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - main [MainThread]: End processing [openimis-be-location]: success
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-medical]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-medical-1.6.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-medical]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_medical-1.7.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - main [MainThread]: End processing [openimis-be-medical]: success
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-medical-pricelist]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-medical_pricelist-1.6.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-medical-pricelist]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_medical_pricelist-1.6.1.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - main [MainThread]: End processing [openimis-be-medical-pricelist]: success
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-product]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-product-1.6.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-product]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_product-1.6.1.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - main [MainThread]: End processing [openimis-be-product]: success
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-insuree]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-insuree-1.6.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - processPackages [openimis-be-insuree]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_insuree-1.7.0.tar.gz]
+[2024-04-30 11:01:28] INFO root fetch - main [MainThread]: End processing [openimis-be-insuree]: success
+[2024-04-30 11:01:31] WARNING root fetch - processPackages [openimis-be-report]: Skipping package: exceeds size limit 13621299>=10485760
+[2024-04-30 11:01:31] INFO root fetch - main [MainThread]: End processing [openimis-be-report] error
+[2024-04-30 11:01:31] INFO root fetch - main [MainThread]: Store serial: [22999213]
