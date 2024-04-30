@@ -8080,3 +8080,47 @@
 [2024-04-30 05:05:04] INFO root fetch - processPackages [spotdlQt]: Remove: archive file [/home/abi/fetcher/tmp/spotdlqt-1.0.4.tar.gz]
 [2024-04-30 05:05:04] INFO root fetch - main [MainThread]: End processing [spotdlQt]: success
 [2024-04-30 05:05:04] INFO root fetch - main [MainThread]: Store serial: [22994631]
+[2024-04-30 05:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994631]
+[2024-04-30 05:07:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dhuodata-lib
+[2024-04-30 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jneqsim
+[2024-04-30 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leanblueprint
+[2024-04-30 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sms-message-aws-sns-local
+[2024-04-30 05:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diambra-arena
+[2024-04-30 05:07:13] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-30 05:07:13] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/d1/96/065850d8a0b4101928ec0832eb427601920e28134a59fd18f30fdedd100b/dhuodata-lib-0.1.9.tar.gz
+[2024-04-30 05:07:13] INFO root fetch - processPackages [leanblueprint]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 05:07:13] INFO root fetch - processPackages [sms-message-aws-sns-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 05:07:13] INFO root fetch - processPackages [jneqsim]: New version: [2.5.22] Old Version: [2.5.21]
+[2024-04-30 05:07:13] INFO root fetch - processPackages [diambra-arena]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-04-30 05:07:13] INFO root fetch - processPackages [leanblueprint]: Downloading https://files.pythonhosted.org/packages/d2/5b/14a3043c158e983ba0f685017eaf65249177f360d3d717a3a8b87fd38240/leanblueprint-0.0.6.tar.gz
+[2024-04-30 05:07:13] INFO root fetch - processPackages [jneqsim]: Downloading https://files.pythonhosted.org/packages/72/c9/5fd06b29b6d9d8e8b65644579d5958c2ae45c7dde24673bf6072ed4a4825/jneqsim-2.5.21.tar.gz
+[2024-04-30 05:07:13] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/b5/8c/2d497590b930ee0ea12a669b5747b1e2d251363d62238bd1fc127811dfff/sms_message_aws_sns_local-0.0.8.tar.gz
+[2024-04-30 05:07:13] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/c4/2a/98ad8c17ca60ba029be325f93a07443930dd8bf1781bc7c950852c7c62a6/diambra-arena-2.2.6.tar.gz
+[2024-04-30 05:07:13] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/f6/19/a9b22478e421d68c1a4d1297bead425a0458d6981e82e43b9c63b6100344/dhuodata-lib-0.2.0.tar.gz
+[2024-04-30 05:07:13] WARNING root fetch - processPackages [jneqsim]: Skipping package: exceeds size limit 30609378>=10485760
+[2024-04-30 05:07:13] INFO root fetch - main [MainThread]: End processing [jneqsim] error
+[2024-04-30 05:07:14] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 05:07:14] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.1.9.tar.gz tmp/dhuodata-lib-0.2.0.tar.gz --markdown 20240430/d/dhuodata-lib/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-30 05:07:14] INFO root fetch - processPackages [leanblueprint]: Downloading https://files.pythonhosted.org/packages/48/6b/959d3333a300e5382deee4122dceea1a4148aaf5b60c16bb8bf393f8a297/leanblueprint-0.0.7.tar.gz
+[2024-04-30 05:07:14] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/54/d3/85d752212b0a6ff1aa5c419882f883acab8ae547c5c7de00e95bdc2b8fba/diambra_arena-2.2.7.tar.gz
+[2024-04-30 05:07:14] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/9b/5a/3c25e8cc34e9a8c618a8a50e247085efee93fa786a9823257a0523b560de/sms_message_aws_sns_local-0.0.9.tar.gz
+[2024-04-30 05:07:14] INFO root fetch - processPackages [leanblueprint]: executing diffoscope
+[2024-04-30 05:07:14] INFO root fetch - processPackages [leanblueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanblueprint-0.0.6.tar.gz tmp/leanblueprint-0.0.7.tar.gz --markdown 20240430/l/leanblueprint/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 05:07:14] INFO root fetch - processPackages [sms-message-aws-sns-local]: executing diffoscope
+[2024-04-30 05:07:14] INFO root fetch - processPackages [sms-message-aws-sns-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sms_message_aws_sns_local-0.0.8.tar.gz tmp/sms_message_aws_sns_local-0.0.9.tar.gz --markdown 20240430/s/sms-message-aws-sns-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 05:07:14] INFO root fetch - processPackages [diambra-arena]: executing diffoscope
+[2024-04-30 05:07:14] INFO root fetch - processPackages [diambra-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-arena-2.2.6.tar.gz tmp/diambra_arena-2.2.7.tar.gz --markdown 20240430/d/diambra-arena/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-04-30 05:07:14] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.9.tar.gz]
+[2024-04-30 05:07:14] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.2.0.tar.gz]
+[2024-04-30 05:07:14] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 05:07:14] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.8.tar.gz]
+[2024-04-30 05:07:14] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.9.tar.gz]
+[2024-04-30 05:07:14] INFO root fetch - main [MainThread]: End processing [sms-message-aws-sns-local]: success
+[2024-04-30 05:07:14] INFO root fetch - processPackages [leanblueprint]: Remove: archive file [/home/abi/fetcher/tmp/leanblueprint-0.0.6.tar.gz]
+[2024-04-30 05:07:14] INFO root fetch - processPackages [leanblueprint]: Remove: archive file [/home/abi/fetcher/tmp/leanblueprint-0.0.7.tar.gz]
+[2024-04-30 05:07:14] INFO root fetch - main [MainThread]: End processing [leanblueprint]: success
+[2024-04-30 05:07:15] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.2.6.tar.gz]
+[2024-04-30 05:07:15] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra_arena-2.2.7.tar.gz]
+[2024-04-30 05:07:15] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
+[2024-04-30 05:07:15] INFO root fetch - main [MainThread]: Store serial: [22994646]
