@@ -19980,3 +19980,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:34:41] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.9.1.tar.gz]
 [2024-04-30 10:34:41] INFO root fetch - main [MainThread]: End processing [promptulate]: success
 [2024-04-30 10:34:41] INFO root fetch - main [MainThread]: Store serial: [22998875]
+[2024-04-30 10:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998875]
+[2024-04-30 10:36:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-wrapper
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-unfold
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-processors
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-pipelines
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-apps
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-04-30 10:36:50] INFO root fetch - processPackages [zfx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ckanext-unfold]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-30 10:36:50] INFO root fetch - processPackages [tb-wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 10:36:50] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/ed/d8/91079830a904b90d2f1e95f0c89fac43319e56300aec74eab1ae5c3c4230/zfx-1.0.6.tar.gz
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-30 10:36:50] INFO root fetch - processPackages [ckanext-unfold]: Downloading https://files.pythonhosted.org/packages/fd/76/a4cf650cbc77e5ec356317bed69fcabb4e576e1960e3c34da9e31e4fe6c7/ckanext-unfold-1.0.0.tar.gz
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-30 10:36:50] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/2c/b4/ec57b3c98ce59403232d3f80d4c368d7c14d8231782a4e1e16d04cae8051/tb_wrapper-0.1.8.tar.gz
+[2024-04-30 10:36:50] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-30 10:36:51] INFO root fetch - processPackages [ckanext-unfold]: Downloading https://files.pythonhosted.org/packages/bf/22/24f92ee230d20a0fb157f6f9502a93f55439f6dc4c8cd615eeb9090a7fec/ckanext_unfold-1.0.1.tar.gz
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240430/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-30 10:36:51] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/a8/91/1814094d2fcff28afe175002c8aedcda4e900ad46e892b6e3b73b03a5687/zfx-1.0.7.tar.gz
+[2024-04-30 10:36:51] INFO root fetch - processPackages [ckanext-unfold]: executing diffoscope
+[2024-04-30 10:36:51] INFO root fetch - processPackages [ckanext-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-unfold-1.0.0.tar.gz tmp/ckanext_unfold-1.0.1.tar.gz --markdown 20240430/c/ckanext-unfold/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 10:36:51] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 10:36:51] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.6.tar.gz tmp/zfx-1.0.7.tar.gz --markdown 20240430/z/zfx/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240430/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240430/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-30 10:36:51] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/21/89/f49a28288c035383351e4e7ef91e37a7a63cc914601375565b45cbae4b82/tb_wrapper-0.1.9.tar.gz
+[2024-04-30 10:36:51] INFO root fetch - processPackages [tb-wrapper]: executing diffoscope
+[2024-04-30 10:36:51] INFO root fetch - processPackages [tb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_wrapper-0.1.8.tar.gz tmp/tb_wrapper-0.1.9.tar.gz --markdown 20240430/t/tb-wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-30 10:36:51] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-30 10:36:51] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-30 10:36:51] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.6.tar.gz]
+[2024-04-30 10:36:51] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.7.tar.gz]
+[2024-04-30 10:36:51] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 10:36:52] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-30 10:36:52] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-30 10:36:52] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-30 10:36:52] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.8.tar.gz]
+[2024-04-30 10:36:52] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.9.tar.gz]
+[2024-04-30 10:36:52] INFO root fetch - main [MainThread]: End processing [tb-wrapper]: success
+[2024-04-30 10:36:52] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-30 10:36:52] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-30 10:36:52] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-30 10:36:53] INFO root fetch - processPackages [ckanext-unfold]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-unfold-1.0.0.tar.gz]
+[2024-04-30 10:36:53] INFO root fetch - processPackages [ckanext-unfold]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_unfold-1.0.1.tar.gz]
+[2024-04-30 10:36:53] INFO root fetch - main [MainThread]: End processing [ckanext-unfold]: success
+[2024-04-30 10:36:53] INFO root fetch - main [MainThread]: Store serial: [22998889]
