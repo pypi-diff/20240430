@@ -7600,3 +7600,24 @@
 [2024-04-30 04:32:13] INFO root fetch - processPackages [django-ledger]: Remove: archive file [/home/abi/fetcher/tmp/django_ledger-0.6.0.2-py3-none-any.whl.zip]
 [2024-04-30 04:32:13] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
 [2024-04-30 04:32:13] INFO root fetch - main [MainThread]: Store serial: [22994442]
+[2024-04-30 04:34:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994442]
+[2024-04-30 04:34:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 04:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydraw
+[2024-04-30 04:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cobweb-launcher
+[2024-04-30 04:34:23] INFO root fetch - processPackages [pydraw]: New version: [2.2a9] Old Version: [2.2a8]
+[2024-04-30 04:34:23] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/f4/74/e8a1345d539cc705b6c6b516b1fb693170808b2fad2d43f0b6fe82e5a474/pydraw-2.2a8-py3-none-any.whl
+[2024-04-30 04:34:23] INFO root fetch - processPackages [cobweb-launcher]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 04:34:23] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/b6/00/9464a4280c86278a2986ee0b89b1db56ca0434b3870528fc0171e7e2f066/pydraw-2.2a9-py3-none-any.whl
+[2024-04-30 04:34:23] INFO root fetch - processPackages [cobweb-launcher]: Downloading https://files.pythonhosted.org/packages/46/07/d63fa1d4108fb1c24682909f8ecd33f99c1cec0772f40bba8c7310e90e70/cobweb-launcher-0.1.8.tar.gz
+[2024-04-30 04:34:23] INFO root fetch - processPackages [pydraw]: executing diffoscope
+[2024-04-30 04:34:23] INFO root fetch - processPackages [pydraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraw-2.2a8-py3-none-any.whl.zip tmp/pydraw-2.2a9-py3-none-any.whl.zip --markdown 20240430/p/pydraw/2.2a8-2.2a9/README.md --exclude *.pyd
+[2024-04-30 04:34:24] INFO root fetch - processPackages [cobweb-launcher]: Downloading https://files.pythonhosted.org/packages/01/df/a964197326efd95584aef845e77ccd8055ef891e887d42ef5731aa26b1b6/cobweb-launcher-0.1.9.tar.gz
+[2024-04-30 04:34:24] INFO root fetch - processPackages [cobweb-launcher]: executing diffoscope
+[2024-04-30 04:34:24] INFO root fetch - processPackages [cobweb-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobweb-launcher-0.1.8.tar.gz tmp/cobweb-launcher-0.1.9.tar.gz --markdown 20240430/c/cobweb-launcher/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 04:34:24] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a8-py3-none-any.whl.zip]
+[2024-04-30 04:34:24] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a9-py3-none-any.whl.zip]
+[2024-04-30 04:34:24] INFO root fetch - main [MainThread]: End processing [pydraw]: success
+[2024-04-30 04:34:24] INFO root fetch - processPackages [cobweb-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cobweb-launcher-0.1.8.tar.gz]
+[2024-04-30 04:34:24] INFO root fetch - processPackages [cobweb-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cobweb-launcher-0.1.9.tar.gz]
+[2024-04-30 04:34:24] INFO root fetch - main [MainThread]: End processing [cobweb-launcher]: success
+[2024-04-30 04:34:24] INFO root fetch - main [MainThread]: Store serial: [22994447]
