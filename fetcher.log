@@ -7962,3 +7962,54 @@
 [2024-04-30 04:56:11] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.9.0.tar.gz]
 [2024-04-30 04:56:11] INFO root fetch - main [MainThread]: End processing [missim-cli]: success
 [2024-04-30 04:56:11] INFO root fetch - main [MainThread]: Store serial: [22994576]
+[2024-04-30 04:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994576]
+[2024-04-30 04:58:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 04:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-reconcile-model-oca
+[2024-04-30 04:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-reconcile-oca
+[2024-04-30 04:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-reconcile-oca
+[2024-04-30 04:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2024-04-30 04:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sapien
+[2024-04-30 04:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-docx
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Downloading https://files.pythonhosted.org/packages/bd/75/19e1b35f05dde2f62e5bb593282925cc41331e2b00170d7ed08ee09f2dd6/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.0.0.23] Old Version: [17.0.1.0.0.21]
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.0.0.23] Old Version: [17.0.1.0.0.21]
+[2024-04-30 04:58:20] INFO root fetch - processPackages [python-docx]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-30 04:58:20] INFO root fetch - processPackages [sapien]: New version: [3.0.0b0] Old Version: [3.0.0.dev2]
+[2024-04-30 04:58:20] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Downloading https://files.pythonhosted.org/packages/73/7f/6b3d3087169e1573d51d76c526adc9b59b101662d5a920603f09bb13b12c/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/0c/56/5f7957ce2f43e2fa2817e6c04a23744c86b9efe57e8bda485eb669924a07/odoo_addon_account_reconcile_oca-17.0.1.0.0.21-py3-none-any.whl
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/0c/56/5f7957ce2f43e2fa2817e6c04a23744c86b9efe57e8bda485eb669924a07/odoo_addon_account_reconcile_oca-17.0.1.0.0.21-py3-none-any.whl
+[2024-04-30 04:58:20] INFO root fetch - processPackages [python-docx]: Downloading https://files.pythonhosted.org/packages/3c/82/eb6c794e61b7060d465a23917161da4ab554dccce07a3b44a0d69a61ea7d/python-docx-1.1.0.tar.gz
+[2024-04-30 04:58:20] INFO root fetch - processPackages [sapien]: Downloading https://files.pythonhosted.org/packages/66/0a/a2435a21a84b76d7082e6905ad76ea8473d64dd48015b27040eeff40c398/sapien-3.0.0.dev2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: executing diffoscope
+[2024-04-30 04:58:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-account-reconcile-model-oca/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-30 04:58:20] WARNING root fetch - processPackages [sapien]: Skipping package: exceeds size limit 50118889>=10485760
+[2024-04-30 04:58:20] INFO root fetch - main [MainThread]: End processing [sapien] error
+[2024-04-30 04:58:20] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/4c/5c/9cdcea0de3e5f0a93b52711076454435823b60b36773d907bb6699794816/odoo_addon_account_reconcile_oca-17.0.1.0.0.23-py3-none-any.whl
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/4c/5c/9cdcea0de3e5f0a93b52711076454435823b60b36773d907bb6699794816/odoo_addon_account_reconcile_oca-17.0.1.0.0.23-py3-none-any.whl
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.21-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.23-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-account-reconcile-oca/17.0.1.0.0.21-17.0.1.0.0.23/README.md --exclude *.pyd
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.21-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.23-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-account-reconcile-oca/17.0.1.0.0.21-17.0.1.0.0.23/README.md --exclude *.pyd
+[2024-04-30 04:58:21] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2024-04-30 04:58:21] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2024-04-30 04:58:21] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20240430/s/sqlglot/9.0.5-9.0.6/README.md --exclude *.pyd
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-30 04:58:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-model-oca]: success
+[2024-04-30 04:58:21] INFO root fetch - processPackages [python-docx]: Downloading https://files.pythonhosted.org/packages/c1/65/188638757fc0d364a5f064705e9b157b148f6df67e235ada74a24ba17e71/python_docx-1.1.1.tar.gz
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.21-py3-none-any.whl.zip]
+[2024-04-30 04:58:21] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.23-py3-none-any.whl.zip]
+[2024-04-30 04:58:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-04-30 04:58:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-04-30 04:58:22] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2024-04-30 04:58:22] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2024-04-30 04:58:22] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2024-04-30 04:58:26] INFO root fetch - processPackages [python-docx]: executing diffoscope
+[2024-04-30 04:58:26] INFO root fetch - processPackages [python-docx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-docx-1.1.0.tar.gz tmp/python_docx-1.1.1.tar.gz --markdown 20240430/p/python-docx/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-30 04:58:30] INFO root fetch - processPackages [python-docx]: Remove: archive file [/home/abi/fetcher/tmp/python-docx-1.1.0.tar.gz]
+[2024-04-30 04:58:30] INFO root fetch - processPackages [python-docx]: Remove: archive file [/home/abi/fetcher/tmp/python_docx-1.1.1.tar.gz]
+[2024-04-30 04:58:30] INFO root fetch - main [MainThread]: End processing [python-docx]: success
+[2024-04-30 04:58:30] INFO root fetch - main [MainThread]: Store serial: [22994590]
