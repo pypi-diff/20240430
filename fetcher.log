@@ -2984,3 +2984,24 @@
 [2024-04-30 02:57:07] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21468173>=10485760
 [2024-04-30 02:57:07] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2024-04-30 02:57:07] INFO root fetch - main [MainThread]: Store serial: [22992781]
+[2024-04-30 02:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992781]
+[2024-04-30 02:59:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 02:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyICU
+[2024-04-30 02:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: v4-proto
+[2024-04-30 02:59:25] INFO root fetch - processPackages [v4-proto]: New version: [5.0.0.dev0] Old Version: [4.1.0.dev4]
+[2024-04-30 02:59:25] INFO root fetch - processPackages [PyICU]: New version: [2.9] Old Version: [2.8.1]
+[2024-04-30 02:59:25] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/d4/07/01237c6c1f374dfc74d26e50a75efafa5fb62027dc35f47d9253ef6fa5d0/v4-proto-4.1.0.dev4.tar.gz
+[2024-04-30 02:59:25] INFO root fetch - processPackages [PyICU]: Downloading https://files.pythonhosted.org/packages/5c/d0/50e4319f07b0514a9da5dfdf65aa36c0782120c13b1d194a9c1a54cdc537/PyICU-2.8.1.tar.gz
+[2024-04-30 02:59:26] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/71/15/0bc0568edc00e5e4f1fcff2a40ea2584a765f14f97b0417327b194acec24/v4-proto-5.0.0.dev0.tar.gz
+[2024-04-30 02:59:26] INFO root fetch - processPackages [PyICU]: Downloading https://files.pythonhosted.org/packages/11/76/9256430e729ad0dd4675a15a7bf0555b9085d1bea36083b9a1b095602f23/PyICU-2.9.tar.gz
+[2024-04-30 02:59:26] INFO root fetch - processPackages [v4-proto]: executing diffoscope
+[2024-04-30 02:59:26] INFO root fetch - processPackages [v4-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v4-proto-4.1.0.dev4.tar.gz tmp/v4-proto-5.0.0.dev0.tar.gz --markdown 20240430/v/v4-proto/4.1.0.dev4-5.0.0.dev0/README.md --exclude *.pyd
+[2024-04-30 02:59:26] INFO root fetch - processPackages [PyICU]: executing diffoscope
+[2024-04-30 02:59:26] INFO root fetch - processPackages [PyICU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyICU-2.8.1.tar.gz tmp/PyICU-2.9.tar.gz --markdown 20240430/P/PyICU/2.8.1-2.9/README.md --exclude *.pyd
+[2024-04-30 02:59:27] INFO root fetch - processPackages [PyICU]: Remove: archive file [/home/abi/fetcher/tmp/PyICU-2.8.1.tar.gz]
+[2024-04-30 02:59:27] INFO root fetch - processPackages [PyICU]: Remove: archive file [/home/abi/fetcher/tmp/PyICU-2.9.tar.gz]
+[2024-04-30 02:59:27] INFO root fetch - main [MainThread]: End processing [PyICU]: success
+[2024-04-30 02:59:28] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-4.1.0.dev4.tar.gz]
+[2024-04-30 02:59:28] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
+[2024-04-30 02:59:28] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
+[2024-04-30 02:59:28] INFO root fetch - main [MainThread]: Store serial: [22992787]
