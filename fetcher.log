@@ -21332,3 +21332,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:10:41] INFO root fetch - processPackages [femmt]: Remove: archive file [/home/abi/fetcher/tmp/femmt-0.5.2.tar.gz]
 [2024-04-30 11:10:41] INFO root fetch - main [MainThread]: End processing [femmt]: success
 [2024-04-30 11:10:41] INFO root fetch - main [MainThread]: Store serial: [22999419]
+[2024-04-30 11:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999419]
+[2024-04-30 11:13:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 11:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stopwords-tr
+[2024-04-30 11:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedmongo
+[2024-04-30 11:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpm-ai-inference
+[2024-04-30 11:13:00] INFO root fetch - processPackages [bpm-ai-inference]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-30 11:13:00] INFO root fetch - processPackages [stopwords-tr]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-30 11:13:00] INFO root fetch - processPackages [typedmongo]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-30 11:13:01] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/b1/dc/4717e7d07a4846e3ace50489a9004050e198b4552add1bf07b5391b5779a/stopwords_tr-1.1.9.tar.gz
+[2024-04-30 11:13:01] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/c4/f4/cf7b84bbbd1d831efc32562d54bcd6150f2ce85f0519dc37976a0fc8cb38/typedmongo-1.1.2.tar.gz
+[2024-04-30 11:13:01] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/1a/9c/7a360e0c6efc3710a9e3133b8aa622e19260dd3a73136e72bc02475c486f/bpm_ai_inference-0.3.0.tar.gz
+[2024-04-30 11:13:01] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/40/2f/5a8e69e6812c9c86db57671c6afa0d7dbc51a8243a1a1f832489e630064d/bpm_ai_inference-0.3.1.tar.gz
+[2024-04-30 11:13:01] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/37/dc/5a15bf96b0320a88d0c7645bfcfd1c15bdc367fdb792e6752a54f5245dc6/typedmongo-1.1.3.tar.gz
+[2024-04-30 11:13:01] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/e4/2d/08294834471caa1c167b4755fdbd117365a030dcebe00728f73331347160/stopwords_tr-1.2.0.tar.gz
+[2024-04-30 11:13:01] INFO root fetch - processPackages [bpm-ai-inference]: executing diffoscope
+[2024-04-30 11:13:01] INFO root fetch - processPackages [bpm-ai-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_inference-0.3.0.tar.gz tmp/bpm_ai_inference-0.3.1.tar.gz --markdown 20240430/b/bpm-ai-inference/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-30 11:13:01] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-04-30 11:13:01] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.1.2.tar.gz tmp/typedmongo-1.1.3.tar.gz --markdown 20240430/t/typedmongo/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-30 11:13:01] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 11:13:01] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.9.tar.gz tmp/stopwords_tr-1.2.0.tar.gz --markdown 20240430/s/stopwords-tr/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-30 11:13:02] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.9.tar.gz]
+[2024-04-30 11:13:02] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.2.0.tar.gz]
+[2024-04-30 11:13:02] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 11:13:02] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.2.tar.gz]
+[2024-04-30 11:13:02] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.3.tar.gz]
+[2024-04-30 11:13:02] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-04-30 11:13:02] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.3.0.tar.gz]
+[2024-04-30 11:13:02] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.3.1.tar.gz]
+[2024-04-30 11:13:02] INFO root fetch - main [MainThread]: End processing [bpm-ai-inference]: success
+[2024-04-30 11:13:02] INFO root fetch - main [MainThread]: Store serial: [22999431]
