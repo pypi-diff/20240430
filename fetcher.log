@@ -7642,3 +7642,33 @@
 [2024-04-30 04:36:35] INFO root fetch - processPackages [tap-readthedocs]: Remove: archive file [/home/abi/fetcher/tmp/tap_readthedocs-0.4.1.tar.gz]
 [2024-04-30 04:36:35] INFO root fetch - main [MainThread]: End processing [tap-readthedocs]: success
 [2024-04-30 04:36:35] INFO root fetch - main [MainThread]: Store serial: [22994452]
+[2024-04-30 04:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994452]
+[2024-04-30 04:38:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 04:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-financial-report
+[2024-04-30 04:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htt
+[2024-04-30 04:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rich-click
+[2024-04-30 04:38:43] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-04-30 04:38:43] INFO root fetch - processPackages [rich-click]: New version: [1.8.0.dev7] Old Version: [1.8.0.dev6]
+[2024-04-30 04:38:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-04-30 04:38:43] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-04-30 04:38:43] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/8b/05/14bb70d012c71103999d3335ae4939c5f74d89ffb7f41509b2bf4f6f1bf1/rich_click-1.8.0.dev6.tar.gz
+[2024-04-30 04:38:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f6/0a/7e9987fe2d37083d92ad3951de5ee653ef2b51dbc3f5e3f357d15b544f76/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-30 04:38:44] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-04-30 04:38:44] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/96/b1/96b7da48f2c4effc7c540e5937f66f70684d1ae8a03105a713393804038b/rich_click-1.8.0.dev7.tar.gz
+[2024-04-30 04:38:44] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/51/22/88113c37c6724f93deb5137bb034b688a10771965645b1c1c12ef7d6f5c0/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-30 04:38:44] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-04-30 04:38:44] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240430/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-04-30 04:38:44] INFO root fetch - processPackages [rich-click]: executing diffoscope
+[2024-04-30 04:38:44] INFO root fetch - processPackages [rich-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_click-1.8.0.dev6.tar.gz tmp/rich_click-1.8.0.dev7.tar.gz --markdown 20240430/r/rich-click/1.8.0.dev6-1.8.0.dev7/README.md --exclude *.pyd
+[2024-04-30 04:38:44] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-30 04:38:44] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-account-financial-report/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-04-30 04:38:44] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-04-30 04:38:44] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-04-30 04:38:44] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-04-30 04:38:45] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich_click-1.8.0.dev6.tar.gz]
+[2024-04-30 04:38:45] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich_click-1.8.0.dev7.tar.gz]
+[2024-04-30 04:38:45] INFO root fetch - main [MainThread]: End processing [rich-click]: success
+[2024-04-30 04:38:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-30 04:38:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-30 04:38:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-30 04:38:45] INFO root fetch - main [MainThread]: Store serial: [22994461]
