@@ -19527,3 +19527,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:16:54] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.4.2.tar.gz]
 [2024-04-30 10:16:54] INFO root fetch - main [MainThread]: End processing [torchvinecopulib]: success
 [2024-04-30 10:16:54] INFO root fetch - main [MainThread]: Store serial: [22998706]
+[2024-04-30 10:18:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998706]
+[2024-04-30 10:19:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 10:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytesseract-api
+[2024-04-30 10:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webdrivermanager-cn
+[2024-04-30 10:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tui-dsmt
+[2024-04-30 10:19:04] INFO root fetch - processPackages [tui-dsmt]: New version: [202404300539] Old Version: [202404291427]
+[2024-04-30 10:19:04] INFO root fetch - processPackages [webdrivermanager-cn]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-04-30 10:19:04] INFO root fetch - processPackages [pytesseract-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-30 10:19:04] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/69/98/718b1a94833e34ad62b49775a30223cdb838d4100ffee2d6015c2f9ea8c8/tui_dsmt-202404291427.tar.gz
+[2024-04-30 10:19:04] INFO root fetch - processPackages [pytesseract-api]: Downloading https://files.pythonhosted.org/packages/21/1e/c9cc0b53b57962f2899917e3c85be1902193229c749bcc54095807db82e7/pytesseract_api-1.0.3.tar.gz
+[2024-04-30 10:19:04] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/52/66/a68220a9dcc7552d4ffec40cf4b683b18679d43dc2946ebc787b669f0112/webdrivermanager_cn-1.4.1-py3-none-any.whl
+[2024-04-30 10:19:04] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/26/27/54e1e2f5a10f66fdb96e131597910074ae89e208912e5c4242c7dfa5bc47/tui_dsmt-202404300539.tar.gz
+[2024-04-30 10:19:05] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-30 10:19:05] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404291427.tar.gz tmp/tui_dsmt-202404300539.tar.gz --markdown 20240430/t/tui-dsmt/202404291427-202404300539/README.md --exclude *.pyd
+[2024-04-30 10:19:05] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/50/31/6b7d9ad3fd2f11013f40fc4e907d688adcf5709c781de590814487de1b8d/webdrivermanager_cn-1.5.0-py3-none-any.whl
+[2024-04-30 10:19:05] INFO root fetch - processPackages [pytesseract-api]: Downloading https://files.pythonhosted.org/packages/a2/48/e1d2f6160dd9a784235486f7414ca0131eb0c98db31ddf3cce001a643693/pytesseract_api-1.0.4.tar.gz
+[2024-04-30 10:19:05] INFO root fetch - processPackages [webdrivermanager-cn]: executing diffoscope
+[2024-04-30 10:19:05] INFO root fetch - processPackages [webdrivermanager-cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdrivermanager_cn-1.4.1-py3-none-any.whl.zip tmp/webdrivermanager_cn-1.5.0-py3-none-any.whl.zip --markdown 20240430/w/webdrivermanager-cn/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-04-30 10:19:05] INFO root fetch - processPackages [pytesseract-api]: executing diffoscope
+[2024-04-30 10:19:05] INFO root fetch - processPackages [pytesseract-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytesseract_api-1.0.3.tar.gz tmp/pytesseract_api-1.0.4.tar.gz --markdown 20240430/p/pytesseract-api/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-30 10:19:05] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404291427.tar.gz]
+[2024-04-30 10:19:05] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404300539.tar.gz]
+[2024-04-30 10:19:05] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-30 10:19:05] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.4.1-py3-none-any.whl.zip]
+[2024-04-30 10:19:05] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.5.0-py3-none-any.whl.zip]
+[2024-04-30 10:19:05] INFO root fetch - main [MainThread]: End processing [webdrivermanager-cn]: success
+[2024-04-30 10:19:06] INFO root fetch - processPackages [pytesseract-api]: Remove: archive file [/home/abi/fetcher/tmp/pytesseract_api-1.0.3.tar.gz]
+[2024-04-30 10:19:06] INFO root fetch - processPackages [pytesseract-api]: Remove: archive file [/home/abi/fetcher/tmp/pytesseract_api-1.0.4.tar.gz]
+[2024-04-30 10:19:06] INFO root fetch - main [MainThread]: End processing [pytesseract-api]: success
+[2024-04-30 10:19:06] INFO root fetch - main [MainThread]: Store serial: [22998714]
