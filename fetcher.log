@@ -6828,3 +6828,36 @@
 [2024-04-30 03:28:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-04-30 03:28:18] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-30 03:28:18] INFO root fetch - main [MainThread]: Store serial: [22993941]
+[2024-04-30 03:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22993941]
+[2024-04-30 03:30:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 03:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2024-04-30 03:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kitsunekko-tools
+[2024-04-30 03:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyChartGen
+[2024-04-30 03:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2024-04-30 03:30:27] INFO root fetch - processPackages [kitsunekko-tools]: New version: [24.4.29.0] Old Version: [0.0.4]
+[2024-04-30 03:30:27] INFO root fetch - processPackages [kitsunekko-tools]: Downloading https://files.pythonhosted.org/packages/6d/62/438b821c9882d323309279db864aeed13cbe6694403e747bfad22866ff69/kitsunekko_tools-0.0.4.tar.gz
+[2024-04-30 03:30:27] WARNING root fetch - processPackages [pyChartGen]: Skipping, unable to determine old version
+[2024-04-30 03:30:27] INFO root fetch - main [MainThread]: End processing [pyChartGen] error
+[2024-04-30 03:30:27] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-30 03:30:27] INFO root fetch - processPackages [xklb]: New version: [2.7.5] Old Version: [2.6.9]
+[2024-04-30 03:30:27] INFO root fetch - processPackages [kitsunekko-tools]: Downloading https://files.pythonhosted.org/packages/c4/8e/7c513863781badc09ae20036f2f8930960a29c5de1c86d7b6e4a35000810/kitsunekko_tools-24.4.29.0.tar.gz
+[2024-04-30 03:30:27] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-04-30 03:30:27] INFO root fetch - processPackages [kitsunekko-tools]: executing diffoscope
+[2024-04-30 03:30:27] INFO root fetch - processPackages [kitsunekko-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitsunekko_tools-0.0.4.tar.gz tmp/kitsunekko_tools-24.4.29.0.tar.gz --markdown 20240430/k/kitsunekko-tools/0.0.4-24.4.29.0/README.md --exclude *.pyd
+[2024-04-30 03:30:27] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/38/2a/2958f5a1fedda07c3aa6cb197a1270734f34698793fb935ae5debd5e8c0c/xklb-2.6.9.tar.gz
+[2024-04-30 03:30:27] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-04-30 03:30:28] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-04-30 03:30:28] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240430/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-30 03:30:28] INFO root fetch - processPackages [kitsunekko-tools]: Remove: archive file [/home/abi/fetcher/tmp/kitsunekko_tools-0.0.4.tar.gz]
+[2024-04-30 03:30:28] INFO root fetch - processPackages [kitsunekko-tools]: Remove: archive file [/home/abi/fetcher/tmp/kitsunekko_tools-24.4.29.0.tar.gz]
+[2024-04-30 03:30:28] INFO root fetch - main [MainThread]: End processing [kitsunekko-tools]: success
+[2024-04-30 03:30:28] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/9e/84/69b286c294ae1210e16f255aeae6212e50f104527c7bb5852c2e903805c8/xklb-2.7.5.tar.gz
+[2024-04-30 03:30:28] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-30 03:30:28] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.6.9.tar.gz tmp/xklb-2.7.5.tar.gz --markdown 20240430/x/xklb/2.6.9-2.7.5/README.md --exclude *.pyd
+[2024-04-30 03:30:29] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-04-30 03:30:29] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-04-30 03:30:29] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-04-30 03:30:29] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.9.tar.gz]
+[2024-04-30 03:30:29] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.7.5.tar.gz]
+[2024-04-30 03:30:29] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-30 03:30:29] INFO root fetch - main [MainThread]: Store serial: [22994014]
