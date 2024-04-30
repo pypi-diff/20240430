@@ -6798,3 +6798,33 @@
 [2024-04-30 03:26:07] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.9.tar.gz]
 [2024-04-30 03:26:07] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
 [2024-04-30 03:26:07] INFO root fetch - main [MainThread]: Store serial: [22993864]
+[2024-04-30 03:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22993864]
+[2024-04-30 03:28:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 03:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-04-30 03:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-04-30 03:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-04-30 03:28:16] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404290126] Old Version: [1.0.0.dev202404280129]
+[2024-04-30 03:28:16] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404290126] Old Version: [1.0.0.dev202404280129]
+[2024-04-30 03:28:16] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/83/7e/87cc7b26de1f58fc420fd1db9caaf6dadb8ff9321a5a5e4143d9dbbe2c48/onediffx-1.0.0.dev202404280129.tar.gz
+[2024-04-30 03:28:16] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/d8/0d/79bca62b002007ee29fddea5550aca618dcd4da70c40fead46957bb259ea/onediff-1.0.0.dev202404280129.tar.gz
+[2024-04-30 03:28:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-30 03:28:17] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/4b/68/f27d2323216152c5940e1a76d74e4bd67f3fae99448348db34ec414a089d/onediffx-1.0.0.dev202404290126.tar.gz
+[2024-04-30 03:28:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-30 03:28:17] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-30 03:28:17] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404280129.tar.gz tmp/onediffx-1.0.0.dev202404290126.tar.gz --markdown 20240430/o/onediffx/1.0.0.dev202404280129-1.0.0.dev202404290126/README.md --exclude *.pyd
+[2024-04-30 03:28:17] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/fd/48/cd6afdc4dd59d124b60ab02de6c239f15ec893102e2efaabb5306ae7b3ec/onediff-1.0.0.dev202404290126.tar.gz
+[2024-04-30 03:28:17] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-30 03:28:17] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404280129.tar.gz tmp/onediff-1.0.0.dev202404290126.tar.gz --markdown 20240430/o/onediff/1.0.0.dev202404280129-1.0.0.dev202404290126/README.md --exclude *.pyd
+[2024-04-30 03:28:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-30 03:28:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-30 03:28:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240430/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-30 03:28:18] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404280129.tar.gz]
+[2024-04-30 03:28:18] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404290126.tar.gz]
+[2024-04-30 03:28:18] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-30 03:28:18] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404280129.tar.gz]
+[2024-04-30 03:28:18] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404290126.tar.gz]
+[2024-04-30 03:28:18] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-30 03:28:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-30 03:28:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-30 03:28:18] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-30 03:28:18] INFO root fetch - main [MainThread]: Store serial: [22993941]
