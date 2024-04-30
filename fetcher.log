@@ -16110,3 +16110,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:52:48] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.3.tar.gz]
 [2024-04-30 08:52:48] INFO root fetch - main [MainThread]: End processing [hestia-earth-aggregation]: success
 [2024-04-30 08:52:48] INFO root fetch - main [MainThread]: Store serial: [22997493]
+[2024-04-30 08:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997493]
+[2024-04-30 08:54:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statsdir
+[2024-04-30 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhijiang
+[2024-04-30 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2024-04-30 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyAibote
+[2024-04-30 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniqmt-xtquant
+[2024-04-30 08:54:58] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-30 08:54:58] INFO root fetch - processPackages [PyAibote]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-30 08:54:58] WARNING root fetch - processPackages [statsdir]: Skipping, unable to determine old version
+[2024-04-30 08:54:58] INFO root fetch - main [MainThread]: End processing [statsdir] error
+[2024-04-30 08:54:58] WARNING root fetch - processPackages [miniqmt-xtquant]: Skipping, unable to determine old version
+[2024-04-30 08:54:58] INFO root fetch - main [MainThread]: End processing [miniqmt-xtquant] error
+[2024-04-30 08:54:58] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-30 08:54:58] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240429] Old Version: [1.33.1.dev20240426]
+[2024-04-30 08:54:58] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/33/b2/a7dd6ff6637272bc18ae6c40535914bc6a824868166d26226892eb68f08c/PyAibote-1.4.4.tar.gz
+[2024-04-30 08:54:58] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/f7/86/acdb27a20060dff2b2ef9288cfd1a006be3446db5d7a8b89696b15d043b3/streamlit_nightly-1.33.1.dev20240426.tar.gz
+[2024-04-30 08:54:58] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-30 08:54:59] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/3a/67/b6e27b06b45fb0c3ca2422c5bc4de120590875249a9494bedea0f9e4343b/PyAibote-1.4.5.tar.gz
+[2024-04-30 08:54:59] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-30 08:54:59] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240430/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-30 08:54:59] INFO root fetch - processPackages [PyAibote]: executing diffoscope
+[2024-04-30 08:54:59] INFO root fetch - processPackages [PyAibote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAibote-1.4.4.tar.gz tmp/PyAibote-1.4.5.tar.gz --markdown 20240430/P/PyAibote/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-30 08:54:59] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/83/11/f3c3a13d658abd97a20e55ba5a7da2469a0dd3b15b17bf9360bc05aec5eb/streamlit_nightly-1.33.1.dev20240429.tar.gz
+[2024-04-30 08:55:00] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-30 08:55:00] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240426.tar.gz tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz --markdown 20240430/s/streamlit-nightly/1.33.1.dev20240426-1.33.1.dev20240429/README.md --exclude *.pyd
+[2024-04-30 08:55:00] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.4.4.tar.gz]
+[2024-04-30 08:55:00] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.4.5.tar.gz]
+[2024-04-30 08:55:00] INFO root fetch - main [MainThread]: End processing [PyAibote]: success
+[2024-04-30 08:55:00] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-30 08:55:00] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-30 08:55:00] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-30 08:55:31] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240426.tar.gz]
+[2024-04-30 08:55:31] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz]
+[2024-04-30 08:55:31] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-30 08:55:31] INFO root fetch - main [MainThread]: Store serial: [22997518]
