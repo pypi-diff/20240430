@@ -9159,3 +9159,24 @@
 [2024-04-30 05:41:53] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-2.1.0-py3-none-any.whl.zip]
 [2024-04-30 05:41:53] INFO root fetch - main [MainThread]: End processing [intelliw]: success
 [2024-04-30 05:41:53] INFO root fetch - main [MainThread]: Store serial: [22995009]
+[2024-04-30 05:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995009]
+[2024-04-30 05:44:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 05:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-chat-handler
+[2024-04-30 05:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: electricalsim
+[2024-04-30 05:44:02] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.1.5.dev3] Old Version: [0.1.5.dev2]
+[2024-04-30 05:44:02] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/c8/29/c2e2a6a772a67ea6927e908ca5554c28e85c6c6f973fe7fa08cd8511360d/streamlit_chat_handler-0.1.5.dev2.tar.gz
+[2024-04-30 05:44:02] INFO root fetch - processPackages [electricalsim]: New version: [0.0.8.2] Old Version: [0.0.8.1]
+[2024-04-30 05:44:03] INFO root fetch - processPackages [electricalsim]: Downloading https://files.pythonhosted.org/packages/a1/2f/9ec39adc25e244690beda2913bac7d6ca3b7de3d91ee04e40105d75ac135/electricalsim-0.0.8.1.tar.gz
+[2024-04-30 05:44:03] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/99/e2/69d21f57a3ff663cfd51974d26409d4e749feb4971732c7e5cb076c1f0b1/streamlit_chat_handler-0.1.5.dev3.tar.gz
+[2024-04-30 05:44:03] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-30 05:44:03] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.1.5.dev2.tar.gz tmp/streamlit_chat_handler-0.1.5.dev3.tar.gz --markdown 20240430/s/streamlit-chat-handler/0.1.5.dev2-0.1.5.dev3/README.md --exclude *.pyd
+[2024-04-30 05:44:03] INFO root fetch - processPackages [electricalsim]: Downloading https://files.pythonhosted.org/packages/2a/33/aa2d426b450eb2a2861125fba59c1320981f38867cbfa6d56860e08d9859/electricalsim-0.0.8.2.tar.gz
+[2024-04-30 05:44:03] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.5.dev2.tar.gz]
+[2024-04-30 05:44:03] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.5.dev3.tar.gz]
+[2024-04-30 05:44:03] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-30 05:44:05] INFO root fetch - processPackages [electricalsim]: executing diffoscope
+[2024-04-30 05:44:05] INFO root fetch - processPackages [electricalsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electricalsim-0.0.8.1.tar.gz tmp/electricalsim-0.0.8.2.tar.gz --markdown 20240430/e/electricalsim/0.0.8.1-0.0.8.2/README.md --exclude *.pyd
+[2024-04-30 05:44:06] INFO root fetch - processPackages [electricalsim]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim-0.0.8.1.tar.gz]
+[2024-04-30 05:44:06] INFO root fetch - processPackages [electricalsim]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim-0.0.8.2.tar.gz]
+[2024-04-30 05:44:06] INFO root fetch - main [MainThread]: End processing [electricalsim]: success
+[2024-04-30 05:44:06] INFO root fetch - main [MainThread]: Store serial: [22995014]
