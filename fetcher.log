@@ -7672,3 +7672,42 @@
 [2024-04-30 04:38:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip]
 [2024-04-30 04:38:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-04-30 04:38:45] INFO root fetch - main [MainThread]: Store serial: [22994461]
+[2024-04-30 04:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994461]
+[2024-04-30 04:40:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tach
+[2024-04-30 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-04-30 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarers.aws-daily-cloud-watch-logs-archive-stack
+[2024-04-30 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplevc
+[2024-04-30 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: install_playwright
+[2024-04-30 04:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zoltraak-celsius
+[2024-04-30 04:40:53] WARNING root fetch - processPackages [tach]: Skipping, unable to determine old version
+[2024-04-30 04:40:53] INFO root fetch - main [MainThread]: End processing [tach] error
+[2024-04-30 04:40:53] INFO root fetch - processPackages [simplevc]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 04:40:53] WARNING root fetch - processPackages [gammarers.aws-daily-cloud-watch-logs-archive-stack]: Skipping, unable to determine old version
+[2024-04-30 04:40:53] INFO root fetch - main [MainThread]: End processing [gammarers.aws-daily-cloud-watch-logs-archive-stack] error
+[2024-04-30 04:40:53] INFO root fetch - processPackages [install_playwright]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-30 04:40:53] INFO root fetch - processPackages [GSG]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-30 04:40:53] ERROR root fetch - processPackages [zoltraak-celsius]: Unable to get metadata: No such project 'zoltraak-celsius'
+[2024-04-30 04:40:53] INFO root fetch - main [MainThread]: End processing [zoltraak-celsius] error
+[2024-04-30 04:40:54] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/ec/f7/f96aa759f81a013c10c82bc7596042381b6b34dec37f328a66c938001aa0/GSG-0.5.1.tar.gz
+[2024-04-30 04:40:54] INFO root fetch - processPackages [simplevc]: Downloading https://files.pythonhosted.org/packages/62/df/79965a8d0dec542321ee20906ad6963cc36e8aae58f3b2de5fed905f7298/simplevc-0.0.1.tar.gz
+[2024-04-30 04:40:54] INFO root fetch - processPackages [install_playwright]: Downloading https://files.pythonhosted.org/packages/f9/5b/dacf52a586e8c792cf2225774c7297d3f58e64f8b5fec85a51759fb1790d/install_playwright-0.0.1.tar.gz
+[2024-04-30 04:40:54] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/cd/ba/908c223de0234a49e7a3511a8d49b70444bc3a55168d4e88fd996111d2fe/GSG-0.5.2.tar.gz
+[2024-04-30 04:40:54] INFO root fetch - processPackages [simplevc]: Downloading https://files.pythonhosted.org/packages/84/71/cedfe2d9db01e94c67cf16e2e561b82c4a64ee5d166eb2e2121d200f2774/simplevc-0.0.2.tar.gz
+[2024-04-30 04:40:54] INFO root fetch - processPackages [install_playwright]: Downloading https://files.pythonhosted.org/packages/c3/11/4d7cb2d9404a3c17a65e550ac903c2430e4f8e1b34c3239fa4f85afd086c/install_playwright-0.1.0.tar.gz
+[2024-04-30 04:40:54] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-30 04:40:54] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.1.tar.gz tmp/GSG-0.5.2.tar.gz --markdown 20240430/G/GSG/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-30 04:40:54] INFO root fetch - processPackages [simplevc]: executing diffoscope
+[2024-04-30 04:40:54] INFO root fetch - processPackages [simplevc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplevc-0.0.1.tar.gz tmp/simplevc-0.0.2.tar.gz --markdown 20240430/s/simplevc/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 04:40:54] INFO root fetch - processPackages [install_playwright]: executing diffoscope
+[2024-04-30 04:40:54] INFO root fetch - processPackages [install_playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install_playwright-0.0.1.tar.gz tmp/install_playwright-0.1.0.tar.gz --markdown 20240430/i/install_playwright/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-30 04:40:55] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.1.tar.gz]
+[2024-04-30 04:40:55] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.2.tar.gz]
+[2024-04-30 04:40:55] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-30 04:40:55] INFO root fetch - processPackages [simplevc]: Remove: archive file [/home/abi/fetcher/tmp/simplevc-0.0.1.tar.gz]
+[2024-04-30 04:40:55] INFO root fetch - processPackages [simplevc]: Remove: archive file [/home/abi/fetcher/tmp/simplevc-0.0.2.tar.gz]
+[2024-04-30 04:40:55] INFO root fetch - main [MainThread]: End processing [simplevc]: success
+[2024-04-30 04:40:55] INFO root fetch - processPackages [install_playwright]: Remove: archive file [/home/abi/fetcher/tmp/install_playwright-0.0.1.tar.gz]
+[2024-04-30 04:40:55] INFO root fetch - processPackages [install_playwright]: Remove: archive file [/home/abi/fetcher/tmp/install_playwright-0.1.0.tar.gz]
+[2024-04-30 04:40:55] INFO root fetch - main [MainThread]: End processing [install_playwright]: success
+[2024-04-30 04:40:55] INFO root fetch - main [MainThread]: Store serial: [22994483]
