@@ -2651,3 +2651,33 @@
 [2024-04-30 02:35:16] INFO root fetch - processPackages [datacube-ows]: Remove: archive file [/home/abi/fetcher/tmp/datacube_ows-1.8.9.tar.gz]
 [2024-04-30 02:35:16] INFO root fetch - main [MainThread]: End processing [datacube-ows]: success
 [2024-04-30 02:35:16] INFO root fetch - main [MainThread]: Store serial: [22992606]
+[2024-04-30 02:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992606]
+[2024-04-30 02:37:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytubefix
+[2024-04-30 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradedangerous
+[2024-04-30 02:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-rust
+[2024-04-30 02:37:32] INFO root fetch - processPackages [tradedangerous]: New version: [11.1.3] Old Version: [11.1.2]
+[2024-04-30 02:37:32] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/e1/25/461ad5ed09bfd2134314cb6629b1b46242adb3dfdc16c8f6760eb481c35e/tradedangerous-11.1.2.tar.gz
+[2024-04-30 02:37:32] INFO root fetch - processPackages [pytubefix]: New version: [5.3rc1] Old Version: [5.2rc1]
+[2024-04-30 02:37:32] INFO root fetch - processPackages [sphinx-rust]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 02:37:33] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/a0/f9/8d53c1d4431b100b37bee42bb7579ff32a56f9b15c224bc06584f578144b/pytubefix-5.2rc1.tar.gz
+[2024-04-30 02:37:33] INFO root fetch - processPackages [sphinx-rust]: Downloading https://files.pythonhosted.org/packages/9e/f2/be10cfc6a76208a6f83909f20021ed82707b82dc36a04e398fae273ee73d/sphinx_rust-0.0.1.tar.gz
+[2024-04-30 02:37:33] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/5d/ac/72086bd2ead6c75d9cf4d28c11708e5d6ec72ac22ccf5fe302464bbe2234/tradedangerous-11.1.3.tar.gz
+[2024-04-30 02:37:33] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/9a/00/57a16f1816acbf53986f957c994685c7b8faa60f2973392a7db79f86773f/pytubefix-5.3rc1.tar.gz
+[2024-04-30 02:37:33] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-30 02:37:33] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-11.1.2.tar.gz tmp/tradedangerous-11.1.3.tar.gz --markdown 20240430/t/tradedangerous/11.1.2-11.1.3/README.md --exclude *.pyd
+[2024-04-30 02:37:33] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-30 02:37:33] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.2rc1.tar.gz tmp/pytubefix-5.3rc1.tar.gz --markdown 20240430/p/pytubefix/5.2rc1-5.3rc1/README.md --exclude *.pyd
+[2024-04-30 02:37:33] INFO root fetch - processPackages [sphinx-rust]: Downloading https://files.pythonhosted.org/packages/ed/7c/dbd31a36f138065beaefb4891cc4dc93a496bf63d5870e9b66c9fd5ab060/sphinx_rust-0.0.2-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-30 02:37:34] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.2rc1.tar.gz]
+[2024-04-30 02:37:34] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc1.tar.gz]
+[2024-04-30 02:37:34] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-30 02:37:34] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.1.2.tar.gz]
+[2024-04-30 02:37:34] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.1.3.tar.gz]
+[2024-04-30 02:37:34] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-30 02:37:36] INFO root fetch - processPackages [sphinx-rust]: executing diffoscope
+[2024-04-30 02:37:36] INFO root fetch - processPackages [sphinx-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_rust-0.0.1.tar.gz tmp/sphinx_rust-0.0.2-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240430/s/sphinx-rust/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 02:37:36] INFO root fetch - processPackages [sphinx-rust]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_rust-0.0.1.tar.gz]
+[2024-04-30 02:37:36] INFO root fetch - processPackages [sphinx-rust]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_rust-0.0.2-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-04-30 02:37:36] INFO root fetch - main [MainThread]: End processing [sphinx-rust]: success
+[2024-04-30 02:37:36] INFO root fetch - main [MainThread]: Store serial: [22992627]
