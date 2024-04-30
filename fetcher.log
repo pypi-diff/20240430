@@ -19866,3 +19866,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:32:28] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.3.0.tar.gz]
 [2024-04-30 10:32:28] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
 [2024-04-30 10:32:28] INFO root fetch - main [MainThread]: Store serial: [22998835]
+[2024-04-30 10:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998835]
+[2024-04-30 10:34:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcp-pal
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-embedded-serial-esp
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-embedded-idf
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrawlpy
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded-jtag
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-embedded-qemu
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-embedded-arduino
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-embedded-wokwi
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybangla
+[2024-04-30 10:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-sync-env
+[2024-04-30 10:34:37] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [scrawlpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-wokwi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:37] WARNING root fetch - processPackages [pybangla]: Skipping, unable to determine old version
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pybangla]: Start processing: scrawlpy
+[2024-04-30 10:34:37] INFO root fetch - main [MainThread]: End processing [pybangla] error
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/db/43/531cca096f9131fe1b6972bb0c5162c72528e0f02c10f15d801f2a556d47/gcp_pal-1.0.6.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/6d/42/c2f9a9960c3e64eb403b1528d67db3af52ba2940e2564ea0a24099d8d7e4/pytest_embedded_idf-1.9.0.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [scrawlpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-wokwi]: Downloading https://files.pythonhosted.org/packages/49/85/5e89baa3996abb9168b8a3595d8aa48c7bd330903ef559b59eeddd84c488/pytest_embedded_wokwi-1.9.0.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/6b/d6/8c1e8bf207b459f23d484a32d96d117a949bb92277dc48a35605f463df8b/pytest_embedded_jtag-1.9.0.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/7f/f3/d167f20597328f39a5807c973e82723865dcfd16bd51e54b55b09895d807/pytest_embedded_arduino-1.9.0.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/4e/58/d58be035e36e812aa2d9cbb32b3cf7be85127cf360072a8a21ccecda3e3a/pytest_embedded_qemu-1.9.0.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/84/73/e7997a7e1bcc1725df739f36c3a1c840d075d231fa704c12bb9e5083d105/pytest_embedded_serial_esp-1.9.0.tar.gz
+[2024-04-30 10:34:37] INFO root fetch - processPackages [scrawlpy]: Downloading https://files.pythonhosted.org/packages/88/b3/3aa625171effd21157316ed309935121f8e0532d0b3b69ea3ee94ff5243b/scrawlpy-0.0.2.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: Downloading https://files.pythonhosted.org/packages/f5/7e/e3aa67f7b53553fa24d708b727cb53226e71c68ae5ac7f06cd00797c34a3/scrawlpy-0.0.4.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/00/5b/6512505027a1ca25c7447971525d762e8fd4d421f63d843bcbde93670184/pytest_embedded_idf-1.9.1.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-wokwi]: Downloading https://files.pythonhosted.org/packages/12/d7/e27c5d77a6cf75975bd35ac3395186da4358ef573b2f155268131b173941/pytest_embedded_wokwi-1.9.1.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/20/01/dc3c9a85a1e06157b25bb4e8b158f0344b125282a737cb71e61f248fea29/pytest_embedded_jtag-1.9.1.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/42/9e/e71b7f35f7c32b96d8a32f591db553a5cf8ee764f8d57aeefe38040e261d/pytest_embedded_arduino-1.9.1.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/76/04/6cabed5cb619fc343d90420bd847455923ab71079a6fedad0f422492af5e/gcp_pal-1.0.7.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_idf-1.9.0.tar.gz tmp/pytest_embedded_idf-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-idf/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/4f/7e/4a8577e7a5e52c80e46caf4e3e41c94c671e3bdd3903f2b1fcf4e1dd9f0f/pytest_embedded_serial_esp-1.9.1.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/f0/b1/5bdedfc1c9bc4ae8fb14f926ead70ad699ab27c9976940cf18787d53a56b/pytest_embedded_qemu-1.9.1.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: Downloading https://files.pythonhosted.org/packages/ab/60/95464e171549a33f862b97a77195bc55e2cacb2bf2e7f521e2d2ff1a3ae2/scrawlpy-0.0.3.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_arduino-1.9.0.tar.gz tmp/pytest_embedded_arduino-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-arduino/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-wokwi]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-wokwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_wokwi-1.9.0.tar.gz tmp/pytest_embedded_wokwi-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-wokwi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: Downloading https://files.pythonhosted.org/packages/b5/9e/036e67a13924e1fae916edb31d0fd048ed95912abcf119eeb732b8c29d69/scrawlpy-0.0.5.tar.gz
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_jtag-1.9.0.tar.gz tmp/pytest_embedded_jtag-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-jtag/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial_esp-1.9.0.tar.gz tmp/pytest_embedded_serial_esp-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-serial-esp/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240430/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.6.tar.gz tmp/gcp_pal-1.0.7.tar.gz --markdown 20240430/g/gcp-pal/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrawlpy-0.0.2.tar.gz tmp/scrawlpy-0.0.3.tar.gz --markdown 20240430/s/scrawlpy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [scrawlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrawlpy-0.0.4.tar.gz tmp/scrawlpy-0.0.5.tar.gz --markdown 20240430/s/scrawlpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2024-04-30 10:34:38] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_qemu-1.9.0.tar.gz tmp/pytest_embedded_qemu-1.9.1.tar.gz --markdown 20240430/p/pytest-embedded-qemu/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-wokwi]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_wokwi-1.9.0.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-wokwi]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_wokwi-1.9.1.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.9.0.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.9.1.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-wokwi]: Start processing: promptulate
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [pytest-embedded-wokwi]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-idf]: Start processing: owimetadatabase-preprocessor
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.9.0.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.9.1.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.9.0.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.9.1.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [promptulate]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [owimetadatabase-preprocessor]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [scrawlpy]: Remove: archive file [/home/abi/fetcher/tmp/scrawlpy-0.0.4.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [scrawlpy]: Remove: archive file [/home/abi/fetcher/tmp/scrawlpy-0.0.5.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [scrawlpy]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [scrawlpy]: Remove: archive file [/home/abi/fetcher/tmp/scrawlpy-0.0.2.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [scrawlpy]: Remove: archive file [/home/abi/fetcher/tmp/scrawlpy-0.0.3.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [scrawlpy]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.6.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.7.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.9.0.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.9.1.tar.gz]
+[2024-04-30 10:34:39] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2024-04-30 10:34:39] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/79/c8/f923c24d433b393cefb02de1adab5e235b34375a5246ccfea81321c71342/promptulate-1.9.0.tar.gz
+[2024-04-30 10:34:40] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.9.0.tar.gz]
+[2024-04-30 10:34:40] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.9.1.tar.gz]
+[2024-04-30 10:34:40] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2024-04-30 10:34:40] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-30 10:34:40] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-30 10:34:40] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-30 10:34:40] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Downloading https://files.pythonhosted.org/packages/9e/81/6db75ea2d7e16c8dfe6dbe330448ee0cb9c0c113a5814760a5f187c916b2/owimetadatabase_preprocessor-0.8.0.tar.gz
+[2024-04-30 10:34:40] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Downloading https://files.pythonhosted.org/packages/f5/f1/7be677659913aa1bfcb5d3459e20b5e5a9f58c80131c334ca974c01ba8f9/owimetadatabase_preprocessor-0.8.1.tar.gz
+[2024-04-30 10:34:40] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/42/5e/24a2ff6654285a7e63449f1c4c60597a1c617a0bb121d4f95cde1b406f59/promptulate-1.9.1.tar.gz
+[2024-04-30 10:34:40] INFO root fetch - processPackages [promptulate]: executing diffoscope
+[2024-04-30 10:34:40] INFO root fetch - processPackages [promptulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptulate-1.9.0.tar.gz tmp/promptulate-1.9.1.tar.gz --markdown 20240430/p/promptulate/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 10:34:40] INFO root fetch - processPackages [owimetadatabase-preprocessor]: executing diffoscope
+[2024-04-30 10:34:40] INFO root fetch - processPackages [owimetadatabase-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owimetadatabase_preprocessor-0.8.0.tar.gz tmp/owimetadatabase_preprocessor-0.8.1.tar.gz --markdown 20240430/o/owimetadatabase-preprocessor/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-30 10:34:41] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Remove: archive file [/home/abi/fetcher/tmp/owimetadatabase_preprocessor-0.8.0.tar.gz]
+[2024-04-30 10:34:41] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Remove: archive file [/home/abi/fetcher/tmp/owimetadatabase_preprocessor-0.8.1.tar.gz]
+[2024-04-30 10:34:41] INFO root fetch - main [MainThread]: End processing [owimetadatabase-preprocessor]: success
+[2024-04-30 10:34:41] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.9.0.tar.gz]
+[2024-04-30 10:34:41] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.9.1.tar.gz]
+[2024-04-30 10:34:41] INFO root fetch - main [MainThread]: End processing [promptulate]: success
+[2024-04-30 10:34:41] INFO root fetch - main [MainThread]: Store serial: [22998875]
