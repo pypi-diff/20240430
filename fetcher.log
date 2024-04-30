@@ -9180,3 +9180,29 @@
 [2024-04-30 05:44:06] INFO root fetch - processPackages [electricalsim]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim-0.0.8.2.tar.gz]
 [2024-04-30 05:44:06] INFO root fetch - main [MainThread]: End processing [electricalsim]: success
 [2024-04-30 05:44:06] INFO root fetch - main [MainThread]: Store serial: [22995014]
+[2024-04-30 05:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995014]
+[2024-04-30 05:46:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 05:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardpydentity
+[2024-04-30 05:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mani-skill
+[2024-04-30 05:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dashscope
+[2024-04-30 05:46:15] INFO root fetch - processPackages [cardpydentity]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-30 05:46:15] INFO root fetch - processPackages [mani-skill]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2024-04-30 05:46:15] INFO root fetch - processPackages [dashscope]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 05:46:16] INFO root fetch - processPackages [mani-skill]: Downloading https://files.pythonhosted.org/packages/5a/cb/5545bb8fed2bdf9d2c545d09b0ea08c06b6dafdf021fa0370a35836728a4/mani_skill-3.0.0.dev8.tar.gz
+[2024-04-30 05:46:16] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/df/bf/2fefadaa9f3629197c4d63a4814a28a316fa7789ce1e5e576b1bf5c07794/dashscope-1.9.0-py3-none-any.whl
+[2024-04-30 05:46:16] INFO root fetch - processPackages [cardpydentity]: Downloading https://files.pythonhosted.org/packages/02/05/1902745659212a7d40a2e71d47eac05750012d9915663c06c6faf4410f70/cardpydentity-0.1.0.tar.gz
+[2024-04-30 05:46:16] INFO root fetch - processPackages [cardpydentity]: Downloading https://files.pythonhosted.org/packages/b1/3b/b0ae67c7730e172eddf21e6447b41ada1b80579f5257fa8ff2a04756899b/cardpydentity-0.2.0.tar.gz
+[2024-04-30 05:46:16] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/5b/f6/9ba6c964f2ce73e6de9988848b2dcde7c1b66b9badb52886f66728c9c3f1/dashscope-1.9.1-py3-none-any.whl
+[2024-04-30 05:46:16] INFO root fetch - processPackages [cardpydentity]: executing diffoscope
+[2024-04-30 05:46:16] INFO root fetch - processPackages [cardpydentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardpydentity-0.1.0.tar.gz tmp/cardpydentity-0.2.0.tar.gz --markdown 20240430/c/cardpydentity/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-30 05:46:16] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2024-04-30 05:46:16] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.9.0-py3-none-any.whl.zip tmp/dashscope-1.9.1-py3-none-any.whl.zip --markdown 20240430/d/dashscope/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 05:46:17] INFO root fetch - processPackages [cardpydentity]: Remove: archive file [/home/abi/fetcher/tmp/cardpydentity-0.1.0.tar.gz]
+[2024-04-30 05:46:17] INFO root fetch - processPackages [cardpydentity]: Remove: archive file [/home/abi/fetcher/tmp/cardpydentity-0.2.0.tar.gz]
+[2024-04-30 05:46:17] INFO root fetch - main [MainThread]: End processing [cardpydentity]: success
+[2024-04-30 05:46:17] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.0-py3-none-any.whl.zip]
+[2024-04-30 05:46:17] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.1-py3-none-any.whl.zip]
+[2024-04-30 05:46:17] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2024-04-30 05:46:17] WARNING root fetch - processPackages [mani-skill]: Skipping package: exceeds size limit 71826089>=10485760
+[2024-04-30 05:46:17] INFO root fetch - main [MainThread]: End processing [mani-skill] error
+[2024-04-30 05:46:17] INFO root fetch - main [MainThread]: Store serial: [22995022]
