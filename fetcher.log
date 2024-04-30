@@ -14941,3 +14941,32 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:15:00] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-3.0.9.tar.gz]
 [2024-04-30 08:15:00] INFO root fetch - main [MainThread]: End processing [nomic]: success
 [2024-04-30 08:15:00] INFO root fetch - main [MainThread]: Store serial: [22996993]
+[2024-04-30 08:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996993]
+[2024-04-30 08:17:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2024-04-30 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module
+[2024-04-30 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstms-testmail
+[2024-04-30 08:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qleegss
+[2024-04-30 08:17:09] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 08:17:09] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240429] Old Version: [20240428]
+[2024-04-30 08:17:09] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240429] Old Version: [20240428]
+[2024-04-30 08:17:09] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-30 08:17:09] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/84/03/8aeef49b42792f7dfc4397e32cff53a8c44e4fc865cf311e0ce95b513d94/fake_bpy_module-20240428.tar.gz
+[2024-04-30 08:17:09] WARNING root fetch - processPackages [rstms-testmail]: Skipping, unable to determine old version
+[2024-04-30 08:17:09] INFO root fetch - main [MainThread]: End processing [rstms-testmail] error
+[2024-04-30 08:17:09] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/2e/15/5708c61524ecaedd99e5c8c5390ef44802d9ac08a0d5ccff04ad4cff6e24/fake_bpy_module_latest-20240428.tar.gz
+[2024-04-30 08:17:09] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-30 08:17:09] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-30 08:17:09] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/f7/3f/fb1d7912fc9c9308963a91c6157916e40e4ec03c40a6a18a54786a9d9e51/fake_bpy_module-20240429.tar.gz
+[2024-04-30 08:17:09] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/7b/f2/7cb0421a6b2aa81d044d9eba1cd6a615152edc97996d57f56da4a1a7cdbe/fake_bpy_module_latest-20240429.tar.gz
+[2024-04-30 08:17:10] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-30 08:17:10] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240428.tar.gz tmp/fake_bpy_module-20240429.tar.gz --markdown 20240430/f/fake-bpy-module/20240428-20240429/README.md --exclude *.pyd
+[2024-04-30 08:17:10] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-30 08:17:10] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240428.tar.gz tmp/fake_bpy_module_latest-20240429.tar.gz --markdown 20240430/f/fake-bpy-module-latest/20240428-20240429/README.md --exclude *.pyd
+[2024-04-30 08:17:17] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240428.tar.gz]
+[2024-04-30 08:17:17] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240429.tar.gz]
+[2024-04-30 08:17:17] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-30 08:17:17] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240428.tar.gz]
+[2024-04-30 08:17:17] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240429.tar.gz]
+[2024-04-30 08:17:17] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-30 08:17:17] INFO root fetch - main [MainThread]: Store serial: [22997011]
