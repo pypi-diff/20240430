@@ -21644,3 +21644,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:24:05] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post2.tar.gz]
 [2024-04-30 11:24:05] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
 [2024-04-30 11:24:05] INFO root fetch - main [MainThread]: Store serial: [22999558]
+[2024-04-30 11:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999558]
+[2024-04-30 11:26:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-jsc-custom
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imgw-pib
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: r3xa
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wedeliver-core-plus
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jetline
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-toprepo
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cltrier_nlp
+[2024-04-30 11:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specklia
+[2024-04-30 11:26:14] WARNING root fetch - processPackages [cltrier_nlp]: Skipping, unable to determine old version
+[2024-04-30 11:26:14] INFO root fetch - main [MainThread]: End processing [cltrier_nlp] error
+[2024-04-30 11:26:14] INFO root fetch - processPackages [git-toprepo]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [r3xa]: New version: [2024.4.dev2] Old Version: [2024.4.dev1]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [imgw-pib]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-04-30 11:26:14] INFO root fetch - processPackages [git-toprepo]: Downloading https://files.pythonhosted.org/packages/c4/ca/e7ae79f0b562698811cc2fc5f6410feae2649266e88e2822284bab802132/git_toprepo-0.1.0rc3.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [r3xa]: Downloading https://files.pythonhosted.org/packages/93/52/329a02cfdb39264bdfa945b17f39fa9f6be731c6efd6b16b63f21b702281/r3xa-2024.4.dev1.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [imgw-pib]: Downloading https://files.pythonhosted.org/packages/a1/ed/a3fc1ccc3ed3194f70fb46185130d65b44ed58f27a351cfe55068c6b8bb9/imgw_pib-0.0.5.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/36/8f/054322b51db116772cb571db3b846f227d698b48f02b75d9e06893ff5ef8/wedeliver_core_plus-0.1.7.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [git-toprepo]: Downloading https://files.pythonhosted.org/packages/a5/7f/76e266ee0eeba4f6209af2f72456dc4939336563eefc152e7b7db20a6ef3/git_toprepo-0.1.0rc4.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240430/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 11:26:15] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240430/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-30 11:26:15] INFO root fetch - processPackages [git-toprepo]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [git-toprepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_toprepo-0.1.0rc3.tar.gz tmp/git_toprepo-0.1.0rc4.tar.gz --markdown 20240430/g/git-toprepo/0.1.0rc3-0.1.0rc4/README.md --exclude *.pyd
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240430/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 11:26:15] INFO root fetch - processPackages [r3xa]: Downloading https://files.pythonhosted.org/packages/58/6b/3002f30715a2e271d232415407cd9b2e30c05664d9a0350287c0204c5af7/r3xa-2024.4.dev2.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [imgw-pib]: Downloading https://files.pythonhosted.org/packages/ee/a2/74a81afd75cdf1ba9e4c07a1038898cc6140e9099ca0a7727c209809e5b7/imgw_pib-1.0.0.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/0a/ba/4882245612cfe682dc6822cb19e03c51e1a9033e752dc11eefac80d88b8f/wedeliver_core_plus-0.1.8.tar.gz
+[2024-04-30 11:26:15] INFO root fetch - processPackages [r3xa]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [r3xa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r3xa-2024.4.dev1.tar.gz tmp/r3xa-2024.4.dev2.tar.gz --markdown 20240430/r/r3xa/2024.4.dev1-2024.4.dev2/README.md --exclude *.pyd
+[2024-04-30 11:26:15] INFO root fetch - processPackages [imgw-pib]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [imgw-pib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgw_pib-0.0.5.tar.gz tmp/imgw_pib-1.0.0.tar.gz --markdown 20240430/i/imgw-pib/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-04-30 11:26:15] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2024-04-30 11:26:15] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.1.7.tar.gz tmp/wedeliver_core_plus-0.1.8.tar.gz --markdown 20240430/w/wedeliver-core-plus/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 11:26:16] INFO root fetch - processPackages [git-toprepo]: Remove: archive file [/home/abi/fetcher/tmp/git_toprepo-0.1.0rc3.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [git-toprepo]: Remove: archive file [/home/abi/fetcher/tmp/git_toprepo-0.1.0rc4.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [git-toprepo]: success
+[2024-04-30 11:26:16] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-30 11:26:16] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-04-30 11:26:16] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-30 11:26:16] INFO root fetch - processPackages [r3xa]: Remove: archive file [/home/abi/fetcher/tmp/r3xa-2024.4.dev1.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [r3xa]: Remove: archive file [/home/abi/fetcher/tmp/r3xa-2024.4.dev2.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [r3xa]: success
+[2024-04-30 11:26:16] INFO root fetch - processPackages [imgw-pib]: Remove: archive file [/home/abi/fetcher/tmp/imgw_pib-0.0.5.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [imgw-pib]: Remove: archive file [/home/abi/fetcher/tmp/imgw_pib-1.0.0.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [imgw-pib]: success
+[2024-04-30 11:26:16] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.1.7.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.1.8.tar.gz]
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2024-04-30 11:26:16] INFO root fetch - main [MainThread]: Store serial: [22999582]
