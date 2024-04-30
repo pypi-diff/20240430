@@ -15918,3 +15918,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:44:01] INFO root fetch - processPackages [yafowil.bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/yafowil.bootstrap-2.0.0a2.tar.gz]
 [2024-04-30 08:44:01] INFO root fetch - main [MainThread]: End processing [yafowil.bootstrap]: success
 [2024-04-30 08:44:01] INFO root fetch - main [MainThread]: Store serial: [22997416]
+[2024-04-30 08:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997416]
+[2024-04-30 08:46:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-workflow-sdk-preview
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uaiDiffusers
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-workflow-sdk
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blendr-cli
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mwxlib
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rancher2
+[2024-04-30 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-hr-timesheet-sheet
+[2024-04-30 08:46:12] INFO root fetch - processPackages [mwxlib]: New version: [0.94.4] Old Version: [0.94.2]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [uaiDiffusers]: New version: [1.1.5.5] Old Version: [1.1.5.4]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.954] Old Version: [0.1.893]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [blendr-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: New version: [14.0.1.4.4.dev1] Old Version: [14.0.1.4.3]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/26/de/e7894d1dfe0b62806b5b1158440130432815dfc8b89915561ab940510acc/mwxlib-0.94.2-py3-none-any.whl
+[2024-04-30 08:46:12] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1714457563] Old Version: [6.2.0a1714112296]
+[2024-04-30 08:46:12] INFO root fetch - processPackages [uaiDiffusers]: Downloading https://files.pythonhosted.org/packages/15/21/507cfeef59d80919a537c2fa8c1d128e3a2ea8264211383cf6b9816ec55b/uaiDiffusers-1.1.5.4-py2.py3-none-any.whl
+[2024-04-30 08:46:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/2d/77/3378da956059e5318afba56fac6a92eae5db9b1c24c78867e0176f614e63/lusid-workflow-sdk-preview-0.1.893.tar.gz
+[2024-04-30 08:46:12] INFO root fetch - processPackages [blendr-cli]: Downloading https://files.pythonhosted.org/packages/2c/26/a418cb4eea95026ac387ecc776d13a408396d6e6c52498966ed5c93cf3cb/blendr_cli-0.1.1.tar.gz
+[2024-04-30 08:46:12] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/a3/ca/a5abfd6a19aaf3c5a9d0630ffd4a0a930c51c71397bb92b7f4b9b8051c93/lusid_workflow_sdk-2.1.5.tar.gz
+[2024-04-30 08:46:12] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/ba/be/80264fcfdacb0f86ce57e9db958c93e3a4cdbe7ee01d830ecbb6aacf5bf1/odoo14_addon_hr_timesheet_sheet-14.0.1.4.3-py3-none-any.whl
+[2024-04-30 08:46:12] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/cf/43/6b2176ac6aad2e39c4d915adc48054203e2085a8bd7dc7be10d64733060e/pulumi_rancher2-6.2.0a1714112296.tar.gz
+[2024-04-30 08:46:13] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/d4/1d/6ef9a784c31ee67d73af6f58e189ce4d2854a72e30bcfc01a21cfafa4ad8/mwxlib-0.94.4-py3-none-any.whl
+[2024-04-30 08:46:13] INFO root fetch - processPackages [blendr-cli]: Downloading https://files.pythonhosted.org/packages/c4/2d/b39448bdc0cb1043672a989b7bdb3877dc6be4550dfb40d6234c2b0b99b2/blendr_cli-0.1.2.tar.gz
+[2024-04-30 08:46:13] INFO root fetch - processPackages [uaiDiffusers]: Downloading https://files.pythonhosted.org/packages/e6/e2/95a72cb2f952dfacc9c710c9fd3c62decb8abb5ce27ff6d35535894288de/uaiDiffusers-1.1.5.5-py2.py3-none-any.whl
+[2024-04-30 08:46:13] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/42/5e/c813eab6632f57c80903f11f9614563b6914f62e502ff59f5ade0b4df236/lusid_workflow_sdk-2.1.6.tar.gz
+[2024-04-30 08:46:13] INFO root fetch - processPackages [blendr-cli]: executing diffoscope
+[2024-04-30 08:46:13] INFO root fetch - processPackages [blendr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendr_cli-0.1.1.tar.gz tmp/blendr_cli-0.1.2.tar.gz --markdown 20240430/b/blendr-cli/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 08:46:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8e/bb/4d431fb9ee43df87c48e1cc879cbe9a169f972d0abe09f76d4940e311133/lusid-workflow-sdk-preview-0.1.954.tar.gz
+[2024-04-30 08:46:13] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2024-04-30 08:46:13] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.94.2-py3-none-any.whl.zip tmp/mwxlib-0.94.4-py3-none-any.whl.zip --markdown 20240430/m/mwxlib/0.94.2-0.94.4/README.md --exclude *.pyd
+[2024-04-30 08:46:13] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/ca/d0/94f927b9a7c6d2f2b305aba7187f0e419d7bf3b4f5111c65daba3a8ef4ee/odoo14_addon_hr_timesheet_sheet-14.0.1.4.4.dev1-py3-none-any.whl
+[2024-04-30 08:46:13] INFO root fetch - processPackages [uaiDiffusers]: executing diffoscope
+[2024-04-30 08:46:13] INFO root fetch - processPackages [uaiDiffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uaiDiffusers-1.1.5.4-py2.py3-none-any.whl.zip tmp/uaiDiffusers-1.1.5.5-py2.py3-none-any.whl.zip --markdown 20240430/u/uaiDiffusers/1.1.5.4-1.1.5.5/README.md --exclude *.pyd
+[2024-04-30 08:46:13] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/32/ad/3fcc6146486ad6b38a4da94397257441c0b398e5cdd5ad3ebd95e7e13d5e/pulumi_rancher2-6.2.0a1714457563.tar.gz
+[2024-04-30 08:46:13] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-04-30 08:46:13] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.5.tar.gz tmp/lusid_workflow_sdk-2.1.6.tar.gz --markdown 20240430/l/lusid-workflow-sdk/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-30 08:46:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-04-30 08:46:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.893.tar.gz tmp/lusid-workflow-sdk-preview-0.1.954.tar.gz --markdown 20240430/l/lusid-workflow-sdk-preview/0.1.893-0.1.954/README.md --exclude *.pyd
+[2024-04-30 08:46:13] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: executing diffoscope
+[2024-04-30 08:46:13] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.4.3-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.4.4.dev1-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-hr-timesheet-sheet/14.0.1.4.3-14.0.1.4.4.dev1/README.md --exclude *.pyd
+[2024-04-30 08:46:13] INFO root fetch - processPackages [blendr-cli]: Remove: archive file [/home/abi/fetcher/tmp/blendr_cli-0.1.1.tar.gz]
+[2024-04-30 08:46:13] INFO root fetch - processPackages [blendr-cli]: Remove: archive file [/home/abi/fetcher/tmp/blendr_cli-0.1.2.tar.gz]
+[2024-04-30 08:46:13] INFO root fetch - main [MainThread]: End processing [blendr-cli]: success
+[2024-04-30 08:46:13] INFO root fetch - processPackages [uaiDiffusers]: Remove: archive file [/home/abi/fetcher/tmp/uaiDiffusers-1.1.5.4-py2.py3-none-any.whl.zip]
+[2024-04-30 08:46:13] INFO root fetch - processPackages [uaiDiffusers]: Remove: archive file [/home/abi/fetcher/tmp/uaiDiffusers-1.1.5.5-py2.py3-none-any.whl.zip]
+[2024-04-30 08:46:13] INFO root fetch - main [MainThread]: End processing [uaiDiffusers]: success
+[2024-04-30 08:46:14] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.94.2-py3-none-any.whl.zip]
+[2024-04-30 08:46:14] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.94.4-py3-none-any.whl.zip]
+[2024-04-30 08:46:14] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2024-04-30 08:46:14] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-04-30 08:46:14] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1714112296.tar.gz tmp/pulumi_rancher2-6.2.0a1714457563.tar.gz --markdown 20240430/p/pulumi-rancher2/6.2.0a1714112296-6.2.0a1714457563/README.md --exclude *.pyd
+[2024-04-30 08:46:14] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.5.tar.gz]
+[2024-04-30 08:46:14] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.6.tar.gz]
+[2024-04-30 08:46:14] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-04-30 08:46:14] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.4.3-py3-none-any.whl.zip]
+[2024-04-30 08:46:14] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.4.4.dev1-py3-none-any.whl.zip]
+[2024-04-30 08:46:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet]: success
+[2024-04-30 08:46:14] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.893.tar.gz]
+[2024-04-30 08:46:14] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.954.tar.gz]
+[2024-04-30 08:46:14] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-04-30 08:46:15] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1714112296.tar.gz]
+[2024-04-30 08:46:15] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1714457563.tar.gz]
+[2024-04-30 08:46:15] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-04-30 08:46:15] INFO root fetch - main [MainThread]: Store serial: [22997432]
