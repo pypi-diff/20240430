@@ -20513,3 +20513,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:54:51] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-30 10:54:51] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-30 10:54:51] INFO root fetch - main [MainThread]: Store serial: [22999138]
+[2024-04-30 10:56:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999138]
+[2024-04-30 10:57:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 10:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: survival-data-handler
+[2024-04-30 10:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: averbis-python-api
+[2024-04-30 10:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystarburst
+[2024-04-30 10:57:01] INFO root fetch - processPackages [pystarburst]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-30 10:57:01] INFO root fetch - processPackages [averbis-python-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 10:57:01] INFO root fetch - processPackages [survival-data-handler]: New version: [2024.4.9] Old Version: [2024.4.7]
+[2024-04-30 10:57:01] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/25/b4/3b7f0ab2615a7298fb2d96ce8132392d2951e424fc518932f61945dd428f/survival_data_handler-2024.4.7.tar.gz
+[2024-04-30 10:57:01] INFO root fetch - processPackages [pystarburst]: Downloading https://files.pythonhosted.org/packages/e5/f9/9c36564fdeb3b198a57d51c214809ee8b9a97a0b03901bffc982b02a2a79/pystarburst-0.7.0-py3-none-any.whl
+[2024-04-30 10:57:01] INFO root fetch - processPackages [averbis-python-api]: Downloading https://files.pythonhosted.org/packages/20/8c/cc22296d3e8d8471e22cc7bedb3b2e11d162ec41347d5048b6920322b2fb/averbis-python-api-0.8.0.tar.gz
+[2024-04-30 10:57:02] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/85/a4/efc367e17ccb8ec6445ffbc8032ef1550669f41d543b02917ddb3ead9b07/survival_data_handler-2024.4.9.tar.gz
+[2024-04-30 10:57:02] INFO root fetch - processPackages [survival-data-handler]: executing diffoscope
+[2024-04-30 10:57:02] INFO root fetch - processPackages [survival-data-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_data_handler-2024.4.7.tar.gz tmp/survival_data_handler-2024.4.9.tar.gz --markdown 20240430/s/survival-data-handler/2024.4.7-2024.4.9/README.md --exclude *.pyd
+[2024-04-30 10:57:02] INFO root fetch - processPackages [pystarburst]: Downloading https://files.pythonhosted.org/packages/cd/70/b5ed4cce2d9349050703966add407240ecaa01d64f21ca81a69979719f31/pystarburst-0.8.0-py3-none-any.whl
+[2024-04-30 10:57:02] INFO root fetch - processPackages [averbis-python-api]: Downloading https://files.pythonhosted.org/packages/da/e3/22fd4bbec8cc1a8a29a6702dda99e80b91aba20c88f2ad61648ad4fcf342/averbis-python-api-0.9.0.tar.gz
+[2024-04-30 10:57:02] INFO root fetch - processPackages [pystarburst]: executing diffoscope
+[2024-04-30 10:57:02] INFO root fetch - processPackages [pystarburst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystarburst-0.7.0-py3-none-any.whl.zip tmp/pystarburst-0.8.0-py3-none-any.whl.zip --markdown 20240430/p/pystarburst/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-30 10:57:02] INFO root fetch - processPackages [averbis-python-api]: executing diffoscope
+[2024-04-30 10:57:02] INFO root fetch - processPackages [averbis-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/averbis-python-api-0.8.0.tar.gz tmp/averbis-python-api-0.9.0.tar.gz --markdown 20240430/a/averbis-python-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 10:57:02] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.4.7.tar.gz]
+[2024-04-30 10:57:02] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.4.9.tar.gz]
+[2024-04-30 10:57:02] INFO root fetch - main [MainThread]: End processing [survival-data-handler]: success
+[2024-04-30 10:57:03] INFO root fetch - processPackages [averbis-python-api]: Remove: archive file [/home/abi/fetcher/tmp/averbis-python-api-0.8.0.tar.gz]
+[2024-04-30 10:57:03] INFO root fetch - processPackages [averbis-python-api]: Remove: archive file [/home/abi/fetcher/tmp/averbis-python-api-0.9.0.tar.gz]
+[2024-04-30 10:57:03] INFO root fetch - main [MainThread]: End processing [averbis-python-api]: success
+[2024-04-30 10:57:03] INFO root fetch - processPackages [pystarburst]: Remove: archive file [/home/abi/fetcher/tmp/pystarburst-0.7.0-py3-none-any.whl.zip]
+[2024-04-30 10:57:03] INFO root fetch - processPackages [pystarburst]: Remove: archive file [/home/abi/fetcher/tmp/pystarburst-0.8.0-py3-none-any.whl.zip]
+[2024-04-30 10:57:03] INFO root fetch - main [MainThread]: End processing [pystarburst]: success
+[2024-04-30 10:57:03] INFO root fetch - main [MainThread]: Store serial: [22999145]
