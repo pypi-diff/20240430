@@ -16044,3 +16044,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:50:37] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.2.0.tar.gz]
 [2024-04-30 08:50:37] INFO root fetch - main [MainThread]: End processing [deadpad]: success
 [2024-04-30 08:50:37] INFO root fetch - main [MainThread]: Store serial: [22997464]
+[2024-04-30 08:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997464]
+[2024-04-30 08:52:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jord
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gt-examcard-parser
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commitizen
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-earth-aggregation
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-splunk
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-slack
+[2024-04-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symetrics
+[2024-04-30 08:52:46] INFO root fetch - processPackages [Jord]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [commitizen]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [symetrics]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [gt-examcard-parser]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/f1/7b/658f70db83dcae7107b7325ad273e9b199c9f84e2f8a2b8fd015702da1cc/jord-0.5.6.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [hestia-earth-aggregation]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1714457590] Old Version: [0.4.5a1714112741]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1714457890] Old Version: [1.3.0a1714113247]
+[2024-04-30 08:52:46] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/44/a7/117033ebdea50528ddcf8657f5e166b266c2509b4db9629819aa259707ef/commitizen-3.9.0.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [symetrics]: Downloading https://files.pythonhosted.org/packages/98/ac/bbb4d422ac6e45d7324e16de4be85360f35dc28924e2858758cf5c5137a5/symetrics-8.0.0.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/5e/f8/c3f0d3c77a022f0e348386703237222ce289387213d21d03f63c34dfb2e3/hestia-earth-aggregation-0.9.2.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/05/86/cabbd04d8baa1ac6a97bcf1ad1f77bd6cf36c24f3ba940f0520dbf7717c4/pulumi_slack-0.4.5a1714112741.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/84/55/93d05865dee1c0c40dfa18c7809f4b73d97b4b9fdf67d2dc0a3d522ccd7d/pulumi_splunk-1.3.0a1714113247.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [gt-examcard-parser]: Downloading https://files.pythonhosted.org/packages/3d/da/88fa53055d38326b6702b246c9daa7a187e8b1046984886923f44e204afa/gt-examcard-parser-0.0.2.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/88/32/c14ec8fceda34878a1dd55734055ac5eb8996e89624c8f1721b3a09e50c8/jord-0.5.7.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/1e/db/0711734fc2cd7bb61b915fe0e6734a910f900fa860dc99d4509ee5bbf292/commitizen-3.9.1.tar.gz
+[2024-04-30 08:52:46] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2024-04-30 08:52:46] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jord-0.5.6.tar.gz tmp/jord-0.5.7.tar.gz --markdown 20240430/J/Jord/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-30 08:52:46] INFO root fetch - processPackages [symetrics]: Downloading https://files.pythonhosted.org/packages/5f/97/0d0de56df529478afbeb5c857d6bd592ea4a9cba4e2dbbdc3039c2b841e9/symetrics-9.0.0.tar.gz
+[2024-04-30 08:52:47] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/28/5f/88a34ca8b2b9ba452f12fb2091b54d7c756b4f7d60c7885097fa9348217b/pulumi_slack-0.5.0a1714457590.tar.gz
+[2024-04-30 08:52:47] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2024-04-30 08:52:47] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.9.0.tar.gz tmp/commitizen-3.9.1.tar.gz --markdown 20240430/c/commitizen/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-30 08:52:47] INFO root fetch - processPackages [gt-examcard-parser]: Downloading https://files.pythonhosted.org/packages/cf/c3/e70664e34f7c103f47c22466195f702700d52e138c165bea0d1766bbdba6/gt_examcard_parser-0.1.0.tar.gz
+[2024-04-30 08:52:47] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/17/5a/97395d94baf909a8734ee16daaf4b34af4426638887588dace25b125ecd9/pulumi_splunk-1.3.0a1714457890.tar.gz
+[2024-04-30 08:52:47] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-04-30 08:52:47] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/65/c9/38d65314c17e531d4bf2af618fccff360f8867a19ac63232d815ca4b6187/hestia-earth-aggregation-0.9.3.tar.gz
+[2024-04-30 08:52:47] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.5a1714112741.tar.gz tmp/pulumi_slack-0.5.0a1714457590.tar.gz --markdown 20240430/p/pulumi-slack/0.4.5a1714112741-0.5.0a1714457590/README.md --exclude *.pyd
+[2024-04-30 08:52:47] INFO root fetch - processPackages [symetrics]: executing diffoscope
+[2024-04-30 08:52:47] INFO root fetch - processPackages [symetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symetrics-8.0.0.tar.gz tmp/symetrics-9.0.0.tar.gz --markdown 20240430/s/symetrics/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-30 08:52:47] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-04-30 08:52:47] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1714113247.tar.gz tmp/pulumi_splunk-1.3.0a1714457890.tar.gz --markdown 20240430/p/pulumi-splunk/1.3.0a1714113247-1.3.0a1714457890/README.md --exclude *.pyd
+[2024-04-30 08:52:47] INFO root fetch - processPackages [gt-examcard-parser]: executing diffoscope
+[2024-04-30 08:52:47] INFO root fetch - processPackages [gt-examcard-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt-examcard-parser-0.0.2.tar.gz tmp/gt_examcard_parser-0.1.0.tar.gz --markdown 20240430/g/gt-examcard-parser/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-04-30 08:52:47] INFO root fetch - processPackages [hestia-earth-aggregation]: executing diffoscope
+[2024-04-30 08:52:47] INFO root fetch - processPackages [hestia-earth-aggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-aggregation-0.9.2.tar.gz tmp/hestia-earth-aggregation-0.9.3.tar.gz --markdown 20240430/h/hestia-earth-aggregation/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-30 08:52:47] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.6.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.7.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2024-04-30 08:52:47] INFO root fetch - processPackages [symetrics]: Remove: archive file [/home/abi/fetcher/tmp/symetrics-8.0.0.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - processPackages [symetrics]: Remove: archive file [/home/abi/fetcher/tmp/symetrics-9.0.0.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - main [MainThread]: End processing [symetrics]: success
+[2024-04-30 08:52:47] INFO root fetch - processPackages [gt-examcard-parser]: Remove: archive file [/home/abi/fetcher/tmp/gt-examcard-parser-0.0.2.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - processPackages [gt-examcard-parser]: Remove: archive file [/home/abi/fetcher/tmp/gt_examcard_parser-0.1.0.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - main [MainThread]: End processing [gt-examcard-parser]: success
+[2024-04-30 08:52:47] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.0.tar.gz]
+[2024-04-30 08:52:47] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.1.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2024-04-30 08:52:48] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1714113247.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1714457890.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-04-30 08:52:48] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1714112741.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1714457590.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-04-30 08:52:48] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.2.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.3.tar.gz]
+[2024-04-30 08:52:48] INFO root fetch - main [MainThread]: End processing [hestia-earth-aggregation]: success
+[2024-04-30 08:52:48] INFO root fetch - main [MainThread]: Store serial: [22997493]
