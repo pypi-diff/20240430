@@ -15704,3 +15704,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:37:14] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-04-30 08:37:14] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-04-30 08:37:14] INFO root fetch - main [MainThread]: Store serial: [22997348]
+[2024-04-30 08:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997348]
+[2024-04-30 08:39:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-move-packaging-qty
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-postgresql
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: advanced-input
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ynab-transaction-adjuster
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-random
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fun-things
+[2024-04-30 08:39:23] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ynab-transaction-adjuster]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [advanced-input]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [zfx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: New version: [16.0.1.4.0.2] Old Version: [16.0.1.4.0.1]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ynab-transaction-adjuster]: Downloading https://files.pythonhosted.org/packages/4b/aa/3581d81ca2c88f5249bf9a75cd7c5a5419e209160a03ccec34b8faa5b53d/ynab_transaction_adjuster-1.2.0.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [fun-things]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-30 08:39:23] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/04/f0/79bc215e9cb0f33a9c4c36df4d230c424e1e293c7efcb58376a44bba5002/advanced_input-0.1.1.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/dd/8a/fe3c12510223e6be04aae632e37ee50261c2ade478857db2a9bec15e549a/zfx-1.0.4.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/7b/99/a317301b7062cfa3501cabf4163d469a57fd50d3d0fab2e12e3a3d5dbea8/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.1-py3-none-any.whl
+[2024-04-30 08:39:23] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [ynab-transaction-adjuster]: Downloading https://files.pythonhosted.org/packages/35/bf/e543a275e4fbe980781dfbf2b6e88793a10aa5b695cce34c857e5b6a86c9/ynab_transaction_adjuster-1.3.0.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/8f/7a/cdf70ca52312665d0e79dfafd5c44e8bf8f335b44e081cce7102f58d3304/fun_things-0.1.0.tar.gz
+[2024-04-30 08:39:23] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-04-30 08:39:24] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/9b/e6/8d9e43f00575edb88e0368d32bd876b1c5f33f2e013e45b9fe88adec0c22/advanced_input-0.1.2.tar.gz
+[2024-04-30 08:39:24] INFO root fetch - processPackages [ynab-transaction-adjuster]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [ynab-transaction-adjuster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ynab_transaction_adjuster-1.2.0.tar.gz tmp/ynab_transaction_adjuster-1.3.0.tar.gz --markdown 20240430/y/ynab-transaction-adjuster/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [advanced-input]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [advanced-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_input-0.1.1.tar.gz tmp/advanced_input-0.1.2.tar.gz --markdown 20240430/a/advanced-input/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/02/5d/f12f88e422c91c609db018d8ebfa8d8a1b62ab128acd981eb1d443de023f/zfx-1.0.5.tar.gz
+[2024-04-30 08:39:24] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/bc/c3/d8f0a2b906ecd58ac01997efe31ecf527c3f24c69c3c22ea385736459a49/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-30 08:39:24] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-04-30 08:39:24] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.4.tar.gz tmp/zfx-1.0.5.tar.gz --markdown 20240430/z/zfx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-stock-move-packaging-qty/16.0.1.4.0.1-16.0.1.4.0.2/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/0e/ae/5af23b8ec3c191dabcf4793eba7526ad965517d015eb8b06d5306796f2e4/fun_things-0.2.0.tar.gz
+[2024-04-30 08:39:24] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-04-30 08:39:24] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240430/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240430/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-04-30 08:39:24] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.1.0.tar.gz tmp/fun_things-0.2.0.tar.gz --markdown 20240430/f/fun-things/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-30 08:39:24] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.1.1.tar.gz]
+[2024-04-30 08:39:24] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.1.2.tar.gz]
+[2024-04-30 08:39:24] INFO root fetch - main [MainThread]: End processing [advanced-input]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.4.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.5.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [ynab-transaction-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/ynab_transaction_adjuster-1.2.0.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [ynab-transaction-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/ynab_transaction_adjuster-1.3.0.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [ynab-transaction-adjuster]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.1.0.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.2.0.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-packaging-qty]: success
+[2024-04-30 08:39:25] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-04-30 08:39:25] INFO root fetch - main [MainThread]: Store serial: [22997370]
