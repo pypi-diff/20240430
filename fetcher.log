@@ -12485,3 +12485,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 06:49:34] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trtc-3.0.999.tar.gz]
 [2024-04-30 06:49:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trtc]: success
 [2024-04-30 06:49:34] INFO root fetch - main [MainThread]: Store serial: [22996126]
+[2024-04-30 06:51:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996126]
+[2024-04-30 06:51:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 06:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tse
+[2024-04-30 06:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neighpy
+[2024-04-30 06:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: androidviewclient
+[2024-04-30 06:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tsw
+[2024-04-30 06:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tts
+[2024-04-30 06:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-ump
+[2024-04-30 06:51:45] INFO root fetch - processPackages [neighpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:51:45] INFO root fetch - processPackages [androidviewclient]: New version: [9.6.1] Old Version: [9.6.0]
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:51:45] INFO root fetch - processPackages [neighpy]: Downloading https://files.pythonhosted.org/packages/20/d6/a7d63cc2bafd137a523227fd86e0a7ef39a5fad03dfd7d86564a8ec654d7/neighpy-0.1.3.tar.gz
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/9c/15/5d686a8ece4a00e5a315a66e90b30727564fbbc80fe142ff5b19583b9758/tencentcloud-sdk-python-tsw-3.0.998.tar.gz
+[2024-04-30 06:51:45] INFO root fetch - processPackages [androidviewclient]: Downloading https://files.pythonhosted.org/packages/a3/d8/071294c35fdb8242707dc38a858468229f1748eed6e9cd97115c64e22472/androidviewclient-9.6.0-py2.7.egg
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/10/59/08b9a1edde05fa318d69973b229f30dfbe049da31ff6fe2c7b369bb6abea/tencentcloud-sdk-python-tts-3.0.998.tar.gz
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Downloading https://files.pythonhosted.org/packages/21/1a/d49e1f35ba723fc9f685e1c0e6e8d34b00a4c6fda9e2c02c594830c867b0/tencentcloud-sdk-python-ump-3.0.998.tar.gz
+[2024-04-30 06:51:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: Downloading https://files.pythonhosted.org/packages/ce/57/0707d03a61aa18d6ed807e803655d74da43fce48c5876371b20e3476c672/tencentcloud-sdk-python-tse-3.0.998.tar.gz
+[2024-04-30 06:51:45] INFO root fetch - processPackages [neighpy]: Downloading https://files.pythonhosted.org/packages/f8/5f/a202ba9fadfa591e0844147fa6ed217542cbcbdf51f79e834c622a6d0fc4/neighpy-0.1.4.tar.gz
+[2024-04-30 06:51:46] INFO root fetch - processPackages [neighpy]: executing diffoscope
+[2024-04-30 06:51:46] INFO root fetch - processPackages [neighpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neighpy-0.1.3.tar.gz tmp/neighpy-0.1.4.tar.gz --markdown 20240430/n/neighpy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-30 06:51:46] INFO root fetch - processPackages [androidviewclient]: Downloading https://files.pythonhosted.org/packages/b4/d4/ce978f7227275faba3b5653d3298349a57c77580811712d025d363d4eb12/androidviewclient-9.6.1-py2.7.egg
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/b5/4b/330ed99d61f77ecadd7ff7b4d3588ec8d083968876df2a56ea9c0a104b19/tencentcloud-sdk-python-tsw-3.0.999.tar.gz
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/20/de/08c782128d2630bf5daf31530f1783a255752dce61e1220554659b9d2fa5/tencentcloud-sdk-python-tts-3.0.999.tar.gz
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Downloading https://files.pythonhosted.org/packages/72/d4/2531085dece1328c85d3045a3d8e123805865b4804edfc5d6fc3f607660a/tencentcloud-sdk-python-ump-3.0.999.tar.gz
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: Downloading https://files.pythonhosted.org/packages/b5/f5/290d2cb1da9819ab56621901d311a516504b85d3ec4322b672e719cdcd32/tencentcloud-sdk-python-tse-3.0.999.tar.gz
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: executing diffoscope
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tsw-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tsw-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-tsw/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: executing diffoscope
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-tts/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: executing diffoscope
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ump-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ump-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-ump/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: executing diffoscope
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tse-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tse-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-tse/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:51:46] INFO root fetch - processPackages [androidviewclient]: executing diffoscope
+[2024-04-30 06:51:46] INFO root fetch - processPackages [androidviewclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androidviewclient-9.6.0-py2.7.egg tmp/androidviewclient-9.6.1-py2.7.egg --markdown 20240430/a/androidviewclient/9.6.0-9.6.1/README.md --exclude *.pyd
+[2024-04-30 06:51:46] INFO root fetch - processPackages [neighpy]: Remove: archive file [/home/abi/fetcher/tmp/neighpy-0.1.3.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - processPackages [neighpy]: Remove: archive file [/home/abi/fetcher/tmp/neighpy-0.1.4.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - main [MainThread]: End processing [neighpy]: success
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsw-3.0.998.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsw-3.0.999.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsw]: success
+[2024-04-30 06:51:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tts]: success
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ump-3.0.998.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ump-3.0.999.tar.gz]
+[2024-04-30 06:51:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ump]: success
+[2024-04-30 06:51:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tse-3.0.998.tar.gz]
+[2024-04-30 06:51:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tse]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tse-3.0.999.tar.gz]
+[2024-04-30 06:51:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tse]: success
+[2024-04-30 06:51:47] INFO root fetch - processPackages [androidviewclient]: Remove: archive file [/home/abi/fetcher/tmp/androidviewclient-9.6.0-py2.7.egg]
+[2024-04-30 06:51:47] INFO root fetch - processPackages [androidviewclient]: Remove: archive file [/home/abi/fetcher/tmp/androidviewclient-9.6.1-py2.7.egg]
+[2024-04-30 06:51:47] INFO root fetch - main [MainThread]: End processing [androidviewclient]: success
+[2024-04-30 06:51:47] INFO root fetch - main [MainThread]: Store serial: [22996145]
