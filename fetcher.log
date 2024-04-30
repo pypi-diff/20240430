@@ -8997,3 +8997,72 @@
 [2024-04-30 05:33:04] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-30 05:33:04] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-30 05:33:04] INFO root fetch - main [MainThread]: Store serial: [22994933]
+[2024-04-30 05:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994933]
+[2024-04-30 05:35:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excel2db
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EMRFlow
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-ddmrp-history
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-chat-handler
+[2024-04-30 05:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intelliw
+[2024-04-30 05:35:13] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.1.5.dev2] Old Version: [0.1.5.dev1]
+[2024-04-30 05:35:13] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 05:35:13] INFO root fetch - processPackages [excel2db]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 05:35:13] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 05:35:13] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-30 05:35:13] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/fe/b1/e93836ed9daf71add3ddaedd46169d622039f93f14a0ffc67fc82609fd5f/streamlit_chat_handler-0.1.5.dev1.tar.gz
+[2024-04-30 05:35:13] WARNING root fetch - processPackages [EMRFlow]: Skipping, unable to determine old version
+[2024-04-30 05:35:13] INFO root fetch - processPackages [zfx]: New version: [20240430b0] Old Version: [20240430a0]
+[2024-04-30 05:35:13] INFO root fetch - main [MainThread]: End processing [EMRFlow] error
+[2024-04-30 05:35:13] INFO root fetch - processPackages [intelliw]: New version: [2.0.2rc2] Old Version: [2.0.2rc1]
+[2024-04-30 05:35:13] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-04-30 05:35:13] INFO root fetch - processPackages [excel2db]: Downloading https://files.pythonhosted.org/packages/fb/ee/c0c75b731f557dc11855ea9c7d2ccd57b050bb289cc41508ec0130e283e8/excel2db-0.0.1.tar.gz
+[2024-04-30 05:35:13] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 05:35:13] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/39/49/c37362b913104dbc8181e5e9b39846e52d71b80afa56266b1a0f246c66f7/odoo_addon_ddmrp_history-16.0.1.1.0-py3-none-any.whl
+[2024-04-30 05:35:13] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/80/25/194cff7e093976f0fd7c7b657caea507dfb8c858bb7049b7dc519c6ee083/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-30 05:35:13] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/e2/ca/61986d0ce88ce11ed17bef163c377bd61a2588f18994dfea99dd540a2a40/intelliw-2.0.2rc1-py3-none-any.whl
+[2024-04-30 05:35:13] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/60/f4/489e60f51c01d83bcd8f5a981be1bb3cd022158db50e3833d8ff49c97b43/zfx-20240430a0.tar.gz
+[2024-04-30 05:35:13] INFO root fetch - processPackages [excel2db]: Downloading https://files.pythonhosted.org/packages/91/78/3b602d95858320279aba23337de53b4824ef27ef69a82408104e0d3e664b/excel2db-0.0.2.tar.gz
+[2024-04-30 05:35:13] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/c8/29/c2e2a6a772a67ea6927e908ca5554c28e85c6c6f973fe7fa08cd8511360d/streamlit_chat_handler-0.1.5.dev2.tar.gz
+[2024-04-30 05:35:13] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 05:35:13] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 05:35:13] INFO root fetch - processPackages [excel2db]: executing diffoscope
+[2024-04-30 05:35:13] INFO root fetch - processPackages [excel2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel2db-0.0.1.tar.gz tmp/excel2db-0.0.2.tar.gz --markdown 20240430/e/excel2db/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 05:35:13] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-30 05:35:13] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.1.5.dev1.tar.gz tmp/streamlit_chat_handler-0.1.5.dev2.tar.gz --markdown 20240430/s/streamlit-chat-handler/0.1.5.dev1-0.1.5.dev2/README.md --exclude *.pyd
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/32/a4/e93435c662ffa68b928e143309819de2f2310f527c6b06de943ad0fa2e0f/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-30 05:35:14] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/78/db/57c6f870075c2a1c0ada663f644d43523b4372b4e53bac7047583e3dc07b/zfx-20240430b0.tar.gz
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/5e/c3/c9e970bc5a8805a726e1d4399aab3767214d612303c830db920c5be8e3d0/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-ddmrp-history/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-30 05:35:14] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 05:35:14] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-20240430a0.tar.gz tmp/zfx-20240430b0.tar.gz --markdown 20240430/z/zfx/20240430a0-20240430b0/README.md --exclude *.pyd
+[2024-04-30 05:35:14] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/c8/f0/7e13c59ecb64c407de4e5854afa31a5e7a7596cfde723774da37516cfe56/intelliw-2.0.2rc2-py3-none-any.whl
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-04-30 05:35:14] INFO root fetch - processPackages [excel2db]: Remove: archive file [/home/abi/fetcher/tmp/excel2db-0.0.1.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - processPackages [excel2db]: Remove: archive file [/home/abi/fetcher/tmp/excel2db-0.0.2.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - main [MainThread]: End processing [excel2db]: success
+[2024-04-30 05:35:14] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2024-04-30 05:35:14] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-2.0.2rc1-py3-none-any.whl.zip tmp/intelliw-2.0.2rc2-py3-none-any.whl.zip --markdown 20240430/i/intelliw/2.0.2rc1-2.0.2rc2/README.md --exclude *.pyd
+[2024-04-30 05:35:14] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 05:35:14] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.5.dev1.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.5.dev2.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-30 05:35:14] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240430a0.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240430b0.tar.gz]
+[2024-04-30 05:35:14] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-30 05:35:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-30 05:35:14] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-30 05:35:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-04-30 05:35:15] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-2.0.2rc1-py3-none-any.whl.zip]
+[2024-04-30 05:35:15] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-2.0.2rc2-py3-none-any.whl.zip]
+[2024-04-30 05:35:15] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2024-04-30 05:35:15] INFO root fetch - main [MainThread]: Store serial: [22994953]
