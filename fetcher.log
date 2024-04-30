@@ -21999,3 +21999,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:41:46] INFO root fetch - processPackages [kedro-expectations]: Remove: archive file [/home/abi/fetcher/tmp/kedro_expectations-0.4.3.tar.gz]
 [2024-04-30 11:41:46] INFO root fetch - main [MainThread]: End processing [kedro-expectations]: success
 [2024-04-30 11:41:46] INFO root fetch - main [MainThread]: Store serial: [22999692]
+[2024-04-30 11:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999692]
+[2024-04-30 11:43:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 11:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: language-model-toolkit
+[2024-04-30 11:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rainbow-lib
+[2024-04-30 11:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepctools
+[2024-04-30 11:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feynamp
+[2024-04-30 11:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: somesy
+[2024-04-30 11:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-content-editor
+[2024-04-30 11:43:55] WARNING root fetch - processPackages [rainbow-lib]: Skipping, unable to determine old version
+[2024-04-30 11:43:55] INFO root fetch - main [MainThread]: End processing [rainbow-lib] error
+[2024-04-30 11:43:55] WARNING root fetch - processPackages [language-model-toolkit]: Skipping, unable to determine old version
+[2024-04-30 11:43:55] INFO root fetch - main [MainThread]: End processing [language-model-toolkit] error
+[2024-04-30 11:43:55] INFO root fetch - processPackages [deepctools]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-30 11:43:55] INFO root fetch - processPackages [feynamp]: New version: [0.0.9] Old Version: [0.0.5.12]
+[2024-04-30 11:43:55] INFO root fetch - processPackages [somesy]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-30 11:43:55] INFO root fetch - processPackages [django-content-editor]: New version: [6.4.3] Old Version: [6.4.2]
+[2024-04-30 11:43:55] INFO root fetch - processPackages [deepctools]: Downloading https://files.pythonhosted.org/packages/d8/b5/e4f2ce45c8aedde6e7793a46ee713af1f185c066914a6213819cd3dc15f4/deepctools-1.0.4.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [feynamp]: Downloading https://files.pythonhosted.org/packages/71/4e/be1200101e89937d3a8b1a0353e3ec8b00b1f5ff50af6d1577f444587ed9/feynamp-0.0.5.12.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/84/04/c2059d9eaf0984a83b57ee6037d99be56b6862eef13c828ce811df5b4c7e/django_content_editor-6.4.2.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [somesy]: Downloading https://files.pythonhosted.org/packages/7b/37/0ac7c002f3b67a4fbb0895c5326fa621ac47992941dec9ef7dc29058cb5f/somesy-0.4.1.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [deepctools]: Downloading https://files.pythonhosted.org/packages/72/d1/5ca6a1ae6d842596810597ce47f87e15587a8e248a908d9cb005a43fe9ca/deepctools-1.0.5.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [feynamp]: Downloading https://files.pythonhosted.org/packages/14/54/a8ef21ac801049c99a4d04132b35e517100cc696856c0deffa97ba49de1c/feynamp-0.0.9.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/25/fd/684f620cd5f611a6ea8dace467d8294386cbeccc3f85e0efaa88cf605faa/django_content_editor-6.4.3.tar.gz
+[2024-04-30 11:43:55] INFO root fetch - processPackages [deepctools]: executing diffoscope
+[2024-04-30 11:43:55] INFO root fetch - processPackages [deepctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepctools-1.0.4.tar.gz tmp/deepctools-1.0.5.tar.gz --markdown 20240430/d/deepctools/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-30 11:43:55] INFO root fetch - processPackages [somesy]: Downloading https://files.pythonhosted.org/packages/26/17/ee24878df736c36d128c5a0d25b1335bbeba62aac6659e3f2812b3e58995/somesy-0.4.2.tar.gz
+[2024-04-30 11:43:56] INFO root fetch - processPackages [feynamp]: executing diffoscope
+[2024-04-30 11:43:56] INFO root fetch - processPackages [feynamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynamp-0.0.5.12.tar.gz tmp/feynamp-0.0.9.tar.gz --markdown 20240430/f/feynamp/0.0.5.12-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:43:56] INFO root fetch - processPackages [django-content-editor]: executing diffoscope
+[2024-04-30 11:43:56] INFO root fetch - processPackages [django-content-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_content_editor-6.4.2.tar.gz tmp/django_content_editor-6.4.3.tar.gz --markdown 20240430/d/django-content-editor/6.4.2-6.4.3/README.md --exclude *.pyd
+[2024-04-30 11:43:56] INFO root fetch - processPackages [somesy]: executing diffoscope
+[2024-04-30 11:43:56] INFO root fetch - processPackages [somesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somesy-0.4.1.tar.gz tmp/somesy-0.4.2.tar.gz --markdown 20240430/s/somesy/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-30 11:43:56] INFO root fetch - processPackages [deepctools]: Remove: archive file [/home/abi/fetcher/tmp/deepctools-1.0.4.tar.gz]
+[2024-04-30 11:43:56] INFO root fetch - processPackages [deepctools]: Remove: archive file [/home/abi/fetcher/tmp/deepctools-1.0.5.tar.gz]
+[2024-04-30 11:43:56] INFO root fetch - main [MainThread]: End processing [deepctools]: success
+[2024-04-30 11:43:56] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-6.4.2.tar.gz]
+[2024-04-30 11:43:56] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-6.4.3.tar.gz]
+[2024-04-30 11:43:56] INFO root fetch - main [MainThread]: End processing [django-content-editor]: success
+[2024-04-30 11:43:56] INFO root fetch - processPackages [feynamp]: Remove: archive file [/home/abi/fetcher/tmp/feynamp-0.0.5.12.tar.gz]
+[2024-04-30 11:43:56] INFO root fetch - processPackages [feynamp]: Remove: archive file [/home/abi/fetcher/tmp/feynamp-0.0.9.tar.gz]
+[2024-04-30 11:43:56] INFO root fetch - main [MainThread]: End processing [feynamp]: success
+[2024-04-30 11:43:57] INFO root fetch - processPackages [somesy]: Remove: archive file [/home/abi/fetcher/tmp/somesy-0.4.1.tar.gz]
+[2024-04-30 11:43:57] INFO root fetch - processPackages [somesy]: Remove: archive file [/home/abi/fetcher/tmp/somesy-0.4.2.tar.gz]
+[2024-04-30 11:43:57] INFO root fetch - main [MainThread]: End processing [somesy]: success
+[2024-04-30 11:43:57] INFO root fetch - main [MainThread]: Store serial: [22999712]
