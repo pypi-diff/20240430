@@ -15779,3 +15779,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:39:25] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
 [2024-04-30 08:39:25] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
 [2024-04-30 08:39:25] INFO root fetch - main [MainThread]: Store serial: [22997370]
+[2024-04-30 08:41:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997370]
+[2024-04-30 08:41:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Spire.Xls
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-rec
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awscdk-resources-mongodbatlas
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo2text
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bayanpy
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lc-programs
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wetb
+[2024-04-30 08:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: redzoo
+[2024-04-30 08:41:34] INFO root fetch - processPackages [streamlit-rec]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [zfx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [redzoo]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [Spire.Xls]: New version: [14.4.2] Old Version: [14.2.2]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [streamlit-rec]: Downloading https://files.pythonhosted.org/packages/2f/66/6c3b3e062b6a6060dd89bd3a13aaa2db1610c824cec94d8a42aa6a5fc3b3/streamlit_rec-0.0.3.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [repo2text]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/dd/8a/fe3c12510223e6be04aae632e37ee50261c2ade478857db2a9bec15e549a/zfx-1.0.4.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-30 08:41:34] WARNING root fetch - processPackages [lc-programs]: Skipping, unable to determine old version
+[2024-04-30 08:41:34] INFO root fetch - main [MainThread]: End processing [lc-programs] error
+[2024-04-30 08:41:34] INFO root fetch - processPackages [bayanpy]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 08:41:34] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/bd/db/7550be024958f83894b91be5d64002e01f571b1ed75c0b38e23c5f9ea8fd/redzoo-0.3.4.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [repo2text]: Downloading https://files.pythonhosted.org/packages/56/50/d5d0d9d37795632ab6287bf6017179c254a32790c2de3e78330977374866/repo2text-0.1.0.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [Spire.Xls]: Downloading https://files.pythonhosted.org/packages/0f/3d/e542f37f30649d1b8724e64f4bdaca9858abf5df17c7fd7fc1a10e7cf1ed/Spire.Xls-14.2.2-py3-none-win_amd64.whl
+[2024-04-30 08:41:34] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/02/5d/f12f88e422c91c609db018d8ebfa8d8a1b62ab128acd981eb1d443de023f/zfx-1.0.5.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/3b/8c/3f1914914148a06c4a1837a912e365c4073defa3ea10733c470f3a5d075e/bayanpy-0.7.6.tar.gz
+[2024-04-30 08:41:34] WARNING root fetch - processPackages [Spire.Xls]: Skipping package: exceeds size limit 23891829>=10485760
+[2024-04-30 08:41:34] INFO root fetch - main [MainThread]: End processing [Spire.Xls] error
+[2024-04-30 08:41:34] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/2e/12/34ba9a1228605215a212a2e5d307f8995457d0d2f78f730e10fbeb433471/awscdk_resources_mongodbatlas-3.4.0.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 08:41:34] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.4.tar.gz tmp/zfx-1.0.5.tar.gz --markdown 20240430/z/zfx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-30 08:41:34] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/84/38/704209bb8e0143f65fd8fd51babab4822b62aac5c92fab61943b8a5ecf49/redzoo-0.3.5.tar.gz
+[2024-04-30 08:41:34] INFO root fetch - processPackages [streamlit-rec]: Downloading https://files.pythonhosted.org/packages/7b/0b/db68dddf5a7a62bb2e933399eb54d1e33ec3d95e24facb87a5e1da3697a1/streamlit_rec-0.0.4.tar.gz
+[2024-04-30 08:41:35] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-04-30 08:41:35] INFO root fetch - processPackages [repo2text]: Downloading https://files.pythonhosted.org/packages/5b/00/1f40923c45fce9fa2fa8967526f11aad9cd3ba8f97798a7553ae4641e1d6/repo2text-0.1.1.tar.gz
+[2024-04-30 08:41:35] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-04-30 08:41:35] INFO root fetch - processPackages [redzoo]: executing diffoscope
+[2024-04-30 08:41:35] INFO root fetch - processPackages [redzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redzoo-0.3.4.tar.gz tmp/redzoo-0.3.5.tar.gz --markdown 20240430/r/redzoo/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-30 08:41:35] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/9d/a5/6b860e440846c2957be8af545fe4737055a745fd1a546d473abdacb1058a/bayanpy-0.7.7.tar.gz
+[2024-04-30 08:41:35] INFO root fetch - processPackages [repo2text]: executing diffoscope
+[2024-04-30 08:41:35] INFO root fetch - processPackages [repo2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo2text-0.1.0.tar.gz tmp/repo2text-0.1.1.tar.gz --markdown 20240430/r/repo2text/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-30 08:41:35] INFO root fetch - processPackages [streamlit-rec]: executing diffoscope
+[2024-04-30 08:41:35] INFO root fetch - processPackages [streamlit-rec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_rec-0.0.3.tar.gz tmp/streamlit_rec-0.0.4.tar.gz --markdown 20240430/s/streamlit-rec/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 08:41:35] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/fa/ff98d82a2f9f4fc522a19496402edec08369d2e365bc251f895fba4f4e32/awscdk_resources_mongodbatlas-3.5.0.tar.gz
+[2024-04-30 08:41:35] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2024-04-30 08:41:35] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.7.6.tar.gz tmp/bayanpy-0.7.7.tar.gz --markdown 20240430/b/bayanpy/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-30 08:41:35] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: executing diffoscope
+[2024-04-30 08:41:35] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscdk_resources_mongodbatlas-3.4.0.tar.gz tmp/awscdk_resources_mongodbatlas-3.5.0.tar.gz --markdown 20240430/a/awscdk-resources-mongodbatlas/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-04-30 08:41:35] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.4.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.5.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 08:41:35] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.4.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.5.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - main [MainThread]: End processing [redzoo]: success
+[2024-04-30 08:41:35] INFO root fetch - processPackages [repo2text]: Remove: archive file [/home/abi/fetcher/tmp/repo2text-0.1.0.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - processPackages [repo2text]: Remove: archive file [/home/abi/fetcher/tmp/repo2text-0.1.1.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - main [MainThread]: End processing [repo2text]: success
+[2024-04-30 08:41:35] INFO root fetch - processPackages [bayanpy]: Remove: archive file [/home/abi/fetcher/tmp/bayanpy-0.7.6.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - processPackages [bayanpy]: Remove: archive file [/home/abi/fetcher/tmp/bayanpy-0.7.7.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2024-04-30 08:41:35] INFO root fetch - processPackages [streamlit-rec]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_rec-0.0.3.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - processPackages [streamlit-rec]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_rec-0.0.4.tar.gz]
+[2024-04-30 08:41:35] INFO root fetch - main [MainThread]: End processing [streamlit-rec]: success
+[2024-04-30 08:41:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.4.0.tar.gz]
+[2024-04-30 08:41:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.5.0.tar.gz]
+[2024-04-30 08:41:36] INFO root fetch - main [MainThread]: End processing [awscdk-resources-mongodbatlas]: success
+[2024-04-30 08:41:36] INFO root fetch - main [MainThread]: Store serial: [22997395]
