@@ -8013,3 +8013,27 @@
 [2024-04-30 04:58:30] INFO root fetch - processPackages [python-docx]: Remove: archive file [/home/abi/fetcher/tmp/python_docx-1.1.1.tar.gz]
 [2024-04-30 04:58:30] INFO root fetch - main [MainThread]: End processing [python-docx]: success
 [2024-04-30 04:58:30] INFO root fetch - main [MainThread]: Store serial: [22994590]
+[2024-04-30 05:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994590]
+[2024-04-30 05:00:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 05:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biodatatools
+[2024-04-30 05:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-04-30 05:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygpt-net
+[2024-04-30 05:00:40] INFO root fetch - processPackages [pygpt-net]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-30 05:00:40] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 05:00:40] WARNING root fetch - processPackages [biodatatools]: Skipping, unable to determine old version
+[2024-04-30 05:00:40] INFO root fetch - main [MainThread]: End processing [biodatatools] error
+[2024-04-30 05:00:40] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/57/dc/f095f05c69d63c7abb26fd92a380bcf1198ce1ec5d6b980fc4ce7c1a2863/pygpt_net-2.2.3.tar.gz
+[2024-04-30 05:00:40] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-30 05:00:40] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/80/0b/5aee7b13de3a798d1a51b22d9178561e1a7538733b2d35f9db98e7b6f44c/pygpt_net-2.2.4.tar.gz
+[2024-04-30 05:00:40] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-30 05:00:41] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-30 05:00:41] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240430/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 05:00:41] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-30 05:00:41] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.2.3.tar.gz tmp/pygpt_net-2.2.4.tar.gz --markdown 20240430/p/pygpt-net/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-04-30 05:00:41] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-30 05:00:41] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-30 05:00:41] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-30 05:00:44] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.3.tar.gz]
+[2024-04-30 05:00:44] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.4.tar.gz]
+[2024-04-30 05:00:44] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-30 05:00:44] INFO root fetch - main [MainThread]: Store serial: [22994610]
