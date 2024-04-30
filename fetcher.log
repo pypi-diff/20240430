@@ -2009,3 +2009,36 @@
 [2024-04-30 02:04:54] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240429.416.tar.gz]
 [2024-04-30 02:04:54] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-30 02:04:54] INFO root fetch - main [MainThread]: Store serial: [22992333]
+[2024-04-30 02:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992333]
+[2024-04-30 02:07:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 02:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2024-04-30 02:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-float
+[2024-04-30 02:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SEHA
+[2024-04-30 02:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2024-04-30 02:07:12] INFO root fetch - processPackages [streamlit-float]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240429] Old Version: [0.0.8.dev20240428]
+[2024-04-30 02:07:12] INFO root fetch - processPackages [streamlit-float]: Downloading https://files.pythonhosted.org/packages/db/d3/c18788f8b6d2b2081ddc69a17881eeea4d97ecfc2d6ebd5742b80629ac97/streamlit-float-0.3.2.tar.gz
+[2024-04-30 02:07:12] WARNING root fetch - processPackages [SEHA]: Skipping, unable to determine old version
+[2024-04-30 02:07:12] INFO root fetch - main [MainThread]: End processing [SEHA] error
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/02/0d/33291941622c97ef90b9445346022c6f19f26fbe5d8a6d8a2c9bf76705a4/jaxutils-nightly-0.0.8.dev20240428.tar.gz
+[2024-04-30 02:07:12] INFO root fetch - processPackages [streamlit-float]: Downloading https://files.pythonhosted.org/packages/f9/c8/6253e9f9044581101edac951cecf38f9639da38c5f2a7a1b358b877792a6/streamlit-float-0.3.3.tar.gz
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-30 02:07:12] INFO root fetch - processPackages [streamlit-float]: executing diffoscope
+[2024-04-30 02:07:12] INFO root fetch - processPackages [streamlit-float]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-float-0.3.2.tar.gz tmp/streamlit-float-0.3.3.tar.gz --markdown 20240430/s/streamlit-float/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240430/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/2c/f7/8944f6f26acdb363dd5b7867d0dec6cbfe0f65e4971c2e7ad793e4a170b6/jaxutils-nightly-0.0.8.dev20240429.tar.gz
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-30 02:07:12] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240428.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240429.tar.gz --markdown 20240430/j/jaxutils-nightly/0.0.8.dev20240428-0.0.8.dev20240429/README.md --exclude *.pyd
+[2024-04-30 02:07:13] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-30 02:07:13] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-30 02:07:13] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-30 02:07:13] INFO root fetch - processPackages [streamlit-float]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-float-0.3.2.tar.gz]
+[2024-04-30 02:07:13] INFO root fetch - processPackages [streamlit-float]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-float-0.3.3.tar.gz]
+[2024-04-30 02:07:13] INFO root fetch - main [MainThread]: End processing [streamlit-float]: success
+[2024-04-30 02:07:13] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240428.tar.gz]
+[2024-04-30 02:07:13] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240429.tar.gz]
+[2024-04-30 02:07:13] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-30 02:07:13] INFO root fetch - main [MainThread]: Store serial: [22992347]
