@@ -7073,3 +7073,33 @@
 [2024-04-30 03:50:30] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
 [2024-04-30 03:50:30] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2024-04-30 03:50:30] INFO root fetch - main [MainThread]: Store serial: [22994235]
+[2024-04-30 03:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994235]
+[2024-04-30 03:52:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 03:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dhuodata-lib
+[2024-04-30 03:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedmongo
+[2024-04-30 03:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enhomie
+[2024-04-30 03:52:39] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-30 03:52:39] INFO root fetch - processPackages [typedmongo]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-30 03:52:39] INFO root fetch - processPackages [enhomie]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-30 03:52:39] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/bd/00/fcf3d1d8e07aee60215a76eb2668b790f75e8ad06878b3d2224ba98e1eba/dhuodata_lib-0.1.4.tar.gz
+[2024-04-30 03:52:39] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/5c/2c/1dfd8a858bab5a01ded62c9ea2b6c4b4031bb66ac2e26426e627d8d55212/typedmongo-1.1.1.tar.gz
+[2024-04-30 03:52:39] INFO root fetch - processPackages [enhomie]: Downloading https://files.pythonhosted.org/packages/8d/91/e0611e09f84dbdd6d8741d5755ffd5179ee371300d222f5e28335e2774d1/enhomie-0.2.2.tar.gz
+[2024-04-30 03:52:39] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/13/9a/e06c79b65fe90088768edcabd9fcfc7abb9e356f7241f13d23013f3e5f8f/dhuodata-lib-0.1.5.tar.gz
+[2024-04-30 03:52:39] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 03:52:39] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.1.4.tar.gz tmp/dhuodata-lib-0.1.5.tar.gz --markdown 20240430/d/dhuodata-lib/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-30 03:52:39] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/c4/f4/cf7b84bbbd1d831efc32562d54bcd6150f2ce85f0519dc37976a0fc8cb38/typedmongo-1.1.2.tar.gz
+[2024-04-30 03:52:39] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-04-30 03:52:39] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.1.1.tar.gz tmp/typedmongo-1.1.2.tar.gz --markdown 20240430/t/typedmongo/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-30 03:52:39] INFO root fetch - processPackages [enhomie]: Downloading https://files.pythonhosted.org/packages/52/b7/41192f6785749e4052e01f1a248781c07d4b4a23ff3656e7032d83725d0d/enhomie-0.3.0.tar.gz
+[2024-04-30 03:52:40] INFO root fetch - processPackages [enhomie]: executing diffoscope
+[2024-04-30 03:52:40] INFO root fetch - processPackages [enhomie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhomie-0.2.2.tar.gz tmp/enhomie-0.3.0.tar.gz --markdown 20240430/e/enhomie/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-30 03:52:40] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.1.4.tar.gz]
+[2024-04-30 03:52:40] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.5.tar.gz]
+[2024-04-30 03:52:40] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 03:52:40] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.1.tar.gz]
+[2024-04-30 03:52:40] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.2.tar.gz]
+[2024-04-30 03:52:40] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-04-30 03:52:40] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.2.2.tar.gz]
+[2024-04-30 03:52:40] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.3.0.tar.gz]
+[2024-04-30 03:52:40] INFO root fetch - main [MainThread]: End processing [enhomie]: success
+[2024-04-30 03:52:40] INFO root fetch - main [MainThread]: Store serial: [22994244]
