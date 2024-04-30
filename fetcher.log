@@ -7299,3 +7299,51 @@
 [2024-04-30 04:12:02] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc9.tar.gz]
 [2024-04-30 04:12:02] INFO root fetch - main [MainThread]: End processing [req-compile]: success
 [2024-04-30 04:12:02] INFO root fetch - main [MainThread]: Store serial: [22994332]
+[2024-04-30 04:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994332]
+[2024-04-30 04:14:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 04:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: req-compile
+[2024-04-30 04:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcquant-sdk
+[2024-04-30 04:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dhuodata-lib
+[2024-04-30 04:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galileo-protect
+[2024-04-30 04:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tja2fumen
+[2024-04-30 04:14:12] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-30 04:14:12] INFO root fetch - processPackages [req-compile]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2024-04-30 04:14:12] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 04:14:12] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/0d/c0/58ca5b13d21088dc629c5cfedac3e016345a6e022a4ea9cd67ec10d18a6a/dhuodata-lib-0.1.6.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [galileo-protect]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-30 04:14:12] INFO root fetch - processPackages [tja2fumen]: New version: [0.8.0] Old Version: [0.7.dev0]
+[2024-04-30 04:14:12] INFO root fetch - processPackages [req-compile]: Downloading https://files.pythonhosted.org/packages/96/9b/d5e46a5c84a6cf0477d84a18587a02cef26b51708a41c9dcc16b6f6ec748/req-compile-1.0.0rc8.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [req-compile]: Downloading https://files.pythonhosted.org/packages/fc/cb/0a81d71ea9afc0f413877a3fa62c1fb73698e1166c5e241802b8739c7fcd/req-compile-1.0.0rc9.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/81/fe/9a0ad616a1b05f7388cffe14830d6d92615756f4abcadb69f02af652e31d/galileo_protect-0.5.2.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/ad/93/b8eca1a966f50c4f90e704121dce17ca2ccc05a817017558da77f176a805/tja2fumen-0.7.dev0.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/23/00/1cf682ed85fc849ecd6430dbc4a33a9118ba55eb55a92016592c34e5f914/dhuodata-lib-0.1.7.tar.gz
+[2024-04-30 04:14:12] INFO root fetch - processPackages [req-compile]: executing diffoscope
+[2024-04-30 04:14:12] INFO root fetch - processPackages [req-compile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/req-compile-1.0.0rc8.tar.gz tmp/req-compile-1.0.0rc9.tar.gz --markdown 20240430/r/req-compile/1.0.0rc8-1.0.0rc9/README.md --exclude *.pyd
+[2024-04-30 04:14:13] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 04:14:13] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.1.6.tar.gz tmp/dhuodata-lib-0.1.7.tar.gz --markdown 20240430/d/dhuodata-lib/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-30 04:14:13] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/de/96/fe2c39ab4c83aa298bb3bdf8a18f035fbd4a2becba2678b825773cb32ddc/galileo_protect-0.6.0.tar.gz
+[2024-04-30 04:14:13] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-30 04:14:13] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/a0/8f/46cdb1585fd996265385f62adb4efda125b37bf96a4517ec875fb02a3474/tja2fumen-0.8.0.tar.gz
+[2024-04-30 04:14:13] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-04-30 04:14:13] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.5.2.tar.gz tmp/galileo_protect-0.6.0.tar.gz --markdown 20240430/g/galileo-protect/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-30 04:14:13] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-30 04:14:13] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240430/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 04:14:13] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2024-04-30 04:14:13] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.7.dev0.tar.gz tmp/tja2fumen-0.8.0.tar.gz --markdown 20240430/t/tja2fumen/0.7.dev0-0.8.0/README.md --exclude *.pyd
+[2024-04-30 04:14:13] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.6.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.7.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 04:14:13] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc8.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc9.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - main [MainThread]: End processing [req-compile]: success
+[2024-04-30 04:14:13] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.5.2.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.6.0.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-04-30 04:14:13] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.7.dev0.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.8.0.tar.gz]
+[2024-04-30 04:14:13] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2024-04-30 04:14:14] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-30 04:14:14] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-30 04:14:14] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-30 04:14:14] INFO root fetch - main [MainThread]: Store serial: [22994348]
