@@ -8037,3 +8037,25 @@
 [2024-04-30 05:00:44] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.4.tar.gz]
 [2024-04-30 05:00:44] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-30 05:00:44] INFO root fetch - main [MainThread]: Store serial: [22994610]
+[2024-04-30 05:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994610]
+[2024-04-30 05:02:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 05:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: techgram
+[2024-04-30 05:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plastexdepgraph
+[2024-04-30 05:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2024-04-30 05:02:52] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-30 05:02:52] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-30 05:02:52] INFO root fetch - processPackages [techgram]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-30 05:02:52] INFO root fetch - processPackages [plastexdepgraph]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 05:02:52] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-30 05:02:52] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-30 05:02:52] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/82/0b/bbd919997dc72817812aac56b6bf0a75cb6739cc738370aeb1c1b3386044/techgram-1.0.4-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-30 05:02:53] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11227473>=10485760
+[2024-04-30 05:02:53] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-04-30 05:02:53] INFO root fetch - processPackages [plastexdepgraph]: Downloading https://files.pythonhosted.org/packages/d0/7a/537380e03676b6008ac910ebe61eee8245a4c083e0ff258478a4427cd2eb/plastexdepgraph-0.0.3.tar.gz
+[2024-04-30 05:02:53] INFO root fetch - processPackages [plastexdepgraph]: Downloading https://files.pythonhosted.org/packages/3d/a4/bf39bb82b13da417616d0c184f4de8d49e8aa50f2b092d3049040863d452/plastexdepgraph-0.0.4.tar.gz
+[2024-04-30 05:02:53] INFO root fetch - processPackages [plastexdepgraph]: executing diffoscope
+[2024-04-30 05:02:53] INFO root fetch - processPackages [plastexdepgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plastexdepgraph-0.0.3.tar.gz tmp/plastexdepgraph-0.0.4.tar.gz --markdown 20240430/p/plastexdepgraph/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 05:02:54] INFO root fetch - processPackages [plastexdepgraph]: Remove: archive file [/home/abi/fetcher/tmp/plastexdepgraph-0.0.3.tar.gz]
+[2024-04-30 05:02:54] INFO root fetch - processPackages [plastexdepgraph]: Remove: archive file [/home/abi/fetcher/tmp/plastexdepgraph-0.0.4.tar.gz]
+[2024-04-30 05:02:54] INFO root fetch - main [MainThread]: End processing [plastexdepgraph]: success
+[2024-04-30 05:02:54] INFO root fetch - main [MainThread]: Store serial: [22994625]
