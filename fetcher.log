@@ -2797,3 +2797,54 @@
 [2024-04-30 02:47:19] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.81.tar.gz]
 [2024-04-30 02:47:19] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-04-30 02:47:19] INFO root fetch - main [MainThread]: Store serial: [22992703]
+[2024-04-30 02:49:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992703]
+[2024-04-30 02:49:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 02:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgartools
+[2024-04-30 02:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioversions
+[2024-04-30 02:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyyddmsg
+[2024-04-30 02:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thonny-tunisiaschools
+[2024-04-30 02:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2024-04-30 02:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textual-pandas
+[2024-04-30 02:49:38] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-30 02:49:38] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-30 02:49:38] INFO root fetch - processPackages [thonny-tunisiaschools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 02:49:38] WARNING root fetch - processPackages [lyyddmsg]: Skipping, unable to determine old version
+[2024-04-30 02:49:38] INFO root fetch - main [MainThread]: End processing [lyyddmsg] error
+[2024-04-30 02:49:38] INFO root fetch - processPackages [textual-pandas]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-30 02:49:38] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-04-30 02:49:38] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-30 02:49:38] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [thonny-tunisiaschools]: Downloading https://files.pythonhosted.org/packages/4d/4e/0f24e61910ef3f43e9d44a0712a9eb19d6ec7efce55efb3f892821b01749/thonny_tunisiaschools-0.0.8.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [textual-pandas]: Downloading https://files.pythonhosted.org/packages/10/fd/78de2b438f66819d0cdcf9299fc57c2462db27fa5a909f3e80ff61a50022/textual_pandas-0.2.1.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-30 02:49:39] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240430/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-30 02:49:39] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-30 02:49:39] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240430/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-30 02:49:39] INFO root fetch - processPackages [thonny-tunisiaschools]: Downloading https://files.pythonhosted.org/packages/a4/7b/6a4e5ba34c9d2f2fe1648940970c12677debe230f539123518bf27aaf4f3/thonny_tunisiaschools-0.0.9.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [thonny-tunisiaschools]: executing diffoscope
+[2024-04-30 02:49:39] INFO root fetch - processPackages [thonny-tunisiaschools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny_tunisiaschools-0.0.8.tar.gz tmp/thonny_tunisiaschools-0.0.9.tar.gz --markdown 20240430/t/thonny-tunisiaschools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 02:49:39] INFO root fetch - processPackages [textual-pandas]: Downloading https://files.pythonhosted.org/packages/e5/70/0e633a2d502cc4e26a94805749543c5ccf9a84db4f1b31d008700734c8ea/textual_pandas-0.2.2.tar.gz
+[2024-04-30 02:49:39] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-04-30 02:49:39] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240430/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-04-30 02:49:39] INFO root fetch - processPackages [textual-pandas]: executing diffoscope
+[2024-04-30 02:49:39] INFO root fetch - processPackages [textual-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_pandas-0.2.1.tar.gz tmp/textual_pandas-0.2.2.tar.gz --markdown 20240430/t/textual-pandas/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-30 02:49:40] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-30 02:49:40] INFO root fetch - processPackages [thonny-tunisiaschools]: Remove: archive file [/home/abi/fetcher/tmp/thonny_tunisiaschools-0.0.8.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - processPackages [thonny-tunisiaschools]: Remove: archive file [/home/abi/fetcher/tmp/thonny_tunisiaschools-0.0.9.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - main [MainThread]: End processing [thonny-tunisiaschools]: success
+[2024-04-30 02:49:40] INFO root fetch - processPackages [textual-pandas]: Remove: archive file [/home/abi/fetcher/tmp/textual_pandas-0.2.1.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - processPackages [textual-pandas]: Remove: archive file [/home/abi/fetcher/tmp/textual_pandas-0.2.2.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - main [MainThread]: End processing [textual-pandas]: success
+[2024-04-30 02:49:40] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-04-30 02:49:40] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-04-30 02:49:58] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-30 02:49:58] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-30 02:49:58] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-30 02:49:58] INFO root fetch - main [MainThread]: Store serial: [22992723]
