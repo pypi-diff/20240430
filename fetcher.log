@@ -13955,3 +13955,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:37:23] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-04-30 07:37:23] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-04-30 07:37:23] INFO root fetch - main [MainThread]: Store serial: [22996610]
+[2024-04-30 07:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996610]
+[2024-04-30 07:39:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuread
+[2024-04-30 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyVHL
+[2024-04-30 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azuredevops
+[2024-04-30 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catnekaise.ghrawel
+[2024-04-30 07:39:32] WARNING root fetch - processPackages [pyVHL]: Skipping, unable to determine old version
+[2024-04-30 07:39:32] INFO root fetch - main [MainThread]: End processing [pyVHL] error
+[2024-04-30 07:39:32] INFO root fetch - processPackages [catnekaise.ghrawel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 07:39:32] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1714454444] Old Version: [3.1.0a1714108792]
+[2024-04-30 07:39:32] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-04-30 07:39:32] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/e9/c2/500013a94a1e22cd97723549da88e5f9a837b79f68f80e8cd81b1f54c726/catnekaise.ghrawel-0.0.8.tar.gz
+[2024-04-30 07:39:32] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/9f/57/6cf77585a613dd19c046aa7ad3de864c4165192b4bcdce3c5c25683a1982/pulumi_azuredevops-3.1.0a1714108792.tar.gz
+[2024-04-30 07:39:32] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-04-30 07:39:32] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/9e/68/be840f6d81c33a5e82f08769c3e89962935a644aec6de3c28072507e3b86/pulumi_azuredevops-3.1.0a1714454444.tar.gz
+[2024-04-30 07:39:32] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/15/a1/d4db42648d073fac0fdfa638072b7600d69d0d1c58b390c2894eb9a6ceae/catnekaise.ghrawel-0.0.9.tar.gz
+[2024-04-30 07:39:32] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-04-30 07:39:33] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-04-30 07:39:33] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240430/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-04-30 07:39:33] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-04-30 07:39:33] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1714108792.tar.gz tmp/pulumi_azuredevops-3.1.0a1714454444.tar.gz --markdown 20240430/p/pulumi-azuredevops/3.1.0a1714108792-3.1.0a1714454444/README.md --exclude *.pyd
+[2024-04-30 07:39:33] INFO root fetch - processPackages [catnekaise.ghrawel]: executing diffoscope
+[2024-04-30 07:39:33] INFO root fetch - processPackages [catnekaise.ghrawel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.ghrawel-0.0.8.tar.gz tmp/catnekaise.ghrawel-0.0.9.tar.gz --markdown 20240430/c/catnekaise.ghrawel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 07:39:33] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-04-30 07:39:33] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-04-30 07:39:33] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-04-30 07:39:34] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1714108792.tar.gz]
+[2024-04-30 07:39:34] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1714454444.tar.gz]
+[2024-04-30 07:39:34] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-04-30 07:39:35] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.8.tar.gz]
+[2024-04-30 07:39:35] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.9.tar.gz]
+[2024-04-30 07:39:35] INFO root fetch - main [MainThread]: End processing [catnekaise.ghrawel]: success
+[2024-04-30 07:39:35] INFO root fetch - main [MainThread]: Store serial: [22996654]
