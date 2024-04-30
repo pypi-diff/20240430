@@ -10556,3 +10556,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 06:08:35] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia_blockchain-2.3.0rc4.tar.gz]
 [2024-04-30 06:08:35] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2024-04-30 06:08:35] INFO root fetch - main [MainThread]: Store serial: [22995420]
+[2024-04-30 06:10:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995420]
+[2024-04-30 06:10:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 06:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2024-04-30 06:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-04-30 06:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrx-link-git
+[2024-04-30 06:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cynosdb
+[2024-04-30 06:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-dasb
+[2024-04-30 06:10:45] INFO root fetch - processPackages [xklb]: New version: [2.7.5] Old Version: [2.6.9]
+[2024-04-30 06:10:45] INFO root fetch - processPackages [mrx-link-git]: New version: [1.1.0.dev0] Old Version: [1.0.2.dev1]
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:10:45] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/38/2a/2958f5a1fedda07c3aa6cb197a1270734f34698793fb935ae5debd5e8c0c/xklb-2.6.9.tar.gz
+[2024-04-30 06:10:45] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: Downloading https://files.pythonhosted.org/packages/7e/3d/dbcbeeb4880c5cc81626883dc7f42efe27ea2ee570991683729d7840d55c/tencentcloud-sdk-python-cynosdb-3.0.998.tar.gz
+[2024-04-30 06:10:45] INFO root fetch - processPackages [mrx-link-git]: Downloading https://files.pythonhosted.org/packages/fd/b2/3cc4e1a61202ab67b5c4bc05f96bbeeb37ca18271e16f72330b0722d05f7/mrx_link_git-1.0.2.dev1-cp39-cp39-win_amd64.whl
+[2024-04-30 06:10:45] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-30 06:10:45] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/9e/84/69b286c294ae1210e16f255aeae6212e50f104527c7bb5852c2e903805c8/xklb-2.7.5.tar.gz
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: Downloading https://files.pythonhosted.org/packages/81/0c/fa15cdbdae38913df0b9ba14dc8abd121c1d66835d33def817b88af86f0f/tencentcloud-sdk-python-dasb-3.0.998.tar.gz
+[2024-04-30 06:10:45] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-30 06:10:45] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.6.9.tar.gz tmp/xklb-2.7.5.tar.gz --markdown 20240430/x/xklb/2.6.9-2.7.5/README.md --exclude *.pyd
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: Downloading https://files.pythonhosted.org/packages/e4/90/78e21811f94c6334c205a356584316ca1fda1f490206dc9ee63ba4cc181e/tencentcloud-sdk-python-cynosdb-3.0.999.tar.gz
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: executing diffoscope
+[2024-04-30 06:10:45] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cynosdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cynosdb-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-cynosdb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: Downloading https://files.pythonhosted.org/packages/bb/c5/60e638ac5130727d80ac1443b5fb8f318fa023d808333ea1b6bbf9880b97/tencentcloud-sdk-python-dasb-3.0.999.tar.gz
+[2024-04-30 06:10:46] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: executing diffoscope
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dasb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dasb-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-dasb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:10:46] INFO root fetch - processPackages [mrx-link-git]: Downloading https://files.pythonhosted.org/packages/1a/df/9f906e08daf1491b06a57d3b090728ea1d9e4aa4c15328c63f7355c9e90e/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl
+[2024-04-30 06:10:46] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-30 06:10:46] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240430/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cynosdb-3.0.998.tar.gz]
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-cynosdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cynosdb-3.0.999.tar.gz]
+[2024-04-30 06:10:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cynosdb]: success
+[2024-04-30 06:10:46] INFO root fetch - processPackages [mrx-link-git]: executing diffoscope
+[2024-04-30 06:10:46] INFO root fetch - processPackages [mrx-link-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_git-1.0.2.dev1-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20240430/m/mrx-link-git/1.0.2.dev1-1.1.0.dev0/README.md --exclude *.pyd
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dasb-3.0.998.tar.gz]
+[2024-04-30 06:10:46] INFO root fetch - processPackages [tencentcloud-sdk-python-dasb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dasb-3.0.999.tar.gz]
+[2024-04-30 06:10:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dasb]: success
+[2024-04-30 06:10:47] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.9.tar.gz]
+[2024-04-30 06:10:47] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.7.5.tar.gz]
+[2024-04-30 06:10:47] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-30 06:10:47] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-30 06:10:47] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-30 06:10:47] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-30 06:10:58] INFO root fetch - processPackages [mrx-link-git]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_git-1.0.2.dev1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 06:10:58] INFO root fetch - processPackages [mrx-link-git]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 06:10:58] INFO root fetch - main [MainThread]: End processing [mrx-link-git]: success
+[2024-04-30 06:10:58] INFO root fetch - main [MainThread]: Store serial: [22995455]
