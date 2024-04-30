@@ -21748,3 +21748,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:28:27] INFO root fetch - processPackages [FlashRank]: Remove: archive file [/home/abi/fetcher/tmp/FlashRank-0.2.1.tar.gz]
 [2024-04-30 11:28:27] INFO root fetch - main [MainThread]: End processing [FlashRank]: success
 [2024-04-30 11:28:27] INFO root fetch - main [MainThread]: Store serial: [22999595]
+[2024-04-30 11:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999595]
+[2024-04-30 11:30:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 11:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raster-zonal-stats
+[2024-04-30 11:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: send-email-free-fast
+[2024-04-30 11:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-syndicate
+[2024-04-30 11:30:36] WARNING root fetch - processPackages [send-email-free-fast]: Skipping, unable to determine old version
+[2024-04-30 11:30:36] INFO root fetch - main [MainThread]: End processing [send-email-free-fast] error
+[2024-04-30 11:30:36] WARNING root fetch - processPackages [raster-zonal-stats]: Skipping, unable to determine old version
+[2024-04-30 11:30:36] INFO root fetch - main [MainThread]: End processing [raster-zonal-stats] error
+[2024-04-30 11:30:36] INFO root fetch - processPackages [aws-syndicate]: New version: [1.9.6] Old Version: [1.9.4]
+[2024-04-30 11:30:36] INFO root fetch - processPackages [aws-syndicate]: Downloading https://files.pythonhosted.org/packages/47/2d/b452b8d2bc7ff03dd23fab7779b84d1142cb85cb630d2ea027a04dc64b08/aws-syndicate-1.9.4.tar.gz
+[2024-04-30 11:30:36] INFO root fetch - processPackages [aws-syndicate]: Downloading https://files.pythonhosted.org/packages/43/b1/5d83585a6e4711dd87d8f7d1a02ac5df4ce206eb737176699dd88db6d2c4/aws-syndicate-1.9.6.tar.gz
+[2024-04-30 11:30:36] INFO root fetch - processPackages [aws-syndicate]: executing diffoscope
+[2024-04-30 11:30:36] INFO root fetch - processPackages [aws-syndicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-syndicate-1.9.4.tar.gz tmp/aws-syndicate-1.9.6.tar.gz --markdown 20240430/a/aws-syndicate/1.9.4-1.9.6/README.md --exclude *.pyd
+[2024-04-30 11:30:38] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.4.tar.gz]
+[2024-04-30 11:30:38] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.6.tar.gz]
+[2024-04-30 11:30:38] INFO root fetch - main [MainThread]: End processing [aws-syndicate]: success
+[2024-04-30 11:30:38] INFO root fetch - main [MainThread]: Store serial: [22999609]
