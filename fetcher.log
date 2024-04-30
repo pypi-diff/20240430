@@ -7798,3 +7798,18 @@
 [2024-04-30 04:45:17] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.9-py3-none-any.whl.zip]
 [2024-04-30 04:45:17] INFO root fetch - main [MainThread]: End processing [socket-request]: success
 [2024-04-30 04:45:17] INFO root fetch - main [MainThread]: Store serial: [22994519]
+[2024-04-30 04:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994519]
+[2024-04-30 04:47:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 04:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RPICommLink
+[2024-04-30 04:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2024-04-30 04:47:26] WARNING root fetch - processPackages [RPICommLink]: Skipping, unable to determine old version
+[2024-04-30 04:47:26] INFO root fetch - main [MainThread]: End processing [RPICommLink] error
+[2024-04-30 04:47:26] INFO root fetch - processPackages [alacorder]: New version: [81.2.9] Old Version: [81.2.8]
+[2024-04-30 04:47:26] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/3c/8b/06b6c641077ef571cfce00037b04fbed587c976602b1864a039adf4a6cc5/alacorder-81.2.8.tar.gz
+[2024-04-30 04:47:27] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/19/45/ba44b965f3cdfef0cc322e5c74a77dae65a86854c8efd06a64a5003cb675/alacorder-81.2.9.tar.gz
+[2024-04-30 04:47:27] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2024-04-30 04:47:27] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.2.8.tar.gz tmp/alacorder-81.2.9.tar.gz --markdown 20240430/a/alacorder/81.2.8-81.2.9/README.md --exclude *.pyd
+[2024-04-30 04:47:28] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.8.tar.gz]
+[2024-04-30 04:47:28] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
+[2024-04-30 04:47:28] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2024-04-30 04:47:28] INFO root fetch - main [MainThread]: Store serial: [22994527]
