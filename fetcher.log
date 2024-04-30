@@ -21971,3 +21971,31 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:39:36] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.3.2.tar.gz]
 [2024-04-30 11:39:36] INFO root fetch - main [MainThread]: End processing [cisco-acl]: success
 [2024-04-30 11:39:36] INFO root fetch - main [MainThread]: Store serial: [22999683]
+[2024-04-30 11:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999683]
+[2024-04-30 11:41:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 11:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedepot-depot
+[2024-04-30 11:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codedepot-depot
+[2024-04-30 11:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kedro-expectations
+[2024-04-30 11:41:44] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:41:44] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:41:44] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-04-30 11:41:44] INFO root fetch - processPackages [kedro-expectations]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-30 11:41:44] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-04-30 11:41:45] INFO root fetch - processPackages [kedro-expectations]: Downloading https://files.pythonhosted.org/packages/68/2c/c0393766733e9f1de614e92fe44b426466b961195cb257214b633403969d/kedro-expectations-0.4.2.tar.gz
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/ba/33/b42289173e6854c4adaaec4366238ee82a8aa6fe61b33aad0d27447bf1bc/codedepot_depot-0.0.9.tar.gz
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/ba/33/b42289173e6854c4adaaec4366238ee82a8aa6fe61b33aad0d27447bf1bc/codedepot_depot-0.0.9.tar.gz
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.8.tar.gz tmp/codedepot_depot-0.0.9.tar.gz --markdown 20240430/c/codedepot-depot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.8.tar.gz tmp/codedepot_depot-0.0.9.tar.gz --markdown 20240430/c/codedepot-depot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:41:45] INFO root fetch - processPackages [kedro-expectations]: Downloading https://files.pythonhosted.org/packages/a3/59/db363180668472a5a29f04df02550360ebc22a62f5eb0a87feeff77acc2d/kedro_expectations-0.4.3.tar.gz
+[2024-04-30 11:41:45] INFO root fetch - processPackages [kedro-expectations]: executing diffoscope
+[2024-04-30 11:41:45] INFO root fetch - processPackages [kedro-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-expectations-0.4.2.tar.gz tmp/kedro_expectations-0.4.3.tar.gz --markdown 20240430/k/kedro-expectations/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.8.tar.gz]
+[2024-04-30 11:41:45] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.9.tar.gz]
+[2024-04-30 11:41:45] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-30 11:41:46] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-30 11:41:46] INFO root fetch - processPackages [kedro-expectations]: Remove: archive file [/home/abi/fetcher/tmp/kedro-expectations-0.4.2.tar.gz]
+[2024-04-30 11:41:46] INFO root fetch - processPackages [kedro-expectations]: Remove: archive file [/home/abi/fetcher/tmp/kedro_expectations-0.4.3.tar.gz]
+[2024-04-30 11:41:46] INFO root fetch - main [MainThread]: End processing [kedro-expectations]: success
+[2024-04-30 11:41:46] INFO root fetch - main [MainThread]: Store serial: [22999692]
