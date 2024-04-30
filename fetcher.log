@@ -7813,3 +7813,23 @@
 [2024-04-30 04:47:28] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
 [2024-04-30 04:47:28] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2024-04-30 04:47:28] INFO root fetch - main [MainThread]: Store serial: [22994527]
+[2024-04-30 04:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994527]
+[2024-04-30 04:49:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 04:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commonhelper
+[2024-04-30 04:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qleegss
+[2024-04-30 04:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdpx
+[2024-04-30 04:49:38] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 04:49:38] INFO root fetch - processPackages [gdpx]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 04:49:38] WARNING root fetch - processPackages [commonhelper]: Skipping, unable to determine old version
+[2024-04-30 04:49:38] INFO root fetch - main [MainThread]: End processing [commonhelper] error
+[2024-04-30 04:49:38] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-30 04:49:38] INFO root fetch - processPackages [gdpx]: Downloading https://files.pythonhosted.org/packages/69/93/d382536c8a1744dbb3b5c63ec80db3e30c39bce0157f666a5ca0fa9e669c/gdpx-0.0.8.tar.gz
+[2024-04-30 04:49:38] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-30 04:49:38] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-30 04:49:38] INFO root fetch - processPackages [gdpx]: Downloading https://files.pythonhosted.org/packages/4e/14/ca62f860ff65f47935ace1108dcc726d05adb0b038fbd9fc0c2c86914b45/gdpx-0.0.9.tar.gz
+[2024-04-30 04:49:38] INFO root fetch - processPackages [gdpx]: executing diffoscope
+[2024-04-30 04:49:38] INFO root fetch - processPackages [gdpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdpx-0.0.8.tar.gz tmp/gdpx-0.0.9.tar.gz --markdown 20240430/g/gdpx/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 04:49:40] INFO root fetch - processPackages [gdpx]: Remove: archive file [/home/abi/fetcher/tmp/gdpx-0.0.8.tar.gz]
+[2024-04-30 04:49:40] INFO root fetch - processPackages [gdpx]: Remove: archive file [/home/abi/fetcher/tmp/gdpx-0.0.9.tar.gz]
+[2024-04-30 04:49:40] INFO root fetch - main [MainThread]: End processing [gdpx]: success
+[2024-04-30 04:49:40] INFO root fetch - main [MainThread]: Store serial: [22994538]
