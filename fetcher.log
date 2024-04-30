@@ -20543,3 +20543,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:57:03] INFO root fetch - processPackages [pystarburst]: Remove: archive file [/home/abi/fetcher/tmp/pystarburst-0.8.0-py3-none-any.whl.zip]
 [2024-04-30 10:57:03] INFO root fetch - main [MainThread]: End processing [pystarburst]: success
 [2024-04-30 10:57:03] INFO root fetch - main [MainThread]: Store serial: [22999145]
+[2024-04-30 10:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999145]
+[2024-04-30 10:59:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyad
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretscraper
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: E-Cut
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codegrade
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2024-04-30 10:59:12] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 10:59:12] INFO root fetch - processPackages [secretscraper]: New version: [1.3.9.1] Old Version: [1.3.9]
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-30 10:59:12] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-30 10:59:12] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/58/6b/d80103ad3ebfb3b9283ea620c71d5ab1f2a030ec4115f991c5835ed93e22/secretscraper-1.3.9.tar.gz
+[2024-04-30 10:59:12] WARNING root fetch - processPackages [E-Cut]: Skipping, unable to determine old version
+[2024-04-30 10:59:12] INFO root fetch - main [MainThread]: End processing [E-Cut] error
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-30 10:59:12] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2024-04-30 10:59:12] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-30 10:59:12] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-30 10:59:12] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2024-04-30 10:59:13] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-30 10:59:13] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240430/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 10:59:13] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/b7/f4/457a29567f08ec369fd76e4722307ae49300fd8f8d799a05f01cf70515e5/secretscraper-1.3.9.1.tar.gz
+[2024-04-30 10:59:13] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-30 10:59:13] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240430/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-30 10:59:13] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-30 10:59:13] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.9.tar.gz tmp/secretscraper-1.3.9.1.tar.gz --markdown 20240430/s/secretscraper/1.3.9-1.3.9.1/README.md --exclude *.pyd
+[2024-04-30 10:59:13] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2024-04-30 10:59:13] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2024-04-30 10:59:13] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20240430/c/codegrade/16.1.8-16.1.9/README.md --exclude *.pyd
+[2024-04-30 10:59:13] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-30 10:59:13] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-30 10:59:13] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-30 10:59:13] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-30 10:59:13] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-30 10:59:13] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-30 10:59:13] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.tar.gz]
+[2024-04-30 10:59:13] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.1.tar.gz]
+[2024-04-30 10:59:13] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-30 10:59:15] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2024-04-30 10:59:15] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2024-04-30 10:59:15] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2024-04-30 10:59:15] INFO root fetch - main [MainThread]: Store serial: [22999162]
