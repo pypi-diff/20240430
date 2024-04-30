@@ -2753,3 +2753,47 @@
 [2024-04-30 02:44:50] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404290044.tar.gz]
 [2024-04-30 02:44:50] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-30 02:44:50] INFO root fetch - main [MainThread]: Store serial: [22992686]
+[2024-04-30 02:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992686]
+[2024-04-30 02:47:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-explorer
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dknovautils
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytubefix
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExcelFormulaParser
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nm-magic-wand-nightly
+[2024-04-30 02:47:08] INFO root fetch - processPackages [pytubefix]: New version: [5.3rc2] Old Version: [5.3rc1]
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ExcelFormulaParser]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 02:47:08] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240429] Old Version: [0.2.2.20240426]
+[2024-04-30 02:47:08] INFO root fetch - processPackages [dknovautils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 02:47:08] INFO root fetch - processPackages [model-explorer]: New version: [0.0.81] Old Version: [0.0.80]
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ExcelFormulaParser]: Downloading https://files.pythonhosted.org/packages/fa/8e/0b8fc4c5a46830112c33d1142d2147eb21e8e5132ba55c1154484a0c4031/ExcelFormulaParser-1.0.0.tar.gz
+[2024-04-30 02:47:08] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/9a/00/57a16f1816acbf53986f957c994685c7b8faa60f2973392a7db79f86773f/pytubefix-5.3rc1.tar.gz
+[2024-04-30 02:47:08] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/a5/83/f1ea17e2838016f615d79958150e486b6751734e6e82fe2019908a23efb6/nm_magic_wand_nightly-0.2.2.20240426-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-30 02:47:08] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/5d/40/3aa6dc0713919570a5de2de45fb9628566350c0cda9f344e1c8e2fd9c58b/dknovautils-0.2.8.tar.gz
+[2024-04-30 02:47:08] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76591640>=10485760
+[2024-04-30 02:47:08] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-30 02:47:08] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/c9/06/1f25eeab17abf5bd04f1168d6b3d3287a74bb05d318b9763d69fa3ec256a/model_explorer-0.0.80.tar.gz
+[2024-04-30 02:47:08] INFO root fetch - processPackages [ExcelFormulaParser]: Downloading https://files.pythonhosted.org/packages/7b/bf/10d3123f28ddff9d7ac9b0adb6d6574125e20d2a56524059c5c6e88a9ce7/ExcelFormulaParser-1.0.1.tar.gz
+[2024-04-30 02:47:08] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/0e/53/a876751d299130f7983380ab69a0e7ef084aa32d849228d41250913731f6/dknovautils-0.2.9.tar.gz
+[2024-04-30 02:47:09] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/70/6a/3a43c115ab437c8077e5a35c4bbb58ca1621c9d57b2a388cc6e90b6a0f0a/pytubefix-5.3rc2.tar.gz
+[2024-04-30 02:47:09] INFO root fetch - processPackages [ExcelFormulaParser]: executing diffoscope
+[2024-04-30 02:47:09] INFO root fetch - processPackages [ExcelFormulaParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExcelFormulaParser-1.0.0.tar.gz tmp/ExcelFormulaParser-1.0.1.tar.gz --markdown 20240430/E/ExcelFormulaParser/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 02:47:09] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2024-04-30 02:47:09] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.2.8.tar.gz tmp/dknovautils-0.2.9.tar.gz --markdown 20240430/d/dknovautils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 02:47:09] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-30 02:47:09] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.3rc1.tar.gz tmp/pytubefix-5.3rc2.tar.gz --markdown 20240430/p/pytubefix/5.3rc1-5.3rc2/README.md --exclude *.pyd
+[2024-04-30 02:47:09] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/62/3b/3a86ea3eb631c6c24294faa2ec6bc7a7da912d7c187abdc3284297ee796d/model_explorer-0.0.81.tar.gz
+[2024-04-30 02:47:09] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-30 02:47:09] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer-0.0.80.tar.gz tmp/model_explorer-0.0.81.tar.gz --markdown 20240430/m/model-explorer/0.0.80-0.0.81/README.md --exclude *.pyd
+[2024-04-30 02:47:09] INFO root fetch - processPackages [ExcelFormulaParser]: Remove: archive file [/home/abi/fetcher/tmp/ExcelFormulaParser-1.0.0.tar.gz]
+[2024-04-30 02:47:09] INFO root fetch - processPackages [ExcelFormulaParser]: Remove: archive file [/home/abi/fetcher/tmp/ExcelFormulaParser-1.0.1.tar.gz]
+[2024-04-30 02:47:09] INFO root fetch - main [MainThread]: End processing [ExcelFormulaParser]: success
+[2024-04-30 02:47:09] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.8.tar.gz]
+[2024-04-30 02:47:09] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.9.tar.gz]
+[2024-04-30 02:47:09] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2024-04-30 02:47:09] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc1.tar.gz]
+[2024-04-30 02:47:09] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc2.tar.gz]
+[2024-04-30 02:47:09] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-30 02:47:19] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.80.tar.gz]
+[2024-04-30 02:47:19] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.81.tar.gz]
+[2024-04-30 02:47:19] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-30 02:47:19] INFO root fetch - main [MainThread]: Store serial: [22992703]
