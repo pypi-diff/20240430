@@ -21590,3 +21590,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:21:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430075413.tar.gz]
 [2024-04-30 11:21:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-30 11:21:53] INFO root fetch - main [MainThread]: Store serial: [22999530]
+[2024-04-30 11:23:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999530]
+[2024-04-30 11:24:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nasa-apod
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yedextended
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nasa-apod
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sfdmap2
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-furiosa-processor
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsp-tools
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fse.torii
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: postnl-ecommerce-sdk
+[2024-04-30 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-jsc-custom
+[2024-04-30 11:24:03] WARNING root fetch - processPackages [nasa-apod]: Skipping, unable to determine old version
+[2024-04-30 11:24:03] INFO root fetch - main [MainThread]: End processing [nasa-apod] error
+[2024-04-30 11:24:03] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 11:24:03] WARNING root fetch - processPackages [yedextended]: Skipping, unable to determine old version
+[2024-04-30 11:24:03] INFO root fetch - main [MainThread]: End processing [yedextended] error
+[2024-04-30 11:24:03] WARNING root fetch - processPackages [nasa-apod]: Skipping, unable to determine old version
+[2024-04-30 11:24:03] INFO root fetch - main [MainThread]: End processing [nasa-apod] error
+[2024-04-30 11:24:03] INFO root fetch - processPackages [sfdmap2]: New version: [0.2.2.post2] Old Version: [0.2.2.post1]
+[2024-04-30 11:24:04] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-04-30 11:24:04] INFO root fetch - processPackages [fse.torii]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 11:24:04] WARNING root fetch - processPackages [pms-furiosa-processor]: Skipping, unable to determine old version
+[2024-04-30 11:24:04] INFO root fetch - main [MainThread]: End processing [pms-furiosa-processor] error
+[2024-04-30 11:24:04] WARNING root fetch - processPackages [postnl-ecommerce-sdk]: Skipping, unable to determine old version
+[2024-04-30 11:24:04] INFO root fetch - main [MainThread]: End processing [postnl-ecommerce-sdk] error
+[2024-04-30 11:24:04] INFO root fetch - processPackages [dsp-tools]: New version: [7.1.3.post2] Old Version: [7.1.3.post1]
+[2024-04-30 11:24:04] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-04-30 11:24:04] INFO root fetch - processPackages [sfdmap2]: Downloading https://files.pythonhosted.org/packages/f1/b2/26ae1f977b90bf53dd8a44fcfc4f783ce98e35ba5dab8ffdaf2180c6d552/sfdmap2-0.2.2.post1.tar.gz
+[2024-04-30 11:24:04] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/ff/04/192327907e34a9ff3f28205c69b1a394130d4f2e600adde636374f101742/dsp_tools-7.1.3.post1.tar.gz
+[2024-04-30 11:24:04] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/86/be/ea7e17e268a89c5b8f7f45e4756f2969efab0b4e8bc89d4187f8ed943424/fse.torii-1.0.8-py3-none-any.whl
+[2024-04-30 11:24:04] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-04-30 11:24:04] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240430/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 11:24:04] INFO root fetch - processPackages [sfdmap2]: Downloading https://files.pythonhosted.org/packages/e4/63/e02b8f2da81de92a016a0bba7ff48029ff86e5bde9542df1c286a3c77e5e/sfdmap2-0.2.2.post2.tar.gz
+[2024-04-30 11:24:04] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/75/b3/4129b0355ba90c6a4fdc12e19a67b8b8004062e565a5de7ea7a5c5d609e8/dsp_tools-7.1.3.post2.tar.gz
+[2024-04-30 11:24:04] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/57/6c/1f7fb91feff671d0676889a3b774e33793c1670bb6f43f8b7164378491cb/fse.torii-1.0.9-py3-none-any.whl
+[2024-04-30 11:24:04] INFO root fetch - processPackages [sfdmap2]: executing diffoscope
+[2024-04-30 11:24:04] INFO root fetch - processPackages [sfdmap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfdmap2-0.2.2.post1.tar.gz tmp/sfdmap2-0.2.2.post2.tar.gz --markdown 20240430/s/sfdmap2/0.2.2.post1-0.2.2.post2/README.md --exclude *.pyd
+[2024-04-30 11:24:04] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-04-30 11:24:04] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.3.post1.tar.gz tmp/dsp_tools-7.1.3.post2.tar.gz --markdown 20240430/d/dsp-tools/7.1.3.post1-7.1.3.post2/README.md --exclude *.pyd
+[2024-04-30 11:24:04] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2024-04-30 11:24:04] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.8-py3-none-any.whl.zip tmp/fse.torii-1.0.9-py3-none-any.whl.zip --markdown 20240430/f/fse.torii/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 11:24:05] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-04-30 11:24:05] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-04-30 11:24:05] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-04-30 11:24:05] INFO root fetch - processPackages [sfdmap2]: Remove: archive file [/home/abi/fetcher/tmp/sfdmap2-0.2.2.post1.tar.gz]
+[2024-04-30 11:24:05] INFO root fetch - processPackages [sfdmap2]: Remove: archive file [/home/abi/fetcher/tmp/sfdmap2-0.2.2.post2.tar.gz]
+[2024-04-30 11:24:05] INFO root fetch - main [MainThread]: End processing [sfdmap2]: success
+[2024-04-30 11:24:05] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.8-py3-none-any.whl.zip]
+[2024-04-30 11:24:05] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.9-py3-none-any.whl.zip]
+[2024-04-30 11:24:05] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2024-04-30 11:24:05] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post1.tar.gz]
+[2024-04-30 11:24:05] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post2.tar.gz]
+[2024-04-30 11:24:05] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-04-30 11:24:05] INFO root fetch - main [MainThread]: Store serial: [22999558]
