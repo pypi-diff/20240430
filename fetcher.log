@@ -8630,3 +8630,290 @@
 [2024-04-30 05:27:01] INFO root fetch - processPackages [aws-cdk.aws-iotevents-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-iotevents-alpha-2.99.1a0.tar.gz]
 [2024-04-30 05:27:01] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-iotevents-alpha]: success
 [2024-04-30 05:27:01] INFO root fetch - main [MainThread]: Store serial: [22994800]
+[2024-04-30 05:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994800]
+[2024-04-30 05:29:10] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-cdk.aws-ivs-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-cdk.aws-kinesisanalytics-flink-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aegis-tools
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-cdk.aws-kinesisfirehose-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cdk.aws-kinesisfirehose-destinations-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-cdk.aws-lambda-go-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-cdk.aws-lambda-python-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-cdk.aws-location-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sc-file
+[2024-04-30 05:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-cdk.aws-msk-alpha
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aegis-tools]: New version: [2.6.0] Old Version: [2.5.9]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [sc-file]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: Downloading https://files.pythonhosted.org/packages/b6/ba/93a06c6fe5a7f2a7009c444de9dc9b7165e55d231571b243ecdb8d900334/aws-cdk.aws-ivs-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/86/34/82287ee9e33f9e2cd9da335dd9e911d14f902c0ebd6dea8f2fe6a47a20f6/aegis-tools-2.5.9.tar.gz
+[2024-04-30 05:29:10] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/95/42/598cfa08aa7bb6f7377a294f2dbd100b67001fdd64682d28178d0997f2a1/sc_file-3.1.1.tar.gz
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: Downloading https://files.pythonhosted.org/packages/8f/90/238a0413e2476943f5cb87763a129c2901302bf4051eae55faa750382a01/aws-cdk.aws-kinesisfirehose-destinations-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: Downloading https://files.pythonhosted.org/packages/1d/a5/b8a8225da12dbde08d5d0dd54e5491b0debe28df253c9c38ad082d6a361d/aws-cdk.aws-lambda-python-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: Downloading https://files.pythonhosted.org/packages/ba/75/f89261b47a76c58e758ceef588c67f40745b414179b323ef4333d95ebdbd/aws-cdk.aws-lambda-go-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:10] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: Downloading https://files.pythonhosted.org/packages/fb/0f/12d1b309c261e03ca6e761c042f616f85788601027439b7c35b2432e3185/aws-cdk.aws-kinesisanalytics-flink-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: Downloading https://files.pythonhosted.org/packages/02/a5/db39a232b2407faf9c63407e15b846f79785324e695c3a83d7a8b4d75b90/aws-cdk.aws-location-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: Downloading https://files.pythonhosted.org/packages/ed/07/b0ce1478959e7afa4d9087a35208f4b510ab76a5ac61937b2fc79fc9ac78/aws-cdk.aws-msk-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: Downloading https://files.pythonhosted.org/packages/0f/fa/ea8669ccfd883e96b99d2d2f84628c655a9b31e1821599127f765b717727/aws-cdk.aws-ivs-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: Downloading https://files.pythonhosted.org/packages/0e/2c/76bfc906109f59d1339f9260564ce44b40abdcaf9c5312334d07058d804e/aws-cdk.aws-kinesisfirehose-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/27/fc/c7822f805f6cb298e73c296b38f5314dfcacbf31b91e3e655fec10df767f/aegis-tools-2.6.0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-ivs-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-ivs-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-ivs-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/55/8c/5c004b74cc12701b153c07e68b46b0164545efae45d4436ee11766a21e4d/sc_file-3.2.0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.5.9.tar.gz tmp/aegis-tools-2.6.0.tar.gz --markdown 20240430/a/aegis-tools/2.5.9-2.6.0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: Downloading https://files.pythonhosted.org/packages/3c/bd/7e534dbf0f5916492519fe0d0da288442660d626d220e104bf9de0d02e90/aws-cdk.aws-lambda-go-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: Downloading https://files.pythonhosted.org/packages/85/61/96f22d95d389924513c318e417fd38f5b04c1b3a0f73ce9eb9ad7717c0ba/aws-cdk.aws-kinesisfirehose-destinations-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: Downloading https://files.pythonhosted.org/packages/8a/5f/c21183ea170f0ee5377ab8897232ef76847a7d19299ac926dbafde78b0c9/aws-cdk.aws-lambda-python-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [sc-file]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [sc-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_file-3.1.1.tar.gz tmp/sc_file-3.2.0.tar.gz --markdown 20240430/s/sc-file/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: Downloading https://files.pythonhosted.org/packages/30/40/e444b0618fd4d039d3063afcb774d8e540f4c2c123c1dcd6577e70f63aea/aws-cdk.aws-kinesisanalytics-flink-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: Downloading https://files.pythonhosted.org/packages/bb/90/e0b8461321645a6c2dbeb455d3770e66ee7491a3366eaeef83d439fd5fa4/aws-cdk.aws-msk-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-lambda-go-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-lambda-go-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-lambda-go-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: Downloading https://files.pythonhosted.org/packages/b0/c3/a8c1313eda33d040083ca0d7547e566b91ccbf2a0f46f0d8c7e42dcc1be7/aws-cdk.aws-kinesisfirehose-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: Downloading https://files.pythonhosted.org/packages/f8/ee/e01bc11ff696efcfdcf84bce7a4f4dc472eefcc6189e69c61a976a953dbe/aws-cdk.aws-location-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-kinesisfirehose-destinations-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-kinesisfirehose-destinations-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-kinesisfirehose-destinations-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-lambda-python-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-lambda-python-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-lambda-python-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-kinesisanalytics-flink-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-kinesisanalytics-flink-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-kinesisanalytics-flink-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-msk-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-msk-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-msk-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-location-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-location-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-location-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: executing diffoscope
+[2024-04-30 05:29:11] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-kinesisfirehose-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-kinesisfirehose-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-kinesisfirehose-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-ivs-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-ivs-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-ivs-alpha]: Start processing: aws-cdk.aws-neptune-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-ivs-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.9.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.6.0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aegis-tools]: Start processing: aws-cdk.aws-pipes-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: New version: [2.139.1a0] Old Version: [2.139.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.1.1.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.2.0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [sc-file]: Start processing: aws-cdk.aws-pipes-enrichments-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [sc-file]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-lambda-go-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-lambda-go-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-lambda-go-alpha]: Start processing: aws-cdk.aws-pipes-sources-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-lambda-go-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: Downloading https://files.pythonhosted.org/packages/41/f5/191bda36feb820d54a6bb0ca7fe8b24344ad53005cb73a5b7f2b150dd202/aws-cdk.aws-neptune-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: Downloading https://files.pythonhosted.org/packages/80/7a/378de543c440495d4a4055149159fa2fcb230ac3b71d8482ec0a41aabda3/aws-cdk.aws-pipes-alpha-2.139.0a0.tar.gz
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: New version: [2.139.1a0] Old Version: [2.139.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-lambda-python-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-lambda-python-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-lambda-python-alpha]: Start processing: aws-cdk.aws-pipes-targets-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-lambda-python-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-kinesisfirehose-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-kinesisfirehose-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-alpha]: Start processing: aws-cdk.aws-redshift-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-kinesisfirehose-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: New version: [2.139.1a0] Old Version: [2.139.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-msk-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-msk-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-msk-alpha]: Start processing: aws-cdk.aws-route53resolver-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-msk-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-kinesisanalytics-flink-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-kinesisanalytics-flink-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisanalytics-flink-alpha]: Start processing: aws-cdk.aws-s3objectlambda-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-kinesisanalytics-flink-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-location-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-location-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-location-alpha]: Start processing: carlschader-ml-utils
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-location-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: New version: [2.139.1a0] Old Version: [2.139.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: Downloading https://files.pythonhosted.org/packages/3d/6c/8eeaf21cee94e0de03d60808e1a11af3f5bc71ac354b52811afdf3f023af/aws-cdk.aws-pipes-enrichments-alpha-2.139.0a0.tar.gz
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-kinesisfirehose-destinations-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-kinesisfirehose-destinations-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-kinesisfirehose-destinations-alpha]: Start processing: aws-cdk.aws-sagemaker-alpha
+[2024-04-30 05:29:12] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-kinesisfirehose-destinations-alpha]: success
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [carlschader-ml-utils]: New version: [0.4.5] Old Version: [0.4.3]
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: Downloading https://files.pythonhosted.org/packages/e8/25/b036a6a035a2457df4038eeb93bb365c203898ab542e43465940934ba0c9/aws-cdk.aws-pipes-sources-alpha-2.139.0a0.tar.gz
+[2024-04-30 05:29:12] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: Downloading https://files.pythonhosted.org/packages/5d/23/ce5d102f5aa5d94b01262c541b643c97bdfaba12f5309b64325a550a6607/aws-cdk.aws-pipes-alpha-2.139.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: Downloading https://files.pythonhosted.org/packages/3a/2c/553d17f3b72907b590f1fd76a2f69e528e761d144c3a06dbfe64688d31d2/aws-cdk.aws-neptune-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: Downloading https://files.pythonhosted.org/packages/27/30/82601a83204feb702a5e17ded620e1208de22c5c249d1e6549a65146a69a/aws-cdk.aws-pipes-targets-alpha-2.139.0a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: Downloading https://files.pythonhosted.org/packages/a7/b0/b7d58b145607ce184dc8b366da2c35b65038d6a596e19d374339c140ead5/aws-cdk.aws-redshift-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: Downloading https://files.pythonhosted.org/packages/b6/a6/d671a000ccb7bbb3dccc9f6705b5bf7cd7dea8d2321efe59dda0064c1bfe/aws-cdk.aws-route53resolver-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-neptune-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-neptune-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-neptune-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: Downloading https://files.pythonhosted.org/packages/54/ab/5fa5ce950c50e43960a57b84a5e29beeefb29a946f6dedf1edb81406a8e0/aws-cdk.aws-s3objectlambda-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [carlschader-ml-utils]: Downloading https://files.pythonhosted.org/packages/7d/58/a236120e66d975f2831f605a6366b219d219b0a52b1efef5380cb4b1c1bf/carlschader_ml_utils-0.4.3-py3-none-any.whl
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: Downloading https://files.pythonhosted.org/packages/72/64/c34248f4654bb2d1718f4df848f68c151c1aed68e4968a9cd91abdceaef5/aws-cdk.aws-pipes-enrichments-alpha-2.139.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-pipes-alpha-2.139.0a0.tar.gz tmp/aws-cdk.aws-pipes-alpha-2.139.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-pipes-alpha/2.139.0a0-2.139.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: Downloading https://files.pythonhosted.org/packages/2b/b5/4c4b9fe76b78d26cb1fc42e0b343581422934ba2c495b10d86c46805a81d/aws-cdk.aws-pipes-sources-alpha-2.139.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: Downloading https://files.pythonhosted.org/packages/40/1c/f37e8e9d057ece156e7b58c2877108c324abc7afce259fde891e3d662b0e/aws-cdk.aws-sagemaker-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: Downloading https://files.pythonhosted.org/packages/93/61/aa6fb1d8386777cba06261e9426bc649272ec78ab813c4aefd13f3465a2b/aws-cdk.aws-pipes-targets-alpha-2.139.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-pipes-enrichments-alpha-2.139.0a0.tar.gz tmp/aws-cdk.aws-pipes-enrichments-alpha-2.139.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-pipes-enrichments-alpha/2.139.0a0-2.139.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: Downloading https://files.pythonhosted.org/packages/65/dc/9e53cdb0764400ba08f9c994438a6296ca1e870256b298264fd9dcd6b87a/aws-cdk.aws-redshift-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: Downloading https://files.pythonhosted.org/packages/2c/f1/20e68b8e72ed6c04b6934842590b284b88a9c50aa4bb1445d76af5189b83/aws-cdk.aws-route53resolver-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-pipes-sources-alpha-2.139.0a0.tar.gz tmp/aws-cdk.aws-pipes-sources-alpha-2.139.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-pipes-sources-alpha/2.139.0a0-2.139.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: Downloading https://files.pythonhosted.org/packages/e5/eb/49b570209bc77bfc58a1431c0c9307c644b373e859a630aef53b335ef205/aws-cdk.aws-s3objectlambda-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [carlschader-ml-utils]: Downloading https://files.pythonhosted.org/packages/b8/1f/13e2be97a4675e68b6fe0de6e6f061d51687c39c50957aacde68e1d19c66/carlschader_ml_utils-0.4.5.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-pipes-targets-alpha-2.139.0a0.tar.gz tmp/aws-cdk.aws-pipes-targets-alpha-2.139.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-pipes-targets-alpha/2.139.0a0-2.139.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-route53resolver-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-route53resolver-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-route53resolver-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-redshift-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-redshift-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-redshift-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-s3objectlambda-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-s3objectlambda-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-s3objectlambda-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [carlschader-ml-utils]: executing diffoscope
+[2024-04-30 05:29:13] INFO root fetch - processPackages [carlschader-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carlschader_ml_utils-0.4.3-py3-none-any.whl.zip tmp/carlschader_ml_utils-0.4.5.tar.gz --markdown 20240430/c/carlschader-ml-utils/0.4.3-0.4.5/README.md --exclude *.pyd
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: Downloading https://files.pythonhosted.org/packages/cc/1f/396d28bb1fa6cae8f781c31335602c53c380a0de2f8d61bb20dd9267bc96/aws-cdk.aws-sagemaker-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-neptune-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-neptune-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:13] INFO root fetch - processPackages [aws-cdk.aws-neptune-alpha]: Start processing: aws-cdk.aws-scheduler-alpha
+[2024-04-30 05:29:13] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-neptune-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-alpha-2.139.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-alpha-2.139.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-alpha]: Start processing: aws-cdk.aws-scheduler-targets-alpha
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-pipes-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: executing diffoscope
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-sagemaker-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-sagemaker-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-sagemaker-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-enrichments-alpha-2.139.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-enrichments-alpha-2.139.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-enrichments-alpha]: Start processing: aws-cdk.aws-servicecatalogappregistry-alpha
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-pipes-enrichments-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: Downloading https://files.pythonhosted.org/packages/81/45/663c2f2caa7d96894207696862e32ce22cc97e4ffb9f74862be600c7954e/aws-cdk.aws-scheduler-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-sources-alpha-2.139.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-sources-alpha-2.139.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-sources-alpha]: Start processing: aws-cdk.cli-lib-alpha
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-pipes-sources-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: Downloading https://files.pythonhosted.org/packages/05/20/e84c4be72596cdcabf0bca0e9e399586ad5b7592f4b3f2e216901c581a4f/aws-cdk.aws-scheduler-targets-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-route53resolver-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-route53resolver-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-route53resolver-alpha]: Start processing: aws-cdk.cloud-assembly-schema
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-route53resolver-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-targets-alpha-2.139.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-pipes-targets-alpha-2.139.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-pipes-targets-alpha]: Start processing: aws-cdk.cx-api
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-pipes-targets-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-s3objectlambda-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-s3objectlambda-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-s3objectlambda-alpha]: Start processing: aws-cdk.integ-tests-alpha
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-s3objectlambda-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: Downloading https://files.pythonhosted.org/packages/1f/7f/2b252073b3328e14ce63cc0e1dbdf37a95194af0c4d905f0bb8e42a7971c/aws-cdk.aws-servicecatalogappregistry-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-redshift-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-redshift-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-redshift-alpha]: Start processing: altscore
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-redshift-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [carlschader-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/carlschader_ml_utils-0.4.3-py3-none-any.whl.zip]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [carlschader-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/carlschader_ml_utils-0.4.5.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [carlschader-ml-utils]: Start processing: aws-cdk.region-info
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [carlschader-ml-utils]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: Downloading https://files.pythonhosted.org/packages/32/55/7b22eccc24760c035f13b583346dfd761a1fe9b8688a51965112ef5c3210/aws-cdk.aws-scheduler-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Downloading https://files.pythonhosted.org/packages/15/91/9f68c92ef37cf92048911ee979ef5d48505ac5e0089c86f60b3757e2f4a1/aws-cdk.cli-lib-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.cx-api]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: Downloading https://files.pythonhosted.org/packages/ac/19/07238b2833c0739542a3f4616b316ded3ea24c3954ef94884ec7d76567c0/aws-cdk.aws-scheduler-targets-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: Downloading https://files.pythonhosted.org/packages/fd/6c/f2547d4668c14df1d4e989641d58408909e6c3a266209b48b670dd5de6b8/aws-cdk.cloud-assembly-schema-2.99.0.tar.gz
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-sagemaker-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-sagemaker-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-sagemaker-alpha]: Start processing: aws-cdk-lib
+[2024-04-30 05:29:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sagemaker-alpha]: success
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: executing diffoscope
+[2024-04-30 05:29:14] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-scheduler-targets-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-scheduler-targets-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-scheduler-targets-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-scheduler-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-scheduler-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-scheduler-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk-lib]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cx-api]: Downloading https://files.pythonhosted.org/packages/05/72/67e3cc1334f6b9741e0a40bc33143fdc729f1c2681e58a183470188ca2b5/aws-cdk.cx-api-2.99.0.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: Downloading https://files.pythonhosted.org/packages/ad/7b/4bc519ba51b9222d1d353b8edb0ae11408a27842b654e47dc8b60da5b06b/aws-cdk.aws-servicecatalogappregistry-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: Downloading https://files.pythonhosted.org/packages/ef/08/1a773b5f946d060f9585721000ac6dd9b7133d4a8129337b15399c8b3dee/aws-cdk.integ-tests-alpha-2.99.0a0.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.region-info]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-servicecatalogappregistry-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-servicecatalogappregistry-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.aws-servicecatalogappregistry-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: Downloading https://files.pythonhosted.org/packages/8e/33/7876bd494b0902ae482843489d0f7f5f17551262c027fdbd10031223cb73/aws-cdk.cloud-assembly-schema-2.99.1.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk-lib]: Downloading https://files.pythonhosted.org/packages/0f/db/d19c00a90c5a7580f01082ba3bc21088cd2da3ecd6cfc971452f2473a73c/aws-cdk-lib-2.99.0.tar.gz
+[2024-04-30 05:29:15] WARNING root fetch - processPackages [aws-cdk-lib]: Skipping package: exceeds size limit 31429010>=10485760
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk-lib]: Start processing: ctrip-app-ui
+[2024-04-30 05:29:15] INFO root fetch - main [MainThread]: End processing [aws-cdk-lib] error
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.region-info]: Downloading https://files.pythonhosted.org/packages/c1/eb/356daafb611bb25b4636faf85c885916978138fe7505274aa4d9bb0325dc/aws-cdk.region-info-2.99.0.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cx-api]: Downloading https://files.pythonhosted.org/packages/d5/bf/a06f8fba5abee1da79feaf100e05f6e2e6f7ca99b2507846b77dcb6a948a/aws-cdk.cx-api-2.99.1.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cloud-assembly-schema-2.99.0.tar.gz tmp/aws-cdk.cloud-assembly-schema-2.99.1.tar.gz --markdown 20240430/a/aws-cdk.cloud-assembly-schema/2.99.0-2.99.1/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-scheduler-targets-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-scheduler-targets-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-scheduler-targets-alpha]: Start processing: vision-mamba
+[2024-04-30 05:29:15] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-scheduler-targets-alpha]: success
+[2024-04-30 05:29:15] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: Downloading https://files.pythonhosted.org/packages/97/df/80b98fa225edb8003ff2bc09ce2bef1208065cd95e3d953d5e03be073466/aws-cdk.integ-tests-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240430/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cx-api]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cx-api-2.99.0.tar.gz tmp/aws-cdk.cx-api-2.99.1.tar.gz --markdown 20240430/a/aws-cdk.cx-api/2.99.0-2.99.1/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [vision-mamba]: New version: [0.0.5] Old Version: [0.0.1]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Downloading https://files.pythonhosted.org/packages/7e/a4/e29e18de17fc64204e873750775b7f99f52e90ae2dc6afa4c51b92a2aedb/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240430/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - processPackages [vision-mamba]: Downloading https://files.pythonhosted.org/packages/59/5f/9a0d56768932e511a7619221adef65cbe29db376200ce03f0be0d506a959/vision_mamba-0.0.1.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-servicecatalogappregistry-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.region-info]: Downloading https://files.pythonhosted.org/packages/fd/f6/47f9b0d4790caaeab102b0679e3f7901770327f897f2dd129fcf62d2e73e/aws-cdk.region-info-2.99.1.tar.gz
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: executing diffoscope
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-servicecatalogappregistry-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:15] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.integ-tests-alpha-2.99.0a0.tar.gz tmp/aws-cdk.integ-tests-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.integ-tests-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:15] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-servicecatalogappregistry-alpha]: success
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.region-info]: executing diffoscope
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.region-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.region-info-2.99.0.tar.gz tmp/aws-cdk.region-info-2.99.1.tar.gz --markdown 20240430/a/aws-cdk.region-info/2.99.0-2.99.1/README.md --exclude *.pyd
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: executing diffoscope
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cli-lib-alpha-2.99.0a0.tar.gz tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz --markdown 20240430/a/aws-cdk.cli-lib-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-04-30 05:29:16] INFO root fetch - processPackages [vision-mamba]: Downloading https://files.pythonhosted.org/packages/04/9c/746304b29bdceb9b0d73924b0a8ff1ab1302a94523c31e764201884ba0bc/vision_mamba-0.0.5.tar.gz
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.cx-api]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cx-api-2.99.0.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.cx-api]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cx-api-2.99.1.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - main [MainThread]: End processing [aws-cdk.cx-api]: success
+[2024-04-30 05:29:16] INFO root fetch - processPackages [vision-mamba]: executing diffoscope
+[2024-04-30 05:29:16] INFO root fetch - processPackages [vision-mamba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_mamba-0.0.1.tar.gz tmp/vision_mamba-0.0.5.tar.gz --markdown 20240430/v/vision-mamba/0.0.1-0.0.5/README.md --exclude *.pyd
+[2024-04-30 05:29:16] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.region-info]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.region-info-2.99.0.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.region-info]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.region-info-2.99.1.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - main [MainThread]: End processing [aws-cdk.region-info]: success
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-scheduler-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.aws-scheduler-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-scheduler-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-scheduler-alpha]: success
+[2024-04-30 05:29:16] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.integ-tests-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - processPackages [aws-cdk.integ-tests-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.integ-tests-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:29:16] INFO root fetch - main [MainThread]: End processing [aws-cdk.integ-tests-alpha]: success
+[2024-04-30 05:29:17] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cloud-assembly-schema-2.99.0.tar.gz]
+[2024-04-30 05:29:17] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cloud-assembly-schema-2.99.1.tar.gz]
+[2024-04-30 05:29:17] INFO root fetch - main [MainThread]: End processing [aws-cdk.cloud-assembly-schema]: success
+[2024-04-30 05:29:17] INFO root fetch - processPackages [vision-mamba]: Remove: archive file [/home/abi/fetcher/tmp/vision_mamba-0.0.1.tar.gz]
+[2024-04-30 05:29:17] INFO root fetch - processPackages [vision-mamba]: Remove: archive file [/home/abi/fetcher/tmp/vision_mamba-0.0.5.tar.gz]
+[2024-04-30 05:29:17] INFO root fetch - main [MainThread]: End processing [vision-mamba]: success
+[2024-04-30 05:30:53] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.0a0.tar.gz]
+[2024-04-30 05:30:53] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
+[2024-04-30 05:30:53] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
+[2024-04-30 05:30:53] INFO root fetch - main [MainThread]: Store serial: [22994905]
