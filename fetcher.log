@@ -21923,3 +21923,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:37:25] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.7.9.tar.gz]
 [2024-04-30 11:37:25] INFO root fetch - main [MainThread]: End processing [narwhals]: success
 [2024-04-30 11:37:25] INFO root fetch - main [MainThread]: Store serial: [22999664]
+[2024-04-30 11:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999664]
+[2024-04-30 11:39:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 11:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hurricaneapi
+[2024-04-30 11:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bible-reference
+[2024-04-30 11:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hamu-tool
+[2024-04-30 11:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cisco-acl
+[2024-04-30 11:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diffCheck
+[2024-04-30 11:39:34] INFO root fetch - processPackages [diffCheck]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:39:34] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-30 11:39:34] INFO root fetch - processPackages [hurricaneapi]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 11:39:34] INFO root fetch - processPackages [hamu-tool]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 11:39:34] INFO root fetch - processPackages [bible-reference]: New version: [1.2] Old Version: [1.1]
+[2024-04-30 11:39:34] INFO root fetch - processPackages [cisco-acl]: New version: [3.3.2] Old Version: [3.2.4]
+[2024-04-30 11:39:34] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/96/8e/b030ac97ec41157d3fad82ad96e0e09845550ef663637d73b820cb140481/hurricaneapi-0.1.5.tar.gz
+[2024-04-30 11:39:34] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/27/2d/5a6d8ec167f5f660556e94fb2d7bff1677a5e8f11454f15aac3943e3dfb3/diffCheck-0.0.9.tar.gz
+[2024-04-30 11:39:34] INFO root fetch - processPackages [hamu-tool]: Downloading https://files.pythonhosted.org/packages/ee/e2/efc72920b23acfd29a43f0522fbe745f92b84f2bbd1fdc710725a2ad53d5/hamu-tool-0.0.6.tar.gz
+[2024-04-30 11:39:34] INFO root fetch - processPackages [cisco-acl]: Downloading https://files.pythonhosted.org/packages/04/c0/72d92f445bc06936daeeeefd78939d511ea0679252139ceabe92d4e93a89/cisco_acl-3.2.4.tar.gz
+[2024-04-30 11:39:34] INFO root fetch - processPackages [bible-reference]: Downloading https://files.pythonhosted.org/packages/11/ff/d8da20aafff4711e466cf8e7fe6e3bc39f1b3f16a98d4eb979c965e018e0/bible_reference-1.1.tar.gz
+[2024-04-30 11:39:34] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-30 11:39:34] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.8.tar.gz tmp/diffCheck-0.0.9.tar.gz --markdown 20240430/d/diffCheck/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/4c/15/9c8b678cdf56bdca4965ee20ac7751bfdef3a570d258964c074c6ce0d4a8/hurricaneapi-0.1.6.tar.gz
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hamu-tool]: Downloading https://files.pythonhosted.org/packages/51/5f/876643cf0b4f72f317b38f8321efbf2b70b04140059ce2e5f45e2fd8e1b2/hamu-tool-0.0.7.tar.gz
+[2024-04-30 11:39:35] INFO root fetch - processPackages [bible-reference]: Downloading https://files.pythonhosted.org/packages/f3/51/b466c350228582c323a86ad66b7b4157ab2ffcfcb56ca3df385e4acfd3bb/bible_reference-1.2.tar.gz
+[2024-04-30 11:39:35] INFO root fetch - processPackages [cisco-acl]: Downloading https://files.pythonhosted.org/packages/c7/c6/00020502627bcdf92517f02cdd0fb8a9200bbd0a1cc700e2d313711f009e/cisco_acl-3.3.2.tar.gz
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hurricaneapi]: executing diffoscope
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hurricaneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurricaneapi-0.1.5.tar.gz tmp/hurricaneapi-0.1.6.tar.gz --markdown 20240430/h/hurricaneapi/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hamu-tool]: executing diffoscope
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hamu-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamu-tool-0.0.6.tar.gz tmp/hamu-tool-0.0.7.tar.gz --markdown 20240430/h/hamu-tool/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 11:39:35] INFO root fetch - processPackages [bible-reference]: executing diffoscope
+[2024-04-30 11:39:35] INFO root fetch - processPackages [bible-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bible_reference-1.1.tar.gz tmp/bible_reference-1.2.tar.gz --markdown 20240430/b/bible-reference/1.1-1.2/README.md --exclude *.pyd
+[2024-04-30 11:39:35] INFO root fetch - processPackages [cisco-acl]: executing diffoscope
+[2024-04-30 11:39:35] INFO root fetch - processPackages [cisco-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cisco_acl-3.2.4.tar.gz tmp/cisco_acl-3.3.2.tar.gz --markdown 20240430/c/cisco-acl/3.2.4-3.3.2/README.md --exclude *.pyd
+[2024-04-30 11:39:35] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.9.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hamu-tool]: Remove: archive file [/home/abi/fetcher/tmp/hamu-tool-0.0.6.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hamu-tool]: Remove: archive file [/home/abi/fetcher/tmp/hamu-tool-0.0.7.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - main [MainThread]: End processing [hamu-tool]: success
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.5.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.6.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - main [MainThread]: End processing [hurricaneapi]: success
+[2024-04-30 11:39:35] INFO root fetch - processPackages [bible-reference]: Remove: archive file [/home/abi/fetcher/tmp/bible_reference-1.1.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - processPackages [bible-reference]: Remove: archive file [/home/abi/fetcher/tmp/bible_reference-1.2.tar.gz]
+[2024-04-30 11:39:35] INFO root fetch - main [MainThread]: End processing [bible-reference]: success
+[2024-04-30 11:39:36] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.2.4.tar.gz]
+[2024-04-30 11:39:36] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.3.2.tar.gz]
+[2024-04-30 11:39:36] INFO root fetch - main [MainThread]: End processing [cisco-acl]: success
+[2024-04-30 11:39:36] INFO root fetch - main [MainThread]: Store serial: [22999683]
