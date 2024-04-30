@@ -2219,3 +2219,60 @@
 [2024-04-30 02:14:17] INFO root fetch - processPackages [keras-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras-cv-0.8.2.tar.gz]
 [2024-04-30 02:14:17] INFO root fetch - main [MainThread]: End processing [keras-cv]: success
 [2024-04-30 02:14:17] INFO root fetch - main [MainThread]: Store serial: [22992414]
+[2024-04-30 02:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992414]
+[2024-04-30 02:16:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BasicLibrary.PY
+[2024-04-30 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigframes
+[2024-04-30 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-30 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-nag
+[2024-04-30 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embyclient
+[2024-04-30 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: santex
+[2024-04-30 02:16:35] INFO root fetch - processPackages [santex]: New version: [1.1] Old Version: [1.0]
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-30 02:16:35] INFO root fetch - processPackages [embyclient]: New version: [4.8.6.0] Old Version: [4.8.5.0]
+[2024-04-30 02:16:35] INFO root fetch - processPackages [bigframes]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-30 02:16:35] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-30 02:16:35] INFO root fetch - processPackages [santex]: Downloading https://files.pythonhosted.org/packages/4a/40/b8b6730230fcad3ac78e0e9f241f49593ef9294745443cbfe63700c82d9b/santex-1.0.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/4a/34/647864d182c4821c88ff69390a912c4786a3af9c45a5c376f463a4bd7419/bigframes-1.3.0.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/d4/d4/72b73725553f3e575dc1d4043ab60297278e27144955cc8cebb097830cfd/embyclient-4.8.5.0.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/7a/f7/9207417db62e1815b16945c6ef5928d33faefb4fbea25b73e296c7ef1b46/basiclibrary_py-0.6.8.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [santex]: Downloading https://files.pythonhosted.org/packages/0a/03/3898edf6a649e80c86acca29e3e45d602f9d6f30a27222a9b906dbc8bf25/santex-1.1.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [santex]: executing diffoscope
+[2024-04-30 02:16:35] INFO root fetch - processPackages [santex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/santex-1.0.tar.gz tmp/santex-1.1.tar.gz --markdown 20240430/s/santex/1.0-1.1/README.md --exclude *.pyd
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240430/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-30 02:16:35] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240430/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-30 02:16:35] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/8b/03/09a88af6c80e0714bdb36ddbb3cc642193552534ea7c83d43d025acee8fc/bigframes-1.4.0.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/8f/6c/23998dc6441d6989fa6035d0512666516901c034c6eb6a19c41ab50db950/basiclibrary_py-0.6.9.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/b8/df/a960e0ca207f93f12c64b375cc9fd5bcd16aacf91d250c8f53ea21d212bf/embyclient-4.8.6.0.tar.gz
+[2024-04-30 02:16:35] INFO root fetch - processPackages [bigframes]: executing diffoscope
+[2024-04-30 02:16:35] INFO root fetch - processPackages [bigframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigframes-1.3.0.tar.gz tmp/bigframes-1.4.0.tar.gz --markdown 20240430/b/bigframes/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-30 02:16:36] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2024-04-30 02:16:36] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basiclibrary_py-0.6.8.tar.gz tmp/basiclibrary_py-0.6.9.tar.gz --markdown 20240430/B/BasicLibrary.PY/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-30 02:16:36] INFO root fetch - processPackages [embyclient]: executing diffoscope
+[2024-04-30 02:16:36] INFO root fetch - processPackages [embyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embyclient-4.8.5.0.tar.gz tmp/embyclient-4.8.6.0.tar.gz --markdown 20240430/e/embyclient/4.8.5.0-4.8.6.0/README.md --exclude *.pyd
+[2024-04-30 02:16:36] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-30 02:16:36] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-30 02:16:36] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.0.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - processPackages [santex]: Remove: archive file [/home/abi/fetcher/tmp/santex-1.1.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - main [MainThread]: End processing [santex]: success
+[2024-04-30 02:16:36] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.8.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.9.tar.gz]
+[2024-04-30 02:16:36] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2024-04-30 02:16:37] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.5.0.tar.gz]
+[2024-04-30 02:16:37] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.6.0.tar.gz]
+[2024-04-30 02:16:37] INFO root fetch - main [MainThread]: End processing [embyclient]: success
+[2024-04-30 02:16:38] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.3.0.tar.gz]
+[2024-04-30 02:16:38] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.4.0.tar.gz]
+[2024-04-30 02:16:38] INFO root fetch - main [MainThread]: End processing [bigframes]: success
+[2024-04-30 02:16:38] INFO root fetch - main [MainThread]: Store serial: [22992432]
