@@ -21234,3 +21234,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:08:26] INFO root fetch - processPackages [openimis-be-payroll]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_payroll-1.1.0.tar.gz]
 [2024-04-30 11:08:26] INFO root fetch - main [MainThread]: End processing [openimis-be-payroll]: success
 [2024-04-30 11:08:26] INFO root fetch - main [MainThread]: Store serial: [22999385]
+[2024-04-30 11:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999385]
+[2024-04-30 11:10:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crawlee
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shmessy
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: femmt
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffCheck
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strledger
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-toprepo
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slisemap
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nuvla-job-engine
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AstecManager
+[2024-04-30 11:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsws-client
+[2024-04-30 11:10:37] INFO root fetch - processPackages [diffCheck]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [shmessy]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [strledger]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [slisemap]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b6] Old Version: [0.0.3b5]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [nuvla-job-engine]: New version: [4.0.5] Old Version: [4.0.4]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [git-toprepo]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [dsws-client]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [femmt]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:10:37] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/38/0b/97af038c84905443639ff84f48ad31e47e9ec43a12c312b07b9dab11fead/shmessy-1.3.1.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [nuvla-job-engine]: Downloading https://files.pythonhosted.org/packages/de/b4/fc83312694a56b9f6bce50f15e3413dc59405a35b26bc293099be5743131/nuvla_job_engine-4.0.4.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/27/2d/5a6d8ec167f5f660556e94fb2d7bff1677a5e8f11454f15aac3943e3dfb3/diffCheck-0.0.9.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/12/e3/773a1a7a3f21158c52154419e4c58304ee9bb82778fbb91188b34962cff1/strledger-0.6.1.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [git-toprepo]: Downloading https://files.pythonhosted.org/packages/c4/ca/e7ae79f0b562698811cc2fc5f6410feae2649266e88e2822284bab802132/git_toprepo-0.1.0rc3.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/1a/03/d7cf78763fe24838d379276fe57767db820c0d138f95c5b3bde72d0702d4/crawlee-0.0.3b5.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [slisemap]: Downloading https://files.pythonhosted.org/packages/9a/a4/9c56ee6ba1e1d1aee777e7c02108585e8d7d01d908a504df76289f805e5f/slisemap-1.6.1.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [femmt]: Downloading https://files.pythonhosted.org/packages/82/84/e09b24a14fa35fd945de50567dfcec24c78d70ba03045fa08dec554b67f3/femmt-0.5.1-py3-none-any.whl
+[2024-04-30 11:10:37] INFO root fetch - processPackages [dsws-client]: Downloading https://files.pythonhosted.org/packages/73/ec/d4d13f74da03d8087e3cb167e72782dda118dddf68346e603ab60b8bb05d/dsws_client-1.0.0.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-30 11:10:37] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.8.tar.gz tmp/diffCheck-0.0.9.tar.gz --markdown 20240430/d/diffCheck/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:10:37] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/99/53/80a1f328eb1cd61fabf914db53ec1019ef6819614a72742ec3ab9e7cc364/shmessy-1.3.2.tar.gz
+[2024-04-30 11:10:37] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-04-30 11:10:37] INFO root fetch - processPackages [AstecManager]: Start processing: infrahub-sdk
+[2024-04-30 11:10:37] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-04-30 11:10:37] INFO root fetch - processPackages [shmessy]: executing diffoscope
+[2024-04-30 11:10:37] INFO root fetch - processPackages [shmessy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shmessy-1.3.1.tar.gz tmp/shmessy-1.3.2.tar.gz --markdown 20240430/s/shmessy/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-30 11:10:37] INFO root fetch - processPackages [nuvla-job-engine]: Downloading https://files.pythonhosted.org/packages/74/27/a144074064ae1d176bf53d1951e099cc09d6446b075150ddfbcadde9049a/nuvla_job_engine-4.0.5.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/40/f3/baf6140d071af6a00449860c48e333766d371ffe524a909e3e9775437254/strledger-0.6.2.tar.gz
+[2024-04-30 11:10:37] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/4e/72/c492b782242705f470cde893749335da0970dd34e231bd00de72c02e28fd/crawlee-0.0.3b6.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [infrahub-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 11:10:38] INFO root fetch - processPackages [dsws-client]: Downloading https://files.pythonhosted.org/packages/ec/b2/21a90cee935a21a2568c937e30ef237b5dba7cda9b4cad878752be8f15f6/dsws_client-1.1.0.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [femmt]: Downloading https://files.pythonhosted.org/packages/2a/cf/37e19a0d948db5a256dd0ce2e1e28b6e39ec7f7aed06554409f0e1bfc06a/femmt-0.5.2.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [git-toprepo]: Downloading https://files.pythonhosted.org/packages/a5/7f/76e266ee0eeba4f6209af2f72456dc4939336563eefc152e7b7db20a6ef3/git_toprepo-0.1.0rc4.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [slisemap]: Downloading https://files.pythonhosted.org/packages/a5/21/4e946f31e94af3f7ef5ddf41d1e2ebd83ee65126a66220be8da8f1efb090/slisemap-1.6.2.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [nuvla-job-engine]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [strledger]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [strledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strledger-0.6.1.tar.gz tmp/strledger-0.6.2.tar.gz --markdown 20240430/s/strledger/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [nuvla-job-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvla_job_engine-4.0.4.tar.gz tmp/nuvla_job_engine-4.0.5.tar.gz --markdown 20240430/n/nuvla-job-engine/4.0.4-4.0.5/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [dsws-client]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [dsws-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws_client-1.0.0.tar.gz tmp/dsws_client-1.1.0.tar.gz --markdown 20240430/d/dsws-client/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b5.tar.gz tmp/crawlee-0.0.3b6.tar.gz --markdown 20240430/c/crawlee/0.0.3b5-0.0.3b6/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [git-toprepo]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [git-toprepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_toprepo-0.1.0rc3.tar.gz tmp/git_toprepo-0.1.0rc4.tar.gz --markdown 20240430/g/git-toprepo/0.1.0rc3-0.1.0rc4/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [slisemap]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [slisemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slisemap-1.6.1.tar.gz tmp/slisemap-1.6.2.tar.gz --markdown 20240430/s/slisemap/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [infrahub-sdk]: Downloading https://files.pythonhosted.org/packages/6d/40/deda11267d5442be30f9a36e8cca961228e6eded9b86e88e91eaa16949fd/infrahub_sdk-0.9.0.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [femmt]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [femmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femmt-0.5.1-py3-none-any.whl.zip tmp/femmt-0.5.2.tar.gz --markdown 20240430/f/femmt/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-30 11:10:38] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-30 11:10:38] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.9.tar.gz]
+[2024-04-30 11:10:38] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-30 11:10:38] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.1.tar.gz]
+[2024-04-30 11:10:38] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.2.tar.gz]
+[2024-04-30 11:10:38] INFO root fetch - main [MainThread]: End processing [shmessy]: success
+[2024-04-30 11:10:38] INFO root fetch - processPackages [infrahub-sdk]: Downloading https://files.pythonhosted.org/packages/d1/9f/0fba4889e451eafa8df81b9a9ae4b77da21068429c21f40a0c6223bcddb5/infrahub_sdk-0.9.1.tar.gz
+[2024-04-30 11:10:38] INFO root fetch - processPackages [infrahub-sdk]: executing diffoscope
+[2024-04-30 11:10:38] INFO root fetch - processPackages [infrahub-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahub_sdk-0.9.0.tar.gz tmp/infrahub_sdk-0.9.1.tar.gz --markdown 20240430/i/infrahub-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 11:10:39] INFO root fetch - processPackages [dsws-client]: Remove: archive file [/home/abi/fetcher/tmp/dsws_client-1.0.0.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [dsws-client]: Remove: archive file [/home/abi/fetcher/tmp/dsws_client-1.1.0.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [dsws-client]: success
+[2024-04-30 11:10:39] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.6.1.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.6.2.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [strledger]: success
+[2024-04-30 11:10:39] INFO root fetch - processPackages [slisemap]: Remove: archive file [/home/abi/fetcher/tmp/slisemap-1.6.1.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [slisemap]: Remove: archive file [/home/abi/fetcher/tmp/slisemap-1.6.2.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [slisemap]: success
+[2024-04-30 11:10:39] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b5.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b6.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-04-30 11:10:39] INFO root fetch - processPackages [nuvla-job-engine]: Remove: archive file [/home/abi/fetcher/tmp/nuvla_job_engine-4.0.4.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [nuvla-job-engine]: Remove: archive file [/home/abi/fetcher/tmp/nuvla_job_engine-4.0.5.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [nuvla-job-engine]: success
+[2024-04-30 11:10:39] INFO root fetch - processPackages [git-toprepo]: Remove: archive file [/home/abi/fetcher/tmp/git_toprepo-0.1.0rc3.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [git-toprepo]: Remove: archive file [/home/abi/fetcher/tmp/git_toprepo-0.1.0rc4.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [git-toprepo]: success
+[2024-04-30 11:10:39] INFO root fetch - processPackages [infrahub-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sdk-0.9.0.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - processPackages [infrahub-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sdk-0.9.1.tar.gz]
+[2024-04-30 11:10:39] INFO root fetch - main [MainThread]: End processing [infrahub-sdk]: success
+[2024-04-30 11:10:41] INFO root fetch - processPackages [femmt]: Remove: archive file [/home/abi/fetcher/tmp/femmt-0.5.1-py3-none-any.whl.zip]
+[2024-04-30 11:10:41] INFO root fetch - processPackages [femmt]: Remove: archive file [/home/abi/fetcher/tmp/femmt-0.5.2.tar.gz]
+[2024-04-30 11:10:41] INFO root fetch - main [MainThread]: End processing [femmt]: success
+[2024-04-30 11:10:41] INFO root fetch - main [MainThread]: Store serial: [22999419]
