@@ -13572,3 +13572,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:19:56] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.34.0.tar.gz]
 [2024-04-30 07:19:56] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-30 07:19:56] INFO root fetch - main [MainThread]: Store serial: [22996475]
+[2024-04-30 07:22:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996475]
+[2024-04-30 07:22:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 07:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tailucas-pylib
+[2024-04-30 07:22:04] INFO root fetch - processPackages [tailucas-pylib]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-30 07:22:04] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/7d/89/7699592775d630e11c60d78093136d1c96679b997100059a261a00bffe1d/tailucas_pylib-0.3.2.tar.gz
+[2024-04-30 07:22:05] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/3c/53/bf69eda948c56daad943d9b42fd1b4483b6edaa66eee4fabab87671466aa/tailucas_pylib-0.3.3.tar.gz
+[2024-04-30 07:22:05] INFO root fetch - processPackages [tailucas-pylib]: executing diffoscope
+[2024-04-30 07:22:05] INFO root fetch - processPackages [tailucas-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailucas_pylib-0.3.2.tar.gz tmp/tailucas_pylib-0.3.3.tar.gz --markdown 20240430/t/tailucas-pylib/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-30 07:22:05] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.2.tar.gz]
+[2024-04-30 07:22:05] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.3.tar.gz]
+[2024-04-30 07:22:05] INFO root fetch - main [MainThread]: End processing [tailucas-pylib]: success
+[2024-04-30 07:22:05] INFO root fetch - main [MainThread]: Store serial: [22996478]
