@@ -16820,3 +16820,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:22:44] INFO root fetch - processPackages [chython]: Remove: archive file [/home/abi/fetcher/tmp/chython-1.8.tar.gz]
 [2024-04-30 09:22:44] INFO root fetch - main [MainThread]: End processing [chython]: success
 [2024-04-30 09:22:44] INFO root fetch - main [MainThread]: Store serial: [22997791]
+[2024-04-30 09:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997791]
+[2024-04-30 09:25:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvmtrans
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GeoProfile
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multihttps
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hsfs
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-oci
+[2024-04-30 09:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipython-ngql
+[2024-04-30 09:25:04] WARNING root fetch - processPackages [cvmtrans]: Skipping, unable to determine old version
+[2024-04-30 09:25:04] INFO root fetch - main [MainThread]: End processing [cvmtrans] error
+[2024-04-30 09:25:04] WARNING root fetch - processPackages [GeoProfile]: Skipping, unable to determine old version
+[2024-04-30 09:25:04] INFO root fetch - main [MainThread]: End processing [GeoProfile] error
+[2024-04-30 09:25:04] WARNING root fetch - processPackages [multihttps]: Skipping, unable to determine old version
+[2024-04-30 09:25:04] INFO root fetch - main [MainThread]: End processing [multihttps] error
+[2024-04-30 09:25:04] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-04-30 09:25:04] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-30 09:25:04] INFO root fetch - processPackages [hsfs]: New version: [3.7.4] Old Version: [3.7.3]
+[2024-04-30 09:25:04] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 09:25:04] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/a6/da/2e0fbe9c6fbb7206c6e6e6d379b06f32c8255893d8e196af1c80dc83d294/hsfs-3.7.3.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/f7/05/2a0562ae169d6ce30eb3395d47ae9c126456256da7305ae154699f7e201a/hsfs-3.7.4.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-30 09:25:04] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-04-30 09:25:04] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240430/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 09:25:04] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2024-04-30 09:25:04] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.7.3.tar.gz tmp/hsfs-3.7.4.tar.gz --markdown 20240430/h/hsfs/3.7.3-3.7.4/README.md --exclude *.pyd
+[2024-04-30 09:25:05] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-30 09:25:05] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240430/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-30 09:25:05] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-04-30 09:25:05] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-04-30 09:25:05] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-04-30 09:25:05] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-04-30 09:25:05] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-30 09:25:05] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-30 09:25:05] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-30 09:25:06] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-04-30 09:25:06] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240430/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-04-30 09:25:06] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.7.3.tar.gz]
+[2024-04-30 09:25:06] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.7.4.tar.gz]
+[2024-04-30 09:25:06] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2024-04-30 09:25:21] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-04-30 09:25:21] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-04-30 09:25:21] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-04-30 09:25:21] INFO root fetch - main [MainThread]: Store serial: [22997814]
