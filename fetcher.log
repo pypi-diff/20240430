@@ -7016,3 +7016,18 @@
 [2024-04-30 03:43:59] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
 [2024-04-30 03:43:59] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
 [2024-04-30 03:43:59] INFO root fetch - main [MainThread]: Store serial: [22994213]
+[2024-04-30 03:46:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994213]
+[2024-04-30 03:46:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 03:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monnifyease
+[2024-04-30 03:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudaciousIAC
+[2024-04-30 03:46:08] INFO root fetch - processPackages [cloudaciousIAC]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-30 03:46:08] INFO root fetch - processPackages [cloudaciousIAC]: Downloading https://files.pythonhosted.org/packages/76/b4/48cf6e0b1d83bfa506faeb68bc8744e4c1b2f658a24253b59c450b5e049c/cloudaciousiac-0.0.5.tar.gz
+[2024-04-30 03:46:08] WARNING root fetch - processPackages [monnifyease]: Skipping, unable to determine old version
+[2024-04-30 03:46:08] INFO root fetch - main [MainThread]: End processing [monnifyease] error
+[2024-04-30 03:46:08] INFO root fetch - processPackages [cloudaciousIAC]: Downloading https://files.pythonhosted.org/packages/79/75/bf71ee5f4ead8ecb0cbf3097c27c53f8d8c7613702a9d76e8bb496a79dc3/cloudaciousiac-0.0.6.tar.gz
+[2024-04-30 03:46:08] INFO root fetch - processPackages [cloudaciousIAC]: executing diffoscope
+[2024-04-30 03:46:08] INFO root fetch - processPackages [cloudaciousIAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudaciousiac-0.0.5.tar.gz tmp/cloudaciousiac-0.0.6.tar.gz --markdown 20240430/c/cloudaciousIAC/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-30 03:46:09] INFO root fetch - processPackages [cloudaciousIAC]: Remove: archive file [/home/abi/fetcher/tmp/cloudaciousiac-0.0.5.tar.gz]
+[2024-04-30 03:46:09] INFO root fetch - processPackages [cloudaciousIAC]: Remove: archive file [/home/abi/fetcher/tmp/cloudaciousiac-0.0.6.tar.gz]
+[2024-04-30 03:46:09] INFO root fetch - main [MainThread]: End processing [cloudaciousIAC]: success
+[2024-04-30 03:46:09] INFO root fetch - main [MainThread]: Store serial: [22994221]
