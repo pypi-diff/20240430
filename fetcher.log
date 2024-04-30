@@ -2681,3 +2681,24 @@
 [2024-04-30 02:37:36] INFO root fetch - processPackages [sphinx-rust]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_rust-0.0.2-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
 [2024-04-30 02:37:36] INFO root fetch - main [MainThread]: End processing [sphinx-rust]: success
 [2024-04-30 02:37:36] INFO root fetch - main [MainThread]: Store serial: [22992627]
+[2024-04-30 02:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992627]
+[2024-04-30 02:39:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 02:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi
+[2024-04-30 02:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khipu-metabolomics
+[2024-04-30 02:39:55] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-30 02:39:55] INFO root fetch - processPackages [khipu-metabolomics]: New version: [2.0.0] Old Version: [0.7.5]
+[2024-04-30 02:39:55] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-04-30 02:39:55] INFO root fetch - processPackages [khipu-metabolomics]: Downloading https://files.pythonhosted.org/packages/51/e9/5c5c0a9b18a6cdf43301867fa6982f5b2e71bdc33b0bede60b4a7b9b9657/khipu-metabolomics-0.7.5.tar.gz
+[2024-04-30 02:39:55] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-04-30 02:39:55] INFO root fetch - processPackages [khipu-metabolomics]: Downloading https://files.pythonhosted.org/packages/e5/30/a239df20c3923b2b261d321f52b44c2e645ae8704d4d3b5dea23962f1c16/khipu_metabolomics-2.0.0.tar.gz
+[2024-04-30 02:39:55] INFO root fetch - processPackages [khipu-metabolomics]: executing diffoscope
+[2024-04-30 02:39:55] INFO root fetch - processPackages [khipu-metabolomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khipu-metabolomics-0.7.5.tar.gz tmp/khipu_metabolomics-2.0.0.tar.gz --markdown 20240430/k/khipu-metabolomics/0.7.5-2.0.0/README.md --exclude *.pyd
+[2024-04-30 02:39:56] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-04-30 02:39:56] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240430/f/fastapi/0.99.0-0.99.1/README.md --exclude *.pyd
+[2024-04-30 02:39:56] INFO root fetch - processPackages [khipu-metabolomics]: Remove: archive file [/home/abi/fetcher/tmp/khipu-metabolomics-0.7.5.tar.gz]
+[2024-04-30 02:39:56] INFO root fetch - processPackages [khipu-metabolomics]: Remove: archive file [/home/abi/fetcher/tmp/khipu_metabolomics-2.0.0.tar.gz]
+[2024-04-30 02:39:56] INFO root fetch - main [MainThread]: End processing [khipu-metabolomics]: success
+[2024-04-30 02:40:03] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-04-30 02:40:03] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-04-30 02:40:03] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-04-30 02:40:03] INFO root fetch - main [MainThread]: Store serial: [22992671]
