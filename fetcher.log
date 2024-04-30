@@ -13732,3 +13732,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:30:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.4.30.0.tar.gz]
 [2024-04-30 07:30:48] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2024-04-30 07:30:48] INFO root fetch - main [MainThread]: Store serial: [22996526]
+[2024-04-30 07:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996526]
+[2024-04-30 07:32:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vectara-skunk-client
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-artifactory
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LnT-HR-AI
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-attribute-value-menu
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superu
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-akamai
+[2024-04-30 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-runtime-nightly
+[2024-04-30 07:32:56] INFO root fetch - processPackages [superu]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 07:32:56] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-30 07:32:56] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240428] Old Version: [2.17.0.dev20240426]
+[2024-04-30 07:32:56] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.8.0a1714421024] Old Version: [6.8.0a1714147708]
+[2024-04-30 07:32:56] INFO root fetch - processPackages [superu]: Downloading https://files.pythonhosted.org/packages/b2/e5/094824b3e3f0e226161ed266b36150f363f00007a8fdd8b142132bc95046/superu-0.0.6.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-30 07:32:57] INFO root fetch - processPackages [LnT-HR-AI]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-30 07:32:57] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/44/6a/3f99055e438423c216b1facaf114e87a2da8681a01a9809424abd1e41f28/vectara-skunk-client-0.4.8.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1714453796] Old Version: [7.2.0a1714108246]
+[2024-04-30 07:32:57] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/9d/7d/cbde471f5b52f1db9637f2e4ba9b33818d20a9beed6960721ff534f50ef4/tflite_runtime_nightly-2.17.0.dev20240426-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/e2/3d/2636d6dfaa88260f1bc1593e77eb7f0dcf4af43cb416f077ff5066ae6858/pulumi_artifactory-6.8.0a1714147708.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [superu]: Downloading https://files.pythonhosted.org/packages/a6/a6/8e20562aa327a9800e654cd1d67cf595ef18b2f2c4bfecee21fed17cea68/superu-0.0.7.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: Downloading https://files.pythonhosted.org/packages/85/09/3500ce37848512b467ed17ef727153d9d269a63b373e56cdab49cd0b66d9/odoo_addon_product_attribute_value_menu-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-30 07:32:57] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/91/5b/8cc033b5d318e93400686f4951629bf5db31dd8c5dd28d8991fbc60e40db/lnt_hr_ai-0.0.4.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/3c/68/fbc80f136ab392889da1d0ba57e5f16b66ad31e5e68e00ae16be9394d59f/pulumi_akamai-7.2.0a1714108246.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [superu]: executing diffoscope
+[2024-04-30 07:32:57] INFO root fetch - processPackages [superu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superu-0.0.6.tar.gz tmp/superu-0.0.7.tar.gz --markdown 20240430/s/superu/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/2b/50/13e8b146ab8e63c32925ad239405fe29929f86adffebccbe26dbdde31935/pulumi_artifactory-6.8.0a1714421024.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-04-30 07:32:57] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.8.tar.gz tmp/vectara-skunk-client-0.4.9.tar.gz --markdown 20240430/v/vectara-skunk-client/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-30 07:32:57] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/e9/9e/176001497f709bf59257ae5313239e69440bc35dca0bf3441cc7394d5115/tflite_runtime_nightly-2.17.0.dev20240428-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-30 07:32:57] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/b1/e7/1c4f2203b0e057f953cb2f10d5367e2e27b5c209a3c2c4d893ce2835f4f9/lnt_hr_ai-0.0.5.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.8.0a1714147708.tar.gz tmp/pulumi_artifactory-6.8.0a1714421024.tar.gz --markdown 20240430/p/pulumi-artifactory/6.8.0a1714147708-6.8.0a1714421024/README.md --exclude *.pyd
+[2024-04-30 07:32:57] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: Downloading https://files.pythonhosted.org/packages/45/29/08fb34e91d6fc34ca8d35282f21625e48d5ff6ccff3441c9f389c68172ef/odoo_addon_product_attribute_value_menu-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-30 07:32:57] INFO root fetch - processPackages [LnT-HR-AI]: executing diffoscope
+[2024-04-30 07:32:57] INFO root fetch - processPackages [LnT-HR-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnt_hr_ai-0.0.4.tar.gz tmp/lnt_hr_ai-0.0.5.tar.gz --markdown 20240430/L/LnT-HR-AI/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-30 07:32:57] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-30 07:32:57] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240426-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240428-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240430/t/tflite-runtime-nightly/2.17.0.dev20240426-2.17.0.dev20240428/README.md --exclude *.pyd
+[2024-04-30 07:32:57] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: executing diffoscope
+[2024-04-30 07:32:57] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_attribute_value_menu-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_product_attribute_value_menu-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-product-attribute-value-menu/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-04-30 07:32:57] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/77/41/4516a297e3e87972b7a2e3ef7e0713b8f343402ad15c410dba6d8d6a936a/pulumi_akamai-7.2.0a1714453796.tar.gz
+[2024-04-30 07:32:57] INFO root fetch - processPackages [superu]: Remove: archive file [/home/abi/fetcher/tmp/superu-0.0.6.tar.gz]
+[2024-04-30 07:32:57] INFO root fetch - processPackages [superu]: Remove: archive file [/home/abi/fetcher/tmp/superu-0.0.7.tar.gz]
+[2024-04-30 07:32:57] INFO root fetch - main [MainThread]: End processing [superu]: success
+[2024-04-30 07:32:58] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.8.tar.gz]
+[2024-04-30 07:32:58] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-04-30 07:32:58] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-04-30 07:32:58] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-04-30 07:32:58] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1714108246.tar.gz tmp/pulumi_akamai-7.2.0a1714453796.tar.gz --markdown 20240430/p/pulumi-akamai/7.2.0a1714108246-7.2.0a1714453796/README.md --exclude *.pyd
+[2024-04-30 07:32:58] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.4.tar.gz]
+[2024-04-30 07:32:58] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.5.tar.gz]
+[2024-04-30 07:32:58] INFO root fetch - main [MainThread]: End processing [LnT-HR-AI]: success
+[2024-04-30 07:32:58] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240426-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-30 07:32:58] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240428-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-30 07:32:58] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-30 07:32:58] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_attribute_value_menu-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-30 07:32:58] INFO root fetch - processPackages [odoo-addon-product-attribute-value-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_attribute_value_menu-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-30 07:32:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attribute-value-menu]: success
+[2024-04-30 07:33:00] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1714147708.tar.gz]
+[2024-04-30 07:33:00] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1714421024.tar.gz]
+[2024-04-30 07:33:00] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-04-30 07:33:00] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714108246.tar.gz]
+[2024-04-30 07:33:00] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714453796.tar.gz]
+[2024-04-30 07:33:00] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-04-30 07:33:00] INFO root fetch - main [MainThread]: Store serial: [22996554]
