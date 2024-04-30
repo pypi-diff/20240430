@@ -17214,3 +17214,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:38:21] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.3.tar.gz]
 [2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [cvmtrans]: success
 [2024-04-30 09:38:21] INFO root fetch - main [MainThread]: Store serial: [22997948]
+[2024-04-30 09:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997948]
+[2024-04-30 09:40:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 09:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdx-cli-toolkit
+[2024-04-30 09:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvmtrans
+[2024-04-30 09:40:30] INFO root fetch - processPackages [cvmtrans]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 09:40:30] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/b5/83/9a582c06776091bca4b7b51731ccab43cd41df1beaa0db78125afeae2bed/cvmtrans-0.0.3.tar.gz
+[2024-04-30 09:40:30] INFO root fetch - processPackages [hdx-cli-toolkit]: New version: [2024.4.5] Old Version: [2024.4.4]
+[2024-04-30 09:40:30] INFO root fetch - processPackages [hdx-cli-toolkit]: Downloading https://files.pythonhosted.org/packages/13/75/15598b6bc672f28848aeac77c475637341370d3f621ce4e238464c29c883/hdx_cli_toolkit-2024.4.4.tar.gz
+[2024-04-30 09:40:30] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/8d/f7/7670f8829d6d31c50ef4ed938fc54f26a959f26c7dcb87443f9ce3b87444/cvmtrans-0.0.4.tar.gz
+[2024-04-30 09:40:31] INFO root fetch - processPackages [hdx-cli-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/e5/57a489a1f244b50ec5d77b194bb23e5ee98c44193e4acfce28d26baee427/hdx_cli_toolkit-2024.4.5.tar.gz
+[2024-04-30 09:40:31] INFO root fetch - processPackages [cvmtrans]: executing diffoscope
+[2024-04-30 09:40:31] INFO root fetch - processPackages [cvmtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmtrans-0.0.3.tar.gz tmp/cvmtrans-0.0.4.tar.gz --markdown 20240430/c/cvmtrans/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 09:40:31] INFO root fetch - processPackages [hdx-cli-toolkit]: executing diffoscope
+[2024-04-30 09:40:31] INFO root fetch - processPackages [hdx-cli-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_cli_toolkit-2024.4.4.tar.gz tmp/hdx_cli_toolkit-2024.4.5.tar.gz --markdown 20240430/h/hdx-cli-toolkit/2024.4.4-2024.4.5/README.md --exclude *.pyd
+[2024-04-30 09:40:31] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.3.tar.gz]
+[2024-04-30 09:40:31] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.4.tar.gz]
+[2024-04-30 09:40:31] INFO root fetch - main [MainThread]: End processing [cvmtrans]: success
+[2024-04-30 09:40:31] INFO root fetch - processPackages [hdx-cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hdx_cli_toolkit-2024.4.4.tar.gz]
+[2024-04-30 09:40:31] INFO root fetch - processPackages [hdx-cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hdx_cli_toolkit-2024.4.5.tar.gz]
+[2024-04-30 09:40:31] INFO root fetch - main [MainThread]: End processing [hdx-cli-toolkit]: success
+[2024-04-30 09:40:31] INFO root fetch - main [MainThread]: Store serial: [22997959]
