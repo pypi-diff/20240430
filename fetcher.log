@@ -16596,3 +16596,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:11:31] INFO root fetch - processPackages [allopy]: Remove: archive file [/home/abi/fetcher/tmp/allopy-0.2.1-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip]
 [2024-04-30 09:11:31] INFO root fetch - main [MainThread]: End processing [allopy]: success
 [2024-04-30 09:11:31] INFO root fetch - main [MainThread]: Store serial: [22997680]
+[2024-04-30 09:13:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997680]
+[2024-04-30 09:13:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MPSPEnv
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migration-db
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-tools
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aveas-openlabel
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanQ
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-cpp-python
+[2024-04-30 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Spire.Xls
+[2024-04-30 09:13:46] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 09:13:46] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 09:13:46] INFO root fetch - processPackages [lanQ]: New version: [1.4.1] Old Version: [1.3]
+[2024-04-30 09:13:46] INFO root fetch - processPackages [MPSPEnv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 09:13:46] INFO root fetch - processPackages [aveas-openlabel]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-30 09:13:46] INFO root fetch - processPackages [Spire.Xls]: New version: [14.4.2] Old Version: [14.3.2]
+[2024-04-30 09:13:46] ERROR root fetch - processPackages [migration-db]: Unable to get metadata: No such project 'migration-db'
+[2024-04-30 09:13:46] INFO root fetch - main [MainThread]: End processing [migration-db] error
+[2024-04-30 09:13:46] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 09:13:46] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-04-30 09:13:46] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/a8/b2/8b5344a7e36d38b8c37e69cbbdf513bcffe5b0f18b9f04b61dee118d6679/lanQ-1.3.tar.gz
+[2024-04-30 09:13:46] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/9e/be/f91fa76e471a0dd7260d37c9e6499277a10610790a3e5f7831d659956074/MPSPEnv-0.0.8.tar.gz
+[2024-04-30 09:13:47] INFO root fetch - processPackages [Spire.Xls]: Downloading https://files.pythonhosted.org/packages/e8/e5/46a455560df91c30c5c00fb9bf05c1f40d361420f75b2f4b674434d68112/Spire.Xls-14.3.2-py3-none-manylinux1_x86_64.whl
+[2024-04-30 09:13:47] INFO root fetch - processPackages [aveas-openlabel]: Downloading https://files.pythonhosted.org/packages/11/98/468ee87baa0f7dc7c576310227ebe4fa643dd5fec1e0e8a4de45a3c5d7c1/aveas_openlabel-0.4.8.tar.gz
+[2024-04-30 09:13:47] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-04-30 09:13:47] WARNING root fetch - processPackages [Spire.Xls]: Skipping package: exceeds size limit 36830935>=10485760
+[2024-04-30 09:13:47] INFO root fetch - main [MainThread]: End processing [Spire.Xls] error
+[2024-04-30 09:13:47] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 09:13:47] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/c4/10/031665380a3f22eb74f1963680df094789bd3cd4ffe282f2f52402d40db4/lanQ-1.4.1.tar.gz
+[2024-04-30 09:13:47] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-04-30 09:13:47] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-04-30 09:13:47] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.8.tar.gz tmp/MPSPEnv-0.0.9.tar.gz --markdown 20240430/M/MPSPEnv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 09:13:47] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 09:13:47] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 09:13:47] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-04-30 09:13:47] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.3.tar.gz tmp/lanQ-1.4.1.tar.gz --markdown 20240430/l/lanQ/1.3-1.4.1/README.md --exclude *.pyd
+[2024-04-30 09:13:47] INFO root fetch - processPackages [aveas-openlabel]: Downloading https://files.pythonhosted.org/packages/2f/54/82b18bdad144eded04e901ef1f9f800f2e94d8b7b0282ce7d550de7b9174/aveas_openlabel-0.4.9.tar.gz
+[2024-04-30 09:13:47] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-04-30 09:13:47] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240430/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 09:13:47] INFO root fetch - processPackages [aveas-openlabel]: executing diffoscope
+[2024-04-30 09:13:47] INFO root fetch - processPackages [aveas-openlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aveas_openlabel-0.4.8.tar.gz tmp/aveas_openlabel-0.4.9.tar.gz --markdown 20240430/a/aveas-openlabel/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-30 09:13:48] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.3.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.1.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-04-30 09:13:48] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.8.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-04-30 09:13:48] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 09:13:48] INFO root fetch - processPackages [aveas-openlabel]: Remove: archive file [/home/abi/fetcher/tmp/aveas_openlabel-0.4.8.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - processPackages [aveas-openlabel]: Remove: archive file [/home/abi/fetcher/tmp/aveas_openlabel-0.4.9.tar.gz]
+[2024-04-30 09:13:48] INFO root fetch - main [MainThread]: End processing [aveas-openlabel]: success
+[2024-04-30 09:13:49] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-04-30 09:13:49] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-04-30 09:13:49] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-04-30 09:13:49] INFO root fetch - main [MainThread]: Store serial: [22997707]
