@@ -14348,3 +14348,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:55:00] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714455234.tar.gz]
 [2024-04-30 07:55:00] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2024-04-30 07:55:00] INFO root fetch - main [MainThread]: Store serial: [22996826]
+[2024-04-30 07:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996826]
+[2024-04-30 07:57:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py50
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stackql-deploy
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package-dev
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DEME
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: v3io
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-digitalocean
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polytensor
+[2024-04-30 07:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellmaps-vnn
+[2024-04-30 07:57:09] INFO root fetch - processPackages [py50]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/2c/ef/4debc54babdd7812aecc599a002fd6340c5f017fcf9931d542155a600b2c/py50-1.0.0.tar.gz
+[2024-04-30 07:57:09] INFO root fetch - processPackages [DEME]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-30 07:57:09] INFO root fetch - processPackages [cellmaps-vnn]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [stackql-deploy]: New version: [1.5.0] Old Version: [1.2.0]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [polytensor]: New version: [0.0.6] Old Version: [0.0.3]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [v3io]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-04-30 07:57:09] INFO root fetch - processPackages [polytensor]: Downloading https://files.pythonhosted.org/packages/7b/33/15913e1de6fefbc0610369bf7ef7e4337242cdc4ec6dda4a1262704aa5d4/polytensor-0.0.3.tar.gz
+[2024-04-30 07:57:09] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/91/2f/4082bc9841b09558aa4e0f845becc78f10bece13e22335d0e9510469ca07/py50-1.0.1.tar.gz
+[2024-04-30 07:57:09] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/0f/cc/698dbd75c4dc5d52d8ddd63f0d25d6e5cf8b5ae1a8503bd47de971519343/DEME-1.0.8.tar.gz
+[2024-04-30 07:57:09] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [cellmaps-vnn]: Downloading https://files.pythonhosted.org/packages/11/6b/78263e4f6a86e2f5845f52114e5d6b9f5e52d29cf563cc049da5c9e6119b/cellmaps_vnn-0.1.0a1.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/aa/58/e1e2bb1c36fe9f80f25ba427671651f74ded1937dbd22c945b4ece82156a/stackql_deploy-1.2.0.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [v3io]: Downloading https://files.pythonhosted.org/packages/b0/93/95c9fe9495a31888013f7ef73918b7ee3d91966906c473a1052c081f5bdb/v3io-0.6.4.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [py50]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [py50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py50-1.0.0.tar.gz tmp/py50-1.0.1.tar.gz --markdown 20240430/p/py50/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240430/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [polytensor]: Downloading https://files.pythonhosted.org/packages/ce/ec/19b7623a3a12b21525477d28d7e95546f94294d340f942b6dbed056cdf00/polytensor-0.0.6.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/29/cd/1c0b7bd81d7210fce0c5b1b21bbfc157d76ec3dd6753d2729870c28067fd/stackql_deploy-1.5.0.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [cellmaps-vnn]: Downloading https://files.pythonhosted.org/packages/e9/52/367321574015045881ea6426ba63196b5cddbcf0f4053c615559f45b1775/cellmaps_vnn-0.1.0a2.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [v3io]: Downloading https://files.pythonhosted.org/packages/97/f4/5a0186f77f8b569c9df998274be8fe9e26e25d067ecbfec1b39a6c498eef/v3io-0.6.5.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [polytensor]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [polytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polytensor-0.0.3.tar.gz tmp/polytensor-0.0.6.tar.gz --markdown 20240430/p/polytensor/0.0.3-0.0.6/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-04-30 07:57:10] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.2.0.tar.gz tmp/stackql_deploy-1.5.0.tar.gz --markdown 20240430/s/stackql-deploy/1.2.0-1.5.0/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [v3io]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [v3io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v3io-0.6.4.tar.gz tmp/v3io-0.6.5.tar.gz --markdown 20240430/v/v3io/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240430/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [cellmaps-vnn]: executing diffoscope
+[2024-04-30 07:57:10] INFO root fetch - processPackages [cellmaps-vnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_vnn-0.1.0a1.tar.gz tmp/cellmaps_vnn-0.1.0a2.tar.gz --markdown 20240430/c/cellmaps-vnn/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-30 07:57:10] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-30 07:57:10] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-30 07:57:10] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-30 07:57:10] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.0.tar.gz]
+[2024-04-30 07:57:10] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.1.tar.gz]
+[2024-04-30 07:57:10] INFO root fetch - main [MainThread]: End processing [py50]: success
+[2024-04-30 07:57:10] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/34/dc/c7eeed14ccc63378a9be8c7f3a8851ee20f902e98c37dc6a0a1070fc61f3/DEME-1.0.9.tar.gz
+[2024-04-30 07:57:11] INFO root fetch - processPackages [polytensor]: Remove: archive file [/home/abi/fetcher/tmp/polytensor-0.0.3.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - processPackages [polytensor]: Remove: archive file [/home/abi/fetcher/tmp/polytensor-0.0.6.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - main [MainThread]: End processing [polytensor]: success
+[2024-04-30 07:57:11] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.2.0.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.5.0.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-30 07:57:11] INFO root fetch - processPackages [v3io]: Remove: archive file [/home/abi/fetcher/tmp/v3io-0.6.4.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - processPackages [v3io]: Remove: archive file [/home/abi/fetcher/tmp/v3io-0.6.5.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - main [MainThread]: End processing [v3io]: success
+[2024-04-30 07:57:11] INFO root fetch - processPackages [DEME]: executing diffoscope
+[2024-04-30 07:57:11] INFO root fetch - processPackages [DEME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DEME-1.0.8.tar.gz tmp/DEME-1.0.9.tar.gz --markdown 20240430/D/DEME/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 07:57:11] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-04-30 07:57:11] INFO root fetch - processPackages [cellmaps-vnn]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_vnn-0.1.0a1.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - processPackages [cellmaps-vnn]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_vnn-0.1.0a2.tar.gz]
+[2024-04-30 07:57:11] INFO root fetch - main [MainThread]: End processing [cellmaps-vnn]: success
+[2024-04-30 07:57:14] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-1.0.8.tar.gz]
+[2024-04-30 07:57:14] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-1.0.9.tar.gz]
+[2024-04-30 07:57:14] INFO root fetch - main [MainThread]: End processing [DEME]: success
+[2024-04-30 07:57:14] INFO root fetch - main [MainThread]: Store serial: [22996850]
