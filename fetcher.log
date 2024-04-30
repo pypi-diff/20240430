@@ -1967,3 +1967,45 @@
 [2024-04-30 02:02:33] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
 [2024-04-30 02:02:33] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2024-04-30 02:02:33] INFO root fetch - main [MainThread]: Store serial: [22992316]
+[2024-04-30 02:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992316]
+[2024-04-30 02:04:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lango-cli-beta
+[2024-04-30 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-04-30 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inception-reports
+[2024-04-30 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxscript
+[2024-04-30 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specifipy
+[2024-04-30 02:04:51] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240429] Old Version: [0.1.0.dev20240428]
+[2024-04-30 02:04:51] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240429.416] Old Version: [2.0.0.20240428.521]
+[2024-04-30 02:04:51] INFO root fetch - processPackages [specifipy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-30 02:04:51] WARNING root fetch - processPackages [inception-reports]: Skipping, unable to determine old version
+[2024-04-30 02:04:51] INFO root fetch - main [MainThread]: End processing [inception-reports] error
+[2024-04-30 02:04:51] INFO root fetch - processPackages [lango-cli-beta]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-04-30 02:04:51] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/26/1e/dbf7034b0ab56949c252f30a52190d4bcacbcdafa04aacbebf3236e11c9e/onnxscript-0.1.0.dev20240428.tar.gz
+[2024-04-30 02:04:51] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ae/26/e9b66259e84b2acf1561aa6e3f2b4882b1ba6477530775ed99bca0b779eb/mct-nightly-2.0.0.20240428.521.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [lango-cli-beta]: Downloading https://files.pythonhosted.org/packages/e4/33/3252802dd73e8ca50659ebb5fb110262205b793405d1405ad4b044e41532/lango_cli_beta-0.0.1rc1.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [specifipy]: Downloading https://files.pythonhosted.org/packages/7e/fc/8d255a7c17a4a4a3bdf6a1abca300548cac3eaec541252e007fef7ffbfca/specifipy-0.2.0.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/c5/1d/87e752f219b42a22ca71537c4c834bfc1df08288bf382a283f9d4abf6f50/onnxscript-0.1.0.dev20240429.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ad/44/9c3609a903d67405dceb54006e041538ae035e6546daa3ec799d3b3abf74/mct-nightly-2.0.0.20240429.416.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-30 02:04:52] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240428.tar.gz tmp/onnxscript-0.1.0.dev20240429.tar.gz --markdown 20240430/o/onnxscript/0.1.0.dev20240428-0.1.0.dev20240429/README.md --exclude *.pyd
+[2024-04-30 02:04:52] INFO root fetch - processPackages [specifipy]: Downloading https://files.pythonhosted.org/packages/10/c4/b09aacca4f82b033131d4a19af1fa74701e876cfc0fb3a6701484c2b0f2f/specifipy-0.2.1.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [lango-cli-beta]: Downloading https://files.pythonhosted.org/packages/13/00/b23c901a0008d6544044b97dbacf34e525ec7860f7fd7e6a4e300d7104b4/lango_cli_beta-0.0.1rc2.tar.gz
+[2024-04-30 02:04:52] INFO root fetch - processPackages [specifipy]: executing diffoscope
+[2024-04-30 02:04:52] INFO root fetch - processPackages [specifipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specifipy-0.2.0.tar.gz tmp/specifipy-0.2.1.tar.gz --markdown 20240430/s/specifipy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-30 02:04:52] INFO root fetch - processPackages [lango-cli-beta]: executing diffoscope
+[2024-04-30 02:04:52] INFO root fetch - processPackages [lango-cli-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lango_cli_beta-0.0.1rc1.tar.gz tmp/lango_cli_beta-0.0.1rc2.tar.gz --markdown 20240430/l/lango-cli-beta/0.0.1rc1-0.0.1rc2/README.md --exclude *.pyd
+[2024-04-30 02:04:52] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-30 02:04:52] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240428.521.tar.gz tmp/mct-nightly-2.0.0.20240429.416.tar.gz --markdown 20240430/m/mct-nightly/2.0.0.20240428.521-2.0.0.20240429.416/README.md --exclude *.pyd
+[2024-04-30 02:04:53] INFO root fetch - processPackages [specifipy]: Remove: archive file [/home/abi/fetcher/tmp/specifipy-0.2.0.tar.gz]
+[2024-04-30 02:04:53] INFO root fetch - processPackages [specifipy]: Remove: archive file [/home/abi/fetcher/tmp/specifipy-0.2.1.tar.gz]
+[2024-04-30 02:04:53] INFO root fetch - main [MainThread]: End processing [specifipy]: success
+[2024-04-30 02:04:53] INFO root fetch - processPackages [lango-cli-beta]: Remove: archive file [/home/abi/fetcher/tmp/lango_cli_beta-0.0.1rc1.tar.gz]
+[2024-04-30 02:04:53] INFO root fetch - processPackages [lango-cli-beta]: Remove: archive file [/home/abi/fetcher/tmp/lango_cli_beta-0.0.1rc2.tar.gz]
+[2024-04-30 02:04:53] INFO root fetch - main [MainThread]: End processing [lango-cli-beta]: success
+[2024-04-30 02:04:53] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240428.tar.gz]
+[2024-04-30 02:04:53] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240429.tar.gz]
+[2024-04-30 02:04:53] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-30 02:04:54] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240428.521.tar.gz]
+[2024-04-30 02:04:54] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240429.416.tar.gz]
+[2024-04-30 02:04:54] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-30 02:04:54] INFO root fetch - main [MainThread]: Store serial: [22992333]
