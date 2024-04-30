@@ -17152,3 +17152,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:36:09] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.8.1.tar.gz]
 [2024-04-30 09:36:09] INFO root fetch - main [MainThread]: End processing [gestionatr]: success
 [2024-04-30 09:36:09] INFO root fetch - main [MainThread]: Store serial: [22997918]
+[2024-04-30 09:38:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997918]
+[2024-04-30 09:38:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmx-v2-python-test
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: racetrack-client
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secretscraper
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenTTDLab
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lalsuite
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iamsystem
+[2024-04-30 09:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvmtrans
+[2024-04-30 09:38:19] INFO root fetch - processPackages [hmx-v2-python-test]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-30 09:38:19] INFO root fetch - processPackages [cvmtrans]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 09:38:19] INFO root fetch - processPackages [secretscraper]: New version: [1.3.8.1] Old Version: [1.3.8]
+[2024-04-30 09:38:19] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 09:38:19] INFO root fetch - processPackages [hmx-v2-python-test]: Downloading https://files.pythonhosted.org/packages/6f/2a/b78c69e42683c3ebb245ba457467064311f27e33ed845b700160c1a7b9f5/hmx_v2_python_test-1.2.1.tar.gz
+[2024-04-30 09:38:19] INFO root fetch - processPackages [iamsystem]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-30 09:38:19] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-30 09:38:19] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/b6/0a/337cb892c1bc7436d7d5c0eb958976a5db159c460a55bbe9006362b5d28d/secretscraper-1.3.8.tar.gz
+[2024-04-30 09:38:19] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-30 09:38:20] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/38/84/c37615268ed5aeded9e5e81dfbd9baf0edef5d006c392c39452dabd6d9fb/cvmtrans-0.0.2.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [iamsystem]: Downloading https://files.pythonhosted.org/packages/da/74/a35290101c087e2b06432e26ad4e4d843b287a53212a4d4864c7bc9da01c/iamsystem-0.6.0.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [hmx-v2-python-test]: Downloading https://files.pythonhosted.org/packages/11/29/008e5e071381b045846cdc50278ec9a8c4a29b3f58aea5b759427399b7a4/hmx_v2_python_test-1.2.2.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:38:20] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/5a/39/e1600f909e6f9bbd8d6858e64e5a75097ad332d0d17ab7910d332cdf3f52/secretscraper-1.3.8.1.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [hmx-v2-python-test]: executing diffoscope
+[2024-04-30 09:38:20] INFO root fetch - processPackages [hmx-v2-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmx_v2_python_test-1.2.1.tar.gz tmp/hmx_v2_python_test-1.2.2.tar.gz --markdown 20240430/h/hmx-v2-python-test/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-30 09:38:20] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-04-30 09:38:20] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240430/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 09:38:20] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/b5/83/9a582c06776091bca4b7b51731ccab43cd41df1beaa0db78125afeae2bed/cvmtrans-0.0.3.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-30 09:38:20] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.8.tar.gz tmp/secretscraper-1.3.8.1.tar.gz --markdown 20240430/s/secretscraper/1.3.8-1.3.8.1/README.md --exclude *.pyd
+[2024-04-30 09:38:20] INFO root fetch - processPackages [iamsystem]: Downloading https://files.pythonhosted.org/packages/55/d0/c30ede1487a9218c80cc709c138ea96f9367c4f4b2205eea46903128f08d/iamsystem-0.6.1.tar.gz
+[2024-04-30 09:38:20] INFO root fetch - processPackages [cvmtrans]: executing diffoscope
+[2024-04-30 09:38:20] INFO root fetch - processPackages [cvmtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmtrans-0.0.2.tar.gz tmp/cvmtrans-0.0.3.tar.gz --markdown 20240430/c/cvmtrans/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 09:38:20] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2024-04-30 09:38:20] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-30 09:38:20] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-30 09:38:20] INFO root fetch - processPackages [iamsystem]: executing diffoscope
+[2024-04-30 09:38:20] INFO root fetch - processPackages [iamsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamsystem-0.6.0.tar.gz tmp/iamsystem-0.6.1.tar.gz --markdown 20240430/i/iamsystem/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-30 09:38:20] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2024-04-30 09:38:20] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20240430/r/racetrack-client/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-30 09:38:21] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.1.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - processPackages [hmx-v2-python-test]: Remove: archive file [/home/abi/fetcher/tmp/hmx_v2_python_test-1.2.2.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [hmx-v2-python-test]: success
+[2024-04-30 09:38:21] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-04-30 09:38:21] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.8.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.8.1.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-30 09:38:21] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2024-04-30 09:38:21] INFO root fetch - processPackages [iamsystem]: Remove: archive file [/home/abi/fetcher/tmp/iamsystem-0.6.0.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - processPackages [iamsystem]: Remove: archive file [/home/abi/fetcher/tmp/iamsystem-0.6.1.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [iamsystem]: success
+[2024-04-30 09:38:21] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.2.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.3.tar.gz]
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: End processing [cvmtrans]: success
+[2024-04-30 09:38:21] INFO root fetch - main [MainThread]: Store serial: [22997948]
