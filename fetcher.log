@@ -7833,3 +7833,54 @@
 [2024-04-30 04:49:40] INFO root fetch - processPackages [gdpx]: Remove: archive file [/home/abi/fetcher/tmp/gdpx-0.0.9.tar.gz]
 [2024-04-30 04:49:40] INFO root fetch - main [MainThread]: End processing [gdpx]: success
 [2024-04-30 04:49:40] INFO root fetch - main [MainThread]: Store serial: [22994538]
+[2024-04-30 04:51:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994538]
+[2024-04-30 04:51:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydraw
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cachext
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kairyou
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mphelper
+[2024-04-30 04:51:49] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.5.4] Old Version: [0.0.5.3]
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-30 04:51:49] INFO root fetch - processPackages [pydraw]: New version: [2.2a9] Old Version: [2.2a8]
+[2024-04-30 04:51:49] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/48/76/0a13b32aa095bdbeb30fff706f6a878cd83f488f1cf75163ba6c7641746a/pepperpepper-0.0.5.3.tar.gz
+[2024-04-30 04:51:49] INFO root fetch - processPackages [cachext]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-30 04:51:49] INFO root fetch - processPackages [kairyou]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-30 04:51:49] WARNING root fetch - processPackages [mphelper]: Skipping, unable to determine old version
+[2024-04-30 04:51:49] INFO root fetch - main [MainThread]: End processing [mphelper] error
+[2024-04-30 04:51:49] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/f4/74/e8a1345d539cc705b6c6b516b1fb693170808b2fad2d43f0b6fe82e5a474/pydraw-2.2a8-py3-none-any.whl
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-04-30 04:51:49] INFO root fetch - processPackages [cachext]: Downloading https://files.pythonhosted.org/packages/78/96/2e9a0641d78020b42a5d41e78d304c273d9796eec5d8caf81869fbe6ebe0/cachext-1.2.0-py3-none-any.whl
+[2024-04-30 04:51:49] INFO root fetch - processPackages [kairyou]: Downloading https://files.pythonhosted.org/packages/48/fe/0ead71efa5eeb722462627708dbb64481e5d4fdb83048892324b0129afe6/kairyou-1.6.0.tar.gz
+[2024-04-30 04:51:49] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/b6/00/9464a4280c86278a2986ee0b89b1db56ca0434b3870528fc0171e7e2f066/pydraw-2.2a9-py3-none-any.whl
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-04-30 04:51:49] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/91/e1/5b670b12ddd2e1d6ca416094e80114a5591c8f8fc6f337f46b1febcfa776/pepperpepper-0.0.5.4.tar.gz
+[2024-04-30 04:51:49] INFO root fetch - processPackages [pydraw]: executing diffoscope
+[2024-04-30 04:51:49] INFO root fetch - processPackages [pydraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraw-2.2a8-py3-none-any.whl.zip tmp/pydraw-2.2a9-py3-none-any.whl.zip --markdown 20240430/p/pydraw/2.2a8-2.2a9/README.md --exclude *.pyd
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-30 04:51:49] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240430/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-30 04:51:49] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-04-30 04:51:49] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.5.3.tar.gz tmp/pepperpepper-0.0.5.4.tar.gz --markdown 20240430/P/PepperPepper/0.0.5.3-0.0.5.4/README.md --exclude *.pyd
+[2024-04-30 04:51:49] INFO root fetch - processPackages [cachext]: Downloading https://files.pythonhosted.org/packages/0f/31/a688c3801a8c0f1846a2f716b1489be348d01f07cbe98a1094177c4fb837/cachext-1.2.1-py3-none-any.whl
+[2024-04-30 04:51:49] INFO root fetch - processPackages [cachext]: executing diffoscope
+[2024-04-30 04:51:49] INFO root fetch - processPackages [cachext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachext-1.2.0-py3-none-any.whl.zip tmp/cachext-1.2.1-py3-none-any.whl.zip --markdown 20240430/c/cachext/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-30 04:51:49] INFO root fetch - processPackages [kairyou]: Downloading https://files.pythonhosted.org/packages/ea/4d/b56b9f96c0dd8a0e37ce0ecb333d4a67d774128c7b81396e7f970bc51da0/kairyou-1.6.1.tar.gz
+[2024-04-30 04:51:50] INFO root fetch - processPackages [kairyou]: executing diffoscope
+[2024-04-30 04:51:50] INFO root fetch - processPackages [kairyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kairyou-1.6.0.tar.gz tmp/kairyou-1.6.1.tar.gz --markdown 20240430/k/kairyou/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-30 04:51:50] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a8-py3-none-any.whl.zip]
+[2024-04-30 04:51:50] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a9-py3-none-any.whl.zip]
+[2024-04-30 04:51:50] INFO root fetch - main [MainThread]: End processing [pydraw]: success
+[2024-04-30 04:51:50] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-04-30 04:51:50] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-04-30 04:51:50] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-30 04:51:50] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.3.tar.gz]
+[2024-04-30 04:51:50] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.4.tar.gz]
+[2024-04-30 04:51:50] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-04-30 04:51:50] INFO root fetch - processPackages [cachext]: Remove: archive file [/home/abi/fetcher/tmp/cachext-1.2.0-py3-none-any.whl.zip]
+[2024-04-30 04:51:50] INFO root fetch - processPackages [cachext]: Remove: archive file [/home/abi/fetcher/tmp/cachext-1.2.1-py3-none-any.whl.zip]
+[2024-04-30 04:51:50] INFO root fetch - main [MainThread]: End processing [cachext]: success
+[2024-04-30 04:51:50] INFO root fetch - processPackages [kairyou]: Remove: archive file [/home/abi/fetcher/tmp/kairyou-1.6.0.tar.gz]
+[2024-04-30 04:51:50] INFO root fetch - processPackages [kairyou]: Remove: archive file [/home/abi/fetcher/tmp/kairyou-1.6.1.tar.gz]
+[2024-04-30 04:51:50] INFO root fetch - main [MainThread]: End processing [kairyou]: success
+[2024-04-30 04:51:50] INFO root fetch - main [MainThread]: Store serial: [22994556]
