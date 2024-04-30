@@ -16017,3 +16017,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:48:25] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.9.tar.gz]
 [2024-04-30 08:48:25] INFO root fetch - main [MainThread]: End processing [xagent]: success
 [2024-04-30 08:48:25] INFO root fetch - main [MainThread]: Store serial: [22997453]
+[2024-04-30 08:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997453]
+[2024-04-30 08:50:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 08:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: String-methods
+[2024-04-30 08:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: while-patterns
+[2024-04-30 08:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deadpad
+[2024-04-30 08:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Jord
+[2024-04-30 08:50:34] INFO root fetch - processPackages [Jord]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-30 08:50:34] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/dd/fe/a588579e56cf6cd43dfd200e74a3f39b224226a6bc60f1c208ca4d6940d7/jord-0.5.5.tar.gz
+[2024-04-30 08:50:34] WARNING root fetch - processPackages [String-methods]: Skipping, unable to determine old version
+[2024-04-30 08:50:34] INFO root fetch - main [MainThread]: End processing [String-methods] error
+[2024-04-30 08:50:34] WARNING root fetch - processPackages [while-patterns]: Skipping, unable to determine old version
+[2024-04-30 08:50:34] INFO root fetch - main [MainThread]: End processing [while-patterns] error
+[2024-04-30 08:50:34] INFO root fetch - processPackages [deadpad]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-30 08:50:35] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/f1/7b/658f70db83dcae7107b7325ad273e9b199c9f84e2f8a2b8fd015702da1cc/jord-0.5.6.tar.gz
+[2024-04-30 08:50:35] INFO root fetch - processPackages [deadpad]: Downloading https://files.pythonhosted.org/packages/ee/2e/0ab11811fa39f08f5ac377ce78ad03f0980d05d4dc33db9337ed681bbd88/deadpad-0.1.0.tar.gz
+[2024-04-30 08:50:35] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2024-04-30 08:50:35] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jord-0.5.5.tar.gz tmp/jord-0.5.6.tar.gz --markdown 20240430/J/Jord/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-30 08:50:35] INFO root fetch - processPackages [deadpad]: Downloading https://files.pythonhosted.org/packages/1f/b7/139a95c033fd067b6ef4fb395ff07beb76641752a08e4b82559690bbfd0e/deadpad-0.2.0.tar.gz
+[2024-04-30 08:50:35] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.5.tar.gz]
+[2024-04-30 08:50:35] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.6.tar.gz]
+[2024-04-30 08:50:35] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2024-04-30 08:50:36] INFO root fetch - processPackages [deadpad]: executing diffoscope
+[2024-04-30 08:50:36] INFO root fetch - processPackages [deadpad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadpad-0.1.0.tar.gz tmp/deadpad-0.2.0.tar.gz --markdown 20240430/d/deadpad/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-30 08:50:37] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.1.0.tar.gz]
+[2024-04-30 08:50:37] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.2.0.tar.gz]
+[2024-04-30 08:50:37] INFO root fetch - main [MainThread]: End processing [deadpad]: success
+[2024-04-30 08:50:37] INFO root fetch - main [MainThread]: Store serial: [22997464]
