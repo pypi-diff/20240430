@@ -20263,3 +20263,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:45:52] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl.zip]
 [2024-04-30 10:45:52] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-30 10:45:52] INFO root fetch - main [MainThread]: Store serial: [22998974]
+[2024-04-30 10:47:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998974]
+[2024-04-30 10:48:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Heron-42ad
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplestart
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQtUIkit
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuzu
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specvizitor
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sync-env
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drax-sdk
+[2024-04-30 10:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: engcom
+[2024-04-30 10:48:01] INFO root fetch - processPackages [Heron-42ad]: New version: [0.7.5.2] Old Version: [0.7.5.1]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [engcom]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [simplestart]: New version: [0.0.1.9] Old Version: [0.0.1.16]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [Heron-42ad]: Downloading https://files.pythonhosted.org/packages/16/a8/4aae47e98be54e4031454d868f4d7c51ae4949cb391bf4384205ba32ef26/heron_42ad-0.7.5.1.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [specvizitor]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-30 10:48:01] WARNING root fetch - processPackages [drax-sdk]: Skipping, unable to determine old version
+[2024-04-30 10:48:01] INFO root fetch - main [MainThread]: End processing [drax-sdk] error
+[2024-04-30 10:48:01] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [engcom]: Downloading https://files.pythonhosted.org/packages/23/35/d23f8654c0345a3950cbfedbc19f03960b0b47d6339450ed75f5cf533ddf/engcom-0.1.8.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev51] Old Version: [0.3.3.dev50]
+[2024-04-30 10:48:01] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-30 10:48:01] WARNING root fetch - processPackages [Heron-42ad]: Skipping package: exceeds size limit 16058150>=10485760
+[2024-04-30 10:48:01] INFO root fetch - main [MainThread]: End processing [Heron-42ad] error
+[2024-04-30 10:48:01] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/b9/17/86680e3f9fb25a7399e970ee957fd7fb464e7d196125413c14ece942924b/PyQtUIkit-2.8.2.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [simplestart]: Downloading https://files.pythonhosted.org/packages/1c/ff/6a10de4c520e5d64b077b4d0ece99d337ba4e756bd23becdac6173be2f01/simplestart-0.0.1.16.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [specvizitor]: Downloading https://files.pythonhosted.org/packages/70/c7/ffb8358a6d4e8fc204ce54ad7b2031f83307bbc2a99da6936c3dd8ecc28d/specvizitor-0.4.0.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [engcom]: Downloading https://files.pythonhosted.org/packages/58/23/e3cc266d8a819c6b69efb50ab737513b8ad73d2da1b6c89d753cdb270dea/engcom-0.1.9.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fb/ec/bd76ea117c6df39c15f1a3a10aebb2d5903d72c4400d359c37ea40fa8a9f/kuzu-0.3.3.dev50.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-30 10:48:01] INFO root fetch - processPackages [engcom]: executing diffoscope
+[2024-04-30 10:48:01] INFO root fetch - processPackages [engcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engcom-0.1.8.tar.gz tmp/engcom-0.1.9.tar.gz --markdown 20240430/e/engcom/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:48:02] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-30 10:48:02] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240430/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-30 10:48:02] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-30 10:48:02] INFO root fetch - processPackages [specvizitor]: Downloading https://files.pythonhosted.org/packages/fc/5d/d117a32f5f34047640bfca3946231bb624e203e7d4a0b6188ab7e3b9b486/specvizitor-0.4.1.tar.gz
+[2024-04-30 10:48:02] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/0a/59/b7464135af9ea582d377817e97a87349c4cbf2f89e5f092ef305625aa409/PyQtUIkit-2.8.3.tar.gz
+[2024-04-30 10:48:02] INFO root fetch - processPackages [specvizitor]: executing diffoscope
+[2024-04-30 10:48:02] INFO root fetch - processPackages [specvizitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specvizitor-0.4.0.tar.gz tmp/specvizitor-0.4.1.tar.gz --markdown 20240430/s/specvizitor/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-30 10:48:02] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-30 10:48:02] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.8.2.tar.gz tmp/PyQtUIkit-2.8.3.tar.gz --markdown 20240430/P/PyQtUIkit/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-04-30 10:48:02] INFO root fetch - processPackages [simplestart]: Downloading https://files.pythonhosted.org/packages/aa/77/b44d1c206e95cecd97873b2b320c7e0a738387a7137ed12b246b5d2e24e9/simplestart-0.0.1.9.tar.gz
+[2024-04-30 10:48:02] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-30 10:48:02] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240430/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-30 10:48:02] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/de/96/021050618cf1c57ff2a027525ef598cb63f7891c70668a7c03e5e2b98b01/kuzu-0.3.3.dev51-cp39-cp39-win_amd64.whl
+[2024-04-30 10:48:02] INFO root fetch - processPackages [engcom]: Remove: archive file [/home/abi/fetcher/tmp/engcom-0.1.8.tar.gz]
+[2024-04-30 10:48:02] INFO root fetch - processPackages [engcom]: Remove: archive file [/home/abi/fetcher/tmp/engcom-0.1.9.tar.gz]
+[2024-04-30 10:48:02] INFO root fetch - main [MainThread]: End processing [engcom]: success
+[2024-04-30 10:48:02] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-30 10:48:02] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-30 10:48:02] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-30 10:48:03] INFO root fetch - processPackages [specvizitor]: Remove: archive file [/home/abi/fetcher/tmp/specvizitor-0.4.0.tar.gz]
+[2024-04-30 10:48:03] INFO root fetch - processPackages [specvizitor]: Remove: archive file [/home/abi/fetcher/tmp/specvizitor-0.4.1.tar.gz]
+[2024-04-30 10:48:03] INFO root fetch - main [MainThread]: End processing [specvizitor]: success
+[2024-04-30 10:48:03] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.2.tar.gz]
+[2024-04-30 10:48:03] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.3.tar.gz]
+[2024-04-30 10:48:03] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-30 10:48:03] INFO root fetch - processPackages [simplestart]: executing diffoscope
+[2024-04-30 10:48:03] INFO root fetch - processPackages [simplestart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplestart-0.0.1.16.tar.gz tmp/simplestart-0.0.1.9.tar.gz --markdown 20240430/s/simplestart/0.0.1.16-0.0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:48:05] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-30 10:48:05] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-30 10:48:05] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-30 10:48:06] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-30 10:48:06] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev50.tar.gz tmp/kuzu-0.3.3.dev51-cp39-cp39-win_amd64.whl.zip --markdown 20240430/k/kuzu/0.3.3.dev50-0.3.3.dev51/README.md --exclude *.pyd
+[2024-04-30 10:48:07] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev50.tar.gz]
+[2024-04-30 10:48:07] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev51-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 10:48:07] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-30 10:48:07] INFO root fetch - processPackages [simplestart]: Remove: archive file [/home/abi/fetcher/tmp/simplestart-0.0.1.16.tar.gz]
+[2024-04-30 10:48:07] INFO root fetch - processPackages [simplestart]: Remove: archive file [/home/abi/fetcher/tmp/simplestart-0.0.1.9.tar.gz]
+[2024-04-30 10:48:07] INFO root fetch - main [MainThread]: End processing [simplestart]: success
+[2024-04-30 10:48:07] INFO root fetch - main [MainThread]: Store serial: [22999028]
