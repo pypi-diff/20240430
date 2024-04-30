@@ -20784,3 +20784,186 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:03:43] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.6.tar.gz]
 [2024-04-30 11:03:43] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
 [2024-04-30 11:03:43] INFO root fetch - main [MainThread]: Store serial: [22999232]
+[2024-04-30 11:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999232]
+[2024-04-30 11:05:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scs-core
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.common
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bert4keras3
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scs-host-posix
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zodchy-fastapi
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.features
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stopwords-tr
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2024-04-30 11:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-admin-assets
+[2024-04-30 11:05:52] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [zodchy-fastapi]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240429] Old Version: [1.1.1b20240428]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1516] Old Version: [1.0.0.post1515]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240429] Old Version: [1.1.1b20240428]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [scs-core]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240429] Old Version: [1.1.1b20240428]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [bert4keras3]: New version: [1.3a0] Old Version: [1.3.0]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [scs-host-posix]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240429] Old Version: [1.1.1b20240428]
+[2024-04-30 11:05:52] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/29/e3/5e0868198247e38251f651f57d0544f57248370f9bb5aafafcdf25aabb10/stopwords_tr-1.1.8.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/10/14/d054924405e0e2b70021b35b6cea8a32053836c50a8be4b6cbc6cbcec052/autogluon.tabular-1.1.1b20240428.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/70/fa/6d5766e3f5e04ee115cfd5cbbdd800548c6dc18d13722671c7a82b8425fe/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/ba/d9/936b7a4b77467c5d4727d228c0253cafa89066bb4320546bc03487166971/autogluon.common-1.1.1b20240428.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d3/b7/97f6e0bd5fd1c8f4b47dac4982183cbb03af9c85e923fb8dce5fb5fa3365/autogluon.core-1.1.1b20240428.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/b9/d7/9b1f3c9276db88d99f6a539327187c72a1b5117af319076bfd6d2cc963fa/zodchy_fastapi-0.2.1.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/65/f6/225a3262a2d273d7cc5f42945566a024ebf31de1fa781db12e5e88637b73/autogluon.features-1.1.1b20240428.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/16/0f/cfe27fc1c173550fcd053816dea81df44643bae2859d7c1edf0cce125741/scs-core-3.9.4.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/33/44/c3fdc44fd9d8df3de0a8a9854287a27cd5a65f524653fa33e6b904ab1140/bert4keras3-1.3.0-py3-none-any.whl
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-host-posix]: Downloading https://files.pythonhosted.org/packages/5e/8c/e114db9409cf2b96c6fecab2fb4094e2ee319bcebeb4b905a902a967d7a5/scs-host-posix-3.3.0.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/b1/dc/4717e7d07a4846e3ace50489a9004050e198b4552add1bf07b5391b5779a/stopwords_tr-1.1.9.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/0c/38/7edfeb52ca010b57554777081623aaef4355f1db7931ca68803684cae755/autogluon.tabular-1.1.1b20240429.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/8f/d0/6e2700485405b98627236d72de970251a11244aba937e8bf94feb26c9f35/zodchy_fastapi-0.2.2.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/87/bc/5d85e5593a2a9e558f646dd9878cec80bfcf486ea2c5214afc3686d475cd/autogluon.common-1.1.1b20240429.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/77/16/bbb26d1ceaf8d841a18906f85cf4de0b0c4a0e98c9b36d2d976c5fc55826/autogluon.features-1.1.1b20240429.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/03/ca/ef965fbb7f1f7b1357c637a9d11d7d14b564d64c3060d595a6257592c328/nucliadb_admin_assets-1.0.0.post1516-py3-none-any.whl
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/01/2d/1b6cfd8ee18b224d96d5453959f8704fd02f5236dceecd033698526ca736/autogluon.core-1.1.1b20240429.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.8.tar.gz tmp/stopwords_tr-1.1.9.tar.gz --markdown 20240430/s/stopwords-tr/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/22/32/90d5cdce8e34a889d7372a982cce84edba7f4c86e421eccee6b6f07fa993/bert4keras3-1.3a0-py3-none-any.whl
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/57/af/3987873caff8cb82812e00ed94241928f47c7c6cb52e25c3163689be282c/scs-core-3.9.5.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240428.tar.gz tmp/autogluon.tabular-1.1.1b20240429.tar.gz --markdown 20240430/a/autogluon.tabular/1.1.1b20240428-1.1.1b20240429/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-host-posix]: Downloading https://files.pythonhosted.org/packages/70/d7/5016231a83b272f13d37c09ffcf953e36777a331187d7d6466ce69a3d4eb/scs_host_posix-3.3.1.tar.gz
+[2024-04-30 11:05:53] INFO root fetch - processPackages [zodchy-fastapi]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [zodchy-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_fastapi-0.2.1.tar.gz tmp/zodchy_fastapi-0.2.2.tar.gz --markdown 20240430/z/zodchy-fastapi/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240428.tar.gz tmp/autogluon.common-1.1.1b20240429.tar.gz --markdown 20240430/a/autogluon.common/1.1.1b20240428-1.1.1b20240429/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240428.tar.gz tmp/autogluon.features-1.1.1b20240429.tar.gz --markdown 20240430/a/autogluon.features/1.1.1b20240428-1.1.1b20240429/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240428.tar.gz tmp/autogluon.core-1.1.1b20240429.tar.gz --markdown 20240430/a/autogluon.core/1.1.1b20240428-1.1.1b20240429/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-host-posix]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-host-posix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-host-posix-3.3.0.tar.gz tmp/scs_host_posix-3.3.1.tar.gz --markdown 20240430/s/scs-host-posix/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1516-py3-none-any.whl.zip --markdown 20240430/n/nucliadb-admin-assets/1.0.0.post1515-1.0.0.post1516/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.3.0-py3-none-any.whl.zip tmp/bert4keras3-1.3a0-py3-none-any.whl.zip --markdown 20240430/b/bert4keras3/1.3.0-1.3a0/README.md --exclude *.pyd
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2024-04-30 11:05:53] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-3.9.4.tar.gz tmp/scs-core-3.9.5.tar.gz --markdown 20240430/s/scs-core/3.9.4-3.9.5/README.md --exclude *.pyd
+[2024-04-30 11:05:54] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.8.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.9.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [stopwords-tr]: Start processing: scs-hue
+[2024-04-30 11:05:54] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 11:05:54] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.2.1.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.2.2.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [zodchy-fastapi]: Start processing: smartboiler
+[2024-04-30 11:05:54] INFO root fetch - main [MainThread]: End processing [zodchy-fastapi]: success
+[2024-04-30 11:05:54] INFO root fetch - processPackages [scs-hue]: New version: [3.4.4] Old Version: [3.4.2]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-04-30 11:05:54] INFO root fetch - processPackages [scs-host-posix]: Remove: archive file [/home/abi/fetcher/tmp/scs-host-posix-3.3.0.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [scs-host-posix]: Remove: archive file [/home/abi/fetcher/tmp/scs_host_posix-3.3.1.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [scs-host-posix]: Start processing: django-silica
+[2024-04-30 11:05:54] INFO root fetch - main [MainThread]: End processing [scs-host-posix]: success
+[2024-04-30 11:05:54] INFO root fetch - processPackages [scs-hue]: Downloading https://files.pythonhosted.org/packages/15/63/7e87c7ed48e18d656b7f6ac39e9c2c384a2e50f8e000770855e4668976f7/scs-hue-3.4.2.tar.gz
+[2024-04-30 11:05:54] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240428.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240429.tar.gz]
+[2024-04-30 11:05:54] INFO root fetch - processPackages [autogluon.features]: Start processing: autogluon.multimodal
+[2024-04-30 11:05:54] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240428.tar.gz]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240429.tar.gz]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.common]: Start processing: openimis-be-policy
+[2024-04-30 11:05:55] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240429] Old Version: [1.1.1b20240428]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240428.tar.gz]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240429.tar.gz]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.tabular]: Start processing: ministryofjustice-data-platform-catalogue
+[2024-04-30 11:05:55] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-30 11:05:55] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [django-silica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240428.tar.gz]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240429.tar.gz]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.core]: Start processing: autogluon.timeseries
+[2024-04-30 11:05:55] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-30 11:05:55] INFO root fetch - processPackages [openimis-be-policy]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/14/21/05304f6983e9d0f155eab72979f607b18a44e731bb362020fe1d4e9ffc41/autogluon.multimodal-1.1.1b20240428.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3.0-py3-none-any.whl.zip]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3a0-py3-none-any.whl.zip]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [bert4keras3]: Start processing: openimis-be-payer
+[2024-04-30 11:05:55] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240429] Old Version: [1.1.1b20240428]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-04-30 11:05:55] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240430/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-04-30 11:05:55] INFO root fetch - processPackages [openimis-be-payer]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-30 11:05:55] INFO root fetch - processPackages [django-silica]: Downloading https://files.pythonhosted.org/packages/d6/ab/3c5ac64c11abf902d6e8c8f9cd90cd37e8fa78c5b8e8c40ffc10662eb9db/django_silica-0.1.8.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [scs-hue]: Downloading https://files.pythonhosted.org/packages/54/7a/7d5820639672cd9658bb99b035531bc449513e814c027e9af4e8f026c1c5/scs_hue-3.4.4.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [openimis-be-policy]: Downloading https://files.pythonhosted.org/packages/25/e8/3ef065d67c8e54dbf76f197c3a93b796fd076f65969a1ec8184a707f4f3c/openimis-be-policy-1.6.0.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/d7/2e/483ce3f3bed5c213a8f72ef4023cd0e2820a19737d2a5c66c51297d31e53/autogluon.timeseries-1.1.1b20240428.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/75/9f/397792792afd0fa8dcccfefd91c3d82f0141d25e0e4598229d9229f11efd/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [openimis-be-payer]: Downloading https://files.pythonhosted.org/packages/e2/dd/d950f975324811c20ab707070fee9f0d7fc8e574f3b74e6e740723c61279/openimis-be-payer-1.5.0.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/8a/6e/ef3f953fb02baa9d69d5d06c23e0e212156eaac3ef89b28b661d2f62f4ed/autogluon.multimodal-1.1.1b20240429.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [scs-hue]: executing diffoscope
+[2024-04-30 11:05:55] INFO root fetch - processPackages [scs-hue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-hue-3.4.2.tar.gz tmp/scs_hue-3.4.4.tar.gz --markdown 20240430/s/scs-hue/3.4.2-3.4.4/README.md --exclude *.pyd
+[2024-04-30 11:05:55] INFO root fetch - processPackages [django-silica]: Downloading https://files.pythonhosted.org/packages/08/c4/1173af4a0186f9477b5aead8929e288a1b385cf05e4f40b073895cfa1cab/django_silica-0.1.9.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [openimis-be-policy]: Downloading https://files.pythonhosted.org/packages/8f/58/8eafc2c2ad0cc1deaf7d711841bcaae6f1ada66041ad3f33ccbfdbf64648/openimis_be_policy-1.7.0.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240428.tar.gz tmp/autogluon.multimodal-1.1.1b20240429.tar.gz --markdown 20240430/a/autogluon.multimodal/1.1.1b20240428-1.1.1b20240429/README.md --exclude *.pyd
+[2024-04-30 11:05:55] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/31/75/00beb34094dacd3822c127a12300a40a95efb2701f7bff5d93055811280a/autogluon.timeseries-1.1.1b20240429.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/3a/b1/1fd54d68c6fc526188e473813d8e1008263a0ea71ff76d7d46840cfabaa8/ministryofjustice_data_platform_catalogue-1.0.0.tar.gz
+[2024-04-30 11:05:55] INFO root fetch - processPackages [openimis-be-payer]: Downloading https://files.pythonhosted.org/packages/68/76/46b9613e277d311c17eea9591158886a98d43ae26357a3cb3e039043d4b4/openimis_be_payer-1.6.0.tar.gz
+[2024-04-30 11:05:56] INFO root fetch - processPackages [django-silica]: executing diffoscope
+[2024-04-30 11:05:56] INFO root fetch - processPackages [django-silica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_silica-0.1.8.tar.gz tmp/django_silica-0.1.9.tar.gz --markdown 20240430/d/django-silica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 11:05:56] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-30 11:05:56] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240428.tar.gz tmp/autogluon.timeseries-1.1.1b20240429.tar.gz --markdown 20240430/a/autogluon.timeseries/1.1.1b20240428-1.1.1b20240429/README.md --exclude *.pyd
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-policy]: executing diffoscope
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-policy-1.6.0.tar.gz tmp/openimis_be_policy-1.7.0.tar.gz --markdown 20240430/o/openimis-be-policy/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:05:56] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: executing diffoscope
+[2024-04-30 11:05:56] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz tmp/ministryofjustice_data_platform_catalogue-1.0.0.tar.gz --markdown 20240430/m/ministryofjustice-data-platform-catalogue/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-payer]: executing diffoscope
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-payer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-payer-1.5.0.tar.gz tmp/openimis_be_payer-1.6.0.tar.gz --markdown 20240430/o/openimis-be-payer/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-30 11:05:56] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [smartboiler]: Start processing: openimis-be-contribution
+[2024-04-30 11:05:56] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-contribution]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.4.tar.gz]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.5.tar.gz]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [scs-core]: Start processing: openimis-be-payment
+[2024-04-30 11:05:56] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-contribution]: Downloading https://files.pythonhosted.org/packages/e0/dd/cce819c82a2aff8c6a7a37019503ae276222f1a3bf1e2037fb83038a246e/openimis-be-contribution-1.6.0.tar.gz
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-payment]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [openimis-be-payment]: Downloading https://files.pythonhosted.org/packages/8e/95/a42a1aaecc718c5c8caeb09b0bc1f794655ad73d6495488e6c499353364b/openimis-be-payment-1.6.0.tar.gz
+[2024-04-30 11:05:56] INFO root fetch - processPackages [scs-hue]: Remove: archive file [/home/abi/fetcher/tmp/scs-hue-3.4.2.tar.gz]
+[2024-04-30 11:05:56] INFO root fetch - processPackages [scs-hue]: Remove: archive file [/home/abi/fetcher/tmp/scs_hue-3.4.4.tar.gz]
+[2024-04-30 11:05:56] INFO root fetch - main [MainThread]: End processing [scs-hue]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240428.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240429.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-contribution]: Downloading https://files.pythonhosted.org/packages/4f/a4/6804025beb2560bb5444c9b0b69c2ce787068905ef893930965ec080d542/openimis_be_contribution-1.7.0.tar.gz
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-policy]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-policy-1.6.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-policy]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_policy-1.7.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [openimis-be-policy]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-1.0.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [ministryofjustice-data-platform-catalogue]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [django-silica]: Remove: archive file [/home/abi/fetcher/tmp/django_silica-0.1.8.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [django-silica]: Remove: archive file [/home/abi/fetcher/tmp/django_silica-0.1.9.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [django-silica]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240428.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240429.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-contribution]: executing diffoscope
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-contribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-contribution-1.6.0.tar.gz tmp/openimis_be_contribution-1.7.0.tar.gz --markdown 20240430/o/openimis-be-contribution/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-payment]: Downloading https://files.pythonhosted.org/packages/fb/c9/0bedf048fc946ed05bd008a1e2337a906e4953c5f083bf48a2206d01af9c/openimis_be_payment-1.7.0.tar.gz
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-payer]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-payer-1.5.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-payer]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_payer-1.6.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [openimis-be-payer]: success
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-payment]: executing diffoscope
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-payment-1.6.0.tar.gz tmp/openimis_be_payment-1.7.0.tar.gz --markdown 20240430/o/openimis-be-payment/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-contribution]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-contribution-1.6.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - processPackages [openimis-be-contribution]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_contribution-1.7.0.tar.gz]
+[2024-04-30 11:05:57] INFO root fetch - main [MainThread]: End processing [openimis-be-contribution]: success
+[2024-04-30 11:05:58] INFO root fetch - processPackages [openimis-be-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-payment-1.6.0.tar.gz]
+[2024-04-30 11:05:58] INFO root fetch - processPackages [openimis-be-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_payment-1.7.0.tar.gz]
+[2024-04-30 11:05:58] INFO root fetch - main [MainThread]: End processing [openimis-be-payment]: success
+[2024-04-30 11:06:09] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl.zip]
+[2024-04-30 11:06:09] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1516-py3-none-any.whl.zip]
+[2024-04-30 11:06:09] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-30 11:06:09] INFO root fetch - main [MainThread]: Store serial: [22999293]
