@@ -8474,3 +8474,27 @@
 [2024-04-30 05:22:37] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-04-30 05:22:37] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-04-30 05:22:37] INFO root fetch - main [MainThread]: Store serial: [22994760]
+[2024-04-30 05:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994760]
+[2024-04-30 05:24:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-04-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: focuscreen
+[2024-04-30 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iglib
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: Downloading https://files.pythonhosted.org/packages/68/91/b9b240862a3ad6d3d40b8ab7e6e7d69c7778e7df94e2831d6e355e3326b7/focuscreen-0.7.2.tar.gz
+[2024-04-30 05:24:46] WARNING root fetch - processPackages [iglib]: Skipping, unable to determine old version
+[2024-04-30 05:24:46] INFO root fetch - main [MainThread]: End processing [iglib] error
+[2024-04-30 05:24:46] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024043003] Old Version: [3.3.3.dev2024042903]
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: Downloading https://files.pythonhosted.org/packages/8c/c3/5a409e5cc7c99dbdd5fd5f9c47650f1daef9feb016113bb07a377a9471ba/focuscreen-0.7.3.tar.gz
+[2024-04-30 05:24:46] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/88/8b/ea7dab7f9b2e89b80facf8d10e9fb6c14f67059f4ee4e52c9ce67278ce1f/keras_nightly-3.3.3.dev2024042903.tar.gz
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: executing diffoscope
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focuscreen-0.7.2.tar.gz tmp/focuscreen-0.7.3.tar.gz --markdown 20240430/f/focuscreen/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-30 05:24:46] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/42/73/4053e6c6b8db7a506bbf6f36f640d552a5b166b06c0b2396dc24e0b244c9/keras_nightly-3.3.3.dev2024043003.tar.gz
+[2024-04-30 05:24:46] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-30 05:24:46] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024042903.tar.gz tmp/keras_nightly-3.3.3.dev2024043003.tar.gz --markdown 20240430/k/keras-nightly/3.3.3.dev2024042903-3.3.3.dev2024043003/README.md --exclude *.pyd
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: Remove: archive file [/home/abi/fetcher/tmp/focuscreen-0.7.2.tar.gz]
+[2024-04-30 05:24:46] INFO root fetch - processPackages [focuscreen]: Remove: archive file [/home/abi/fetcher/tmp/focuscreen-0.7.3.tar.gz]
+[2024-04-30 05:24:46] INFO root fetch - main [MainThread]: End processing [focuscreen]: success
+[2024-04-30 05:24:48] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024042903.tar.gz]
+[2024-04-30 05:24:48] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024043003.tar.gz]
+[2024-04-30 05:24:48] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-30 05:24:48] INFO root fetch - main [MainThread]: Store serial: [22994771]
