@@ -2405,3 +2405,47 @@
 [2024-04-30 02:21:19] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.2.1.tar.gz]
 [2024-04-30 02:21:19] INFO root fetch - main [MainThread]: End processing [open-samus-returns-rando]: success
 [2024-04-30 02:21:19] INFO root fetch - main [MainThread]: Store serial: [22992475]
+[2024-04-30 02:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992475]
+[2024-04-30 02:23:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 02:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEURON-nightly
+[2024-04-30 02:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aegis-tools
+[2024-04-30 02:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dknovautils
+[2024-04-30 02:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MinecraftMotionTools
+[2024-04-30 02:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geonomics
+[2024-04-30 02:23:36] INFO root fetch - processPackages [MinecraftMotionTools]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-04-30 02:23:37] INFO root fetch - processPackages [dknovautils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 02:23:37] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/39/44/a8eb2c7af76f021ae71c3176d15cd2d7a02aa2c2095241f35a113d747641/MinecraftMotionTools-1.8.4.tar.gz
+[2024-04-30 02:23:37] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/5d/40/3aa6dc0713919570a5de2de45fb9628566350c0cda9f344e1c8e2fd9c58b/dknovautils-0.2.8.tar.gz
+[2024-04-30 02:23:37] INFO root fetch - processPackages [geonomics]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-30 02:23:37] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev232] Old Version: [9.0a1.dev231]
+[2024-04-30 02:23:37] INFO root fetch - processPackages [aegis-tools]: New version: [2.5.8] Old Version: [2.5.7]
+[2024-04-30 02:23:37] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/d7/b8/89be9936f357f271626021b5888eed2ae5271bd4412777ba4bb7b027493a/minecraftmotiontools-1.8.5.tar.gz
+[2024-04-30 02:23:37] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/0e/53/a876751d299130f7983380ab69a0e7ef084aa32d849228d41250913731f6/dknovautils-0.2.9.tar.gz
+[2024-04-30 02:23:37] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/e4/33/df706889b2db820c552442a856fac3c4d6e1f9f1742ba9c43d89baa3907a/aegis-tools-2.5.7.tar.gz
+[2024-04-30 02:23:37] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/16/6d/0349160d1f13ba31255f1237e7756fd7c3d9d84cd6021b554fb7249743f7/NEURON_nightly-9.0a1.dev231-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 02:23:37] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/db/50/a946eb18d7fc69f8edeb2f33cb49091e620aba43512e2fd155dbae33006b/geonomics-1.4.0.tar.gz
+[2024-04-30 02:23:37] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 26078111>=10485760
+[2024-04-30 02:23:37] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-30 02:23:37] INFO root fetch - processPackages [MinecraftMotionTools]: executing diffoscope
+[2024-04-30 02:23:37] INFO root fetch - processPackages [MinecraftMotionTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinecraftMotionTools-1.8.4.tar.gz tmp/minecraftmotiontools-1.8.5.tar.gz --markdown 20240430/M/MinecraftMotionTools/1.8.4-1.8.5/README.md --exclude *.pyd
+[2024-04-30 02:23:37] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2024-04-30 02:23:37] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.2.8.tar.gz tmp/dknovautils-0.2.9.tar.gz --markdown 20240430/d/dknovautils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 02:23:37] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/73/47/266c1eb78bb34c557fa8e454ff3df2298f1097ae8d94890b9eacd2491860/aegis-tools-2.5.8.tar.gz
+[2024-04-30 02:23:37] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-04-30 02:23:37] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.5.7.tar.gz tmp/aegis-tools-2.5.8.tar.gz --markdown 20240430/a/aegis-tools/2.5.7-2.5.8/README.md --exclude *.pyd
+[2024-04-30 02:23:38] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.8.4.tar.gz]
+[2024-04-30 02:23:38] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/minecraftmotiontools-1.8.5.tar.gz]
+[2024-04-30 02:23:38] INFO root fetch - main [MainThread]: End processing [MinecraftMotionTools]: success
+[2024-04-30 02:23:38] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.8.tar.gz]
+[2024-04-30 02:23:38] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.9.tar.gz]
+[2024-04-30 02:23:38] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2024-04-30 02:23:38] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/9d/ce/f6a39311cfed4ea4bec30c818fdcc487412e4e495ef442c8552057c94e49/geonomics-1.4.1.tar.gz
+[2024-04-30 02:23:38] INFO root fetch - processPackages [geonomics]: executing diffoscope
+[2024-04-30 02:23:38] INFO root fetch - processPackages [geonomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonomics-1.4.0.tar.gz tmp/geonomics-1.4.1.tar.gz --markdown 20240430/g/geonomics/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-30 02:23:38] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.7.tar.gz]
+[2024-04-30 02:23:38] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.8.tar.gz]
+[2024-04-30 02:23:38] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-04-30 02:23:39] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.0.tar.gz]
+[2024-04-30 02:23:39] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.1.tar.gz]
+[2024-04-30 02:23:39] INFO root fetch - main [MainThread]: End processing [geonomics]: success
+[2024-04-30 02:23:39] INFO root fetch - main [MainThread]: Store serial: [22992505]
