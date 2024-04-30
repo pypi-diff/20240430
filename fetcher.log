@@ -19227,3 +19227,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:03:49] INFO root fetch - processPackages [huaweicloudsdkvpc]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpc-3.1.94-py2.py3-none-any.whl.zip]
 [2024-04-30 10:03:49] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpc]: success
 [2024-04-30 10:03:49] INFO root fetch - main [MainThread]: Store serial: [22998577]
+[2024-04-30 10:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998577]
+[2024-04-30 10:05:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huaweicloudsdkvpcep
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huaweicloudsdkvpn
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huaweicloudsdkwaf
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huaweicloudsdkworkspace
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huaweicloudsdkworkspaceapp
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langfun
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synch2jira
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stopwords-tr
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tq42
+[2024-04-30 10:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-simple-auth-basic
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkvpcep]: New version: [3.1.94] Old Version: [3.1.93]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240429] Old Version: [0.0.2.dev20240428]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkvpn]: New version: [3.1.94] Old Version: [3.1.93]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: New version: [3.1.94] Old Version: [3.1.93]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-30 10:05:58] WARNING root fetch - processPackages [fastapi-simple-auth-basic]: Skipping, unable to determine old version
+[2024-04-30 10:05:58] INFO root fetch - processPackages [fastapi-simple-auth-basic]: Start processing: chargebee
+[2024-04-30 10:05:58] INFO root fetch - main [MainThread]: End processing [fastapi-simple-auth-basic] error
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkvpcep]: Downloading https://files.pythonhosted.org/packages/aa/45/3aaccae33295a305f123dc2e4d4959bca2ed68e2319930f11805a8d737ca/huaweicloudsdkvpcep-3.1.93-py2.py3-none-any.whl
+[2024-04-30 10:05:58] INFO root fetch - processPackages [tq42]: New version: [0.5.23] Old Version: [0.5.22]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkworkspace]: New version: [3.1.94] Old Version: [3.1.93]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkwaf]: New version: [3.1.94] Old Version: [3.1.93]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/39/9a/5b3b6bfdde4c09d26adbc313feaf6eb82ad7a4745b9d57d451608edca7a3/stopwords_tr-1.1.4.tar.gz
+[2024-04-30 10:05:58] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/05/59/e1a2fac3f3bee1079c61ff9b004d4e3399a175bad70acf1085b34b29e068/langfun-0.0.2.dev20240428.tar.gz
+[2024-04-30 10:05:58] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkvpn]: Downloading https://files.pythonhosted.org/packages/e4/ac/b4668bfc6e9e105dc1a19832c3456ed87cde87c694cf9c9fe72ecd730c01/huaweicloudsdkvpn-3.1.93-py2.py3-none-any.whl
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Downloading https://files.pythonhosted.org/packages/51/77/0a45998bed0419abe9a8436522e9d9816a97b48fc5734777eee902ac11f5/huaweicloudsdkworkspaceapp-3.1.93-py2.py3-none-any.whl
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkwaf]: Downloading https://files.pythonhosted.org/packages/a6/a1/3f714658e802fcd4dabc8452e52f1d31ce592286dc66a7c78144f95ddbc3/huaweicloudsdkwaf-3.1.93-py2.py3-none-any.whl
+[2024-04-30 10:05:58] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/a1/c8/9761fdd7f62334fca456a2e8f65d259c028716da5dbd9b5a8d277a1a43ca/tq42-0.5.22.tar.gz
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Downloading https://files.pythonhosted.org/packages/d0/be/fa64792c2607d907ccfee21f375eb988647a095c5262c69c1605cc00a5ef/huaweicloudsdkworkspace-3.1.93-py2.py3-none-any.whl
+[2024-04-30 10:05:58] INFO root fetch - processPackages [huaweicloudsdkvpcep]: Downloading https://files.pythonhosted.org/packages/46/c7/81194988d23bf9666e9b3d98dce25ceef972ba51194fe56d607ff8edca84/huaweicloudsdkvpcep-3.1.94-py2.py3-none-any.whl
+[2024-04-30 10:05:59] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/a0/cc/e6d3e659cad9b252563b769ae7f8618f366b62eb106718692ef89a110822/stopwords_tr-1.1.5.tar.gz
+[2024-04-30 10:05:59] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2024-04-30 10:05:59] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-30 10:05:59] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/72/e7/91f55a99c06e07ff5276510a9bb8414b1de5c646a0f4a38653b93b0a623d/langfun-0.0.2.dev20240429.tar.gz
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkvpcep]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkvpcep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkvpcep-3.1.93-py2.py3-none-any.whl.zip tmp/huaweicloudsdkvpcep-3.1.94-py2.py3-none-any.whl.zip --markdown 20240430/h/huaweicloudsdkvpcep/3.1.93-3.1.94/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkvpn]: Downloading https://files.pythonhosted.org/packages/8a/99/73812af7d4c2d0f3bcaf0198de8367c22fbd56f0fd038e1954c4d53e0a6d/huaweicloudsdkvpn-3.1.94-py2.py3-none-any.whl
+[2024-04-30 10:05:59] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240430/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.4.tar.gz tmp/stopwords_tr-1.1.5.tar.gz --markdown 20240430/s/stopwords-tr/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240428.tar.gz tmp/langfun-0.0.2.dev20240429.tar.gz --markdown 20240430/l/langfun/0.0.2.dev20240428-0.0.2.dev20240429/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/83/1a/42e936cc08e2dc28c68772b373cdde6f78eafee04e396179d8da0e539d06/tq42-0.5.23.tar.gz
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Downloading https://files.pythonhosted.org/packages/69/8d/a36ec157967fc4834b7ceddffc7777d429d1a78c0be0c86b734550034ed8/huaweicloudsdkworkspaceapp-3.1.94-py2.py3-none-any.whl
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkvpn]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkvpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkvpn-3.1.93-py2.py3-none-any.whl.zip tmp/huaweicloudsdkvpn-3.1.94-py2.py3-none-any.whl.zip --markdown 20240430/h/huaweicloudsdkvpn/3.1.93-3.1.94/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Downloading https://files.pythonhosted.org/packages/05/a0/53ad7d9f987a9d945d5fc13cf569fcc90934439afba0b20c2432ba7b924c/huaweicloudsdkworkspace-3.1.94-py2.py3-none-any.whl
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkwaf]: Downloading https://files.pythonhosted.org/packages/99/b3/889c70ebda3d0a0668acbcb3204d585212c42663f1165e62b2cedaea3edb/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl
+[2024-04-30 10:05:59] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2024-04-30 10:05:59] INFO root fetch - processPackages [tq42]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [tq42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-0.5.22.tar.gz tmp/tq42-0.5.23.tar.gz --markdown 20240430/t/tq42/0.5.22-0.5.23/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkworkspaceapp-3.1.93-py2.py3-none-any.whl.zip tmp/huaweicloudsdkworkspaceapp-3.1.94-py2.py3-none-any.whl.zip --markdown 20240430/h/huaweicloudsdkworkspaceapp/3.1.93-3.1.94/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20240430/c/chargebee/2.8.4-2.9.0/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkworkspace]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkworkspace-3.1.93-py2.py3-none-any.whl.zip tmp/huaweicloudsdkworkspace-3.1.94-py2.py3-none-any.whl.zip --markdown 20240430/h/huaweicloudsdkworkspace/3.1.93-3.1.94/README.md --exclude *.pyd
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkwaf]: executing diffoscope
+[2024-04-30 10:05:59] INFO root fetch - processPackages [huaweicloudsdkwaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkwaf-3.1.93-py2.py3-none-any.whl.zip tmp/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl.zip --markdown 20240430/h/huaweicloudsdkwaf/3.1.93-3.1.94/README.md --exclude *.pyd
+[2024-04-30 10:06:00] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.4.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.5.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 10:06:00] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-30 10:06:00] INFO root fetch - processPackages [huaweicloudsdkvpcep]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpcep-3.1.93-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [huaweicloudsdkvpcep]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpcep-3.1.94-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpcep]: success
+[2024-04-30 10:06:00] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.22.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.23.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [tq42]: success
+[2024-04-30 10:06:00] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240428.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240429.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-30 10:06:00] INFO root fetch - processPackages [huaweicloudsdkvpn]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpn-3.1.93-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [huaweicloudsdkvpn]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpn-3.1.94-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpn]: success
+[2024-04-30 10:06:00] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.8.4.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.9.0.tar.gz]
+[2024-04-30 10:06:00] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspaceapp-3.1.93-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspaceapp-3.1.94-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:01] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkworkspaceapp]: success
+[2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspace-3.1.93-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspace-3.1.94-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:01] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkworkspace]: success
+[2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkwaf]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkwaf-3.1.93-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:01] INFO root fetch - processPackages [huaweicloudsdkwaf]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl.zip]
+[2024-04-30 10:06:01] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkwaf]: success
+[2024-04-30 10:06:01] INFO root fetch - main [MainThread]: Store serial: [22998612]
