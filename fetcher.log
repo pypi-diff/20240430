@@ -8059,3 +8059,24 @@
 [2024-04-30 05:02:54] INFO root fetch - processPackages [plastexdepgraph]: Remove: archive file [/home/abi/fetcher/tmp/plastexdepgraph-0.0.4.tar.gz]
 [2024-04-30 05:02:54] INFO root fetch - main [MainThread]: End processing [plastexdepgraph]: success
 [2024-04-30 05:02:54] INFO root fetch - main [MainThread]: Store serial: [22994625]
+[2024-04-30 05:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994625]
+[2024-04-30 05:05:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 05:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-04-30 05:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotdlQt
+[2024-04-30 05:05:03] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-30 05:05:03] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-30 05:05:03] INFO root fetch - processPackages [spotdlQt]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-30 05:05:03] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-30 05:05:03] INFO root fetch - processPackages [spotdlQt]: Downloading https://files.pythonhosted.org/packages/77/83/732a58d349ab75d0ce72faae1784eb46a07466e01d93277d692768d20b5b/spotdlqt-1.0.2.tar.gz
+[2024-04-30 05:05:03] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-30 05:05:03] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240430/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-30 05:05:04] INFO root fetch - processPackages [spotdlQt]: Downloading https://files.pythonhosted.org/packages/f5/9f/4ce1d38437b7c7c650a88254e378ebc80f8d701bbbc6baa78fbd595d797e/spotdlqt-1.0.4.tar.gz
+[2024-04-30 05:05:04] INFO root fetch - processPackages [spotdlQt]: executing diffoscope
+[2024-04-30 05:05:04] INFO root fetch - processPackages [spotdlQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotdlqt-1.0.2.tar.gz tmp/spotdlqt-1.0.4.tar.gz --markdown 20240430/s/spotdlQt/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-04-30 05:05:04] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-30 05:05:04] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-30 05:05:04] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-30 05:05:04] INFO root fetch - processPackages [spotdlQt]: Remove: archive file [/home/abi/fetcher/tmp/spotdlqt-1.0.2.tar.gz]
+[2024-04-30 05:05:04] INFO root fetch - processPackages [spotdlQt]: Remove: archive file [/home/abi/fetcher/tmp/spotdlqt-1.0.4.tar.gz]
+[2024-04-30 05:05:04] INFO root fetch - main [MainThread]: End processing [spotdlQt]: success
+[2024-04-30 05:05:04] INFO root fetch - main [MainThread]: Store serial: [22994631]
