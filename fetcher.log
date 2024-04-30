@@ -20337,3 +20337,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:48:07] INFO root fetch - processPackages [simplestart]: Remove: archive file [/home/abi/fetcher/tmp/simplestart-0.0.1.9.tar.gz]
 [2024-04-30 10:48:07] INFO root fetch - main [MainThread]: End processing [simplestart]: success
 [2024-04-30 10:48:07] INFO root fetch - main [MainThread]: Store serial: [22999028]
+[2024-04-30 10:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999028]
+[2024-04-30 10:50:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyloom-asr
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creme-crm
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simapy
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erp-apis
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zodchy
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nasa-apod
+[2024-04-30 10:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-startfile
+[2024-04-30 10:50:17] WARNING root fetch - processPackages [erp-apis]: Skipping, unable to determine old version
+[2024-04-30 10:50:17] INFO root fetch - main [MainThread]: End processing [erp-apis] error
+[2024-04-30 10:50:17] INFO root fetch - processPackages [zodchy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-30 10:50:17] INFO root fetch - processPackages [creme-crm]: New version: [2.5.8] Old Version: [2.5.7]
+[2024-04-30 10:50:17] INFO root fetch - processPackages [simapy]: New version: [4.6.1.dev2] Old Version: [4.6.1.dev1]
+[2024-04-30 10:50:17] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/ec/2c/62f33d274b533994b05ff739361dce2c9882f5c3d99b6c7eb6d7c4f403b7/zodchy-0.2.2.tar.gz
+[2024-04-30 10:50:17] WARNING root fetch - processPackages [python-startfile]: Skipping, unable to determine old version
+[2024-04-30 10:50:17] INFO root fetch - main [MainThread]: End processing [python-startfile] error
+[2024-04-30 10:50:17] WARNING root fetch - processPackages [nasa-apod]: Skipping, unable to determine old version
+[2024-04-30 10:50:17] INFO root fetch - main [MainThread]: End processing [nasa-apod] error
+[2024-04-30 10:50:17] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/10/21/e34776b760189594bc7f9af0ee706a260f237ae02394f7e1fe12896626c6/creme-crm-2.5.7.tar.gz
+[2024-04-30 10:50:17] WARNING root fetch - processPackages [pyloom-asr]: Skipping, unable to determine old version
+[2024-04-30 10:50:17] INFO root fetch - main [MainThread]: End processing [pyloom-asr] error
+[2024-04-30 10:50:17] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 24039241>=10485760
+[2024-04-30 10:50:17] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2024-04-30 10:50:17] INFO root fetch - processPackages [simapy]: Downloading https://files.pythonhosted.org/packages/c7/e1/350169b580a59b4a80a16e1c2972497411eea7b77939f64a7cfa91e43b92/simapy-4.6.1.dev1.tar.gz
+[2024-04-30 10:50:17] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/ae/8d/871a911b0150ee65d1c9d5cb9ea57b50198af144bfb06e291135541bf4ca/zodchy-0.2.3.tar.gz
+[2024-04-30 10:50:18] INFO root fetch - processPackages [zodchy]: executing diffoscope
+[2024-04-30 10:50:18] INFO root fetch - processPackages [zodchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy-0.2.2.tar.gz tmp/zodchy-0.2.3.tar.gz --markdown 20240430/z/zodchy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-30 10:50:18] INFO root fetch - processPackages [simapy]: Downloading https://files.pythonhosted.org/packages/31/87/aae0bd6cc86f4625c74effce08cd32bafee82b4dfc92a86e8ad510fec800/simapy-4.6.1.dev2.tar.gz
+[2024-04-30 10:50:18] INFO root fetch - processPackages [simapy]: executing diffoscope
+[2024-04-30 10:50:18] INFO root fetch - processPackages [simapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simapy-4.6.1.dev1.tar.gz tmp/simapy-4.6.1.dev2.tar.gz --markdown 20240430/s/simapy/4.6.1.dev1-4.6.1.dev2/README.md --exclude *.pyd
+[2024-04-30 10:50:18] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.2.tar.gz]
+[2024-04-30 10:50:18] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.3.tar.gz]
+[2024-04-30 10:50:18] INFO root fetch - main [MainThread]: End processing [zodchy]: success
+[2024-04-30 10:50:27] INFO root fetch - processPackages [simapy]: Remove: archive file [/home/abi/fetcher/tmp/simapy-4.6.1.dev1.tar.gz]
+[2024-04-30 10:50:27] INFO root fetch - processPackages [simapy]: Remove: archive file [/home/abi/fetcher/tmp/simapy-4.6.1.dev2.tar.gz]
+[2024-04-30 10:50:27] INFO root fetch - main [MainThread]: End processing [simapy]: success
+[2024-04-30 10:50:27] INFO root fetch - main [MainThread]: Store serial: [22999056]
