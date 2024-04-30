@@ -6777,3 +6777,24 @@
 [2024-04-30 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-neptune]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-neptune-1.34.94.tar.gz]
 [2024-04-30 03:23:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-neptune]: success
 [2024-04-30 03:23:56] INFO root fetch - main [MainThread]: Store serial: [22993804]
+[2024-04-30 03:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22993804]
+[2024-04-30 03:26:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhostprep
+[2024-04-30 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aegis-tools
+[2024-04-30 03:26:06] INFO root fetch - processPackages [pyhostprep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 03:26:06] INFO root fetch - processPackages [aegis-tools]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-30 03:26:06] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/04/d8/963d47e7a92caae4e6ccf713750c04249de9656a850f31195b69b2db3574/pyhostprep-1.0.8.tar.gz
+[2024-04-30 03:26:06] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/73/47/266c1eb78bb34c557fa8e454ff3df2298f1097ae8d94890b9eacd2491860/aegis-tools-2.5.8.tar.gz
+[2024-04-30 03:26:07] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/cd/3c/cf23b46a139c7addacc89c01e7c0d5972b5e935296a61327072b946f592e/pyhostprep-1.0.9.tar.gz
+[2024-04-30 03:26:07] INFO root fetch - processPackages [pyhostprep]: executing diffoscope
+[2024-04-30 03:26:07] INFO root fetch - processPackages [pyhostprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhostprep-1.0.8.tar.gz tmp/pyhostprep-1.0.9.tar.gz --markdown 20240430/p/pyhostprep/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 03:26:07] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/86/34/82287ee9e33f9e2cd9da335dd9e911d14f902c0ebd6dea8f2fe6a47a20f6/aegis-tools-2.5.9.tar.gz
+[2024-04-30 03:26:07] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-04-30 03:26:07] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.5.8.tar.gz tmp/aegis-tools-2.5.9.tar.gz --markdown 20240430/a/aegis-tools/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-04-30 03:26:07] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.8.tar.gz]
+[2024-04-30 03:26:07] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
+[2024-04-30 03:26:07] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
+[2024-04-30 03:26:07] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.8.tar.gz]
+[2024-04-30 03:26:07] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.9.tar.gz]
+[2024-04-30 03:26:07] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-04-30 03:26:07] INFO root fetch - main [MainThread]: Store serial: [22993864]
