@@ -20447,3 +20447,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:52:39] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.2.1.tar.gz]
 [2024-04-30 10:52:39] INFO root fetch - main [MainThread]: End processing [yara-x]: success
 [2024-04-30 10:52:39] INFO root fetch - main [MainThread]: Store serial: [22999098]
+[2024-04-30 10:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999098]
+[2024-04-30 10:54:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tui-dsmt
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bosing
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cubed-xarray
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vdf-io
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Wolfy-Avatar-Plugin
+[2024-04-30 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whoisit
+[2024-04-30 10:54:48] INFO root fetch - processPackages [tui-dsmt]: New version: [202404300809] Old Version: [202404300539]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [bosing]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [cubed-xarray]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: New version: [0.0.30.post0] Old Version: [0.0.21.post0]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [whoisit]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/26/27/54e1e2f5a10f66fdb96e131597910074ae89e208912e5c4242c7dfa5bc47/tui_dsmt-202404300539.tar.gz
+[2024-04-30 10:54:48] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/da/d4/cfa87a62fa36308d1e4933532c8e6d461d306822d53366d343e256bc4456/bosing-2.0.0b8.tar.gz
+[2024-04-30 10:54:48] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-04-30 10:54:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/64/a1/f33d7c08f416db479463bc979a6c57d7e1dcb05036fee5730c1d6bcd6786/Wolfy-Avatar-Plugin-0.0.21.post0.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [whoisit]: Downloading https://files.pythonhosted.org/packages/44/7f/342537af3f1816145e86ca2d1ec17845e702ba6940468a3a489e9c0016ab/whoisit-2.7.4.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [cubed-xarray]: Downloading https://files.pythonhosted.org/packages/7c/06/f78b1d239a87c9e7a578d5ab428a92c98692280fe2a474c9ca6c4781a8f1/cubed-xarray-0.0.5.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/05/39/0b62502b04a1c3efe99812681ab3c34666387e90c562299e7e6248ecc0d3/tui_dsmt-202404300809.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/d1/17/3eaeeae5a454635c2cb360275ec07ed1db77e2ddddd434c86a80084180b0/bosing-2.0.0b9.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/97/6e/8992e00b3d9c6f462358b7e9e8b730263ac1367261a91ce7e189dd33070d/wolfy_avatar_plugin-0.0.30.post0.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [whoisit]: Downloading https://files.pythonhosted.org/packages/64/0e/1ebf8a4a24a0cd9632141735a2816bc639b59cdba435db016c8368d5a7e7/whoisit-2.7.5.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404300539.tar.gz tmp/tui_dsmt-202404300809.tar.gz --markdown 20240430/t/tui-dsmt/202404300539-202404300809/README.md --exclude *.pyd
+[2024-04-30 10:54:49] INFO root fetch - processPackages [cubed-xarray]: Downloading https://files.pythonhosted.org/packages/0b/01/3b0e48f650d1baed39f8857684887fa6215b4e28a001f090c0f082efeac1/cubed-xarray-0.0.6.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.0b8.tar.gz tmp/bosing-2.0.0b9.tar.gz --markdown 20240430/b/bosing/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-04-30 10:54:49] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-04-30 10:54:49] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Wolfy-Avatar-Plugin-0.0.21.post0.tar.gz tmp/wolfy_avatar_plugin-0.0.30.post0.tar.gz --markdown 20240430/W/Wolfy-Avatar-Plugin/0.0.21.post0-0.0.30.post0/README.md --exclude *.pyd
+[2024-04-30 10:54:49] INFO root fetch - processPackages [cubed-xarray]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [cubed-xarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-xarray-0.0.5.tar.gz tmp/cubed-xarray-0.0.6.tar.gz --markdown 20240430/c/cubed-xarray/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-30 10:54:49] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240430/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-30 10:54:49] INFO root fetch - processPackages [whoisit]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [whoisit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisit-2.7.4.tar.gz tmp/whoisit-2.7.5.tar.gz --markdown 20240430/w/whoisit/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-04-30 10:54:49] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-04-30 10:54:49] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240430/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:54:50] INFO root fetch - processPackages [cubed-xarray]: Remove: archive file [/home/abi/fetcher/tmp/cubed-xarray-0.0.5.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - processPackages [cubed-xarray]: Remove: archive file [/home/abi/fetcher/tmp/cubed-xarray-0.0.6.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - main [MainThread]: End processing [cubed-xarray]: success
+[2024-04-30 10:54:50] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Remove: archive file [/home/abi/fetcher/tmp/Wolfy-Avatar-Plugin-0.0.21.post0.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Remove: archive file [/home/abi/fetcher/tmp/wolfy_avatar_plugin-0.0.30.post0.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - main [MainThread]: End processing [Wolfy-Avatar-Plugin]: success
+[2024-04-30 10:54:50] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404300539.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404300809.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-30 10:54:50] INFO root fetch - processPackages [whoisit]: Remove: archive file [/home/abi/fetcher/tmp/whoisit-2.7.4.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - processPackages [whoisit]: Remove: archive file [/home/abi/fetcher/tmp/whoisit-2.7.5.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - main [MainThread]: End processing [whoisit]: success
+[2024-04-30 10:54:50] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.85.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-04-30 10:54:50] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b8.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b9.tar.gz]
+[2024-04-30 10:54:50] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-04-30 10:54:51] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-30 10:54:51] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-30 10:54:51] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-30 10:54:51] INFO root fetch - main [MainThread]: Store serial: [22999138]
