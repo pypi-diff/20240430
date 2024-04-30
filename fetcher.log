@@ -11603,3 +11603,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 06:30:51] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz]
 [2024-04-30 06:30:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-oceanus]: success
 [2024-04-30 06:30:51] INFO root fetch - main [MainThread]: Store serial: [22995844]
+[2024-04-30 06:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995844]
+[2024-04-30 06:33:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 06:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-ocr
+[2024-04-30 06:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datable-ai
+[2024-04-30 06:33:01] INFO root fetch - processPackages [datable-ai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 06:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:33:01] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/d4/a9/33e857c7024618e62c801d688ce12b94139a5237b2ead7b1e6074ca201d7/datable_ai-0.0.6.tar.gz
+[2024-04-30 06:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: Downloading https://files.pythonhosted.org/packages/fe/92/55106a6cd643fd1b47cfc771997da7fcc7b1d03ffedbb9372c8a91922fc1/tencentcloud-sdk-python-ocr-3.0.998.tar.gz
+[2024-04-30 06:33:01] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/f1/87/9ff20e67664f28a51be410e57fe6a5e0d5d6222a8871016e95748723c95a/datable_ai-0.0.7.tar.gz
+[2024-04-30 06:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: Downloading https://files.pythonhosted.org/packages/c8/84/08d9276bde51ec7fdd5ade4fb24b5efe562ca548fa15f565790539a807f5/tencentcloud-sdk-python-ocr-3.0.999.tar.gz
+[2024-04-30 06:33:01] INFO root fetch - processPackages [datable-ai]: executing diffoscope
+[2024-04-30 06:33:01] INFO root fetch - processPackages [datable-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datable_ai-0.0.6.tar.gz tmp/datable_ai-0.0.7.tar.gz --markdown 20240430/d/datable-ai/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 06:33:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: executing diffoscope
+[2024-04-30 06:33:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ocr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ocr-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-ocr/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:33:02] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.6.tar.gz]
+[2024-04-30 06:33:02] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.7.tar.gz]
+[2024-04-30 06:33:02] INFO root fetch - main [MainThread]: End processing [datable-ai]: success
+[2024-04-30 06:33:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ocr-3.0.998.tar.gz]
+[2024-04-30 06:33:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ocr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ocr-3.0.999.tar.gz]
+[2024-04-30 06:33:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ocr]: success
+[2024-04-30 06:33:02] INFO root fetch - main [MainThread]: Store serial: [22995849]
