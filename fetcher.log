@@ -13500,3 +13500,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:12:21] INFO root fetch - processPackages [sne4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sne4onnx-1.0.9.tar.gz]
 [2024-04-30 07:12:21] INFO root fetch - main [MainThread]: End processing [sne4onnx]: success
 [2024-04-30 07:12:21] INFO root fetch - main [MainThread]: Store serial: [22996414]
+[2024-04-30 07:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996414]
+[2024-04-30 07:14:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 07:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metamist
+[2024-04-30 07:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cumo
+[2024-04-30 07:14:30] INFO root fetch - processPackages [metamist]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-04-30 07:14:30] INFO root fetch - processPackages [cumo]: New version: [0.34.0] Old Version: [0.33.4]
+[2024-04-30 07:14:30] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/29/55/77615bacd555115a0485aa104e8f1d14957ee9a495478067bd37f6b142bc/metamist-6.9.0.tar.gz
+[2024-04-30 07:14:30] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/a2/35/1bb4c78b5a6bf154754ffe138cfe0f8bfd443e928fc19eead6749a3b0100/cumo-0.33.4.tar.gz
+[2024-04-30 07:14:30] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/4b/72/e1bc6d293dedf2878eaaec17f90d95b929e5eb8dfd9a25b19410e5a4b21f/metamist-6.9.1.tar.gz
+[2024-04-30 07:14:30] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/5f/bd/7eb64533cdf5629b706c01e53f887a144a939b8cfc3cece7c701321d864b/cumo-0.34.0.tar.gz
+[2024-04-30 07:14:31] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-04-30 07:14:31] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.9.0.tar.gz tmp/metamist-6.9.1.tar.gz --markdown 20240430/m/metamist/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-04-30 07:14:31] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-04-30 07:14:31] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.33.4.tar.gz tmp/cumo-0.34.0.tar.gz --markdown 20240430/c/cumo/0.33.4-0.34.0/README.md --exclude *.pyd
+[2024-04-30 07:14:32] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
+[2024-04-30 07:14:32] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
+[2024-04-30 07:14:32] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-04-30 07:14:58] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.4.tar.gz]
+[2024-04-30 07:14:58] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.34.0.tar.gz]
+[2024-04-30 07:14:58] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-04-30 07:14:58] INFO root fetch - main [MainThread]: Store serial: [22996430]
