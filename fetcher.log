@@ -7165,3 +7165,24 @@
 [2024-04-30 03:59:06] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.5.1.tar.gz]
 [2024-04-30 03:59:06] INFO root fetch - main [MainThread]: End processing [mms-client]: success
 [2024-04-30 03:59:06] INFO root fetch - main [MainThread]: Store serial: [22994264]
+[2024-04-30 04:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994264]
+[2024-04-30 04:01:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 04:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dhuodata-lib
+[2024-04-30 04:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCOMUS
+[2024-04-30 04:01:14] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 04:01:14] INFO root fetch - processPackages [PyCOMUS]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-30 04:01:15] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/13/9a/e06c79b65fe90088768edcabd9fcfc7abb9e356f7241f13d23013f3e5f8f/dhuodata-lib-0.1.5.tar.gz
+[2024-04-30 04:01:15] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/43/ae/ac265043a3b5a06cdc77d68e6042ecd6d2495ea13be32843f9b14540a814/PyCOMUS-1.0.3.tar.gz
+[2024-04-30 04:01:15] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/0d/c0/58ca5b13d21088dc629c5cfedac3e016345a6e022a4ea9cd67ec10d18a6a/dhuodata-lib-0.1.6.tar.gz
+[2024-04-30 04:01:15] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/b6/b0/47313af7b7a6470a1e43ebd48ff26590ff833169e1223639f1ebb3324592/pycomus-1.0.4.tar.gz
+[2024-04-30 04:01:15] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 04:01:15] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.1.5.tar.gz tmp/dhuodata-lib-0.1.6.tar.gz --markdown 20240430/d/dhuodata-lib/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 04:01:15] INFO root fetch - processPackages [PyCOMUS]: executing diffoscope
+[2024-04-30 04:01:15] INFO root fetch - processPackages [PyCOMUS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCOMUS-1.0.3.tar.gz tmp/pycomus-1.0.4.tar.gz --markdown 20240430/P/PyCOMUS/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-30 04:01:15] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.5.tar.gz]
+[2024-04-30 04:01:15] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.6.tar.gz]
+[2024-04-30 04:01:15] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 04:01:16] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/PyCOMUS-1.0.3.tar.gz]
+[2024-04-30 04:01:16] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.0.4.tar.gz]
+[2024-04-30 04:01:16] INFO root fetch - main [MainThread]: End processing [PyCOMUS]: success
+[2024-04-30 04:01:16] INFO root fetch - main [MainThread]: Store serial: [22994270]
