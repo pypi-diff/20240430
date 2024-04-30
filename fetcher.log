@@ -17602,3 +17602,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:54:15] INFO root fetch - processPackages [spinedb-api]: Remove: archive file [/home/abi/fetcher/tmp/spinedb_api-0.31.0.tar.gz]
 [2024-04-30 09:54:15] INFO root fetch - main [MainThread]: End processing [spinedb-api]: success
 [2024-04-30 09:54:15] INFO root fetch - main [MainThread]: Store serial: [22998153]
+[2024-04-30 09:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998153]
+[2024-04-30 09:56:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PdmContext
+[2024-04-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedparser
+[2024-04-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datatoolbox
+[2024-04-30 09:56:24] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240430055037] Old Version: [3.4.1.dev20240429073627]
+[2024-04-30 09:56:24] INFO root fetch - processPackages [PdmContext]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 09:56:24] INFO root fetch - processPackages [datatoolbox]: New version: [0.6.9] Old Version: [0.6.7]
+[2024-04-30 09:56:24] INFO root fetch - processPackages [typedparser]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-30 09:56:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/cb/ce193a6e055cb08ff6807d4065f2e8deedbd0376f80fd940e1165c7776e3/localstack_core-3.4.1.dev20240429073627.tar.gz
+[2024-04-30 09:56:24] INFO root fetch - processPackages [PdmContext]: Downloading https://files.pythonhosted.org/packages/a2/a0/7a91d688a31f65b2ddabc45e423d2069f5d3c061c8df327e7f0dea11fe74/pdmcontext-0.1.1.tar.gz
+[2024-04-30 09:56:24] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/bb/a2/7e5a00ef8acc9bfcc65a14841b774ec578a0ef32479e495ef61fd3453267/typedparser-0.9.1.tar.gz
+[2024-04-30 09:56:24] INFO root fetch - processPackages [datatoolbox]: Downloading https://files.pythonhosted.org/packages/13/9a/2d0fbb62519bd9f68167839e3199de726799b38a94bedd39996d263270d5/datatoolbox-0.6.7.tar.gz
+[2024-04-30 09:56:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ba/87/22e646bffb1a8c1ce88e8b82295d78e59ddb3512d7b48806611f273f8863/localstack_core-3.4.1.dev20240430055037.tar.gz
+[2024-04-30 09:56:25] INFO root fetch - processPackages [datatoolbox]: Downloading https://files.pythonhosted.org/packages/de/9e/b409b1b8351d01248f31f7071396a868821d6cba689eb279731fbcadf8c8/datatoolbox-0.6.9.tar.gz
+[2024-04-30 09:56:25] INFO root fetch - processPackages [datatoolbox]: executing diffoscope
+[2024-04-30 09:56:25] INFO root fetch - processPackages [datatoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatoolbox-0.6.7.tar.gz tmp/datatoolbox-0.6.9.tar.gz --markdown 20240430/d/datatoolbox/0.6.7-0.6.9/README.md --exclude *.pyd
+[2024-04-30 09:56:25] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-30 09:56:25] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240429073627.tar.gz tmp/localstack_core-3.4.1.dev20240430055037.tar.gz --markdown 20240430/l/localstack-core/3.4.1.dev20240429073627-3.4.1.dev20240430055037/README.md --exclude *.pyd
+[2024-04-30 09:56:25] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/3e/c6/ea05111c76020512faaa03cd49ea4cfdfa5e0fe2cc403fe9674c1429e458/typedparser-0.9.2.tar.gz
+[2024-04-30 09:56:25] INFO root fetch - processPackages [PdmContext]: Downloading https://files.pythonhosted.org/packages/e8/f1/60f8d3ac861bc42614919efd4a4bc76cfbae5609c36d1f23e773f01f78c4/pdmcontext-0.1.2.tar.gz
+[2024-04-30 09:56:25] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2024-04-30 09:56:25] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.9.1.tar.gz tmp/typedparser-0.9.2.tar.gz --markdown 20240430/t/typedparser/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-30 09:56:25] INFO root fetch - processPackages [PdmContext]: executing diffoscope
+[2024-04-30 09:56:25] INFO root fetch - processPackages [PdmContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdmcontext-0.1.1.tar.gz tmp/pdmcontext-0.1.2.tar.gz --markdown 20240430/P/PdmContext/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 09:56:26] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.9.1.tar.gz]
+[2024-04-30 09:56:26] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.9.2.tar.gz]
+[2024-04-30 09:56:26] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2024-04-30 09:56:26] INFO root fetch - processPackages [datatoolbox]: Remove: archive file [/home/abi/fetcher/tmp/datatoolbox-0.6.7.tar.gz]
+[2024-04-30 09:56:26] INFO root fetch - processPackages [datatoolbox]: Remove: archive file [/home/abi/fetcher/tmp/datatoolbox-0.6.9.tar.gz]
+[2024-04-30 09:56:26] INFO root fetch - main [MainThread]: End processing [datatoolbox]: success
+[2024-04-30 09:56:26] INFO root fetch - processPackages [PdmContext]: Remove: archive file [/home/abi/fetcher/tmp/pdmcontext-0.1.1.tar.gz]
+[2024-04-30 09:56:26] INFO root fetch - processPackages [PdmContext]: Remove: archive file [/home/abi/fetcher/tmp/pdmcontext-0.1.2.tar.gz]
+[2024-04-30 09:56:26] INFO root fetch - main [MainThread]: End processing [PdmContext]: success
+[2024-04-30 09:56:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240429073627.tar.gz]
+[2024-04-30 09:56:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430055037.tar.gz]
+[2024-04-30 09:56:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-30 09:56:29] INFO root fetch - main [MainThread]: Store serial: [22998165]
