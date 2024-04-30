@@ -19731,3 +19731,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:27:57] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.6.tar.gz]
 [2024-04-30 10:27:57] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit]: success
 [2024-04-30 10:27:57] INFO root fetch - main [MainThread]: Store serial: [22998792]
+[2024-04-30 10:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998792]
+[2024-04-30 10:30:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datarecipe
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mns-scheduler
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpflash
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akkd-file-tree
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Nuitka
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libservice
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openimis-be-calcrule-social-protection
+[2024-04-30 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manim-slides
+[2024-04-30 10:30:06] INFO root fetch - processPackages [akkd-file-tree]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mpflash]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [datarecipe]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [manim-slides]: New version: [5.1.5] Old Version: [5.1.4]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [Nuitka]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.3.7] Old Version: [1.0.3.6]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [libservice]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [akkd-file-tree]: Downloading https://files.pythonhosted.org/packages/31/98/afba9a82405d45fc20794651ab44aac3946d2e95b3e2905cb876386b21ce/akkd_file_tree-0.0.6.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mpflash]: Downloading https://files.pythonhosted.org/packages/86/ae/7fd5c530d9b8f8437b3eefc9beb1e89956c5bec3eb6bdc46386564a7d5cd/mpflash-0.7.0.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [datarecipe]: Downloading https://files.pythonhosted.org/packages/7f/1c/0f6cc50d7ecfebf16517941cb9be2ead7c4f815e28af60894518186b75b4/datarecipe-1.2.8.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [manim-slides]: Downloading https://files.pythonhosted.org/packages/f8/28/406d3534c0fff47bcee8fab4d8dcb823c78d7f9f4c643b2f2cb094300b8f/manim_slides-5.1.4.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/a8/2c/5799947a4190249d7c9bc615785a97d24fd7de3687e72f3aec354f3b607c/Nuitka-2.1.5.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Downloading https://files.pythonhosted.org/packages/89/e3/77ceea1ba83d84bd32d6f73a4eafdfc960f2c4259aa7de07262c16879f4a/openimis-be-calcrule_social_protection-1.0.0.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/ba/22/48e6090e92f80610a75739eb0b371530ae8462c85ffdcec18ea60a7a37b7/mns-scheduler-1.0.3.6.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [akkd-file-tree]: Downloading https://files.pythonhosted.org/packages/6c/5d/e135a24ff24d8a174ee774134e39e08c4c160292c06d39e1d7b270374cb1/akkd_file_tree-0.0.7.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [libservice]: Downloading https://files.pythonhosted.org/packages/96/b7/23719f902814572b1b3e6a520728a85ca70e85575d7aa7f8faf3aa9f4577/libservice-0.1.8.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-30 10:30:06] INFO root fetch - processPackages [datarecipe]: Downloading https://files.pythonhosted.org/packages/9f/b0/5f731e9fac9a5223e649229f22c0604aebe9231237cbf1e4fea8ae12e0d0/datarecipe-1.2.9.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mpflash]: Downloading https://files.pythonhosted.org/packages/99/8d/e4381604c9fd8001ecadb2b115f4a202ebb29f310d9e097682c1bc71c4b6/mpflash-0.7.1.tar.gz
+[2024-04-30 10:30:06] INFO root fetch - processPackages [akkd-file-tree]: executing diffoscope
+[2024-04-30 10:30:06] INFO root fetch - processPackages [akkd-file-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akkd_file_tree-0.0.6.tar.gz tmp/akkd_file_tree-0.0.7.tar.gz --markdown 20240430/a/akkd-file-tree/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 10:30:06] INFO root fetch - processPackages [datarecipe]: executing diffoscope
+[2024-04-30 10:30:06] INFO root fetch - processPackages [datarecipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarecipe-1.2.8.tar.gz tmp/datarecipe-1.2.9.tar.gz --markdown 20240430/d/datarecipe/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mpflash]: executing diffoscope
+[2024-04-30 10:30:06] INFO root fetch - processPackages [mpflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpflash-0.7.0.tar.gz tmp/mpflash-0.7.1.tar.gz --markdown 20240430/m/mpflash/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/57/df/fff34c3d75d505036986a86303ea46b275b7aaf50568930e3e5d55993a70/mns-scheduler-1.0.3.7.tar.gz
+[2024-04-30 10:30:07] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Downloading https://files.pythonhosted.org/packages/c3/f6/a5017960cd1cd3229fc5c5bf368f00acbdfb9a2ee5f63e4cd7fa9639a981/openimis_be_calcrule_social_protection-1.1.0.tar.gz
+[2024-04-30 10:30:07] INFO root fetch - processPackages [libservice]: Downloading https://files.pythonhosted.org/packages/de/7d/29aa36848bc82966e23f0397f6436a6594c44cfffa8f5aee5268cb03f973/libservice-0.1.9.tar.gz
+[2024-04-30 10:30:07] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-30 10:30:07] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-04-30 10:30:07] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.3.6.tar.gz tmp/mns-scheduler-1.0.3.7.tar.gz --markdown 20240430/m/mns-scheduler/1.0.3.6-1.0.3.7/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [manim-slides]: Downloading https://files.pythonhosted.org/packages/00/47/aba72c8a88fa608bf2bf8ade4f257ee0e9d0f642c8ddc9b5c9b53f60162d/manim_slides-5.1.5.tar.gz
+[2024-04-30 10:30:07] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: executing diffoscope
+[2024-04-30 10:30:07] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calcrule_social_protection-1.0.0.tar.gz tmp/openimis_be_calcrule_social_protection-1.1.0.tar.gz --markdown 20240430/o/openimis-be-calcrule-social-protection/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-30 10:30:07] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240430/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/85/d0/715db68f43d29e8c54033523093f152776f3c9474334c5a0b769a3e748d2/Nuitka-2.1.6.tar.gz
+[2024-04-30 10:30:07] INFO root fetch - processPackages [libservice]: executing diffoscope
+[2024-04-30 10:30:07] INFO root fetch - processPackages [libservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libservice-0.1.8.tar.gz tmp/libservice-0.1.9.tar.gz --markdown 20240430/l/libservice/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [akkd-file-tree]: Remove: archive file [/home/abi/fetcher/tmp/akkd_file_tree-0.0.6.tar.gz]
+[2024-04-30 10:30:07] INFO root fetch - processPackages [akkd-file-tree]: Remove: archive file [/home/abi/fetcher/tmp/akkd_file_tree-0.0.7.tar.gz]
+[2024-04-30 10:30:07] INFO root fetch - processPackages [manim-slides]: executing diffoscope
+[2024-04-30 10:30:07] INFO root fetch - main [MainThread]: End processing [akkd-file-tree]: success
+[2024-04-30 10:30:07] INFO root fetch - processPackages [manim-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_slides-5.1.4.tar.gz tmp/manim_slides-5.1.5.tar.gz --markdown 20240430/m/manim-slides/5.1.4-5.1.5/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2024-04-30 10:30:07] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-2.1.5.tar.gz tmp/Nuitka-2.1.6.tar.gz --markdown 20240430/N/Nuitka/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-30 10:30:07] INFO root fetch - processPackages [datarecipe]: Remove: archive file [/home/abi/fetcher/tmp/datarecipe-1.2.8.tar.gz]
+[2024-04-30 10:30:07] INFO root fetch - processPackages [datarecipe]: Remove: archive file [/home/abi/fetcher/tmp/datarecipe-1.2.9.tar.gz]
+[2024-04-30 10:30:07] INFO root fetch - main [MainThread]: End processing [datarecipe]: success
+[2024-04-30 10:30:07] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.7.0.tar.gz]
+[2024-04-30 10:30:07] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.7.1.tar.gz]
+[2024-04-30 10:30:07] INFO root fetch - main [MainThread]: End processing [mpflash]: success
+[2024-04-30 10:30:08] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calcrule_social_protection-1.0.0.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_social_protection-1.1.0.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-social-protection]: success
+[2024-04-30 10:30:08] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.3.6.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.3.7.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-04-30 10:30:08] INFO root fetch - processPackages [libservice]: Remove: archive file [/home/abi/fetcher/tmp/libservice-0.1.8.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - processPackages [libservice]: Remove: archive file [/home/abi/fetcher/tmp/libservice-0.1.9.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - main [MainThread]: End processing [libservice]: success
+[2024-04-30 10:30:08] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.4.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.5.tar.gz]
+[2024-04-30 10:30:08] INFO root fetch - main [MainThread]: End processing [manim-slides]: success
+[2024-04-30 10:30:08] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-30 10:30:08] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-30 10:30:08] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-30 10:30:16] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.1.5.tar.gz]
+[2024-04-30 10:30:16] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.1.6.tar.gz]
+[2024-04-30 10:30:16] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2024-04-30 10:30:16] INFO root fetch - main [MainThread]: Store serial: [22998817]
