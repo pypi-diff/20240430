@@ -2881,3 +2881,42 @@
 [2024-04-30 02:52:25] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.81.tar.gz]
 [2024-04-30 02:52:25] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-04-30 02:52:25] INFO root fetch - main [MainThread]: Store serial: [22992739]
+[2024-04-30 02:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992739]
+[2024-04-30 02:54:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 02:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmodel-slim
+[2024-04-30 02:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmodel
+[2024-04-30 02:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-04-30 02:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytubefix
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 02:54:45] INFO root fetch - processPackages [pytubefix]: New version: [5.3rc3] Old Version: [5.3rc2]
+[2024-04-30 02:54:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel-slim]: New version: [0.0.18.dev1] Old Version: [0.0.1]
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/64/ba/ad07004536e94e71f99aaae5e667bb6f7230f7e0fbc0b0266e88960dda5f/sqlmodel-0.0.8.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/70/6a/3a43c115ab437c8077e5a35c4bbb58ca1621c9d57b2a388cc6e90b6a0f0a/pytubefix-5.3rc2.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel-slim]: Downloading https://files.pythonhosted.org/packages/b9/50/10b45a6f9f6cfdb85eb91768a4772e96931b1d65add2fe22a0d2006eb56f/sqlmodel_slim-0.0.1.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel]: Downloading https://files.pythonhosted.org/packages/25/eb/8b46aa88cb7f298e663be6be2d90782f203b5f6c79679afd969fc3f7b455/sqlmodel-0.0.9.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/b8/f8/29c11f1ffe36c2d5974e35102276f5900cd3a406993541af93bbabe829c2/pytubefix-5.3rc3.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel]: executing diffoscope
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel-0.0.8.tar.gz tmp/sqlmodel-0.0.9.tar.gz --markdown 20240430/s/sqlmodel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 02:54:45] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-30 02:54:45] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.3rc2.tar.gz tmp/pytubefix-5.3rc3.tar.gz --markdown 20240430/p/pytubefix/5.3rc2-5.3rc3/README.md --exclude *.pyd
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel-slim]: Downloading https://files.pythonhosted.org/packages/2f/1f/be95e93d9d5d26449f9fb288598182e9972869b59c9688257e650f40d38a/sqlmodel_slim-0.0.18.dev1.tar.gz
+[2024-04-30 02:54:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-30 02:54:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240430/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel-slim]: executing diffoscope
+[2024-04-30 02:54:45] INFO root fetch - processPackages [sqlmodel-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel_slim-0.0.1.tar.gz tmp/sqlmodel_slim-0.0.18.dev1.tar.gz --markdown 20240430/s/sqlmodel-slim/0.0.1-0.0.18.dev1/README.md --exclude *.pyd
+[2024-04-30 02:54:46] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.8.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - processPackages [sqlmodel]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel-0.0.9.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - main [MainThread]: End processing [sqlmodel]: success
+[2024-04-30 02:54:46] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc2.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc3.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-30 02:54:46] INFO root fetch - processPackages [sqlmodel-slim]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_slim-0.0.1.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - processPackages [sqlmodel-slim]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_slim-0.0.18.dev1.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - main [MainThread]: End processing [sqlmodel-slim]: success
+[2024-04-30 02:54:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-30 02:54:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-30 02:54:46] INFO root fetch - main [MainThread]: Store serial: [22992756]
