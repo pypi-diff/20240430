@@ -2621,3 +2621,33 @@
 [2024-04-30 02:32:55] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b5.tar.gz]
 [2024-04-30 02:32:55] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
 [2024-04-30 02:32:55] INFO root fetch - main [MainThread]: Store serial: [22992595]
+[2024-04-30 02:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992595]
+[2024-04-30 02:35:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 02:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-aind-metadata
+[2024-04-30 02:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plin-linux
+[2024-04-30 02:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datacube-ows
+[2024-04-30 02:35:14] INFO root fetch - processPackages [datacube-ows]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-30 02:35:14] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-30 02:35:14] INFO root fetch - processPackages [plin-linux]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 02:35:14] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/a7/e8/e188a9637804ea2e9e4e0e425f29d4de318b5889205f6b2ca672c5ef968f/np_aind_metadata-0.1.6.tar.gz
+[2024-04-30 02:35:14] INFO root fetch - processPackages [datacube-ows]: Downloading https://files.pythonhosted.org/packages/4b/96/6c5feb51a1509bef4f5e9ea2541a665a86315d4505486e0db4d8a8f75dcb/datacube_ows-1.8.8.tar.gz
+[2024-04-30 02:35:14] INFO root fetch - processPackages [plin-linux]: Downloading https://files.pythonhosted.org/packages/32/9e/e86602c6f9c96e3cf62c726646eddec03b074cf6673551c0212ca1bffdfb/plin-linux-0.0.2.tar.gz
+[2024-04-30 02:35:14] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/ce/e0/9e52a0e4fbfc2b1df63bf0c7a1a4074c082426f9b30eb1e5fd190b4a1724/np_aind_metadata-0.1.7.tar.gz
+[2024-04-30 02:35:14] INFO root fetch - processPackages [plin-linux]: Downloading https://files.pythonhosted.org/packages/85/5e/8a0bf6ab6837e52d38074a642889571cb2d88c80ae2255cff051711346cd/plin_linux-0.0.3.tar.gz
+[2024-04-30 02:35:14] INFO root fetch - processPackages [datacube-ows]: Downloading https://files.pythonhosted.org/packages/59/8a/ed706d251bfa420a6db0ca806c858104ee459b978f223b1fb1041e332397/datacube_ows-1.8.9.tar.gz
+[2024-04-30 02:35:14] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-04-30 02:35:14] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_aind_metadata-0.1.6.tar.gz tmp/np_aind_metadata-0.1.7.tar.gz --markdown 20240430/n/np-aind-metadata/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-30 02:35:14] INFO root fetch - processPackages [plin-linux]: executing diffoscope
+[2024-04-30 02:35:14] INFO root fetch - processPackages [plin-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plin-linux-0.0.2.tar.gz tmp/plin_linux-0.0.3.tar.gz --markdown 20240430/p/plin-linux/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 02:35:14] INFO root fetch - processPackages [datacube-ows]: executing diffoscope
+[2024-04-30 02:35:14] INFO root fetch - processPackages [datacube-ows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacube_ows-1.8.8.tar.gz tmp/datacube_ows-1.8.9.tar.gz --markdown 20240430/d/datacube-ows/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-30 02:35:15] INFO root fetch - processPackages [plin-linux]: Remove: archive file [/home/abi/fetcher/tmp/plin-linux-0.0.2.tar.gz]
+[2024-04-30 02:35:15] INFO root fetch - processPackages [plin-linux]: Remove: archive file [/home/abi/fetcher/tmp/plin_linux-0.0.3.tar.gz]
+[2024-04-30 02:35:15] INFO root fetch - main [MainThread]: End processing [plin-linux]: success
+[2024-04-30 02:35:15] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.6.tar.gz]
+[2024-04-30 02:35:15] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.7.tar.gz]
+[2024-04-30 02:35:15] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-04-30 02:35:16] INFO root fetch - processPackages [datacube-ows]: Remove: archive file [/home/abi/fetcher/tmp/datacube_ows-1.8.8.tar.gz]
+[2024-04-30 02:35:16] INFO root fetch - processPackages [datacube-ows]: Remove: archive file [/home/abi/fetcher/tmp/datacube_ows-1.8.9.tar.gz]
+[2024-04-30 02:35:16] INFO root fetch - main [MainThread]: End processing [datacube-ows]: success
+[2024-04-30 02:35:16] INFO root fetch - main [MainThread]: Store serial: [22992606]
