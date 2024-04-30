@@ -9066,3 +9066,20 @@
 [2024-04-30 05:35:15] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-2.0.2rc2-py3-none-any.whl.zip]
 [2024-04-30 05:35:15] INFO root fetch - main [MainThread]: End processing [intelliw]: success
 [2024-04-30 05:35:15] INFO root fetch - main [MainThread]: Store serial: [22994953]
+[2024-04-30 05:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994953]
+[2024-04-30 05:37:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 05:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bihyung
+[2024-04-30 05:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-dms
+[2024-04-30 05:37:24] INFO root fetch - processPackages [bihyung]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-30 05:37:24] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/cb/a8/ae27f780224a2617080f00f24ea50537f17af9b6fc5c93c77c4384150095/bihyung-0.2.2.tar.gz
+[2024-04-30 05:37:24] INFO root fetch - processPackages [odoo13-addon-dms]: New version: [13.0.8.5.3.dev9] Old Version: [13.0.8.5.3.dev7]
+[2024-04-30 05:37:24] INFO root fetch - processPackages [odoo13-addon-dms]: Downloading https://files.pythonhosted.org/packages/e8/1a/2a7ec37413dd38e6c8be8b2092b401edc4dc5099f72ae99a95dddd368e1c/odoo13_addon_dms-13.0.8.5.3.dev7-py3-none-any.whl
+[2024-04-30 05:37:24] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/d5/ef/23235e0ed95ae910bab86b741b2ec05ce016827d09909e0b503b14799174/bihyung-0.2.3.tar.gz
+[2024-04-30 05:37:24] WARNING root fetch - processPackages [odoo13-addon-dms]: Skipping package: exceeds size limit 15629475>=10485760
+[2024-04-30 05:37:24] INFO root fetch - main [MainThread]: End processing [odoo13-addon-dms] error
+[2024-04-30 05:37:24] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-04-30 05:37:24] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.2.tar.gz tmp/bihyung-0.2.3.tar.gz --markdown 20240430/b/bihyung/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-30 05:37:25] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.2.tar.gz]
+[2024-04-30 05:37:25] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.3.tar.gz]
+[2024-04-30 05:37:25] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-04-30 05:37:25] INFO root fetch - main [MainThread]: Store serial: [22994972]
