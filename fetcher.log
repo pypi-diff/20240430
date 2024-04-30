@@ -21489,3 +21489,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:19:37] INFO root fetch - processPackages [pyiqa]: Remove: archive file [/home/abi/fetcher/tmp/pyiqa-0.1.8.tar.gz]
 [2024-04-30 11:19:37] INFO root fetch - main [MainThread]: End processing [pyiqa]: success
 [2024-04-30 11:19:37] INFO root fetch - main [MainThread]: Store serial: [22999484]
+[2024-04-30 11:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999484]
+[2024-04-30 11:21:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-sdk
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phringe
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Spire.Xls
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nasa-apod
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cltrier_nlp
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumiverse-doppler
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-core
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-lockfile
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-autogen
+[2024-04-30 11:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-crewai
+[2024-04-30 11:21:46] WARNING root fetch - processPackages [pulumiverse-doppler]: Skipping, unable to determine old version
+[2024-04-30 11:21:46] INFO root fetch - processPackages [pulumiverse-doppler]: Start processing: musical_games
+[2024-04-30 11:21:46] INFO root fetch - main [MainThread]: End processing [pulumiverse-doppler] error
+[2024-04-30 11:21:46] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-30 11:21:46] INFO root fetch - processPackages [Spire.Xls]: New version: [14.4.3] Old Version: [14.4.2]
+[2024-04-30 11:21:46] WARNING root fetch - processPackages [nasa-apod]: Skipping, unable to determine old version
+[2024-04-30 11:21:46] INFO root fetch - processPackages [nasa-apod]: Start processing: localstack-core
+[2024-04-30 11:21:46] INFO root fetch - main [MainThread]: End processing [nasa-apod] error
+[2024-04-30 11:21:46] WARNING root fetch - processPackages [cltrier_nlp]: Skipping, unable to determine old version
+[2024-04-30 11:21:46] INFO root fetch - processPackages [cltrier_nlp]: Start processing: composio-langchain
+[2024-04-30 11:21:46] INFO root fetch - main [MainThread]: End processing [cltrier_nlp] error
+[2024-04-30 11:21:46] WARNING root fetch - processPackages [python-lockfile]: Skipping, unable to determine old version
+[2024-04-30 11:21:46] INFO root fetch - processPackages [python-lockfile]: Start processing: composio-lyzr
+[2024-04-30 11:21:46] INFO root fetch - main [MainThread]: End processing [python-lockfile] error
+[2024-04-30 11:21:46] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [musical_games]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240430075413] Old Version: [3.4.1.dev20240430055037]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-04-30 11:21:46] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:21:46] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:21:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ba/87/22e646bffb1a8c1ce88e8b82295d78e59ddb3512d7b48806611f273f8863/localstack_core-3.4.1.dev20240430055037.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [Spire.Xls]: Downloading https://files.pythonhosted.org/packages/f4/8b/f25a2f54992f567748e42e79179b8fde4ed7a7d5373c122f8a24e0b72efa/Spire.Xls-14.4.2-py3-none-win_amd64.whl
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/fb/f1/a1ee78571d2855b3d9e5e5b18853f07b146967753d4594535c3ead764bc1/musical_games-0.7.1.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-04-30 11:21:47] WARNING root fetch - processPackages [Spire.Xls]: Skipping package: exceeds size limit 23822624>=10485760
+[2024-04-30 11:21:47] INFO root fetch - main [MainThread]: End processing [Spire.Xls] error
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240430/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240430/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/75/48/10d79a6a1a2c1e2fa5521867591a98d36d7ffd029d0b043f7d0354ead317/musical_games-0.8.0.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/43/06/3d99b94ad549560bea06f6cf2bd09bcde3e53718d33318bc49f3900b615b/localstack_core-3.4.1.dev20240430075413.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240430/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240430/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-04-30 11:21:47] INFO root fetch - processPackages [musical_games]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [musical_games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musical_games-0.7.1.tar.gz tmp/musical_games-0.8.0.tar.gz --markdown 20240430/m/musical_games/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240430/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240430/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240430/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 11:21:47] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-30 11:21:47] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240430055037.tar.gz tmp/localstack_core-3.4.1.dev20240430075413.tar.gz --markdown 20240430/l/localstack-core/3.4.1.dev20240430055037-3.4.1.dev20240430075413/README.md --exclude *.pyd
+[2024-04-30 11:21:48] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-30 11:21:48] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-30 11:21:48] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-30 11:21:48] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-04-30 11:21:48] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-04-30 11:21:48] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-04-30 11:21:48] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-04-30 11:21:48] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-04-30 11:21:48] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-30 11:21:49] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-30 11:21:49] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-30 11:21:49] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-30 11:21:49] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.7.1.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.0.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - main [MainThread]: End processing [musical_games]: success
+[2024-04-30 11:21:49] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-30 11:21:49] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-30 11:21:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430055037.tar.gz]
+[2024-04-30 11:21:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430075413.tar.gz]
+[2024-04-30 11:21:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-30 11:21:53] INFO root fetch - main [MainThread]: Store serial: [22999530]
