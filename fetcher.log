@@ -7905,3 +7905,60 @@
 [2024-04-30 04:54:00] INFO root fetch - processPackages [dfpyre]: Remove: archive file [/home/abi/fetcher/tmp/dfpyre-0.6.1.tar.gz]
 [2024-04-30 04:54:00] INFO root fetch - main [MainThread]: End processing [dfpyre]: success
 [2024-04-30 04:54:00] INFO root fetch - main [MainThread]: Store serial: [22994561]
+[2024-04-30 04:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994561]
+[2024-04-30 04:56:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 04:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltacat
+[2024-04-30 04:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiclip
+[2024-04-30 04:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matterhorn-pytorch
+[2024-04-30 04:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: missim-config
+[2024-04-30 04:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: missim-cli
+[2024-04-30 04:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-reconcile-model-oca
+[2024-04-30 04:56:09] INFO root fetch - processPackages [matterhorn-pytorch]: New version: [1.2.0] Old Version: [1.0.1]
+[2024-04-30 04:56:09] INFO root fetch - processPackages [hiclip]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 04:56:09] INFO root fetch - processPackages [missim-config]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-30 04:56:09] INFO root fetch - processPackages [missim-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-30 04:56:09] INFO root fetch - processPackages [deltacat]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-30 04:56:09] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-04-30 04:56:09] INFO root fetch - processPackages [matterhorn-pytorch]: Downloading https://files.pythonhosted.org/packages/bb/95/eb86264b274f0904e08dc946def1d439b1b98ae125b46ed3b04d9766795d/matterhorn_pytorch-1.0.1.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/2c/d0/96aa5ba35f0909b116501a617ece8c928985c1668b2c669ce57fa725a1e1/missim_config-1.8.0.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/24/b1/6788f7b31443631044e84e92e5676f479b6581cde8ff27f4944998b90b1b/deltacat-1.1.2.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [hiclip]: Downloading https://files.pythonhosted.org/packages/88/dc/8ff696680dc40e2dccd61c3f7016557e51a2708ec9d78a1c4a532d160fb5/hiclip-0.0.2.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/a2/1c/313f0af347cc848f0a8c6bf7c8a126ee3a91295891740d64826553219d25/missim_cli-1.8.0.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Downloading https://files.pythonhosted.org/packages/bd/75/19e1b35f05dde2f62e5bb593282925cc41331e2b00170d7ed08ee09f2dd6/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 04:56:09] INFO root fetch - processPackages [matterhorn-pytorch]: Downloading https://files.pythonhosted.org/packages/be/df/216b74a9c0bb8851c9acbc065519b36f504eb1f3aa33d00301413fadb797/matterhorn_pytorch-1.2.0.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [matterhorn-pytorch]: executing diffoscope
+[2024-04-30 04:56:09] INFO root fetch - processPackages [matterhorn-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matterhorn_pytorch-1.0.1.tar.gz tmp/matterhorn_pytorch-1.2.0.tar.gz --markdown 20240430/m/matterhorn-pytorch/1.0.1-1.2.0/README.md --exclude *.pyd
+[2024-04-30 04:56:09] INFO root fetch - processPackages [hiclip]: Downloading https://files.pythonhosted.org/packages/96/d6/9fe32172f6b16a98c602674121d57054280e2eb4a0b9cb1171daa4271af8/hiclip-0.0.3.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/10/50/27d1225995278b076335789879650a5d01d6d50e74e0090a2a86641f92f8/deltacat-1.1.3.tar.gz
+[2024-04-30 04:56:09] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Downloading https://files.pythonhosted.org/packages/73/7f/6b3d3087169e1573d51d76c526adc9b59b101662d5a920603f09bb13b12c/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-30 04:56:09] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/b3/b8/505e55114353f7623a5245dfa18b72bd8859a6bc72def81f2cb9f0b78e04/missim_config-1.9.0.tar.gz
+[2024-04-30 04:56:10] INFO root fetch - processPackages [deltacat]: executing diffoscope
+[2024-04-30 04:56:10] INFO root fetch - processPackages [deltacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltacat-1.1.2.tar.gz tmp/deltacat-1.1.3.tar.gz --markdown 20240430/d/deltacat/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-config]: executing diffoscope
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_config-1.8.0.tar.gz tmp/missim_config-1.9.0.tar.gz --markdown 20240430/m/missim-config/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-30 04:56:10] INFO root fetch - processPackages [hiclip]: executing diffoscope
+[2024-04-30 04:56:10] INFO root fetch - processPackages [hiclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiclip-0.0.2.tar.gz tmp/hiclip-0.0.3.tar.gz --markdown 20240430/h/hiclip/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 04:56:10] INFO root fetch - processPackages [matterhorn-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/matterhorn_pytorch-1.0.1.tar.gz]
+[2024-04-30 04:56:10] INFO root fetch - processPackages [matterhorn-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/matterhorn_pytorch-1.2.0.tar.gz]
+[2024-04-30 04:56:10] INFO root fetch - main [MainThread]: End processing [matterhorn-pytorch]: success
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/63/96/32eec13dffcaced98f3b5f700d2d5168a4132f1b854edb70c453e03597b7/missim_cli-1.9.0.tar.gz
+[2024-04-30 04:56:10] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: executing diffoscope
+[2024-04-30 04:56:10] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-account-reconcile-model-oca/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.8.0.tar.gz]
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.9.0.tar.gz]
+[2024-04-30 04:56:10] INFO root fetch - main [MainThread]: End processing [missim-config]: success
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-cli]: executing diffoscope
+[2024-04-30 04:56:10] INFO root fetch - processPackages [missim-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_cli-1.8.0.tar.gz tmp/missim_cli-1.9.0.tar.gz --markdown 20240430/m/missim-cli/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-30 04:56:11] INFO root fetch - processPackages [hiclip]: Remove: archive file [/home/abi/fetcher/tmp/hiclip-0.0.2.tar.gz]
+[2024-04-30 04:56:11] INFO root fetch - processPackages [hiclip]: Remove: archive file [/home/abi/fetcher/tmp/hiclip-0.0.3.tar.gz]
+[2024-04-30 04:56:11] INFO root fetch - main [MainThread]: End processing [hiclip]: success
+[2024-04-30 04:56:11] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.2.tar.gz]
+[2024-04-30 04:56:11] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.3.tar.gz]
+[2024-04-30 04:56:11] INFO root fetch - main [MainThread]: End processing [deltacat]: success
+[2024-04-30 04:56:11] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 04:56:11] INFO root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_model_oca-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-30 04:56:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-model-oca]: success
+[2024-04-30 04:56:11] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.8.0.tar.gz]
+[2024-04-30 04:56:11] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.9.0.tar.gz]
+[2024-04-30 04:56:11] INFO root fetch - main [MainThread]: End processing [missim-cli]: success
+[2024-04-30 04:56:11] INFO root fetch - main [MainThread]: Store serial: [22994576]
