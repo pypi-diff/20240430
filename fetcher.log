@@ -9533,3 +9533,248 @@
 [2024-04-30 05:53:05] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl.zip]
 [2024-04-30 05:53:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice]: success
 [2024-04-30 05:53:05] INFO root fetch - main [MainThread]: Store serial: [22995141]
+[2024-04-30 05:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995141]
+[2024-04-30 05:55:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-fieldservice-stage-validation
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-fieldservice-survey
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-fieldservice
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice-stage-validation
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-bma
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-bmeip
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-bmlb
+[2024-04-30 05:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-fieldservice-stage-validation
+[2024-04-30 05:55:13] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 05:55:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: New version: [14.0.1.1.2.dev1] Old Version: [14.0.1.1.1.dev6]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: New version: [14.0.1.0.1.dev2] Old Version: [14.0.1.0.1.dev1]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/6b/9e/7211f131999712737319f5a9d3a5c5df4837b8c9dc7850404749e57cc486/odoo14_addon_fieldservice_stage_validation-14.0.1.1.1.dev6-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Downloading https://files.pythonhosted.org/packages/1f/80/2087f8229c3800365b5ed599421f1c812aab22dc669fc5dde78dfc261b01/tencentcloud-sdk-python-bma-3.0.998.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: Downloading https://files.pythonhosted.org/packages/3c/3d/82c2d94cfa7b627efd8d67a75406652b0620f4b03919f721572c574f527c/odoo14_addon_fieldservice_survey-14.0.1.0.1.dev1-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/0d/4c/ba7741a3df75915ad4f20578ef52222afe8b93fd8d99c765140e9a62082f/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/0d/4c/ba7741a3df75915ad4f20578ef52222afe8b93fd8d99c765140e9a62082f/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/b2/70/c555944198d28de47ee1dcc0d696de18f900554c2e4af4dcda0b989cbc6c/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Downloading https://files.pythonhosted.org/packages/d3/b2/14e22128fa27abcfabf5a351a3c3bee0a30ec0c7fcc4e0b994425e1b2e86/tencentcloud-sdk-python-bmlb-3.0.998.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/08/07/50b04234f7d2186c868c4a6240ec0fb207103b471734db3250e66b6e7305/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 05:55:14] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/b8/2d/df42337fcff88c88cd9bc0739e6e99007f12772815e9a03f9c0d9abbca3c/odoo14_addon_fieldservice_stage_validation-14.0.1.1.2.dev1-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Downloading https://files.pythonhosted.org/packages/c1/b8/8ea74081f4f187f0ea20a99d0462b7035a7032b675d1eca65b352280517c/tencentcloud-sdk-python-bma-3.0.999.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: Downloading https://files.pythonhosted.org/packages/dd/c6/43b00ee526bc2973ef4b7a05bfd065fd3f652a435e4954d373b04dd88af0/odoo14_addon_fieldservice_survey-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: executing diffoscope
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_stage_validation-14.0.1.1.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_stage_validation-14.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-fieldservice-stage-validation/14.0.1.1.1.dev6-14.0.1.1.2.dev1/README.md --exclude *.pyd
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/be/8a/3ae1a6ffdb150f5d73c03eeac873b478eb5c1925f313220d8e3b18c7ce94/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/1c/95/2baff7d4f4c1eeffa5bbcf74973a379bf9f6f42b23817e5f891535ff3ff5/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/be/8a/3ae1a6ffdb150f5d73c03eeac873b478eb5c1925f313220d8e3b18c7ce94/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Downloading https://files.pythonhosted.org/packages/e2/5f/4bd592a8aeef6729cda1cdf6f3188f79088e42ba4fa7ebe83e744a2abe10/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/04/12/a634d972bd2e72415ae3fabb12d30b7fa50c731d3d3a71da39ab82ca0ee1/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: executing diffoscope
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bma-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bma-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-bma/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: executing diffoscope
+[2024-04-30 05:55:14] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_survey-14.0.1.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_survey-14.0.1.0.1.dev2-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-fieldservice-survey/14.0.1.0.1.dev1-14.0.1.0.1.dev2/README.md --exclude *.pyd
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: executing diffoscope
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-bmeip/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: executing diffoscope
+[2024-04-30 05:55:14] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmlb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-bmlb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: executing diffoscope
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fieldservice-stage-validation/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: executing diffoscope
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fieldservice-stage-validation/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fieldservice/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-04-30 05:55:15] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [jax-tools]: Start processing: tencentcloud-sdk-python-bmvpc
+[2024-04-30 05:55:15] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_stage_validation-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_stage_validation-14.0.1.1.2.dev1-py3-none-any.whl.zip]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-validation]: Start processing: odoo-addon-fieldservice-stage-validation
+[2024-04-30 05:55:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-stage-validation]: success
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Downloading https://files.pythonhosted.org/packages/16/43/a6059ca02b533147e88c95803d08eaf023629ff25d9d025b7a976bd5ffea/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Start processing: odoo-addon-fieldservice
+[2024-04-30 05:55:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmeip]: success
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Start processing: tencentcloud-sdk-python-bpaas
+[2024-04-30 05:55:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-stage-validation]: success
+[2024-04-30 05:55:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Downloading https://files.pythonhosted.org/packages/be/8a/3ae1a6ffdb150f5d73c03eeac873b478eb5c1925f313220d8e3b18c7ce94/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bma-3.0.998.tar.gz]
+[2024-04-30 05:55:15] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bma-3.0.999.tar.gz]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Start processing: odoo-addon-fieldservice
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bma]: success
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_survey-14.0.1.0.1.dev1-py3-none-any.whl.zip]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo14-addon-fieldservice-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_survey-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-survey]: success
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-stage-validation]: success
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fieldservice/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmlb-3.0.998.tar.gz]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Downloading https://files.pythonhosted.org/packages/85/ae/2990efac19f637cb27cdf5c21b2e1900c00bae800b413e03ac7129a7a112/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmlb]: success
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: executing diffoscope
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fieldservice-stage-validation/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: executing diffoscope
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-bmvpc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fieldservice/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Downloading https://files.pythonhosted.org/packages/ba/08/5288d1f005c662185b74a01d4fa40c2b5da397a8627e4470151f0516f0d3/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz
+[2024-04-30 05:55:16] ERROR root fetch - processPackages [odoo-addon-fieldservice-stage-validation]: Diffoscope failed: time="2024-04-30T05:55:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_fieldservice_stage_validation-17.0.1.0.0.2-py3-none-any.whl.zip: No such file or directory
+
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-stage-validation] error
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-04-30 05:55:16] ERROR root fetch - processPackages [odoo-addon-fieldservice]: Diffoscope failed: time="2024-04-30T05:55:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip: No such file or directory
+
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice] error
+[2024-04-30 05:55:16] ERROR root fetch - processPackages [odoo-addon-fieldservice]: Diffoscope failed: time="2024-04-30T05:55:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipnote {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 256, in compare_details
+    Difference.from_operation(Zipnote, self.path, other.path)
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipnote {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 553, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 412, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice] error
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Downloading https://files.pythonhosted.org/packages/ce/d8/cb2c79582a88e780fe8493cf8e6fd85dacc5448246de28fad7bb5a78df16/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz]
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz]
+[2024-04-30 05:55:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmvpc]: success
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: executing diffoscope
+[2024-04-30 05:55:16] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-bpaas/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 05:55:17] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz]
+[2024-04-30 05:55:17] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz]
+[2024-04-30 05:55:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bpaas]: success
+[2024-04-30 05:55:17] INFO root fetch - main [MainThread]: Store serial: [22995174]
