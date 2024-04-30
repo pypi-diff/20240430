@@ -8124,3 +8124,15 @@
 [2024-04-30 05:07:15] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra_arena-2.2.7.tar.gz]
 [2024-04-30 05:07:15] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
 [2024-04-30 05:07:15] INFO root fetch - main [MainThread]: Store serial: [22994646]
+[2024-04-30 05:09:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994646]
+[2024-04-30 05:09:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 05:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Fr1997v011
+[2024-04-30 05:09:24] INFO root fetch - processPackages [Fr1997v011]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-30 05:09:24] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/5f/57/69be5fa8be0c9a54512a3d4f361d845f943c0aaf80c26d631d4e1f1a7aa3/Fr1997v011-1.4.3.tar.gz
+[2024-04-30 05:09:24] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/0b/f0/3c7bbf5b837733ae16df9e14af52223e6c7e34a3f5bae806201767df9ec7/Fr1997v011-1.4.4.tar.gz
+[2024-04-30 05:09:24] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-30 05:09:24] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.4.3.tar.gz tmp/Fr1997v011-1.4.4.tar.gz --markdown 20240430/F/Fr1997v011/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-30 05:09:25] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.3.tar.gz]
+[2024-04-30 05:09:25] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.4.tar.gz]
+[2024-04-30 05:09:25] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-30 05:09:25] INFO root fetch - main [MainThread]: Store serial: [22994648]
