@@ -7516,3 +7516,36 @@
 [2024-04-30 04:25:40] INFO root fetch - processPackages [excel2db]: Remove: archive file [/home/abi/fetcher/tmp/excel2db-0.0.2.tar.gz]
 [2024-04-30 04:25:40] INFO root fetch - main [MainThread]: End processing [excel2db]: success
 [2024-04-30 04:25:40] INFO root fetch - main [MainThread]: Store serial: [22994415]
+[2024-04-30 04:27:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994415]
+[2024-04-30 04:27:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 04:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dhuodata-lib
+[2024-04-30 04:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptflow-vectordb
+[2024-04-30 04:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moptipy
+[2024-04-30 04:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multihttps
+[2024-04-30 04:27:48] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 04:27:48] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/23/00/1cf682ed85fc849ecd6430dbc4a33a9118ba55eb55a92016592c34e5f914/dhuodata-lib-0.1.7.tar.gz
+[2024-04-30 04:27:48] INFO root fetch - processPackages [promptflow-vectordb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 04:27:49] WARNING root fetch - processPackages [multihttps]: Skipping, unable to determine old version
+[2024-04-30 04:27:49] INFO root fetch - main [MainThread]: End processing [multihttps] error
+[2024-04-30 04:27:49] INFO root fetch - processPackages [moptipy]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-30 04:27:49] INFO root fetch - processPackages [promptflow-vectordb]: Downloading https://files.pythonhosted.org/packages/44/a6/050701f261c50f05a0dad7923e415552582564d355d9c4220f83bbe01c6b/promptflow_vectordb-0.2.8-py3-none-any.whl
+[2024-04-30 04:27:49] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/d4/e0/f3c6675c2ddcdbeae1b1d2933802a42c469d135b16d9fec19687ae367002/dhuodata-lib-0.1.8.tar.gz
+[2024-04-30 04:27:49] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/79/ff/c02163781ada2fee4bba702ad69e5a4f2f4c03a9cfd912ff8123846ab35e/moptipy-0.9.98.tar.gz
+[2024-04-30 04:27:49] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 04:27:49] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.1.7.tar.gz tmp/dhuodata-lib-0.1.8.tar.gz --markdown 20240430/d/dhuodata-lib/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 04:27:49] INFO root fetch - processPackages [promptflow-vectordb]: Downloading https://files.pythonhosted.org/packages/63/c9/6d6c8fadee443eb37c559b675afda5a68cbe2ea06f8a4842cb913bb30c51/promptflow_vectordb-0.2.9-py3-none-any.whl
+[2024-04-30 04:27:49] INFO root fetch - processPackages [promptflow-vectordb]: executing diffoscope
+[2024-04-30 04:27:49] INFO root fetch - processPackages [promptflow-vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_vectordb-0.2.8-py3-none-any.whl.zip tmp/promptflow_vectordb-0.2.9-py3-none-any.whl.zip --markdown 20240430/p/promptflow-vectordb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 04:27:49] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/2a/cf/498083d5cae469a295d1f70ea131664c0ac6641c8a08698dee5e01d2204b/moptipy-0.9.99.tar.gz
+[2024-04-30 04:27:50] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.7.tar.gz]
+[2024-04-30 04:27:50] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.8.tar.gz]
+[2024-04-30 04:27:50] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 04:27:50] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2024-04-30 04:27:50] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.98.tar.gz tmp/moptipy-0.9.99.tar.gz --markdown 20240430/m/moptipy/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-30 04:27:50] INFO root fetch - processPackages [promptflow-vectordb]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_vectordb-0.2.8-py3-none-any.whl.zip]
+[2024-04-30 04:27:50] INFO root fetch - processPackages [promptflow-vectordb]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_vectordb-0.2.9-py3-none-any.whl.zip]
+[2024-04-30 04:27:50] INFO root fetch - main [MainThread]: End processing [promptflow-vectordb]: success
+[2024-04-30 04:27:51] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.98.tar.gz]
+[2024-04-30 04:27:51] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.99.tar.gz]
+[2024-04-30 04:27:51] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2024-04-30 04:27:51] INFO root fetch - main [MainThread]: Store serial: [22994427]
