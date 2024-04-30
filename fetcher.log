@@ -19362,3 +19362,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:08:13] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240430.tar.gz]
 [2024-04-30 10:08:13] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-30 10:08:13] INFO root fetch - main [MainThread]: Store serial: [22998636]
+[2024-04-30 10:10:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998636]
+[2024-04-30 10:10:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 10:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcube
+[2024-04-30 10:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retroapi
+[2024-04-30 10:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stopwords-tr
+[2024-04-30 10:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synch2jira
+[2024-04-30 10:10:22] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-30 10:10:22] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 10:10:22] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-30 10:10:22] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/f4/c8/37b96526390476b61137450310cd437700578772b58d756200e32de973f0/stopwords_tr-1.1.6.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [retroapi]: New version: [0.8.2] Old Version: [0.8.0]
+[2024-04-30 10:10:22] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [retroapi]: Downloading https://files.pythonhosted.org/packages/0c/0e/fbf9a87daf13d6b4a7129e6837dd66373b6599ea3521647a725ddd49f116/retroapi-0.8.0.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/4b/87/5056f59038dd8dbc52d2ddb3b5992e1881534153fe7b4dc6df4b1fa926a6/stopwords_tr-1.1.7.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-04-30 10:10:22] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240430/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 10:10:22] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-30 10:10:22] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240430/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-30 10:10:22] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 10:10:22] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.6.tar.gz tmp/stopwords_tr-1.1.7.tar.gz --markdown 20240430/s/stopwords-tr/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-30 10:10:22] INFO root fetch - processPackages [retroapi]: Downloading https://files.pythonhosted.org/packages/11/d1/da80f026a9324c81d95cd43bede6a1880c8a7420ef89e795a3527923866f/retroapi-0.8.2.tar.gz
+[2024-04-30 10:10:22] INFO root fetch - processPackages [retroapi]: executing diffoscope
+[2024-04-30 10:10:22] INFO root fetch - processPackages [retroapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retroapi-0.8.0.tar.gz tmp/retroapi-0.8.2.tar.gz --markdown 20240430/r/retroapi/0.8.0-0.8.2/README.md --exclude *.pyd
+[2024-04-30 10:10:23] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-30 10:10:23] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-04-30 10:10:23] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.6.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.7.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 10:10:23] INFO root fetch - processPackages [retroapi]: Remove: archive file [/home/abi/fetcher/tmp/retroapi-0.8.0.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - processPackages [retroapi]: Remove: archive file [/home/abi/fetcher/tmp/retroapi-0.8.2.tar.gz]
+[2024-04-30 10:10:23] INFO root fetch - main [MainThread]: End processing [retroapi]: success
+[2024-04-30 10:10:23] INFO root fetch - main [MainThread]: Store serial: [22998655]
