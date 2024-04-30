@@ -16763,3 +16763,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:18:19] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
 [2024-04-30 09:18:19] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
 [2024-04-30 09:18:19] INFO root fetch - main [MainThread]: Store serial: [22997759]
+[2024-04-30 09:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997759]
+[2024-04-30 09:20:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtc-tools
+[2024-04-30 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migration-db
+[2024-04-30 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: journeylib
+[2024-04-30 09:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sf-hamilton
+[2024-04-30 09:20:28] WARNING root fetch - processPackages [migration-db]: Skipping, unable to determine old version
+[2024-04-30 09:20:28] INFO root fetch - main [MainThread]: End processing [migration-db] error
+[2024-04-30 09:20:28] INFO root fetch - processPackages [journeylib]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-04-30 09:20:28] INFO root fetch - processPackages [rtc-tools]: New version: [2.7.0a1] Old Version: [2.6.1]
+[2024-04-30 09:20:28] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-04-30 09:20:28] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/47/d3/95e10c792265e778307b47c380634989ab1267c080bb9e60cd3cb2c1d07d/journeylib-0.1.1.tar.gz
+[2024-04-30 09:20:28] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/7f/eb/a4acf3fae357aed95a7d0aa89528403cdcc58a0b8c1a176716003bbfca04/rtc-tools-2.6.1.tar.gz
+[2024-04-30 09:20:29] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-04-30 09:20:29] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/ed/23/2594cb5723cacdb5a079df0ed7ff88dc12e32cea7875fd14d22aa6ec18ad/journeylib-1.0.0.tar.gz
+[2024-04-30 09:20:29] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/39/cc/128cc4fd983f0e4246304895329b72f735a9c8b2797c43b8290daccef44b/rtc-tools-2.7.0a1.tar.gz
+[2024-04-30 09:20:29] INFO root fetch - processPackages [journeylib]: executing diffoscope
+[2024-04-30 09:20:29] INFO root fetch - processPackages [journeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journeylib-0.1.1.tar.gz tmp/journeylib-1.0.0.tar.gz --markdown 20240430/j/journeylib/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-04-30 09:20:29] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-04-30 09:20:29] INFO root fetch - processPackages [rtc-tools]: executing diffoscope
+[2024-04-30 09:20:29] INFO root fetch - processPackages [rtc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-2.6.1.tar.gz tmp/rtc-tools-2.7.0a1.tar.gz --markdown 20240430/r/rtc-tools/2.6.1-2.7.0a1/README.md --exclude *.pyd
+[2024-04-30 09:20:29] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-04-30 09:20:29] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240430/s/sf-hamilton/1.9.0-1.9.0rc0/README.md --exclude *.pyd
+[2024-04-30 09:20:29] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-0.1.1.tar.gz]
+[2024-04-30 09:20:29] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-1.0.0.tar.gz]
+[2024-04-30 09:20:29] INFO root fetch - main [MainThread]: End processing [journeylib]: success
+[2024-04-30 09:20:30] INFO root fetch - processPackages [rtc-tools]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-2.6.1.tar.gz]
+[2024-04-30 09:20:30] INFO root fetch - processPackages [rtc-tools]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-2.7.0a1.tar.gz]
+[2024-04-30 09:20:30] INFO root fetch - main [MainThread]: End processing [rtc-tools]: success
+[2024-04-30 09:20:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-04-30 09:20:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-04-30 09:20:30] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-04-30 09:20:30] INFO root fetch - main [MainThread]: Store serial: [22997773]
