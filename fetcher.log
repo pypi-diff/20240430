@@ -14524,3 +14524,9 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:01:39] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-04-30 08:01:39] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-04-30 08:01:39] INFO root fetch - main [MainThread]: Store serial: [22996882]
+[2024-04-30 08:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996882]
+[2024-04-30 08:03:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-30 08:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faasmsctl
+[2024-04-30 08:03:49] WARNING root fetch - processPackages [faasmsctl]: Skipping, unable to determine old version
+[2024-04-30 08:03:49] INFO root fetch - main [MainThread]: End processing [faasmsctl] error
+[2024-04-30 08:03:49] INFO root fetch - main [MainThread]: Store serial: [22996885]
