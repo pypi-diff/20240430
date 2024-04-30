@@ -16146,3 +16146,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:55:31] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz]
 [2024-04-30 08:55:31] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-04-30 08:55:31] INFO root fetch - main [MainThread]: Store serial: [22997518]
+[2024-04-30 08:57:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997518]
+[2024-04-30 08:57:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 08:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2024-04-30 08:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sumologic
+[2024-04-30 08:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepgpu
+[2024-04-30 08:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-spotinst
+[2024-04-30 08:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyPhasesRecordloaderMrOS
+[2024-04-30 08:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-tailscale
+[2024-04-30 08:57:40] INFO root fetch - processPackages [deepgpu]: New version: [2.1.0rc3.post3] Old Version: [2.1.0rc3.post1]
+[2024-04-30 08:57:40] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-30 08:57:40] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-04-30 08:57:40] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1714457805] Old Version: [7.2.0a1714112434]
+[2024-04-30 08:57:40] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-04-30 08:57:40] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-30 08:57:40] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/42/6d/a3a0c9a3773f84fb9be1a53b25d96a1ddb6abff43a8ea524020f26848c09/deepgpu-2.1.0rc3.post1.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: Downloading https://files.pythonhosted.org/packages/a5/67/977488c8422e01b04cfd2cf0f9265fb4b936c023ca26a222720955123871/pyPhasesRecordloaderMrOS-0.4.1.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/b7/a1/8ffc1624f8dc32db8f2cc221bb59e1d71fd6c98ca2f63d85cb166a3dadba/pulumi_signalfx-7.2.0a1714112434.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/96/67/fe31aadcc8172bb0873de28f1680cb3a2da6dd2f53cc278089fb1f12c447/deepgpu-2.1.0rc3.post3.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: Downloading https://files.pythonhosted.org/packages/f0/a1/85c6cea9e03b02159e394312ea11ae951a8f2e9976bc799956f72044ebab/pyPhasesRecordloaderMrOS-0.4.2.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/6a/4a/1503b4a4701589160e8f0328578969d3a96f35687c11f6a49b6e2e3417b3/pulumi_signalfx-7.2.0a1714457805.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [deepgpu]: executing diffoscope
+[2024-04-30 08:57:41] INFO root fetch - processPackages [deepgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgpu-2.1.0rc3.post1.tar.gz tmp/deepgpu-2.1.0rc3.post3.tar.gz --markdown 20240430/d/deepgpu/2.1.0rc3.post1-2.1.0rc3.post3/README.md --exclude *.pyd
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: executing diffoscope
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesRecordloaderMrOS-0.4.1.tar.gz tmp/pyPhasesRecordloaderMrOS-0.4.2.tar.gz --markdown 20240430/p/pyPhasesRecordloaderMrOS/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1714112434.tar.gz tmp/pulumi_signalfx-7.2.0a1714457805.tar.gz --markdown 20240430/p/pulumi-signalfx/7.2.0a1714112434-7.2.0a1714457805/README.md --exclude *.pyd
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240430/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240430/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-30 08:57:41] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240430/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-04-30 08:57:42] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.post1.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.post3.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [deepgpu]: success
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloaderMrOS-0.4.1.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pyPhasesRecordloaderMrOS]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloaderMrOS-0.4.2.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [pyPhasesRecordloaderMrOS]: success
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1714112434.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1714457805.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-04-30 08:57:42] INFO root fetch - main [MainThread]: Store serial: [22997537]
