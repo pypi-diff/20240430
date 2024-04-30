@@ -8163,3 +8163,33 @@
 [2024-04-30 05:11:35] INFO root fetch - processPackages [pulumi-commandx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_commandx-0.1.1a1714170747.tar.gz]
 [2024-04-30 05:11:35] INFO root fetch - main [MainThread]: End processing [pulumi-commandx]: success
 [2024-04-30 05:11:35] INFO root fetch - main [MainThread]: Store serial: [22994659]
+[2024-04-30 05:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994659]
+[2024-04-30 05:13:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 05:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biodatatools
+[2024-04-30 05:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lookml-zenml
+[2024-04-30 05:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-bybit
+[2024-04-30 05:13:43] INFO root fetch - processPackages [biodatatools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 05:13:44] INFO root fetch - processPackages [trio-bybit]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 05:13:44] INFO root fetch - processPackages [lookml-zenml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 05:13:44] INFO root fetch - processPackages [biodatatools]: Downloading https://files.pythonhosted.org/packages/f1/55/40e253e25e7d54b1e0241644cc702cb7663148b5e2f8f621427f203e3176/biodatatools-0.0.1.tar.gz
+[2024-04-30 05:13:44] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/fb/37/7c42f41664c058225562052d1a47299d1f54eca54be746ea6c17df777837/trio_bybit-0.1.5.tar.gz
+[2024-04-30 05:13:44] INFO root fetch - processPackages [lookml-zenml]: Downloading https://files.pythonhosted.org/packages/e2/7c/c080fad0d3fa87c10af7a53bb342c5f8812c55a266b960dd3628f589f9e3/lookml_zenml-0.1.8.tar.gz
+[2024-04-30 05:13:44] INFO root fetch - processPackages [biodatatools]: Downloading https://files.pythonhosted.org/packages/a7/05/1084f85bb458aadea9ddafd9d439bdc64118cb82a342303d313ef34e2933/biodatatools-0.0.2.tar.gz
+[2024-04-30 05:13:44] INFO root fetch - processPackages [biodatatools]: executing diffoscope
+[2024-04-30 05:13:44] INFO root fetch - processPackages [biodatatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biodatatools-0.0.1.tar.gz tmp/biodatatools-0.0.2.tar.gz --markdown 20240430/b/biodatatools/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 05:13:44] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/5c/b0/7249faeecd25f963384c66cde5a930db0efdb98a5f4d2aeb562476435c73/trio_bybit-0.1.6.tar.gz
+[2024-04-30 05:13:44] INFO root fetch - processPackages [lookml-zenml]: Downloading https://files.pythonhosted.org/packages/ee/b4/007a0ce89abcf590afe2e6ea1289d2d9e5c6cc858d44e8e6b6b1ca81f273/lookml_zenml-0.1.9.tar.gz
+[2024-04-30 05:13:44] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-04-30 05:13:44] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.1.5.tar.gz tmp/trio_bybit-0.1.6.tar.gz --markdown 20240430/t/trio-bybit/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 05:13:44] INFO root fetch - processPackages [lookml-zenml]: executing diffoscope
+[2024-04-30 05:13:44] INFO root fetch - processPackages [lookml-zenml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookml_zenml-0.1.8.tar.gz tmp/lookml_zenml-0.1.9.tar.gz --markdown 20240430/l/lookml-zenml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 05:13:45] INFO root fetch - processPackages [biodatatools]: Remove: archive file [/home/abi/fetcher/tmp/biodatatools-0.0.1.tar.gz]
+[2024-04-30 05:13:45] INFO root fetch - processPackages [biodatatools]: Remove: archive file [/home/abi/fetcher/tmp/biodatatools-0.0.2.tar.gz]
+[2024-04-30 05:13:45] INFO root fetch - main [MainThread]: End processing [biodatatools]: success
+[2024-04-30 05:13:45] INFO root fetch - processPackages [lookml-zenml]: Remove: archive file [/home/abi/fetcher/tmp/lookml_zenml-0.1.8.tar.gz]
+[2024-04-30 05:13:45] INFO root fetch - processPackages [lookml-zenml]: Remove: archive file [/home/abi/fetcher/tmp/lookml_zenml-0.1.9.tar.gz]
+[2024-04-30 05:13:45] INFO root fetch - main [MainThread]: End processing [lookml-zenml]: success
+[2024-04-30 05:13:45] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.5.tar.gz]
+[2024-04-30 05:13:45] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.6.tar.gz]
+[2024-04-30 05:13:45] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-04-30 05:13:45] INFO root fetch - main [MainThread]: Store serial: [22994674]
