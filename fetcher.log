@@ -19440,3 +19440,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:12:34] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.2.0.tar.gz]
 [2024-04-30 10:12:34] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
 [2024-04-30 10:12:34] INFO root fetch - main [MainThread]: Store serial: [22998678]
+[2024-04-30 10:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998678]
+[2024-04-30 10:14:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-common-tools
+[2024-04-30 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapegraphai
+[2024-04-30 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecmwf-opendata
+[2024-04-30 10:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sync-env
+[2024-04-30 10:14:43] INFO root fetch - processPackages [scrapegraphai]: New version: [0.5.0b2] Old Version: [0.5.0b1]
+[2024-04-30 10:14:43] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-30 10:14:43] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-30 10:14:43] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/7f/14/7fa59a7c442865d90702748a4e049c334d04d29fafb7a7ee8d2f676d412c/scrapegraphai-0.5.0b1.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [ecmwf-opendata]: New version: [0.3.8] Old Version: [0.3.3]
+[2024-04-30 10:14:43] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ca/3c/6b8cd59d336e1c605691395b32685c8a043c3effb94cb81dc1d7cec6a6d8/database-common-tools-1.1.8.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [ecmwf-opendata]: Downloading https://files.pythonhosted.org/packages/cc/38/49b7589ab33504ba2825237457cffaca3b5816fdab1dc5888fad42424c69/ecmwf-opendata-0.3.3.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/55/1d/f84bdab15e57cb34658d4f445048d8bfeaf6b8cd2d0da82250fefbaa75f0/database-common-tools-1.1.9.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-30 10:14:43] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.8.tar.gz tmp/database-common-tools-1.1.9.tar.gz --markdown 20240430/d/database-common-tools/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-30 10:14:43] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/ba/7d/6e6bcc39741b3284845103410d770c159bc36986907d03eb21b282bac801/scrapegraphai-0.5.0b2.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-30 10:14:43] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240430/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-30 10:14:43] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-30 10:14:43] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.5.0b1.tar.gz tmp/scrapegraphai-0.5.0b2.tar.gz --markdown 20240430/s/scrapegraphai/0.5.0b1-0.5.0b2/README.md --exclude *.pyd
+[2024-04-30 10:14:43] INFO root fetch - processPackages [ecmwf-opendata]: Downloading https://files.pythonhosted.org/packages/da/5d/e0621bfd66278aafa8954d1f3d6789bd904e3872ef74e0db132a26a3b020/ecmwf-opendata-0.3.8.tar.gz
+[2024-04-30 10:14:43] INFO root fetch - processPackages [ecmwf-opendata]: executing diffoscope
+[2024-04-30 10:14:43] INFO root fetch - processPackages [ecmwf-opendata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecmwf-opendata-0.3.3.tar.gz tmp/ecmwf-opendata-0.3.8.tar.gz --markdown 20240430/e/ecmwf-opendata/0.3.3-0.3.8/README.md --exclude *.pyd
+[2024-04-30 10:14:44] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.8.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.9.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-30 10:14:44] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.5.0b1.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.5.0b2.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-30 10:14:44] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-30 10:14:44] INFO root fetch - processPackages [ecmwf-opendata]: Remove: archive file [/home/abi/fetcher/tmp/ecmwf-opendata-0.3.3.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - processPackages [ecmwf-opendata]: Remove: archive file [/home/abi/fetcher/tmp/ecmwf-opendata-0.3.8.tar.gz]
+[2024-04-30 10:14:44] INFO root fetch - main [MainThread]: End processing [ecmwf-opendata]: success
+[2024-04-30 10:14:44] INFO root fetch - main [MainThread]: Store serial: [22998688]
