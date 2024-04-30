@@ -1,0 +1,234 @@
+# Comparing `tmp/openseneca-0.0.4.tar.gz` & `tmp/openseneca-0.0.41.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "openseneca-0.0.4.tar", last modified: Tue Apr 30 14:48:14 2024, max compression
++gzip compressed data, was "openseneca-0.0.41.tar", last modified: Tue Apr 30 14:52:26 2024, max compression
+```
+
+## Comparing `openseneca-0.0.4.tar` & `openseneca-0.0.41.tar`
+
+### file list
+
+```diff
+@@ -1,40 +1,40 @@
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.708202 openseneca-0.0.4/
+--rw-r--r--   0 otto       (501) staff       (20)      161 2024-04-30 14:48:14.707907 openseneca-0.0.4/PKG-INFO
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.704121 openseneca-0.0.4/openseneca/
+--rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/__init__.py
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.705289 openseneca-0.0.4/openseneca/classify/
+--rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:32:02.000000 openseneca-0.0.4/openseneca/classify/__init__.py
+--rw-r--r--   0 otto       (501) staff       (20)     1967 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/classify/categories.py
+--rw-r--r--   0 otto       (501) staff       (20)     2950 2024-04-30 14:01:40.000000 openseneca-0.0.4/openseneca/classify/llm.py
+--rw-r--r--   0 otto       (501) staff       (20)      386 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/classify/static.py
+--rw-r--r--   0 otto       (501) staff       (20)     1306 2024-04-28 17:17:13.000000 openseneca-0.0.4/openseneca/config.yml
+--rw-r--r--   0 otto       (501) staff       (20)     1289 2024-04-30 14:12:45.000000 openseneca-0.0.4/openseneca/costs.py
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.705830 openseneca-0.0.4/openseneca/interfaces/
+--rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:31:56.000000 openseneca-0.0.4/openseneca/interfaces/__init__.py
+--rw-r--r--   0 otto       (501) staff       (20)     3228 2024-04-30 14:13:35.000000 openseneca-0.0.4/openseneca/interfaces/models.py
+--rw-r--r--   0 otto       (501) staff       (20)      844 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/interfaces/providers.py
+--rw-r--r--   0 otto       (501) staff       (20)     1021 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/interfaces/response.py
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.706658 openseneca-0.0.4/openseneca/models/
+--rw-r--r--   0 otto       (501) staff       (20)      612 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/__init__.py
+--rw-r--r--   0 otto       (501) staff       (20)     1900 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/cohere.py
+--rw-r--r--   0 otto       (501) staff       (20)      983 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/gpt3.py
+--rw-r--r--   0 otto       (501) staff       (20)      974 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/gpt4.py
+--rw-r--r--   0 otto       (501) staff       (20)     3134 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/llama2.py
+--rw-r--r--   0 otto       (501) staff       (20)     2160 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/llama3.py
+--rw-r--r--   0 otto       (501) staff       (20)     1034 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/models/mistral.py
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.706894 openseneca-0.0.4/openseneca/providers/
+--rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:31:49.000000 openseneca-0.0.4/openseneca/providers/__init__.py
+--rw-r--r--   0 otto       (501) staff       (20)     5297 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/providers/azure.py
+--rw-r--r--   0 otto       (501) staff       (20)   222818 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/router.pk
+--rw-r--r--   0 otto       (501) staff       (20)     4976 2024-04-30 14:11:38.000000 openseneca-0.0.4/openseneca/router.py
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.707261 openseneca-0.0.4/openseneca/utils/
+--rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:32:18.000000 openseneca-0.0.4/openseneca/utils/__init__.py
+--rw-r--r--   0 otto       (501) staff       (20)     1799 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/utils/inspection.py
+--rw-r--r--   0 otto       (501) staff       (20)     2715 2024-04-30 10:06:53.000000 openseneca-0.0.4/openseneca/utils/logger.py
+-drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:48:14.707454 openseneca-0.0.4/openseneca.egg-info/
+--rw-r--r--   0 otto       (501) staff       (20)      161 2024-04-30 14:48:14.000000 openseneca-0.0.4/openseneca.egg-info/PKG-INFO
+--rw-r--r--   0 otto       (501) staff       (20)      854 2024-04-30 14:48:14.000000 openseneca-0.0.4/openseneca.egg-info/SOURCES.txt
+--rw-r--r--   0 otto       (501) staff       (20)        1 2024-04-30 14:48:14.000000 openseneca-0.0.4/openseneca.egg-info/dependency_links.txt
+--rw-r--r--   0 otto       (501) staff       (20)       11 2024-04-30 14:48:14.000000 openseneca-0.0.4/openseneca.egg-info/top_level.txt
+--rw-r--r--   0 otto       (501) staff       (20)       38 2024-04-30 14:48:14.708252 openseneca-0.0.4/setup.cfg
+--rw-r--r--   0 otto       (501) staff       (20)      652 2024-04-30 14:48:11.000000 openseneca-0.0.4/setup.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.926696 openseneca-0.0.41/
++-rw-r--r--   0 otto       (501) staff       (20)      162 2024-04-30 14:52:26.926477 openseneca-0.0.41/PKG-INFO
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.923182 openseneca-0.0.41/openseneca/
++-rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/__init__.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.924150 openseneca-0.0.41/openseneca/classify/
++-rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:32:02.000000 openseneca-0.0.41/openseneca/classify/__init__.py
++-rw-r--r--   0 otto       (501) staff       (20)     1967 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/classify/categories.py
++-rw-r--r--   0 otto       (501) staff       (20)     2950 2024-04-30 14:01:40.000000 openseneca-0.0.41/openseneca/classify/llm.py
++-rw-r--r--   0 otto       (501) staff       (20)      386 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/classify/static.py
++-rw-r--r--   0 otto       (501) staff       (20)     1306 2024-04-28 17:17:13.000000 openseneca-0.0.41/openseneca/config.yml
++-rw-r--r--   0 otto       (501) staff       (20)     1289 2024-04-30 14:12:45.000000 openseneca-0.0.41/openseneca/costs.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.924643 openseneca-0.0.41/openseneca/interfaces/
++-rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:31:56.000000 openseneca-0.0.41/openseneca/interfaces/__init__.py
++-rw-r--r--   0 otto       (501) staff       (20)     3228 2024-04-30 14:13:35.000000 openseneca-0.0.41/openseneca/interfaces/models.py
++-rw-r--r--   0 otto       (501) staff       (20)      844 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/interfaces/providers.py
++-rw-r--r--   0 otto       (501) staff       (20)     1021 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/interfaces/response.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.925490 openseneca-0.0.41/openseneca/models/
++-rw-r--r--   0 otto       (501) staff       (20)      612 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/__init__.py
++-rw-r--r--   0 otto       (501) staff       (20)     1900 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/cohere.py
++-rw-r--r--   0 otto       (501) staff       (20)      983 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/gpt3.py
++-rw-r--r--   0 otto       (501) staff       (20)      974 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/gpt4.py
++-rw-r--r--   0 otto       (501) staff       (20)     3134 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/llama2.py
++-rw-r--r--   0 otto       (501) staff       (20)     2160 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/llama3.py
++-rw-r--r--   0 otto       (501) staff       (20)     1034 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/models/mistral.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.925716 openseneca-0.0.41/openseneca/providers/
++-rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:31:49.000000 openseneca-0.0.41/openseneca/providers/__init__.py
++-rw-r--r--   0 otto       (501) staff       (20)     5297 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/providers/azure.py
++-rw-r--r--   0 otto       (501) staff       (20)   222818 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/router.pk
++-rw-r--r--   0 otto       (501) staff       (20)     5068 2024-04-30 14:51:05.000000 openseneca-0.0.41/openseneca/router.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.926089 openseneca-0.0.41/openseneca/utils/
++-rw-r--r--   0 otto       (501) staff       (20)        0 2024-04-30 14:32:18.000000 openseneca-0.0.41/openseneca/utils/__init__.py
++-rw-r--r--   0 otto       (501) staff       (20)     1799 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/utils/inspection.py
++-rw-r--r--   0 otto       (501) staff       (20)     2715 2024-04-30 10:06:53.000000 openseneca-0.0.41/openseneca/utils/logger.py
++drwxr-xr-x   0 otto       (501) staff       (20)        0 2024-04-30 14:52:26.926260 openseneca-0.0.41/openseneca.egg-info/
++-rw-r--r--   0 otto       (501) staff       (20)      162 2024-04-30 14:52:26.000000 openseneca-0.0.41/openseneca.egg-info/PKG-INFO
++-rw-r--r--   0 otto       (501) staff       (20)      854 2024-04-30 14:52:26.000000 openseneca-0.0.41/openseneca.egg-info/SOURCES.txt
++-rw-r--r--   0 otto       (501) staff       (20)        1 2024-04-30 14:52:26.000000 openseneca-0.0.41/openseneca.egg-info/dependency_links.txt
++-rw-r--r--   0 otto       (501) staff       (20)       11 2024-04-30 14:52:26.000000 openseneca-0.0.41/openseneca.egg-info/top_level.txt
++-rw-r--r--   0 otto       (501) staff       (20)       38 2024-04-30 14:52:26.926734 openseneca-0.0.41/setup.cfg
++-rw-r--r--   0 otto       (501) staff       (20)      653 2024-04-30 14:52:26.000000 openseneca-0.0.41/setup.py
+```
+
+### Comparing `openseneca-0.0.4/openseneca/classify/categories.py` & `openseneca-0.0.41/openseneca/classify/categories.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/classify/llm.py` & `openseneca-0.0.41/openseneca/classify/llm.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/config.yml` & `openseneca-0.0.41/openseneca/config.yml`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/costs.py` & `openseneca-0.0.41/openseneca/costs.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/interfaces/models.py` & `openseneca-0.0.41/openseneca/interfaces/models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/interfaces/providers.py` & `openseneca-0.0.41/openseneca/interfaces/providers.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/interfaces/response.py` & `openseneca-0.0.41/openseneca/interfaces/response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/__init__.py` & `openseneca-0.0.41/openseneca/models/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/cohere.py` & `openseneca-0.0.41/openseneca/models/cohere.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/gpt3.py` & `openseneca-0.0.41/openseneca/models/gpt3.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/gpt4.py` & `openseneca-0.0.41/openseneca/models/gpt4.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/llama2.py` & `openseneca-0.0.41/openseneca/models/llama2.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/llama3.py` & `openseneca-0.0.41/openseneca/models/llama3.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/models/mistral.py` & `openseneca-0.0.41/openseneca/models/mistral.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/providers/azure.py` & `openseneca-0.0.41/openseneca/providers/azure.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/router.pk` & `openseneca-0.0.41/openseneca/router.pk`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/router.py` & `openseneca-0.0.41/openseneca/router.py`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -115,14 +115,16 @@
+   #   except (ValueError, IndexError):
+   #     return self.default_model, 0.5, 0.92
+ 
+   #   return best_model, temperature, top_p
+ 
+ 
+ router_path = os.path.dirname(os.path.abspath(__file__)) + '/router.pk'
++if not os.path.exists(router_path):
++  router_path = os.path.join('openseneca', 'router.pk')
+ router = Router(router_path)
+ 
+ class Prompt:
+   messages: List[Dict[Any, Any]]
+   user_prompt: str
+   language: str
+   label: str
+```
+
+### Comparing `openseneca-0.0.4/openseneca/utils/inspection.py` & `openseneca-0.0.41/openseneca/utils/inspection.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca/utils/logger.py` & `openseneca-0.0.41/openseneca/utils/logger.py`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/openseneca.egg-info/SOURCES.txt` & `openseneca-0.0.41/openseneca.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `openseneca-0.0.4/setup.py` & `openseneca-0.0.41/setup.py`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -1,24 +1,24 @@
+ from setuptools import setup, find_packages
+ 
+ # rm -rf dist/ && python setup.py sdist bdist_wheel
+ # twine upload --repository openseneca dist/*
+ 
+-VERSION = '0.0.4'
++VERSION = '0.0.41'
+ DESCRIPTION = 'OpenSeneca'
+ LONG_DESCRIPTION = ''
+ 
+ # Setting up
+ setup(
+         name="openseneca",
+         version=VERSION,
+         author="Ottavio Fogliata",
+         author_email="ottavio.fogliata@openseneca.ai",
+         description=DESCRIPTION,
+         long_description=LONG_DESCRIPTION,
+         packages=find_packages(),
+         install_requires=[],
+-        package_data={
+-            'openseneca': ['openseneca/router.pk', 'openseneca/config.yml']
+-        },
++        data_files=[
++            ('openseneca', ['openseneca/router.pk', 'openseneca/config.yml'])
++        ],
+         keywords=['python']
+ )
+```
+
