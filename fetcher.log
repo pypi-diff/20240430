@@ -17068,3 +17068,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:31:44] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
 [2024-04-30 09:31:44] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
 [2024-04-30 09:31:44] INFO root fetch - main [MainThread]: Store serial: [22997882]
+[2024-04-30 09:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997882]
+[2024-04-30 09:33:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iss-libs
+[2024-04-30 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solathon
+[2024-04-30 09:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-04-30 09:33:54] INFO root fetch - processPackages [iss-libs]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-30 09:33:54] INFO root fetch - processPackages [chatllm]: New version: [2024.4.30.15.10.38] Old Version: [2024.4.3.18.28.17]
+[2024-04-30 09:33:54] INFO root fetch - processPackages [iss-libs]: Downloading https://files.pythonhosted.org/packages/e3/c3/f31d95a384842e099fe5005f600375ab72642ac8dc7c571450e2a156234a/iss-libs-0.0.7.tar.gz
+[2024-04-30 09:33:54] INFO root fetch - processPackages [solathon]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 09:33:54] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-30 09:33:54] INFO root fetch - processPackages [iss-libs]: Downloading https://files.pythonhosted.org/packages/af/4a/0398174d39210c0f75b9aec7a70841c6b0e208bcbe26b0f7f39705d889f8/iss_libs-0.0.8.tar.gz
+[2024-04-30 09:33:54] INFO root fetch - processPackages [solathon]: Downloading https://files.pythonhosted.org/packages/bf/ca/78931937b4b5000e8269d306ef53acb9c64b0057a1f5616a246666be00b3/solathon-1.0.0.tar.gz
+[2024-04-30 09:33:54] INFO root fetch - processPackages [iss-libs]: executing diffoscope
+[2024-04-30 09:33:54] INFO root fetch - processPackages [iss-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iss-libs-0.0.7.tar.gz tmp/iss_libs-0.0.8.tar.gz --markdown 20240430/i/iss-libs/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-30 09:33:54] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/d2/be/d21c7dd7f056b7767fffa861e3811e1fd60843819e0c2b1035ce81cfe5a0/chatllm-2024.4.30.15.10.38.tar.gz
+[2024-04-30 09:33:54] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-30 09:33:54] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.3.18.28.17.tar.gz tmp/chatllm-2024.4.30.15.10.38.tar.gz --markdown 20240430/c/chatllm/2024.4.3.18.28.17-2024.4.30.15.10.38/README.md --exclude *.pyd
+[2024-04-30 09:33:54] INFO root fetch - processPackages [solathon]: Downloading https://files.pythonhosted.org/packages/f0/c3/58a328b3f0d6b53193e4db91f13969968e5babc93fdb15ba157824e0a895/solathon-1.0.1.tar.gz
+[2024-04-30 09:33:55] INFO root fetch - processPackages [solathon]: executing diffoscope
+[2024-04-30 09:33:55] INFO root fetch - processPackages [solathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solathon-1.0.0.tar.gz tmp/solathon-1.0.1.tar.gz --markdown 20240430/s/solathon/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 09:33:55] INFO root fetch - processPackages [iss-libs]: Remove: archive file [/home/abi/fetcher/tmp/iss-libs-0.0.7.tar.gz]
+[2024-04-30 09:33:55] INFO root fetch - processPackages [iss-libs]: Remove: archive file [/home/abi/fetcher/tmp/iss_libs-0.0.8.tar.gz]
+[2024-04-30 09:33:55] INFO root fetch - main [MainThread]: End processing [iss-libs]: success
+[2024-04-30 09:33:55] INFO root fetch - processPackages [solathon]: Remove: archive file [/home/abi/fetcher/tmp/solathon-1.0.0.tar.gz]
+[2024-04-30 09:33:55] INFO root fetch - processPackages [solathon]: Remove: archive file [/home/abi/fetcher/tmp/solathon-1.0.1.tar.gz]
+[2024-04-30 09:33:55] INFO root fetch - main [MainThread]: End processing [solathon]: success
+[2024-04-30 09:33:56] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-30 09:33:56] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.30.15.10.38.tar.gz]
+[2024-04-30 09:33:56] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-30 09:33:56] INFO root fetch - main [MainThread]: Store serial: [22997892]
