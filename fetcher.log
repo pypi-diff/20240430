@@ -17098,3 +17098,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:33:56] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.30.15.10.38.tar.gz]
 [2024-04-30 09:33:56] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-30 09:33:56] INFO root fetch - main [MainThread]: Store serial: [22997892]
+[2024-04-30 09:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997892]
+[2024-04-30 09:36:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-checkdocs
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gestionatr
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mag-net-hub
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: base64-to-file
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyrv
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usempl-plots
+[2024-04-30 09:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stopwords-tr
+[2024-04-30 09:36:06] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-30 09:36:06] WARNING root fetch - processPackages [base64-to-file]: Skipping, unable to determine old version
+[2024-04-30 09:36:06] INFO root fetch - main [MainThread]: End processing [base64-to-file] error
+[2024-04-30 09:36:06] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/c7/78/ab24956710f08f568e6c2c20e14451a23eac726f923ffa3f40f63b4bab15/stopwords_tr-1.1.2.tar.gz
+[2024-04-30 09:36:06] WARNING root fetch - processPackages [usempl-plots]: Skipping, unable to determine old version
+[2024-04-30 09:36:06] INFO root fetch - main [MainThread]: End processing [usempl-plots] error
+[2024-04-30 09:36:06] INFO root fetch - processPackages [pytest-checkdocs]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-30 09:36:06] INFO root fetch - processPackages [mag-net-hub]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-30 09:36:06] INFO root fetch - processPackages [tinyrv]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 09:36:06] INFO root fetch - processPackages [gestionatr]: New version: [3.8.1] Old Version: [3.8.0]
+[2024-04-30 09:36:06] INFO root fetch - processPackages [tinyrv]: Downloading https://files.pythonhosted.org/packages/f5/d5/0eb2982035035b8900a9190e8041c01dd55c7f8713bdcbbf35c6dc14b5b3/tinyrv-0.0.6.tar.gz
+[2024-04-30 09:36:06] INFO root fetch - processPackages [pytest-checkdocs]: Downloading https://files.pythonhosted.org/packages/62/e2/70e51c1852d35ff8dae8d532a2abbae167f069867d4eddde788a298c2174/pytest-checkdocs-2.8.1.tar.gz
+[2024-04-30 09:36:06] INFO root fetch - processPackages [mag-net-hub]: Downloading https://files.pythonhosted.org/packages/5b/b2/606bd1b9f28a7805fb6c8100028105ee66d48b148bdf4fb5f7f4c357c828/mag_net_hub-0.0.5.tar.gz
+[2024-04-30 09:36:06] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/93/fd/dfd4014fb4d3987fef05c1e0a3255daf38f0c7552928cfb37e7bbd988202/gestionatr-3.8.0.tar.gz
+[2024-04-30 09:36:07] INFO root fetch - processPackages [tinyrv]: Downloading https://files.pythonhosted.org/packages/32/5b/20a49124ed6a4161bdeaa7920a361bf31c544091cb1e0c6f32bb1c83cba8/tinyrv-0.0.7.tar.gz
+[2024-04-30 09:36:07] INFO root fetch - processPackages [pytest-checkdocs]: Downloading https://files.pythonhosted.org/packages/ad/ab/dad19dd5014ff948dd4d1905b6d6e5beb8a9728e60a156723182abe75286/pytest-checkdocs-2.9.0.tar.gz
+[2024-04-30 09:36:07] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/49/90/b011df6ac6c0061342a5cf4888a48e123840b7128e8b9690f73e4c382e03/stopwords_tr-1.1.3.tar.gz
+[2024-04-30 09:36:07] INFO root fetch - processPackages [gestionatr]: Downloading https://files.pythonhosted.org/packages/f2/6d/4a445a95c088e6cefd919ed586efb0ae0b9850fb7cf95bc4e296cbeafc62/gestionatr-3.8.1.tar.gz
+[2024-04-30 09:36:07] INFO root fetch - processPackages [mag-net-hub]: Downloading https://files.pythonhosted.org/packages/07/3f/788f9e8a08d00b8806854cd9abfe0a7977300aa21e85fcfc262aa244725d/mag_net_hub-0.0.6.tar.gz
+[2024-04-30 09:36:08] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 09:36:08] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.2.tar.gz tmp/stopwords_tr-1.1.3.tar.gz --markdown 20240430/s/stopwords-tr/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-30 09:36:08] INFO root fetch - processPackages [gestionatr]: executing diffoscope
+[2024-04-30 09:36:08] INFO root fetch - processPackages [gestionatr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gestionatr-3.8.0.tar.gz tmp/gestionatr-3.8.1.tar.gz --markdown 20240430/g/gestionatr/3.8.0-3.8.1/README.md --exclude *.pyd
+[2024-04-30 09:36:08] INFO root fetch - processPackages [mag-net-hub]: executing diffoscope
+[2024-04-30 09:36:08] INFO root fetch - processPackages [mag-net-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mag_net_hub-0.0.5.tar.gz tmp/mag_net_hub-0.0.6.tar.gz --markdown 20240430/m/mag-net-hub/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-30 09:36:08] INFO root fetch - processPackages [tinyrv]: executing diffoscope
+[2024-04-30 09:36:08] INFO root fetch - processPackages [tinyrv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyrv-0.0.6.tar.gz tmp/tinyrv-0.0.7.tar.gz --markdown 20240430/t/tinyrv/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 09:36:08] INFO root fetch - processPackages [pytest-checkdocs]: executing diffoscope
+[2024-04-30 09:36:08] INFO root fetch - processPackages [pytest-checkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-checkdocs-2.8.1.tar.gz tmp/pytest-checkdocs-2.9.0.tar.gz --markdown 20240430/p/pytest-checkdocs/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-04-30 09:36:08] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.2.tar.gz]
+[2024-04-30 09:36:08] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.3.tar.gz]
+[2024-04-30 09:36:08] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 09:36:08] INFO root fetch - processPackages [pytest-checkdocs]: Remove: archive file [/home/abi/fetcher/tmp/pytest-checkdocs-2.8.1.tar.gz]
+[2024-04-30 09:36:08] INFO root fetch - processPackages [pytest-checkdocs]: Remove: archive file [/home/abi/fetcher/tmp/pytest-checkdocs-2.9.0.tar.gz]
+[2024-04-30 09:36:08] INFO root fetch - main [MainThread]: End processing [pytest-checkdocs]: success
+[2024-04-30 09:36:09] INFO root fetch - processPackages [tinyrv]: Remove: archive file [/home/abi/fetcher/tmp/tinyrv-0.0.6.tar.gz]
+[2024-04-30 09:36:09] INFO root fetch - processPackages [tinyrv]: Remove: archive file [/home/abi/fetcher/tmp/tinyrv-0.0.7.tar.gz]
+[2024-04-30 09:36:09] INFO root fetch - main [MainThread]: End processing [tinyrv]: success
+[2024-04-30 09:36:09] INFO root fetch - processPackages [mag-net-hub]: Remove: archive file [/home/abi/fetcher/tmp/mag_net_hub-0.0.5.tar.gz]
+[2024-04-30 09:36:09] INFO root fetch - processPackages [mag-net-hub]: Remove: archive file [/home/abi/fetcher/tmp/mag_net_hub-0.0.6.tar.gz]
+[2024-04-30 09:36:09] INFO root fetch - main [MainThread]: End processing [mag-net-hub]: success
+[2024-04-30 09:36:09] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.8.0.tar.gz]
+[2024-04-30 09:36:09] INFO root fetch - processPackages [gestionatr]: Remove: archive file [/home/abi/fetcher/tmp/gestionatr-3.8.1.tar.gz]
+[2024-04-30 09:36:09] INFO root fetch - main [MainThread]: End processing [gestionatr]: success
+[2024-04-30 09:36:09] INFO root fetch - main [MainThread]: Store serial: [22997918]
