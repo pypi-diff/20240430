@@ -19635,3 +19635,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:23:27] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.9.2.tar.gz]
 [2024-04-30 10:23:27] INFO root fetch - main [MainThread]: End processing [discord-py-interactions]: success
 [2024-04-30 10:23:27] INFO root fetch - main [MainThread]: Store serial: [22998743]
+[2024-04-30 10:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998743]
+[2024-04-30 10:25:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 10:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yedextended
+[2024-04-30 10:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epages-provisioning
+[2024-04-30 10:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openimis-be-calcrule-validations
+[2024-04-30 10:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpwave
+[2024-04-30 10:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VisionCraft
+[2024-04-30 10:25:36] INFO root fetch - processPackages [VisionCraft]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-04-30 10:25:36] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/da/32/b0498ff8b4cec537b4530921b5751071b407c743b01062b79c31f5c3371d/VisionCraft-0.1.19.tar.gz
+[2024-04-30 10:25:36] WARNING root fetch - processPackages [yedextended]: Skipping, unable to determine old version
+[2024-04-30 10:25:36] INFO root fetch - main [MainThread]: End processing [yedextended] error
+[2024-04-30 10:25:36] WARNING root fetch - processPackages [openimis-be-calcrule-validations]: Skipping, unable to determine old version
+[2024-04-30 10:25:36] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-validations] error
+[2024-04-30 10:25:36] INFO root fetch - processPackages [bpwave]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 10:25:36] INFO root fetch - processPackages [epages-provisioning]: New version: [1.1.1] Old Version: [1.0.2]
+[2024-04-30 10:25:37] INFO root fetch - processPackages [bpwave]: Downloading https://files.pythonhosted.org/packages/23/88/f40e680b50e48d07b2259f9be1b932879ecee072744120432757d1d2bb3f/bpwave-0.0.2.tar.gz
+[2024-04-30 10:25:37] INFO root fetch - processPackages [epages-provisioning]: Downloading https://files.pythonhosted.org/packages/1a/50/cbedb89790433fd6341851e69517ec547838c023d3583799f6b0948df2b9/epages_provisioning-1.0.2.tar.gz
+[2024-04-30 10:25:37] INFO root fetch - processPackages [bpwave]: Downloading https://files.pythonhosted.org/packages/e1/81/02fd55d4873e9eee16c1585879b9b00aafee4046fbf495289212f25422dc/bpwave-0.0.3.tar.gz
+[2024-04-30 10:25:37] INFO root fetch - processPackages [epages-provisioning]: Downloading https://files.pythonhosted.org/packages/fd/25/6616342494af6caa5810322eaa34c06507c46481adb24c1b05895e2450c7/epages_provisioning-1.1.1.tar.gz
+[2024-04-30 10:25:37] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/c7/ba/1897cc7b774fb9df073857070c2dafa2859e4f97aed626bcca6edadcd033/VisionCraft-0.1.20-py3-none-any.whl
+[2024-04-30 10:25:37] INFO root fetch - processPackages [bpwave]: executing diffoscope
+[2024-04-30 10:25:37] INFO root fetch - processPackages [bpwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpwave-0.0.2.tar.gz tmp/bpwave-0.0.3.tar.gz --markdown 20240430/b/bpwave/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 10:25:37] INFO root fetch - processPackages [epages-provisioning]: executing diffoscope
+[2024-04-30 10:25:37] INFO root fetch - processPackages [epages-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epages_provisioning-1.0.2.tar.gz tmp/epages_provisioning-1.1.1.tar.gz --markdown 20240430/e/epages-provisioning/1.0.2-1.1.1/README.md --exclude *.pyd
+[2024-04-30 10:25:37] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-04-30 10:25:37] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.1.19.tar.gz tmp/VisionCraft-0.1.20-py3-none-any.whl.zip --markdown 20240430/V/VisionCraft/0.1.19-0.1.20/README.md --exclude *.pyd
+[2024-04-30 10:25:38] INFO root fetch - processPackages [epages-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/epages_provisioning-1.0.2.tar.gz]
+[2024-04-30 10:25:38] INFO root fetch - processPackages [epages-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/epages_provisioning-1.1.1.tar.gz]
+[2024-04-30 10:25:38] INFO root fetch - main [MainThread]: End processing [epages-provisioning]: success
+[2024-04-30 10:25:38] INFO root fetch - processPackages [bpwave]: Remove: archive file [/home/abi/fetcher/tmp/bpwave-0.0.2.tar.gz]
+[2024-04-30 10:25:38] INFO root fetch - processPackages [bpwave]: Remove: archive file [/home/abi/fetcher/tmp/bpwave-0.0.3.tar.gz]
+[2024-04-30 10:25:38] INFO root fetch - main [MainThread]: End processing [bpwave]: success
+[2024-04-30 10:25:38] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.19.tar.gz]
+[2024-04-30 10:25:38] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.20-py3-none-any.whl.zip]
+[2024-04-30 10:25:38] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-04-30 10:25:38] INFO root fetch - main [MainThread]: Store serial: [22998762]
