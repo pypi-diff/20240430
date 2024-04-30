@@ -16796,3 +16796,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:20:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
 [2024-04-30 09:20:30] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
 [2024-04-30 09:20:30] INFO root fetch - main [MainThread]: Store serial: [22997773]
+[2024-04-30 09:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997773]
+[2024-04-30 09:22:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 09:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: base64-to-file
+[2024-04-30 09:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-ssm-juggle
+[2024-04-30 09:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chython
+[2024-04-30 09:22:39] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.4.4] Old Version: [24.4.3]
+[2024-04-30 09:22:39] WARNING root fetch - processPackages [base64-to-file]: Skipping, unable to determine old version
+[2024-04-30 09:22:39] INFO root fetch - main [MainThread]: End processing [base64-to-file] error
+[2024-04-30 09:22:39] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/82/e0/9d5057b93f58c2d8d053ab62c5dc36941dbaf2b20cf4c3c1d609f6aa9ad1/aws_ssm_juggle-24.4.3.tar.gz
+[2024-04-30 09:22:39] INFO root fetch - processPackages [chython]: New version: [1.8] Old Version: [1.78]
+[2024-04-30 09:22:39] INFO root fetch - processPackages [chython]: Downloading https://files.pythonhosted.org/packages/35/e7/8c3b6507afd13df4936902aa342a3a8b6e3e6fe035628237ab4959602f33/chython-1.78-cp39-cp39-manylinux_2_31_x86_64.whl
+[2024-04-30 09:22:39] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/b8/54/c58dc1d1bacf21bc8af2e6ab0934ed695fbd120af5ee7c4b680f95d86f7f/aws_ssm_juggle-24.4.4.tar.gz
+[2024-04-30 09:22:40] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-04-30 09:22:40] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.4.3.tar.gz tmp/aws_ssm_juggle-24.4.4.tar.gz --markdown 20240430/a/aws-ssm-juggle/24.4.3-24.4.4/README.md --exclude *.pyd
+[2024-04-30 09:22:40] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.3.tar.gz]
+[2024-04-30 09:22:40] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.4.tar.gz]
+[2024-04-30 09:22:40] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-04-30 09:22:40] INFO root fetch - processPackages [chython]: Downloading https://files.pythonhosted.org/packages/f7/61/0d34caacf5c19f44631dcfe4c42e4d4a28397020009d870d306fd01110bb/chython-1.8.tar.gz
+[2024-04-30 09:22:41] INFO root fetch - processPackages [chython]: executing diffoscope
+[2024-04-30 09:22:41] INFO root fetch - processPackages [chython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chython-1.78-cp39-cp39-manylinux_2_31_x86_64.whl.zip tmp/chython-1.8.tar.gz --markdown 20240430/c/chython/1.78-1.8/README.md --exclude *.pyd
+[2024-04-30 09:22:44] INFO root fetch - processPackages [chython]: Remove: archive file [/home/abi/fetcher/tmp/chython-1.78-cp39-cp39-manylinux_2_31_x86_64.whl.zip]
+[2024-04-30 09:22:44] INFO root fetch - processPackages [chython]: Remove: archive file [/home/abi/fetcher/tmp/chython-1.8.tar.gz]
+[2024-04-30 09:22:44] INFO root fetch - main [MainThread]: End processing [chython]: success
+[2024-04-30 09:22:44] INFO root fetch - main [MainThread]: Store serial: [22997791]
