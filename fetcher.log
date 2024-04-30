@@ -21713,3 +21713,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:26:16] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.1.8.tar.gz]
 [2024-04-30 11:26:16] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
 [2024-04-30 11:26:16] INFO root fetch - main [MainThread]: Store serial: [22999582]
+[2024-04-30 11:28:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999582]
+[2024-04-30 11:28:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 11:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gma
+[2024-04-30 11:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-text-cleaning
+[2024-04-30 11:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FlashRank
+[2024-04-30 11:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hermitage
+[2024-04-30 11:28:25] INFO root fetch - processPackages [hermitage]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-30 11:28:25] INFO root fetch - processPackages [python-text-cleaning]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 11:28:25] INFO root fetch - processPackages [gma]: New version: [2.0.9a7] Old Version: [2.0.9a6]
+[2024-04-30 11:28:25] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/04/91/559f77bc8378930f1f59ecd61b4ceb5df9658d51a0f6e8bb1a5ed2bccff2/hermitage-0.1.4.tar.gz
+[2024-04-30 11:28:25] INFO root fetch - processPackages [FlashRank]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-30 11:28:25] INFO root fetch - processPackages [python-text-cleaning]: Downloading https://files.pythonhosted.org/packages/0b/b5/a4386dbdcb4608acd510ba6d5e420f272ad48a4f70008443cf9548f3e84b/python_text_cleaning-0.1.5.tar.gz
+[2024-04-30 11:28:25] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/f8/1a/2a07e3cdafacf1de729b57ae01f0392042d93fc69020f6959bae93a167a2/gma-2.0.9a6-cp39-cp39-win_amd64.whl
+[2024-04-30 11:28:25] INFO root fetch - processPackages [FlashRank]: Downloading https://files.pythonhosted.org/packages/b3/fe/f6d29f16a37aad64be7c880fac8a71590947a67ea9b726b10060e4229a0d/FlashRank-0.2.0.tar.gz
+[2024-04-30 11:28:25] WARNING root fetch - processPackages [gma]: Skipping package: exceeds size limit 31818640>=10485760
+[2024-04-30 11:28:25] INFO root fetch - main [MainThread]: End processing [gma] error
+[2024-04-30 11:28:26] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/c7/7f/5ded5a6f5203cc483290945b87a631dd9fcb6086e414188a0b97f9b95f3f/hermitage-0.1.5.tar.gz
+[2024-04-30 11:28:26] INFO root fetch - processPackages [python-text-cleaning]: Downloading https://files.pythonhosted.org/packages/a7/25/174e97ea1b806675d72cc3c69cc2522637449794f134fa45cee58c490945/python_text_cleaning-0.1.6.tar.gz
+[2024-04-30 11:28:26] INFO root fetch - processPackages [hermitage]: executing diffoscope
+[2024-04-30 11:28:26] INFO root fetch - processPackages [hermitage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage-0.1.4.tar.gz tmp/hermitage-0.1.5.tar.gz --markdown 20240430/h/hermitage/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-30 11:28:26] INFO root fetch - processPackages [python-text-cleaning]: executing diffoscope
+[2024-04-30 11:28:26] INFO root fetch - processPackages [python-text-cleaning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_text_cleaning-0.1.5.tar.gz tmp/python_text_cleaning-0.1.6.tar.gz --markdown 20240430/p/python-text-cleaning/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 11:28:26] INFO root fetch - processPackages [FlashRank]: Downloading https://files.pythonhosted.org/packages/6e/af/c511cfee3a78d6808933e7457ddf9f89445c74e27c2aebd13de69a9d6e62/FlashRank-0.2.1.tar.gz
+[2024-04-30 11:28:26] INFO root fetch - processPackages [FlashRank]: executing diffoscope
+[2024-04-30 11:28:26] INFO root fetch - processPackages [FlashRank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlashRank-0.2.0.tar.gz tmp/FlashRank-0.2.1.tar.gz --markdown 20240430/F/FlashRank/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-30 11:28:26] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.1.4.tar.gz]
+[2024-04-30 11:28:26] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.1.5.tar.gz]
+[2024-04-30 11:28:26] INFO root fetch - main [MainThread]: End processing [hermitage]: success
+[2024-04-30 11:28:27] INFO root fetch - processPackages [python-text-cleaning]: Remove: archive file [/home/abi/fetcher/tmp/python_text_cleaning-0.1.5.tar.gz]
+[2024-04-30 11:28:27] INFO root fetch - processPackages [python-text-cleaning]: Remove: archive file [/home/abi/fetcher/tmp/python_text_cleaning-0.1.6.tar.gz]
+[2024-04-30 11:28:27] INFO root fetch - main [MainThread]: End processing [python-text-cleaning]: success
+[2024-04-30 11:28:27] INFO root fetch - processPackages [FlashRank]: Remove: archive file [/home/abi/fetcher/tmp/FlashRank-0.2.0.tar.gz]
+[2024-04-30 11:28:27] INFO root fetch - processPackages [FlashRank]: Remove: archive file [/home/abi/fetcher/tmp/FlashRank-0.2.1.tar.gz]
+[2024-04-30 11:28:27] INFO root fetch - main [MainThread]: End processing [FlashRank]: success
+[2024-04-30 11:28:27] INFO root fetch - main [MainThread]: Store serial: [22999595]
