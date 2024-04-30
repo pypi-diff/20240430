@@ -7031,3 +7031,33 @@
 [2024-04-30 03:46:09] INFO root fetch - processPackages [cloudaciousIAC]: Remove: archive file [/home/abi/fetcher/tmp/cloudaciousiac-0.0.6.tar.gz]
 [2024-04-30 03:46:09] INFO root fetch - main [MainThread]: End processing [cloudaciousIAC]: success
 [2024-04-30 03:46:09] INFO root fetch - main [MainThread]: Store serial: [22994221]
+[2024-04-30 03:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994221]
+[2024-04-30 03:48:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 03:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thepipe-api
+[2024-04-30 03:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyontoenv
+[2024-04-30 03:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pathlib-next
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pyontoenv]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pathlib-next]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-30 03:48:18] INFO root fetch - processPackages [thepipe-api]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-30 03:48:18] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/0c/97/fe2ce41dfd3a0fb05de96d6a5336e20e3a97465b8cac7b8376932e10c6e5/thepipe_api-0.3.3.tar.gz
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/34/15/bf12086e760bcc65b9ccd389a051fe0555afc75b65b293aa874f55752b56/pathlib_next-0.1.8.tar.gz
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/28/f8/2ef516f9a1e1c7b97597c1136f0187ce5c80ca64911ccba259e6035bb051/pyontoenv-0.1.5.tar.gz
+[2024-04-30 03:48:18] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/d6/d4/593ddc5326963b7c9973385f2817c1cf2dfec81a6d41ff9eddec44d77e86/thepipe_api-0.3.4.tar.gz
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/8a/f3/dfef866dc0c4afd09b5d54c135241931e1460bb2f519d7e58020d459264f/pathlib_next-0.2.0.tar.gz
+[2024-04-30 03:48:18] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-30 03:48:18] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.3.3.tar.gz tmp/thepipe_api-0.3.4.tar.gz --markdown 20240430/t/thepipe-api/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/4b/84/af33124781490f9d34753405c9995ca596ae1b49512aa211a4e83950b174/pyontoenv-0.1.6.tar.gz
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pathlib-next]: executing diffoscope
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pathlib-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlib_next-0.1.8.tar.gz tmp/pathlib_next-0.2.0.tar.gz --markdown 20240430/p/pathlib-next/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pyontoenv]: executing diffoscope
+[2024-04-30 03:48:18] INFO root fetch - processPackages [pyontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyontoenv-0.1.5.tar.gz tmp/pyontoenv-0.1.6.tar.gz --markdown 20240430/p/pyontoenv/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 03:48:19] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.3.3.tar.gz]
+[2024-04-30 03:48:19] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.3.4.tar.gz]
+[2024-04-30 03:48:19] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-30 03:48:19] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.1.8.tar.gz]
+[2024-04-30 03:48:19] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.2.0.tar.gz]
+[2024-04-30 03:48:19] INFO root fetch - main [MainThread]: End processing [pathlib-next]: success
+[2024-04-30 03:48:20] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.5.tar.gz]
+[2024-04-30 03:48:20] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.6.tar.gz]
+[2024-04-30 03:48:20] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
+[2024-04-30 03:48:20] INFO root fetch - main [MainThread]: Store serial: [22994232]
