@@ -19401,3 +19401,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:10:23] INFO root fetch - processPackages [retroapi]: Remove: archive file [/home/abi/fetcher/tmp/retroapi-0.8.2.tar.gz]
 [2024-04-30 10:10:23] INFO root fetch - main [MainThread]: End processing [retroapi]: success
 [2024-04-30 10:10:23] INFO root fetch - main [MainThread]: Store serial: [22998655]
+[2024-04-30 10:12:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998655]
+[2024-04-30 10:12:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 10:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paradance
+[2024-04-30 10:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vr180-convert
+[2024-04-30 10:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: migration-db
+[2024-04-30 10:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chlore
+[2024-04-30 10:12:32] INFO root fetch - processPackages [migration-db]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-30 10:12:32] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-30 10:12:32] INFO root fetch - processPackages [vr180-convert]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-30 10:12:32] INFO root fetch - processPackages [chlore]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-30 10:12:32] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-04-30 10:12:32] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/95/18/8b45f5eab09968a5b4f3ce8a63294fc69c948c1ae11d7b405090f060fb6d/migration_db-1.0.1.tar.gz
+[2024-04-30 10:12:32] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/3a/94/9e01e13a2d132b86ac61b2f5b646ad193fb4b02261724a54ca742839cdc8/vr180_convert-0.1.0.tar.gz
+[2024-04-30 10:12:32] INFO root fetch - processPackages [chlore]: Downloading https://files.pythonhosted.org/packages/a1/5e/3d5d4951f1717d193f4c4925f65ad3a1a5535018e7c102387fbf27251ce0/chlore-0.8.1.tar.gz
+[2024-04-30 10:12:32] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-04-30 10:12:32] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/2a/0a/9a3aff9770b2e426a21d8be517d2a240dd08023bd13e09c986910f87d8e7/migration_db-1.0.2.tar.gz
+[2024-04-30 10:12:32] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-04-30 10:12:32] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240430/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-30 10:12:32] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/70/8b/6d5ed0d343538a31c4c2588a7c0a494563c84dbc3366c48dc803b4e37f2f/vr180_convert-0.2.0.tar.gz
+[2024-04-30 10:12:33] INFO root fetch - processPackages [chlore]: Downloading https://files.pythonhosted.org/packages/6e/15/3bfc98783c3b9bca688305cf08a7340d8e355d56d7dca15f12aadaadbbbd/chlore-0.9.0.tar.gz
+[2024-04-30 10:12:33] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-04-30 10:12:33] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.1.tar.gz tmp/migration_db-1.0.2.tar.gz --markdown 20240430/m/migration-db/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-30 10:12:33] INFO root fetch - processPackages [chlore]: executing diffoscope
+[2024-04-30 10:12:33] INFO root fetch - processPackages [chlore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chlore-0.8.1.tar.gz tmp/chlore-0.9.0.tar.gz --markdown 20240430/c/chlore/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-30 10:12:33] INFO root fetch - processPackages [vr180-convert]: executing diffoscope
+[2024-04-30 10:12:33] INFO root fetch - processPackages [vr180-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vr180_convert-0.1.0.tar.gz tmp/vr180_convert-0.2.0.tar.gz --markdown 20240430/v/vr180-convert/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-30 10:12:33] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-04-30 10:12:33] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-04-30 10:12:33] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-04-30 10:12:33] INFO root fetch - processPackages [chlore]: Remove: archive file [/home/abi/fetcher/tmp/chlore-0.8.1.tar.gz]
+[2024-04-30 10:12:33] INFO root fetch - processPackages [chlore]: Remove: archive file [/home/abi/fetcher/tmp/chlore-0.9.0.tar.gz]
+[2024-04-30 10:12:33] INFO root fetch - main [MainThread]: End processing [chlore]: success
+[2024-04-30 10:12:33] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.1.tar.gz]
+[2024-04-30 10:12:33] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.2.tar.gz]
+[2024-04-30 10:12:33] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-04-30 10:12:34] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.1.0.tar.gz]
+[2024-04-30 10:12:34] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.2.0.tar.gz]
+[2024-04-30 10:12:34] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
+[2024-04-30 10:12:34] INFO root fetch - main [MainThread]: Store serial: [22998678]
