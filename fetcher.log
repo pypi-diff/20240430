@@ -7465,3 +7465,42 @@
 [2024-04-30 04:21:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240429.tar.gz]
 [2024-04-30 04:21:19] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-30 04:21:19] INFO root fetch - main [MainThread]: Store serial: [22994401]
+[2024-04-30 04:23:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994401]
+[2024-04-30 04:23:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 04:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vonage
+[2024-04-30 04:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fse-baro
+[2024-04-30 04:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkpyai
+[2024-04-30 04:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-04-30 04:23:28] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.5.2] Old Version: [0.0.5]
+[2024-04-30 04:23:28] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 04:23:28] INFO root fetch - processPackages [fse-baro]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-30 04:23:28] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-04-30 04:23:28] INFO root fetch - processPackages [vonage]: New version: [3.99.0a8] Old Version: [3.99.0a7]
+[2024-04-30 04:23:28] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/4d/d7/be07cf995806434ba783dc611e7aea2fa59c137a55a82b5d2871b910e7a2/fse_baro-0.1.5.tar.gz
+[2024-04-30 04:23:28] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/c4/38/27f85f343f7fe64492ebe9c7cf647afa6f1c4b0e47ff4bf0b70fa0d4dc34/pepperpepper-0.0.5.tar.gz
+[2024-04-30 04:23:29] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-04-30 04:23:29] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/1e/03/3b3a02cdf1c20b96b4f56bb261ba20f68cfacb178d6a1b8587e454b31cb1/vonage-3.99.0a7.tar.gz
+[2024-04-30 04:23:29] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-30 04:23:29] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240430/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 04:23:29] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/ca/bd/735fb3fc96dea8cb6803562772e214206285280c3927ec7bf34b33dddcc5/fse_baro-0.1.6.tar.gz
+[2024-04-30 04:23:29] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/7e/26/291d09f7c824d2118c8988f4b4f8b39853469aa2a23f05610d4966572fd4/pepperpepper-0.0.5.2.tar.gz
+[2024-04-30 04:23:29] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-30 04:23:29] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.1.5.tar.gz tmp/fse_baro-0.1.6.tar.gz --markdown 20240430/f/fse-baro/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-30 04:23:29] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/72/83/0b1fb80b66e0eb80cbab70275bef09dceb530d1bef54237f41ebff06b32e/vonage-3.99.0a8.tar.gz
+[2024-04-30 04:23:29] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-04-30 04:23:29] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.5.tar.gz tmp/pepperpepper-0.0.5.2.tar.gz --markdown 20240430/P/PepperPepper/0.0.5-0.0.5.2/README.md --exclude *.pyd
+[2024-04-30 04:23:29] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2024-04-30 04:23:29] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.99.0a7.tar.gz tmp/vonage-3.99.0a8.tar.gz --markdown 20240430/v/vonage/3.99.0a7-3.99.0a8/README.md --exclude *.pyd
+[2024-04-30 04:23:29] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.8.0.tar.gz]
+[2024-04-30 04:23:29] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
+[2024-04-30 04:23:29] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-30 04:23:29] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.tar.gz]
+[2024-04-30 04:23:29] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.2.tar.gz]
+[2024-04-30 04:23:29] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-04-30 04:23:29] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.5.tar.gz]
+[2024-04-30 04:23:29] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.6.tar.gz]
+[2024-04-30 04:23:29] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-30 04:23:30] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a7.tar.gz]
+[2024-04-30 04:23:30] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a8.tar.gz]
+[2024-04-30 04:23:30] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2024-04-30 04:23:30] INFO root fetch - main [MainThread]: Store serial: [22994413]
