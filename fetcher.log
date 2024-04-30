@@ -22308,3 +22308,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-30 11:49:50] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip]
 [2024-04-30 11:49:50] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-30 11:49:50] INFO root fetch - main [MainThread]: Store serial: [22999773]
+[2024-04-30 11:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999773]
+[2024-04-30 11:52:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez-a-sync
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubectl-ng
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai2-kit
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whoisit
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentscope
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-sm-carsharing-structure-sommobilitat
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nkululeko
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zfx
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bapt
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-sm-partago-invoicing
+[2024-04-30 11:52:01] INFO root fetch - processPackages [whoisit]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [zfx]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ez-a-sync]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [nkululeko]: New version: [0.83.2] Old Version: [0.83.1]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [agentscope]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: New version: [12.0.0.1.9] Old Version: [12.0.0.1.8]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [bapt]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: New version: [12.0.0.0.4] Old Version: [12.0.0.0.3]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [kubectl-ng]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 11:52:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/a8/91/1814094d2fcff28afe175002c8aedcda4e900ad46e892b6e3b73b03a5687/zfx-1.0.7.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [whoisit]: Downloading https://files.pythonhosted.org/packages/44/7f/342537af3f1816145e86ca2d1ec17845e702ba6940468a3a489e9c0016ab/whoisit-2.7.4.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/5e/5a/5e4ea1ce7def8d6c7a300c9e5e196aa4217c74824ed5b402a74072f3dd5a/nkululeko-0.83.1.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/79/96/435db21d769b668a77c8c5d9f4cc5e215ebeeffd9d5daa274e7f0e166e92/ez-a-sync-0.9.2.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [agentscope]: Downloading https://files.pythonhosted.org/packages/f9/1b/6e087c49e25db544d88b5198f781af3f2d244c51445f102061adbc2f5057/agentscope-0.0.3.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Downloading https://files.pythonhosted.org/packages/28/ea/6dff33082ec9ae197c8e80983fc9504ee146b85d8155b09d4c4d24d991bc/odoo12_addon_sm_carsharing_structure_sommobilitat-12.0.0.0.3-py2.py3-none-any.whl
+[2024-04-30 11:52:01] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Downloading https://files.pythonhosted.org/packages/c6/aa/f2a36e83bae731d6523e3d6dd3e2a68e7fb35af2d207afe948fc4aae9b7e/odoo12_addon_sm_partago_invoicing-12.0.0.1.8-py2.py3-none-any.whl
+[2024-04-30 11:52:01] INFO root fetch - processPackages [bapt]: Downloading https://files.pythonhosted.org/packages/da/85/9180d69b7574bfb9960d5e4bcc9e190ad55d9dd47d284bbee50c7f2d9c64/bapt-1.0.0.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/e6/c0/f112ed450eed19beca353dde9d3dc0aa757e4a2e805a89873bdb3800332c/kubectl_ng-0.9.1.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [whoisit]: Downloading https://files.pythonhosted.org/packages/64/0e/1ebf8a4a24a0cd9632141735a2816bc639b59cdba435db016c8368d5a7e7/whoisit-2.7.5.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/0b/4b/687d189669da9cb01fcf6033080f7c8bb5e156f2c9ed12f64af0df38c9d9/nkululeko-0.83.2.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-04-30 11:52:01] INFO root fetch - processPackages [whoisit]: executing diffoscope
+[2024-04-30 11:52:01] INFO root fetch - processPackages [whoisit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisit-2.7.4.tar.gz tmp/whoisit-2.7.5.tar.gz --markdown 20240430/w/whoisit/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.7.tar.gz tmp/zfx-1.0.8.tar.gz --markdown 20240430/z/zfx/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/f4/19/7b1bac3b3ef8f548fcfcd916ecaf6c392d75ff5997e785d688f5270478f1/ez-a-sync-0.9.3.tar.gz
+[2024-04-30 11:52:02] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.83.1.tar.gz tmp/nkululeko-0.83.2.tar.gz --markdown 20240430/n/nkululeko/0.83.1-0.83.2/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [bapt]: Downloading https://files.pythonhosted.org/packages/ae/de/4cc72966c28cae435a1c2b1eceae303af82fb74b0b7176bf282ce7dd5938/bapt-1.1.0.tar.gz
+[2024-04-30 11:52:02] INFO root fetch - processPackages [agentscope]: Downloading https://files.pythonhosted.org/packages/3e/a6/441bb8020cd7b83fc272e0d569a2a155ec77d407667b504268c6f760ffd3/agentscope-0.0.4.tar.gz
+[2024-04-30 11:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Downloading https://files.pythonhosted.org/packages/2a/d3/87990816fc8013340a0e2cf1b73f0280efe615dc59568434dcdf663b5d5b/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.4.tar.gz
+[2024-04-30 11:52:02] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/83/74/bf599b59418567dbb7fcbb88d455496b1cf5da9a73b72d99ce9c0e2a906f/kubectl_ng-0.9.2.tar.gz
+[2024-04-30 11:52:02] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Downloading https://files.pythonhosted.org/packages/c5/85/0af0b84c0fc4c366e14c23df14091469464cfe0275730caa43ab9a16d8d0/odoo12_addon_sm_partago_invoicing-12.0.0.1.9-py2.py3-none-any.whl
+[2024-04-30 11:52:02] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.9.2.tar.gz tmp/ez-a-sync-0.9.3.tar.gz --markdown 20240430/e/ez-a-sync/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [bapt]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [bapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bapt-1.0.0.tar.gz tmp/bapt-1.1.0.tar.gz --markdown 20240430/b/bapt/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-04-30 11:52:02] INFO root fetch - processPackages [agentscope]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [agentscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentscope-0.0.3.tar.gz tmp/agentscope-0.0.4.tar.gz --markdown 20240430/a/agentscope/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_carsharing_structure_sommobilitat-12.0.0.0.3-py2.py3-none-any.whl.zip tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.4.tar.gz --markdown 20240430/o/odoo12-addon-sm-carsharing-structure-sommobilitat/12.0.0.0.3-12.0.0.0.4/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.9.1.tar.gz tmp/kubectl_ng-0.9.2.tar.gz --markdown 20240430/k/kubectl-ng/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_invoicing-12.0.0.1.8-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_invoicing-12.0.0.1.9-py2.py3-none-any.whl.zip --markdown 20240430/o/odoo12-addon-sm-partago-invoicing/12.0.0.1.8-12.0.0.1.9/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-04-30 11:52:02] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240430/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 11:52:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.7.tar.gz]
+[2024-04-30 11:52:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-04-30 11:52:02] INFO root fetch - processPackages [zfx]: Start processing: minidevtools
+[2024-04-30 11:52:02] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [whoisit]: Remove: archive file [/home/abi/fetcher/tmp/whoisit-2.7.4.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [whoisit]: Remove: archive file [/home/abi/fetcher/tmp/whoisit-2.7.5.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [whoisit]: Start processing: iterdir
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [whoisit]: success
+[2024-04-30 11:52:03] WARNING root fetch - processPackages [minidevtools]: Skipping, unable to determine old version
+[2024-04-30 11:52:03] INFO root fetch - processPackages [minidevtools]: Start processing: dicomthings
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [minidevtools] error
+[2024-04-30 11:52:03] INFO root fetch - processPackages [iterdir]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [bapt]: Remove: archive file [/home/abi/fetcher/tmp/bapt-1.0.0.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [bapt]: Remove: archive file [/home/abi/fetcher/tmp/bapt-1.1.0.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [bapt]: Start processing: dataset-tools
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [bapt]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dicomthings]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.9.1.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.9.2.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [kubectl-ng]: Start processing: saltstack-age
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [saltstack-age]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.2.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.3.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [ez-a-sync]: Start processing: edfio
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/c4/da/2963c8eb84fc425c1c9deffda5859fbc309ee4f9fa30d3dc8ab492817561/iterdir-0.0.5.1.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_carsharing_structure_sommobilitat-12.0.0.0.3-py2.py3-none-any.whl.zip]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.4.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-carsharing-structure-sommobilitat]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dicomthings]: Downloading https://files.pythonhosted.org/packages/a5/7e/dedd3d980744145b753c400638a18c36613a349143fd35ec1f7355f6ce0a/dicomthings-0.7.0.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_partago_invoicing-12.0.0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_partago_invoicing-12.0.0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-invoicing]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [saltstack-age]: Downloading https://files.pythonhosted.org/packages/b8/c7/de5fc3e312665eb18e3f408bc06cd49c6f5758e1dcdc6d78c25ae16c3d01/saltstack_age-0.1.0-py3-none-any.whl
+[2024-04-30 11:52:03] INFO root fetch - processPackages [edfio]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.83.1.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.83.2.tar.gz]
+[2024-04-30 11:52:03] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-30 11:52:03] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/8a/27/b2291974f877eb2fbe86d9e1f6d33eb8a82b828f1971f30b25fd8e4eb24d/iterdir-0.0.5.2.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [saltstack-age]: Downloading https://files.pythonhosted.org/packages/36/0a/c1688bc2cbde6671918ce7642a4072b5e18bb602d2238f4c8e4145bb3a4a/saltstack_age-0.1.1-py3-none-any.whl
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240430/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:52:03] INFO root fetch - processPackages [dicomthings]: Downloading https://files.pythonhosted.org/packages/51/cc/2460b4a4b96986ef0870f8950cd7ce89201ed3166a111fbf444c6be729f7/dicomthings-0.7.1.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [edfio]: Downloading https://files.pythonhosted.org/packages/1b/d2/9ef7c1e063c34202dfb9ae800e7535e0aa2bab04f1c4e1a2e5fa8ad75486/edfio-0.4.0.tar.gz
+[2024-04-30 11:52:03] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-30 11:52:03] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.5.1.tar.gz tmp/iterdir-0.0.5.2.tar.gz --markdown 20240430/i/iterdir/0.0.5.1-0.0.5.2/README.md --exclude *.pyd
+[2024-04-30 11:52:03] INFO root fetch - processPackages [saltstack-age]: executing diffoscope
+[2024-04-30 11:52:03] INFO root fetch - processPackages [saltstack-age]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltstack_age-0.1.0-py3-none-any.whl.zip tmp/saltstack_age-0.1.1-py3-none-any.whl.zip --markdown 20240430/s/saltstack-age/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-30 11:52:04] INFO root fetch - processPackages [agentscope]: Remove: archive file [/home/abi/fetcher/tmp/agentscope-0.0.3.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - processPackages [agentscope]: Remove: archive file [/home/abi/fetcher/tmp/agentscope-0.0.4.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: End processing [agentscope]: success
+[2024-04-30 11:52:04] INFO root fetch - processPackages [dicomthings]: executing diffoscope
+[2024-04-30 11:52:04] INFO root fetch - processPackages [dicomthings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomthings-0.7.0.tar.gz tmp/dicomthings-0.7.1.tar.gz --markdown 20240430/d/dicomthings/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-30 11:52:04] INFO root fetch - processPackages [edfio]: Downloading https://files.pythonhosted.org/packages/8d/60/f79b0fa3dfeca3e14302db3cc78e964ef328018174809efb3c49bc7afbd5/edfio-0.4.1.tar.gz
+[2024-04-30 11:52:04] INFO root fetch - processPackages [edfio]: executing diffoscope
+[2024-04-30 11:52:04] INFO root fetch - processPackages [edfio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edfio-0.4.0.tar.gz tmp/edfio-0.4.1.tar.gz --markdown 20240430/e/edfio/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-30 11:52:04] INFO root fetch - processPackages [saltstack-age]: Remove: archive file [/home/abi/fetcher/tmp/saltstack_age-0.1.0-py3-none-any.whl.zip]
+[2024-04-30 11:52:04] INFO root fetch - processPackages [saltstack-age]: Remove: archive file [/home/abi/fetcher/tmp/saltstack_age-0.1.1-py3-none-any.whl.zip]
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: End processing [saltstack-age]: success
+[2024-04-30 11:52:04] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-30 11:52:04] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.5.1.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.5.2.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-30 11:52:04] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.7.0.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.7.1.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: End processing [dicomthings]: success
+[2024-04-30 11:52:04] INFO root fetch - processPackages [edfio]: Remove: archive file [/home/abi/fetcher/tmp/edfio-0.4.0.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - processPackages [edfio]: Remove: archive file [/home/abi/fetcher/tmp/edfio-0.4.1.tar.gz]
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: End processing [edfio]: success
+[2024-04-30 11:52:04] INFO root fetch - main [MainThread]: Store serial: [22999825]
