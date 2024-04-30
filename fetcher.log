@@ -14819,3 +14819,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:10:32] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-04-30 08:10:32] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-04-30 08:10:32] INFO root fetch - main [MainThread]: Store serial: [22996942]
+[2024-04-30 08:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996942]
+[2024-04-30 08:12:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iterdir
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomic-bomb-engine
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-minio
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-slim
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CC-EXPTS
+[2024-04-30 08:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nn-mouse
+[2024-04-30 08:12:42] INFO root fetch - processPackages [iterdir]: New version: [0.0.5] Old Version: [0.0.4.2]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [CC-EXPTS]: New version: [0.5] Old Version: [0.4]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [nn-mouse]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [fastapi-slim]: New version: [0.111.0.dev1] Old Version: [0.0.1]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/8c/18/e799f1de683d46b3c2a6e19bed7e9d2bf6e9033403bc2c371f1990d7d102/iterdir-0.0.4.2.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240430] Old Version: [2.6.0.dev20240429]
+[2024-04-30 08:12:42] INFO root fetch - processPackages [CC-EXPTS]: Downloading https://files.pythonhosted.org/packages/ae/20/4807036b1bb688dc0ed0eb228fbff8ea71568f32e960e9de1041b57e653c/CC-EXPTS-0.4.tar.gz
+[2024-04-30 08:12:42] WARNING root fetch - processPackages [CC-EXPTS]: Skipping package: exceeds size limit 10670471>=10485760
+[2024-04-30 08:12:42] INFO root fetch - main [MainThread]: End processing [CC-EXPTS] error
+[2024-04-30 08:12:42] INFO root fetch - processPackages [nn-mouse]: Downloading https://files.pythonhosted.org/packages/c2/66/e6bc2ff5ca0324a7543547db1d889cf392a3516829d7da8b74babf6329ef/nn_mouse-1.0.0.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/66/3c/d7a63e11aaca0f42b27bf714435d9733e6a1f1e7d30a384a44d3c5dcff13/iterdir-0.0.5.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [fastapi-slim]: Downloading https://files.pythonhosted.org/packages/d4/7f/0da559c37cf3538bc4eb35a89da0920fae70707296cc30def4b3371a7ef7/fastapi_slim-0.0.1.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-30 08:12:42] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/9d/88/58f6fea22d7ce76ff43ecbee5bc69b929ca7330bbd86b2fecfa4b3c64398/pyg_nightly-2.6.0.dev20240429.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-30 08:12:42] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.4.2.tar.gz tmp/iterdir-0.0.5.tar.gz --markdown 20240430/i/iterdir/0.0.4.2-0.0.5/README.md --exclude *.pyd
+[2024-04-30 08:12:42] INFO root fetch - processPackages [fastapi-slim]: Downloading https://files.pythonhosted.org/packages/a6/e4/5c1277e751264e354c6eae8c0ca33d3e834de228f63f61cd660d5d6556a4/fastapi_slim-0.111.0.dev1.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [nn-mouse]: Downloading https://files.pythonhosted.org/packages/94/7f/ff992a4daa523810199e627c616b814d6ac6c2bc624e5d4c4d220e6553fe/nn_mouse-1.0.1.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-04-30 08:12:42] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5c/ea/d3868c80de42597addc5d27401f54d46068c09c2951ba183caf7e05bede0/pyg_nightly-2.6.0.dev20240430.tar.gz
+[2024-04-30 08:12:43] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-04-30 08:12:43] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240430/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-04-30 08:12:43] INFO root fetch - processPackages [fastapi-slim]: executing diffoscope
+[2024-04-30 08:12:43] INFO root fetch - processPackages [fastapi-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_slim-0.0.1.tar.gz tmp/fastapi_slim-0.111.0.dev1.tar.gz --markdown 20240430/f/fastapi-slim/0.0.1-0.111.0.dev1/README.md --exclude *.pyd
+[2024-04-30 08:12:43] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-30 08:12:43] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240429.tar.gz tmp/pyg_nightly-2.6.0.dev20240430.tar.gz --markdown 20240430/p/pyg-nightly/2.6.0.dev20240429-2.6.0.dev20240430/README.md --exclude *.pyd
+[2024-04-30 08:12:43] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-30 08:12:43] INFO root fetch - processPackages [nn-mouse]: executing diffoscope
+[2024-04-30 08:12:43] INFO root fetch - processPackages [nn-mouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn_mouse-1.0.0.tar.gz tmp/nn_mouse-1.0.1.tar.gz --markdown 20240430/n/nn-mouse/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 08:12:43] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.4.2.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.5.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-30 08:12:43] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-04-30 08:12:43] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240430/f/fastapi/0.99.0-0.99.1/README.md --exclude *.pyd
+[2024-04-30 08:12:43] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-30 08:12:43] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240430/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 08:12:43] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-04-30 08:12:43] INFO root fetch - processPackages [nn-mouse]: Remove: archive file [/home/abi/fetcher/tmp/nn_mouse-1.0.0.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - processPackages [nn-mouse]: Remove: archive file [/home/abi/fetcher/tmp/nn_mouse-1.0.1.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - main [MainThread]: End processing [nn-mouse]: success
+[2024-04-30 08:12:43] INFO root fetch - processPackages [fastapi-slim]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_slim-0.0.1.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - processPackages [fastapi-slim]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_slim-0.111.0.dev1.tar.gz]
+[2024-04-30 08:12:43] INFO root fetch - main [MainThread]: End processing [fastapi-slim]: success
+[2024-04-30 08:12:44] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-30 08:12:44] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-30 08:12:44] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-30 08:12:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240429.tar.gz]
+[2024-04-30 08:12:45] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240430.tar.gz]
+[2024-04-30 08:12:45] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-30 08:12:50] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-04-30 08:12:50] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-04-30 08:12:50] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-04-30 08:12:50] INFO root fetch - main [MainThread]: Store serial: [22996969]
