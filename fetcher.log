@@ -20375,3 +20375,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:50:27] INFO root fetch - processPackages [simapy]: Remove: archive file [/home/abi/fetcher/tmp/simapy-4.6.1.dev2.tar.gz]
 [2024-04-30 10:50:27] INFO root fetch - main [MainThread]: End processing [simapy]: success
 [2024-04-30 10:50:27] INFO root fetch - main [MainThread]: Store serial: [22999056]
+[2024-04-30 10:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999056]
+[2024-04-30 10:52:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webdrivermanager-cn
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transstellar
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-zabbix-zdluo
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlx-llm
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yara-x
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diffCheck
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jetline
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diffforms
+[2024-04-30 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-startfile
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffforms]: New version: [0.0.22] Old Version: [0.0.21]
+[2024-04-30 10:52:37] WARNING root fetch - processPackages [python-startfile]: Skipping, unable to determine old version
+[2024-04-30 10:52:37] INFO root fetch - main [MainThread]: End processing [python-startfile] error
+[2024-04-30 10:52:37] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 10:52:37] WARNING root fetch - processPackages [netbox-zabbix-zdluo]: Skipping, unable to determine old version
+[2024-04-30 10:52:37] INFO root fetch - main [MainThread]: End processing [netbox-zabbix-zdluo] error
+[2024-04-30 10:52:37] INFO root fetch - processPackages [mlx-llm]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/f9/a0/b7519fe44fbab729391bbf118b8d20a04d631aa65cdeaac8debe667c72ea/diffforms-0.0.21.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [webdrivermanager-cn]: New version: [1.5.1] Old Version: [1.4.1]
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffCheck]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 10:52:37] INFO root fetch - processPackages [yara-x]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-30 10:52:37] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [transstellar]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-30 10:52:37] INFO root fetch - processPackages [mlx-llm]: Downloading https://files.pythonhosted.org/packages/35/3a/de2cf92394507b1bc5fccfdbe731717578f9d19db7c2b4d75a2336a527b3/mlx_llm-1.0.3.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/52/66/a68220a9dcc7552d4ffec40cf4b683b18679d43dc2946ebc787b669f0112/webdrivermanager_cn-1.4.1-py3-none-any.whl
+[2024-04-30 10:52:37] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [yara-x]: Downloading https://files.pythonhosted.org/packages/d9/cb/6f587a2eaec148060778d7ce6a29ff0b4c35e4a3edb4d664933670e53b0f/yara_x-0.2.0.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/f9/31/256ae3d1e079e776647eeaaae63bcaf23e096f2f93ce102b47718712c2bb/transstellar-1.3.0.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/98/14/ecd32bc25e93c6e2bfadf7bd5d9ffae345ad63d37986457a000380986c1a/diffforms-0.0.22.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-30 10:52:37] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240430/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffforms]: executing diffoscope
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffforms-0.0.21.tar.gz tmp/diffforms-0.0.22.tar.gz --markdown 20240430/d/diffforms/0.0.21-0.0.22/README.md --exclude *.pyd
+[2024-04-30 10:52:37] INFO root fetch - processPackages [mlx-llm]: Downloading https://files.pythonhosted.org/packages/0b/58/222c9afa2a7e9e546ac819f221ac7790e81f3be02482089b94274e00b9ea/mlx_llm-1.0.4.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/63/88/49fdf5fb10be73c05adfff6ae46f2d83467203ba5a4ca8faa369e6883e39/webdrivermanager_cn-1.5.1-py3-none-any.whl
+[2024-04-30 10:52:37] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/c3/fb/e1cd7eb7dd2d53bd4620ea77e1e92a5a0c64af69f46d9d0e237dd309e260/transstellar-1.4.0.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/27/2d/5a6d8ec167f5f660556e94fb2d7bff1677a5e8f11454f15aac3943e3dfb3/diffCheck-0.0.9.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [mlx-llm]: executing diffoscope
+[2024-04-30 10:52:37] INFO root fetch - processPackages [mlx-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx_llm-1.0.3.tar.gz tmp/mlx_llm-1.0.4.tar.gz --markdown 20240430/m/mlx-llm/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-30 10:52:37] INFO root fetch - processPackages [webdrivermanager-cn]: executing diffoscope
+[2024-04-30 10:52:37] INFO root fetch - processPackages [yara-x]: Downloading https://files.pythonhosted.org/packages/87/9e/1e3271e3a76979dd22c1bae0891703078218561a49d1db349111a111cb31/yara_x-0.2.1.tar.gz
+[2024-04-30 10:52:37] INFO root fetch - processPackages [webdrivermanager-cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdrivermanager_cn-1.4.1-py3-none-any.whl.zip tmp/webdrivermanager_cn-1.5.1-py3-none-any.whl.zip --markdown 20240430/w/webdrivermanager-cn/1.4.1-1.5.1/README.md --exclude *.pyd
+[2024-04-30 10:52:38] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-04-30 10:52:38] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-1.3.0.tar.gz tmp/transstellar-1.4.0.tar.gz --markdown 20240430/t/transstellar/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-30 10:52:38] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-30 10:52:38] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.8.tar.gz tmp/diffCheck-0.0.9.tar.gz --markdown 20240430/d/diffCheck/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 10:52:38] INFO root fetch - processPackages [yara-x]: executing diffoscope
+[2024-04-30 10:52:38] INFO root fetch - processPackages [yara-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yara_x-0.2.0.tar.gz tmp/yara_x-0.2.1.tar.gz --markdown 20240430/y/yara-x/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-30 10:52:38] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-30 10:52:38] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.21.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.22.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - main [MainThread]: End processing [diffforms]: success
+[2024-04-30 10:52:38] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.4.1-py3-none-any.whl.zip]
+[2024-04-30 10:52:38] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.5.1-py3-none-any.whl.zip]
+[2024-04-30 10:52:38] INFO root fetch - main [MainThread]: End processing [webdrivermanager-cn]: success
+[2024-04-30 10:52:38] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.9.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-30 10:52:38] INFO root fetch - processPackages [mlx-llm]: Remove: archive file [/home/abi/fetcher/tmp/mlx_llm-1.0.3.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - processPackages [mlx-llm]: Remove: archive file [/home/abi/fetcher/tmp/mlx_llm-1.0.4.tar.gz]
+[2024-04-30 10:52:38] INFO root fetch - main [MainThread]: End processing [mlx-llm]: success
+[2024-04-30 10:52:39] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-1.3.0.tar.gz]
+[2024-04-30 10:52:39] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-1.4.0.tar.gz]
+[2024-04-30 10:52:39] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-04-30 10:52:39] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.2.0.tar.gz]
+[2024-04-30 10:52:39] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.2.1.tar.gz]
+[2024-04-30 10:52:39] INFO root fetch - main [MainThread]: End processing [yara-x]: success
+[2024-04-30 10:52:39] INFO root fetch - main [MainThread]: Store serial: [22999098]
