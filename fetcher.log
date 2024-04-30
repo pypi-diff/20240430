@@ -7774,3 +7774,27 @@
 [2024-04-30 04:43:06] WARNING root fetch - processPackages [pyqpanda]: Skipping package: exceeds size limit 10825650>=10485760
 [2024-04-30 04:43:06] INFO root fetch - main [MainThread]: End processing [pyqpanda] error
 [2024-04-30 04:43:06] INFO root fetch - main [MainThread]: Store serial: [22994509]
+[2024-04-30 04:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994509]
+[2024-04-30 04:45:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aibrary
+[2024-04-30 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socket-request
+[2024-04-30 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GSG
+[2024-04-30 04:45:16] INFO root fetch - processPackages [GSG]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-30 04:45:16] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/cd/ba/908c223de0234a49e7a3511a8d49b70444bc3a55168d4e88fd996111d2fe/GSG-0.5.2.tar.gz
+[2024-04-30 04:45:16] WARNING root fetch - processPackages [aibrary]: Skipping, unable to determine old version
+[2024-04-30 04:45:16] INFO root fetch - main [MainThread]: End processing [aibrary] error
+[2024-04-30 04:45:16] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-30 04:45:16] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/f4/f4/338618772ac46dfcbca1955e5f13d1c6e1d4d3cba8c23aa32318c7095c8f/socket_request-1.1.7-py3-none-any.whl
+[2024-04-30 04:45:16] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/7a/cb/c78390cf6893f12a556c15f87374e8db72293c9c495c2e298aba1bfd29e8/GSG-0.5.3.tar.gz
+[2024-04-30 04:45:16] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-30 04:45:16] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.2.tar.gz tmp/GSG-0.5.3.tar.gz --markdown 20240430/G/GSG/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-30 04:45:17] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/cd/e0/990864e0d546c17ee823f5e5cd230665faad39efc3ba65e139c89af01de8/socket_request-1.1.9-py3-none-any.whl
+[2024-04-30 04:45:17] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2024-04-30 04:45:17] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20240430/s/socket-request/1.1.7-1.1.9/README.md --exclude *.pyd
+[2024-04-30 04:45:17] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.2.tar.gz]
+[2024-04-30 04:45:17] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.3.tar.gz]
+[2024-04-30 04:45:17] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-30 04:45:17] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.7-py3-none-any.whl.zip]
+[2024-04-30 04:45:17] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.9-py3-none-any.whl.zip]
+[2024-04-30 04:45:17] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2024-04-30 04:45:17] INFO root fetch - main [MainThread]: Store serial: [22994519]
