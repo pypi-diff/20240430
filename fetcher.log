@@ -17444,3 +17444,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:47:16] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
 [2024-04-30 09:47:16] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
 [2024-04-30 09:47:16] INFO root fetch - main [MainThread]: Store serial: [22998087]
+[2024-04-30 09:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998087]
+[2024-04-30 09:49:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-04-30 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supertokens-python
+[2024-04-30 09:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-glamor-allure
+[2024-04-30 09:49:26] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-30 09:49:26] INFO root fetch - processPackages [pytest-glamor-allure]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 09:49:26] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 09:49:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-30 09:49:26] INFO root fetch - processPackages [pytest-glamor-allure]: Downloading https://files.pythonhosted.org/packages/45/31/26047a8f29d7cdda28a9f77bcde17875569e99957794f5d45c72658967f4/pytest_glamor_allure-0.0.8.tar.gz
+[2024-04-30 09:49:26] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2024-04-30 09:49:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-30 09:49:26] INFO root fetch - processPackages [pytest-glamor-allure]: Downloading https://files.pythonhosted.org/packages/16/33/f9bdcf792e2ee90b0b87c4ed64ca7076fce2cb5df43062993d0fd0af6ac2/pytest_glamor_allure-0.0.9.tar.gz
+[2024-04-30 09:49:26] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2024-04-30 09:49:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-30 09:49:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240430/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-30 09:49:26] INFO root fetch - processPackages [pytest-glamor-allure]: executing diffoscope
+[2024-04-30 09:49:26] INFO root fetch - processPackages [pytest-glamor-allure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_glamor_allure-0.0.8.tar.gz tmp/pytest_glamor_allure-0.0.9.tar.gz --markdown 20240430/p/pytest-glamor-allure/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 09:49:26] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2024-04-30 09:49:26] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20240430/s/supertokens-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 09:49:27] INFO root fetch - processPackages [pytest-glamor-allure]: Remove: archive file [/home/abi/fetcher/tmp/pytest_glamor_allure-0.0.8.tar.gz]
+[2024-04-30 09:49:27] INFO root fetch - processPackages [pytest-glamor-allure]: Remove: archive file [/home/abi/fetcher/tmp/pytest_glamor_allure-0.0.9.tar.gz]
+[2024-04-30 09:49:27] INFO root fetch - main [MainThread]: End processing [pytest-glamor-allure]: success
+[2024-04-30 09:49:28] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2024-04-30 09:49:28] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2024-04-30 09:49:28] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2024-04-30 09:49:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-30 09:49:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-30 09:49:29] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-30 09:49:29] INFO root fetch - main [MainThread]: Store serial: [22998098]
