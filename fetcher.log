@@ -15069,3 +15069,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:21:42] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.0.5.tar.gz]
 [2024-04-30 08:21:42] INFO root fetch - main [MainThread]: End processing [mysql-study-datamaker-CN]: success
 [2024-04-30 08:21:42] INFO root fetch - main [MainThread]: Store serial: [22997049]
+[2024-04-30 08:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997049]
+[2024-04-30 08:23:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo2text
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-action-visibility-restriction-domain
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plpygis
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdialog
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loe-simp-app-fw
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-ns1
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sog4onnx
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-nomad
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miner-viz
+[2024-04-30 08:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sourcesage
+[2024-04-30 08:23:51] WARNING root fetch - processPackages [repo2text]: Skipping, unable to determine old version
+[2024-04-30 08:23:51] INFO root fetch - processPackages [repo2text]: Start processing: monisha
+[2024-04-30 08:23:51] INFO root fetch - main [MainThread]: End processing [repo2text] error
+[2024-04-30 08:23:51] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/77/8a/8a92a1ebde5d7d872a7c78aa798b05e19101dfc6699e5a3c48da50ddec81/loe_simp_app_fw-1.1.4.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [plpygis]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [xdialog]: New version: [1.2.0.1] Old Version: [1.1.1.1]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [sog4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1714456527] Old Version: [3.3.0a1714110968]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [monisha]: New version: [0.0.60] Old Version: [0.0.59]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1714456396] Old Version: [2.3.0a1714110946]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [sourcesage]: New version: [4.1.4] Old Version: [4.1.2]
+[2024-04-30 08:23:51] WARNING root fetch - processPackages [miner-viz]: Skipping, unable to determine old version
+[2024-04-30 08:23:51] INFO root fetch - processPackages [miner-viz]: Start processing: pulumi-mysql
+[2024-04-30 08:23:51] INFO root fetch - main [MainThread]: End processing [miner-viz] error
+[2024-04-30 08:23:51] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: Downloading https://files.pythonhosted.org/packages/75/86/829d6b9ed238f9f171fa80b1268d32542ddfda9c92ecf86a1624f0a270a9/odoo14_addon_base_action_visibility_restriction_domain-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-04-30 08:23:51] INFO root fetch - processPackages [plpygis]: Downloading https://files.pythonhosted.org/packages/c1/e4/542b72de91b19fa6757bf19a942f1c82e0b7c17de1e081bb67ce108c331c/plpygis-0.4.0.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [xdialog]: Downloading https://files.pythonhosted.org/packages/c2/77/4755e11e63899f11457bea2ff2f2743f913212c0f5a23e96323cb65ce5fc/xdialog-1.1.1.1.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [sourcesage]: Downloading https://files.pythonhosted.org/packages/c0/fb/ec0a5c0a37c894c4e418087e182159eb73416841f9301de24f7034141e9f/sourcesage-4.1.2.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1714456358] Old Version: [3.3.0a1714110882]
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/64/a4/6e25b2147d106e0e5c77ad13c691bd9136fec4387b8aa431380126c0a3d6/pulumi_nomad-2.3.0a1714110946.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/3b/8d/7efe3a7a47646c13c1adb8b628579cea9504d5d6154b63ae7280f4e98c94/pulumi_ns1-3.3.0a1714110968.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/7d/ce/21b93765d62c52b4b284add9df56fcd2e232587ff4d3c4888bc57033c94f/monisha-0.0.59.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [sog4onnx]: Downloading https://files.pythonhosted.org/packages/5f/17/97e76186169c81fc61923e2c7767ec861031746c35d9fa0496d2262b7777/sog4onnx-1.0.8.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/7c/18/4cf0fc170921a20d26375cb702909a3eb81b2027bc2c53cb2b2b536a1098/loe_simp_app_fw-1.2.0.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/3b/d9/7644b5299d360f3b7576db1382c9105355f0e29cb9a15ed9256995d6f0a9/pulumi_mysql-3.3.0a1714110882.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-30 08:23:51] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.1.4.tar.gz tmp/loe_simp_app_fw-1.2.0.tar.gz --markdown 20240430/l/loe-simp-app-fw/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-30 08:23:51] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: Downloading https://files.pythonhosted.org/packages/d0/8f/2afc9025a1a6640d50a74262909b6d59dfabae25790b291a2c474739c406/odoo14_addon_base_action_visibility_restriction_domain-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-30 08:23:51] INFO root fetch - processPackages [plpygis]: Downloading https://files.pythonhosted.org/packages/1e/d6/7cbbc8d0bd6f4344c7036229fbf283cd942194eb2bb743ecdb6a12a66321/plpygis-0.4.1.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [xdialog]: Downloading https://files.pythonhosted.org/packages/b9/0a/d6833588d20e235df2bad4adde8f652836587dc14c33dcf66367dcdf336c/xdialog-1.2.0.1.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/01/c8/b579bd7ed83a4c03595ecd7a49fe2e92d59518c44500bee754c53a3ae127/monisha-0.0.60.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/0b/24/d2822f19d0c6d54b1fc28ee6a7ecf5e51a489378e0f0cdbeff123881f7c1/pulumi_nomad-2.3.0a1714456396.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [sourcesage]: Downloading https://files.pythonhosted.org/packages/c4/8b/5a8f256d3385989ae71ee7ad3e3fbc271d8b3f3be35dcf503b35cd55be85/sourcesage-4.1.4.tar.gz
+[2024-04-30 08:23:51] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: executing diffoscope
+[2024-04-30 08:23:51] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_action_visibility_restriction_domain-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_base_action_visibility_restriction_domain-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-base-action-visibility-restriction-domain/14.0.1.0.1.dev2-14.0.1.0.1.dev4/README.md --exclude *.pyd
+[2024-04-30 08:23:51] INFO root fetch - processPackages [plpygis]: executing diffoscope
+[2024-04-30 08:23:51] INFO root fetch - processPackages [plpygis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plpygis-0.4.0.tar.gz tmp/plpygis-0.4.1.tar.gz --markdown 20240430/p/plpygis/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/d2/37/88c39ec8280c72012719ad1317e024ca026bd37a22005665cf9dd81b19e0/pulumi_ns1-3.3.0a1714456527.tar.gz
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/ea/f4/cbc65ffc534f3c47d265961da6a6f8af06511b521260eae23782cca0ee8a/pulumi_mysql-3.3.0a1714456358.tar.gz
+[2024-04-30 08:23:52] INFO root fetch - processPackages [xdialog]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [xdialog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdialog-1.1.1.1.tar.gz tmp/xdialog-1.2.0.1.tar.gz --markdown 20240430/x/xdialog/1.1.1.1-1.2.0.1/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [sog4onnx]: Downloading https://files.pythonhosted.org/packages/62/25/73c740f9024026dcd46182805d0dffb51b4545baa96d1a1c63f24501d20f/sog4onnx-1.0.9.tar.gz
+[2024-04-30 08:23:52] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.59.tar.gz tmp/monisha-0.0.60.tar.gz --markdown 20240430/m/monisha/0.0.59-0.0.60/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1714110968.tar.gz tmp/pulumi_ns1-3.3.0a1714456527.tar.gz --markdown 20240430/p/pulumi-ns1/3.3.0a1714110968-3.3.0a1714456527/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [sourcesage]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [sourcesage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcesage-4.1.2.tar.gz tmp/sourcesage-4.1.4.tar.gz --markdown 20240430/s/sourcesage/4.1.2-4.1.4/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1714110946.tar.gz tmp/pulumi_nomad-2.3.0a1714456396.tar.gz --markdown 20240430/p/pulumi-nomad/2.3.0a1714110946-2.3.0a1714456396/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1714110882.tar.gz tmp/pulumi_mysql-3.3.0a1714456358.tar.gz --markdown 20240430/p/pulumi-mysql/3.3.0a1714110882-3.3.0a1714456358/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [sog4onnx]: executing diffoscope
+[2024-04-30 08:23:52] INFO root fetch - processPackages [sog4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sog4onnx-1.0.8.tar.gz tmp/sog4onnx-1.0.9.tar.gz --markdown 20240430/s/sog4onnx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 08:23:52] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.4.tar.gz]
+[2024-04-30 08:23:52] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.2.0.tar.gz]
+[2024-04-30 08:23:52] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-30 08:23:52] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_action_visibility_restriction_domain-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-04-30 08:23:52] INFO root fetch - processPackages [odoo14-addon-base-action-visibility-restriction-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_action_visibility_restriction_domain-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-30 08:23:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-action-visibility-restriction-domain]: success
+[2024-04-30 08:23:52] INFO root fetch - processPackages [plpygis]: Remove: archive file [/home/abi/fetcher/tmp/plpygis-0.4.0.tar.gz]
+[2024-04-30 08:23:52] INFO root fetch - processPackages [plpygis]: Remove: archive file [/home/abi/fetcher/tmp/plpygis-0.4.1.tar.gz]
+[2024-04-30 08:23:52] INFO root fetch - main [MainThread]: End processing [plpygis]: success
+[2024-04-30 08:23:52] INFO root fetch - processPackages [xdialog]: Remove: archive file [/home/abi/fetcher/tmp/xdialog-1.1.1.1.tar.gz]
+[2024-04-30 08:23:52] INFO root fetch - processPackages [xdialog]: Remove: archive file [/home/abi/fetcher/tmp/xdialog-1.2.0.1.tar.gz]
+[2024-04-30 08:23:52] INFO root fetch - main [MainThread]: End processing [xdialog]: success
+[2024-04-30 08:23:53] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1714110968.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1714456527.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-04-30 08:23:53] INFO root fetch - processPackages [sog4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sog4onnx-1.0.8.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - processPackages [sog4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sog4onnx-1.0.9.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [sog4onnx]: success
+[2024-04-30 08:23:53] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1714110946.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1714456396.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-04-30 08:23:53] INFO root fetch - processPackages [sourcesage]: Remove: archive file [/home/abi/fetcher/tmp/sourcesage-4.1.2.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - processPackages [sourcesage]: Remove: archive file [/home/abi/fetcher/tmp/sourcesage-4.1.4.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [sourcesage]: success
+[2024-04-30 08:23:53] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714110882.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714456358.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-04-30 08:23:53] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.59.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.60.tar.gz]
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-04-30 08:23:53] INFO root fetch - main [MainThread]: Store serial: [22997104]
