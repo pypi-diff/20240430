@@ -13275,3 +13275,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:03:36] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2024-04-30 07:03:36] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2024-04-30 07:03:36] INFO root fetch - main [MainThread]: Store serial: [22996345]
+[2024-04-30 07:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996345]
+[2024-04-30 07:05:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mrp-multi-level
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-mrp-multi-level
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PACMAN-charge
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-quality-control-team-oca
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wah
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tracebloc-package-dev
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rapid-pe
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-mis-builder
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-homeassistant-custom-component
+[2024-04-30 07:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-mis-builder
+[2024-04-30 07:05:44] WARNING root fetch - processPackages [PACMAN-charge]: Skipping, unable to determine old version
+[2024-04-30 07:05:44] INFO root fetch - main [MainThread]: End processing [PACMAN-charge] error
+[2024-04-30 07:05:44] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240429] Old Version: [0.1.2.dev20240428]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.3.5.1]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [odoo12-addon-mis-builder]: New version: [12.0.3.7.7.99.dev7] Old Version: [12.0.3.7.7.99.dev6]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-30 07:05:44] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-30 07:05:44] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0f/cb/daba416eb3da0120e2439b0f52459abc4534b21a35ca8397f26fa61a1e1a/rapid_pe-0.1.2.dev20240428.tar.gz
+[2024-04-30 07:05:44] INFO root fetch - processPackages [odoo14-addon-mis-builder]: New version: [14.0.4.2.3.dev4] Old Version: [14.0.4.2.3.dev3]
+[2024-04-30 07:05:44] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/a3/45/bbd9b69e0868a469d7d147f98a4a7331b6f24fdb4627c32241fc2060129c/odoo_addon_mrp_multi_level-16.0.1.3.5.1-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/27/03/4310ba971dc95afc05e2f77cb8939920e7a20bea4534f297c5d6d9acbce2/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Downloading https://files.pythonhosted.org/packages/0e/d0/9172f62bef9dfc24fd1fe5137d9b22d9e3d1ed6b971a1847b5d286398598/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo12-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/22/b6/94e23932180e98405cc1e2996bf42fc33c9a54b12aa6ae2aae8df22df97e/odoo12_addon_mis_builder-12.0.3.7.7.99.dev6-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-30 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-04-30 07:05:45] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/21/2d/3b3466cfef40f6de4a407f05637733bcc3a703d28240deea4753306f15ac/odoo14_addon_mis_builder-14.0.4.2.3.dev3-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240430/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/3b/53/75e82d11261db10daf4bf4c2bd3d873f3c890d6b2351fa91bcb760548065/rapid_pe-0.1.2.dev20240429.tar.gz
+[2024-04-30 07:05:45] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240430/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240428.tar.gz tmp/rapid_pe-0.1.2.dev20240429.tar.gz --markdown 20240430/r/rapid-pe/0.1.2.dev20240428-0.1.2.dev20240429/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/8f/43/fc5ab4aa31586d45d00c1afb74bae98c5c26eee2caccf400e7bf9f8fc724/odoo_addon_mrp_multi_level-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Downloading https://files.pythonhosted.org/packages/cd/1f/b77d0378a908fa52d7b4f4baca14fe88b0a33017f2f980ef34312a57627f/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/73/c1/ef9e846f2158c75b1453aca3e9412c8844732f43768791438fd14ad4a409/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.3.5.1-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-mrp-multi-level/16.0.1.3.5.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo12-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/97/bd/3bfbfa88869475b30f72de6a86a68d343c4280ba018b22932374768fa422/odoo12_addon_mis_builder-12.0.3.7.7.99.dev7-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-quality-control-team-oca/14.0.1.0.1.dev4-14.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/e6/c0/6f58acfb74779d16beb9d6da9f308a042abb56d2ca0038e877de55d03ded/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-mrp-multi-level/14.0.1.8.1-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240430/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo12-addon-mis-builder]: executing diffoscope
+[2024-04-30 07:05:45] INFO root fetch - processPackages [odoo12-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mis_builder-12.0.3.7.7.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_mis_builder-12.0.3.7.7.99.dev7-py3-none-any.whl.zip --markdown 20240430/o/odoo12-addon-mis-builder/12.0.3.7.7.99.dev6-12.0.3.7.7.99.dev7/README.md --exclude *.pyd
+[2024-04-30 07:05:46] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240428.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240429.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-quality-control-team-oca]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo14-addon-mis-builder]: executing diffoscope
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo14-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-mis-builder/14.0.4.2.3.dev3-14.0.4.2.3.dev4/README.md --exclude *.pyd
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.3.5.1-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo12-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mis_builder-12.0.3.7.7.99.dev6-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - processPackages [odoo12-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mis_builder-12.0.3.7.7.99.dev7-py3-none-any.whl.zip]
+[2024-04-30 07:05:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mis-builder]: success
+[2024-04-30 07:05:47] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev3-py3-none-any.whl.zip]
+[2024-04-30 07:05:47] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl.zip]
+[2024-04-30 07:05:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mis-builder]: success
+[2024-04-30 07:05:47] INFO root fetch - main [MainThread]: Store serial: [22996368]
