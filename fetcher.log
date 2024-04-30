@@ -16395,3 +16395,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:04:20] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev2-py3-none-any.whl.zip]
 [2024-04-30 09:04:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reception-screen]: success
 [2024-04-30 09:04:20] INFO root fetch - main [MainThread]: Store serial: [22997599]
+[2024-04-30 09:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997599]
+[2024-04-30 09:06:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcube
+[2024-04-30 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2024-04-30 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stadiamaps
+[2024-04-30 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-tls
+[2024-04-30 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-dcdn
+[2024-04-30 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saltstack-age
+[2024-04-30 09:06:29] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 09:06:29] INFO root fetch - processPackages [saltstack-age]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-30 09:06:29] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-30 09:06:29] INFO root fetch - processPackages [stadiamaps]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-04-30 09:06:29] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1714459885] Old Version: [5.1.0a1714114176]
+[2024-04-30 09:06:29] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev5] Old Version: [3.9.1.dev4]
+[2024-04-30 09:06:29] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/5b/46/19f5156cd1287b5c35bf0c23b3f0f39b3021d034b3b220ac3c5bfb68bf31/tinybird-cli-3.9.1.dev4.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Downloading https://files.pythonhosted.org/packages/1e/eb/47fd5c666857f843b5c06091db5a60c1ba222b130f7b07c4ac22e3faa16b/aliyun-python-sdk-dcdn-2.2.8.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/72/85/449b511b04b47a7f5fe5c6ce2fe33ebc3544026bc5da5f6e79249eb41d2f/stadiamaps-2.1.0.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [saltstack-age]: Downloading https://files.pythonhosted.org/packages/b8/c7/de5fc3e312665eb18e3f408bc06cd49c6f5758e1dcdc6d78c25ae16c3d01/saltstack_age-0.1.0-py3-none-any.whl
+[2024-04-30 09:06:29] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/01/78/eb178b93f804a4160a2f7c35710bbb89fae37c35f3f03613de84c5f04ea8/pulumi_tls-5.1.0a1714114176.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-04-30 09:06:29] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240430/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 09:06:29] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3b/e8/4ec599ef1fbfdc10f1d7dd6844b1ca41c9ef14b41d534259c66feb16357b/tinybird-cli-3.9.1.dev5.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/b0/ae/441b54fe961f0fb49df2d2e2ef8e956ca756a9de450935ecd495e3e1e02c/pulumi_tls-5.1.0a1714459885.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/03/45/06f5a1bee598fa839ab394a8d4be101810b15793e9a20f263104513c6d8c/stadiamaps-3.0.0.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Downloading https://files.pythonhosted.org/packages/08/51/46939f5f8ee69a1412536c44967efb482ce3c80b096c94a291fdfb642bb0/aliyun-python-sdk-dcdn-2.2.9.tar.gz
+[2024-04-30 09:06:29] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-04-30 09:06:29] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev4.tar.gz tmp/tinybird-cli-3.9.1.dev5.tar.gz --markdown 20240430/t/tinybird-cli/3.9.1.dev4-3.9.1.dev5/README.md --exclude *.pyd
+[2024-04-30 09:06:29] INFO root fetch - processPackages [saltstack-age]: Downloading https://files.pythonhosted.org/packages/36/0a/c1688bc2cbde6671918ce7642a4072b5e18bb602d2238f4c8e4145bb3a4a/saltstack_age-0.1.1-py3-none-any.whl
+[2024-04-30 09:06:29] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-04-30 09:06:29] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1714114176.tar.gz tmp/pulumi_tls-5.1.0a1714459885.tar.gz --markdown 20240430/p/pulumi-tls/5.1.0a1714114176-5.1.0a1714459885/README.md --exclude *.pyd
+[2024-04-30 09:06:29] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2024-04-30 09:06:29] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-2.1.0.tar.gz tmp/stadiamaps-3.0.0.tar.gz --markdown 20240430/s/stadiamaps/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-04-30 09:06:30] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: executing diffoscope
+[2024-04-30 09:06:30] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dcdn-2.2.8.tar.gz tmp/aliyun-python-sdk-dcdn-2.2.9.tar.gz --markdown 20240430/a/aliyun-python-sdk-dcdn/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-04-30 09:06:30] INFO root fetch - processPackages [saltstack-age]: executing diffoscope
+[2024-04-30 09:06:30] INFO root fetch - processPackages [saltstack-age]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltstack_age-0.1.0-py3-none-any.whl.zip tmp/saltstack_age-0.1.1-py3-none-any.whl.zip --markdown 20240430/s/saltstack-age/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-30 09:06:30] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-04-30 09:06:30] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-04-30 09:06:30] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-04-30 09:06:30] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714114176.tar.gz]
+[2024-04-30 09:06:30] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714459885.tar.gz]
+[2024-04-30 09:06:30] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-04-30 09:06:30] INFO root fetch - processPackages [saltstack-age]: Remove: archive file [/home/abi/fetcher/tmp/saltstack_age-0.1.0-py3-none-any.whl.zip]
+[2024-04-30 09:06:30] INFO root fetch - processPackages [saltstack-age]: Remove: archive file [/home/abi/fetcher/tmp/saltstack_age-0.1.1-py3-none-any.whl.zip]
+[2024-04-30 09:06:30] INFO root fetch - main [MainThread]: End processing [saltstack-age]: success
+[2024-04-30 09:06:30] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev4.tar.gz]
+[2024-04-30 09:06:30] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev5.tar.gz]
+[2024-04-30 09:06:30] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-04-30 09:06:31] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dcdn-2.2.8.tar.gz]
+[2024-04-30 09:06:31] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dcdn-2.2.9.tar.gz]
+[2024-04-30 09:06:31] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dcdn]: success
+[2024-04-30 09:06:32] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-2.1.0.tar.gz]
+[2024-04-30 09:06:32] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-3.0.0.tar.gz]
+[2024-04-30 09:06:32] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2024-04-30 09:06:32] INFO root fetch - main [MainThread]: Store serial: [22997617]
