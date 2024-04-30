@@ -2604,3 +2604,20 @@
 [2024-04-30 02:30:37] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-04-30 02:30:37] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-30 02:30:37] INFO root fetch - main [MainThread]: Store serial: [22992588]
+[2024-04-30 02:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992588]
+[2024-04-30 02:32:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 02:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmesh
+[2024-04-30 02:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-postgres
+[2024-04-30 02:32:54] INFO root fetch - processPackages [sqlmesh]: New version: [0.91.3] Old Version: [0.91.2]
+[2024-04-30 02:32:54] INFO root fetch - processPackages [dbt-postgres]: New version: [1.8.0b5] Old Version: [1.8.0b4]
+[2024-04-30 02:32:54] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/76/48/a4eff01243996ae153c43c7db3103cfa955e1cebe6c6913893266cb80451/sqlmesh-0.91.2.tar.gz
+[2024-04-30 02:32:54] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/3e/b9/85be38bc08cd3ae0270e07a56edb12b25503bb7e6536f8eed60a293bea3e/dbt_postgres-1.8.0b4.tar.gz
+[2024-04-30 02:32:54] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14337320>=10485760
+[2024-04-30 02:32:54] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2024-04-30 02:32:54] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/2f/1e/079b56e60e7a97d5f9b171c08a89708e21ebe4df98d6e52564a2fd368e88/dbt_postgres-1.8.0b5.tar.gz
+[2024-04-30 02:32:54] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2024-04-30 02:32:54] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_postgres-1.8.0b4.tar.gz tmp/dbt_postgres-1.8.0b5.tar.gz --markdown 20240430/d/dbt-postgres/1.8.0b4-1.8.0b5/README.md --exclude *.pyd
+[2024-04-30 02:32:55] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b4.tar.gz]
+[2024-04-30 02:32:55] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b5.tar.gz]
+[2024-04-30 02:32:55] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2024-04-30 02:32:55] INFO root fetch - main [MainThread]: Store serial: [22992595]
