@@ -2081,3 +2081,75 @@
 [2024-04-30 02:09:32] INFO root fetch - processPackages [qgridtrusted]: Remove: archive file [/home/abi/fetcher/tmp/qgridtrusted-0.0.9.tar.gz]
 [2024-04-30 02:09:32] INFO root fetch - main [MainThread]: End processing [qgridtrusted]: success
 [2024-04-30 02:09:32] INFO root fetch - main [MainThread]: Store serial: [22992361]
+[2024-04-30 02:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992361]
+[2024-04-30 02:11:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BayesBoom
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-docker
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-mlir-gml
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cpg-workflows
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-events-notify
+[2024-04-30 02:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: XEHA
+[2024-04-30 02:11:49] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-30 02:11:49] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240429.post1040] Old Version: [1.5.0.20240428.post1229]
+[2024-04-30 02:11:49] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404290009] Old Version: [4.1.7.dev202404280011]
+[2024-04-30 02:11:49] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-30 02:11:49] WARNING root fetch - processPackages [torch-mlir-gml]: Skipping, unable to determine old version
+[2024-04-30 02:11:49] INFO root fetch - main [MainThread]: End processing [torch-mlir-gml] error
+[2024-04-30 02:11:49] WARNING root fetch - processPackages [XEHA]: Skipping, unable to determine old version
+[2024-04-30 02:11:49] INFO root fetch - processPackages [BayesBoom]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 02:11:49] INFO root fetch - main [MainThread]: End processing [XEHA] error
+[2024-04-30 02:11:49] INFO root fetch - processPackages [pulumi-docker]: New version: [4.7.0a1705628423] Old Version: [4.7.0a1705607229]
+[2024-04-30 02:11:49] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-30 02:11:49] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/5c/9d/2f77fadf78b25c9f4f1b563806587eeee8d7e43196d4b3e38c663a45c21c/openbb_nightly-4.1.7.dev202404280011.tar.gz
+[2024-04-30 02:11:49] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/09/b9/9b38a49ffc4e981cc7f777d4670835867567170cccc93281684982f4e1c3/mct-quantizers-nightly-1.5.0.20240428.post1229.tar.gz
+[2024-04-30 02:11:49] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-30 02:11:50] INFO root fetch - processPackages [BayesBoom]: Downloading https://files.pythonhosted.org/packages/d7/43/f9488de886dd11f40125fbe9abcd2c156007521eda090587c88c3756d520/BayesBoom-0.1.8.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/60/4d/20db01394ae207e38e34244a087a77010c3163b5176d5ed60b9e938b94df/pulumi_docker-4.7.0a1705607229.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240430/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-30 02:11:50] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a8/10/a52db0e11cad544a9e2f7f0ec562eca46e79283b524fc3a0b0025aa26475/openbb_nightly-4.1.7.dev202404290009.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/35/9b/11cc6b0da5d5b06f58901333cb1dc69a9e219acf70921c155253ee08159b/mct-quantizers-nightly-1.5.0.20240429.post1040.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-30 02:11:50] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240430/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-30 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-30 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240428.post1229.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240429.post1040.tar.gz --markdown 20240430/m/mct-quantizers-nightly/1.5.0.20240428.post1229-1.5.0.20240429.post1040/README.md --exclude *.pyd
+[2024-04-30 02:11:50] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/93/a866b50173039bae813e131505cf7ed97c33cb79c113926b2b63dfd1caf2/pulumi_docker-4.7.0a1705628423.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2024-04-30 02:11:50] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.7.0a1705607229.tar.gz tmp/pulumi_docker-4.7.0a1705628423.tar.gz --markdown 20240430/p/pulumi-docker/4.7.0a1705607229-4.7.0a1705628423/README.md --exclude *.pyd
+[2024-04-30 02:11:50] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-30 02:11:50] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404280011.tar.gz tmp/openbb_nightly-4.1.7.dev202404290009.tar.gz --markdown 20240430/o/openbb-nightly/4.1.7.dev202404280011-4.1.7.dev202404290009/README.md --exclude *.pyd
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240430/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-30 02:11:50] INFO root fetch - processPackages [BayesBoom]: Downloading https://files.pythonhosted.org/packages/75/c5/df2292137107ec3545524bcf8df92a13e22b03748fc4a2b3c524298a5841/BayesBoom-0.1.9.tar.gz
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-30 02:11:50] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-04-30 02:11:50] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-30 02:11:51] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-30 02:11:51] INFO root fetch - processPackages [BayesBoom]: executing diffoscope
+[2024-04-30 02:11:51] INFO root fetch - processPackages [BayesBoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BayesBoom-0.1.8.tar.gz tmp/BayesBoom-0.1.9.tar.gz --markdown 20240430/B/BayesBoom/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 02:11:51] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240428.post1229.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240429.post1040.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-30 02:11:51] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705607229.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705628423.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2024-04-30 02:11:51] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-30 02:11:51] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-30 02:11:53] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404280011.tar.gz]
+[2024-04-30 02:11:53] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404290009.tar.gz]
+[2024-04-30 02:11:53] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-30 02:11:57] INFO root fetch - processPackages [BayesBoom]: Remove: archive file [/home/abi/fetcher/tmp/BayesBoom-0.1.8.tar.gz]
+[2024-04-30 02:11:57] INFO root fetch - processPackages [BayesBoom]: Remove: archive file [/home/abi/fetcher/tmp/BayesBoom-0.1.9.tar.gz]
+[2024-04-30 02:11:57] INFO root fetch - main [MainThread]: End processing [BayesBoom]: success
+[2024-04-30 02:11:57] INFO root fetch - main [MainThread]: Store serial: [22992393]
