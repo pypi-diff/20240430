@@ -13158,3 +13158,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2024-04-30 06:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity] error
 [2024-04-30 06:58:26] INFO root fetch - main [MainThread]: Store serial: [22996307]
+[2024-04-30 07:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996307]
+[2024-04-30 07:00:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-wav
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oci-cli
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-wedata
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tailucas-pylib
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-weilingwith
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mgmtsystem-action
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-wss
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-yinsuda
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-youmall
+[2024-04-30 07:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-yunjing
+[2024-04-30 07:00:35] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Downloading https://files.pythonhosted.org/packages/6a/96/990d5210de3a98ef04eae6553d5dd1064e8dfbac520714a7f44180498851/odoo_addon_mgmtsystem_action-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tailucas-pylib]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:35] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Downloading https://files.pythonhosted.org/packages/e5/51/821ef1761b6f5dc3ddc5b1e461230517c8d26d392d910ef4daa141159a1f/odoo_addon_mgmtsystem_action-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/81/63/b0d1801a15fad8e2aa2c233009875f8c4240c99f14a58252fee1453d7213/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/89/a5/016cae1211e3dc3326af596af243f289a366479bd9151e34047323b8d94c/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/2f/7f/44147c9505a75d803b2902a25b7b3c74f58d1aec20704da523bc1886b639/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/7d/89/7699592775d630e11c60d78093136d1c96679b997100059a261a00bffe1d/tailucas_pylib-0.3.2.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/35/b3/f926e3ed6c290f3bbf08ac990f833a7daaf3868d916b224d01578d8d378d/tencentcloud-sdk-python-wedata-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Downloading https://files.pythonhosted.org/packages/23/0d/e49e26691e3fc4d209348e9647bc7ce9241e7d8684f3e6f411c34f1fd172/tencentcloud-sdk-python-wss-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/e1/bb/443aa69e996bba0b0b2c092c2f0432d30eb93660e9ab22e6fa18c4e3deba/tencentcloud-sdk-python-wav-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: executing diffoscope
+[2024-04-30 07:00:35] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-mgmtsystem-action/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-04-30 07:00:35] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/8b/48/0f4022469d2e60d80c205090d7b15165159c59eed860f408c566ee8506b7/tencentcloud-sdk-python-youmall-3.0.998.tar.gz
+[2024-04-30 07:00:35] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2024-04-30 07:00:35] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20240430/o/oci-cli/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/53/86/2730b85def19aa7efe94bf2779bbcef46bbbbf609dfc65193421600e0a6c/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/3c/53/bf69eda948c56daad943d9b42fd1b4483b6edaa66eee4fabab87671466aa/tailucas_pylib-0.3.3.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/3b/40/7637adbeba05a2842919344c6e7298e99c3ac3711db7277fcb9ec5213152/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/b8/c8/6fe85d8790fee52752e90173dac65409e5d451475ad0b0f566896631592c/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Downloading https://files.pythonhosted.org/packages/49/24/ef2c1184e7b7231338d8342906162d8b869599a1541bcd1fb3a9e3c25fc4/tencentcloud-sdk-python-wss-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/13/f7/dd48b9a4c3f121c9e4be93063ea150b1d23184f2079d7796592825767327/tencentcloud-sdk-python-wedata-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/67/5c/c7bc89115e9650fa844054ef443a6901cd25f53c6d3f46f51c6b9536ac7a/tencentcloud-sdk-python-wav-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-weilingwith/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-yunjing/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-yinsuda/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tailucas-pylib]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tailucas-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailucas_pylib-0.3.2.tar.gz tmp/tailucas_pylib-0.3.3.tar.gz --markdown 20240430/t/tailucas-pylib/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/f6/74/59f8c2be1c7240a151a0718bde96586efaff4e1846d7c4d623394da89276/tencentcloud-sdk-python-youmall-3.0.999.tar.gz
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wss-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-wss/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-wav/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-wedata/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: executing diffoscope
+[2024-04-30 07:00:36] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-youmall-3.0.998.tar.gz tmp/tencentcloud-sdk-python-youmall-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-youmall/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:36] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-30 07:00:36] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-30 07:00:36] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Start processing: proxylib
+[2024-04-30 07:00:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-action]: success
+[2024-04-30 07:00:36] INFO root fetch - processPackages [proxylib]: New version: [0.5.0] Old Version: [0.1.1]
+[2024-04-30 07:00:36] INFO root fetch - processPackages [proxylib]: Downloading https://files.pythonhosted.org/packages/49/a0/69c51168909b7305a02e0c06a661642e5901c443b9d2a84f76982daa7cda/proxylib-0.1.1.tar.gz
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Start processing: tencentcloud-sdk-python-yunsou
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-weilingwith]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [proxylib]: Downloading https://files.pythonhosted.org/packages/97/62/4c69350f2c6a2be8cca94f9bed8193074277b29fcc8ad92f7224a6eb2cc9/proxylib-0.5.0.tar.gz
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Start processing: mirascope
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wav]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yinsuda]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [proxylib]: executing diffoscope
+[2024-04-30 07:00:37] INFO root fetch - processPackages [proxylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxylib-0.1.1.tar.gz tmp/proxylib-0.5.0.tar.gz --markdown 20240430/p/proxylib/0.1.1-0.5.0/README.md --exclude *.pyd
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.2.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.3.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tailucas-pylib]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-youmall]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [mirascope]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/41/80/6c47aecff1245b820e2f29a01c3c685fb0812df647a635fcdd55a3bc2f14/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz
+[2024-04-30 07:00:37] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/1e/60/6b94f4a0c0a3442e0030ec4b7912738aea1506f5f2cfbbaab0f9f6c973ee/mirascope-0.9.0.tar.gz
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wss]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/5d/ec/fa0d9f1ac64f6da07ddfb6836ac624c21cd6ffdbc126f04c9ee27d806016/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-yunsou/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 07:00:37] INFO root fetch - processPackages [proxylib]: Remove: archive file [/home/abi/fetcher/tmp/proxylib-0.1.1.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [proxylib]: Remove: archive file [/home/abi/fetcher/tmp/proxylib-0.5.0.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [proxylib]: success
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
+[2024-04-30 07:00:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
+[2024-04-30 07:00:38] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/86/be/fe2b9be44a23959a996ae2f04f7f17cca344b0da85a954965c102e97d624/mirascope-0.9.1.tar.gz
+[2024-04-30 07:00:38] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-04-30 07:00:38] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.9.0.tar.gz tmp/mirascope-0.9.1.tar.gz --markdown 20240430/m/mirascope/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 07:00:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz]
+[2024-04-30 07:00:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
+[2024-04-30 07:00:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2024-04-30 07:00:38] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.0.tar.gz]
+[2024-04-30 07:00:38] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
+[2024-04-30 07:00:38] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-04-30 07:03:36] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2024-04-30 07:03:36] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2024-04-30 07:03:36] INFO root fetch - main [MainThread]: Store serial: [22996345]
