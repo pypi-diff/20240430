@@ -7270,3 +7270,32 @@
 [2024-04-30 04:07:46] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.1.tar.gz]
 [2024-04-30 04:07:46] INFO root fetch - main [MainThread]: End processing [PyCOMUS]: success
 [2024-04-30 04:07:46] INFO root fetch - main [MainThread]: Store serial: [22994315]
+[2024-04-30 04:09:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994315]
+[2024-04-30 04:09:55] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-30 04:11:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994315]
+[2024-04-30 04:12:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 04:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RPICommLink
+[2024-04-30 04:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byteclasses
+[2024-04-30 04:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCOMUS
+[2024-04-30 04:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: req-compile
+[2024-04-30 04:12:00] INFO root fetch - processPackages [PyCOMUS]: New version: [1.2] Old Version: [1.1]
+[2024-04-30 04:12:00] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/0e/d1/6a40d03ea74cd30e5564b2eb9020098da6564d57dca959b140be9b1c6895/pycomus-1.1.tar.gz
+[2024-04-30 04:12:00] WARNING root fetch - processPackages [RPICommLink]: Skipping, unable to determine old version
+[2024-04-30 04:12:00] INFO root fetch - main [MainThread]: End processing [RPICommLink] error
+[2024-04-30 04:12:00] WARNING root fetch - processPackages [byteclasses]: Skipping, unable to determine old version
+[2024-04-30 04:12:00] INFO root fetch - main [MainThread]: End processing [byteclasses] error
+[2024-04-30 04:12:00] INFO root fetch - processPackages [req-compile]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2024-04-30 04:12:01] INFO root fetch - processPackages [req-compile]: Downloading https://files.pythonhosted.org/packages/96/9b/d5e46a5c84a6cf0477d84a18587a02cef26b51708a41c9dcc16b6f6ec748/req-compile-1.0.0rc8.tar.gz
+[2024-04-30 04:12:01] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/5d/11/6d128e250a3a5416519b590db89d4008b200633233057a134372fce42c2b/pycomus-1.2.tar.gz
+[2024-04-30 04:12:01] INFO root fetch - processPackages [PyCOMUS]: executing diffoscope
+[2024-04-30 04:12:01] INFO root fetch - processPackages [PyCOMUS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomus-1.1.tar.gz tmp/pycomus-1.2.tar.gz --markdown 20240430/P/PyCOMUS/1.1-1.2/README.md --exclude *.pyd
+[2024-04-30 04:12:01] INFO root fetch - processPackages [req-compile]: Downloading https://files.pythonhosted.org/packages/fc/cb/0a81d71ea9afc0f413877a3fa62c1fb73698e1166c5e241802b8739c7fcd/req-compile-1.0.0rc9.tar.gz
+[2024-04-30 04:12:01] INFO root fetch - processPackages [req-compile]: executing diffoscope
+[2024-04-30 04:12:01] INFO root fetch - processPackages [req-compile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/req-compile-1.0.0rc8.tar.gz tmp/req-compile-1.0.0rc9.tar.gz --markdown 20240430/r/req-compile/1.0.0rc8-1.0.0rc9/README.md --exclude *.pyd
+[2024-04-30 04:12:02] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.1.tar.gz]
+[2024-04-30 04:12:02] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.2.tar.gz]
+[2024-04-30 04:12:02] INFO root fetch - main [MainThread]: End processing [PyCOMUS]: success
+[2024-04-30 04:12:02] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc8.tar.gz]
+[2024-04-30 04:12:02] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc9.tar.gz]
+[2024-04-30 04:12:02] INFO root fetch - main [MainThread]: End processing [req-compile]: success
+[2024-04-30 04:12:02] INFO root fetch - main [MainThread]: Store serial: [22994332]
