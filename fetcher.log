@@ -7884,3 +7884,24 @@
 [2024-04-30 04:51:50] INFO root fetch - processPackages [kairyou]: Remove: archive file [/home/abi/fetcher/tmp/kairyou-1.6.1.tar.gz]
 [2024-04-30 04:51:50] INFO root fetch - main [MainThread]: End processing [kairyou]: success
 [2024-04-30 04:51:50] INFO root fetch - main [MainThread]: Store serial: [22994556]
+[2024-04-30 04:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994556]
+[2024-04-30 04:53:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfpyre
+[2024-04-30 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-30 04:53:59] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-30 04:53:59] INFO root fetch - processPackages [dfpyre]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-30 04:53:59] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-30 04:53:59] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-30 04:53:59] INFO root fetch - processPackages [dfpyre]: Downloading https://files.pythonhosted.org/packages/18/ee/28fdf873e077e75838c36f7d7e4fda4c06f0ab069c59f93a92ff5dfb2a2e/dfpyre-0.6.0.tar.gz
+[2024-04-30 04:53:59] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-30 04:53:59] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240430/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-30 04:53:59] INFO root fetch - processPackages [dfpyre]: Downloading https://files.pythonhosted.org/packages/6c/6f/69863397b034e488685a581797c74dd2f5755f01f426121442cc54a0fa20/dfpyre-0.6.1.tar.gz
+[2024-04-30 04:54:00] INFO root fetch - processPackages [dfpyre]: executing diffoscope
+[2024-04-30 04:54:00] INFO root fetch - processPackages [dfpyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfpyre-0.6.0.tar.gz tmp/dfpyre-0.6.1.tar.gz --markdown 20240430/d/dfpyre/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-30 04:54:00] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-30 04:54:00] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-30 04:54:00] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-30 04:54:00] INFO root fetch - processPackages [dfpyre]: Remove: archive file [/home/abi/fetcher/tmp/dfpyre-0.6.0.tar.gz]
+[2024-04-30 04:54:00] INFO root fetch - processPackages [dfpyre]: Remove: archive file [/home/abi/fetcher/tmp/dfpyre-0.6.1.tar.gz]
+[2024-04-30 04:54:00] INFO root fetch - main [MainThread]: End processing [dfpyre]: success
+[2024-04-30 04:54:00] INFO root fetch - main [MainThread]: Store serial: [22994561]
