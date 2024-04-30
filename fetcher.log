@@ -7231,3 +7231,42 @@
 [2024-04-30 04:05:36] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.3.tar.gz]
 [2024-04-30 04:05:36] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
 [2024-04-30 04:05:36] INFO root fetch - main [MainThread]: Store serial: [22994303]
+[2024-04-30 04:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994303]
+[2024-04-30 04:07:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htt
+[2024-04-30 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCOMUS
+[2024-04-30 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dominodatalab-data
+[2024-04-30 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaconfiglib
+[2024-04-30 04:07:44] INFO root fetch - processPackages [yaconfiglib]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-30 04:07:44] INFO root fetch - processPackages [PyCOMUS]: New version: [1.1] Old Version: [1.0.4]
+[2024-04-30 04:07:45] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-04-30 04:07:45] INFO root fetch - processPackages [yaconfiglib]: Downloading https://files.pythonhosted.org/packages/25/c7/08638cdda25130884849f46e710144f19c7b2f29c1940e8ec6d839aa216b/yaconfiglib-0.3.0.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [dominodatalab-data]: New version: [5.9.1] Old Version: [5.9.0]
+[2024-04-30 04:07:45] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/b6/b0/47313af7b7a6470a1e43ebd48ff26590ff833169e1223639f1ebb3324592/pycomus-1.0.4.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/24/85/917d4815c3c2196fbb705af377b19e9c0e8adae6b4541f3640a63708379e/dominodatalab_data-5.9.0.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [yaconfiglib]: Downloading https://files.pythonhosted.org/packages/56/31/3e5d223b31bd4e106f57eb9b1b2576bacb2bea394b27dd6fc19cf6e254df/yaconfiglib-0.3.1.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [yaconfiglib]: executing diffoscope
+[2024-04-30 04:07:45] INFO root fetch - processPackages [yaconfiglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaconfiglib-0.3.0.tar.gz tmp/yaconfiglib-0.3.1.tar.gz --markdown 20240430/y/yaconfiglib/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-30 04:07:45] INFO root fetch - processPackages [PyCOMUS]: Downloading https://files.pythonhosted.org/packages/0e/d1/6a40d03ea74cd30e5564b2eb9020098da6564d57dca959b140be9b1c6895/pycomus-1.1.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/0c/75/813d4252452652608e1c7983d1a0f37ea48607489b10d3fdd42e0896f5b1/dominodatalab_data-5.9.1.tar.gz
+[2024-04-30 04:07:45] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-04-30 04:07:45] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240430/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-04-30 04:07:45] INFO root fetch - processPackages [dominodatalab-data]: executing diffoscope
+[2024-04-30 04:07:45] INFO root fetch - processPackages [dominodatalab-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dominodatalab_data-5.9.0.tar.gz tmp/dominodatalab_data-5.9.1.tar.gz --markdown 20240430/d/dominodatalab-data/5.9.0-5.9.1/README.md --exclude *.pyd
+[2024-04-30 04:07:45] INFO root fetch - processPackages [PyCOMUS]: executing diffoscope
+[2024-04-30 04:07:45] INFO root fetch - processPackages [PyCOMUS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomus-1.0.4.tar.gz tmp/pycomus-1.1.tar.gz --markdown 20240430/P/PyCOMUS/1.0.4-1.1/README.md --exclude *.pyd
+[2024-04-30 04:07:46] INFO root fetch - processPackages [yaconfiglib]: Remove: archive file [/home/abi/fetcher/tmp/yaconfiglib-0.3.0.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - processPackages [yaconfiglib]: Remove: archive file [/home/abi/fetcher/tmp/yaconfiglib-0.3.1.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - main [MainThread]: End processing [yaconfiglib]: success
+[2024-04-30 04:07:46] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-04-30 04:07:46] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.0.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.1.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - main [MainThread]: End processing [dominodatalab-data]: success
+[2024-04-30 04:07:46] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.0.4.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - processPackages [PyCOMUS]: Remove: archive file [/home/abi/fetcher/tmp/pycomus-1.1.tar.gz]
+[2024-04-30 04:07:46] INFO root fetch - main [MainThread]: End processing [PyCOMUS]: success
+[2024-04-30 04:07:46] INFO root fetch - main [MainThread]: Store serial: [22994315]
