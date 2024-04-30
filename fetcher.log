@@ -7444,3 +7444,24 @@
 [2024-04-30 04:19:09] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2024-04-30 04:19:09] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2024-04-30 04:19:09] INFO root fetch - main [MainThread]: Store serial: [22994382]
+[2024-04-30 04:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994382]
+[2024-04-30 04:21:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 04:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-04-30 04:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-04-30 04:21:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-30 04:21:17] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240429] Old Version: [1.2.20240428]
+[2024-04-30 04:21:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-30 04:21:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d9/72/9d1805b9b847319be3e1f78400a23af40e2b516de7c50e3b6641fbdde7b0/iam_actions-1.2.20240428.tar.gz
+[2024-04-30 04:21:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-30 04:21:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-30 04:21:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240430/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-30 04:21:18] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/5a/31/0df44425a3a7873854b7c60187430a6012a0615eec69a1725f6dc730e755/iam_actions-1.2.20240429.tar.gz
+[2024-04-30 04:21:18] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-30 04:21:18] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240428.tar.gz tmp/iam_actions-1.2.20240429.tar.gz --markdown 20240430/i/iam-actions/1.2.20240428-1.2.20240429/README.md --exclude *.pyd
+[2024-04-30 04:21:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-30 04:21:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-30 04:21:18] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-30 04:21:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240428.tar.gz]
+[2024-04-30 04:21:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240429.tar.gz]
+[2024-04-30 04:21:19] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-30 04:21:19] INFO root fetch - main [MainThread]: Store serial: [22994401]
