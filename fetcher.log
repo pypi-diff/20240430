@@ -15033,3 +15033,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:19:32] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
 [2024-04-30 08:19:32] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
 [2024-04-30 08:19:32] INFO root fetch - main [MainThread]: Store serial: [22997037]
+[2024-04-30 08:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997037]
+[2024-04-30 08:21:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 08:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-datetime-formatter
+[2024-04-30 08:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-bus-alt-connection
+[2024-04-30 08:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysql-study-datamaker-CN
+[2024-04-30 08:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: advanced-input
+[2024-04-30 08:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: repo2text
+[2024-04-30 08:21:40] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-30 08:21:40] WARNING root fetch - processPackages [advanced-input]: Skipping, unable to determine old version
+[2024-04-30 08:21:40] INFO root fetch - main [MainThread]: End processing [advanced-input] error
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Downloading https://files.pythonhosted.org/packages/34/75/078425425da158d6b0cd79b662bf64e26fa9a489c1684d2428a2324934c9/odoo_addon_datetime_formatter-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-30 08:21:41] INFO root fetch - processPackages [mysql-study-datamaker-CN]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-30 08:21:41] WARNING root fetch - processPackages [repo2text]: Skipping, unable to determine old version
+[2024-04-30 08:21:41] INFO root fetch - main [MainThread]: End processing [repo2text] error
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Downloading https://files.pythonhosted.org/packages/63/8c/56d29967350d5b14a7faa86b97c86e0f5ffcd41a02d5ee7283c2a536ff1f/odoo_addon_datetime_formatter-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: Downloading https://files.pythonhosted.org/packages/30/39/0d5bb30f85399e44619d1dc9722e87912ef1eab28eaf004dda4a5d617cda/odoo_addon_bus_alt_connection-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-30 08:21:41] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Downloading https://files.pythonhosted.org/packages/b8/54/f5929d4e60e0ed51db646c64d95e9ea6ffbaf6cfbe0528e8c76c9f5a4684/mysql_study_datamaker_cn-0.0.4.tar.gz
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: executing diffoscope
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_datetime_formatter-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_datetime_formatter-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-datetime-formatter/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: Downloading https://files.pythonhosted.org/packages/0c/ec/feb6c248fc27f1af0158b9a977cc1b983931f20fbc9748b869c386fcb5fe/odoo_addon_bus_alt_connection-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 08:21:41] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Downloading https://files.pythonhosted.org/packages/43/2c/7b6c756acac92682e4be605737ee555c028100cfff1667ee5dcec591f393/mysql_study_datamaker_cn-0.0.5.tar.gz
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: executing diffoscope
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_bus_alt_connection-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_bus_alt_connection-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-bus-alt-connection/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-30 08:21:41] INFO root fetch - processPackages [mysql-study-datamaker-CN]: executing diffoscope
+[2024-04-30 08:21:41] INFO root fetch - processPackages [mysql-study-datamaker-CN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_study_datamaker_cn-0.0.4.tar.gz tmp/mysql_study_datamaker_cn-0.0.5.tar.gz --markdown 20240430/m/mysql-study-datamaker-CN/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datetime_formatter-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-30 08:21:41] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datetime_formatter-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:21:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-datetime-formatter]: success
+[2024-04-30 08:21:42] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bus_alt_connection-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-30 08:21:42] INFO root fetch - processPackages [odoo-addon-bus-alt-connection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bus_alt_connection-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:21:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-bus-alt-connection]: success
+[2024-04-30 08:21:42] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.0.4.tar.gz]
+[2024-04-30 08:21:42] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.0.5.tar.gz]
+[2024-04-30 08:21:42] INFO root fetch - main [MainThread]: End processing [mysql-study-datamaker-CN]: success
+[2024-04-30 08:21:42] INFO root fetch - main [MainThread]: Store serial: [22997049]
