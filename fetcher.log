@@ -15300,3 +15300,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:28:18] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-30 08:28:18] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-30 08:28:18] INFO root fetch - main [MainThread]: Store serial: [22997198]
+[2024-04-30 08:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997198]
+[2024-04-30 08:30:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jax-tools
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rottnest
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-orderpoint-default-location
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-okta
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssi4onnx
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: base64-to-file
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redzoo
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiotx
+[2024-04-30 08:30:30] INFO root fetch - processPackages [redzoo]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-30 08:30:30] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 08:30:30] INFO root fetch - processPackages [aiotx]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ssi4onnx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-30 08:30:30] INFO root fetch - processPackages [rottnest]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-30 08:30:30] WARNING root fetch - processPackages [base64-to-file]: Skipping, unable to determine old version
+[2024-04-30 08:30:30] INFO root fetch - main [MainThread]: End processing [base64-to-file] error
+[2024-04-30 08:30:30] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/97/8b/49a58c31a33832ff7433bc053ea1beeb6ad57365b735965a514fae549218/redzoo-0.3.2.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-30 08:30:30] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/0a/14/74a667325eb9a374459d526568d4d631b0271ceece71243721ad4e7cf5cd/aiotx-0.0.2.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1714456879] Old Version: [4.9.0a1714111506]
+[2024-04-30 08:30:30] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [rottnest]: Downloading https://files.pythonhosted.org/packages/7f/47/a863546fafa65e0b3e59270240b7f86e11bb72d028ba674d68ff22f82a94/rottnest-1.3.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ssi4onnx]: Downloading https://files.pythonhosted.org/packages/25/a8/e9134c2486acdc226731f02a0191ac75c0a945a72f1639cbe28411704036/ssi4onnx-1.0.2.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: Downloading https://files.pythonhosted.org/packages/6a/0e/8dfe7ef0ea282dfea9031944dad1c62d3c99218518dcad77299782eaf430/odoo_addon_stock_orderpoint_default_location-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 08:30:30] WARNING root fetch - processPackages [rottnest]: Skipping package: exceeds size limit 14675111>=10485760
+[2024-04-30 08:30:30] INFO root fetch - main [MainThread]: End processing [rottnest] error
+[2024-04-30 08:30:30] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/13/c4/aca1ce0c35cc26dcb84bdd0b591bdecb9817aeff6c99a70f18d1dac7e3b0/redzoo-0.3.3.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/09/30/a2b1ce80fc012f1f5ca011497ad114ab98827f2c8ce8e1709fcdf5e398ae/pulumi_okta-4.9.0a1714111506.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [redzoo]: executing diffoscope
+[2024-04-30 08:30:30] INFO root fetch - processPackages [redzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redzoo-0.3.2.tar.gz tmp/redzoo-0.3.3.tar.gz --markdown 20240430/r/redzoo/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-30 08:30:30] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 08:30:30] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 08:30:30] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/0d/f3/feb6599bc39e461ae42485dd54e202d04d0b21d7c0c2d54aebf632dcd19d/aiotx-0.0.3.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-04-30 08:30:30] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-0.0.2.tar.gz tmp/aiotx-0.0.3.tar.gz --markdown 20240430/a/aiotx/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 08:30:30] INFO root fetch - processPackages [ssi4onnx]: Downloading https://files.pythonhosted.org/packages/a5/66/98c41a33848127adbe8b7e1bd70b7bd60aa8913c5c88451ec932e2864ec2/ssi4onnx-1.0.3.tar.gz
+[2024-04-30 08:30:30] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: Downloading https://files.pythonhosted.org/packages/25/f7/f500be9459c57a791861a0a5304c5b4e7baf57d13d941f93d5ecaf819703/odoo_addon_stock_orderpoint_default_location-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-30 08:30:31] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/41/0c/e51d2e6e73a99e6107a399a19027a65d8db3eb19b9b661e2fbab983f557c/pulumi_okta-4.9.0a1714456879.tar.gz
+[2024-04-30 08:30:31] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: executing diffoscope
+[2024-04-30 08:30:31] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_orderpoint_default_location-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_orderpoint_default_location-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-stock-orderpoint-default-location/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-30 08:30:31] INFO root fetch - processPackages [ssi4onnx]: executing diffoscope
+[2024-04-30 08:30:31] INFO root fetch - processPackages [ssi4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi4onnx-1.0.2.tar.gz tmp/ssi4onnx-1.0.3.tar.gz --markdown 20240430/s/ssi4onnx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-30 08:30:31] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-04-30 08:30:31] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1714111506.tar.gz tmp/pulumi_okta-4.9.0a1714456879.tar.gz --markdown 20240430/p/pulumi-okta/4.9.0a1714111506-4.9.0a1714456879/README.md --exclude *.pyd
+[2024-04-30 08:30:31] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.2.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.3.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - main [MainThread]: End processing [redzoo]: success
+[2024-04-30 08:30:31] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 08:30:31] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.0.2.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-0.0.3.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-04-30 08:30:31] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_orderpoint_default_location-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:30:31] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-default-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_orderpoint_default_location-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-30 08:30:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-orderpoint-default-location]: success
+[2024-04-30 08:30:31] INFO root fetch - processPackages [ssi4onnx]: Remove: archive file [/home/abi/fetcher/tmp/ssi4onnx-1.0.2.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - processPackages [ssi4onnx]: Remove: archive file [/home/abi/fetcher/tmp/ssi4onnx-1.0.3.tar.gz]
+[2024-04-30 08:30:31] INFO root fetch - main [MainThread]: End processing [ssi4onnx]: success
+[2024-04-30 08:30:32] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714111506.tar.gz]
+[2024-04-30 08:30:32] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714456879.tar.gz]
+[2024-04-30 08:30:32] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-04-30 08:30:32] INFO root fetch - main [MainThread]: Store serial: [22997222]
