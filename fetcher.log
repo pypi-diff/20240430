@@ -6894,3 +6894,45 @@
 [2024-04-30 03:35:02] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b2.tar.gz]
 [2024-04-30 03:35:02] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-30 03:35:02] INFO root fetch - main [MainThread]: Store serial: [22994140]
+[2024-04-30 03:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994140]
+[2024-04-30 03:37:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 03:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant-stubs
+[2024-04-30 03:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kytest
+[2024-04-30 03:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socket.d
+[2024-04-30 03:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev
+[2024-04-30 03:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oscb
+[2024-04-30 03:37:11] WARNING root fetch - processPackages [oscb]: Skipping, unable to determine old version
+[2024-04-30 03:37:11] INFO root fetch - main [MainThread]: End processing [oscb] error
+[2024-04-30 03:37:11] INFO root fetch - processPackages [socket.d]: New version: [2.4.14.2] Old Version: [2.4.14.1]
+[2024-04-30 03:37:11] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 03:37:11] INFO root fetch - processPackages [nbdev]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-30 03:37:11] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.5.0b2] Old Version: [2024.5.0b1]
+[2024-04-30 03:37:11] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/1f/aa/c78a3ade2ac93409c69df11e1afce809dbe9553974f1912d3b7555e74a1b/socket.d-2.4.14.1.tar.gz
+[2024-04-30 03:37:11] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-04-30 03:37:11] INFO root fetch - processPackages [nbdev]: Downloading https://files.pythonhosted.org/packages/81/51/fab74a54685fb8abc7a3e35834c91c5b2dace9b02d4cb11fdd42c1e1671e/nbdev-2.3.8.tar.gz
+[2024-04-30 03:37:11] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/da/49/c3d1f30ac0414b705df67c012f5c73fa22223eb1d8c8e5f3511588708e57/homeassistant_stubs-2024.5.0b1.tar.gz
+[2024-04-30 03:37:11] INFO root fetch - processPackages [nbdev]: Downloading https://files.pythonhosted.org/packages/40/d2/c90832233197e9f55e8869a7f75fd019929dcd8c6c18e14a34a4c1c087aa/nbdev-2.3.9.tar.gz
+[2024-04-30 03:37:11] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-04-30 03:37:11] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/24/b1/6c0b1838907baf0b24a488dabd61955628dc6bef8875f7e84a56284308d8/homeassistant_stubs-2024.5.0b2.tar.gz
+[2024-04-30 03:37:12] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/f9/66/ccd47d6cb06344c304cacd54d68fd1ecb6da0187ad22d4f07d0e831ea9a9/socket.d-2.4.14.2.tar.gz
+[2024-04-30 03:37:12] INFO root fetch - processPackages [nbdev]: executing diffoscope
+[2024-04-30 03:37:12] INFO root fetch - processPackages [nbdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-2.3.8.tar.gz tmp/nbdev-2.3.9.tar.gz --markdown 20240430/n/nbdev/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-30 03:37:12] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-04-30 03:37:12] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240430/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 03:37:12] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-30 03:37:12] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.5.0b1.tar.gz tmp/homeassistant_stubs-2024.5.0b2.tar.gz --markdown 20240430/h/homeassistant-stubs/2024.5.0b1-2024.5.0b2/README.md --exclude *.pyd
+[2024-04-30 03:37:12] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-30 03:37:12] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.14.1.tar.gz tmp/socket.d-2.4.14.2.tar.gz --markdown 20240430/s/socket.d/2.4.14.1-2.4.14.2/README.md --exclude *.pyd
+[2024-04-30 03:37:12] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-04-30 03:37:12] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-04-30 03:37:12] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-04-30 03:37:12] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.8.tar.gz]
+[2024-04-30 03:37:12] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.9.tar.gz]
+[2024-04-30 03:37:12] INFO root fetch - main [MainThread]: End processing [nbdev]: success
+[2024-04-30 03:37:12] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.14.1.tar.gz]
+[2024-04-30 03:37:12] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.14.2.tar.gz]
+[2024-04-30 03:37:12] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-30 03:37:24] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b1.tar.gz]
+[2024-04-30 03:37:24] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b2.tar.gz]
+[2024-04-30 03:37:24] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-30 03:37:24] INFO root fetch - main [MainThread]: Store serial: [22994164]
