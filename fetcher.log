@@ -22553,3 +22553,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 
 [2024-04-30 11:54:18] INFO root fetch - main [MainThread]: End processing [dccQuantities] error
 [2024-04-30 11:54:18] INFO root fetch - main [MainThread]: Store serial: [22999867]
+[2024-04-30 11:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999867]
+[2024-04-30 11:56:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-libs
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-whd
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistralrs
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-oci
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libservice
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistralrs-accelerate
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mistralrs-cuda
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mistralrs-metal
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mistralrs-mkl
+[2024-04-30 11:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdl-bgi
+[2024-04-30 11:56:26] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2388.0] Old Version: [1.2387.0]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [libservice]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2388.0] Old Version: [1.2387.0]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-04-30 11:56:26] INFO root fetch - processPackages [mistralrs]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [mistralrs-mkl]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [mistralrs-metal]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [mistralrs-cuda]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [mistralrs-accelerate]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [sdl-bgi]: New version: [3.0.2] Old Version: [3.0.0]
+[2024-04-30 11:56:26] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/70/51/fa0e0b1132805ca12c1fa650cbc3dfa29fee3388b77ef85999f273f3fe76/gardener_cicd_whd-1.2387.0.tar.gz
+[2024-04-30 11:56:26] INFO root fetch - processPackages [libservice]: Downloading https://files.pythonhosted.org/packages/96/b7/23719f902814572b1b3e6a520728a85ca70e85575d7aa7f8faf3aa9f4577/libservice-0.1.8.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/e2/53/1a59635df2fc4ccca947ad63eaad50f130a2e414e8fcbf4dc28e75bb21df/gardener_cicd_libs-1.2387.0.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/80/58/cc60d1a41318e1424bcd2c8ddeb9bf4dd99c950b331b9b0f26dae7eb8a7a/mistralrs_accelerate-0.1.1.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/71/ac/a6138e4d3e9dc1ab9bc067ad2479c1d692bc1d430ecc9aaa802b9cb5295c/mistralrs_cuda-0.1.1.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/29/58/e1faf1f45a25e78105f8524169d2b8fb3d4dea64a3fbbe3c7d75bd81c7d9/mistralrs-0.1.1.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/e7/61/b643c37b38c1e1fb5ec52cf4ae0d7d03a8bca61138513ae9ed77a10b1cc4/mistralrs_metal-0.1.1.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/9a/c0/1b9a64b2978e02e00e84c04d8a76af88bd4493355852a5e0090425b0c85f/gardener_cicd_whd-1.2388.0.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/e3/8b/ecc56ddc798c2b99285da25917da48e9e2a2fd04ea143e2558703daf8c4c/mistralrs_mkl-0.1.1.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [sdl-bgi]: Downloading https://files.pythonhosted.org/packages/08/b2/385ae5ac5d9a5dd31ecca3810e98ea53716d00aeaa625a02e70707dee4bf/sdl_bgi-3.0.0.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [libservice]: Downloading https://files.pythonhosted.org/packages/de/7d/29aa36848bc82966e23f0397f6436a6594c44cfffa8f5aee5268cb03f973/libservice-0.1.9.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/98/ec/c451518bc3f6262e7afda2282045b1d6102887c6dbf8d058e9df3362117f/gardener_cicd_libs-1.2388.0.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240430/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2387.0.tar.gz tmp/gardener_cicd_whd-1.2388.0.tar.gz --markdown 20240430/g/gardener-cicd-whd/1.2387.0-1.2388.0/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [libservice]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [libservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libservice-0.1.8.tar.gz tmp/libservice-0.1.9.tar.gz --markdown 20240430/l/libservice/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/d0/e6/9b6a6ae253aa8d699349edd85e1a8af5ed5db976e9434f0cb1cac56232a5/mistralrs_accelerate-0.1.2.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2387.0.tar.gz tmp/gardener_cicd_libs-1.2388.0.tar.gz --markdown 20240430/g/gardener-cicd-libs/1.2387.0-1.2388.0/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/e7/61/89892e82af5154dd0c818701c6a17f4f4fb56e1125c945fc6a0f185e28a0/mistralrs_cuda-0.1.2.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/b4/23/aa5b54e0b174ecc0e5ba8663612a3a72d02ffbe0f4deccf1a959e5e1dcec/mistralrs-0.1.2.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-accelerate]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_accelerate-0.1.1.tar.gz tmp/mistralrs_accelerate-0.1.2.tar.gz --markdown 20240430/m/mistralrs-accelerate/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [sdl-bgi]: Downloading https://files.pythonhosted.org/packages/cb/52/56ad4f84cc69e358ed019189711e06935b4c8a9c20e2629fb89f42d68fa5/sdl_bgi-3.0.2.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/2e/83/375a3fd2cd78de38d5a79eadc2455937657da6058c25e195047d9ec231aa/mistralrs_metal-0.1.2.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/b5/ed/d55c346e859971a73a6f46319198e4702e297da8dfe78b1ed0090503537b/mistralrs_mkl-0.1.2.tar.gz
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-cuda]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_cuda-0.1.1.tar.gz tmp/mistralrs_cuda-0.1.2.tar.gz --markdown 20240430/m/mistralrs-cuda/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.1.tar.gz tmp/mistralrs-0.1.2.tar.gz --markdown 20240430/m/mistralrs/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [sdl-bgi]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [sdl-bgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdl_bgi-3.0.0.tar.gz tmp/sdl_bgi-3.0.2.tar.gz --markdown 20240430/s/sdl-bgi/3.0.0-3.0.2/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-metal]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_metal-0.1.1.tar.gz tmp/mistralrs_metal-0.1.2.tar.gz --markdown 20240430/m/mistralrs-metal/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-mkl]: executing diffoscope
+[2024-04-30 11:56:27] INFO root fetch - processPackages [mistralrs-mkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_mkl-0.1.1.tar.gz tmp/mistralrs_mkl-0.1.2.tar.gz --markdown 20240430/m/mistralrs-mkl/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-30 11:56:28] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [gardener-oci]: Start processing: hurricaneapi
+[2024-04-30 11:56:28] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-04-30 11:56:28] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2387.0.tar.gz]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2388.0.tar.gz]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: chellow
+[2024-04-30 11:56:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-04-30 11:56:28] INFO root fetch - processPackages [libservice]: Remove: archive file [/home/abi/fetcher/tmp/libservice-0.1.8.tar.gz]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [libservice]: Remove: archive file [/home/abi/fetcher/tmp/libservice-0.1.9.tar.gz]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [libservice]: Start processing: raster-zonal-stats
+[2024-04-30 11:56:28] INFO root fetch - main [MainThread]: End processing [libservice]: success
+[2024-04-30 11:56:28] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-30 11:56:28] WARNING root fetch - processPackages [raster-zonal-stats]: Skipping, unable to determine old version
+[2024-04-30 11:56:28] INFO root fetch - processPackages [raster-zonal-stats]: Start processing: udata
+[2024-04-30 11:56:28] INFO root fetch - main [MainThread]: End processing [raster-zonal-stats] error
+[2024-04-30 11:56:28] INFO root fetch - processPackages [hurricaneapi]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-30 11:56:28] INFO root fetch - processPackages [udata]: New version: [8.0.1.dev28979] Old Version: [8.0.1.dev28928]
+[2024-04-30 11:56:28] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/96/8e/b030ac97ec41157d3fad82ad96e0e09845550ef663637d73b820cb140481/hurricaneapi-0.1.5.tar.gz
+[2024-04-30 11:56:29] INFO root fetch - processPackages [sdl-bgi]: Remove: archive file [/home/abi/fetcher/tmp/sdl_bgi-3.0.0.tar.gz]
+[2024-04-30 11:56:29] INFO root fetch - processPackages [sdl-bgi]: Remove: archive file [/home/abi/fetcher/tmp/sdl_bgi-3.0.2.tar.gz]
+[2024-04-30 11:56:29] INFO root fetch - main [MainThread]: End processing [sdl-bgi]: success
+[2024-04-30 11:56:29] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/ec/38/3d7adaadaf2b98afee5a700b257cf49b29fc83f02bb289d6dfafd6e39123/udata-8.0.1.dev28928-py2.py3-none-any.whl
+[2024-04-30 11:56:29] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19786859>=10485760
+[2024-04-30 11:56:29] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-30 11:56:29] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-30 11:56:29] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/ce/8d/5b533db141914a0bfd3591bb0242944a8778f7b56a64c76a35f7d1cfb113/hurricaneapi-0.1.7.tar.gz
+[2024-04-30 11:56:29] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2387.0.tar.gz]
+[2024-04-30 11:56:29] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2388.0.tar.gz]
+[2024-04-30 11:56:29] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-04-30 11:56:29] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-30 11:56:29] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240430/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-30 11:56:29] INFO root fetch - processPackages [hurricaneapi]: executing diffoscope
+[2024-04-30 11:56:29] INFO root fetch - processPackages [hurricaneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurricaneapi-0.1.5.tar.gz tmp/hurricaneapi-0.1.7.tar.gz --markdown 20240430/h/hurricaneapi/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-04-30 11:56:29] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.1.tar.gz]
+[2024-04-30 11:56:29] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.2.tar.gz]
+[2024-04-30 11:56:29] INFO root fetch - main [MainThread]: End processing [mistralrs-accelerate]: success
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.1.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.2.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.1.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.2.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.1.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.2.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - main [MainThread]: End processing [mistralrs-metal]: success
+[2024-04-30 11:56:30] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.5.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.7.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - main [MainThread]: End processing [hurricaneapi]: success
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.1.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.2.tar.gz]
+[2024-04-30 11:56:30] INFO root fetch - main [MainThread]: End processing [mistralrs-mkl]: success
+[2024-04-30 11:56:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-30 11:56:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-30 11:56:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-30 11:56:31] INFO root fetch - main [MainThread]: Store serial: [22999910]
