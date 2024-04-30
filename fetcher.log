@@ -19479,3 +19479,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:14:44] INFO root fetch - processPackages [ecmwf-opendata]: Remove: archive file [/home/abi/fetcher/tmp/ecmwf-opendata-0.3.8.tar.gz]
 [2024-04-30 10:14:44] INFO root fetch - main [MainThread]: End processing [ecmwf-opendata]: success
 [2024-04-30 10:14:44] INFO root fetch - main [MainThread]: Store serial: [22998688]
+[2024-04-30 10:16:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998688]
+[2024-04-30 10:16:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 10:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm_wrapper
+[2024-04-30 10:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: half-orm
+[2024-04-30 10:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-repair
+[2024-04-30 10:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stopwords-tr
+[2024-04-30 10:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchvinecopulib
+[2024-04-30 10:16:52] INFO root fetch - processPackages [stopwords-tr]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-30 10:16:52] INFO root fetch - processPackages [half-orm]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 10:16:52] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-30 10:16:52] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/4b/87/5056f59038dd8dbc52d2ddb3b5992e1881534153fe7b4dc6df4b1fa926a6/stopwords_tr-1.1.7.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/03/5b/7ad7adf499f569d057fff1e0e6bc40a51103c154388596eab2c850d378f4/half_orm-0.9.8.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [torchvinecopulib]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-30 10:16:53] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [llm_wrapper]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 10:16:53] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/9b/56/df1f5dae72d6953a2f5458c12c0689212adb79ad73442b5934bc404993bd/half_orm-0.9.9.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [torchvinecopulib]: Downloading https://files.pythonhosted.org/packages/f7/b9/19a5cce16eb0158c682a0369e57200299567a605b0112236225ac0655e1e/torchvinecopulib-2024.4.1.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [llm_wrapper]: Downloading https://files.pythonhosted.org/packages/75/04/62c2c4926294e7e158d8e10879d60757aa8b0e9797df92a3375aabcd0b82/llm_wrapper-0.1.7.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/29/e3/5e0868198247e38251f651f57d0544f57248370f9bb5aafafcdf25aabb10/stopwords_tr-1.1.8.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-30 10:16:53] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240430/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-30 10:16:53] INFO root fetch - processPackages [half-orm]: executing diffoscope
+[2024-04-30 10:16:53] INFO root fetch - processPackages [half-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/half_orm-0.9.8.tar.gz tmp/half_orm-0.9.9.tar.gz --markdown 20240430/h/half-orm/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 10:16:53] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-04-30 10:16:53] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.1.7.tar.gz tmp/stopwords_tr-1.1.8.tar.gz --markdown 20240430/s/stopwords-tr/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-30 10:16:53] INFO root fetch - processPackages [llm_wrapper]: Downloading https://files.pythonhosted.org/packages/c7/f0/984e8494a9739cc02532aa86d5bea0bf64439d97b7b32b61dcc0eb90aab5/llm_wrapper-0.1.8.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [torchvinecopulib]: Downloading https://files.pythonhosted.org/packages/98/fd/3e19d373e008d2e2c4912dbece4663cde1d9a705217852f58707ddb2a581/torchvinecopulib-2024.4.2.tar.gz
+[2024-04-30 10:16:53] INFO root fetch - processPackages [llm_wrapper]: executing diffoscope
+[2024-04-30 10:16:53] INFO root fetch - processPackages [llm_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_wrapper-0.1.7.tar.gz tmp/llm_wrapper-0.1.8.tar.gz --markdown 20240430/l/llm_wrapper/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 10:16:53] INFO root fetch - processPackages [torchvinecopulib]: executing diffoscope
+[2024-04-30 10:16:53] INFO root fetch - processPackages [torchvinecopulib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchvinecopulib-2024.4.1.tar.gz tmp/torchvinecopulib-2024.4.2.tar.gz --markdown 20240430/t/torchvinecopulib/2024.4.1-2024.4.2/README.md --exclude *.pyd
+[2024-04-30 10:16:54] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-30 10:16:54] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.7.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.1.8.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-04-30 10:16:54] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.8.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.9.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - main [MainThread]: End processing [half-orm]: success
+[2024-04-30 10:16:54] INFO root fetch - processPackages [llm_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/llm_wrapper-0.1.7.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - processPackages [llm_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/llm_wrapper-0.1.8.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - main [MainThread]: End processing [llm_wrapper]: success
+[2024-04-30 10:16:54] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.4.1.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.4.2.tar.gz]
+[2024-04-30 10:16:54] INFO root fetch - main [MainThread]: End processing [torchvinecopulib]: success
+[2024-04-30 10:16:54] INFO root fetch - main [MainThread]: Store serial: [22998706]
