@@ -22170,3 +22170,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-30 11:46:09] INFO root fetch - processPackages [ctrlx-fbs]: Remove: archive file [/home/abi/fetcher/tmp/ctrlx_fbs-2.2.0-py3-none-any.whl.zip]
 [2024-04-30 11:46:09] INFO root fetch - main [MainThread]: End processing [ctrlx-fbs]: success
 [2024-04-30 11:46:09] INFO root fetch - main [MainThread]: Store serial: [22999727]
+[2024-04-30 11:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999727]
+[2024-04-30 11:48:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopencga
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dt-cli
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: journeylib
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-sm-connect
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cim-11-CERTIC
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-sm-carsharing-structure
+[2024-04-30 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: diffCheck
+[2024-04-30 11:48:18] INFO root fetch - processPackages [journeylib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [diffCheck]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.6.5] Old Version: [1.0.7.6.4]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/ed/23/2594cb5723cacdb5a079df0ed7ff88dc12e32cea7875fd14d22aa6ec18ad/journeylib-1.0.0.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [dt-cli]: New version: [1.6.9] Old Version: [1.6.7]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [odoo12-addon-sm-connect]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [cim-11-CERTIC]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [pyopencga]: New version: [3.0.0] Old Version: [2.9.2]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev19461] Old Version: [4.0.3.dev19432]
+[2024-04-30 11:48:18] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/97/ef/13fa795859d395deb879acf60a0c6832eab45f65a0ad2562203295682bb8/mns_common-1.0.7.6.4.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/27/2d/5a6d8ec167f5f660556e94fb2d7bff1677a5e8f11454f15aac3943e3dfb3/diffCheck-0.0.9.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/8e/8a/28a78da8f2f79e1a535370935ded0f8497d02e90ad8b017e743f8d9f2d4f/cim_11_certic-0.4.0.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Downloading https://files.pythonhosted.org/packages/5f/d0/8a134266161ce9eba436c03396eba07388895bfd15784e33d9e8d297d196/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl
+[2024-04-30 11:48:18] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Downloading https://files.pythonhosted.org/packages/5d/22/7aa5886841e54d27ef0556f8e95727f82b179f1701205fb5c053d482a261/odoo12_addon_sm_carsharing_structure-12.0.0.0.8-py2.py3-none-any.whl
+[2024-04-30 11:48:18] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/69/1e/4a9e9c2fb3270b11a995e946cba5c5d6b51aa218132816492bf1f6df25e1/pyopencga-2.9.2.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/2c/80/979bbc31f6e53c9d5a138e0cc4c012717b401af37279e40f4268c0f38a60/journeylib-1.0.1.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/d1/bc/0728c125fe4c326cc050107ba46ad94e357a7b8dca472a322dbceced23e5/udata_front-4.0.3.dev19432-py2.py3-none-any.whl
+[2024-04-30 11:48:18] INFO root fetch - processPackages [dt-cli]: Downloading https://files.pythonhosted.org/packages/e0/3d/79db56273ceff54273cc19e6c132636dcd55539cf7a89213c0b78909ba79/dt-cli-1.6.7.tar.gz
+[2024-04-30 11:48:18] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-30 11:48:18] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.8.tar.gz tmp/diffCheck-0.0.9.tar.gz --markdown 20240430/d/diffCheck/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:48:18] INFO root fetch - processPackages [journeylib]: executing diffoscope
+[2024-04-30 11:48:18] INFO root fetch - processPackages [journeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journeylib-1.0.0.tar.gz tmp/journeylib-1.0.1.tar.gz --markdown 20240430/j/journeylib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 11:48:19] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/ab/df/1167205b467d8a15058045f327d879c328805f606c9cb8a5be9665c19b1e/mns_common-1.0.7.6.5.tar.gz
+[2024-04-30 11:48:19] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Downloading https://files.pythonhosted.org/packages/de/f9/3286bc521a07cc5e985ce609b1f54d89f5b1b680dc68fa74f88a0c155048/odoo12-addon-sm_carsharing_structure-12.0.0.0.9.tar.gz
+[2024-04-30 11:48:19] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-30 11:48:19] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.6.4.tar.gz tmp/mns_common-1.0.7.6.5.tar.gz --markdown 20240430/m/mns-common/1.0.7.6.4-1.0.7.6.5/README.md --exclude *.pyd
+[2024-04-30 11:48:19] INFO root fetch - processPackages [dt-cli]: Downloading https://files.pythonhosted.org/packages/f4/bb/194d60462901f37da73e697e28bb069249fbebd9ecd81ff38718925428ac/dt-cli-1.6.9.tar.gz
+[2024-04-30 11:48:19] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Downloading https://files.pythonhosted.org/packages/94/9f/e9f19f2c6067e9e4fe0754c660ffd9fe40375c06204ac9f1b3df07bb2ef6/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl
+[2024-04-30 11:48:19] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/2b/14/936827e953f83b62835302c9340d5267987b06fcfc774988782227d75ee1/pyopencga-3.0.0.tar.gz
+[2024-04-30 11:48:19] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: executing diffoscope
+[2024-04-30 11:48:19] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_carsharing_structure-12.0.0.0.8-py2.py3-none-any.whl.zip tmp/odoo12-addon-sm_carsharing_structure-12.0.0.0.9.tar.gz --markdown 20240430/o/odoo12-addon-sm-carsharing-structure/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:48:19] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/e7/6c/f94e5a1b006f8a8319227f3d7d5fd8805297408536eff505909120989433/cim_11_certic-0.5.0.tar.gz
+[2024-04-30 11:48:19] INFO root fetch - processPackages [dt-cli]: executing diffoscope
+[2024-04-30 11:48:19] INFO root fetch - processPackages [odoo12-addon-sm-connect]: executing diffoscope
+[2024-04-30 11:48:19] INFO root fetch - processPackages [dt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt-cli-1.6.7.tar.gz tmp/dt-cli-1.6.9.tar.gz --markdown 20240430/d/dt-cli/1.6.7-1.6.9/README.md --exclude *.pyd
+[2024-04-30 11:48:19] INFO root fetch - processPackages [odoo12-addon-sm-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl.zip --markdown 20240430/o/odoo12-addon-sm-connect/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-04-30 11:48:19] INFO root fetch - processPackages [pyopencga]: executing diffoscope
+[2024-04-30 11:48:19] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-1.0.0.tar.gz]
+[2024-04-30 11:48:19] INFO root fetch - processPackages [pyopencga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencga-2.9.2.tar.gz tmp/pyopencga-3.0.0.tar.gz --markdown 20240430/p/pyopencga/2.9.2-3.0.0/README.md --exclude *.pyd
+[2024-04-30 11:48:19] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-1.0.1.tar.gz]
+[2024-04-30 11:48:19] INFO root fetch - processPackages [journeylib]: Start processing: mimllearning
+[2024-04-30 11:48:19] INFO root fetch - main [MainThread]: End processing [journeylib]: success
+[2024-04-30 11:48:19] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-30 11:48:19] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.9.tar.gz]
+[2024-04-30 11:48:19] INFO root fetch - processPackages [diffCheck]: Start processing: kr8s
+[2024-04-30 11:48:19] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-30 11:48:19] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-30 11:48:19] INFO root fetch - processPackages [kr8s]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-30 11:48:19] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-04-30 11:48:19] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.6.4.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.6.5.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [mns-common]: Start processing: tweepy-authlib
+[2024-04-30 11:48:20] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-30 11:48:20] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6d/c4/da598e484ee1d3f5408bf01f4b5cc03d0843cbc6dfe491b556565b1e1855/kr8s-0.9.1.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [tweepy-authlib]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl.zip]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl.zip]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Start processing: bpm-ai
+[2024-04-30 11:48:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-connect]: success
+[2024-04-30 11:48:20] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-30 11:48:20] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240430/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-30 11:48:20] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_carsharing_structure-12.0.0.0.8-py2.py3-none-any.whl.zip]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_carsharing_structure-12.0.0.0.9.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Start processing: zodchy-fastapi
+[2024-04-30 11:48:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-carsharing-structure]: success
+[2024-04-30 11:48:20] INFO root fetch - processPackages [zodchy-fastapi]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [dt-cli]: Remove: archive file [/home/abi/fetcher/tmp/dt-cli-1.6.7.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [dt-cli]: Remove: archive file [/home/abi/fetcher/tmp/dt-cli-1.6.9.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - main [MainThread]: End processing [dt-cli]: success
+[2024-04-30 11:48:20] INFO root fetch - processPackages [bpm-ai]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [tweepy-authlib]: Downloading https://files.pythonhosted.org/packages/37/b9/f4067d659317b5a50d56025a600a54bf104cae9d394c357f84bc1e570810/tweepy_authlib-1.3.0.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [cim-11-CERTIC]: executing diffoscope
+[2024-04-30 11:48:20] INFO root fetch - processPackages [cim-11-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_11_certic-0.4.0.tar.gz tmp/cim_11_certic-0.5.0.tar.gz --markdown 20240430/c/cim-11-CERTIC/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-30 11:48:20] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/8f/d0/6e2700485405b98627236d72de970251a11244aba937e8bf94feb26c9f35/zodchy_fastapi-0.2.2.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ac/b0/38b7ff928460bf9e68d39a2db1f433e6f43f03af4cfdc3c52062c5d369de/udata_front-4.0.3.dev19461-py2.py3-none-any.whl
+[2024-04-30 11:48:20] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-2.9.2.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-3.0.0.tar.gz]
+[2024-04-30 11:48:20] INFO root fetch - main [MainThread]: End processing [pyopencga]: success
+[2024-04-30 11:48:20] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/2e/7b/35cee5091e9547efc38808af1f511c3f69a5b55c6088d069530f54929d6a/bpm_ai-1.7.0.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [tweepy-authlib]: Downloading https://files.pythonhosted.org/packages/a0/ad/e365b824ea91b15467ac426dc1a74892e7c0c9508edc68e9d46b17ec7db5/tweepy_authlib-1.3.1.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6b/a4/70e83775e1ce789d4dc02753b52ab25f4dfcbea75b9a96cb64b001b88df1/kr8s-0.9.2.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/80/d7/b801248371ccc5552d6cab7f33093b88f36a0b23ee7153e65c9e9c27d8b4/zodchy_fastapi-0.2.3.tar.gz
+[2024-04-30 11:48:20] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-30 11:48:20] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240430/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-30 11:48:20] INFO root fetch - processPackages [tweepy-authlib]: executing diffoscope
+[2024-04-30 11:48:20] INFO root fetch - processPackages [tweepy-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweepy_authlib-1.3.0.tar.gz tmp/tweepy_authlib-1.3.1.tar.gz --markdown 20240430/t/tweepy-authlib/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-30 11:48:21] INFO root fetch - processPackages [zodchy-fastapi]: executing diffoscope
+[2024-04-30 11:48:21] INFO root fetch - processPackages [zodchy-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_fastapi-0.2.2.tar.gz tmp/zodchy_fastapi-0.2.3.tar.gz --markdown 20240430/z/zodchy-fastapi/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-30 11:48:21] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/ee/76/3cc0dcc55a6a8754ec9fa5547d02924b700631bbaa654c86162729585ba4/bpm_ai-1.7.1.tar.gz
+[2024-04-30 11:48:21] INFO root fetch - processPackages [bpm-ai]: executing diffoscope
+[2024-04-30 11:48:21] INFO root fetch - processPackages [bpm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai-1.7.0.tar.gz tmp/bpm_ai-1.7.1.tar.gz --markdown 20240430/b/bpm-ai/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-30 11:48:21] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-30 11:48:21] INFO root fetch - processPackages [tweepy-authlib]: Remove: archive file [/home/abi/fetcher/tmp/tweepy_authlib-1.3.0.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - processPackages [tweepy-authlib]: Remove: archive file [/home/abi/fetcher/tmp/tweepy_authlib-1.3.1.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - main [MainThread]: End processing [tweepy-authlib]: success
+[2024-04-30 11:48:21] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.2.2.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.2.3.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - main [MainThread]: End processing [zodchy-fastapi]: success
+[2024-04-30 11:48:21] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.4.0.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.5.0.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
+[2024-04-30 11:48:21] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.7.0.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.7.1.tar.gz]
+[2024-04-30 11:48:21] INFO root fetch - main [MainThread]: End processing [bpm-ai]: success
+[2024-04-30 11:48:22] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2024-04-30 11:48:22] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.9.1.tar.gz tmp/kr8s-0.9.2.tar.gz --markdown 20240430/k/kr8s/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-30 11:48:22] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-30 11:48:22] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.3.dev19432-py2.py3-none-any.whl.zip tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip --markdown 20240430/u/udata-front/4.0.3.dev19432-4.0.3.dev19461/README.md --exclude *.pyd
+[2024-04-30 11:48:23] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.1.tar.gz]
+[2024-04-30 11:48:23] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.2.tar.gz]
+[2024-04-30 11:48:23] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2024-04-30 11:48:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-30 11:48:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-30 11:48:37] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-30 11:49:50] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19432-py2.py3-none-any.whl.zip]
+[2024-04-30 11:49:50] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip]
+[2024-04-30 11:49:50] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-30 11:49:50] INFO root fetch - main [MainThread]: Store serial: [22999773]
