@@ -16351,3 +16351,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:02:08] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
 [2024-04-30 09:02:08] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
 [2024-04-30 09:02:08] INFO root fetch - main [MainThread]: Store serial: [22997579]
+[2024-04-30 09:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997579]
+[2024-04-30 09:04:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 09:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2024-04-30 09:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-stock-available-to-promise-release
+[2024-04-30 09:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenTTDLab
+[2024-04-30 09:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-reception-screen
+[2024-04-30 09:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2024-04-30 09:04:18] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-30 09:04:18] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240429.21.27.529229] Old Version: [20240429.16.23.334096]
+[2024-04-30 09:04:18] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.1.dev1]
+[2024-04-30 09:04:18] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.3.dev1]
+[2024-04-30 09:04:18] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 09:04:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-30 09:04:18] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-04-30 09:04:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/87/c8/10848d9a95db2aba9c4e040c57d8fd487ffad15160dd2b40edeac09b053c/certora-cli-alpha-master-20240429.16.23.334096.tar.gz
+[2024-04-30 09:04:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14532599>=10485760
+[2024-04-30 09:04:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/52/9b/9d0e9debbfc7bb58eac0393ac6d7c349cce647ada03e0fcfdc79fa45d58b/odoo14_addon_sale_stock_available_to_promise_release-14.0.1.2.1.dev1-py3-none-any.whl
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: Downloading https://files.pythonhosted.org/packages/b7/75/b765ef77cdbf9a02769a31051b3d709180ecf264d7c7033d855c79a64dfb/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev1-py3-none-any.whl
+[2024-04-30 09:04:19] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-30 09:04:19] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-04-30 09:04:19] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-30 09:04:19] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240430/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-30 09:04:19] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-04-30 09:04:19] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240430/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/a9/13/f8f18d5d5099175f02fc8bd63aac71f9a332a99eabdea1fe3f8e3893878f/odoo14_addon_sale_stock_available_to_promise_release-14.0.1.2.1.dev2-py3-none-any.whl
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: Downloading https://files.pythonhosted.org/packages/f4/56/2290e8d2d4d911ce1325a6e585d51477ab9da033e98df1d36a812132aca4/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev2-py3-none-any.whl
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: executing diffoscope
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_stock_available_to_promise_release-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_stock_available_to_promise_release-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-sale-stock-available-to-promise-release/14.0.1.2.1.dev1-14.0.1.2.1.dev2/README.md --exclude *.pyd
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: executing diffoscope
+[2024-04-30 09:04:19] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-stock-reception-screen/14.0.1.0.3.dev1-14.0.1.0.3.dev2/README.md --exclude *.pyd
+[2024-04-30 09:04:19] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-04-30 09:04:19] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-04-30 09:04:19] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-04-30 09:04:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-30 09:04:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-30 09:04:20] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-30 09:04:20] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_stock_available_to_promise_release-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2024-04-30 09:04:20] INFO root fetch - processPackages [odoo14-addon-sale-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_stock_available_to_promise_release-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2024-04-30 09:04:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-stock-available-to-promise-release]: success
+[2024-04-30 09:04:20] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2024-04-30 09:04:20] INFO root fetch - processPackages [odoo14-addon-stock-reception-screen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reception_screen-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2024-04-30 09:04:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reception-screen]: success
+[2024-04-30 09:04:20] INFO root fetch - main [MainThread]: Store serial: [22997599]
