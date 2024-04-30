@@ -8193,3 +8193,50 @@
 [2024-04-30 05:13:45] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.6.tar.gz]
 [2024-04-30 05:13:45] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
 [2024-04-30 05:13:45] INFO root fetch - main [MainThread]: Store serial: [22994674]
+[2024-04-30 05:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994674]
+[2024-04-30 05:15:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 05:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: message-send-local
+[2024-04-30 05:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kytest
+[2024-04-30 05:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dhuodata-lib
+[2024-04-30 05:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hedera-sdk-py
+[2024-04-30 05:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FileTAO
+[2024-04-30 05:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitpoll
+[2024-04-30 05:15:53] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-30 05:15:53] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 05:15:53] INFO root fetch - processPackages [message-send-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 05:15:53] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/f6/19/a9b22478e421d68c1a4d1297bead425a0458d6981e82e43b9c63b6100344/dhuodata-lib-0.2.0.tar.gz
+[2024-04-30 05:15:53] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-04-30 05:15:53] INFO root fetch - processPackages [hedera-sdk-py]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-30 05:15:53] WARNING root fetch - processPackages [gitpoll]: Skipping, unable to determine old version
+[2024-04-30 05:15:53] INFO root fetch - main [MainThread]: End processing [gitpoll] error
+[2024-04-30 05:15:53] INFO root fetch - processPackages [FileTAO]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-04-30 05:15:54] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/3e/db/20078e6bce901b0dbb9011faa9575f415223a54413a0d1d8a39235f01f78/message-send-local-0.0.8.tar.gz
+[2024-04-30 05:15:54] INFO root fetch - processPackages [hedera-sdk-py]: Downloading https://files.pythonhosted.org/packages/01/6f/5f0ba894e9458cacbf0396502ee98746f55fd804dd1e038e488d1a7174fb/hedera-sdk-py-2.8.0.tar.gz
+[2024-04-30 05:15:54] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-04-30 05:15:54] INFO root fetch - processPackages [FileTAO]: Downloading https://files.pythonhosted.org/packages/86/77/a4c6d6500de9b1538248d97e96057a07057a90e544dacc55c57cdd527f41/FileTAO-2.1.0.tar.gz
+[2024-04-30 05:15:54] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/07/db/1f1a2ecc859c47ed2ef4b5482b8dfec0d59ecc3fddd371a20ee3018006ee/dhuodata-lib-0.2.1.tar.gz
+[2024-04-30 05:15:54] WARNING root fetch - processPackages [hedera-sdk-py]: Skipping package: exceeds size limit 20648874>=10485760
+[2024-04-30 05:15:54] INFO root fetch - main [MainThread]: End processing [hedera-sdk-py] error
+[2024-04-30 05:15:54] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-04-30 05:15:54] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240430/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 05:15:54] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 05:15:54] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.2.0.tar.gz tmp/dhuodata-lib-0.2.1.tar.gz --markdown 20240430/d/dhuodata-lib/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-30 05:15:54] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/db/66/5da108296f6700eab97b86794abc1bd0796a98314fbe82224556c81fed80/message-send-local-0.0.9.tar.gz
+[2024-04-30 05:15:54] INFO root fetch - processPackages [FileTAO]: Downloading https://files.pythonhosted.org/packages/32/85/df0d7215ef4ceef4c456f22d021e27ad7874faec1afa19a3d6f35cb43082/FileTAO-3.0.0.tar.gz
+[2024-04-30 05:15:54] INFO root fetch - processPackages [message-send-local]: executing diffoscope
+[2024-04-30 05:15:54] INFO root fetch - processPackages [message-send-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-send-local-0.0.8.tar.gz tmp/message-send-local-0.0.9.tar.gz --markdown 20240430/m/message-send-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 05:15:54] INFO root fetch - processPackages [FileTAO]: executing diffoscope
+[2024-04-30 05:15:54] INFO root fetch - processPackages [FileTAO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileTAO-2.1.0.tar.gz tmp/FileTAO-3.0.0.tar.gz --markdown 20240430/F/FileTAO/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-04-30 05:15:54] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.2.0.tar.gz]
+[2024-04-30 05:15:54] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.2.1.tar.gz]
+[2024-04-30 05:15:54] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 05:15:55] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-04-30 05:15:55] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-04-30 05:15:55] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-04-30 05:15:55] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.8.tar.gz]
+[2024-04-30 05:15:55] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.9.tar.gz]
+[2024-04-30 05:15:55] INFO root fetch - main [MainThread]: End processing [message-send-local]: success
+[2024-04-30 05:15:55] INFO root fetch - processPackages [FileTAO]: Remove: archive file [/home/abi/fetcher/tmp/FileTAO-2.1.0.tar.gz]
+[2024-04-30 05:15:55] INFO root fetch - processPackages [FileTAO]: Remove: archive file [/home/abi/fetcher/tmp/FileTAO-3.0.0.tar.gz]
+[2024-04-30 05:15:55] INFO root fetch - main [MainThread]: End processing [FileTAO]: success
+[2024-04-30 05:15:55] INFO root fetch - main [MainThread]: Store serial: [22994693]
