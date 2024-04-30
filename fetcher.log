@@ -13521,3 +13521,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:14:58] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.34.0.tar.gz]
 [2024-04-30 07:14:58] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-30 07:14:58] INFO root fetch - main [MainThread]: Store serial: [22996430]
+[2024-04-30 07:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996430]
+[2024-04-30 07:17:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 07:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrx-link-git
+[2024-04-30 07:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-30 07:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2024-04-30 07:17:06] INFO root fetch - processPackages [mrx-link-git]: New version: [1.1.0.dev0] Old Version: [1.0.2.dev1]
+[2024-04-30 07:17:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-30 07:17:07] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-04-30 07:17:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-30 07:17:07] INFO root fetch - processPackages [mrx-link-git]: Downloading https://files.pythonhosted.org/packages/fd/b2/3cc4e1a61202ab67b5c4bc05f96bbeeb37ca18271e16f72330b0722d05f7/mrx_link_git-1.0.2.dev1-cp39-cp39-win_amd64.whl
+[2024-04-30 07:17:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-30 07:17:07] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-30 07:17:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-30 07:17:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240430/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-30 07:17:07] INFO root fetch - processPackages [mrx-link-git]: Downloading https://files.pythonhosted.org/packages/1a/df/9f906e08daf1491b06a57d3b090728ea1d9e4aa4c15328c63f7355c9e90e/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl
+[2024-04-30 07:17:07] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-04-30 07:17:07] INFO root fetch - processPackages [mrx-link-git]: executing diffoscope
+[2024-04-30 07:17:07] INFO root fetch - processPackages [mrx-link-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_git-1.0.2.dev1-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20240430/m/mrx-link-git/1.0.2.dev1-1.1.0.dev0/README.md --exclude *.pyd
+[2024-04-30 07:17:07] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-30 07:17:07] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-30 07:17:08] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-30 07:17:08] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-30 07:17:08] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-30 07:17:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-30 07:17:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-30 07:17:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-30 07:17:19] INFO root fetch - processPackages [mrx-link-git]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_git-1.0.2.dev1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 07:17:19] INFO root fetch - processPackages [mrx-link-git]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-30 07:17:19] INFO root fetch - main [MainThread]: End processing [mrx-link-git]: success
+[2024-04-30 07:17:19] INFO root fetch - main [MainThread]: Store serial: [22996469]
