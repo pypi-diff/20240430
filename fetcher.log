@@ -8136,3 +8136,30 @@
 [2024-04-30 05:09:25] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.4.tar.gz]
 [2024-04-30 05:09:25] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
 [2024-04-30 05:09:25] INFO root fetch - main [MainThread]: Store serial: [22994648]
+[2024-04-30 05:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994648]
+[2024-04-30 05:11:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 05:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agithunder
+[2024-04-30 05:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iss-libs
+[2024-04-30 05:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-commandx
+[2024-04-30 05:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biodatatools
+[2024-04-30 05:11:33] WARNING root fetch - processPackages [biodatatools]: Skipping, unable to determine old version
+[2024-04-30 05:11:33] INFO root fetch - main [MainThread]: End processing [biodatatools] error
+[2024-04-30 05:11:33] WARNING root fetch - processPackages [agithunder]: Skipping, unable to determine old version
+[2024-04-30 05:11:33] INFO root fetch - main [MainThread]: End processing [agithunder] error
+[2024-04-30 05:11:33] INFO root fetch - processPackages [pulumi-commandx]: New version: [0.1.1a1714170747] Old Version: [0.1.1a1714170267]
+[2024-04-30 05:11:33] INFO root fetch - processPackages [iss-libs]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-30 05:11:34] INFO root fetch - processPackages [pulumi-commandx]: Downloading https://files.pythonhosted.org/packages/e2/65/586628bf7307e199535e6e92fd5a2c7f89620be79819fcbc08c2d776d93c/pulumi_commandx-0.1.1a1714170267.tar.gz
+[2024-04-30 05:11:34] INFO root fetch - processPackages [iss-libs]: Downloading https://files.pythonhosted.org/packages/e3/c3/f31d95a384842e099fe5005f600375ab72642ac8dc7c571450e2a156234a/iss-libs-0.0.7.tar.gz
+[2024-04-30 05:11:34] INFO root fetch - processPackages [iss-libs]: Downloading https://files.pythonhosted.org/packages/af/4a/0398174d39210c0f75b9aec7a70841c6b0e208bcbe26b0f7f39705d889f8/iss_libs-0.0.8.tar.gz
+[2024-04-30 05:11:34] INFO root fetch - processPackages [pulumi-commandx]: Downloading https://files.pythonhosted.org/packages/03/9b/262b4cface8892be2aa4c91e1944ede44567e93b5fcbb2470fb272c58b34/pulumi_commandx-0.1.1a1714170747.tar.gz
+[2024-04-30 05:11:34] INFO root fetch - processPackages [iss-libs]: executing diffoscope
+[2024-04-30 05:11:34] INFO root fetch - processPackages [iss-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iss-libs-0.0.7.tar.gz tmp/iss_libs-0.0.8.tar.gz --markdown 20240430/i/iss-libs/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-30 05:11:34] INFO root fetch - processPackages [pulumi-commandx]: executing diffoscope
+[2024-04-30 05:11:34] INFO root fetch - processPackages [pulumi-commandx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_commandx-0.1.1a1714170267.tar.gz tmp/pulumi_commandx-0.1.1a1714170747.tar.gz --markdown 20240430/p/pulumi-commandx/0.1.1a1714170267-0.1.1a1714170747/README.md --exclude *.pyd
+[2024-04-30 05:11:35] INFO root fetch - processPackages [iss-libs]: Remove: archive file [/home/abi/fetcher/tmp/iss-libs-0.0.7.tar.gz]
+[2024-04-30 05:11:35] INFO root fetch - processPackages [iss-libs]: Remove: archive file [/home/abi/fetcher/tmp/iss_libs-0.0.8.tar.gz]
+[2024-04-30 05:11:35] INFO root fetch - main [MainThread]: End processing [iss-libs]: success
+[2024-04-30 05:11:35] INFO root fetch - processPackages [pulumi-commandx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_commandx-0.1.1a1714170267.tar.gz]
+[2024-04-30 05:11:35] INFO root fetch - processPackages [pulumi-commandx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_commandx-0.1.1a1714170747.tar.gz]
+[2024-04-30 05:11:35] INFO root fetch - main [MainThread]: End processing [pulumi-commandx]: success
+[2024-04-30 05:11:35] INFO root fetch - main [MainThread]: Store serial: [22994659]
