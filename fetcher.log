@@ -19587,3 +19587,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:21:16] INFO root fetch - processPackages [dcmqi]: Remove: archive file [/home/abi/fetcher/tmp/dcmqi-0.2.0.tar.gz]
 [2024-04-30 10:21:16] INFO root fetch - main [MainThread]: End processing [dcmqi]: success
 [2024-04-30 10:21:16] INFO root fetch - main [MainThread]: Store serial: [22998726]
+[2024-04-30 10:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998726]
+[2024-04-30 10:23:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-py-interactions
+[2024-04-30 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: interactions.py
+[2024-04-30 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awscdk-resources-mongodbatlas
+[2024-04-30 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sync-env
+[2024-04-30 10:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diffCheck
+[2024-04-30 10:23:25] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-30 10:23:25] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-30 10:23:25] INFO root fetch - processPackages [interactions.py]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-04-30 10:23:25] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [discord-py-interactions]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-04-30 10:23:25] INFO root fetch - processPackages [diffCheck]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 10:23:25] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/2e/12/34ba9a1228605215a212a2e5d307f8995457d0d2f78f730e10fbeb433471/awscdk_resources_mongodbatlas-3.4.0.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/f5/51/a3d785858e034807a50e6660e244e5659e004b7e23bdc50c85b0d949c87b/interactions.py-5.9.1.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/77/4a/5b75eacbe898c3cb79c4dda571cf4105d2b60bf791e9b1623986603f4db4/discord-py-interactions-5.9.1.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/fa/ff98d82a2f9f4fc522a19496402edec08369d2e365bc251f895fba4f4e32/awscdk_resources_mongodbatlas-3.5.0.tar.gz
+[2024-04-30 10:23:25] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-30 10:23:25] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240430/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-30 10:23:25] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: executing diffoscope
+[2024-04-30 10:23:25] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscdk_resources_mongodbatlas-3.4.0.tar.gz tmp/awscdk_resources_mongodbatlas-3.5.0.tar.gz --markdown 20240430/a/awscdk-resources-mongodbatlas/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-04-30 10:23:26] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/89/9f/44ae117bf90722893ec4f183d2f973d2c3354114cff4165e8ffb0e52ba2b/interactions.py-5.9.2.tar.gz
+[2024-04-30 10:23:26] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/27/2d/5a6d8ec167f5f660556e94fb2d7bff1677a5e8f11454f15aac3943e3dfb3/diffCheck-0.0.9.tar.gz
+[2024-04-30 10:23:26] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-30 10:23:26] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.8.tar.gz tmp/diffCheck-0.0.9.tar.gz --markdown 20240430/d/diffCheck/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 10:23:26] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/ba/1a/24c9f03aed3f1f7e5b4a5c1b94836ec246c78fc540894bffec5fdbc372da/discord-py-interactions-5.9.2.tar.gz
+[2024-04-30 10:23:26] INFO root fetch - processPackages [interactions.py]: executing diffoscope
+[2024-04-30 10:23:26] INFO root fetch - processPackages [interactions.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions.py-5.9.1.tar.gz tmp/interactions.py-5.9.2.tar.gz --markdown 20240430/i/interactions.py/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-04-30 10:23:26] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-30 10:23:26] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-30 10:23:26] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-30 10:23:26] INFO root fetch - processPackages [discord-py-interactions]: executing diffoscope
+[2024-04-30 10:23:26] INFO root fetch - processPackages [discord-py-interactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-py-interactions-5.9.1.tar.gz tmp/discord-py-interactions-5.9.2.tar.gz --markdown 20240430/d/discord-py-interactions/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-04-30 10:23:26] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-30 10:23:26] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.9.tar.gz]
+[2024-04-30 10:23:26] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-30 10:23:27] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.4.0.tar.gz]
+[2024-04-30 10:23:27] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.5.0.tar.gz]
+[2024-04-30 10:23:27] INFO root fetch - main [MainThread]: End processing [awscdk-resources-mongodbatlas]: success
+[2024-04-30 10:23:27] INFO root fetch - processPackages [interactions.py]: Remove: archive file [/home/abi/fetcher/tmp/interactions.py-5.9.1.tar.gz]
+[2024-04-30 10:23:27] INFO root fetch - processPackages [interactions.py]: Remove: archive file [/home/abi/fetcher/tmp/interactions.py-5.9.2.tar.gz]
+[2024-04-30 10:23:27] INFO root fetch - main [MainThread]: End processing [interactions.py]: success
+[2024-04-30 10:23:27] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.9.1.tar.gz]
+[2024-04-30 10:23:27] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.9.2.tar.gz]
+[2024-04-30 10:23:27] INFO root fetch - main [MainThread]: End processing [discord-py-interactions]: success
+[2024-04-30 10:23:27] INFO root fetch - main [MainThread]: Store serial: [22998743]
