@@ -16868,3 +16868,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:25:21] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-30 09:25:21] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-30 09:25:21] INFO root fetch - main [MainThread]: Store serial: [22997814]
+[2024-04-30 09:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997814]
+[2024-04-30 09:27:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipython-ngql
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-adapter-satori
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-nebulagraph
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheap-pie
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roktools
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: housekeeper
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libro
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: helmet
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenTTDLab
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [housekeeper]: New version: [4.8.8] Old Version: [4.8.7]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.12.0]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [helmet]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [libro]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [cheap-pie]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [nonebot-adapter-satori]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [roktools]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-04-30 09:27:30] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [cheap-pie]: Downloading https://files.pythonhosted.org/packages/bb/14/fdb5fb0fecb42c20e50ba851ef613805cfe205e3de887859d10b23c312f8/cheap_pie-1.0.8.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/de/94/ad0e543e7b2a89e03a6e4931bf16fff3445d0b01fe6015cb9c35751d1c83/jupyter_nebulagraph-0.12.0.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/d6/eb/028bf9adeb0cda2dfa0bef87bb69249debf7eea1fcc6e95b7a504bbd5f8f/housekeeper-4.8.7.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/38/9e/332ff095f0a58b1f2f01a556c59f3eb43d514cbd5de0e528f6566e765f8d/nonebot_adapter_satori-0.9.2.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [helmet]: Downloading https://files.pythonhosted.org/packages/42/da/89d27ae6dc772721cc203a164c736b3f2860b42e16c09afbbd9b0c7f15dc/helmet-1.0.4.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/af/55/ed598ce7a34f5fa0c3027cd87ba36d0171049093b56927692f891258b8eb/libro-0.1.7.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-04-30 09:27:30] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/c1/bf/80683e2368b74467051e003b3bd8a728b0ed3562f20e6ebc1dc1f75c2178/roktools-6.1.1.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [cheap-pie]: Downloading https://files.pythonhosted.org/packages/88/9e/d2ec49ea5470f81cb4708fc29c54313d5b1f54465da0ba9c084174f8925f/cheap_pie-1.0.9.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240430/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/5f/a9/35e004aec87da5e76e1faa71be1fd99f4d966c233a59d3a4098dee01aec4/housekeeper-4.8.8.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/b4/63/45cf90e98509d6081103ac32e520e3fd73306f9f2d7ead8be5ece0680e16/nonebot_adapter_satori-0.9.3.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240430/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240430/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [cheap-pie]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [cheap-pie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheap_pie-1.0.8.tar.gz tmp/cheap_pie-1.0.9.tar.gz --markdown 20240430/c/cheap-pie/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [helmet]: Downloading https://files.pythonhosted.org/packages/5e/62/29e0e4e06c27ad1c8f207ba3013cbc608dc6fbd00aa64ebca38af1aa1086/helmet-1.0.5.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [housekeeper]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeper-4.8.7.tar.gz tmp/housekeeper-4.8.8.tar.gz --markdown 20240430/h/housekeeper/4.8.7-4.8.8/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [nonebot-adapter-satori]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [nonebot-adapter-satori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_satori-0.9.2.tar.gz tmp/nonebot_adapter_satori-0.9.3.tar.gz --markdown 20240430/n/nonebot-adapter-satori/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.12.0.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240430/j/jupyter-nebulagraph/0.12.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/e4/f6/3e784bbadde1ac63946d803803716209d32deb84ddd17948dac45c724e03/roktools-6.1.2.tar.gz
+[2024-04-30 09:27:31] INFO root fetch - processPackages [helmet]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [helmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helmet-1.0.4.tar.gz tmp/helmet-1.0.5.tar.gz --markdown 20240430/h/helmet/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-30 09:27:31] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-6.1.1.tar.gz tmp/roktools-6.1.2.tar.gz --markdown 20240430/r/roktools/6.1.1-6.1.2/README.md --exclude *.pyd
+[2024-04-30 09:27:31] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/1f/9c/25c2029856deb5274bf7638f4b6600507436fdbdf722f8d859dfc621579a/libro-0.1.8.tar.gz
+[2024-04-30 09:27:32] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [ipython-ngql]: Start processing: salure-helpers-salesforce
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [OpenTTDLab]: Start processing: facebook-graphql-scraper
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.12.0.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [libro]: executing diffoscope
+[2024-04-30 09:27:32] INFO root fetch - processPackages [libro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro-0.1.7.tar.gz tmp/libro-0.1.8.tar.gz --markdown 20240430/l/libro/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 09:27:32] INFO root fetch - processPackages [salure-helpers-salesforce]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.2.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.3.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-satori]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.1.1.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.1.2.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.8.7.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.8.8.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [cheap-pie]: Remove: archive file [/home/abi/fetcher/tmp/cheap_pie-1.0.8.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [cheap-pie]: Remove: archive file [/home/abi/fetcher/tmp/cheap_pie-1.0.9.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [cheap-pie]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [helmet]: Remove: archive file [/home/abi/fetcher/tmp/helmet-1.0.4.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - processPackages [helmet]: Remove: archive file [/home/abi/fetcher/tmp/helmet-1.0.5.tar.gz]
+[2024-04-30 09:27:32] INFO root fetch - main [MainThread]: End processing [helmet]: success
+[2024-04-30 09:27:32] INFO root fetch - processPackages [salure-helpers-salesforce]: Downloading https://files.pythonhosted.org/packages/62/63/310970e2388bb12d37eed6ae5f3c7eb757538e7946ec50b0451a6f5c8c69/salure_helpers_salesforce-1.4.0.tar.gz
+[2024-04-30 09:27:32] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/54/82/e7f5c47df008005870fc54e2c6688caca3222d54d7e9e213599a9da012fb/facebook-graphql-scraper-1.0.7.tar.gz
+[2024-04-30 09:27:32] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/63/65/b9182a2bb13e6bca8338ae2f8cea4b6be56b5415ac8aa5b99100f128bc69/facebook-graphql-scraper-1.0.8.tar.gz
+[2024-04-30 09:27:33] INFO root fetch - processPackages [salure-helpers-salesforce]: Downloading https://files.pythonhosted.org/packages/db/cd/0ea636ed5e19475fbce2f59f4818f0c0c47b45470fbf440f5da0ab52323d/salure_helpers_salesforce-1.4.1.tar.gz
+[2024-04-30 09:27:33] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-04-30 09:27:33] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-1.0.7.tar.gz tmp/facebook-graphql-scraper-1.0.8.tar.gz --markdown 20240430/f/facebook-graphql-scraper/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-30 09:27:33] INFO root fetch - processPackages [salure-helpers-salesforce]: executing diffoscope
+[2024-04-30 09:27:33] INFO root fetch - processPackages [salure-helpers-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_salesforce-1.4.0.tar.gz tmp/salure_helpers_salesforce-1.4.1.tar.gz --markdown 20240430/s/salure-helpers-salesforce/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-30 09:27:33] INFO root fetch - processPackages [salure-helpers-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_salesforce-1.4.0.tar.gz]
+[2024-04-30 09:27:33] INFO root fetch - processPackages [salure-helpers-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_salesforce-1.4.1.tar.gz]
+[2024-04-30 09:27:33] INFO root fetch - main [MainThread]: End processing [salure-helpers-salesforce]: success
+[2024-04-30 09:27:33] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.7.tar.gz]
+[2024-04-30 09:27:33] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.8.tar.gz]
+[2024-04-30 09:27:33] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-04-30 09:29:33] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.7.tar.gz]
+[2024-04-30 09:29:33] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.8.tar.gz]
+[2024-04-30 09:29:33] INFO root fetch - main [MainThread]: End processing [libro]: success
+[2024-04-30 09:29:33] INFO root fetch - main [MainThread]: Store serial: [22997849]
