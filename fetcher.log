@@ -22672,3 +22672,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-30 11:56:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-04-30 11:56:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-04-30 11:56:31] INFO root fetch - main [MainThread]: Store serial: [22999910]
+[2024-04-30 11:58:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999910]
+[2024-04-30 11:58:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 11:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbharatocr
+[2024-04-30 11:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flax
+[2024-04-30 11:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-pokeapi
+[2024-04-30 11:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retroapi
+[2024-04-30 11:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snapmap-archiver
+[2024-04-30 11:58:41] INFO root fetch - processPackages [openbharatocr]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-30 11:58:41] INFO root fetch - processPackages [retroapi]: New version: [0.8.2] Old Version: [0.8.0]
+[2024-04-30 11:58:41] INFO root fetch - processPackages [flax]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-30 11:58:41] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/d0/4f/82a0c6013211b78e192a67e733db2358a1c86087bc44c74660de965e9f29/openbharatocr-0.2.0.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [snapmap-archiver]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-30 11:58:41] INFO root fetch - processPackages [retroapi]: Downloading https://files.pythonhosted.org/packages/0c/0e/fbf9a87daf13d6b4a7129e6837dd66373b6599ea3521647a725ddd49f116/retroapi-0.8.0.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [airbyte-source-pokeapi]: New version: [0.2.0.dev202404300957] Old Version: [0.2.0.dev202404290843]
+[2024-04-30 11:58:41] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/21/32/968d96d29f8af0d2ea16de8dcab640cc3b3b534a6d0dcdfdd2739a85fa5c/flax-0.8.2.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [snapmap-archiver]: Downloading https://files.pythonhosted.org/packages/12/b2/bd161faf9c633892959a17241f8369551355ab9fc83cae5829b858f707e7/snapmap_archiver-2.2.0.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/4b/12/846d0d859f7f681b2a414ff7f81f63499ad80025cd376228755382fa7050/airbyte_source_pokeapi-0.2.0.dev202404290843.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [retroapi]: Downloading https://files.pythonhosted.org/packages/11/d1/da80f026a9324c81d95cd43bede6a1880c8a7420ef89e795a3527923866f/retroapi-0.8.2.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/4a/80/1e32130f3b6a5fb6fb308696444ed6f161cbb667395b3d2454275926f7e4/openbharatocr-0.2.1.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [retroapi]: executing diffoscope
+[2024-04-30 11:58:41] INFO root fetch - processPackages [retroapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retroapi-0.8.0.tar.gz tmp/retroapi-0.8.2.tar.gz --markdown 20240430/r/retroapi/0.8.0-0.8.2/README.md --exclude *.pyd
+[2024-04-30 11:58:41] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-04-30 11:58:41] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.2.0.tar.gz tmp/openbharatocr-0.2.1.tar.gz --markdown 20240430/o/openbharatocr/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-30 11:58:41] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/5e/b3/365635298fe90c904859632b43a4c5db075607b682bca72248f8805862e9/airbyte_source_pokeapi-0.2.0.dev202404300957.tar.gz
+[2024-04-30 11:58:41] INFO root fetch - processPackages [snapmap-archiver]: Downloading https://files.pythonhosted.org/packages/07/d3/50186af8b9298eb8847c55a20792eed0183f9f661d7011b7420e46a1a952/snapmap_archiver-2.3.0.tar.gz
+[2024-04-30 11:58:42] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/f3/61/feb30ff58c7d483011e29f0b80256b5937523f3bf723bd27651bd0b79082/flax-0.8.3.tar.gz
+[2024-04-30 11:58:42] INFO root fetch - processPackages [airbyte-source-pokeapi]: executing diffoscope
+[2024-04-30 11:58:42] INFO root fetch - processPackages [airbyte-source-pokeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_pokeapi-0.2.0.dev202404290843.tar.gz tmp/airbyte_source_pokeapi-0.2.0.dev202404300957.tar.gz --markdown 20240430/a/airbyte-source-pokeapi/0.2.0.dev202404290843-0.2.0.dev202404300957/README.md --exclude *.pyd
+[2024-04-30 11:58:42] INFO root fetch - processPackages [snapmap-archiver]: executing diffoscope
+[2024-04-30 11:58:42] INFO root fetch - processPackages [snapmap-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapmap_archiver-2.2.0.tar.gz tmp/snapmap_archiver-2.3.0.tar.gz --markdown 20240430/s/snapmap-archiver/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-30 11:58:42] INFO root fetch - processPackages [retroapi]: Remove: archive file [/home/abi/fetcher/tmp/retroapi-0.8.0.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - processPackages [retroapi]: Remove: archive file [/home/abi/fetcher/tmp/retroapi-0.8.2.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - main [MainThread]: End processing [retroapi]: success
+[2024-04-30 11:58:42] INFO root fetch - processPackages [flax]: executing diffoscope
+[2024-04-30 11:58:42] INFO root fetch - processPackages [flax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flax-0.8.2.tar.gz tmp/flax-0.8.3.tar.gz --markdown 20240430/f/flax/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-30 11:58:42] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.0.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.1.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-04-30 11:58:42] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.0.dev202404290843.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.0.dev202404300957.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - main [MainThread]: End processing [airbyte-source-pokeapi]: success
+[2024-04-30 11:58:42] INFO root fetch - processPackages [snapmap-archiver]: Remove: archive file [/home/abi/fetcher/tmp/snapmap_archiver-2.2.0.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - processPackages [snapmap-archiver]: Remove: archive file [/home/abi/fetcher/tmp/snapmap_archiver-2.3.0.tar.gz]
+[2024-04-30 11:58:42] INFO root fetch - main [MainThread]: End processing [snapmap-archiver]: success
+[2024-04-30 11:58:46] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.8.2.tar.gz]
+[2024-04-30 11:58:46] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.8.3.tar.gz]
+[2024-04-30 11:58:46] INFO root fetch - main [MainThread]: End processing [flax]: success
+[2024-04-30 11:58:46] INFO root fetch - main [MainThread]: Store serial: [22999925]
