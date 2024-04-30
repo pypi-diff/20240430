@@ -16709,3 +16709,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:16:00] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.2.tar.gz]
 [2024-04-30 09:16:00] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2024-04-30 09:16:00] INFO root fetch - main [MainThread]: Store serial: [22997727]
+[2024-04-30 09:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997727]
+[2024-04-30 09:18:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: base64-to-file
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rke
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getdaft
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvmtrans
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-pbx-admin
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-environment-config
+[2024-04-30 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pub-analyzer
+[2024-04-30 09:18:10] INFO root fetch - processPackages [getdaft]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 09:18:10] INFO root fetch - processPackages [django-environment-config]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 09:18:10] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1714458609] Old Version: [3.5.0a1714113569]
+[2024-04-30 09:18:10] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/14/5f/41324796d5f2c5ffeaed382df690063d9252d291e0b629d2f1078ca85eb7/django_environment_config-0.0.3.tar.gz
+[2024-04-30 09:18:10] INFO root fetch - processPackages [pub-analyzer]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-30 09:18:10] WARNING root fetch - processPackages [cvmtrans]: Skipping, unable to determine old version
+[2024-04-30 09:18:10] INFO root fetch - main [MainThread]: End processing [cvmtrans] error
+[2024-04-30 09:18:10] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-30 09:18:10] WARNING root fetch - processPackages [base64-to-file]: Skipping, unable to determine old version
+[2024-04-30 09:18:10] INFO root fetch - main [MainThread]: End processing [base64-to-file] error
+[2024-04-30 09:18:11] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/5d/b6/08398a5a152119335638ad8cff3622468b6831fa656984913b77c23b8ba7/getdaft-0.2.8.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ad/0c/e554d0bcef3a729e4d3fdde90af38a02deae3da02f5e1d92b9854e8cf4ed/pulumi_rke-3.5.0a1714113569.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pub-analyzer]: Downloading https://files.pythonhosted.org/packages/ce/9b/98c986ae8f3afcc4ddcc4920f7d542cc394a405f73b285fbc107fc567e67/pub_analyzer-0.2.0.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-04-30 09:18:11] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/83/47/f2553f39998795168594170cf2ebcbc8d5874dca2829b84da1a45f58b1fb/django_environment_config-0.0.4.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [django-environment-config]: executing diffoscope
+[2024-04-30 09:18:11] INFO root fetch - processPackages [django-environment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_environment_config-0.0.3.tar.gz tmp/django_environment_config-0.0.4.tar.gz --markdown 20240430/d/django-environment-config/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ef/25/f5f6f5693fb57804c57d4ba18504e6f864859daf4d901217e5ba416e4722/pulumi_rke-3.5.0a1714458609.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pub-analyzer]: Downloading https://files.pythonhosted.org/packages/36/88/90736eaa1950df2545b4d4d05aa20db0a498257663b8a42d90bd6d258730/pub_analyzer-0.3.0.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1714113569.tar.gz tmp/pulumi_rke-3.5.0a1714458609.tar.gz --markdown 20240430/p/pulumi-rke/3.5.0a1714113569-3.5.0a1714458609/README.md --exclude *.pyd
+[2024-04-30 09:18:11] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/20/9f/9ebde8de92ff65c454bd4f112a74b175ce76294a112c2a5576f45b4f34a5/getdaft-0.2.9.tar.gz
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pub-analyzer]: executing diffoscope
+[2024-04-30 09:18:11] INFO root fetch - processPackages [pub-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pub_analyzer-0.2.0.tar.gz tmp/pub_analyzer-0.3.0.tar.gz --markdown 20240430/p/pub-analyzer/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-30 09:18:12] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2024-04-30 09:18:12] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.2.8.tar.gz tmp/getdaft-0.2.9.tar.gz --markdown 20240430/g/getdaft/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 09:18:12] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.0.3.tar.gz]
+[2024-04-30 09:18:12] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.0.4.tar.gz]
+[2024-04-30 09:18:12] INFO root fetch - main [MainThread]: End processing [django-environment-config]: success
+[2024-04-30 09:18:12] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714113569.tar.gz]
+[2024-04-30 09:18:12] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714458609.tar.gz]
+[2024-04-30 09:18:12] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-04-30 09:18:12] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-04-30 09:18:12] INFO root fetch - processPackages [pub-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/pub_analyzer-0.2.0.tar.gz]
+[2024-04-30 09:18:12] INFO root fetch - processPackages [pub-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/pub_analyzer-0.3.0.tar.gz]
+[2024-04-30 09:18:12] INFO root fetch - main [MainThread]: End processing [pub-analyzer]: success
+[2024-04-30 09:18:15] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.2.8.tar.gz]
+[2024-04-30 09:18:15] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.2.9.tar.gz]
+[2024-04-30 09:18:15] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2024-04-30 09:18:18] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-04-30 09:18:18] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240430/d/django-pbx-admin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-30 09:18:19] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-04-30 09:18:19] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-04-30 09:18:19] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-04-30 09:18:19] INFO root fetch - main [MainThread]: Store serial: [22997759]
