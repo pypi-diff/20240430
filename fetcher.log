@@ -8417,3 +8417,60 @@
 [2024-04-30 05:20:24] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz]
 [2024-04-30 05:20:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
 [2024-04-30 05:20:24] INFO root fetch - main [MainThread]: Store serial: [22994738]
+[2024-04-30 05:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994738]
+[2024-04-30 05:22:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 05:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-04-30 05:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-04-30 05:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-04-30 05:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepl_cli
+[2024-04-30 05:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poetry-dynamic-versioning
+[2024-04-30 05:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sms-message-aws-sns-local
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-30 05:22:35] INFO root fetch - processPackages [sms-message-aws-sns-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 05:22:35] INFO root fetch - processPackages [poetry-dynamic-versioning]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zfx]: New version: [240425.1] Old Version: [20240430a0]
+[2024-04-30 05:22:35] INFO root fetch - processPackages [deepl_cli]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-30 05:22:35] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 05:22:35] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/b5/8c/2d497590b930ee0ea12a669b5747b1e2d251363d62238bd1fc127811dfff/sms_message_aws_sns_local-0.0.8.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/8f/fc/dbcca62579bb7bd72c14b802b3d9723dd19aed2fb0d01859bb2c3fca1ae7/poetry_dynamic_versioning-1.1.1.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/60/f4/489e60f51c01d83bcd8f5a981be1bb3cd022158db50e3833d8ff49c97b43/zfx-20240430a0.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [deepl_cli]: Downloading https://files.pythonhosted.org/packages/3a/d3/502c9595fe17b9089c8bbf442b51420ce909d0e3a5f059f7467cd0b0ce06/deepl_cli-0.6.0.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-30 05:22:35] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/9b/5a/3c25e8cc34e9a8c618a8a50e247085efee93fa786a9823257a0523b560de/sms_message_aws_sns_local-0.0.9.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [sms-message-aws-sns-local]: executing diffoscope
+[2024-04-30 05:22:35] INFO root fetch - processPackages [sms-message-aws-sns-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sms_message_aws_sns_local-0.0.8.tar.gz tmp/sms_message_aws_sns_local-0.0.9.tar.gz --markdown 20240430/s/sms-message-aws-sns-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 05:22:35] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-30 05:22:35] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240430/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240430/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-30 05:22:35] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/5c/82/55c01b89023e65c478d8223cf224d3bea1ad7736e62c99c43375435931b0/zfx-240425.1.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [deepl_cli]: Downloading https://files.pythonhosted.org/packages/dc/ee/481e5b699e01b2a0ccc69299ce5c861badda1fae712559bbd6ba4beb58e4/deepl_cli-0.7.0.tar.gz
+[2024-04-30 05:22:35] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/02/f8/435ff55b5cfd4a17fe520b43ae327bb4337aabbc949fd7b0702291b7f027/poetry_dynamic_versioning-1.2.0.tar.gz
+[2024-04-30 05:22:36] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 05:22:36] INFO root fetch - processPackages [deepl_cli]: executing diffoscope
+[2024-04-30 05:22:36] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-20240430a0.tar.gz tmp/zfx-240425.1.tar.gz --markdown 20240430/z/zfx/20240430a0-240425.1/README.md --exclude *.pyd
+[2024-04-30 05:22:36] INFO root fetch - processPackages [deepl_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_cli-0.6.0.tar.gz tmp/deepl_cli-0.7.0.tar.gz --markdown 20240430/d/deepl_cli/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-30 05:22:36] INFO root fetch - processPackages [poetry-dynamic-versioning]: executing diffoscope
+[2024-04-30 05:22:36] INFO root fetch - processPackages [poetry-dynamic-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_dynamic_versioning-1.1.1.tar.gz tmp/poetry_dynamic_versioning-1.2.0.tar.gz --markdown 20240430/p/poetry-dynamic-versioning/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-30 05:22:36] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.8.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.9.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - main [MainThread]: End processing [sms-message-aws-sns-local]: success
+[2024-04-30 05:22:36] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-30 05:22:36] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240430a0.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-240425.1.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 05:22:36] INFO root fetch - processPackages [deepl_cli]: Remove: archive file [/home/abi/fetcher/tmp/deepl_cli-0.6.0.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - processPackages [deepl_cli]: Remove: archive file [/home/abi/fetcher/tmp/deepl_cli-0.7.0.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - main [MainThread]: End processing [deepl_cli]: success
+[2024-04-30 05:22:36] INFO root fetch - processPackages [poetry-dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dynamic_versioning-1.1.1.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - processPackages [poetry-dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dynamic_versioning-1.2.0.tar.gz]
+[2024-04-30 05:22:36] INFO root fetch - main [MainThread]: End processing [poetry-dynamic-versioning]: success
+[2024-04-30 05:22:37] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-30 05:22:37] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-30 05:22:37] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-30 05:22:37] INFO root fetch - main [MainThread]: Store serial: [22994760]
