@@ -21459,3 +21459,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:17:26] INFO root fetch - processPackages [instamatic]: Remove: archive file [/home/abi/fetcher/tmp/instamatic-2.0.1.tar.gz]
 [2024-04-30 11:17:26] INFO root fetch - main [MainThread]: End processing [instamatic]: success
 [2024-04-30 11:17:26] INFO root fetch - main [MainThread]: Store serial: [22999470]
+[2024-04-30 11:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999470]
+[2024-04-30 11:19:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 11:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiqa
+[2024-04-30 11:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: journeylib
+[2024-04-30 11:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tksheet
+[2024-04-30 11:19:35] INFO root fetch - processPackages [journeylib]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-04-30 11:19:35] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/47/d3/95e10c792265e778307b47c380634989ab1267c080bb9e60cd3cb2c1d07d/journeylib-0.1.1.tar.gz
+[2024-04-30 11:19:35] INFO root fetch - processPackages [pyiqa]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 11:19:35] INFO root fetch - processPackages [tksheet]: New version: [7.1.9] Old Version: [7.1.8]
+[2024-04-30 11:19:35] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/ed/23/2594cb5723cacdb5a079df0ed7ff88dc12e32cea7875fd14d22aa6ec18ad/journeylib-1.0.0.tar.gz
+[2024-04-30 11:19:35] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/e1/d1/7d3935e2e7fc9a270abf70eb8510edded54952637da5a1271cc5edb3a601/tksheet-7.1.8.tar.gz
+[2024-04-30 11:19:35] INFO root fetch - processPackages [journeylib]: executing diffoscope
+[2024-04-30 11:19:35] INFO root fetch - processPackages [journeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journeylib-0.1.1.tar.gz tmp/journeylib-1.0.0.tar.gz --markdown 20240430/j/journeylib/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-04-30 11:19:35] INFO root fetch - processPackages [pyiqa]: Downloading https://files.pythonhosted.org/packages/d6/92/06092fc05cdb9e265b71bb9399f62b25861dd43c16553fa4c4486cd5bb3b/pyiqa-0.1.7.tar.gz
+[2024-04-30 11:19:36] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/f4/a6/f9c8f89a179e91b61ba3303e6ee4f77b95609f549aca467017c71b943401/tksheet-7.1.9.tar.gz
+[2024-04-30 11:19:36] INFO root fetch - processPackages [pyiqa]: Downloading https://files.pythonhosted.org/packages/5e/b0/8adf5bbf914369d482f6fb41d9ee4e8a92a5808417a9a34da137f45d4041/pyiqa-0.1.8.tar.gz
+[2024-04-30 11:19:36] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2024-04-30 11:19:36] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-7.1.8.tar.gz tmp/tksheet-7.1.9.tar.gz --markdown 20240430/t/tksheet/7.1.8-7.1.9/README.md --exclude *.pyd
+[2024-04-30 11:19:36] INFO root fetch - processPackages [pyiqa]: executing diffoscope
+[2024-04-30 11:19:36] INFO root fetch - processPackages [pyiqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiqa-0.1.7.tar.gz tmp/pyiqa-0.1.8.tar.gz --markdown 20240430/p/pyiqa/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 11:19:36] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-0.1.1.tar.gz]
+[2024-04-30 11:19:36] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-1.0.0.tar.gz]
+[2024-04-30 11:19:36] INFO root fetch - main [MainThread]: End processing [journeylib]: success
+[2024-04-30 11:19:37] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.1.8.tar.gz]
+[2024-04-30 11:19:37] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.1.9.tar.gz]
+[2024-04-30 11:19:37] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2024-04-30 11:19:37] INFO root fetch - processPackages [pyiqa]: Remove: archive file [/home/abi/fetcher/tmp/pyiqa-0.1.7.tar.gz]
+[2024-04-30 11:19:37] INFO root fetch - processPackages [pyiqa]: Remove: archive file [/home/abi/fetcher/tmp/pyiqa-0.1.8.tar.gz]
+[2024-04-30 11:19:37] INFO root fetch - main [MainThread]: End processing [pyiqa]: success
+[2024-04-30 11:19:37] INFO root fetch - main [MainThread]: Store serial: [22999484]
