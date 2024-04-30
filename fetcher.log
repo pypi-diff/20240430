@@ -2702,3 +2702,42 @@
 [2024-04-30 02:40:03] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
 [2024-04-30 02:40:03] INFO root fetch - main [MainThread]: End processing [fastapi]: success
 [2024-04-30 02:40:03] INFO root fetch - main [MainThread]: Store serial: [22992671]
+[2024-04-30 02:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992671]
+[2024-04-30 02:42:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 02:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskflows
+[2024-04-30 02:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-04-30 02:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cocorum
+[2024-04-30 02:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-samus-returns-rando
+[2024-04-30 02:42:21] INFO root fetch - processPackages [open-samus-returns-rando]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-30 02:42:21] INFO root fetch - processPackages [pytubefix]: New version: [5.3rc1] Old Version: [5.2rc1]
+[2024-04-30 02:42:21] INFO root fetch - processPackages [cocorum]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-30 02:42:21] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/92/13/95f5228261b749675e934be530e025bdfc5670faf789e82db1f5f109f370/open_samus_returns_rando-1.2.0.tar.gz
+[2024-04-30 02:42:21] INFO root fetch - processPackages [taskflows]: New version: [0.4.1] Old Version: [0.3.8]
+[2024-04-30 02:42:21] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/a0/f9/8d53c1d4431b100b37bee42bb7579ff32a56f9b15c224bc06584f578144b/pytubefix-5.2rc1.tar.gz
+[2024-04-30 02:42:21] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/9a/b6/5288132dbe0014ab3df7d2dfbf0e3f93597e7987fe7f8f05e948455cdeb1/cocorum-0.2.0.tar.gz
+[2024-04-30 02:42:21] INFO root fetch - processPackages [taskflows]: Downloading https://files.pythonhosted.org/packages/dc/16/969254abb007b6e39519ae4ebf588454d9ba17e296c97ae7d272d93d7fa2/taskflows-0.3.8-py3-none-any.whl
+[2024-04-30 02:42:21] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/9a/00/57a16f1816acbf53986f957c994685c7b8faa60f2973392a7db79f86773f/pytubefix-5.3rc1.tar.gz
+[2024-04-30 02:42:21] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/09/d8/10bf06bdaedb7eeb21bc7d0037da486e4f40ae90e7b66e618962283adc9e/open_samus_returns_rando-1.2.1.tar.gz
+[2024-04-30 02:42:21] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-30 02:42:21] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.2rc1.tar.gz tmp/pytubefix-5.3rc1.tar.gz --markdown 20240430/p/pytubefix/5.2rc1-5.3rc1/README.md --exclude *.pyd
+[2024-04-30 02:42:21] INFO root fetch - processPackages [open-samus-returns-rando]: executing diffoscope
+[2024-04-30 02:42:21] INFO root fetch - processPackages [open-samus-returns-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_samus_returns_rando-1.2.0.tar.gz tmp/open_samus_returns_rando-1.2.1.tar.gz --markdown 20240430/o/open-samus-returns-rando/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-30 02:42:21] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/dd/c9/8ce1955d07788e552f36959b3cbe790bba537fc29775e73ab4e29a950c8d/cocorum-0.3.0.tar.gz
+[2024-04-30 02:42:21] INFO root fetch - processPackages [taskflows]: Downloading https://files.pythonhosted.org/packages/b3/49/5ecdfc8ac251dace785b1db752ce9753135d5a86b09b989530c893d25467/taskflows-0.4.1-py3-none-any.whl
+[2024-04-30 02:42:21] INFO root fetch - processPackages [cocorum]: executing diffoscope
+[2024-04-30 02:42:21] INFO root fetch - processPackages [cocorum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocorum-0.2.0.tar.gz tmp/cocorum-0.3.0.tar.gz --markdown 20240430/c/cocorum/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-30 02:42:21] INFO root fetch - processPackages [taskflows]: executing diffoscope
+[2024-04-30 02:42:21] INFO root fetch - processPackages [taskflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskflows-0.3.8-py3-none-any.whl.zip tmp/taskflows-0.4.1-py3-none-any.whl.zip --markdown 20240430/t/taskflows/0.3.8-0.4.1/README.md --exclude *.pyd
+[2024-04-30 02:42:22] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.2rc1.tar.gz]
+[2024-04-30 02:42:22] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc1.tar.gz]
+[2024-04-30 02:42:22] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-30 02:42:22] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-0.2.0.tar.gz]
+[2024-04-30 02:42:22] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-0.3.0.tar.gz]
+[2024-04-30 02:42:22] INFO root fetch - main [MainThread]: End processing [cocorum]: success
+[2024-04-30 02:42:22] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.2.0.tar.gz]
+[2024-04-30 02:42:22] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.2.1.tar.gz]
+[2024-04-30 02:42:22] INFO root fetch - main [MainThread]: End processing [open-samus-returns-rando]: success
+[2024-04-30 02:42:22] INFO root fetch - processPackages [taskflows]: Remove: archive file [/home/abi/fetcher/tmp/taskflows-0.3.8-py3-none-any.whl.zip]
+[2024-04-30 02:42:22] INFO root fetch - processPackages [taskflows]: Remove: archive file [/home/abi/fetcher/tmp/taskflows-0.4.1-py3-none-any.whl.zip]
+[2024-04-30 02:42:22] INFO root fetch - main [MainThread]: End processing [taskflows]: success
+[2024-04-30 02:42:22] INFO root fetch - main [MainThread]: Store serial: [22992683]
