@@ -15849,3 +15849,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:41:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.5.0.tar.gz]
 [2024-04-30 08:41:36] INFO root fetch - main [MainThread]: End processing [awscdk-resources-mongodbatlas]: success
 [2024-04-30 08:41:36] INFO root fetch - main [MainThread]: Store serial: [22997395]
+[2024-04-30 08:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997395]
+[2024-04-30 08:43:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-picking-sale-order-link
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yafowil.bootstrap
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pircpy
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: festo-edcon
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prometrix
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fs-file
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-fs-file-demo
+[2024-04-30 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: usports-basketball
+[2024-04-30 08:43:46] INFO root fetch - processPackages [yafowil.bootstrap]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-30 08:43:47] WARNING root fetch - processPackages [Pircpy]: Skipping, unable to determine old version
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-30 08:43:47] INFO root fetch - main [MainThread]: End processing [Pircpy] error
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-30 08:43:47] INFO root fetch - processPackages [prometrix]: New version: [0.1.18] Old Version: [0.1.17]
+[2024-04-30 08:43:47] INFO root fetch - processPackages [festo-edcon]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-30 08:43:47] INFO root fetch - processPackages [usports-basketball]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 08:43:47] INFO root fetch - processPackages [yafowil.bootstrap]: Downloading https://files.pythonhosted.org/packages/27/fc/2512d4289f452f614cda79b2bcfaa50bd661bfd09e8099913274de8887c1/yafowil.bootstrap-2.0.0a1.tar.gz
+[2024-04-30 08:43:47] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/99/d8/8f6698c07f7e349a06ea0e8772e1c1e043b1860624adb71e8bf76f5a4602/prometrix-0.1.17.tar.gz
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file]: Downloading https://files.pythonhosted.org/packages/47/30/a2036f7d436d219808d828bcffc69fe618e1904376d76df06b748f816407/odoo_addon_fs_file-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Downloading https://files.pythonhosted.org/packages/88/0d/b54bd3cdea1a2bbd0fe8db681da4bf7387d49fca7a43ecb33da0222a1826/odoo_addon_fs_file_demo-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Downloading https://files.pythonhosted.org/packages/0d/64/d84bca2c5d98cc3f489a340288b2a61907fa9727efbb9ac5b4874679e65c/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/fb/80/032d30184e045615ab1e535a158fa764b4e55b85d7d50ec9d6c090e9e4a7/festo_edcon-0.8.0-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [usports-basketball]: Downloading https://files.pythonhosted.org/packages/d4/82/6b3e79de8b296df24b78435c56c0ebde88477cb990aeb66f60df9e4b21f8/usports_basketball-0.0.1.tar.gz
+[2024-04-30 08:43:47] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/c6/fd/ca88bbd35984e91cbeb8231d0a9e636693e2085b7cbb8fa36bcb9a163739/prometrix-0.1.18.tar.gz
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file]: Downloading https://files.pythonhosted.org/packages/0e/11/b57bab740a233a5da1168d61f08a9fa74373859f97d631abec4cd4ebe633/odoo_addon_fs_file-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Downloading https://files.pythonhosted.org/packages/5d/f8/797b3685e70115503e779bb707f14771eb1ce138eb066adbcddfcd3888e9/odoo_addon_fs_file_demo-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Downloading https://files.pythonhosted.org/packages/0b/eb/8a009d82935e6a901d92f5ad09e767c0c34a3d691d4862e7335ce438fbed/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [prometrix]: executing diffoscope
+[2024-04-30 08:43:47] INFO root fetch - processPackages [prometrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometrix-0.1.17.tar.gz tmp/prometrix-0.1.18.tar.gz --markdown 20240430/p/prometrix/0.1.17-0.1.18/README.md --exclude *.pyd
+[2024-04-30 08:43:47] INFO root fetch - processPackages [usports-basketball]: Downloading https://files.pythonhosted.org/packages/4c/c7/1624d0843f0aa73e67813c950ffb6862737c204521e084023b24221603a7/usports_basketball-0.0.2-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/78/fc/7a8ecf8113702455aa6143ab630b5c8929208cc84ac3c4a7570417569523/festo_edcon-0.9.0-py3-none-any.whl
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file]: executing diffoscope
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_file-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_fs_file-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fs-file/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: executing diffoscope
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_file_demo-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_fs_file_demo-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-fs-file-demo/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: executing diffoscope
+[2024-04-30 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-stock-picking-sale-order-link/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-30 08:43:47] INFO root fetch - processPackages [usports-basketball]: executing diffoscope
+[2024-04-30 08:43:47] INFO root fetch - processPackages [usports-basketball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usports_basketball-0.0.1.tar.gz tmp/usports_basketball-0.0.2-py3-none-any.whl.zip --markdown 20240430/u/usports-basketball/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 08:43:47] INFO root fetch - processPackages [festo-edcon]: executing diffoscope
+[2024-04-30 08:43:47] INFO root fetch - processPackages [festo-edcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/festo_edcon-0.8.0-py3-none-any.whl.zip tmp/festo_edcon-0.9.0-py3-none-any.whl.zip --markdown 20240430/f/festo-edcon/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-30 08:43:47] INFO root fetch - processPackages [yafowil.bootstrap]: Downloading https://files.pythonhosted.org/packages/71/81/037ae9a31e17b885a99e587fa88c1b82651820c1498c9b7b95f4b3430aa8/yafowil.bootstrap-2.0.0a2.tar.gz
+[2024-04-30 08:43:48] INFO root fetch - processPackages [yafowil.bootstrap]: executing diffoscope
+[2024-04-30 08:43:48] INFO root fetch - processPackages [yafowil.bootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafowil.bootstrap-2.0.0a1.tar.gz tmp/yafowil.bootstrap-2.0.0a2.tar.gz --markdown 20240430/y/yafowil.bootstrap/2.0.0a1-2.0.0a2/README.md --exclude *.pyd
+[2024-04-30 08:43:48] INFO root fetch - processPackages [usports-basketball]: Remove: archive file [/home/abi/fetcher/tmp/usports_basketball-0.0.1.tar.gz]
+[2024-04-30 08:43:48] INFO root fetch - processPackages [usports-basketball]: Remove: archive file [/home/abi/fetcher/tmp/usports_basketball-0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - main [MainThread]: End processing [usports-basketball]: success
+[2024-04-30 08:43:48] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-sale-order-link]: success
+[2024-04-30 08:43:48] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file_demo-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file_demo-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-file-demo]: success
+[2024-04-30 08:43:48] INFO root fetch - processPackages [odoo-addon-fs-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - processPackages [odoo-addon-fs-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-file]: success
+[2024-04-30 08:43:48] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.17.tar.gz]
+[2024-04-30 08:43:48] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.18.tar.gz]
+[2024-04-30 08:43:48] INFO root fetch - main [MainThread]: End processing [prometrix]: success
+[2024-04-30 08:43:48] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.8.0-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.9.0-py3-none-any.whl.zip]
+[2024-04-30 08:43:48] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
+[2024-04-30 08:44:01] INFO root fetch - processPackages [yafowil.bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/yafowil.bootstrap-2.0.0a1.tar.gz]
+[2024-04-30 08:44:01] INFO root fetch - processPackages [yafowil.bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/yafowil.bootstrap-2.0.0a2.tar.gz]
+[2024-04-30 08:44:01] INFO root fetch - main [MainThread]: End processing [yafowil.bootstrap]: success
+[2024-04-30 08:44:01] INFO root fetch - main [MainThread]: Store serial: [22997416]
