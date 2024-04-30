@@ -13988,3 +13988,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:39:35] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.9.tar.gz]
 [2024-04-30 07:39:35] INFO root fetch - main [MainThread]: End processing [catnekaise.ghrawel]: success
 [2024-04-30 07:39:35] INFO root fetch - main [MainThread]: Store serial: [22996654]
+[2024-04-30 07:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996654]
+[2024-04-30 07:41:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudinit
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qsm-forward
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotx
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wells4hydrogeology
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-confluentcloud
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmport
+[2024-04-30 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-cloudflare
+[2024-04-30 07:41:44] INFO root fetch - processPackages [wells4hydrogeology]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-30 07:41:44] WARNING root fetch - processPackages [aiotx]: Skipping, unable to determine old version
+[2024-04-30 07:41:44] INFO root fetch - main [MainThread]: End processing [aiotx] error
+[2024-04-30 07:41:44] INFO root fetch - processPackages [qsm-forward]: New version: [0.9] Old Version: [0.8]
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1714454566] Old Version: [1.5.0a1714108936]
+[2024-04-30 07:41:44] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-30 07:41:44] INFO root fetch - processPackages [kmport]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-30 07:41:44] INFO root fetch - processPackages [wells4hydrogeology]: Downloading https://files.pythonhosted.org/packages/38/64/f8848dc82dada4490b4b62680c17df2eed0ab4ed7348d99dd21bbaf72589/wells4hydrogeology-0.0.7.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/55/c2/85b6738d381dc01e2306fecf7276c3b176fa7f2ba46233b8cdf81248954e/pulumi_cloudinit-1.5.0a1714108936.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-30 07:41:44] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/07/5f/fdd706ea07c1da0d10178206ddb7c55847c3b9301a2b783deb2e1ed75771/kmport-2.1.8.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [wells4hydrogeology]: Downloading https://files.pythonhosted.org/packages/d9/25/055d3b467f4f52ff75f762fae00f967fe59e276bb553111b594014704dd0/wells4hydrogeology-0.0.9.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/ee/d7/301da079cbfb3b782d5e36941a9e6b3d9aa409001503f64db64526d78c64/pulumi_cloudinit-1.5.0a1714454566.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [wells4hydrogeology]: executing diffoscope
+[2024-04-30 07:41:44] INFO root fetch - processPackages [wells4hydrogeology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wells4hydrogeology-0.0.7.tar.gz tmp/wells4hydrogeology-0.0.9.tar.gz --markdown 20240430/w/wells4hydrogeology/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-30 07:41:44] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/cf/a6/a45040db97aabb2edc05bde1a372786067c777c4dd2decbccb1a7869e501/kmport-2.1.9.tar.gz
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-04-30 07:41:44] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1714108936.tar.gz tmp/pulumi_cloudinit-1.5.0a1714454566.tar.gz --markdown 20240430/p/pulumi-cloudinit/1.5.0a1714108936-1.5.0a1714454566/README.md --exclude *.pyd
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-30 07:41:45] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-04-30 07:41:45] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.8.tar.gz tmp/kmport-2.1.9.tar.gz --markdown 20240430/k/kmport/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-30 07:41:45] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240430/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-30 07:41:45] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/96/7b/310a7a2cedda42fe3d293c41def115dce8f20fe7d50a71936aa9052822cd/qsm-forward-0.9.tar.gz
+[2024-04-30 07:41:45] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-30 07:41:45] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240430/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-30 07:41:45] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2024-04-30 07:41:45] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.8.tar.gz tmp/qsm-forward-0.9.tar.gz --markdown 20240430/q/qsm-forward/0.8-0.9/README.md --exclude *.pyd
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1714108936.tar.gz]
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1714454566.tar.gz]
+[2024-04-30 07:41:45] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-04-30 07:41:45] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.7.tar.gz]
+[2024-04-30 07:41:45] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.9.tar.gz]
+[2024-04-30 07:41:45] INFO root fetch - main [MainThread]: End processing [wells4hydrogeology]: success
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-30 07:41:45] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240430/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-04-30 07:41:46] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.8.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.9.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-04-30 07:41:46] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-30 07:41:46] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.9.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2024-04-30 07:41:46] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-30 07:41:46] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-30 07:41:46] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-30 07:41:46] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-30 07:41:46] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-30 07:41:46] INFO root fetch - main [MainThread]: Store serial: [22996699]
