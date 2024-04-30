@@ -21426,3 +21426,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:15:13] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404300844.tar.gz]
 [2024-04-30 11:15:13] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
 [2024-04-30 11:15:13] INFO root fetch - main [MainThread]: Store serial: [22999453]
+[2024-04-30 11:17:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999453]
+[2024-04-30 11:17:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 11:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grasp2alm
+[2024-04-30 11:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instamatic
+[2024-04-30 11:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2024-04-30 11:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-core
+[2024-04-30 11:17:23] INFO root fetch - processPackages [instamatic]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-30 11:17:23] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 11:17:23] WARNING root fetch - processPackages [grasp2alm]: Skipping, unable to determine old version
+[2024-04-30 11:17:23] INFO root fetch - main [MainThread]: End processing [grasp2alm] error
+[2024-04-30 11:17:23] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-30 11:17:23] INFO root fetch - processPackages [instamatic]: Downloading https://files.pythonhosted.org/packages/45/72/ef064cb83580da1712730f5e3f6cebc9426704859c21a4bde879260a0700/instamatic-2.0.0.tar.gz
+[2024-04-30 11:17:24] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-30 11:17:24] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-30 11:17:24] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-30 11:17:24] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-30 11:17:24] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-30 11:17:24] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240430/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 11:17:24] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-30 11:17:24] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240430/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-30 11:17:24] INFO root fetch - processPackages [instamatic]: Downloading https://files.pythonhosted.org/packages/96/3c/344ac27cdb028f1c332628758ede03ed1873a7c440418c0920e862cabe5e/instamatic-2.0.1.tar.gz
+[2024-04-30 11:17:25] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-30 11:17:25] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-30 11:17:25] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-30 11:17:25] INFO root fetch - processPackages [instamatic]: executing diffoscope
+[2024-04-30 11:17:25] INFO root fetch - processPackages [instamatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instamatic-2.0.0.tar.gz tmp/instamatic-2.0.1.tar.gz --markdown 20240430/i/instamatic/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-30 11:17:26] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-30 11:17:26] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-30 11:17:26] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-30 11:17:26] INFO root fetch - processPackages [instamatic]: Remove: archive file [/home/abi/fetcher/tmp/instamatic-2.0.0.tar.gz]
+[2024-04-30 11:17:26] INFO root fetch - processPackages [instamatic]: Remove: archive file [/home/abi/fetcher/tmp/instamatic-2.0.1.tar.gz]
+[2024-04-30 11:17:26] INFO root fetch - main [MainThread]: End processing [instamatic]: success
+[2024-04-30 11:17:26] INFO root fetch - main [MainThread]: Store serial: [22999470]
