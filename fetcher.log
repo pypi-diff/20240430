@@ -2848,3 +2848,36 @@
 [2024-04-30 02:49:58] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-30 02:49:58] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-30 02:49:58] INFO root fetch - main [MainThread]: Store serial: [22992723]
+[2024-04-30 02:52:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992723]
+[2024-04-30 02:52:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-30 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reproducibly
+[2024-04-30 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numsys-comp
+[2024-04-30 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2024-04-30 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-explorer
+[2024-04-30 02:52:15] INFO root fetch - processPackages [model-explorer]: New version: [0.0.81] Old Version: [0.0.80]
+[2024-04-30 02:52:15] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-30 02:52:15] INFO root fetch - processPackages [reproducibly]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-30 02:52:15] WARNING root fetch - processPackages [numsys-comp]: Skipping, unable to determine old version
+[2024-04-30 02:52:15] INFO root fetch - main [MainThread]: End processing [numsys-comp] error
+[2024-04-30 02:52:15] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/c9/06/1f25eeab17abf5bd04f1168d6b3d3287a74bb05d318b9763d69fa3ec256a/model_explorer-0.0.80.tar.gz
+[2024-04-30 02:52:15] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-30 02:52:15] INFO root fetch - processPackages [reproducibly]: Downloading https://files.pythonhosted.org/packages/f2/b4/8bdb353f24f38f2a2d01babcd63601e2e3bd228fecff15969944921af9ef/reproducibly-0.0.5.tar.gz
+[2024-04-30 02:52:16] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/62/3b/3a86ea3eb631c6c24294faa2ec6bc7a7da912d7c187abdc3284297ee796d/model_explorer-0.0.81.tar.gz
+[2024-04-30 02:52:16] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-30 02:52:16] INFO root fetch - processPackages [reproducibly]: Downloading https://files.pythonhosted.org/packages/6a/84/be38c41955b28478b3e910b03c53c02b27d1223447019925298b4329edde/reproducibly-0.0.6.tar.gz
+[2024-04-30 02:52:16] INFO root fetch - processPackages [reproducibly]: executing diffoscope
+[2024-04-30 02:52:16] INFO root fetch - processPackages [reproducibly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reproducibly-0.0.5.tar.gz tmp/reproducibly-0.0.6.tar.gz --markdown 20240430/r/reproducibly/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-30 02:52:16] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-30 02:52:16] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240430/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-04-30 02:52:16] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-30 02:52:16] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer-0.0.80.tar.gz tmp/model_explorer-0.0.81.tar.gz --markdown 20240430/m/model-explorer/0.0.80-0.0.81/README.md --exclude *.pyd
+[2024-04-30 02:52:16] INFO root fetch - processPackages [reproducibly]: Remove: archive file [/home/abi/fetcher/tmp/reproducibly-0.0.5.tar.gz]
+[2024-04-30 02:52:16] INFO root fetch - processPackages [reproducibly]: Remove: archive file [/home/abi/fetcher/tmp/reproducibly-0.0.6.tar.gz]
+[2024-04-30 02:52:16] INFO root fetch - main [MainThread]: End processing [reproducibly]: success
+[2024-04-30 02:52:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-30 02:52:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-30 02:52:19] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-30 02:52:25] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.80.tar.gz]
+[2024-04-30 02:52:25] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.81.tar.gz]
+[2024-04-30 02:52:25] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-30 02:52:25] INFO root fetch - main [MainThread]: Store serial: [22992739]
