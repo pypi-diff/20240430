@@ -15168,3 +15168,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:23:53] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.60.tar.gz]
 [2024-04-30 08:23:53] INFO root fetch - main [MainThread]: End processing [monisha]: success
 [2024-04-30 08:23:53] INFO root fetch - main [MainThread]: Store serial: [22997104]
+[2024-04-30 08:25:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997104]
+[2024-04-30 08:26:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 08:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-databricks
+[2024-04-30 08:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seacrowd
+[2024-04-30 08:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-mongodbatlas
+[2024-04-30 08:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-proxmoxve
+[2024-04-30 08:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncer-slim
+[2024-04-30 08:26:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asyncer
+[2024-04-30 08:26:02] INFO root fetch - processPackages [seacrowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer]: New version: [0.0.7.dev1] Old Version: [0.0.6.dev1]
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer-slim]: New version: [0.0.7.dev1] Old Version: [0.0.1]
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-04-30 08:26:02] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/1f/ba/346de6683a7e18210cd836f5cfbcd169e5daa3d6a3cd013d360925353530/seacrowd-0.0.8.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [6.5.0] Old Version: [6.4.1]
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer]: Downloading https://files.pythonhosted.org/packages/ea/40/44c45562d3ccce9830509fdf124dd26ae9e2ae49f91a721ce66d7d7f95c4/asyncer-0.0.6.dev1.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer-slim]: Downloading https://files.pythonhosted.org/packages/7b/be/96c5e632a8acabc01ee49620cc90d975cd62278d3c1cf1d70398416ef1d7/asyncer_slim-0.0.1.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer-slim]: Downloading https://files.pythonhosted.org/packages/80/22/135917a13d97117645de9d96ab6c4fcd60dca76a55b636cd4209de07e8d7/asyncer_slim-0.0.7.dev1.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/6c/ae/3c8a7c53895adc33e5e50b8e3f3fdd736699c1413fc4e32f87c7e295488f/pulumi_proxmoxve-6.4.1.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/db/e5/e823c1dd15f44fad1df7f17a4bc789afab1d6f35bdcec84ae1dcd8010936/seacrowd-0.0.9.tar.gz
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer-slim]: executing diffoscope
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncer_slim-0.0.1.tar.gz tmp/asyncer_slim-0.0.7.dev1.tar.gz --markdown 20240430/a/asyncer-slim/0.0.1-0.0.7.dev1/README.md --exclude *.pyd
+[2024-04-30 08:26:02] INFO root fetch - processPackages [asyncer]: Downloading https://files.pythonhosted.org/packages/1b/0d/387788a62556a70ac5b24ad0df7f5ac6ac5454218d02e015772d2cc5f3c6/asyncer-0.0.7.dev1.tar.gz
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240430/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-04-30 08:26:03] INFO root fetch - processPackages [asyncer]: executing diffoscope
+[2024-04-30 08:26:03] INFO root fetch - processPackages [asyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncer-0.0.6.dev1.tar.gz tmp/asyncer-0.0.7.dev1.tar.gz --markdown 20240430/a/asyncer/0.0.6.dev1-0.0.7.dev1/README.md --exclude *.pyd
+[2024-04-30 08:26:03] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-30 08:26:03] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.8.tar.gz tmp/seacrowd-0.0.9.tar.gz --markdown 20240430/s/seacrowd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/a7/09/f9309f1729728f5e8e1c0546a5d18b77f2882338c1a927ef55cb4855433e/pulumi_proxmoxve-6.5.0.tar.gz
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-6.4.1.tar.gz tmp/pulumi_proxmoxve-6.5.0.tar.gz --markdown 20240430/p/pulumi-proxmoxve/6.4.1-6.5.0/README.md --exclude *.pyd
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-04-30 08:26:03] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240430/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-30 08:26:03] INFO root fetch - processPackages [asyncer-slim]: Remove: archive file [/home/abi/fetcher/tmp/asyncer_slim-0.0.1.tar.gz]
+[2024-04-30 08:26:03] INFO root fetch - processPackages [asyncer-slim]: Remove: archive file [/home/abi/fetcher/tmp/asyncer_slim-0.0.7.dev1.tar.gz]
+[2024-04-30 08:26:03] INFO root fetch - main [MainThread]: End processing [asyncer-slim]: success
+[2024-04-30 08:26:03] INFO root fetch - processPackages [asyncer]: Remove: archive file [/home/abi/fetcher/tmp/asyncer-0.0.6.dev1.tar.gz]
+[2024-04-30 08:26:03] INFO root fetch - processPackages [asyncer]: Remove: archive file [/home/abi/fetcher/tmp/asyncer-0.0.7.dev1.tar.gz]
+[2024-04-30 08:26:03] INFO root fetch - main [MainThread]: End processing [asyncer]: success
+[2024-04-30 08:26:04] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.4.1.tar.gz]
+[2024-04-30 08:26:04] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.5.0.tar.gz]
+[2024-04-30 08:26:04] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2024-04-30 08:26:04] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-04-30 08:26:04] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-04-30 08:26:04] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-04-30 08:26:05] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
+[2024-04-30 08:26:05] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
+[2024-04-30 08:26:05] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-30 08:26:05] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-04-30 08:26:05] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-04-30 08:26:05] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-04-30 08:26:05] INFO root fetch - main [MainThread]: Store serial: [22997160]
