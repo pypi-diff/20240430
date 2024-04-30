@@ -14970,3 +14970,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 08:17:17] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240429.tar.gz]
 [2024-04-30 08:17:17] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-04-30 08:17:17] INFO root fetch - main [MainThread]: Store serial: [22997011]
+[2024-04-30 08:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997011]
+[2024-04-30 08:19:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-get
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seacrowd
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecv-python-development
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-repair
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saltstack-age
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-linode
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-datetime-formatter
+[2024-04-30 08:19:29] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-30 08:19:29] INFO root fetch - processPackages [seacrowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.58] Old Version: [0.0.57]
+[2024-04-30 08:19:29] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-04-30 08:19:29] WARNING root fetch - processPackages [git-get]: Skipping, unable to determine old version
+[2024-04-30 08:19:29] INFO root fetch - main [MainThread]: End processing [git-get] error
+[2024-04-30 08:19:29] WARNING root fetch - processPackages [saltstack-age]: Skipping, unable to determine old version
+[2024-04-30 08:19:29] INFO root fetch - main [MainThread]: End processing [saltstack-age] error
+[2024-04-30 08:19:29] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-30 08:19:29] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-30 08:19:29] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/94/04/9e325cc506c41f4c5de8f126e791307762c568b30c3ef7092b5b0b64a497/ecv-python-development-0.0.57.tar.gz
+[2024-04-30 08:19:29] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/1f/ba/346de6683a7e18210cd836f5cfbcd169e5daa3d6a3cd013d360925353530/seacrowd-0.0.8.tar.gz
+[2024-04-30 08:19:29] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-04-30 08:19:30] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Downloading https://files.pythonhosted.org/packages/34/75/078425425da158d6b0cd79b662bf64e26fa9a489c1684d2428a2324934c9/odoo_addon_datetime_formatter-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/db/e5/e823c1dd15f44fad1df7f17a4bc789afab1d6f35bdcec84ae1dcd8010936/seacrowd-0.0.9.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-30 08:19:30] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240430/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-30 08:19:30] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/4a/21/50d03115edd5c74e7b7e7e335cada3c63aa0377557bdd5a2342dab9f23ba/ecv-python-development-0.0.58.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-30 08:19:30] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.8.tar.gz tmp/seacrowd-0.0.9.tar.gz --markdown 20240430/s/seacrowd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 08:19:30] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-30 08:19:30] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.57.tar.gz tmp/ecv-python-development-0.0.58.tar.gz --markdown 20240430/e/ecv-python-development/0.0.57-0.0.58/README.md --exclude *.pyd
+[2024-04-30 08:19:30] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Downloading https://files.pythonhosted.org/packages/63/8c/56d29967350d5b14a7faa86b97c86e0f5ffcd41a02d5ee7283c2a536ff1f/odoo_addon_datetime_formatter-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240430/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-04-30 08:19:30] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240430/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-04-30 08:19:30] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-30 08:19:30] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-30 08:19:30] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-30 08:19:31] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.57.tar.gz]
+[2024-04-30 08:19:31] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.58.tar.gz]
+[2024-04-30 08:19:31] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-30 08:19:31] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: executing diffoscope
+[2024-04-30 08:19:31] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_datetime_formatter-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_datetime_formatter-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-datetime-formatter/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-30 08:19:31] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-04-30 08:19:31] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-04-30 08:19:31] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-04-30 08:19:31] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datetime_formatter-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-30 08:19:31] INFO root fetch - processPackages [odoo-addon-datetime-formatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datetime_formatter-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-30 08:19:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-datetime-formatter]: success
+[2024-04-30 08:19:31] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-04-30 08:19:31] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-04-30 08:19:31] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-04-30 08:19:32] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
+[2024-04-30 08:19:32] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
+[2024-04-30 08:19:32] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-30 08:19:32] INFO root fetch - main [MainThread]: Store serial: [22997037]
