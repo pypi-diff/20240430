@@ -11320,3 +11320,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 06:24:13] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2024-04-30 06:24:13] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2024-04-30 06:24:13] INFO root fetch - main [MainThread]: Store serial: [22995745]
+[2024-04-30 06:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22995745]
+[2024-04-30 06:26:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-30 06:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-kms
+[2024-04-30 06:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crnpy
+[2024-04-30 06:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tccli-intl-en
+[2024-04-30 06:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-aws
+[2024-04-30 06:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-lcic
+[2024-04-30 06:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-lighthouse
+[2024-04-30 06:26:22] INFO root fetch - processPackages [core-aws]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-30 06:26:22] INFO root fetch - processPackages [crnpy]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2024-04-30 06:26:22] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/fd/1f/c23be141ca52f775e4764bc6f2cc90bd8f9889152f5665007785373b6e5d/crnpy-0.6.0.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Downloading https://files.pythonhosted.org/packages/af/fa/cabb010e9d06d53d1d37f7ad5193aa91ed4920fffce417507d4fea9d7d26/tencentcloud-sdk-python-kms-3.0.998.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Downloading https://files.pythonhosted.org/packages/0b/8d/60c979aa95503f9edc729f1dfea72f826f8b19b690430bf34afd4ed035da/tencentcloud-sdk-python-lighthouse-3.0.998.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Downloading https://files.pythonhosted.org/packages/84/5f/27d7e07bcd52c0acfe1e5852a83c600f911208e23cedec47c1a89b1e001a/tencentcloud-sdk-python-lcic-3.0.998.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [core-aws]: Downloading https://files.pythonhosted.org/packages/48/ac/fbf14a691c49d591e01245380d553338efc22df95545c44a14508f8d6803/core-aws-1.0.2.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/a6/a4/e2cca48265c2635268ca559c221f871d41aaee0550d9555a39237208786f/crnpy-0.6.1.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Downloading https://files.pythonhosted.org/packages/ad/f6/05ee21b174414be6ad3b3cce41bd5555e326809fbbb04aacd37cee40f157/tencentcloud-sdk-python-kms-3.0.999.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [crnpy]: executing diffoscope
+[2024-04-30 06:26:22] INFO root fetch - processPackages [crnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crnpy-0.6.0.tar.gz tmp/crnpy-0.6.1.tar.gz --markdown 20240430/c/crnpy/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Downloading https://files.pythonhosted.org/packages/6c/59/611ae599fb5e5ef83d0892fed046edd24a183ca64db4a3d33199be4d4ffc/tencentcloud-sdk-python-lighthouse-3.0.999.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Downloading https://files.pythonhosted.org/packages/5a/19/495d08f782d2e5faba8e9025a90a70d136cca8826a17ad24e73eb8c998d2/tencentcloud-sdk-python-lcic-3.0.999.tar.gz
+[2024-04-30 06:26:22] INFO root fetch - processPackages [core-aws]: Downloading https://files.pythonhosted.org/packages/94/12/a60d9245146c8833fc2ababdbecb5019bc95a2580b55f6441421f9a473e0/core_aws-1.0.3.tar.gz
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: executing diffoscope
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-kms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-kms-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-kms/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: executing diffoscope
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lighthouse-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lighthouse-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-lighthouse/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:26:23] INFO root fetch - processPackages [core-aws]: executing diffoscope
+[2024-04-30 06:26:23] INFO root fetch - processPackages [core-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-aws-1.0.2.tar.gz tmp/core_aws-1.0.3.tar.gz --markdown 20240430/c/core-aws/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: executing diffoscope
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lcic-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lcic-3.0.999.tar.gz --markdown 20240430/t/tencentcloud-sdk-python-lcic/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20240430/t/tccli-intl-en/3.0.98.1-3.0.99.1/README.md --exclude *.pyd
+[2024-04-30 06:26:23] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.6.0.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.6.1.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - main [MainThread]: End processing [crnpy]: success
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-kms-3.0.998.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-kms-3.0.999.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-kms]: success
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lighthouse-3.0.998.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lighthouse-3.0.999.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lighthouse]: success
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lcic-3.0.998.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lcic-3.0.999.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lcic]: success
+[2024-04-30 06:26:23] INFO root fetch - processPackages [core-aws]: Remove: archive file [/home/abi/fetcher/tmp/core-aws-1.0.2.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - processPackages [core-aws]: Remove: archive file [/home/abi/fetcher/tmp/core_aws-1.0.3.tar.gz]
+[2024-04-30 06:26:23] INFO root fetch - main [MainThread]: End processing [core-aws]: success
+[2024-04-30 06:26:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2024-04-30 06:26:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2024-04-30 06:26:25] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2024-04-30 06:26:25] INFO root fetch - main [MainThread]: Store serial: [22995764]
