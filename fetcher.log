@@ -14158,3 +14158,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:46:09] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
 [2024-04-30 07:46:09] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
 [2024-04-30 07:46:09] INFO root fetch - main [MainThread]: Store serial: [22996747]
+[2024-04-30 07:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996747]
+[2024-04-30 07:48:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 07:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedml
+[2024-04-30 07:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retriever-search
+[2024-04-30 07:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ntchat2
+[2024-04-30 07:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-dsmt
+[2024-04-30 07:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py50
+[2024-04-30 07:48:19] INFO root fetch - processPackages [tui-dsmt]: New version: [202404291427] Old Version: [202404290740]
+[2024-04-30 07:48:19] INFO root fetch - processPackages [retriever-search]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 07:48:19] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/8f/fe/41533e6e435e77730dd75f4caa8eb8478e547711eb0b4f53855e86a73f68/tui_dsmt-202404290740-py3-none-any.whl
+[2024-04-30 07:48:19] INFO root fetch - processPackages [py50]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 07:48:19] INFO root fetch - processPackages [ntchat2]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-30 07:48:19] INFO root fetch - processPackages [fedml]: New version: [0.8.9] Old Version: [0.8.7]
+[2024-04-30 07:48:19] INFO root fetch - processPackages [retriever-search]: Downloading https://files.pythonhosted.org/packages/81/ef/d6f58556d5f2e2fa6791e7727c1207cf785c5e394706c75b4c4cbe0d834f/retriever_search-0.0.6.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/2c/ef/4debc54babdd7812aecc599a002fd6340c5f017fcf9931d542155a600b2c/py50-1.0.0.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [ntchat2]: Downloading https://files.pythonhosted.org/packages/b5/34/556279a06f198ba8ae53bab206d0c486f68d649f06675af1c1b1405877ff/ntchat2-1.0.1.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/26/dc/535b162acefdb4cfda85731da640625271866bf9cad47119cb18c529ccd0/fedml-0.8.7.tar.gz
+[2024-04-30 07:48:20] WARNING root fetch - processPackages [ntchat2]: Skipping package: exceeds size limit 13227450>=10485760
+[2024-04-30 07:48:20] INFO root fetch - main [MainThread]: End processing [ntchat2] error
+[2024-04-30 07:48:20] INFO root fetch - processPackages [retriever-search]: Downloading https://files.pythonhosted.org/packages/5a/9a/6c03dc549cfc0a8fa0bf0868221afe484c78a40b78d2b6cb969309d544dc/retriever_search-0.0.7.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/69/98/718b1a94833e34ad62b49775a30223cdb838d4100ffee2d6015c2f9ea8c8/tui_dsmt-202404291427.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [retriever-search]: executing diffoscope
+[2024-04-30 07:48:20] INFO root fetch - processPackages [retriever-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retriever_search-0.0.6.tar.gz tmp/retriever_search-0.0.7.tar.gz --markdown 20240430/r/retriever-search/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 07:48:20] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-30 07:48:20] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404290740-py3-none-any.whl.zip tmp/tui_dsmt-202404291427.tar.gz --markdown 20240430/t/tui-dsmt/202404290740-202404291427/README.md --exclude *.pyd
+[2024-04-30 07:48:20] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/91/2f/4082bc9841b09558aa4e0f845becc78f10bece13e22335d0e9510469ca07/py50-1.0.1.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [py50]: executing diffoscope
+[2024-04-30 07:48:20] INFO root fetch - processPackages [py50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py50-1.0.0.tar.gz tmp/py50-1.0.1.tar.gz --markdown 20240430/p/py50/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 07:48:20] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/4f/ea/5c2eecd940097daa8483ec2165a0b51d4b0e02b6ec283f46919b8e92a5d8/fedml-0.8.9.tar.gz
+[2024-04-30 07:48:20] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2024-04-30 07:48:20] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.7.tar.gz tmp/fedml-0.8.9.tar.gz --markdown 20240430/f/fedml/0.8.7-0.8.9/README.md --exclude *.pyd
+[2024-04-30 07:48:20] INFO root fetch - processPackages [retriever-search]: Remove: archive file [/home/abi/fetcher/tmp/retriever_search-0.0.6.tar.gz]
+[2024-04-30 07:48:20] INFO root fetch - processPackages [retriever-search]: Remove: archive file [/home/abi/fetcher/tmp/retriever_search-0.0.7.tar.gz]
+[2024-04-30 07:48:20] INFO root fetch - main [MainThread]: End processing [retriever-search]: success
+[2024-04-30 07:48:21] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404290740-py3-none-any.whl.zip]
+[2024-04-30 07:48:21] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404291427.tar.gz]
+[2024-04-30 07:48:21] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-30 07:48:21] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.0.tar.gz]
+[2024-04-30 07:48:21] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.1.tar.gz]
+[2024-04-30 07:48:21] INFO root fetch - main [MainThread]: End processing [py50]: success
+[2024-04-30 07:48:24] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7.tar.gz]
+[2024-04-30 07:48:24] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.9.tar.gz]
+[2024-04-30 07:48:24] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2024-04-30 07:48:24] INFO root fetch - main [MainThread]: Store serial: [22996765]
