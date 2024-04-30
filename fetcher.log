@@ -8324,3 +8324,96 @@
 [2024-04-30 05:18:09] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240430031656-py3-none-any.whl.zip]
 [2024-04-30 05:18:09] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-30 05:18:09] INFO root fetch - main [MainThread]: Store serial: [22994711]
+[2024-04-30 05:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994711]
+[2024-04-30 05:20:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-web
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-aqt
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-ionq
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-tools
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-mongodbatlas
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlv-client
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: releasecmd
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-cv-nightly
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sleipnirgroup-jormungandr
+[2024-04-30 05:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhijiang
+[2024-04-30 05:20:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [qlv-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240430031656] Old Version: [1.4.0.dev20240426164719]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: New version: [7.2.0] Old Version: [7.1.3]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240430031656] Old Version: [1.4.0.dev20240426164719]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [releasecmd]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-30 05:20:18] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/c4/30/c3e0d994757563c660394a2f489595e93bb07b7d4e4f3a528f51e3cc916f/qlv-client-0.1.7.tar.gz
+[2024-04-30 05:20:18] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-30 05:20:18] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240430031656] Old Version: [1.4.0.dev20240426164719]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-30 05:20:18] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-04-30 05:20:18] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/47/e2/7abe49ab7c2aca75e93bc3c6699a8e2b1976e46d35450ea183a4716d7598/cirq_web-1.4.0.dev20240426164719-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/20/6a/50a81533439ddae485e16c822b7aa3c13be6a5730206731b541b52e694d4/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/f5/86/4dbe0a7821e09792837834c11eb567587ed149a2c2dc40ce6f15d06f3665/cirq_aqt-1.4.0.dev20240426164719-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [releasecmd]: Downloading https://files.pythonhosted.org/packages/d8/e2/ad57cfecf9498dd057cfe1d4396f9f11d6cc6c9650a592b31fccf13231c1/releasecmd-0.8.1.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/cf/4c/c399cdd009c561fb4746c0bcade89971ac43c169c9ac5f11ee4269601501/cirq_ionq-1.4.0.dev20240426164719-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/b4/53/fdf6902a468fb0034dae5dc42eb361429104c819e24e81b422258a509411/qlv-client-0.1.8.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/2e/6c/dd3b9f1fc5cdc9464ece5a01888a944a57b5e68d6e67b1e8fd5320cd80b1/cirq_web-1.4.0.dev20240430031656-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.1.7.tar.gz tmp/qlv-client-0.1.8.tar.gz --markdown 20240430/q/qlv-client/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240430/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240430/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/c8/d6/91bcb50afca90a87a3d02a287f9cbd00fc6fbe2b44727d273d09adf3e39d/cirq_ionq-1.4.0.dev20240430031656-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/8c/68/496f79eb6761107ff0b2761962b9bb27a9c67e377e46ab9dd1ef7b0d5fc1/cirq_aqt-1.4.0.dev20240430031656-py3-none-any.whl
+[2024-04-30 05:20:19] INFO root fetch - processPackages [releasecmd]: Downloading https://files.pythonhosted.org/packages/a1/94/ae8b73f629bc894f4fad8313b0db20b60f1b027bc4aa2dbd6e814ef41a17/releasecmd-0.9.0.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240426164719-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240430031656-py3-none-any.whl.zip --markdown 20240430/c/cirq-web/1.4.0.dev20240426164719-1.4.0.dev20240430031656/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240430/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240430/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/20/b4/9e39765ecf9965cca6d31c730151d872dbccd32e18fb1e57cab672689e51/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240426164719-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240430031656-py3-none-any.whl.zip --markdown 20240430/c/cirq-ionq/1.4.0.dev20240426164719-1.4.0.dev20240430031656/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [releasecmd]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [releasecmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/releasecmd-0.8.1.tar.gz tmp/releasecmd-0.9.0.tar.gz --markdown 20240430/r/releasecmd/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-04-30 05:20:19] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240426164719-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240430031656-py3-none-any.whl.zip --markdown 20240430/c/cirq-aqt/1.4.0.dev20240426164719-1.4.0.dev20240430031656/README.md --exclude *.pyd
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: executing diffoscope
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz tmp/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz --markdown 20240430/c/cdktf-cdktf-provider-mongodbatlas/7.1.3-7.2.0/README.md --exclude *.pyd
+[2024-04-30 05:20:20] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.7.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.8.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-04-30 05:20:20] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-30 05:20:20] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240426164719-py3-none-any.whl.zip]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240430031656-py3-none-any.whl.zip]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240426164719-py3-none-any.whl.zip]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240430031656-py3-none-any.whl.zip]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-04-30 05:20:20] INFO root fetch - processPackages [releasecmd]: Remove: archive file [/home/abi/fetcher/tmp/releasecmd-0.8.1.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [releasecmd]: Remove: archive file [/home/abi/fetcher/tmp/releasecmd-0.9.0.tar.gz]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [releasecmd]: success
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240426164719-py3-none-any.whl.zip]
+[2024-04-30 05:20:20] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240430031656-py3-none-any.whl.zip]
+[2024-04-30 05:20:20] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-04-30 05:20:21] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-30 05:20:21] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-30 05:20:21] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-30 05:20:21] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-04-30 05:20:21] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-04-30 05:20:21] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-04-30 05:20:24] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz]
+[2024-04-30 05:20:24] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.2.0.tar.gz]
+[2024-04-30 05:20:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
+[2024-04-30 05:20:24] INFO root fetch - main [MainThread]: Store serial: [22994738]
