@@ -13889,3 +13889,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:35:12] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_variant_configurator-12.0.1.0.1.99.dev9-py3-none-any.whl.zip]
 [2024-04-30 07:35:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-variant-configurator]: success
 [2024-04-30 07:35:12] INFO root fetch - main [MainThread]: Store serial: [22996576]
+[2024-04-30 07:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996576]
+[2024-04-30 07:37:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muko
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-civo
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudamqp
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LnT-HR-AI
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiny-dag
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-project-scrum
+[2024-04-30 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aiven
+[2024-04-30 07:37:20] INFO root fetch - processPackages [LnT-HR-AI]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-30 07:37:20] INFO root fetch - processPackages [muko]: New version: [2.38] Old Version: [2.37]
+[2024-04-30 07:37:20] INFO root fetch - processPackages [tiny-dag]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-30 07:37:20] INFO root fetch - processPackages [odoo14-addon-project-scrum]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-04-30 07:37:20] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/15/7a/01139d32f5cd1e67d3cf65a152d6b3d240a2c7dd146095ea45b66a87e1ff/muko-2.37-py3-none-any.whl
+[2024-04-30 07:37:20] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/91/5b/8cc033b5d318e93400686f4951629bf5db31dd8c5dd28d8991fbc60e40db/lnt_hr_ai-0.0.4.tar.gz
+[2024-04-30 07:37:20] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1714454433] Old Version: [2.4.0a1714363963]
+[2024-04-30 07:37:20] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-30 07:37:20] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-04-30 07:37:21] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/6e/7d/fdb9d3c62b6652d1a86f5477d96dc7cf3acd55ecbeac6fb60d5f8d61a0f4/tiny_dag-0.0.6.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/b9/dc/63f8367ebefe40a901574746e2b0688d6004203e10453272a876b55baa90/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-30 07:37:21] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/b1/e7/1c4f2203b0e057f953cb2f10d5367e2e27b5c209a3c2c4d893ce2835f4f9/lnt_hr_ai-0.0.5.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/4a/e9/5f1a917ff6e8a4e7a12322e8fc1f005876e74547a1b7c58c9ff92a8a0daa/pulumi_civo-2.4.0a1714363963.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [LnT-HR-AI]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [LnT-HR-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnt_hr_ai-0.0.4.tar.gz tmp/lnt_hr_ai-0.0.5.tar.gz --markdown 20240430/L/LnT-HR-AI/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-30 07:37:21] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/b0/65/4307f67f30e1790cfcdeb57ca288fe6324cb64983e4d276cf3a09aa3ab3b/tiny_dag-0.0.7.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/4d/bb/f8c4501a8c0a869937ddafb546511e51573423830c4cea55ebe5688de465/muko-2.38-py3-none-any.whl
+[2024-04-30 07:37:21] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/f6/fb/9d2304aec76a914fbaebfc595a0cc31fa2e13884f8aa14119f06f242b37d/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-30 07:37:21] INFO root fetch - processPackages [tiny-dag]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [tiny-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_dag-0.0.6.tar.gz tmp/tiny_dag-0.0.7.tar.gz --markdown 20240430/t/tiny-dag/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/25/91/249e43d25c2b62d9ed8a1e2271037392be5623b66e86d97bd9697b6182c2/pulumi_civo-2.4.0a1714454433.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1714363963.tar.gz tmp/pulumi_civo-2.4.0a1714454433.tar.gz --markdown 20240430/p/pulumi-civo/2.4.0a1714363963-2.4.0a1714454433/README.md --exclude *.pyd
+[2024-04-30 07:37:21] INFO root fetch - processPackages [odoo14-addon-project-scrum]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [odoo14-addon-project-scrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-project-scrum/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-04-30 07:37:21] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.37-py3-none-any.whl.zip tmp/muko-2.38-py3-none-any.whl.zip --markdown 20240430/m/muko/2.37-2.38/README.md --exclude *.pyd
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240430/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-04-30 07:37:21] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240430/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-04-30 07:37:22] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.4.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.5.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - main [MainThread]: End processing [LnT-HR-AI]: success
+[2024-04-30 07:37:22] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.6.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.7.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - main [MainThread]: End processing [tiny-dag]: success
+[2024-04-30 07:37:22] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.37-py3-none-any.whl.zip]
+[2024-04-30 07:37:22] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.38-py3-none-any.whl.zip]
+[2024-04-30 07:37:22] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-30 07:37:22] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-04-30 07:37:22] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-30 07:37:22] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-30 07:37:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-scrum]: success
+[2024-04-30 07:37:22] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714363963.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714454433.tar.gz]
+[2024-04-30 07:37:22] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-04-30 07:37:23] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-04-30 07:37:23] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-04-30 07:37:23] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-04-30 07:37:23] INFO root fetch - main [MainThread]: Store serial: [22996610]
