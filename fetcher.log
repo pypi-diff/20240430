@@ -7711,3 +7711,66 @@
 [2024-04-30 04:40:55] INFO root fetch - processPackages [install_playwright]: Remove: archive file [/home/abi/fetcher/tmp/install_playwright-0.1.0.tar.gz]
 [2024-04-30 04:40:55] INFO root fetch - main [MainThread]: End processing [install_playwright]: success
 [2024-04-30 04:40:55] INFO root fetch - main [MainThread]: Store serial: [22994483]
+[2024-04-30 04:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994483]
+[2024-04-30 04:43:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PepperPepper
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqpanda
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docprompt
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dhuodata-lib
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tonic-validate
+[2024-04-30 04:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsrs
+[2024-04-30 04:43:03] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.5.3] Old Version: [0.0.5.2]
+[2024-04-30 04:43:03] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 04:43:03] INFO root fetch - processPackages [GSG]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-30 04:43:03] INFO root fetch - processPackages [fsrs]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-04-30 04:43:04] INFO root fetch - processPackages [docprompt]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-30 04:43:04] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/7e/26/291d09f7c824d2118c8988f4b4f8b39853469aa2a23f05610d4966572fd4/pepperpepper-0.0.5.2.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [tonic-validate]: New version: [5.0.0] Old Version: [4.0.6]
+[2024-04-30 04:43:04] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/ec/f7/f96aa759f81a013c10c82bc7596042381b6b34dec37f328a66c938001aa0/GSG-0.5.1.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/d4/e0/f3c6675c2ddcdbeae1b1d2933802a42c469d135b16d9fec19687ae367002/dhuodata-lib-0.1.8.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [pyqpanda]: New version: [3.8.3.4] Old Version: [3.8.3.3]
+[2024-04-30 04:43:04] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/39/ce/3764e3ed9f7c8f04745b180b7e262d7e8fb4a96e0511c8dd710c4708c306/fsrs-1.2.0.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/d2/73/9755548ff81f3b757a9b89a3e2c1c129884dd73c63696db8497cabb9e128/docprompt-0.3.1.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [pyqpanda]: Downloading https://files.pythonhosted.org/packages/e5/c9/9ed9fe6c84199837fc001c1dd5a70a1b13c317ef1c8933cf6986e5c17915/pyqpanda-3.8.3.3-cp39-none-win_amd64.whl
+[2024-04-30 04:43:04] INFO root fetch - processPackages [tonic-validate]: Downloading https://files.pythonhosted.org/packages/25/0f/12b4a1efd8ba89ec21efe75352de0f26bf78a64b8c448300291711fe6023/tonic_validate-4.0.6.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/cd/ba/908c223de0234a49e7a3511a8d49b70444bc3a55168d4e88fd996111d2fe/GSG-0.5.2.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/48/76/0a13b32aa095bdbeb30fff706f6a878cd83f488f1cf75163ba6c7641746a/pepperpepper-0.0.5.3.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/d1/96/065850d8a0b4101928ec0832eb427601920e28134a59fd18f30fdedd100b/dhuodata-lib-0.1.9.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-04-30 04:43:04] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.1.tar.gz tmp/GSG-0.5.2.tar.gz --markdown 20240430/G/GSG/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-30 04:43:04] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-04-30 04:43:04] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.5.2.tar.gz tmp/pepperpepper-0.0.5.3.tar.gz --markdown 20240430/P/PepperPepper/0.0.5.2-0.0.5.3/README.md --exclude *.pyd
+[2024-04-30 04:43:04] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-30 04:43:04] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.1.8.tar.gz tmp/dhuodata-lib-0.1.9.tar.gz --markdown 20240430/d/dhuodata-lib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 04:43:04] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/87/1f/eede6bcbcc47cd539412fc268e08afd13f088e184127018b63734f8edea3/fsrs-2.0.0.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/ac/2e/794bfc426aedf70829cd049b2b95482a5e884463a1a45929fb7a07ec051d/docprompt-0.4.0.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [fsrs]: executing diffoscope
+[2024-04-30 04:43:04] INFO root fetch - processPackages [fsrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs-1.2.0.tar.gz tmp/fsrs-2.0.0.tar.gz --markdown 20240430/f/fsrs/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-04-30 04:43:04] INFO root fetch - processPackages [tonic-validate]: Downloading https://files.pythonhosted.org/packages/3e/0d/5d80497c53775fce21383c3d5a51faf02d1e9758236c160f5b2da7fbfae0/tonic_validate-5.0.0.tar.gz
+[2024-04-30 04:43:04] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-04-30 04:43:04] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.3.1.tar.gz tmp/docprompt-0.4.0.tar.gz --markdown 20240430/d/docprompt/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-30 04:43:04] INFO root fetch - processPackages [tonic-validate]: executing diffoscope
+[2024-04-30 04:43:04] INFO root fetch - processPackages [tonic-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic_validate-4.0.6.tar.gz tmp/tonic_validate-5.0.0.tar.gz --markdown 20240430/t/tonic-validate/4.0.6-5.0.0/README.md --exclude *.pyd
+[2024-04-30 04:43:05] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.1.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.2.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-04-30 04:43:05] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.2.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.3.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-04-30 04:43:05] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.8.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.1.9.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-30 04:43:05] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-1.2.0.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-2.0.0.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - main [MainThread]: End processing [fsrs]: success
+[2024-04-30 04:43:05] INFO root fetch - processPackages [tonic-validate]: Remove: archive file [/home/abi/fetcher/tmp/tonic_validate-4.0.6.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - processPackages [tonic-validate]: Remove: archive file [/home/abi/fetcher/tmp/tonic_validate-5.0.0.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - main [MainThread]: End processing [tonic-validate]: success
+[2024-04-30 04:43:05] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.3.1.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.0.tar.gz]
+[2024-04-30 04:43:05] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-04-30 04:43:06] INFO root fetch - processPackages [pyqpanda]: Downloading https://files.pythonhosted.org/packages/1d/f4/8b68e16717da1a4053baf6781baba756e8702c3644bd2b451bb94127e961/pyqpanda-3.8.3.4-cp39-none-manylinux1_x86_64.whl
+[2024-04-30 04:43:06] WARNING root fetch - processPackages [pyqpanda]: Skipping package: exceeds size limit 10825650>=10485760
+[2024-04-30 04:43:06] INFO root fetch - main [MainThread]: End processing [pyqpanda] error
+[2024-04-30 04:43:06] INFO root fetch - main [MainThread]: Store serial: [22994509]
