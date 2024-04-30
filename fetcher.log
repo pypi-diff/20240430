@@ -21883,3 +21883,43 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:35:15] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-04-30 11:35:15] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-04-30 11:35:15] INFO root fetch - main [MainThread]: Store serial: [22999648]
+[2024-04-30 11:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999648]
+[2024-04-30 11:37:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-30 11:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yedextended
+[2024-04-30 11:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Spire.Xls
+[2024-04-30 11:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2024-04-30 11:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: narwhals
+[2024-04-30 11:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stoobly-agent
+[2024-04-30 11:37:23] INFO root fetch - processPackages [yedextended]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-30 11:37:23] INFO root fetch - processPackages [fastdup]: New version: [1.85] Old Version: [1.121]
+[2024-04-30 11:37:23] INFO root fetch - processPackages [Spire.Xls]: New version: [14.4.4] Old Version: [14.4.3]
+[2024-04-30 11:37:23] INFO root fetch - processPackages [narwhals]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-30 11:37:23] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-30 11:37:24] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/d1/16/d3aa044f31dd37384155977504c862da3bdc7164758d0649495e90e37e2e/fastdup-1.121-cp39-cp39-win_amd64.whl
+[2024-04-30 11:37:24] INFO root fetch - processPackages [yedextended]: Downloading https://files.pythonhosted.org/packages/6f/68/4a0e564490ec707e60c29d7a9f17953e96c1c8f0f8fddcf7ff7890cff0cf/yedextended-1.0.0.tar.gz
+[2024-04-30 11:37:24] INFO root fetch - processPackages [Spire.Xls]: Downloading https://files.pythonhosted.org/packages/f4/70/da1a320260c24334bc93b02722040b7e45b010f6b20d44ee7558751ec8e6/Spire.Xls-14.4.3-py3-none-win_amd64.whl
+[2024-04-30 11:37:24] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 35490583>=10485760
+[2024-04-30 11:37:24] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2024-04-30 11:37:24] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/e9/b0/5d4cebdfc1af7026e72d6359f9b774b6fe68419f425d81996d3095cd15c1/narwhals-0.7.8.tar.gz
+[2024-04-30 11:37:24] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-04-30 11:37:24] WARNING root fetch - processPackages [Spire.Xls]: Skipping package: exceeds size limit 23822703>=10485760
+[2024-04-30 11:37:24] INFO root fetch - main [MainThread]: End processing [Spire.Xls] error
+[2024-04-30 11:37:24] INFO root fetch - processPackages [yedextended]: Downloading https://files.pythonhosted.org/packages/a0/20/b2b91d6f77a434b6a9e099a0ea2172b82ba4cb05733da08c7b62a77d3dd3/yedextended-1.0.1.tar.gz
+[2024-04-30 11:37:24] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-04-30 11:37:24] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/8e/b0/b325b1fa81ccb08d9d018240ecf5c29d300745e2541cbc4f1aef9cc4a06a/narwhals-0.7.9.tar.gz
+[2024-04-30 11:37:24] INFO root fetch - processPackages [yedextended]: executing diffoscope
+[2024-04-30 11:37:24] INFO root fetch - processPackages [yedextended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yedextended-1.0.0.tar.gz tmp/yedextended-1.0.1.tar.gz --markdown 20240430/y/yedextended/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-30 11:37:24] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-04-30 11:37:24] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240430/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-30 11:37:24] INFO root fetch - processPackages [narwhals]: executing diffoscope
+[2024-04-30 11:37:24] INFO root fetch - processPackages [narwhals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/narwhals-0.7.8.tar.gz tmp/narwhals-0.7.9.tar.gz --markdown 20240430/n/narwhals/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-30 11:37:25] INFO root fetch - processPackages [yedextended]: Remove: archive file [/home/abi/fetcher/tmp/yedextended-1.0.0.tar.gz]
+[2024-04-30 11:37:25] INFO root fetch - processPackages [yedextended]: Remove: archive file [/home/abi/fetcher/tmp/yedextended-1.0.1.tar.gz]
+[2024-04-30 11:37:25] INFO root fetch - main [MainThread]: End processing [yedextended]: success
+[2024-04-30 11:37:25] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-04-30 11:37:25] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-04-30 11:37:25] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-04-30 11:37:25] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.7.8.tar.gz]
+[2024-04-30 11:37:25] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.7.9.tar.gz]
+[2024-04-30 11:37:25] INFO root fetch - main [MainThread]: End processing [narwhals]: success
+[2024-04-30 11:37:25] INFO root fetch - main [MainThread]: Store serial: [22999664]
