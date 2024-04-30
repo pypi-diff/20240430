@@ -20037,3 +20037,20 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:36:53] INFO root fetch - processPackages [ckanext-unfold]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_unfold-1.0.1.tar.gz]
 [2024-04-30 10:36:53] INFO root fetch - main [MainThread]: End processing [ckanext-unfold]: success
 [2024-04-30 10:36:53] INFO root fetch - main [MainThread]: Store serial: [22998889]
+[2024-04-30 10:38:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998889]
+[2024-04-30 10:39:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychopy
+[2024-04-30 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zou
+[2024-04-30 10:39:02] INFO root fetch - processPackages [psychopy]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-04-30 10:39:02] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 10:39:02] INFO root fetch - processPackages [psychopy]: Downloading https://files.pythonhosted.org/packages/98/e9/814e9efa577a61853a955fc1673b12b18b9165098631d7cbc1254c2a415c/PsychoPy-3.2.3.zip
+[2024-04-30 10:39:02] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-04-30 10:39:03] WARNING root fetch - processPackages [psychopy]: Skipping package: exceeds size limit 12261346>=10485760
+[2024-04-30 10:39:03] INFO root fetch - main [MainThread]: End processing [psychopy] error
+[2024-04-30 10:39:03] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-04-30 10:39:03] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-04-30 10:39:03] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240430/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 10:39:04] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-04-30 10:39:04] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-04-30 10:39:04] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-04-30 10:39:04] INFO root fetch - main [MainThread]: Store serial: [22998896]
