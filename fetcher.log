@@ -21853,3 +21853,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 11:32:52] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-30 11:32:52] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-30 11:32:52] INFO root fetch - main [MainThread]: Store serial: [22999639]
+[2024-04-30 11:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22999639]
+[2024-04-30 11:35:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFisca-France
+[2024-04-30 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junifer
+[2024-04-30 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-matrix-runner
+[2024-04-30 11:35:01] INFO root fetch - processPackages [python-matrix-runner]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-30 11:35:01] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev36] Old Version: [0.0.5.dev33]
+[2024-04-30 11:35:01] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-04-30 11:35:01] INFO root fetch - processPackages [python-matrix-runner]: Downloading https://files.pythonhosted.org/packages/f3/b0/dbf29030092ba6161564aac7af9045a3109a356e643d334144c43f13676a/python-matrix-runner-1.1.0.tar.gz
+[2024-04-30 11:35:01] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/38/e7/4338ba543bdac1639203c70903417c990560a4179794f5cc6ee171f457aa/junifer-0.0.5.dev33.tar.gz
+[2024-04-30 11:35:01] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-04-30 11:35:02] INFO root fetch - processPackages [python-matrix-runner]: Downloading https://files.pythonhosted.org/packages/89/f5/64951cffe83d92094f6270c1ae9c781e76d84d3ca508fb2149d5650f9407/python_matrix_runner-1.2.0.tar.gz
+[2024-04-30 11:35:02] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/32/5e/45ef91aa3cc291b55885315cc0532e7d8eee18252de415363587fb841124/junifer-0.0.5.dev36.tar.gz
+[2024-04-30 11:35:02] INFO root fetch - processPackages [python-matrix-runner]: executing diffoscope
+[2024-04-30 11:35:02] INFO root fetch - processPackages [python-matrix-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-matrix-runner-1.1.0.tar.gz tmp/python_matrix_runner-1.2.0.tar.gz --markdown 20240430/p/python-matrix-runner/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-30 11:35:02] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-04-30 11:35:02] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev33.tar.gz tmp/junifer-0.0.5.dev36.tar.gz --markdown 20240430/j/junifer/0.0.5.dev33-0.0.5.dev36/README.md --exclude *.pyd
+[2024-04-30 11:35:02] INFO root fetch - processPackages [python-matrix-runner]: Remove: archive file [/home/abi/fetcher/tmp/python-matrix-runner-1.1.0.tar.gz]
+[2024-04-30 11:35:02] INFO root fetch - processPackages [python-matrix-runner]: Remove: archive file [/home/abi/fetcher/tmp/python_matrix_runner-1.2.0.tar.gz]
+[2024-04-30 11:35:02] INFO root fetch - main [MainThread]: End processing [python-matrix-runner]: success
+[2024-04-30 11:35:03] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev33.tar.gz]
+[2024-04-30 11:35:03] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev36.tar.gz]
+[2024-04-30 11:35:03] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-04-30 11:35:04] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-04-30 11:35:06] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-04-30 11:35:06] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240430/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-04-30 11:35:15] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-04-30 11:35:15] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-04-30 11:35:15] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-04-30 11:35:15] INFO root fetch - main [MainThread]: Store serial: [22999648]
