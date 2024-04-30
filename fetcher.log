@@ -3005,3 +3005,24 @@
 [2024-04-30 02:59:28] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
 [2024-04-30 02:59:28] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
 [2024-04-30 02:59:28] INFO root fetch - main [MainThread]: Store serial: [22992787]
+[2024-04-30 03:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22992787]
+[2024-04-30 03:01:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-30 03:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapegraphai
+[2024-04-30 03:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkv-episode-matcher
+[2024-04-30 03:01:47] INFO root fetch - processPackages [scrapegraphai]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-30 03:01:47] INFO root fetch - processPackages [mkv-episode-matcher]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-30 03:01:47] INFO root fetch - processPackages [mkv-episode-matcher]: Downloading https://files.pythonhosted.org/packages/27/50/3edd195a12818f08b62234e15e1236175365047f859f553033f1f7685f52/mkv_episode_matcher-0.1.3.tar.gz
+[2024-04-30 03:01:47] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/51/9d/6c332c361be75a1f3a273929398d639bbc4a89575b6728a7f9152db42534/scrapegraphai-0.4.1.tar.gz
+[2024-04-30 03:01:48] INFO root fetch - processPackages [mkv-episode-matcher]: Downloading https://files.pythonhosted.org/packages/e5/e9/0dd2a2d3e96b12ee077a531951fd34d008edc86feeb67ea07d1ccace06d0/mkv_episode_matcher-0.1.4.tar.gz
+[2024-04-30 03:01:48] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/db/3e/5509e5ee42cb42222f2e754a864cf5a02dee0e4c047d6135eb5a2618ee97/scrapegraphai-0.4.2.tar.gz
+[2024-04-30 03:01:48] INFO root fetch - processPackages [mkv-episode-matcher]: executing diffoscope
+[2024-04-30 03:01:48] INFO root fetch - processPackages [mkv-episode-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkv_episode_matcher-0.1.3.tar.gz tmp/mkv_episode_matcher-0.1.4.tar.gz --markdown 20240430/m/mkv-episode-matcher/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-30 03:01:48] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-30 03:01:48] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.4.1.tar.gz tmp/scrapegraphai-0.4.2.tar.gz --markdown 20240430/s/scrapegraphai/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-30 03:01:48] INFO root fetch - processPackages [mkv-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/mkv_episode_matcher-0.1.3.tar.gz]
+[2024-04-30 03:01:48] INFO root fetch - processPackages [mkv-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/mkv_episode_matcher-0.1.4.tar.gz]
+[2024-04-30 03:01:48] INFO root fetch - main [MainThread]: End processing [mkv-episode-matcher]: success
+[2024-04-30 03:01:49] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.4.1.tar.gz]
+[2024-04-30 03:01:49] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.4.2.tar.gz]
+[2024-04-30 03:01:49] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-30 03:01:49] INFO root fetch - main [MainThread]: Store serial: [22992796]
