@@ -6986,3 +6986,33 @@
 [2024-04-30 03:41:48] INFO root fetch - processPackages [nheri-simcenter]: Remove: archive file [/home/abi/fetcher/tmp/nheri_simcenter-0.9.9.tar.gz]
 [2024-04-30 03:41:48] INFO root fetch - main [MainThread]: End processing [nheri-simcenter]: success
 [2024-04-30 03:41:48] INFO root fetch - main [MainThread]: Store serial: [22994207]
+[2024-04-30 03:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22994207]
+[2024-04-30 03:43:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-30 03:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhostprep
+[2024-04-30 03:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-rag
+[2024-04-30 03:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydraw
+[2024-04-30 03:43:56] INFO root fetch - processPackages [pyhostprep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-30 03:43:56] INFO root fetch - processPackages [pydraw]: New version: [2.2a9] Old Version: [2.2a8]
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/04/d8/963d47e7a92caae4e6ccf713750c04249de9656a850f31195b69b2db3574/pyhostprep-1.0.8.tar.gz
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/f4/74/e8a1345d539cc705b6c6b516b1fb693170808b2fad2d43f0b6fe82e5a474/pydraw-2.2a8-py3-none-any.whl
+[2024-04-30 03:43:57] INFO root fetch - processPackages [azureml-rag]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/cd/3c/cf23b46a139c7addacc89c01e7c0d5972b5e935296a61327072b946f592e/pyhostprep-1.0.9.tar.gz
+[2024-04-30 03:43:57] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/cd/6b/d377d688c115fe0dca01efbe91a0e27be6b61358d1240f8ffd8e690e2d90/azureml_rag-0.2.8-py3-none-any.whl
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pydraw]: Downloading https://files.pythonhosted.org/packages/b6/00/9464a4280c86278a2986ee0b89b1db56ca0434b3870528fc0171e7e2f066/pydraw-2.2a9-py3-none-any.whl
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pyhostprep]: executing diffoscope
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pyhostprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhostprep-1.0.8.tar.gz tmp/pyhostprep-1.0.9.tar.gz --markdown 20240430/p/pyhostprep/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pydraw]: executing diffoscope
+[2024-04-30 03:43:57] INFO root fetch - processPackages [pydraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraw-2.2a8-py3-none-any.whl.zip tmp/pydraw-2.2a9-py3-none-any.whl.zip --markdown 20240430/p/pydraw/2.2a8-2.2a9/README.md --exclude *.pyd
+[2024-04-30 03:43:57] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/84/b836de2d4c9aec3f94fbe80a1cf0f12b9999277127ca6b03bf9333080769/azureml_rag-0.2.9-py3-none-any.whl
+[2024-04-30 03:43:58] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a8-py3-none-any.whl.zip]
+[2024-04-30 03:43:58] INFO root fetch - processPackages [pydraw]: Remove: archive file [/home/abi/fetcher/tmp/pydraw-2.2a9-py3-none-any.whl.zip]
+[2024-04-30 03:43:58] INFO root fetch - main [MainThread]: End processing [pydraw]: success
+[2024-04-30 03:43:58] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.8.tar.gz]
+[2024-04-30 03:43:58] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
+[2024-04-30 03:43:58] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
+[2024-04-30 03:43:58] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2024-04-30 03:43:58] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.2.8-py3-none-any.whl.zip tmp/azureml_rag-0.2.9-py3-none-any.whl.zip --markdown 20240430/a/azureml-rag/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-30 03:43:59] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.8-py3-none-any.whl.zip]
+[2024-04-30 03:43:59] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
+[2024-04-30 03:43:59] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2024-04-30 03:43:59] INFO root fetch - main [MainThread]: Store serial: [22994213]
