@@ -17235,3 +17235,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 09:40:31] INFO root fetch - processPackages [hdx-cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hdx_cli_toolkit-2024.4.5.tar.gz]
 [2024-04-30 09:40:31] INFO root fetch - main [MainThread]: End processing [hdx-cli-toolkit]: success
 [2024-04-30 09:40:31] INFO root fetch - main [MainThread]: Store serial: [22997959]
+[2024-04-30 09:42:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22997959]
+[2024-04-30 09:42:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretscraper
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsubooking
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyad
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsubooking
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-cli-dev
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatllm
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-testrepeater
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvmtrans
+[2024-04-30 09:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-api-dev
+[2024-04-30 09:42:41] INFO root fetch - processPackages [secretscraper]: New version: [1.3.9] Old Version: [1.3.8.1]
+[2024-04-30 09:42:41] INFO root fetch - processPackages [zfx]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-30 09:42:41] INFO root fetch - processPackages [cvmtrans]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-30 09:42:41] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-30 09:42:42] INFO root fetch - processPackages [chatllm]: New version: [2024.4.30.15.32.2] Old Version: [2024.4.30.15.10.38]
+[2024-04-30 09:42:42] WARNING root fetch - processPackages [nsubooking]: Skipping, unable to determine old version
+[2024-04-30 09:42:42] INFO root fetch - processPackages [nsubooking]: Start processing: composabl-train-dev
+[2024-04-30 09:42:42] WARNING root fetch - processPackages [nsubooking]: Skipping, unable to determine old version
+[2024-04-30 09:42:42] INFO root fetch - main [MainThread]: End processing [nsubooking] error
+[2024-04-30 09:42:42] INFO root fetch - processPackages [nsubooking]: Start processing: composabl-dev
+[2024-04-30 09:42:42] INFO root fetch - main [MainThread]: End processing [nsubooking] error
+[2024-04-30 09:42:42] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/5a/39/e1600f909e6f9bbd8d6858e64e5a75097ad332d0d17ab7910d332cdf3f52/secretscraper-1.3.8.1.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/02/5d/f12f88e422c91c609db018d8ebfa8d8a1b62ab128acd981eb1d443de023f/zfx-1.0.5.tar.gz
+[2024-04-30 09:42:42] WARNING root fetch - processPackages [robotframework-testrepeater]: Skipping, unable to determine old version
+[2024-04-30 09:42:42] INFO root fetch - processPackages [robotframework-testrepeater]: Start processing: composabl-core-dev
+[2024-04-30 09:42:42] INFO root fetch - main [MainThread]: End processing [robotframework-testrepeater] error
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev48] Old Version: [0.8.0.dev47]
+[2024-04-30 09:42:42] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/8d/f7/7670f8829d6d31c50ef4ed938fc54f26a959f26c7dcb87443f9ce3b87444/cvmtrans-0.0.4.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-30 09:42:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/d2/be/d21c7dd7f056b7767fffa861e3811e1fd60843819e0c2b1035ce81cfe5a0/chatllm-2024.4.30.15.10.38.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/c4/20/1d863eaf215e967d6766508343fecb235477d5bf4a8519e4e3d9696e8470/composabl_api_dev-0.8.0.dev47-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:42] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:42] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/07/02/15e9abdd679cfdbdae6aed7686dbb25b4cbe4b6b4e3cd4add5958b52fd07/cvmtrans-0.0.5.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-30 09:42:42] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240430/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-30 09:42:42] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/ed/d8/91079830a904b90d2f1e95f0c89fac43319e56300aec74eab1ae5c3c4230/zfx-1.0.6.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/58/6b/d80103ad3ebfb3b9283ea620c71d5ab1f2a030ec4115f991c5835ed93e22/secretscraper-1.3.9.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/a0/f0/58599f95948889b32f29ad0a36c4adbdc5c07a15851f899d9dbfd3543a29/chatllm-2024.4.30.15.32.2.tar.gz
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:42] INFO root fetch - processPackages [cvmtrans]: executing diffoscope
+[2024-04-30 09:42:42] INFO root fetch - processPackages [cvmtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmtrans-0.0.4.tar.gz tmp/cvmtrans-0.0.5.tar.gz --markdown 20240430/c/cvmtrans/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:42] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-30 09:42:42] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.5.tar.gz tmp/zfx-1.0.6.tar.gz --markdown 20240430/z/zfx/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-30 09:42:42] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-30 09:42:42] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.8.1.tar.gz tmp/secretscraper-1.3.9.tar.gz --markdown 20240430/s/secretscraper/1.3.8.1-1.3.9/README.md --exclude *.pyd
+[2024-04-30 09:42:42] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-30 09:42:42] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-30 09:42:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-30 09:42:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.30.15.10.38.tar.gz tmp/chatllm-2024.4.30.15.32.2.tar.gz --markdown 20240430/c/chatllm/2024.4.30.15.10.38-2024.4.30.15.32.2/README.md --exclude *.pyd
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/71/98/0b6ce43a6ba380769d691bdf1e4788ee110dfcf9e7a5d26d5c4455907921/composabl_api_dev-0.8.0.dev48-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:42] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240430/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev47-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev48-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240430/c/composabl-api-dev/0.8.0.dev47-0.8.0.dev48/README.md --exclude *.pyd
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240430/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-30 09:42:43] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.5.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.6.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-30 09:42:43] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-30 09:42:43] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.4.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.5.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - main [MainThread]: End processing [cvmtrans]: success
+[2024-04-30 09:42:43] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.8.1.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.tar.gz]
+[2024-04-30 09:42:43] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:43] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:43] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-30 09:42:44] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.30.15.10.38.tar.gz]
+[2024-04-30 09:42:44] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.30.15.32.2.tar.gz]
+[2024-04-30 09:42:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-30 09:42:44] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-30 09:42:44] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240430/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-30 09:42:45] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:45] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:45] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-30 09:42:45] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev47-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:45] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev48-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:45] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-04-30 09:42:47] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:47] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-30 09:42:47] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-30 09:42:47] INFO root fetch - main [MainThread]: Store serial: [22998022]
