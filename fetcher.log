@@ -13362,3 +13362,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 07:05:47] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl.zip]
 [2024-04-30 07:05:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mis-builder]: success
 [2024-04-30 07:05:47] INFO root fetch - main [MainThread]: Store serial: [22996368]
+[2024-04-30 07:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22996368]
+[2024-04-30 07:07:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-mis-builder
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mis-builder
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mis-builder
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: validmind
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylliterate
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vectara-skunk-client
+[2024-04-30 07:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: retriever-search
+[2024-04-30 07:07:56] INFO root fetch - processPackages [validmind]: New version: [2.1.0] Old Version: [2.0.7]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [retriever-search]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo14-addon-mis-builder]: New version: [14.0.4.2.3.dev4] Old Version: [14.0.4.2.3.dev3]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [retriever-search]: Downloading https://files.pythonhosted.org/packages/7d/24/30585cb55ce196a369df2591e6b2b7f03022883349eaaf68b6fec364e99b/retriever_search-0.0.1.tar.gz
+[2024-04-30 07:07:56] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [pylliterate]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/21/2d/3b3466cfef40f6de4a407f05637733bcc3a703d28240deea4753306f15ac/odoo14_addon_mis_builder-14.0.4.2.3.dev3-py3-none-any.whl
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.9.9] Old Version: [16.0.5.1.9.8]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.9.9] Old Version: [16.0.5.1.9.8]
+[2024-04-30 07:07:56] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/ef/a4/9ad18a2b6c2f6b39cb16d774c25b4de7d4e583081c05507c079398620d2c/validmind-2.1.0.tar.gz
+[2024-04-30 07:07:56] WARNING root fetch - processPackages [validmind]: Skipping package: exceeds size limit 12910983>=10485760
+[2024-04-30 07:07:56] INFO root fetch - main [MainThread]: End processing [validmind] error
+[2024-04-30 07:07:56] INFO root fetch - processPackages [retriever-search]: Downloading https://files.pythonhosted.org/packages/54/db/46e28683f30a60c8095361239ab94758e418b5d59e2afbc30884cb9482c9/retriever_search-0.0.2.tar.gz
+[2024-04-30 07:07:56] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/44/6a/3f99055e438423c216b1facaf114e87a2da8681a01a9809424abd1e41f28/vectara-skunk-client-0.4.8.tar.gz
+[2024-04-30 07:07:56] INFO root fetch - processPackages [pylliterate]: Downloading https://files.pythonhosted.org/packages/98/ac/35555288af2da8f9be7cba716d56cdb51014ebcac65721317ea4f83cb8ca/pylliterate-0.0.2.tar.gz
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/55/99/e6926515b04eb5fc6cdeb4557e7e3462a07e7d607d9c40096f7d6017cd38/odoo_addon_mis_builder-16.0.5.1.9.8-py3-none-any.whl
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/55/99/e6926515b04eb5fc6cdeb4557e7e3462a07e7d607d9c40096f7d6017cd38/odoo_addon_mis_builder-16.0.5.1.9.8-py3-none-any.whl
+[2024-04-30 07:07:56] INFO root fetch - processPackages [retriever-search]: executing diffoscope
+[2024-04-30 07:07:56] INFO root fetch - processPackages [retriever-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retriever_search-0.0.1.tar.gz tmp/retriever_search-0.0.2.tar.gz --markdown 20240430/r/retriever-search/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-30 07:07:56] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/e6/c0/6f58acfb74779d16beb9d6da9f308a042abb56d2ca0038e877de55d03ded/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo14-addon-mis-builder]: executing diffoscope
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo14-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl.zip --markdown 20240430/o/odoo14-addon-mis-builder/14.0.4.2.3.dev3-14.0.4.2.3.dev4/README.md --exclude *.pyd
+[2024-04-30 07:07:57] INFO root fetch - processPackages [pylliterate]: Downloading https://files.pythonhosted.org/packages/fc/f3/adfff5d8604f1e9e40a5b4bc678682297f73e145d4f6ca2098cd6ed3018b/pylliterate-0.0.3.tar.gz
+[2024-04-30 07:07:57] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-04-30 07:07:57] INFO root fetch - processPackages [pylliterate]: executing diffoscope
+[2024-04-30 07:07:57] INFO root fetch - processPackages [pylliterate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylliterate-0.0.2.tar.gz tmp/pylliterate-0.0.3.tar.gz --markdown 20240430/p/pylliterate/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/9e/79/8facef21fcdbf3b55b5a0cdf8b533904df27a678b25f57ff8fae9968b584/odoo_addon_mis_builder-16.0.5.1.9.9-py3-none-any.whl
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/9e/79/8facef21fcdbf3b55b5a0cdf8b533904df27a678b25f57ff8fae9968b584/odoo_addon_mis_builder-16.0.5.1.9.9-py3-none-any.whl
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.9.8-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.9.9-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-mis-builder/16.0.5.1.9.8-16.0.5.1.9.9/README.md --exclude *.pyd
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2024-04-30 07:07:57] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.9.8-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.9.9-py3-none-any.whl.zip --markdown 20240430/o/odoo-addon-mis-builder/16.0.5.1.9.8-16.0.5.1.9.9/README.md --exclude *.pyd
+[2024-04-30 07:07:57] INFO root fetch - processPackages [retriever-search]: Remove: archive file [/home/abi/fetcher/tmp/retriever_search-0.0.1.tar.gz]
+[2024-04-30 07:07:57] INFO root fetch - processPackages [retriever-search]: Remove: archive file [/home/abi/fetcher/tmp/retriever_search-0.0.2.tar.gz]
+[2024-04-30 07:07:57] INFO root fetch - main [MainThread]: End processing [retriever-search]: success
+[2024-04-30 07:07:57] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-04-30 07:07:57] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.8.tar.gz tmp/vectara-skunk-client-0.4.9.tar.gz --markdown 20240430/v/vectara-skunk-client/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-30 07:07:58] INFO root fetch - processPackages [pylliterate]: Remove: archive file [/home/abi/fetcher/tmp/pylliterate-0.0.2.tar.gz]
+[2024-04-30 07:07:58] INFO root fetch - processPackages [pylliterate]: Remove: archive file [/home/abi/fetcher/tmp/pylliterate-0.0.3.tar.gz]
+[2024-04-30 07:07:58] INFO root fetch - main [MainThread]: End processing [pylliterate]: success
+[2024-04-30 07:07:58] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev3-py3-none-any.whl.zip]
+[2024-04-30 07:07:58] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mis_builder-14.0.4.2.3.dev4-py3-none-any.whl.zip]
+[2024-04-30 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mis-builder]: success
+[2024-04-30 07:07:58] INFO root fetch - processPackages [odoo-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder-16.0.5.1.9.8-py3-none-any.whl.zip]
+[2024-04-30 07:07:58] INFO root fetch - processPackages [odoo-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder-16.0.5.1.9.9-py3-none-any.whl.zip]
+[2024-04-30 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2024-04-30 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2024-04-30 07:07:58] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.8.tar.gz]
+[2024-04-30 07:07:58] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-04-30 07:07:58] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-04-30 07:07:58] INFO root fetch - main [MainThread]: Store serial: [22996390]
