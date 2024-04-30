@@ -20116,3 +20116,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-30 10:41:15] INFO root fetch - processPackages [premai]: Remove: archive file [/home/abi/fetcher/tmp/premai-0.3.9.tar.gz]
 [2024-04-30 10:41:15] INFO root fetch - main [MainThread]: End processing [premai]: success
 [2024-04-30 10:41:15] INFO root fetch - main [MainThread]: Store serial: [22998917]
+[2024-04-30 10:43:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22998917]
+[2024-04-30 10:43:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrawlpy
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-jsc-custom
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbharatocr
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyloomASR
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calistar
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forestadmin-agent-flask
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: forestadmin-datasource-sqlalchemy
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: forestadmin-agent-toolkit
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: forestadmin-datasource-toolkit
+[2024-04-30 10:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: engcom
+[2024-04-30 10:43:25] INFO root fetch - processPackages [scrawlpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [scrawlpy]: Downloading https://files.pythonhosted.org/packages/f5/7e/e3aa67f7b53553fa24d708b727cb53226e71c68ae5ac7f06cd00797c34a3/scrawlpy-0.0.4.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [openbharatocr]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [calistar]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-30 10:43:25] WARNING root fetch - processPackages [PyloomASR]: Skipping, unable to determine old version
+[2024-04-30 10:43:25] INFO root fetch - processPackages [PyloomASR]: Start processing: forestadmin-agent-django
+[2024-04-30 10:43:25] INFO root fetch - main [MainThread]: End processing [PyloomASR] error
+[2024-04-30 10:43:25] INFO root fetch - processPackages [engcom]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/79/c6/4cee34a0d3aa37e57f5a08e4a139a6158904a672b206607d6e71ea7df6e7/openbharatocr-0.1.2.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/ea/13/5cfe44f3624c9fb1e8b13fe409ce7b2ea5e63b6a2feb02fba9d632f1660d/forestadmin_agent_toolkit-1.7.0.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-agent-django]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-30 10:43:25] INFO root fetch - processPackages [scrawlpy]: Downloading https://files.pythonhosted.org/packages/b5/9e/036e67a13924e1fae916edb31d0fd048ed95912abcf119eeb732b8c29d69/scrawlpy-0.0.5.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/0f/b8/8c0b48586db19dc77f3622a0670a02a865ddc2c8df6371661b6aa4a3dc60/forestadmin_agent_flask-1.7.0.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [engcom]: Downloading https://files.pythonhosted.org/packages/23/35/d23f8654c0345a3950cbfedbc19f03960b0b47d6339450ed75f5cf533ddf/engcom-0.1.8.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [calistar]: Downloading https://files.pythonhosted.org/packages/65/ef/894a3f9262533264afab0155d8320d9b3d38993964177934e75b8c79ab26/calistar-0.0.3.tar.gz
+[2024-04-30 10:43:25] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/f4/05/6926b771a98ac2204d918394f46e0263f37ef2b9955d7aa6b16a1c83d8d7/forestadmin_datasource_sqlalchemy-1.7.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [scrawlpy]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [scrawlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrawlpy-0.0.4.tar.gz tmp/scrawlpy-0.0.5.tar.gz --markdown 20240430/s/scrawlpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/6a/f8/d6128f54e42fbc67cd30b3cbccc71602ec6bfdc68bc5266a80e42870ba4e/forestadmin_datasource_toolkit-1.7.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-django]: Downloading https://files.pythonhosted.org/packages/50/49/1ce731159f009eb760dd79d08d01df8bcc48b764bb8479f1607d5436bc1e/forestadmin_agent_django-1.7.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/d0/4f/82a0c6013211b78e192a67e733db2358a1c86087bc44c74660de965e9f29/openbharatocr-0.2.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/f9/3c/0eafa7b9b360dc68df58bb77f8c4b50ad9d471b136b89e48aa09bf2e0b1a/forestadmin_agent_toolkit-1.8.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/de/ca/0706a2d875b27f857cefe1b5919534501d930d18fb768180b853bd0213b6/forestadmin_agent_flask-1.8.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [calistar]: Downloading https://files.pythonhosted.org/packages/bf/3c/ff32de7af4b6fba4490acde7f0f0e42ce79b85b80cc20cadee7817f44990/calistar-0.0.4.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [engcom]: Downloading https://files.pythonhosted.org/packages/58/23/e3cc266d8a819c6b69efb50ab737513b8ad73d2da1b6c89d753cdb270dea/engcom-0.1.9.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.1.2.tar.gz tmp/openbharatocr-0.2.0.tar.gz --markdown 20240430/o/openbharatocr/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/d9/26/fbe50712e5599663798d4d87264c394b093c3c2033f25746f412f615a9af/forestadmin_datasource_sqlalchemy-1.8.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240430/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-django]: Downloading https://files.pythonhosted.org/packages/99/da/22e32d1b2dbd7efdcfafcd7666bcf1deb796256a8920d4e5ab1c7a563822/forestadmin_agent_django-1.8.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-1.7.0.tar.gz tmp/forestadmin_agent_flask-1.8.0.tar.gz --markdown 20240430/f/forestadmin-agent-flask/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-1.7.0.tar.gz tmp/forestadmin_agent_toolkit-1.8.0.tar.gz --markdown 20240430/f/forestadmin-agent-toolkit/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [calistar]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [calistar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calistar-0.0.3.tar.gz tmp/calistar-0.0.4.tar.gz --markdown 20240430/c/calistar/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [engcom]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [engcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engcom-0.1.8.tar.gz tmp/engcom-0.1.9.tar.gz --markdown 20240430/e/engcom/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-1.7.0.tar.gz tmp/forestadmin_datasource_sqlalchemy-1.8.0.tar.gz --markdown 20240430/f/forestadmin-datasource-sqlalchemy/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/09/0d/2fd82e20f4d9d7016ad637c1efbb3cd78c540ab283c29e7e6cf0c95323c6/forestadmin_datasource_toolkit-1.8.0.tar.gz
+[2024-04-30 10:43:26] INFO root fetch - processPackages [scrawlpy]: Remove: archive file [/home/abi/fetcher/tmp/scrawlpy-0.0.4.tar.gz]
+[2024-04-30 10:43:26] INFO root fetch - processPackages [scrawlpy]: Remove: archive file [/home/abi/fetcher/tmp/scrawlpy-0.0.5.tar.gz]
+[2024-04-30 10:43:26] INFO root fetch - processPackages [scrawlpy]: Start processing: forestadmin-datasource-django
+[2024-04-30 10:43:26] INFO root fetch - main [MainThread]: End processing [scrawlpy]: success
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-1.7.0.tar.gz tmp/forestadmin_datasource_toolkit-1.8.0.tar.gz --markdown 20240430/f/forestadmin-datasource-toolkit/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-30 10:43:26] INFO root fetch - processPackages [forestadmin-datasource-django]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-django]: executing diffoscope
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_django-1.7.0.tar.gz tmp/forestadmin_agent_django-1.8.0.tar.gz --markdown 20240430/f/forestadmin-agent-django/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-django]: Downloading https://files.pythonhosted.org/packages/c3/79/2a5e07336ce2d0fc0ce0efcb30a082016c8250007b693f5d6360e7508136/forestadmin_datasource_django-1.7.0.tar.gz
+[2024-04-30 10:43:27] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.1.2.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-1.7.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-1.8.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-django]: Downloading https://files.pythonhosted.org/packages/6c/1d/854c3d655049125a5b22741ddf6747678003dfbe5d9b9724eba206796195/forestadmin_datasource_django-1.8.0.tar.gz
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-1.7.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-1.8.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-1.7.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-1.8.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [calistar]: Remove: archive file [/home/abi/fetcher/tmp/calistar-0.0.3.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [calistar]: Remove: archive file [/home/abi/fetcher/tmp/calistar-0.0.4.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [calistar]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [engcom]: Remove: archive file [/home/abi/fetcher/tmp/engcom-0.1.8.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [engcom]: Remove: archive file [/home/abi/fetcher/tmp/engcom-0.1.9.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [engcom]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-django]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_django-1.7.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-agent-django]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_django-1.8.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-django]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-1.7.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-1.8.0.tar.gz]
+[2024-04-30 10:43:27] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-django]: executing diffoscope
+[2024-04-30 10:43:27] INFO root fetch - processPackages [forestadmin-datasource-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240430:/home/abi/fetcher/20240430:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_django-1.7.0.tar.gz tmp/forestadmin_datasource_django-1.8.0.tar.gz --markdown 20240430/f/forestadmin-datasource-django/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-30 10:43:28] INFO root fetch - processPackages [forestadmin-datasource-django]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_django-1.7.0.tar.gz]
+[2024-04-30 10:43:28] INFO root fetch - processPackages [forestadmin-datasource-django]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_django-1.8.0.tar.gz]
+[2024-04-30 10:43:28] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-django]: success
+[2024-04-30 10:43:28] INFO root fetch - main [MainThread]: Store serial: [22998953]
